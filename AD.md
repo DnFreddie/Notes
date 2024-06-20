@@ -3,5 +3,5 @@ Active Directory
 
 
 
-[[LDAP]]
+[LDAP](/LDAP.md)
 [[System Auth.canvas|System Auth]]

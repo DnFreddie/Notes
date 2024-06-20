@@ -23,4 +23,4 @@ type:: network+
 
 >[!tip]-  sfhhjskfshjfsk
 
->[!quote] [[SDN]] 
+>[!quote] [SDN](/SDN.md) 

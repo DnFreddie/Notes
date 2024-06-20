@@ -26,7 +26,7 @@ Select * from employees where employees = male ;
    column_2 data_type,  
    column_3 data_type  
 );`
-[[statement.sql]]
+[statement.sql](/obisdian_ntoes/notes_obsidian/SQL/statement.sql.md)
 
 ----
 <mark class="hltr-code-">Clause</mark> (eg.`CREATE TABLE`)
@@ -83,7 +83,7 @@ Keyword that allows u to rename a column or table
 
 <mark class="hltr-grses">**Select distinct**</mark>
 
-[[SQLoperatrors]]
+[SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
 It only select distinct values such as 
 
 *select distinct e_gender from employee*
@@ -115,4 +115,4 @@ WHERE twitter_handle IS NULL;
 
 SELECT * FROM celebs;`
 
-![[1]]
+![1](/obisdian_ntoes/notes_obsidian/SQL/to revise/1.md)

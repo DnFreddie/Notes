@@ -7,4 +7,4 @@ type:: db
 >[!example]-
 >![DatabasePorts_visual.png](/static/DatabasePorts_visual.png)
 
->[!quote] [[ports]] [[sqlx]]
+>[!quote] [ports](/ports/ports.md) [[sqlx]]

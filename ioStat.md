@@ -13,4 +13,4 @@ iostat -hymx 1 4
 	- to **filter** the processes that **only use  I/O** on the machine
 
 ---
-[[command]]
+[command](/obisdian_ntoes/scriptss/command.md)

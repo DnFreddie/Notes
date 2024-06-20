@@ -1,7 +1,7 @@
 ### Inode structure
 It'contains  all
 - File size 
-- [[reference count]]
+- [reference count](/reference count.md)
 - permission
 - etc
 
@@ -15,4 +15,4 @@ It'contains  all
 >except [[zfs]]
 
 ---
-[[inodes exhaustion]]
+[inodes exhaustion](/inodes exhaustion.md)

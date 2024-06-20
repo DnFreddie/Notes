@@ -10,4 +10,4 @@
 	- It show that smth was changed
 
 --- 
-[[chattr]]
+[chattr](/chattr.md)

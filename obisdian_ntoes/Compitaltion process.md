@@ -24,4 +24,4 @@ type:: Rust
 >[!example]- Summary
 > (https://www.youtube.com/watch?v=N2y6csonII4)[]
 
->[!quote] [[compilers]] [[garbage_collector_c]]
+>[!quote] [compilers](/obisdian_ntoes/compilers.md) [[garbage_collector_c]]

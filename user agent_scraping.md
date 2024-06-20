@@ -39,5 +39,5 @@ response = requests.get(url, headers=headers)
     
 5. `Safari/537.36`: Some user agent strings include information about Safari compatibility. In this case, it's indicating that the client is compatible with Safari.
 
->[!quote] [[sneakers_bots_project]] 
+>[!quote] [sneakers_bots_project](/sneakers_bots_project.md) 
 

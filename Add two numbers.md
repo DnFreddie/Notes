@@ -56,4 +56,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 ```
 
 
->[!quote] [[Linked List]] 
+>[!quote] [Linked List](/Algorithms/Linked List.md) 

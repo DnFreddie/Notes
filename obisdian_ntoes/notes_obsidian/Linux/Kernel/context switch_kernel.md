@@ -8,4 +8,4 @@ type:: Linux
 		-   gives a process enough time for significat computation
 
 
->[!quote]  [[threads]] 
+>[!quote]  [threads](/obisdian_ntoes/for later/threads.md) 

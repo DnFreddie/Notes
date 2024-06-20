@@ -39,4 +39,4 @@
 --- 
 
 
->[!quote] [[regex]] [[data_py]] [[firebase]]
+>[!quote] [[regex]] [[data_py]] [firebase](/databases/firebase.md)

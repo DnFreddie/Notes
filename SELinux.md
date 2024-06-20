@@ -68,4 +68,4 @@ semanage boolead --modyfie --on options
 
 ---
 
-[[AppArmor]]
+[AppArmor](/AppArmor.md)

@@ -4,7 +4,7 @@
 ---
 ## Seting up github 
 
-1. [[ssh]] 
+1. [ssh](/protocols/ssh.md) 
 2. setinging user 
 ```bash
 git config --global user.name 'aura'
@@ -47,4 +47,4 @@ git rebase --abrot
 ```
 
 
->[!quote] [[docker]]
+>[!quote] [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)

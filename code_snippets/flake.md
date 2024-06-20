@@ -47,4 +47,4 @@
 }
 ```
  ---
-[[nix]]  [[nix Templates]][[SNIPPETS_MAIN]]
+[[nix]]  [[nix Templates]][SNIPPETS_MAIN](/SNIPPETS_MAIN.md)

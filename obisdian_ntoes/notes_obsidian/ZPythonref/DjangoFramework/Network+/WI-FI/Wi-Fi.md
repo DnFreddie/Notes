@@ -5,20 +5,20 @@ type:: network+
 ---
 # Wi-Fi Networks 
 
-![[access point]]
+![access point](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/access point.md)
 --- 
 
-![[chanels_wi-fi]]
+![chanels_wi-fi](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/WI-FI/chanels_wi-fi.md)
 
 --- 
-![[modes_wi-fi]]
+![modes_wi-fi](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/WI-FI/modes_wi-fi.md)
 
 --- 
-![[security_wi-fi]]
+![security_wi-fi](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/WI-FI/security_wi-fi.md)
 
 ---
-[[frequency_wi-fi]]
+[frequency_wi-fi](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/WI-FI/frequency_wi-fi.md)
 
 
 
->[!quote] [[nmcli]]
+>[!quote] [nmcli](/obisdian_ntoes/for later/nmcli.md)

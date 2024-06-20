@@ -4,7 +4,7 @@ topic:: linux-bash-scripts
 type:: Linux
 ---
 ## While loop
-while [[Variables]]
+while [Variables](/obisdian_ntoes/scriptss/Variables.md)
 do
 	echo do smth
 	**sleep 0.5**

@@ -5,6 +5,6 @@ type:: Penetration
 # Metasploit 
 
 ## Starting 
-![[Postgres]]
+![Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md)
 
 >[!quote] 

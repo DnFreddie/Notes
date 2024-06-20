@@ -13,4 +13,4 @@ Te where used by programing language to build varaibles that refer to the memory
 
 
 ---
-[[cgroups]] [[Kernel]] [[docker]]
+[cgroups](/cgroups.md) [[Kernel]] [[docker]]

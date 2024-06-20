@@ -12,4 +12,4 @@
 
 
 
->[!quote] [[startup_robotics]]
+>[!quote] [startup_robotics](/startup_robotics.md)

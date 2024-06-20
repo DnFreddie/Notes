@@ -21,9 +21,9 @@ This are located in */etc/cron.(daily,weekly)*
 >[!bug] Don't ever change the global config  
 Add the cronjob as a separate file in */etc/cron.d*
 ### Boot  
-![[rc scripts]]
+![rc scripts](/obisdian_ntoes/for later/rc scripts.md)
 
 ---
 
 
->[!quote] [[Scheduling Scripts]] | [[Commands]] 
+>[!quote] [[Scheduling Scripts]] | [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) 

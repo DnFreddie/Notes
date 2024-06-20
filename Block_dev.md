@@ -8,5 +8,5 @@ composed of *pages*
 >![Pasted_image_20240511143906.png](/static/Pasted_image_20240511143906.png)
 
 ---
-[[SSD]] 
+[SSD](/SSD.md) 
 [[Block vs character dev|Block vs character device]]

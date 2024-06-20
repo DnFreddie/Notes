@@ -4,7 +4,7 @@ type:: Algorithms
 ---
 ## Traversals
 The running time of thhi operaiton is **O of N**
-*Doing the treversal we use [[stack_algorithms]]*
+*Doing the treversal we use [stack_algorithms](/Algorithms/stack_algorithms.md)*
 The value gets put on the stack ones it not fiind we pop it and move it to the next branch
 $$1$$
 ## Depth first search
@@ -23,8 +23,8 @@ $$1$$
 	$$2$$ 
 ## Breadth first seatch
 Oposite of a depth first search 
-- We use [[queue_algorithms]] **instead** of [[stack_algorithms]] 
+- We use [queue_algorithms](/Algorithms/queue_algorithms.md) **instead** of [[stack_algorithms]] 
 - Its a **tree level visiting**
 	One tree level at a time 
 	![BreadthFirstSarge_visual.png](/static/BreadthFirstSarge_visual.png)
->[!quote] [[trees_algorithms]]
+>[!quote] [trees_algorithms](/Algorithms/trees_algorithms.md)

@@ -5,4 +5,4 @@
  ---
 
  [[Automation tools.canvas|Automation tools]]
- [[iaC]]
+ [iaC](/iaC.md)

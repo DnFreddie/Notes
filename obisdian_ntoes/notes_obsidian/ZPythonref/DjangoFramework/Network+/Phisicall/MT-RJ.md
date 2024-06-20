@@ -7,4 +7,4 @@ type:: network+
 ![Pasted_image_20230406235524.png](/static/Pasted_image_20230406235524.png)
 
 
->[!quote] [[Smartjack]]
+>[!quote] [Smartjack](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Smartjack.md)

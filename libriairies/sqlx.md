@@ -9,7 +9,7 @@ type:: Rust
 - Runtime Agnostic. 
 	- Works on different runtimes (async-std / tokio / actix) and TLS backends (native-tls, rustls).
 - Automatic statement preparation and caching
-- Transport Layer Security ([[TLS_SSL]]) where supported (MySQL and PostgreSQL).
+- Transport Layer Security ([TLS_SSL](/protocols/TLS_SSL.md)) where supported (MySQL and PostgreSQL).
 ## Migrations
 1. First establisch the requaierd for migrration to happen in the .env file 
 	ex. *DATABASE_URL=postgres://postgres:mysecretpassword@localhost:5432/postgres*

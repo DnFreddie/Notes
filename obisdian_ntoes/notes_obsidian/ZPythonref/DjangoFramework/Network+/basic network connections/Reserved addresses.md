@@ -8,4 +8,4 @@ type:: network+
 		- *240.0.0.1 thhrough 254.255.255.254*
 		- *All Class E addresses*
 
->[!quote] [[Virtual IP]] | [[IP]] | [[subnet mask]] | [[DNS]]
+>[!quote] [[Virtual IP]] | [[IP]] | [[subnet mask]] | [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md)

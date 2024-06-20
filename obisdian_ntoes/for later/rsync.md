@@ -8,4 +8,4 @@ type:: Linux
 		- *rsync -av /path/to/source/ /path/to/destination/*
 
 
->[!quote] [[Commands]] 
+>[!quote] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) 

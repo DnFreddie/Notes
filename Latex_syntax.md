@@ -11,4 +11,4 @@
 | $36\degree$ | */degree*       |
 
 ---
-[[math_MAIN]]
+[math_MAIN](/math_MAIN.md)

@@ -25,4 +25,4 @@ done
 
 ---
 [[Process management_signals.canvas|Process management_signals]]
-[[command]]
+[command](/obisdian_ntoes/scriptss/command.md)

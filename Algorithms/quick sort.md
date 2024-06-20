@@ -1,5 +1,5 @@
 **"Divide and concure"**
-[[binary search]]
+[binary search](/Algorithms/binary search.md)
 
 
 - Split input into number chunks and go over smaller subset and go over those smaller subset 

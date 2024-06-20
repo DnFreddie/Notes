@@ -149,6 +149,6 @@ Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:
 
 ---
 
-[[Teraform]] 
-[[Puppet]]
+[Teraform](/Teraform.md) 
+[Puppet](/Puppet.md)
 

@@ -13,4 +13,4 @@ status:: START
 	#alt-name **One pane of glass*
 	-   *instead of managing houdrets of virtulasystem u just go to the one managing system*
 	 $$ $$
-> [!quote] [[vSwitch]]
+> [!quote] [vSwitch](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/vSwitch.md)

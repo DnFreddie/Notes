@@ -10,7 +10,7 @@ type:: network+
 	- Transfer files between systems 
 	- Authenticates  with username  and password 
 	- Fulle-featured functionality (*list , add, delete, etc.*)
-- Simple alterative is [[TFTP_protcol]]
+- Simple alterative is [TFTP_protcol](/protocols/TFTP_protcol.md)
 
 
 >[!quote] [[ports#Common ports]]

@@ -80,4 +80,4 @@ Feel free to copy this Markdown table into your Markdown-compatible editor to se
 
 
 
->[!quote] [[grep]]
+>[!quote] [grep](/obisdian_ntoes/notes_obsidian/Linux/commands/grep.md)

@@ -5,4 +5,4 @@ type:: Linux
 ---
 ## Networks Intrusion Detection System 
 
-![[Snort]]
+![Snort](/obisdian_ntoes/notes_obsidian/Penetration/Snort.md)

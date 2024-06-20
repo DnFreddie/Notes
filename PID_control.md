@@ -25,4 +25,4 @@
 >![SatrurationModel_visual.png](/static/SatrurationModel_visual.png)
 
 
-![[Integral windup]] 
+![Integral windup](/Integral windup.md) 

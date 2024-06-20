@@ -6,7 +6,7 @@ by the **systemd**  u can create the service but the better is to use file
 
 
 - **PARTUUID** is when the partiotion **does not have** the files system on it 
-- [[UUID]] is when therese file system
+- [UUID](/datatypes/UUID.md) is when therese file system
 	- *U can specyfie both in fstab file*
 
 >[!options]-
@@ -18,7 +18,7 @@ by the **systemd**  u can create the service but the better is to use file
 >
 
 
->[!Tip]- Seting up [[e2fsck]] to do the check on boot
+>[!Tip]- Seting up [e2fsck](/e2fsck.md) to do the check on boot
 >(*maximum mount count*)
 >**tune2fs** -c 5 
 >! U still have to change it in fstab the  **pass** obtion

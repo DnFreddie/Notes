@@ -6,7 +6,7 @@ status:: START
  
 ## Infrastracture
 
-- All devices communicate through an **[[access point]]**
+- All devices communicate through an **[access point](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/access point.md)**
 - The most commomn wirlles connaction mode
 $$ $$
 ## Ad hoc 
@@ -19,4 +19,4 @@ $$  $$
 - **Self Form and self Heal**
 
 --- 
-**{{[[Network Topologies]]}}**
+**{{[Network Topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network Topologies.md)}}**

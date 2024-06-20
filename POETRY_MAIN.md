@@ -1,15 +1,15 @@
 
 | Number | Poems                |
 | ------ | -------------------- |
-| 1.     | [[BabieLato]]        |
-| 2.     | [[Eliasz]]           |
-| 3.     | [[EyesOftheSkin]]    |
-| 4.     | [[JaPoprowadze]]     |
-| 5.     | [[NaszeTwarze]]      |
-| 6.     | [[naInsta]]          |
-| 7      | [[NaszeTwarze]]      |
-| 8.     | [[Nieosiagalne]]     |
-| 9.     | [[PiszePiewszy]]     |
-| 10.    | [[przyjaciele]]      |
-| 11.    | [[zabilemCzlowieka]] |
-| 12.    | [[Postcard]]         |
+| 1.     | [BabieLato](/poetry/BabieLato.md)        |
+| 2.     | [Eliasz](/poetry/Eliasz.md)           |
+| 3.     | [EyesOftheSkin](/poetry/EyesOftheSkin.md)    |
+| 4.     | [JaPoprowadze](/poetry/JaPoprowadze.md)     |
+| 5.     | [NaszeTwarze](/poetry/NaszeTwarze.md)      |
+| 6.     | [naInsta](/poetry/naInsta.md)          |
+| 7      | [NaszeTwarze](/poetry/NaszeTwarze.md)      |
+| 8.     | [Nieosiagalne](/poetry/Nieosiagalne.md)     |
+| 9.     | [PiszePiewszy](/poetry/PiszePiewszy.md)     |
+| 10.    | [przyjaciele](/poetry/przyjaciele.md)      |
+| 11.    | [zabilemCzlowieka](/poetry/zabilemCzlowieka.md) |
+| 12.    | [Postcard](/Postcard.md)         |

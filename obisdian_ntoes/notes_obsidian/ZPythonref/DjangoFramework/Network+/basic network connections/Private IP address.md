@@ -8,4 +8,4 @@ type:: network+
 ![PrivateAdresses_visual.png](/static/PrivateAdresses_visual.png)
 
 
->[!quote] [[NAT]]
+>[!quote] [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md)

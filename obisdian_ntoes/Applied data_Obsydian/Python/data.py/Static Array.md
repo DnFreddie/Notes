@@ -13,4 +13,4 @@ Contigues memory space
 - U can *add insert  delete* and modyfie it 
 ---
 
- [[Big O]] [[ring buffer]] 
+ [Big O](/Algorithms/Big O.md) [[ring buffer]] 

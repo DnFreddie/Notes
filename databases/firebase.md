@@ -35,4 +35,4 @@ $$2$$
 | reference.push().set("new value")| *Insert a new word*                       |                                    |                     |                         |     |     |
 | reference.transaction(function)  | *Modify the whole node*                   |                                    |                     |                         |     |     |
 $$3$$
->[!quote] [[pandas_py]] [[redis]]
+>[!quote] [[pandas_py]] [redis](/databases/redis.md)

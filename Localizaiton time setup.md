@@ -1,7 +1,7 @@
 
 - Synchronizing the time with the rest of the world 
 	- **NTPD**(*daemon*)
-		Uses [[NTP_protocol]]
+		Uses [NTP_protocol](/protocols/NTP_protocol.md)
 - **Crony** 
 	*for advanced synchronization*
 #sysd_util 

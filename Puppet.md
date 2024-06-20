@@ -15,7 +15,7 @@
 
 The main configuration is **Manifest.pp**
 - It has **classes** that are build of *resources*
-	- *Resources* are just [[service]] like (*apache or docker*) 
+	- *Resources* are just [service](/obisdian_ntoes/notes_obsidian/Linux/service.md) like (*apache or docker*) 
 	- This can be also setup further in module 
 	
 >[!example]- 
@@ -23,4 +23,4 @@ The main configuration is **Manifest.pp**
 
 
 --- 
-[[vSwitch]]
+[vSwitch](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/vSwitch.md)

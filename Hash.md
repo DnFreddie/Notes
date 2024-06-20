@@ -3,6 +3,6 @@
 
 ---
 >[!quote]-
-[[Encryption]]
- [[Digital certificate]]
+[Encryption](/Encryption.md)
+ [Digital certificate](/Digital certificate.md)
  [[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]

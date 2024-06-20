@@ -14,10 +14,10 @@ type:: network+
 - Extensive installation
 	- Relativly inexpensive 
 	- Easy to install and maintain 
-- Limited [[bandwidth]] avaliabity
+- Limited [bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md) avaliabity
 	- *Psychics limits electrical signals through copper*
- - Used in [[WAN]]
-	 - cable modem [[DSL]]
+ - Used in [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md)
+	 - cable modem [DSL](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DSL.md)
 - Often comabined with fiber
 	- *Copper on  the local loop ,fiber in the bacground*
 ## Copper cable categories 
@@ -30,10 +30,10 @@ type:: network+
 	 ![CoaxialCables_visual.png](/static/CoaxialCables_visual.png)
 ## Twinaxial cable 
 Two inner conductors (*Twins*)
-- Common on 10 Gigabit [[Ethernet]] SFP+ cables
+- Common on 10 Gigabit [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) SFP+ cables
 	- full duplex
 	- five meters 
 	- low cost 
-	- low [[Latency]] commpared to *twisted paitr*
+	- low [Latency](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/Latency.md) commpared to *twisted paitr*
 	 
->[!quote] [[Fiber]] [[Structure cabling standartds]]
+>[!quote] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md) [[Structure cabling standartds]]

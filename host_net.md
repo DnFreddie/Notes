@@ -1,6 +1,6 @@
-[[Containers]] Share the same networkin  [[Namespaces]] as  host 
-- no [[NAT]]
-- no [[proxy]] 
+[[Containers]] Share the same networkin  [Namespaces](/Namespaces.md) as  host 
+- no [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md)
+- no [proxy](/obisdian_ntoes/notes_obsidian/Linux/Network manipulation/proxy.md) 
 **--network host**  flag
 ```bash
 docker run -d --name test --network host aura/myapp-188:v3
@@ -12,4 +12,4 @@ docker run -d --name test --network host aura/myapp-188:v3
 
 
 ---
-[[bridge_net]] [[overlay_net]] [[docker]]
+[[bridge_net]] [overlay_net](/overlay_net.md) [[docker]]

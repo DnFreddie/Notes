@@ -5,4 +5,4 @@ type:: Linux
 ## monomorphization
 - Take the fucntion copy it and chnage the types accordingly 
 
->[!quote] [[compilers]] [[serde]]
+>[!quote] [compilers](/obisdian_ntoes/compilers.md) [[serde]]

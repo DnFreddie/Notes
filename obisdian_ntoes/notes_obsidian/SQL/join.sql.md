@@ -7,4 +7,4 @@
 	 ON orders.customer_id = customers.customer_id;
 
 
-others [[cross join.sql]] 
+others [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) 

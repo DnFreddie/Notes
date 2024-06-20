@@ -7,7 +7,7 @@ type:: network+
 
 
 ## Other protocols for clients 
-[[POP3]]
+[POP3](/protocols/POP3.md)
 
-[[IMAP4]]
+[IMAP4](/protocols/IMAP4.md)
 >[!quote]

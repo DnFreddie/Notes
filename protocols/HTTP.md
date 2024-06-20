@@ -6,4 +6,4 @@ type:: network+
 - Communciation in the browser  and by other applications 
 
 
->[!quote] [[HTTPS]] [[carrige_return]]
+>[!quote] [[HTTPS]] [carrige_return](/carrige_return.md)

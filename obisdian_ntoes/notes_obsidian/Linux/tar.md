@@ -13,4 +13,4 @@ from many files *which is then referred to as an archive, tar file, or tarball.*
 
 
 
->[!quote] [[Archive vs Compress]]
+>[!quote] [Archive vs Compress](/Archive vs Compress.md)

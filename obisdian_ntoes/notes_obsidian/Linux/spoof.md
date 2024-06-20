@@ -5,7 +5,7 @@ type:: Linux
 ---
 ## Spoofing 
 *Changing mac adress to appppear as a diffrent device*
-U just need to make the hardwer down ([[ifconfig]])
+U just need to make the hardwer down ([ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md))
 and cahnge the mac adrees with hr 
 >[!example]-
 >kali >ifconfig eth0 down
@@ -14,4 +14,4 @@ kali >ifconfig eth0 up
 
 
 
->[!quote] [[ifconfig]] [[iwconfig]]
+>[!quote] [[ifconfig]] [iwconfig](/obisdian_ntoes/notes_obsidian/Penetration/iwconfig.md)

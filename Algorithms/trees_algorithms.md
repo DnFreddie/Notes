@@ -26,7 +26,7 @@ type:: Algorithms
 	- The amount of children a tree has 
 
 $$ A $$
-![[traversals]]
+![traversals](/Algorithms/traversals.md)
 $$B$$
 
->[!quote] [[quick sort]]
+>[!quote] [quick sort](/Algorithms/quick sort.md)

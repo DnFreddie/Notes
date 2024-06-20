@@ -12,4 +12,4 @@ the issue it's a remote monitroingf of the network
 *(alot of bliking lights and status lights 
 with limmited acces becouse its the property of a network provider)*
 $$ $$
-**{{[[Physical_OSI]]}}** **{{[[CPE]]}}**
+**{{[[Physical_OSI]]}}** **{{[CPE](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/CPE.md)}}**

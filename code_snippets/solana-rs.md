@@ -28,4 +28,4 @@ entrypoint!(process_instruction);
 ```
 ---
 
-[[SNIPPETS_MAIN]]
+[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)

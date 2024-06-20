@@ -30,4 +30,4 @@ adn specyfie the *len* of the **chain**
 
 
 
->[!quote] [[traceroute]] [[ping_command]] [[sneakers_bots_project]]
+>[!quote] [[traceroute]] [[ping_command]] [sneakers_bots_project](/sneakers_bots_project.md)

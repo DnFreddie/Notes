@@ -1,9 +1,9 @@
 ### Pluggable Authentication Modules
 
 -  It' allows to use various **auth** methods
-	- like [[LDAP]] database or [[AD]]
+	- like [LDAP](/LDAP.md) database or [[AD]]
 
 ---- 
-[[SSSD]] 
+[SSSD](/SSSD.md) 
 [[System Auth.canvas|System Auth]]
-[[orange book]]
+[orange book](/orange book.md)

@@ -9,4 +9,4 @@ it
  command - p - run the commnad
  commnad -v show the path to the command 
 >[!quote]
->[[Functions]],[[Commands]]
+>[[Functions]],[Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md)

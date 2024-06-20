@@ -13,8 +13,8 @@ type:: network+
 - Very specialized 
 	- Difficult to scale across large networks 
 - Used both in 
-	- [[IPv4 address]]
-	-  extensive use in [[IPv6 address]]
+	- [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md)
+	-  extensive use in [IPv6 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/IPv6 address.md)
 
 
->[!quote] [[anycast]] |[[multicast]] | [[broadcast]]
+>[!quote] [[anycast]] |[multicast](/obisdian_ntoes/for later/multicast.md) | [[broadcast]]

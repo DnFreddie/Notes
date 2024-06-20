@@ -8,4 +8,4 @@ type:: Network+
 - **Latency is typically measured in milliseconds (ms)**
 	- *High latency means that there is a significant delay in this process, which can impact the performance of network applications and services.*
 >[!quote] 
->[[Network types]] [[OSI Model]] 
+>[Network types](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network types.md) [[OSI Model]] 

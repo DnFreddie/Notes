@@ -30,4 +30,4 @@ But if I do the same to the square table, you will, unless I turn it by 90, 180,
 	 ![ReustReeprsotationRotation_visual.png](/static/ReustReeprsotationRotation_visual.png)
 
 
->[!quote] [[Latex_syntax]] [[math_MAIN]]
+>[!quote] [[Latex_syntax]] [math_MAIN](/math_MAIN.md)

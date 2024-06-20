@@ -6,7 +6,7 @@
 
 
 
->[!tip]- You can easily upgrade [[ext3]] to ext4 and vice versa.  
+>[!tip]- You can easily upgrade [ext3](/ext3.md) to ext4 and vice versa.  
 
 ---
 [[Files systems.canvas|Fiels systems]]

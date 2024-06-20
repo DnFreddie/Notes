@@ -17,11 +17,11 @@ Set is much faster to check thing up
 <mark class="hltr-reds">If sets does not have any element s u create dictionary!</mark>
 
 --- 
->**.add () [[method]]**
+>**.add () [method](/obisdian_ntoes/Applied data_Obsydian/Python/method.md)**
  
 In order to add smh to the set 
 
-> **.remove [[method]]** 
+> **.remove [method](/obisdian_ntoes/Applied data_Obsydian/Python/method.md)** 
 
 in order to remove  smth from set 
 
@@ -29,11 +29,11 @@ in order to remove  smth from set
 
 Checks weather smth is in the set
 
->**.union** [[method]]
+>**.union** [method](/obisdian_ntoes/Applied data_Obsydian/Python/method.md)
 
 u get the union  of this two sets (*ading them together*)
 
->**.diff [[method]]**
+>**.diff [method](/obisdian_ntoes/Applied data_Obsydian/Python/method.md)**
 
 to see diff between sets 
 

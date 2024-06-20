@@ -6,7 +6,7 @@ type:: Linux
 ## Env 
 - Env allows to list *Envariomental Variables*
 	- To see all use **set**
->[!example]  Changing the env [[Variables]]
+>[!example]  Changing the env [Variables](/obisdian_ntoes/scriptss/Variables.md)
 >HISTSIZE=1000
 
 **To make changes permanent use export**

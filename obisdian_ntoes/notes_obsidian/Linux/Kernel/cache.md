@@ -4,7 +4,7 @@ type:: Linux
 ---
 ## Casche 
 Small and fast temporarly storage area 
-located near [[Cpu]] for efficient and near-instant data retrival 
+located near [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for efficient and near-instant data retrival 
 
 - It carries the freqently used data 
 	- It uses **S-ram** 
@@ -12,7 +12,7 @@ located near [[Cpu]] for efficient and near-instant data retrival
 - L1 (priamary casche)
 	-  fast 
 	-  small
-	-  emebeded in [[Cpu]]
+	-  emebeded in [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
 - L2 
 	  1. holds more then L1 
 	  2. can be emebeded or run on a seperate chip
@@ -21,4 +21,4 @@ located near [[Cpu]] for efficient and near-instant data retrival
 
 
 
->[!quote] [[Cpu]] ||[[redis]] [[Etag]]
+>[!quote] [[Cpu]] ||[[redis]] [Etag](/Etag.md)

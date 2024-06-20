@@ -29,7 +29,7 @@ $$1$$
 >[!tip] If the input halves itsel at each step,its likely *O of (LogN) or O(NlogN)*
 	
 - O(n log n)
-	- [[quick sort]]
+	- [quick sort](/Algorithms/quick sort.md)
 - O(log n)
 	- [[Binary search trees]]
 	

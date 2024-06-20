@@ -4,7 +4,7 @@ type:: Linux
 ---
 ## Compilers 
 - The binary  instructions are
-written in machine language, an elementary language the [[Cpu]] can understand. 
+written in machine language, an elementary language the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) can understand. 
 - Compilers are designed to translate the language of C code into machine language for a variety of *processor architectures*.
 
 ### Processor Architacture 
@@ -15,7 +15,7 @@ written in machine language, an elementary language the [[Cpu]] can understand.
 
 ### Examine Binaries 
 
-Use [[objdump]]
+Use [objdump](/obisdian_ntoes/objdump.md)
 
 
->[!quote] [[Compitaltion process]]
+>[!quote] [Compitaltion process](/obisdian_ntoes/Compitaltion process.md)

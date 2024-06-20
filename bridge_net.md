@@ -1,4 +1,4 @@
-Virtual or psychical device that connect multiple [[LAN]] 's
+Virtual or psychical device that connect multiple [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) 's
 ![Pasted_image_20240510102627.png](/static/Pasted_image_20240510102627.png)
 - All parts of the bridge will get their collision domain
 >[!bug] Collisions
@@ -6,7 +6,7 @@ Virtual or psychical device that connect multiple [[LAN]] 's
 
 
 ### Docker bridging
-- Default [[docker]] bridge doesn't allow for the [[DNS]] change
+- Default [[docker]] bridge doesn't allow for the [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) change
 	-  U have to create one 
 	- ***[[Dns]] Name is the same as the container name*** 
 
@@ -21,4 +21,4 @@ docker network create my-bridge-net --subnet  10.0.0..0/19
 
 
 --- 
-[[NAT]] [[host_net]]
+[[NAT]] [host_net](/host_net.md)

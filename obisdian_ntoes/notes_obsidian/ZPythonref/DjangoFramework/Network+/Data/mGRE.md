@@ -5,17 +5,17 @@ status:: START
 ---
 ## Multipoint Generic Router Encapsualtion
 - Used extensivly for 
-	**[[DMVPNM]]**
+	**[DMVPNM](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/Data_ref/DMVPNM.md)**
 - Common on [[Cisco routesrs]]
 [mGre_Visual.png](/static/mGre_Visual.png)
 $$ $$
 ## VPN builds itself
 - **Tunnels are built dynamically on demand**
-	*They are considered to be [[Mesh]]*
+	*They are considered to be [Mesh](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Mesh.md)*
 - Remote sites taht communicate to each other 
 - They are removed when no longere needed 
 
 
 --- 
 
-**{{[[VPN]]}}** **{{[[DMVPNM]]}} {{[[MPLS]]}}**
+**{{[VPN](/VPN.md)}}** **{{[[DMVPNM]]}} {{[[MPLS]]}}**

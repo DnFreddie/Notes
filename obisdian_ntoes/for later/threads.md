@@ -8,7 +8,7 @@ type:: network+
 
 ### Multithreades 
 ![MultiThreadsGraph_Visual.png](/static/MultiThreadsGraph_Visual.png)
-### Differece between the [[processes_kernel]]
+### Differece between the [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)
 [ProcessVsThreads_visual.png](/static/ProcessVsThreads_visual.png)
 
->[!quote] [[handle]] [[Kernel]]
+>[!quote] [[handle]] [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)

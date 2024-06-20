@@ -10,4 +10,4 @@ type:: Linux
 		- *Only root can increase priority but evry user can decrese the priority*
 
 
->[!quote] [[nice]] [[kill]] 
+>[!quote] [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md) [[kill]] 

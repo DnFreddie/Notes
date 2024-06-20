@@ -57,4 +57,4 @@ exit 0
 ```
 
 ---
-[[SNIPPETS_MAIN]]
+[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)

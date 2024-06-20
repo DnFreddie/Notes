@@ -15,4 +15,4 @@ type:: Bash
 | `-o errexit -o errtrace`| Combination for error handling and capturing failures.       |
 
 
->[!quote] [[bash_MAIN]] 
+>[!quote] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md) 

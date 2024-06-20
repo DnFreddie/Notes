@@ -5,7 +5,7 @@ type:: network+
 ---
 ## Ultra-polished connectors
 - Fereule end-face radius polished data a zero degree angle 
-- High [[Return Loss]]
+- High [Return Loss](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Return Loss.md)
 
 
->[!quote] [[Fiber]] [[Cables]]
+>[!quote] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md) [[Cables]]

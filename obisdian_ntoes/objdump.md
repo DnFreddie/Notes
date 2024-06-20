@@ -15,4 +15,4 @@ type:: Linux
 
 --- 
 
->[!quote] [[Commands]]
+>[!quote] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md)

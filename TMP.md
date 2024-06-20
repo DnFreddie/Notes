@@ -15,7 +15,7 @@ Specialized hardware component or microcontroller
     
 3. **Remote Attestation**: TPMs support a feature called remote attestation, where a system can prove its integrity and configuration to a remote party. This can be useful for establishing trust between systems in a network.
     
-4. **Secure Communication**: TPMs can be used in conjunction with cryptographic protocols to securely store and manage keys required for establishing secure communication channels like [[TLS_SSL]] connections. This ensures that keys are protected from unauthorized access or tampering.
+4. **Secure Communication**: TPMs can be used in conjunction with cryptographic protocols to securely store and manage keys required for establishing secure communication channels like [TLS_SSL](/protocols/TLS_SSL.md) connections. This ensures that keys are protected from unauthorized access or tampering.
     
 5. **Data Integrity and Sealing**: TPMs can seal data, ensuring that it can only be decrypted and accessed on the same system where it was originally created. This helps protect sensitive data from being moved to other systems without proper authorization.
 

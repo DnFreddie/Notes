@@ -4,7 +4,7 @@
 ---
 ## Entity tag
 
-- Used for [[cache]] validation 
+- Used for [cache](/nixos/cache.md) validation 
 	When a client **request the same resource** it sends ==etag== back 
 	- If the resource hasnt chnagded
 	  the server tells the client to used the *cached version* 
@@ -32,4 +32,4 @@
 
 
 
->[!quote] [[HTTPS]] [[http_headers]] [[CORS]]
+>[!quote] [[HTTPS]] [[http_headers]] [CORS](/CORS.md)

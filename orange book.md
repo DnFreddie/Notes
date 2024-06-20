@@ -8,7 +8,7 @@
 - **D** no protection 
 - **C** *disk creation* protection A
 	- Security  features common to the **commercial OSes**
-		- [[DAC]]
+		- [DAC](/DAC.md)
 - **B** *mandatory protection*
 	- **B2** Proof of security of underlying model narrative spec of TCB
 		- [[MAC|Mac/Selinux]]

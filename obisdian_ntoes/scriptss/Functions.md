@@ -54,7 +54,7 @@ fi
 | exit     | quits the shell                                                                                                             |
 | export   | Makes a variable of fucrtiosn avaible to other proggrams that are exexuted frome the shell                                  |
 | fg       | bringas                                                                                                                     |
-| getopts  | Parsees [[Arguments]] to shell scripts                                                                                      |
+| getopts  | Parsees [Arguments](/obisdian_ntoes/scriptss/Arguments.md) to shell scripts                                                                                      |
 | jobs     | lsit bacground processes                                                                                                    |
 | readonly | declers a varaible as readonly                                                                                              |
 | shift    | move the scrpits input paramiters to the left droppin th firs paramter (usefull for consuming all aprameters one at a time) |
@@ -63,4 +63,4 @@ fi
 | unset    | deletes values from variables or funtion                                                                                    |
 | wait     | waits for a bacground process to complete                                                                                                                             |
 
->[!quote] [[She-bang]] [[bash_MAIN]]
+>[!quote] [[She-bang]] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)

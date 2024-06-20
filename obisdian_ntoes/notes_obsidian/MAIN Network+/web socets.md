@@ -3,8 +3,8 @@ date:: 2023-07-07
 type:: network+
 ---
 ## Web socets 
-- [[ports]] numbers and [[IP]] addresses **combined** creates **socets**
-- Allows [[duplex communication]] bettwen **the server  and the client** 
+- [[ports]] numbers and [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addresses **combined** creates **socets**
+- Allows [duplex communication](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/duplex communication.md) bettwen **the server  and the client** 
 - Enables u to connect your **frontend with backend**
 $$1$$
 ## Connection 
@@ -17,7 +17,7 @@ it enables *bidriectional communication*
 >It will be connected unti either parites sends a *close messege*
 >![WebsocetConnectionUpgrade_visual.png](/static/WebsocetConnectionUpgrade_visual.png)
 
-## [[IPv4 address]] socets 
+## [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md) socets 
 
 - Server 
 	1. Server IP adress
@@ -27,10 +27,10 @@ it enables *bidriectional communication*
 - Client 
 	1. Client IP adress 
 	2. protocol
-	3. clients [[ports]] number 
+	3. clients [ports](/ports/ports.md) number 
 ==Docs==
 [100s web socets](https://www.youtube.com/watch?v=ayUfHdHFCZE)
 [[How to start Rust Chat App#ws-rs for websocket server|chatrs]]
 
 
->[!quote] [[3-way Handshake]] 
+>[!quote] [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 

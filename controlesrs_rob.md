@@ -10,6 +10,6 @@
 - **Closed controllers**
 	- The environment influence the robot behavior
 		- *Robot makes constat calcualtion *
-		- [[closed_loop_control]]
+		- [closed_loop_control](/closed_loop_control.md)
 
->[!quote] [[startup_robotics]]
+>[!quote] [startup_robotics](/startup_robotics.md)

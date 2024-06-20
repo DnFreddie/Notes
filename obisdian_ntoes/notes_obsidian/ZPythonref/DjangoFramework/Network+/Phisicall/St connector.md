@@ -7,4 +7,4 @@ type:: network+
 U have o untwist before removing 
 
 
->[!quote][[St connector]][[SC connector ]]
+>[!quote][St connector](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/St connector.md)[[SC connector ]]

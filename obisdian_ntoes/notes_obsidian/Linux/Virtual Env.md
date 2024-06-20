@@ -20,4 +20,4 @@ type:: Python
 
 
 
->[!quote] [[docker]]
+>[!quote] [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)

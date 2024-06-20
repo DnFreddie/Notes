@@ -23,7 +23,7 @@ on  http://localhost:3000
 		 [Next-JSRoutingFolders_visual.png](/static/Next-JSRoutingFolders_visual.png)
 
 ## Layouts 
-- Lyaouts are like temaplates in [[Flask MAIN]] They are for *cross-section pages *
+- Lyaouts are like temaplates in [Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md) They are for *cross-section pages *
 	- U can define multple layouts just by adding *layout.js to the subfolder*
 		
 
@@ -39,7 +39,7 @@ on  http://localhost:3000
 	 ![Next-JsErrorHandling_visual.png](/static/Next-JsErrorHandling_visual.png)
 
 
->[!quote] [[React]]||[[Flask MAIN]]||
+>[!quote] [[React]]||[Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md)||
 
 
 $$ $$

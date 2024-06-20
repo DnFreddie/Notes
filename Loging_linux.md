@@ -1,1 +1,1 @@
-[[ssh_LOG]]
+[ssh_LOG](/ssh_LOG.md)

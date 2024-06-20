@@ -39,4 +39,4 @@ sudo aa-logprof
 
 ---
 [Docs](https://www.youtube.com/watch?v=XP-N22hjijo&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp&index=39)
-[[SELinux]]
+[SELinux](/SELinux.md)

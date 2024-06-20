@@ -35,7 +35,7 @@ Variables can also nested otuputs of the functions
 
 ## Constans
 **Variables like $USER are constants**
-- <mark style="background: #FF5582A6;">[[env]] gives u a list of all envairomental variables! </mark>
+- <mark style="background: #FF5582A6;">[env](/obisdian_ntoes/notes_obsidian/Linux/env.md) gives u a list of all envairomental variables! </mark>
 - TO add somthitn to the $PATH 
 	*export PATH=/user/local/bin:$PATH*
 

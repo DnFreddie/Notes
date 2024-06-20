@@ -5,10 +5,10 @@
 
 
 ---
-[[iaC]]
+[iaC](/iaC.md)
 [[Automation tools.canvas|Automation tools]]
 
 | Push         | Pull       |
 | ------------ | ---------- |
-| [[Ansyible]] | [[Puppet]] |
-| [[Teraform]] |            |
+| [[Ansyible]] | [Puppet](/Puppet.md) |
+| [Teraform](/Teraform.md) |            |

@@ -1,4 +1,4 @@
-<mark class="hltr-pomarancza">This</mark> [[statement.sql]]  <mark class="hltr-pomarancza">allows us to perform a separate query</mark> 
+<mark class="hltr-pomarancza">This</mark> [statement.sql](/obisdian_ntoes/notes_obsidian/SQL/statement.sql.md)  <mark class="hltr-pomarancza">allows us to perform a separate query</mark> 
 	*(such as aggregating customer’s subscriptions)*
 
 

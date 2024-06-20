@@ -28,4 +28,4 @@ os.wait()
 
 
 --- 
-[[awk_command]]
+[awk_command](/awk_command.md)

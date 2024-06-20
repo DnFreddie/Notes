@@ -19,7 +19,7 @@ keys do not have to be the same [[data type.py]]
 
 check weather smth is in the dictionary 
 
->**.vlaues [[method]]** 
+>**.vlaues [method](/obisdian_ntoes/Applied data_Obsydian/Python/method.md)** 
 
 *usaly u want to create list out of this*
 **list(.values)**

@@ -36,4 +36,4 @@ Git respect history of git so it will not find itself if it hasn't been added
 - docker load -i ./result
 
 
->[!quote] [[nix Templates]]
+>[!quote] [nix Templates](/code_snippets/nix Templates.md)

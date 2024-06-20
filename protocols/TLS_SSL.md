@@ -4,14 +4,14 @@ type:: network+
 ---
 ## TLS
 #alt-name SSL 
-TLS add an extra layer of encryption to the [[HTTPS]]
+TLS add an extra layer of encryption to the [HTTPS](/HTTPS.md)
 - USed in appp 
 - Easy to implement 
 ![TLSHeadshake_visual.png](/static/TLSHeadshake_visual.png)
 
-[[TLS_session]]
+[TLS_session](/TLS_session.md)
 
 
 
 
->[!quote] [[sqlx]] [[3-way Handshake]] 
+>[!quote] [[sqlx]] [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 

@@ -6,4 +6,4 @@
 >cross join ;
 
 
-[[join.sql]] 
+[join.sql](/obisdian_ntoes/notes_obsidian/SQL/join.sql.md) 

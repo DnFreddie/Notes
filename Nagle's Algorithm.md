@@ -2,7 +2,7 @@
 "date:": 2023-09-25
 "type:": network+
 ---
-## Nagle's Algorithm ([[TCP]])
+## Nagle's Algorithm ([TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md))
 
 - **Purpose:** Reduces the number of small packets on the network by combining small messages.
 - **Problem:** Sending many tiny packets can inefficiently use bandwidth.
@@ -18,4 +18,4 @@
 
 
 
->[!quote] [[HTTP]] [[ports]] [[bandwidth]]
+>[!quote] [HTTP](/protocols/HTTP.md) [[ports]] [[bandwidth]]

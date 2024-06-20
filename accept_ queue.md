@@ -5,13 +5,13 @@ type:: network+
 ## Accept quoe 
 Use is in handeling the request 
 ==It holds full fladget connations==  that has been aceepted 
-- **Size**  of the queue is determine by **backend** [[backlog]]
+- **Size**  of the queue is determine by **backend** [backlog](/backlog.md)
 
 ## Too many connection pproblem 
 
-U can have 2 [[threads]]  listing on the same port 
+U can have 2 [threads](/obisdian_ntoes/for later/threads.md)  listing on the same port 
 (*u have to flag it*) 
 
 
 
->[!quote] [[request_journey_kernel]] [[sync_ queue]]
+>[!quote] [[request_journey_kernel]] [sync_ queue](/sync_ queue.md)

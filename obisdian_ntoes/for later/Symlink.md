@@ -22,4 +22,4 @@ an additional real filename to a single file. The new filename has the status of
 be even more confusing than symbolic links. Unless you understand the material in 4.5 Inside a
 Traditional Filesystem, avoid using them
 
->[!quote] [[Baisic Linux commands]] [[Commands]]
+>[!quote] [[Baisic Linux commands]] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md)

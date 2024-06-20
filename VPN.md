@@ -4,9 +4,9 @@ type:: network+
 ---
 ## Virtual Private Networks 
 
-**Encrypted** (private) data traversing a public network as opposite to  [[GRE_prtocol]]
+**Encrypted** (private) data traversing a public network as opposite to  [GRE_prtocol](/GRE_prtocol.md)
 ## VPN protocols 
-[[IPSec_protocol]]
+[IPSec_protocol](/IPSec_protocol.md)
 ## VPN Concentrator 
 - Device that **Encrytp/Decrypt** the data 
 	- Often interateed into [[firewall]]  
@@ -16,4 +16,4 @@ type:: network+
 	- Softwer
 	- Somtime built into os 
 
->[!quote] [[ports]] 
+>[!quote] [ports](/ports/ports.md) 

@@ -5,4 +5,4 @@ type:: network+
 	## 
 **find . -type f | xargs -I {} mv {} {}.md**
 
->[!quote] [[find]] [[Commands]] [[Camptia Objectives]]
+>[!quote] [[find]] [[Commands]] [Camptia Objectives](/Camptia Objectives.md)

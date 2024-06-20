@@ -11,7 +11,7 @@
 
 - **/dev/0** constant stream of <mark style="background: #FF5582A6;">null characters</mark>(*not zeros*)
 	- Used to **zeroing out hard drive** 
-	- **[[devnull]]** only data goes in (**bit bucket**)
+	- **[devnull](/obisdian_ntoes/scriptss/devnull.md)** only data goes in (**bit bucket**)
 
 **Geting  random characters**
 - ***/dev/random*** wont return information unless theres enough **entropy**
@@ -20,5 +20,5 @@
 >[!tip] U can get random numbers via $RANDOM
 
 ---- 
- [[Getting PCI dev info]] [[Device types]]
+ [Getting PCI dev info](/Getting PCI dev info.md) [[Device types]]
  

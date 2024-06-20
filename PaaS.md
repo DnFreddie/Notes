@@ -11,4 +11,4 @@
 - Put the building blocks together 
 	- Develop your app from whats available on the platform 
 
->[!quote] [[IaaS]] [[PaaS]] [[Cloud models]]
+>[!quote] [[IaaS]] [[PaaS]] [Cloud models](/Cloud models.md)

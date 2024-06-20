@@ -4,4 +4,4 @@
 
 
 ---
-[[ssh]]
+[ssh](/protocols/ssh.md)

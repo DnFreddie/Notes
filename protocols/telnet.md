@@ -19,4 +19,4 @@ Port **tcp/23**
 
 
 
->[!quote] [[ports]] [[ssh]] 
+>[!quote] [[ports]] [ssh](/protocols/ssh.md) 

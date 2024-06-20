@@ -5,7 +5,7 @@ type:: network+
 ## Simple network mangment protocol 
 
 - Gather statistic form network devices
-	- [[UDP]] **/161** 
+	- [UDP](/obisdian_ntoes/for later/UDP.md) **/161** 
 
 >[!example]-
 >![SNMP_visual.png](/static/SNMP_visual.png)
@@ -15,7 +15,7 @@ type:: network+
 	- Authentication
 	- Encryption 
 - Alerts and notyfication from the network deviceses 
-	- [[UDP]] **162**
+	- [UDP](/obisdian_ntoes/for later/UDP.md) **162**
 
 
->[!quote] [[ports#Common ports]] [[SysLog]]
+>[!quote] [[ports#Common ports]] [SysLog](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/SysLog.md)

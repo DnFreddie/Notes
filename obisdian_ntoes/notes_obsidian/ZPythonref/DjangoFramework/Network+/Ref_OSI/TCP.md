@@ -2,7 +2,7 @@
 ## Transmission Control Protocol
 It makes sure that data is transmmited in reaiable way 
 
-[[PAR]]
+[PAR](/obisdian_ntoes/for later/PAR.md)
 - <mark style="background: #72083D;">TCP is a connection base system </mark>
 	- U have to establisch the connetion with the device to send the packet 
 - **Ordering**
@@ -25,4 +25,4 @@ It makes sure that data is transmmited in reaiable way
 
 
 
->[!quote] [[3-way Handshake]] [[Port Scanning]] [[Nagle's Algorithm]]
+>[!quote] [[3-way Handshake]] [[Port Scanning]] [Nagle's Algorithm](/Nagle's Algorithm.md)

@@ -50,4 +50,4 @@ complete -D -F _completion_loader -o bashdefault -o default
 
 This summary covers the essential features and behaviors of programmable completion in Bash as of GNU Bash 5.1, released in October 2020.
 
->[!quote] [[bash_MAIN]]
+>[!quote] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)

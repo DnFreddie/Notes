@@ -6,4 +6,4 @@ type:: Linux
 The addres space for each process is private and can not be accces unless is shared 
 ![VirtualAdressSpace_visual.png](/static/VirtualAdressSpace_visual.png)
 
->[!quote] [[Compitaltion process]] [[Wasm]]
+>[!quote] [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) [[Wasm]]

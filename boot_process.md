@@ -1,1 +1,1 @@
-[[UEFI vs BIOS]]
+[UEFI vs BIOS](/UEFI vs BIOS.md)

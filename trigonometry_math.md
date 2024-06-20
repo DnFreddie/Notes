@@ -19,4 +19,4 @@ The ratios bettwen the lenght of this tree sites
 ![SqueredTriangle_visual.png](/static/SqueredTriangle_visual.png)
 
 ---
-[[math_MAIN]]
+[math_MAIN](/math_MAIN.md)

@@ -72,4 +72,4 @@ To use these character classes in a regular expression, include them inside brac
 grep '[[:digit:]]' file.txt  # Finds lines in file.txt containing any digits
 ```
 
->[!quote] [[pandas_py]] | [[match_py]] | [[awk_command]] 
+>[!quote] [[pandas_py]] | [[match_py]] | [awk_command](/awk_command.md) 

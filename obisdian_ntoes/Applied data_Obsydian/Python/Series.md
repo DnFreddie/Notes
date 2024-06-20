@@ -7,4 +7,4 @@ List the firs argument
 <mark class="hltr-blood">**since data comes in series comes as 
 0,1,2 etc.**</mark>
 
->[!quote] [[pandas_py]] |  [[Static Array]] |[[data_py]] | [[SQL Data types]]
+>[!quote] [[pandas_py]] |  [[Static Array]] |[[data_py]] | [SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)

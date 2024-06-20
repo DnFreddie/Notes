@@ -22,4 +22,4 @@ name:String,
 
 
 
->[!quote] [[monomorphization]]
+>[!quote] [monomorphization](/compilation_porcess/monomorphization.md)

@@ -5,7 +5,7 @@ type:: network+
 ## Generic Route Encapsulation 
 
 Its (*tunnel bettwent two endpoints*)that allows te encapsolation of wide roange of layer protocols 
-**inside** [[IP]] **packets** 
+**inside** [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) **packets** 
 
 
 ### Encapsualte traffic inside of IP 
@@ -13,7 +13,7 @@ Its (*tunnel bettwent two endpoints*)that allows te encapsolation of wide roange
 - Two endpoints  appear to be direcly connected to each other 
 	![GREModel_visual.png](/static/GREModel_visual.png)
 - ==No build in Encryptoin==
-	- In order to encrypted this data use [[VPN]]
+	- In order to encrypted this data use [VPN](/VPN.md)
 
 
 >[!quote]

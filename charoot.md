@@ -1,4 +1,4 @@
 
 
 ---
-[[Namespaces]]
+[Namespaces](/Namespaces.md)

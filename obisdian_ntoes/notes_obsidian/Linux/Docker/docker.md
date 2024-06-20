@@ -104,4 +104,4 @@ docker exec -it (container id ) /bin/sh(or bash if installed)
 - **Auto-reload**
 	![DockerAutoReload_visual.png](/static/DockerAutoReload_visual.png)
 
->[!quote] [[cloud-int]]
+>[!quote] [cloud-int](/cloud-int.md)

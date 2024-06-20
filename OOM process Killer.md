@@ -23,5 +23,5 @@ choom -n 300 firefox
 
 #### Processes  over-allocation 
 - When process starts it usually *request more memory*  from the [[kernel]] then it need
-	- [[Kernel]]  knows about it so it over allocates the memory  
+	- [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)  knows about it so it over allocates the memory  
 		- It may allocate 8.5Gb in a 8Gb system

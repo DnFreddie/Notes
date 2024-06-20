@@ -8,10 +8,10 @@ status:: START
 - Connect to a shared stroage device across the network 
 - File-level access!
 <mark style="background: #FF5582A6;">Changes to one bait of data result in overwrite of an entaire disc</mark>
-- **Requaiers a lot of [[bandwidth]]**
+- **Requaiers a lot of [bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md)**
 	May use an isolated network
 	 And high speed network tech
 
 ---
 
-[[SAN]] [[iSCSI]]
+[[SAN]] [iSCSI](/iSCSI.md)

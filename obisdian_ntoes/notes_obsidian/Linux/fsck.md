@@ -6,4 +6,4 @@ type:: Linux
 ## Check errors on the flash drive 
  ** - p means *autoamticly repair *
  
->[!quote]  [[e2fsck]] [[Commands_filesSytem]] [[Files systems.canvas|Fiels systems]]
+>[!quote]  [e2fsck](/e2fsck.md) [[Commands_filesSytem]] [[Files systems.canvas|Fiels systems]]

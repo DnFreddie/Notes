@@ -17,4 +17,4 @@
 - flushing 
 - 
 
->[!quote] [[Linked List]]
+>[!quote] [Linked List](/Algorithms/Linked List.md)

@@ -6,4 +6,4 @@ type:: Linux
 **Generic unit of identification**
 Used to identyfuie the process 
 
->[!quote] [[processes_kernel]]
+>[!quote] [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)

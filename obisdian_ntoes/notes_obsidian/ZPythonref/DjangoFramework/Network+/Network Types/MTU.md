@@ -11,20 +11,20 @@ date:: 20 03 2023
 
 #### It's hard to know MTU all the way through the path 
 - **Automated Methods are inaccurate**
-- **Especailly when** [[ICMP_protocol]] **is filtered**
+- **Especailly when** [ICMP_protocol](/ICMP_protocol.md) **is filtered**
 
-### A siginficant concern for tunneled  traffic([[VPN]])
+### A siginficant concern for tunneled  traffic([VPN](/VPN.md))
 *The tunnele might be smaller then your local Ethernet segment*
 $$1$$
 
 ## IF u send to large data wit DF set?
 **Df = ** *dont fragment*
 - Routers will respond back andd tell you to fragment
-- **Hope u get the** [[ICMP_protocol]] message(*data is to large to sent*)
+- **Hope u get the** [ICMP_protocol](/ICMP_protocol.md) message(*data is to large to sent*)
 ### Check weather data is to large!
-- Troubleshoot using [[ping_command]]
+- Troubleshoot using [ping_command](/ping_command.md)
 	- Ping with **DF** force a perticular size of data
-	  1500 bytes - 8bytes [[ICMP_protocol]] headr - 20bytes [[IP]] = **1472**
+	  1500 bytes - 8bytes [ICMP_protocol](/ICMP_protocol.md) headr - 20bytes [[IP]] = **1472**
 		- **Widnows**
 		  ```
 		  ping -f -l 1472 8.8.8.8 
@@ -36,4 +36,4 @@ $$1$$
 
 $$2$$
 >[!quote] 
->[[bandwidth]] [[ifconfig]] 
+>[bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md) [[ifconfig]] 

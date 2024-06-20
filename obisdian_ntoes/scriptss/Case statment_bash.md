@@ -5,7 +5,7 @@ type:: Linux
 ---
 ## Case statment
 
-It allows to have multiple options ([[Functions]])
+It allows to have multiple options ([Functions](/obisdian_ntoes/scriptss/Functions.md))
 wirthut writing if
 
 >[!example]
@@ -14,4 +14,4 @@ wirthut writing if
 > **remeber about ;; at the end of the line 
 > exept the last one**
 
->[!quote] [[bash_MAIN]]
+>[!quote] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)

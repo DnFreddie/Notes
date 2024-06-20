@@ -16,4 +16,4 @@ exec 2> >(tee >(nc localhost 3000))
 and the results of `www.google.com`'s default web page will be printed to `stdout`.
 
 
->[!quote] [[bash_MAIN]] [[TCP]]
+>[!quote] [[bash_MAIN]] [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md)

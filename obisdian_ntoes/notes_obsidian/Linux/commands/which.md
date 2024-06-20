@@ -6,4 +6,4 @@ type:: Linux
 ## which
 List the location of **binaries** in the **PATH**
 >[!quote] 
->[[whereis]]
+>[whereis](/obisdian_ntoes/notes_obsidian/Linux/commands/whereis.md)

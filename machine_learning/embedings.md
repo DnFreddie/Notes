@@ -31,4 +31,4 @@ type:: Ai
 
 
 
->[!quote] [[vector_databse]] 
+>[!quote] [vector_databse](/databases/vector_databse.md) 

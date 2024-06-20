@@ -11,5 +11,5 @@ status:: START
 	- The network using is in the same building as u are
 	 (*Home Scenario*)
 - Hig speed connectivity
--  [[Ethernet]] and 802.11  wireless network
+-  [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) and 802.11  wireless network
 	- **Any slower is not "Local"** 

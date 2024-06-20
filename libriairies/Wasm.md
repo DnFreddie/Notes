@@ -7,8 +7,8 @@ type:: netwrok
 	- It runs a **virtal machine** underneath the hood 
 	- It gives better perormance and can be implemented with js 
 -  *Its baisicly micro processor in the browser*
-	- [[Compialtion process history]]
-- Web assembly  is stack base (*[[stack_algorithms]] *)
+	- [Compialtion process history](/compilation_porcess/Compialtion process history.md)
+- Web assembly  is stack base (*[stack_algorithms](/Algorithms/stack_algorithms.md) *)
 - *Web assambly does not know what the string is*
 $$1$$
 ## Web assembly module 
@@ -27,5 +27,5 @@ $$2$$
 [Speed Test](https://youtu.be/4KtotxNAwME)
 
 
->[!quote] [[compilers]] | [[Compitaltion process]] |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
+>[!quote] [[compilers]] | [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
 

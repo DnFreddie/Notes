@@ -11,4 +11,4 @@
 
 
 
->[!quote] [[Commands]]  [[Baisic Linux commands]]
+>[!quote] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md)  [[Baisic Linux commands]]

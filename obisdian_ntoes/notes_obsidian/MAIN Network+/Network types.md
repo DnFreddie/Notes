@@ -3,36 +3,36 @@ date:: 21 03 2023
 topic:: network-type-main
 status:: START
 ---
-![[LAN]]
+![LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md)
 
 
 ---
 
-![[WLAN]]
+![WLAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WLAN.md)
 
 ---
 
-![[PAN]]
+![PAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/PAN.md)
 
 --- 
 
-![[MAN]]
+![MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)
 
 ---
-![[CAN]]
+![CAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/CAN.md)
 
 ---
-![[WAN]]
+![WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md)
 
 ---
 
-![[Peer to peer]]
+![Peer to peer](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Peer to peer.md)
 
 ---
-![[Client-server]]
+![Client-server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Client-server.md)
 
 --- 
-![[SAN]]
+![SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md)
 
 ---
 
@@ -40,4 +40,4 @@ status:: START
 
 
 > [!quote]
-> [[Network Topologies]] [[Virtual networks]]
+> [[Network Topologies]] [Virtual networks](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Virtual networks.md)

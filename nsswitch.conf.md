@@ -10,7 +10,7 @@
 ![Pasted_image_20240430084931.png](/static/Pasted_image_20240430084931.png)
 
 ---
-[[DNS]]
+[DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md)
 
 
 

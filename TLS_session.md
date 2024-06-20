@@ -14,4 +14,4 @@ When a connection is established between a client and a server
     
 4. **Certificate Verification**: As part of the TLS handshake, the server typically presents a digital certificate to the client, which contains information about the server's identity. The client can verify this certificate to ensure it is communicating with the intended server.
 
->[!quote] [[TLS_session]] [[request_journey_backend#Decrytp]]
+>[!quote] [TLS_session](/TLS_session.md) [[request_journey_backend#Decrytp]]

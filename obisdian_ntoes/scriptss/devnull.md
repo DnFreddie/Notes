@@ -7,4 +7,4 @@ type:: Linux
 **Linux balck hole** 
 <mark style="background: #FF5582A6;">Evertything moved here will be wiped out!</mark>
 
->[!quote] [[find]]
+>[!quote] [find](/obisdian_ntoes/notes_obsidian/Linux/commands/find.md)

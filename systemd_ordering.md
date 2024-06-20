@@ -59,6 +59,6 @@ Strong Dependency
 	exclude 2 units from *being active simultaneously*
 
 --- 
-[[systemd]]
+[systemd](/systemd.md)
 
 	

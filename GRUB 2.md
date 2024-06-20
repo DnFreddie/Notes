@@ -5,4 +5,4 @@ It's in the */etc/defualt/*
 - *update-grub* or *update-grub2*
 	- Or do it manually **grub-mkconfig**
 
->[!quote] [[Boot procces]]
+>[!quote] [Boot procces](/Boot procces.md)

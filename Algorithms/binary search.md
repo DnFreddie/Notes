@@ -10,7 +10,7 @@ We find middle  point
 
 search(array,low,high)
 midpoint = low +(hi-low)/2
-value = [[Static Array]][m]
+value = [Static Array](/obisdian_ntoes/Applied data_Obsydian/Python/data.py/Static Array.md)[m]
 if value = n  
 return true 
 else if  v > m 

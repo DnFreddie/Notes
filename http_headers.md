@@ -5,9 +5,9 @@
 ## Http Headers 
 
 
-![[Etag]]
+![Etag](/Etag.md)
 
 
 
 
->[!quote] [[ports]]
+>[!quote] [ports](/ports/ports.md)

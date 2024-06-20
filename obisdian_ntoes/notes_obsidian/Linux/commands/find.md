@@ -16,9 +16,9 @@ type:: Linux
 >[!example] Possibilities
 >![FindPossibilities.visual.png](/static/FindPossibilities.visual.png)
 
-## U can search files via [[Permissions]]
+## U can search files via [Permissions](/obisdian_ntoes/notes_obsidian/Linux/Permissions.md)
 
->[!example] Finding files with perrmision 4000 ([[SUID]])
+>[!example] Finding files with perrmision 4000 ([SUID](/obisdian_ntoes/notes_obsidian/Linux/SUID.md))
 >kali >find / -user root -perm -4000
 
 

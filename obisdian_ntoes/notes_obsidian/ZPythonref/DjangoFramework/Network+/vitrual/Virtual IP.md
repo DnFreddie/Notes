@@ -7,4 +7,4 @@ type:: network+
 - Not assosiated with a *physical network adapter* 
 - Virtual machine internal router addres 
 
->[!quote] [[Virtual networks]] | [[Reserved addresses]] |[[virtual hosting]]
+>[!quote] [[Virtual networks]] | [Reserved addresses](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/Reserved addresses.md) |[[virtual hosting]]

@@ -19,4 +19,4 @@
 
 
 
->[!quote] [[Golang AWS_issue]] [[VPN]]
+>[!quote] [Golang AWS_issue](/Golang AWS_issue.md) [[VPN]]

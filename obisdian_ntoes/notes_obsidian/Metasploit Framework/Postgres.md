@@ -70,4 +70,4 @@ sqlx database create
 
 
 
->[!quote] [[Tokio_rs]] [[Databaes Types]] [[SQL REVISE#SQL]]
+>[!quote] [[Tokio_rs]] [Databaes Types](/databases/Databaes Types.md) [[SQL REVISE#SQL]]

@@ -9,7 +9,7 @@ type:: Linux
 
 ### Main tasks
 -   Spliting memory into subdevisons
--   **[[processes_kernel]]**
+-   **[processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)**
 
 -   The kernel is responsible for determining which processes are allowed to use the CPU.
 
@@ -26,21 +26,21 @@ type:: Linux
 	    
 
 -   **System calls and support**
-	-   [[processes_kernel]] normally use system calls to communicate with the kernel.
+	-   [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md) normally use system calls to communicate with the kernel.
 
 ### Kernel Otpions
 U have to write to *etc/sysctl.conf*
-![[sysctl]]
+![sysctl](/obisdian_ntoes/for later/sysctl.md)
 
 
 
 
 ### Boot 
-[[Boot procces]]
-![[rc scripts]]
+[Boot procces](/Boot procces.md)
+![rc scripts](/obisdian_ntoes/for later/rc scripts.md)
 
 
-[[cgroups]]
+[cgroups](/cgroups.md)
 
 
 

@@ -15,10 +15,10 @@ IT provideds **approxime resutls**
 	- This step can include re-ranking the nearest neighbors using a different similarity measure
 $$1$$
 ## Creation 
-1.  First, we use the **[[embedings]] model** to create **vector embeddings** for the **content** we want to index.
+1.  First, we use the **[embedings](/machine_learning/embedings.md) model** to create **vector embeddings** for the **content** we want to index.
 2. The **vector embedding** is inserted into the **vector database**, with some reference to the original **content** the embedding was created from.
 3.  When the **application** issues a query, we use the same **embedding model** to create embeddings for the query, and use those embeddings to query the **database** for _similar_ vector embeddings
-Its a databae struckterd of [[embedings]] 
+Its a databae struckterd of [embedings](/machine_learning/embedings.md) 
 >[!example]-
 ![VectorDatabaseStructure_visual.png](/static/VectorDatabaseStructure_visual.png)
 
@@ -38,4 +38,4 @@ $$2$$
 
 $$3$$
 
->[!quote] [[random_projection]]
+>[!quote] [random_projection](/machine_learning/random_projection.md)

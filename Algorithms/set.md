@@ -6,4 +6,4 @@ type:: data_type
 Data struture that does not allow duplicate values 
 - Arrayed based set 
 
->[!quote] [[Dynamic Array]]
+>[!quote] [Dynamic Array](/Algorithms/Dynamic Array.md)

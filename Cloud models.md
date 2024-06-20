@@ -7,13 +7,13 @@
 >[!tip]- Modlues diff_graph
 ![Cloud_Models_Visual.png](/static/Cloud_Models_Visual.png)
 
-![[SaaS]]
+![SaaS](/SaaS.md)
 
 $$A$$
-![[IaaS]]
+![IaaS](/IaaS.md)
 $$B$$
 
-![[PaaS]]
+![PaaS](/PaaS.md)
 
 
 

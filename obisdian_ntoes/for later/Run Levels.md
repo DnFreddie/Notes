@@ -6,7 +6,7 @@ type:: Linux
 
 Run it with sudo **init** run level (*this are called init scripts*)
 
->[!Note] Does not work for [[sysctl]] 
+>[!Note] Does not work for [sysctl](/obisdian_ntoes/for later/sysctl.md) 
 
 - **0** Halt the system 
 - **1** Single user/minimal mode 
@@ -19,4 +19,4 @@ Run it with sudo **init** run level (*this are called init scripts*)
 >![Pasted_image_20240426141511.png](/static/Pasted_image_20240426141511.png)
 
 
->[!quote] [[Cronetab]] | [[Kernel]] | [[rc scripts]]
+>[!quote] [[Cronetab]] | [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) | [[rc scripts]]

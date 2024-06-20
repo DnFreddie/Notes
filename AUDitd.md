@@ -8,6 +8,6 @@
 
 
 ---
-[[Loging_linux]]
-[[tripwire]]
+[Loging_linux](/Loging_linux.md)
+[tripwire](/tripwire.md)
 [Redhat info](https://www.redhat.com/sysadmin/configure-linux-auditing-auditd)

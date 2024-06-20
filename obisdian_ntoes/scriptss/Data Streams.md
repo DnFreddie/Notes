@@ -6,10 +6,10 @@ type:: Linux
 ## Data Streams
 
 
-![[Standard input]]
+![Standard input](/obisdian_ntoes/scriptss/Standard input.md)
 
 ---
-![[Standard output]]
+![Standard output](/obisdian_ntoes/scriptss/Standard output.md)
 
 ---
-![[Standard Error]]
+![Standard Error](/obisdian_ntoes/scriptss/Standard Error.md)

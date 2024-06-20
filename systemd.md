@@ -1,5 +1,5 @@
 [playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&index=1)
-[[init]]
+[init](/init.md)
 
 #### Units 
 **Any entity** managed by systemd
@@ -8,7 +8,7 @@
 
 
 
-[[systemd_ordering]]
+[systemd_ordering](/systemd_ordering.md)
 
 
 #### Location 
@@ -50,7 +50,7 @@ This will rollback to a given target
 
 - **Mask Unmask**
 	Blocks the service u can't start it or enable it 
-	*(it creates a service that points to [[devnull]])*
+	*(it creates a service that points to [devnull](/obisdian_ntoes/scriptss/devnull.md))*
 
 - **Reload service**
 	Try to reload the config and apply changes
@@ -67,7 +67,7 @@ sudo systemctl restart *service*
 sudo service *name* restart 
 ```
 
-[[service]]
+[service](/obisdian_ntoes/notes_obsidian/Linux/service.md)
 
 
 ### Configuration
@@ -90,4 +90,4 @@ sudo service *name* restart
 
 
 --- 
-[[Cronetab]] [[At]]
+[[Cronetab]] [At](/obisdian_ntoes/scriptss/At.md)

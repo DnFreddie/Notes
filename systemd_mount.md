@@ -31,5 +31,5 @@ WantedBy=multi-user.target
 ```
 
 ---
-[[systemd]] 
+[systemd](/systemd.md) 
 [[systemd#Systemd Timers|Timers]]

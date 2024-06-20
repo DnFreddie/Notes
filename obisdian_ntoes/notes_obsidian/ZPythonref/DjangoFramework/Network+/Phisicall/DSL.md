@@ -7,7 +7,7 @@ type:: network+
 Digital Subscriber Line
  
  It is a technology that uses existing telephone lines to provide high-speed Internet access to homes and businesses. 
- DSL works by sending data over the **copper [[Cables]]** that make up the telephone network.
+ DSL works by sending data over the **copper [Cables](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cables.md)** that make up the telephone network.
  
 *It uses a different frequency band than traditional telephone calls, so it can transmit data without interfering with phone service.*
 - Ofthen refered as **ADSL**

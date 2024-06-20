@@ -5,7 +5,7 @@ type:: network+
 ## 
 
 
-[[Etag]]
+[Etag](/Etag.md)
 
 
->[!quote] [[HTTP]] [[carrige_return]] [[NTP_protocol]]
+>[!quote] [[HTTP]] [carrige_return](/carrige_return.md) [[NTP_protocol]]

@@ -5,4 +5,4 @@
 
 ## To check the system use 
 - **fsck**
-- [[e2fsck]] 
+- [e2fsck](/e2fsck.md) 

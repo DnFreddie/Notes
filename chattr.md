@@ -16,4 +16,4 @@ chattr +i filename
 
 
 ---
-[[getfacl]]
+[getfacl](/getfacl.md)

@@ -7,4 +7,4 @@ It's a specail port desiunged for dynamical routing
 - Trying to bind to port 0 will trigger an **Os Scan** for an avaiable port wich then bounds it to the app
 
 
->[!quote] [[rust_tests]]|[[ports]]|[[TCP]]
+>[!quote] [[rust_tests]]|[[ports]]|[TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md)

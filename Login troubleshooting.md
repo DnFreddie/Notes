@@ -3,7 +3,7 @@
 1. check last log [[Logging.canvas|Logging]]
 	- *last or lastb*
 2. check if user is created 
-	- [[getent]]
+	- [getent](/getent.md)
 3. Check gui session
 	- ***sudo sytemctl status graphical.target***
 

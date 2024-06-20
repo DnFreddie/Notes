@@ -8,13 +8,13 @@ Control characters that appear to the text file to innit to the printer that it 
 - Line Feed **"\n"**
 - Carriage Return **"\r"**
 
- ==[[HTTP]]  and [[HTTPS]] format is Linefid + Carraige==
+ ==[[HTTP]]  and [HTTPS](/HTTPS.md) format is Linefid + Carraige==
 
 ![Carriage_retur_visual.png](/static/Carriage_retur_visual.png)
 - On windosw 
 	- There are only carriage returns and line feed 
-- On [[Linux]]  (*an in rest of the world*)  there are **line feeds**
+- On [Linux](/obisdian_ntoes/notes_obsidian/Templates/Linux.md)  (*an in rest of the world*)  there are **line feeds**
 - On Mac there are only **carriage returns**
 
 
->[!quote] [[awk_command]]
+>[!quote] [awk_command](/awk_command.md)

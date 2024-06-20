@@ -1,5 +1,5 @@
 **Aggregates**
-![[Aggregates]]
+![Aggregates](/obisdian_ntoes/notes_obsidian/SQL/Aggregates.md)
 
 
 *Baisic aggragetes*
@@ -19,7 +19,7 @@
 
 It rounds the values in the column to the number of decimal places specified by the integer.  
 
-![[SQL functions]]
+![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)
 
 ---
 

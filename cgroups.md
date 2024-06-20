@@ -13,9 +13,9 @@
 
  >[!example]-
  >- Memory
- >- [[Cpu]]itme 
+ >- [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)itme 
  >- Block I/O
- >- [[PID_control]]
+ >- [PID_control](/PID_control.md)
  >- Freezer(used by docker pause )
  >- Devices 
  >- Network priority 
@@ -30,6 +30,6 @@
 
 
 --- 
-[[Namespaces]] [[Kernel]]
+[Namespaces](/Namespaces.md) [[Kernel]]
 
 

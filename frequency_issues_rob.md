@@ -17,4 +17,4 @@ $$ \frac{dy(t)}{dt} = A \omega \cos(\omega t + \phi) $$
 
 
 
->[!quote] [[symmetry_math]]
+>[!quote] [symmetry_math](/symmetry_math.md)

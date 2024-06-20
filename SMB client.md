@@ -1,4 +1,4 @@
-### [[SMB]] CLient
+### [SMB](/SMB.md) CLient
 
 **$IPC**  means  that this is the admistrative account 
 

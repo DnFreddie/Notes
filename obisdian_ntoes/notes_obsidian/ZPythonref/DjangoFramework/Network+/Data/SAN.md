@@ -9,14 +9,14 @@ status:: START
 	- Block-level access 
 		- Very efficient reading and writing
 			- If u want to change a small peace of the file u don't have to overwrite the entire file 
-- **Requiters a lot of** [[bandwidth]] 
+- **Requiters a lot of** [bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md) 
 	May use an isolated network
 	 And high speed network tech
 
 
-![[Multipath]]
+![Multipath](/Multipath.md)
 
 
 
 ---
->[!quote]  [[NAS]] [[Fibre_chanel]] [[iSCSI]]
+>[!quote]  [[NAS]] [[Fibre_chanel]] [iSCSI](/iSCSI.md)

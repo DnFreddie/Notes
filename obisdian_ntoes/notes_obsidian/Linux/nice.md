@@ -13,4 +13,4 @@ The nice command is used to influance the priority of procces to the kernel
   >*The "n" value determines the priority level*
   >kali >nice -n 10 /bin/slowprocess
 
->[!quote] [[renice]] | [[processes_kernel]] | [[ps]] 
+>[!quote] [renice](/obisdian_ntoes/notes_obsidian/Linux/renice.md) | [[processes_kernel]] | [[ps]] 

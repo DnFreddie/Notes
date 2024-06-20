@@ -9,4 +9,4 @@ When someone says a robot part (like a wheel or a motor) operates at "100 RPM," 
 
 
 
->[!quote] [[PID_control]] 
+>[!quote] [PID_control](/PID_control.md) 

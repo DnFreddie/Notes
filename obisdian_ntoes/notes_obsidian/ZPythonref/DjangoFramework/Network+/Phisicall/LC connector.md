@@ -8,4 +8,4 @@ Popular becouse u can store alot of them into the router
 ![Local_connectors.png](/static/Local_connectors.png)
 
 
->[!quote] [[Cables]]
+>[!quote] [Cables](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cables.md)

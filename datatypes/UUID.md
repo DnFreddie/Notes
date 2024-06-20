@@ -16,4 +16,4 @@ type:: network+
 	- Reserved for Microsof backward compatibilit
 
 
->[!quote] [[userID]] [[Postgres]] [[SQL REVISE#SQL]]
+>[!quote] [[userID]] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) [[SQL REVISE#SQL]]

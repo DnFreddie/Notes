@@ -13,9 +13,9 @@ First is for user second is for gorup and third for all users
 >[!Example] Numeric represenation of permmmision 
 >![Pasted_image_20230404214606.png](/static/Pasted_image_20230404214606.png)
 
-![[umask]]
+![umask](/obisdian_ntoes/notes_obsidian/Linux/umask.md)
 ## Special permisions
-![[SUID]]
-![[SGID]]
+![SUID](/obisdian_ntoes/notes_obsidian/Linux/SUID.md)
+![SGID](/obisdian_ntoes/notes_obsidian/Linux/SGID.md)
 
->[!quote] [[skel_etc]]
+>[!quote] [skel_etc](/etc/skel_etc.md)
