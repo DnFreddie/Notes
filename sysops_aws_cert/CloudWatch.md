@@ -76,4 +76,4 @@ by generating fields that u can use in your query
     - **@log**
         Log group identifier
 
-![Diffrent discover fileds](static/diffrent_discover_fields_aws_log.png)
+![Diffrent discover fileds](/static/diffrent_discover_fields_aws_log.png)
