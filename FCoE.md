@@ -9,4 +9,4 @@
 - ==No routable==
 
 
->[!quote] [[SAN]] [[Fibre_chanel]] [iSCSI](/iSCSI.md)
+>[!quote] [SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md) [Fibre_chanel](/Fibre_chanel.md) [iSCSI](/iSCSI.md)

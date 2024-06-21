@@ -22,7 +22,7 @@ run IP**  adrr
 - Enables to connect and  manipulate [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md)
 - U can easily switch ure IP with 
 	- sudo ifconfig eth(*number of connection*) new IP
-	- U can also change [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) and  [[Bcast]] 
+	- U can also change [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) and  [Bcast](/obisdian_ntoes/notes_obsidian/Penetration/Bcast.md) 
 	-  ''#  spoofing 
 	>[!example]- 
 	>kali >ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
@@ -36,4 +36,4 @@ run IP**  adrr
 		    however, are not automatically disabled.
 
  
->[!quote] [iwconfig](/obisdian_ntoes/notes_obsidian/Penetration/iwconfig.md) [[spoof]]
+>[!quote] [iwconfig](/obisdian_ntoes/notes_obsidian/Penetration/iwconfig.md) [spoof](/obisdian_ntoes/notes_obsidian/Linux/spoof.md)

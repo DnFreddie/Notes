@@ -13,4 +13,4 @@ You would use lo to test something on your system, such as your own web server.
 **The localhost is generally represented with the IP address 127.0.0.1**
  - An easy way to self refence is to ping **127.0.0.1**
 
->[!quote] [[defult gateway]] ; [[subnet mask]] ; [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md)
+>[!quote] [defult gateway](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/defult gateway.md) ; [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) ; [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md)

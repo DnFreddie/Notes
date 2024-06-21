@@ -14,4 +14,4 @@ kali >ifconfig eth0 up
 
 
 
->[!quote] [[ifconfig]] [iwconfig](/obisdian_ntoes/notes_obsidian/Penetration/iwconfig.md)
+>[!quote] [ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md) [iwconfig](/obisdian_ntoes/notes_obsidian/Penetration/iwconfig.md)

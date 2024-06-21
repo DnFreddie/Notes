@@ -18,4 +18,4 @@ $$ $$
 
 --- 
 
-**{{[VPN](/VPN.md)}}** **{{[[DMVPNM]]}} {{[[MPLS]]}}**
+**{{[VPN](/VPN.md)}}** **{{[DMVPNM](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/Data_ref/DMVPNM.md)}} {{[MPLS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/MPLS.md)}}**

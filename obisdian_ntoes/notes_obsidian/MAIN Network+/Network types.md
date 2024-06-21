@@ -40,4 +40,4 @@ status:: START
 
 
 > [!quote]
-> [[Network Topologies]] [Virtual networks](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Virtual networks.md)
+> [Network Topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network Topologies.md) [Virtual networks](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Virtual networks.md)

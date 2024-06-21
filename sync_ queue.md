@@ -6,4 +6,4 @@ type:: network+
 Hold the send taht arraived to the particual socket 
 They are held tmeporarly 
 
->[!quote] [accept_ queue](/accept_ queue.md) [[request_journey_kernel]] [[]]
+>[!quote] [accept_ queue](/accept_ queue.md) [request_journey_kernel](/request_journey_kernel.md) [[]]

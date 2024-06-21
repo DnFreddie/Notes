@@ -13,4 +13,4 @@ type:: Linux
 	> ![Pasted_image_20230401160713.png](/static/Pasted_image_20230401160713.png)
 
 >[!quote] **U can redirect the wrong outpu to the** [devnull](/obisdian_ntoes/scriptss/devnull.md)
-> [Standard Error](/obisdian_ntoes/scriptss/Standard Error.md) [[Data Streams]]
+> [Standard Error](/obisdian_ntoes/scriptss/Standard Error.md) [Data Streams](/obisdian_ntoes/scriptss/Data Streams.md)

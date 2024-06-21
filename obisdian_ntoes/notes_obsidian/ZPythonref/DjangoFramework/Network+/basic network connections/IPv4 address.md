@@ -8,4 +8,4 @@ type:: network+
 
 
 
->[!quote] [[web socets]]|[Network_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Network_OSI.md) | [[IP]] |
+>[!quote] [web socets](/obisdian_ntoes/notes_obsidian/MAIN Network+/web socets.md)|[Network_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Network_OSI.md) | [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) |

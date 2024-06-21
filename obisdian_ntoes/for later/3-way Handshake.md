@@ -14,4 +14,4 @@ SYN-ACK
 
 
 
->[!quote] [[nmap]] [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md)
+>[!quote] [nmap](/obisdian_ntoes/notes_obsidian/Linux/nmap.md) [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md)

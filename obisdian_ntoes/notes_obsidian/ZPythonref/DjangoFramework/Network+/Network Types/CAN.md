@@ -6,7 +6,7 @@ status:: START
 ## Campus Area Network
 
 #alt-name **Corporate Area Network**
-*A middle ground betwwen [[LAN]] and [MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)*
+*A middle ground betwwen [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) and [MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)*
 $$ $$ 
 - Limited geographical area
 	- A group of buildings like campus

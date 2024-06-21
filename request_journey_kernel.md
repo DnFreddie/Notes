@@ -11,10 +11,10 @@ section define(body,request itself) via ceritain prtococol(ex. [TCP](/obisdian_n
 
  **Accept**
   - Before we send a request  we need to esatblish a transport that sends that in this case [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) connetion(*SYN/SYNAC*)
- - While listing on a sepcyficc [[ports]] and interafe [[Kernel]]  will create two  [queue_algorithms](/Algorithms/queue_algorithms.md) for a listenr a socket object wich is a file (assosiated with port)
+ - While listing on a sepcyficc [ports](/ports/ports.md) and interafe [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)  will create two  [queue_algorithms](/Algorithms/queue_algorithms.md) for a listenr a socket object wich is a file (assosiated with port)
 	 - [sync_ queue](/sync_ queue.md)
 	 - [accept_ queue](/accept_ queue.md)
- - The packet goes all the way from  the [[NIC_physical]] to the [[Kernel]] memory via procces called [DMA](/DMA.md)(*Direct memory access*)
+ - The packet goes all the way from  the [NIC_physical](/NIC_physical.md) to the [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) memory via procces called [DMA](/DMA.md)(*Direct memory access*)
  - The Kernel does the lookap weather it has as socket for this particual port 
  - if it doesnt have it drops the conncection  
 	 - It replais wiht the [ICMP_protocol](/ICMP_protocol.md) message (*Destination unreachable*)

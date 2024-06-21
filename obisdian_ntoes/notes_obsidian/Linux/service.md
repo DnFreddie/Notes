@@ -10,4 +10,4 @@ waiting for you to use it**
 - Syntax 
 	- service servicename **start|stop|restart**
 
->[!quote] [[ps]] [top](/obisdian_ntoes/notes_obsidian/Linux/top.md)
+>[!quote] [ps](/obisdian_ntoes/notes_obsidian/Linux/commands/ps.md) [top](/obisdian_ntoes/notes_obsidian/Linux/top.md)

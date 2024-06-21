@@ -39,7 +39,7 @@ on  http://localhost:3000
 	 ![Next-JsErrorHandling_visual.png](/static/Next-JsErrorHandling_visual.png)
 
 
->[!quote] [[React]]||[Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md)||
+>[!quote] [React](/next-js/Reactjs/React.md)||[Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md)||
 
 
 $$ $$

@@ -18,4 +18,4 @@ The device sends *only one signal* to the network
 
 [Broadcast_visual.png](/static/Broadcast_visual.png)
 
->[!quote] [[unicast]] [multicast](/obisdian_ntoes/for later/multicast.md)
+>[!quote] [unicast](/obisdian_ntoes/for later/unicast.md) [multicast](/obisdian_ntoes/for later/multicast.md)

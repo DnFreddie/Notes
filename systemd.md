@@ -90,4 +90,4 @@ sudo service *name* restart
 
 
 --- 
-[[Cronetab]] [At](/obisdian_ntoes/scriptss/At.md)
+[Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) [At](/obisdian_ntoes/scriptss/At.md)

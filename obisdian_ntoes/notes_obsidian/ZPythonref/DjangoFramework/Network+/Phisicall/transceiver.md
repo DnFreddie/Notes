@@ -13,4 +13,4 @@ type:: network+
 
 ![Transciver_visual.png](/static/Transciver_visual.png)
 
->[!quote] [[Physical_OSI]] [media converter](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/media converter.md)
+>[!quote] [Physical_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Physical_OSI.md) [media converter](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/media converter.md)

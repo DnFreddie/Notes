@@ -9,4 +9,4 @@
 
 $V=I*R$
 
->[!quote] [[voltage_rob]] [resistance_rob](/resistance_rob.md)
+>[!quote] [voltage_rob](/voltage_rob.md) [resistance_rob](/resistance_rob.md)

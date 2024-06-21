@@ -9,7 +9,7 @@ status:: START
 - Packets through the [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md) have a label
 	- Routing decision are easy
 - **Any transport medium any protocol inside** 
-	- [[IP]] packets, [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) frames
+	- [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) packets, [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) frames
 ## Intial configuration 
 Defines were all the sites may be located 
 And what lables are used to switchi data 

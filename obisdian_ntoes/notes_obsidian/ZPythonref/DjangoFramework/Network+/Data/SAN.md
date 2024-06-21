@@ -19,4 +19,4 @@ status:: START
 
 
 ---
->[!quote]  [[NAS]] [[Fibre_chanel]] [iSCSI](/iSCSI.md)
+>[!quote]  [NAS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/NAS.md) [Fibre_chanel](/Fibre_chanel.md) [iSCSI](/iSCSI.md)

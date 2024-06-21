@@ -3,7 +3,7 @@ date:: 2023-07-07
 type:: network+
 ---
 ## Web socets 
-- [[ports]] numbers and [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addresses **combined** creates **socets**
+- [ports](/ports/ports.md) numbers and [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addresses **combined** creates **socets**
 - Allows [duplex communication](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/duplex communication.md) bettwen **the server  and the client** 
 - Enables u to connect your **frontend with backend**
 $$1$$

@@ -8,4 +8,4 @@ It's beeter to use [Kubernetes](/Kubernetes.md)
 ![Pasted_image_20240510110121.png](/static/Pasted_image_20240510110121.png)
 
 ---
-[host_net](/host_net.md) [[bridge_net]] [[docker]]
+[host_net](/host_net.md) [bridge_net](/bridge_net.md) [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)

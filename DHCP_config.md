@@ -36,7 +36,7 @@ One **Scope** is genarlly a single contiguaous pool of IP addresses
 ![Address_Reservation_visual.png](/static/Address_Reservation_visual.png)
 ## DHCP renewal 
 - **T1 Timer**
-	- Check in with the lending [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) to renew the [[IP]] address 
+	- Check in with the lending [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) to renew the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address 
 	- ==50% of the leas time by default==
 - **T2 Timer** 
 	- If the original [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) is down the rebinding with any [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) 

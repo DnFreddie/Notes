@@ -9,7 +9,7 @@ becouse of the number of fragmentation
 offsets bits in the <mark style="background: #FFB86CA6;">IP header</mark>
 
 ## Holding data 
-The data is beeing hold im the [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) [[UDP]] 
+The data is beeing hold im the [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) [UDP](/obisdian_ntoes/for later/UDP.md) 
 
 ## Transfering data 
 ==The data ins *Encapsulated* by the IP protocol==

@@ -14,4 +14,4 @@ All the computer are connected to the internet via Proxy
 	- Conncet to the home server and acces the webiste 
 
 
->[!quote] [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) [[proxy]]
+>[!quote] [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) [proxy](/obisdian_ntoes/notes_obsidian/Linux/Network manipulation/proxy.md)

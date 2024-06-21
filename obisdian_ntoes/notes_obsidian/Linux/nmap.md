@@ -34,4 +34,4 @@
 [Netwrok Scanning](/obisdian_ntoes/for later/Netwrok Scanning.md)
 [Port Scanning](/obisdian_ntoes/for later/Port Scanning.md)
 
->[!quote] [[ifconfig]] [[nslookup]][ip_command](/ip_command.md)
+>[!quote] [ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md) [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md)[ip_command](/ip_command.md)

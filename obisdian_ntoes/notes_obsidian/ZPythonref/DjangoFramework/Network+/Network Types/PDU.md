@@ -8,7 +8,7 @@
 * <mark style="background: #ABF7F7A6;">[IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)</mark>
 	* Operates on a packet of data 
 	* **Does not care what's inside!**
-		* Ip contains [[UDP]] or [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) or diff protocol
+		* Ip contains [UDP](/obisdian_ntoes/for later/UDP.md) or [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) or diff protocol
 
 --- 
 **If the data unit contains a _header_ it will contatain**:

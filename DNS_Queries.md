@@ -46,4 +46,4 @@ $$3$$
 >[!example]-
 >![ReverseDNSExample_visual.png](/static/ReverseDNSExample_visual.png)
 
->[!quote] [[DNS]] [DNS_Records](/DNS_Records.md)
+>[!quote] [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) [DNS_Records](/DNS_Records.md)

@@ -11,4 +11,4 @@ __ Port 445  __
 ##### How does SMB work?
 - Uses **TCP** (/3 way hand shake)
 
->[!quote] [[ports]] [SMB client](/SMB client.md) [[Samba]]
+>[!quote] [ports](/ports/ports.md) [SMB client](/SMB client.md) [Samba](/Samba.md)

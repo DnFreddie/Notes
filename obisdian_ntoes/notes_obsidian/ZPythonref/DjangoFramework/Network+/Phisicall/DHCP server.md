@@ -4,7 +4,7 @@ topic:: network-server-baisic
 type:: Linux
 ---
 ## Dynamic Host Configuration Server
-- The DHCP assaigns [[IP]] address to all devisces on the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
+- The DHCP assaigns [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address to all devisces on the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
 	- IT keeps all the log files of wich machine is
 		<mark style="background: #FF5582A6;">allocated to which IP address at anyone time</mark> 
 		- The DHCP is running in the bacgorund as *dhcp dameon*

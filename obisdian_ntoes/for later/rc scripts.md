@@ -11,4 +11,4 @@ type:: Linux
 	- This command enables you to add or remove services from the rc.d script
 		- ![AddingRcService_visual.png](/static/AddingRcService_visual.png)
 
->[!quote] [[Cronetab]] | [Run Levels](/obisdian_ntoes/for later/Run Levels.md)
+>[!quote] [Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) | [Run Levels](/obisdian_ntoes/for later/Run Levels.md)

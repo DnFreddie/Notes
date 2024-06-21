@@ -7,4 +7,4 @@ type:: Linux
 Output that produces an error 
 **2 constiudes standard error**
 & constitutes for both 
->[!quote] [exit code](/obisdian_ntoes/scriptss/exit code.md), [[devnull]]
+>[!quote] [exit code](/obisdian_ntoes/scriptss/exit code.md), [devnull](/obisdian_ntoes/scriptss/devnull.md)

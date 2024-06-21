@@ -4,7 +4,7 @@ topic:: network-penetration-reconesans
 type:: network+
 ---
 ## Name server lookup
-Used to query [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) to get inforamtion about domain names such as [[IP]] or other records
+Used to query [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) to get inforamtion about domain names such as [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) or other records
 >[!example]
 >Type nslookup followed by the domain name you want to query (e.g., nslookup example.com).
 ### Two Modes 
@@ -16,4 +16,4 @@ in non-interactive mode, you can specify a command and receive output without en
 
 
 
->[!quote] [[nmap]] [[DNS]] [dig_command](/dig_command.md)
+>[!quote] [nmap](/obisdian_ntoes/notes_obsidian/Linux/nmap.md) [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) [dig_command](/dig_command.md)

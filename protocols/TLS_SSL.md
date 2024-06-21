@@ -14,4 +14,4 @@ TLS add an extra layer of encryption to the [HTTPS](/HTTPS.md)
 
 
 
->[!quote] [[sqlx]] [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 
+>[!quote] [sqlx](/libriairies/sqlx.md) [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 

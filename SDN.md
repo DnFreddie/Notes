@@ -28,4 +28,4 @@ Networking devices have different functional panes of operation
 
 
 
->[!quote] [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md) [[SD-WAN]] TOCHECK:virtual_server
+>[!quote] [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md) [SD-WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/SD-WAN.md) TOCHECK:virtual_server

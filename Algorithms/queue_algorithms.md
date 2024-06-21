@@ -78,4 +78,4 @@ export default class Queue<T> {
 
 ```
  
->[!quote] [Linked List](/Algorithms/Linked List.md) [[stack_algorithms]]
+>[!quote] [Linked List](/Algorithms/Linked List.md) [stack_algorithms](/Algorithms/stack_algorithms.md)

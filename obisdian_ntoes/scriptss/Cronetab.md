@@ -26,4 +26,4 @@ Add the cronjob as a separate file in */etc/cron.d*
 ---
 
 
->[!quote] [[Scheduling Scripts]] | [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) 
+>[!quote] [Scheduling Scripts](/obisdian_ntoes/scriptss/Scheduling Scripts.md) | [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) 

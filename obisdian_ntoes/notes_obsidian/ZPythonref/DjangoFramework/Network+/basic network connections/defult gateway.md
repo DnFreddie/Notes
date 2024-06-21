@@ -9,4 +9,4 @@ type:: network+
 
 
 
->[!quote] [[subnet mask]] ; [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) ; [[lo]]
+>[!quote] [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) ; [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) ; [lo](/obisdian_ntoes/notes_obsidian/Penetration/lo.md)

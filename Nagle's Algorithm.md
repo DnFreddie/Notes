@@ -18,4 +18,4 @@
 
 
 
->[!quote] [HTTP](/protocols/HTTP.md) [[ports]] [[bandwidth]]
+>[!quote] [HTTP](/protocols/HTTP.md) [ports](/ports/ports.md) [bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md)

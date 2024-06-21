@@ -28,4 +28,4 @@ Confidentiality and integrity/anti-replay
  - This also encrypts the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)
 	 -  ![IPSecTunnelMode_visual.png](/static/IPSecTunnelMode_visual.png)
 
->[!quote] [[OSI Model]]  [VPN](/VPN.md)
+>[!quote] [OSI Model](/obisdian_ntoes/notes_obsidian/MAIN Network+/OSI Model.md)  [VPN](/VPN.md)

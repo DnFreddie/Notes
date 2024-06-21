@@ -21,4 +21,4 @@ located near [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for effic
 
 
 
->[!quote] [[Cpu]] ||[[redis]] [Etag](/Etag.md)
+>[!quote] [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) ||[redis](/databases/redis.md) [Etag](/Etag.md)

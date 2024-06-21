@@ -28,7 +28,7 @@ $$3$$
 ## Managing DHCP in the enterprise 
 
 Limited connections 
- - Uses [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md) [[broadcast]] domain
+ - Uses [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md) [broadcast](/obisdian_ntoes/for later/broadcast.md) domain
  - Stops at router 
 Multiple servers neeeded for **redundacy** 
  - Across diffrent location

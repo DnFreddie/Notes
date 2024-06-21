@@ -16,4 +16,4 @@
 The issue here is that [e2fsck](/e2fsck.md)  will **analyze the <mark style="background: #FF5582A6;">entire file system</mark>** when this happens, not just the last few files that were in the process of being modified
 
 ---
-[[ext3]] [ext4](/ext4.md) [[Files systems.canvas|Fiels systems]]
+[ext3](/ext3.md) [ext4](/ext4.md) [[Files systems.canvas|Fiels systems]]

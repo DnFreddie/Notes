@@ -11,4 +11,4 @@ type:: network+
 		(Data Over Cable Service Interfece Specyfication) 
 - High-speed networking
 	- 50 Mbits/s through 1,000+ Mbit/s are common
->[!quote] [[Cable broadband]] [[Copper]] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md)
+>[!quote] [Cable broadband](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cable broadband.md) [Copper](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Copper.md) [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md)

@@ -8,4 +8,4 @@ type:: network+
 - High [Return Loss](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Return Loss.md)
 
 
->[!quote] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md) [[Cables]]
+>[!quote] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md) [Cables](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cables.md)

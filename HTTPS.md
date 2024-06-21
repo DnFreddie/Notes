@@ -8,4 +8,4 @@ type:: network+
 [Etag](/Etag.md)
 
 
->[!quote] [[HTTP]] [carrige_return](/carrige_return.md) [[NTP_protocol]]
+>[!quote] [HTTP](/protocols/HTTP.md) [carrige_return](/carrige_return.md) [NTP_protocol](/protocols/NTP_protocol.md)

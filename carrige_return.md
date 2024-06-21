@@ -8,7 +8,7 @@ Control characters that appear to the text file to innit to the printer that it 
 - Line Feed **"\n"**
 - Carriage Return **"\r"**
 
- ==[[HTTP]]  and [HTTPS](/HTTPS.md) format is Linefid + Carraige==
+ ==[HTTP](/protocols/HTTP.md)  and [HTTPS](/HTTPS.md) format is Linefid + Carraige==
 
 ![Carriage_retur_visual.png](/static/Carriage_retur_visual.png)
 - On windosw 

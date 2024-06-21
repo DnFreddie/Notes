@@ -9,4 +9,4 @@ and particular modules to enable that
 	- ==#[cfg(test)]==
 		- Everything in this directory is compiled to the difften binariers 
 
->[!quote] [[visual-reggression_tests]] [port 0](/ports/port 0.md)
+>[!quote] [visual-reggression_tests](/tests/visual-reggression_tests.md) [port 0](/ports/port 0.md)

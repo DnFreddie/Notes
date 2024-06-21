@@ -9,4 +9,4 @@ type:: network+
 	- ![DHCPRelyOffer_visual.png](/static/DHCPRelyOffer_visual.png)
 4. The router recognieses the **DHCP reely config** and changes ip adress to be a brodcarts for local network   
 
->[!quote] [[DHCP_protocol]] [DHCP process](/DHCP process.md)
+>[!quote] [DHCP_protocol](/protocols/DHCP_protocol.md) [DHCP process](/DHCP process.md)

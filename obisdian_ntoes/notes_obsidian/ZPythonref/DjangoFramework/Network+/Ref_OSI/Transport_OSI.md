@@ -5,4 +5,4 @@ has to be devided into smaller pieces
 - TCP(*Transmition Control Protocol*)
 - UDP (*USer Datagram Protocol*)
 >[!quote] 
->[bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md),[[MTU]]
+>[bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md),[MTU](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MTU.md)

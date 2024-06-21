@@ -32,4 +32,4 @@
 
 
 
->[!quote] [[HTTPS]] [[http_headers]] [CORS](/CORS.md)
+>[!quote] [HTTPS](/HTTPS.md) [http_headers](/http_headers.md) [CORS](/CORS.md)

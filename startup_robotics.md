@@ -13,7 +13,7 @@ In order to stuart up the engeine u have to provide **Suppley Voltage**
 ####  Motor driver 
 
 
-- Motors requiter a relativity ==high [[voltage_rob]]==  and [current_rob](/current_rob.md)
+- Motors requiter a relativity ==high [voltage_rob](/voltage_rob.md)==  and [current_rob](/current_rob.md)
 >[!bug]- Connecting them directly to processor by end up in fire
 >![Pasted_image_20231004133958.png](/static/Pasted_image_20231004133958.png)
 

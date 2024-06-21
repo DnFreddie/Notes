@@ -37,4 +37,4 @@
 }
 ```
 ---
-[[nix]] [[flake]][SNIPPETS_MAIN](/SNIPPETS_MAIN.md)
+[nix](/nix.md) [flake](/code_snippets/flake.md)[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)

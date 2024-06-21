@@ -22,7 +22,7 @@ An isnstance of the eceacutable
 
 ---
 ### Prioryty 
-- Change prioryty using [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md) [[renice]]
+- Change prioryty using [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md) [renice](/obisdian_ntoes/notes_obsidian/Linux/renice.md)
 	- [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) time  = priority level
 - Priortiy class 
 

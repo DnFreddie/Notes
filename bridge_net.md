@@ -6,7 +6,7 @@ Virtual or psychical device that connect multiple [LAN](/obisdian_ntoes/notes_ob
 
 
 ### Docker bridging
-- Default [[docker]] bridge doesn't allow for the [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) change
+- Default [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md) bridge doesn't allow for the [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) change
 	-  U have to create one 
 	- ***[[Dns]] Name is the same as the container name*** 
 
@@ -21,4 +21,4 @@ docker network create my-bridge-net --subnet  10.0.0..0/19
 
 
 --- 
-[[NAT]] [host_net](/host_net.md)
+[NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) [host_net](/host_net.md)

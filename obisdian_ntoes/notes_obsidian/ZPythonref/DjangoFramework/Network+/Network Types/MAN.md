@@ -4,4 +4,4 @@ topic:: network-type
 status:: START
 ---
 ## Metropolitan Area Network
-- **Larger then [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) smaller then [[WAN]]**
+- **Larger then [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) smaller then [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md)**

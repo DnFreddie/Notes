@@ -8,4 +8,4 @@ type:: Network
 - Reduce the number of fiber runs by half
 ![Bi-Directional transceivers_visual.png](/static/Bi-Directional transceivers_visual.png)
 
->[!quote] [[transceiver]] ;  [duplex communication](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/duplex communication.md) ; [[media converter]]
+>[!quote] [transceiver](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/transceiver.md) ;  [duplex communication](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/duplex communication.md) ; [media converter](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/media converter.md)

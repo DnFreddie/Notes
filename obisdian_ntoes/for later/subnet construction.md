@@ -4,7 +4,7 @@ type:: network+
 ---
 ## The cosntruction of the subnet 
 - **Network adress**
-	- The first [[IP]] of the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
+	- The first [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) of the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
 	- Set all host bits to 0 (0 decimal)
 - **First usable host adress** 
 	- One number highert than the network adress

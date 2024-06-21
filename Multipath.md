@@ -8,4 +8,4 @@
 
 ---
 
-[[SAN]]  [iSCSI](/iSCSI.md)
+[SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md)  [iSCSI](/iSCSI.md)

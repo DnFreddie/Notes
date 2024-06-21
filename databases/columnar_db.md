@@ -8,4 +8,4 @@ Data is stored and accesed based on columns
 - high compression rates due to the column-wise storage structure. Data in a column typically has similar data types and patterns
 		![ColumnarDatabaseExample_visual.png](/static/ColumnarDatabaseExample_visual.png)
 
->[!quote] [redis](/databases/redis.md) [[firebase]] 
+>[!quote] [redis](/databases/redis.md) [firebase](/databases/firebase.md) 

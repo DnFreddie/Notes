@@ -9,4 +9,4 @@ The **s** instead of h rperesnts that file is in *SUID mode*
 >[!example] To set the SUID bit, enter a 4 before the regular permissions
 >you want to do so, you’ll use the chmod command, as in chmod 4644 filename.
 
->[!quote] [[userID]] [SGID](/obisdian_ntoes/notes_obsidian/Linux/SGID.md) [[UUID]]
+>[!quote] [[userID]] [SGID](/obisdian_ntoes/notes_obsidian/Linux/SGID.md) [UUID](/datatypes/UUID.md)

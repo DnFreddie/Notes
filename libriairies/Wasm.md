@@ -27,5 +27,5 @@ $$2$$
 [Speed Test](https://youtu.be/4KtotxNAwME)
 
 
->[!quote] [[compilers]] | [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
+>[!quote] [compilers](/obisdian_ntoes/compilers.md) | [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
 

@@ -24,7 +24,7 @@ $$1$$
 ### Check weather data is to large!
 - Troubleshoot using [ping_command](/ping_command.md)
 	- Ping with **DF** force a perticular size of data
-	  1500 bytes - 8bytes [ICMP_protocol](/ICMP_protocol.md) headr - 20bytes [[IP]] = **1472**
+	  1500 bytes - 8bytes [ICMP_protocol](/ICMP_protocol.md) headr - 20bytes [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) = **1472**
 		- **Widnows**
 		  ```
 		  ping -f -l 1472 8.8.8.8 
@@ -36,4 +36,4 @@ $$1$$
 
 $$2$$
 >[!quote] 
->[bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md) [[ifconfig]] 
+>[bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md) [ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md) 

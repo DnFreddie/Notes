@@ -10,4 +10,4 @@
 	- No develompent work requaierd 
 
 
->[!quote] [[IaaS]]  [PaaS](/PaaS.md)
+>[!quote] [IaaS](/IaaS.md)  [PaaS](/PaaS.md)

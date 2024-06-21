@@ -35,4 +35,4 @@ $$2$$
 | reference.push().set("new value")| *Insert a new word*                       |                                    |                     |                         |     |     |
 | reference.transaction(function)  | *Modify the whole node*                   |                                    |                     |                         |     |     |
 $$3$$
->[!quote] [[pandas_py]] [redis](/databases/redis.md)
+>[!quote] [pandas_py](/obisdian_ntoes/notes_obsidian/ZPythonref/pandas_py.md) [redis](/databases/redis.md)

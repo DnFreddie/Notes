@@ -9,4 +9,4 @@ at **time** -f path/to/file *./*myscript
 **atq** - what jobs are cheduled 
 **atr(number of the job)** -remove the job 
 
->[!quote] [Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) [[Scheduling Scripts]]
+>[!quote] [Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) [Scheduling Scripts](/obisdian_ntoes/scriptss/Scheduling Scripts.md)

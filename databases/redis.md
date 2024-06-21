@@ -10,4 +10,4 @@ It uses ==key-value pairs==
 	- It can truly imporve preformence of the constaly used data 
 	- extremely fast read and write operation
  
->[!quote] [columnar_db](/databases/columnar_db.md) [[redis]] [[firebase]]
+>[!quote] [columnar_db](/databases/columnar_db.md) [redis](/databases/redis.md) [firebase](/databases/firebase.md)

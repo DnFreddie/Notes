@@ -11,4 +11,4 @@ type:: network+
 - IT magages the   [[MAC Adress]] 
 
 
->[!quote] [[Physical_OSI]] [request_journey_kernel](/request_journey_kernel.md)
+>[!quote] [Physical_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Physical_OSI.md) [request_journey_kernel](/request_journey_kernel.md)

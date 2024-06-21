@@ -14,4 +14,4 @@ U can have 2 [threads](/obisdian_ntoes/for later/threads.md)  listing on the sam
 
 
 
->[!quote] [[request_journey_kernel]] [sync_ queue](/sync_ queue.md)
+>[!quote] [request_journey_kernel](/request_journey_kernel.md) [sync_ queue](/sync_ queue.md)

@@ -23,7 +23,7 @@ $$1$$
 	$$2$$ 
 ## Breadth first seatch
 Oposite of a depth first search 
-- We use [queue_algorithms](/Algorithms/queue_algorithms.md) **instead** of [[stack_algorithms]] 
+- We use [queue_algorithms](/Algorithms/queue_algorithms.md) **instead** of [stack_algorithms](/Algorithms/stack_algorithms.md) 
 - Its a **tree level visiting**
 	One tree level at a time 
 	![BreadthFirstSarge_visual.png](/static/BreadthFirstSarge_visual.png)

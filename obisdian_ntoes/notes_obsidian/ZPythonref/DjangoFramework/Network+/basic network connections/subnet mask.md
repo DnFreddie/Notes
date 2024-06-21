@@ -15,10 +15,10 @@ In order to calculate this we sum up all the ones
 		- Used by the local device **in conjunction with [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)** to  determnie what subnet its on 
 			- *The subnet mask is not (ussualy transmited across the network)*
 
-Now we use [VLSM](/obisdian_ntoes/for later/VLSM.md) instead of [[subnet classes]]
+Now we use [VLSM](/obisdian_ntoes/for later/VLSM.md) instead of [subnet classes](/obisdian_ntoes/for later/subnet classes.md)
 
 
 
 $$ $$
 [subnet construction](/obisdian_ntoes/for later/subnet construction.md)
->[!quote] [[defult gateway]] [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md)
+>[!quote] [defult gateway](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/defult gateway.md) [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md)

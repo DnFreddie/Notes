@@ -63,4 +63,4 @@ fi
 | unset    | deletes values from variables or funtion                                                                                    |
 | wait     | waits for a bacground process to complete                                                                                                                             |
 
->[!quote] [[She-bang]] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)
+>[!quote] [She-bang](/obisdian_ntoes/scriptss/She-bang.md) [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)

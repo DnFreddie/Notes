@@ -21,4 +21,4 @@ Dynamic arrays can be used to implement queue-like operations efficiently:
 - **Dequeuing:** Removing elements from the front of the array requires shifting all remaining elements to the left to fill the gap created by dequeuing.
  
   ---
-  [ring buffer](/Algorithms/ring buffer.md) [[Static Array]]
+  [ring buffer](/Algorithms/ring buffer.md) [Static Array](/obisdian_ntoes/Applied data_Obsydian/Python/data.py/Static Array.md)

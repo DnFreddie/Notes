@@ -18,4 +18,4 @@ type:: Python
 ```
 
 
->[!quote]  [[regex]] [python_functions](/obisdian_ntoes/notes_obsidian/ZPythonref/python_functions.md)
+>[!quote]  [regex](/obisdian_ntoes/notes_obsidian/ZPythonref/regex.md) [python_functions](/obisdian_ntoes/notes_obsidian/ZPythonref/python_functions.md)

@@ -30,6 +30,6 @@
 
 
 --- 
-[Namespaces](/Namespaces.md) [[Kernel]]
+[Namespaces](/Namespaces.md) [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)
 
 

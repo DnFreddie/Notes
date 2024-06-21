@@ -17,4 +17,4 @@ type:: network+
 	-  extensive use in [IPv6 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/IPv6 address.md)
 
 
->[!quote] [[anycast]] |[multicast](/obisdian_ntoes/for later/multicast.md) | [[broadcast]]
+>[!quote] [anycast](/obisdian_ntoes/for later/anycast.md) |[multicast](/obisdian_ntoes/for later/multicast.md) | [broadcast](/obisdian_ntoes/for later/broadcast.md)

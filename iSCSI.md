@@ -19,4 +19,4 @@
 >1. edit iscsid.con and change the mannual startup to *automatic*
 >2. do the same in */etc/iscsi/nodes*  in every file
 
->[!quote] [FCoE](/FCoE.md) [[SAN]] [[NAS]]
+>[!quote] [FCoE](/FCoE.md) [SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md) [NAS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/NAS.md)

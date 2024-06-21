@@ -13,4 +13,4 @@ Te where used by programing language to build varaibles that refer to the memory
 
 
 ---
-[cgroups](/cgroups.md) [[Kernel]] [[docker]]
+[cgroups](/cgroups.md) [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)

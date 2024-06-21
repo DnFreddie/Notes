@@ -144,11 +144,32 @@ Rember to install stuff in the as root user profile then the user can use the so
 Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nix/var/nix/profiles/default/bin"
 
 ```
+### Pacages 
 
+U can use a bulti in **.package** module  to install different packages
+[Example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples) 
 
+### Vault pass
+Using Ansible Vault with a Password File
+If you do not wish to type in the Vault password each time you execute a task, you can add your Vault password to a file and reference the file during execution.
+
+For example, you could put your password in a .vault_pass file like this:
+
+ 
+```bash
+echo 'my_vault_password' > .vault_pass
+```
+If you are using version control, make sure to add the password file to your version control software’s ignore file to avoid accidentally committing it:
+[Ansaible vault with the password file ](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data#using-ansible-vault-with-a-password-file)
 
 ---
+```bash
+ansible-playbook  main.yml -i inventory   --vault-password-file=.vault_pass
+
+```
+
 
 [Teraform](/Teraform.md) 
 [Puppet](/Puppet.md)
+
 

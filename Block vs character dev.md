@@ -20,5 +20,5 @@
 >[!tip] U can get random numbers via $RANDOM
 
 ---- 
- [Getting PCI dev info](/Getting PCI dev info.md) [[Device types]]
+ [Getting PCI dev info](/Getting PCI dev info.md) [Device types](/obisdian_ntoes/notes_obsidian/Linux/Device types.md)
  

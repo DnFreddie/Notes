@@ -14,4 +14,4 @@ ssh-keygen -t ed25519
 >Wsl grants all the permison to a file that may casue issue becouse ssh will claim thas **insecure**
 
 
->[!quote] [[ports]] [podman](/podman.md) [[docker]]
+>[!quote] [ports](/ports/ports.md) [podman](/podman.md) [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)
