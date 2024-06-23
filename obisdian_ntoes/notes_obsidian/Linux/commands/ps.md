@@ -20,4 +20,9 @@ type:: Linux
 The kernel is giving the ID from the first procces taht started to the last 
 [top](/obisdian_ntoes/notes_obsidian/Linux/top.md)
 
+see the childer procces
+```bash
+ps faucx| grep -i brave
+```
+
 >[!quote] [shell](/obisdian_ntoes/notes_obsidian/Linux/shell.md)

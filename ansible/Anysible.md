@@ -17,7 +17,7 @@
 **Can do windows automation on windows**
 
 ### Plugins/Modules
-
+To list modules  use `ansiable-dock  -l`
 - *inventory plugins* 
     - organize managed  host to different  kinds of inventory
 - *connection plugins*   
@@ -56,6 +56,20 @@ collbacks_enabled = ansible.posix.profile_roles
 ```
 
 ### Inventory
+
+To use the **host group** for the playbook  use `inventory_hostname`
+
+```bash 
+
+  hosts: home_machines
+  vars:
+    user_home: "/home/{{ inventory_hostname }}"
+```
+#### Diffrences
+![Ansiable hosname vs inventory_hostname](static/a_hostname_vs_in_hostname.png)
+
+[Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
+
 [Using a dynamic libvirt inventory with Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
 
 Example:
@@ -135,6 +149,11 @@ task:
 #### Plugins  
 Uses ansiable-**galaxy**
 They provied modules like for example to work with [Libvirt](https://docs.ansible.com/ansible/latest/collections/community/libvirt/index.html)
+
+
+
+
+
 
 
 ### Ansiable with nix 

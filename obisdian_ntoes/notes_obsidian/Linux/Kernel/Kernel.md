@@ -2,8 +2,9 @@
 date:: 21 04 2023
 type:: Linux
 ---
+
 ## Baisisc info of the kernel 
-**uname -a**
+**uname -a**/**-r**
 >[!tip]- Result 
 >![KernnelVersion_visual.png](/static/KernnelVersion_visual.png)
 
@@ -27,6 +28,18 @@ type:: Linux
 
 -   **System calls and support**
 	-   [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md) normally use system calls to communicate with the kernel.
+
+
+### See the previous verison of the kernel that are on the machine
+**Rembeber to backup the Kernel**
+
+```bash 
+ls -l /boot/vm*
+```
+
+```bash
+apt list --installed | grep linux-image
+```
 
 ### Kernel Otpions
 U have to write to *etc/sysctl.conf*

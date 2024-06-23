@@ -70,6 +70,19 @@ sudo service *name* restart
 [service](/obisdian_ntoes/notes_obsidian/Linux/service.md)
 
 
+
+#### See what was dirscly when the unit was started
+
+**Example** ssh
+
+```bash
+systemd-analyze critical-chain ssh
+systemctl cat ssh
+```
+
+
+
+
 ### Configuration
 >[!example]- [Docs configuration](https://access.redhat.com/documentation/enus/red_hat_enterprise_linux/8/html-single/using_systemd_unit_files_to_customize_and_optimize_your_system/indexj)
 >![Pasted_image_20240514205706.png](/static/Pasted_image_20240514205706.png)
