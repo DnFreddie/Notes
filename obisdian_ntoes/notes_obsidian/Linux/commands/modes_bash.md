@@ -2,7 +2,10 @@
 date:: 2023-07-13
 type:: Bash
 ---
+[Docs](https://tldp.org/)
+
 ## Modes Table 
+`U should check weather u have the perrmison to wirte to a log file or smth`
 | Mode                    | Description                                                 |
 | ----------------------- | ----------------------------------------------------------- |
 | `-e` or `-o errexit`    | Exits immediately if any command fails.                      |

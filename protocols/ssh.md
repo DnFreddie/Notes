@@ -5,7 +5,10 @@ type:: network+
 ## Secure shell 
 Looks and acts the same as a telnet
 
-## Key-gen 
+####  To checkot the config use 
+ **ssd -T**
+
+#### Key-gen 
 
 ```bash
 ssh-keygen -t ed25519

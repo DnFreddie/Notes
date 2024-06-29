@@ -1,8 +1,10 @@
 ---
 date:: 2023-07-13
 type:: Bash
-
 ---
+[Docs](https://tldp.org/)
+
+
 ![modes_bash](/obisdian_ntoes/notes_obsidian/Linux/commands/modes_bash.md)
 
 ---

@@ -155,7 +155,6 @@ They provied modules like for example to work with [Libvirt](https://docs.ansibl
 
 
 
-
 ### Ansiable with nix 
 Rember to install stuff in the as root user profile then the user can use the softerwe and also add the nix path to **sudo path**
 
@@ -181,14 +180,15 @@ echo 'my_vault_password' > .vault_pass
 If you are using version control, make sure to add the password file to your version control software’s ignore file to avoid accidentally committing it:
 [Ansaible vault with the password file ](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data#using-ansible-vault-with-a-password-file)
 
----
+
 ```bash
 ansible-playbook  main.yml -i inventory   --vault-password-file=.vault_pass
 
 ```
 
-
+---
 [Teraform](/Teraform.md) 
 [Puppet](/Puppet.md)
+[Ansible commands](/ansible/ansible_commands.md)
 
 
