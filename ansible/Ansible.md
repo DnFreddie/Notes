@@ -1,7 +1,7 @@
  **Push model**
 	- Ruby based 
-		- ***demon less***
-		- configuration 
+		-   ***demon less***
+		  - 
 - **Procedural**
 	- it creates top to bottom
 
@@ -15,9 +15,11 @@
 
     - public and private cloud 
 **Can do windows automation on windows**
+ - It has to hav **python** isntalled on the machines
 
 ### Plugins/Modules
-To list modules  use `ansiable-dock  -l`
+To list modules  use `ansiable-doc  -l`
+To get the help of the particular module use `ansible-doc -s <module>`
 - *inventory plugins* 
     - organize managed  host to different  kinds of inventory
 - *connection plugins*   
@@ -45,7 +47,11 @@ To list modules  use `ansiable-dock  -l`
 ansible --version
 
 ```
-### Example configuration
+### Example confiExample
+poetry2nix.mkPoetryEnv {
+    projectDir = ./.;
+    overrides = poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
+}guration
 
 ```bash
 [defualts]
@@ -56,6 +62,15 @@ collbacks_enabled = ansible.posix.profile_roles
 ```
 
 ### Inventory
+
+- U can use pass the arguments **direcly to the ivnentory**
+```bash 
+[test_server]
+control_test type=client
+node_test type=server
+
+```
+
 
 To use the **host group** for the playbook  use `inventory_hostname`
 

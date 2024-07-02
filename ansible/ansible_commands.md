@@ -1,12 +1,12 @@
 [Docs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-multiple-servers-with-ansible-ad-hoc-commands)
 
-### Test Host connection
+# Test Host connection
 
 ```bash
 ansible all -i inventory -m ping
 ```
 
-### Defining Targets
+## Defining Targets
 
 *You can also specify multiple hosts and groups by separating them with colons:*
 
@@ -14,7 +14,7 @@ ansible all -i inventory -m ping
 ansible server1:server2:dbservers -i inventory -m ping
 ```
 
-### Runing modules 
+## Runing modules 
 
 - Probably u will need to use the **setup module** 
     - [Docs](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html#examples)
@@ -27,9 +27,10 @@ ansible server1:server2:dbservers -i inventory -m ping
 ```bash 
 ansible <target group> -i inventory -m module -a "module options"
 ```
+##### Setup module 
+- pages of information about the server that can be used as variable in the playbooks later
 
-
-### Run as root 
+##### Run as root 
 ```bash
 ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 ```

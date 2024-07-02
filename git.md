@@ -9,11 +9,24 @@
 ```bash
 git config --global user.name 'aura'
 ```
+### Git Log 
+*To better display the commits*
+```bash 
+git log --oneline 
+```
+
 ```bash
 git config --global user.email DefnotFreddie@defnotfreddie@gmail.com
 ```
 >[!tip]- It has to be u're gti name
 >![Pasted_image_20230903144619.png](/static/Pasted_image_20230903144619.png)
+
+
+### Creating the branch 
+
+```bash
+git switch -c <branch name>
+```
 
 
 ### Add files 
@@ -29,7 +42,7 @@ git add -p
 
 >[!example]-
 >![Pasted_image_20240508110725.png](/static/Pasted_image_20240508110725.png)
-e
+
 
 ###  Merge vs Rebase 
 >[!bug] Use rebase locally 
@@ -41,6 +54,7 @@ e
 ```bash
 git merge --abrot
 ```
+
 
 ```bash
 git rebase --abrot

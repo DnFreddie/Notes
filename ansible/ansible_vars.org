@@ -1,0 +1,47 @@
+#+title: Ansible Vars
+
+* Registers
+/Capture the output of the play inside the varaible/
+#+begin_src yaml
+
+- name: Register Playbook
+  hosts: proxy
+  tasks:
+    - name: Run a command
+      command: uptime
+      register: server_uptime
+
+    - name: Inspect the server_uptime variable
+      debug:
+        var: server_uptime
+
+    - name: Show the server uptime
+      debug:
+        msg: "{{ server_uptime.stdout }}"
+
+#+end_src
+* Ansible varaibles
+** Creating a list dictionaries
+/The variables can be listed in the array/
+    #+begin_src yaml
+ vars:
+    port_nums: [21,22,23,25,80,443]
+
+    #+end_src
+*** Including external variables
+/Just use *var_files* to import them from the another **yml** file/
+==Keep in mind that **vars_files loads the variables right at the start of the playbook**.==
+
+*** Dynamic  Varaibles
+You can also use the ==include_vars== module to dynamically load your variables in your playbook.
+#+begin_src yaml
+- name: Working with variables
+  hosts: node1
+  tasks:
+    - name: Load the variables
+      include_vars: myvars.yml
+
+    - name: Show 2nd item in port_nums
+      debug:
+        msg: SSH port is {{ port_nums[1] }}
+#+end_src

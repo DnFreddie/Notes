@@ -37,15 +37,18 @@
 	- Example logs  or data required for the  app
 
 >[!example]-
->![Pasted_image_20240509210026.png](/static/Pasted_image_20240509210026.png)
+>![pasted_image_20240509210026.png](/static/pasted_image_20240509210026.png)
 
-[Docks](https://raghavramesh.github.io/posts/kubernetes-multi-container-patterns/)
-
-
-
-#### Node_k
-- **Pshyhical virtual machine**
-	- runs one or more Pod 
+[docks](https://raghavramesh.github.io/posts/kubernetes-multi-container-patterns/)
 
 
+
+#### node_k
+- **pshyhical virtual machine**
+	- runs one or more pod 
 --- 
+
+## Diffrent tools 
+
+ -  **warewolf**
+ 		[WareWolf](https://warewulf.org/)
