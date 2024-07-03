@@ -134,7 +134,9 @@ dbservers
 
 
 ```
-#### Facts and conditionals
+### Facts and conditionals
+ 
+ *Gathering facts may be constly* use **setup** for the specyfic machines u want to chekout
 
 - If **gather_facts** enabled we can use uthis to veryfie facts of the systme 
     - And set the taks blocks acordingly 

@@ -34,6 +34,11 @@ ansible <target group> -i inventory -m module -a "module options"
 ```bash
 ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 ```
-
 ---
 [ansible](/ansible/Ansible.md)
+
+### Ansible  Debuging
+*U can skip the deubiging message by using etiher the:*
+- **Verbosity Level** in ur playbook
+- Just use `-vvv` flag
+
