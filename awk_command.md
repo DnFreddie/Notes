@@ -5,6 +5,11 @@ type:: Linux
 ## Awk 
 The  awk contains blocks  
 
+### Skip headers  and empty lines 
+```bash 
+awk 'NR > 1 && $2 != "" {print $2}' 
+
+```
  - Givinig new headers to the table  
 (*rename columns*)
 ```awk

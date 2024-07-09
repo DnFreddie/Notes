@@ -28,6 +28,60 @@ type:: Python
 | **pipe**  | *Either or "falls pipe stays"*                         |
 | **()**    | *Capture the group*                                                      |
 
+
+
+- [^a-d] Netgeted character set
+-  {3,} THis should be used atleast tree times
+- Parentheses (?: ): Non-capturing Grouping
+
+### Lookarounds
+If we want the phrase we're writing to come before or after another phrase, we need to "lookaround".
+Take the next step to learn how to "lookaround".
+
+#### Positive Lookahead: (?=)
+For example, we want to select the hour value in the text.
+Therefore, to select only the numerical values that have PM after them,
+we need to write the positive look-ahead expression (?=) after our expression.
+Include PM after the = sign inside the parentheses.
+
+```bash
+# This selects only 3 
+\d+(?=PM)
+Date: 4 Aug *3*PM
+
+```
+#### Negative Lookahead: (?!)
+For example, we want to select numbers other than the hour value in the text.
+Therefore, we need to write the negative look-ahead (?!) expression after our expression to 
+select only the numerical values that do not have PM after them.
+Include PM after the ! sign inside the parenthese
+
+```bash
+# This selects only 4
+\d+(?!PM)
+Date: 4 Aug 3PM
+
+```
+#### Positive Lookbehind: (?<=)
+
+
+r example, we want to select the price value in the text.
+Therefore, to select only the number values that are preceded by $,
+we need to write the positive lookbehind expression (?<=) before our expression.
+Add \$ after the = sign inside the parenthesis.
+
+
+
+```bash
+# This selects only 5$
+(?<=\$)\d+
+Product Code: 1064 Price: $5
+
+
+```
+
+
+
 ## Groups 
 **U can set matches into particular gorups**
 

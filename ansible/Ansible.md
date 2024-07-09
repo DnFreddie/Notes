@@ -72,7 +72,11 @@ node_test type=server
 ```
 
 
+- The beterr approach is to use the `ansible_hostname` 
+    - since it first performs *uname -n*
+
 To use the **host group** for the playbook  use `inventory_hostname`
+
 
 ```bash 
 
@@ -81,7 +85,7 @@ To use the **host group** for the playbook  use `inventory_hostname`
     user_home: "/home/{{ inventory_hostname }}"
 ```
 #### Diffrences
-![Ansiable hosname vs inventory_hostname](static/a_hostname_vs_in_hostname.png)
+![Ansiable hosname vs inventory_hostname](/static/a_hostname_vs_in_hostname.png)
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
 
