@@ -5,6 +5,23 @@ type:: Linux
 ---
 ## find
 
+- **executable**
+    - Look for the binaries 
+
+ ```bash
+
+find -executable 
+
+```
+- Look for the broken links 
+
+```bash 
+
+find . -xtype l
+
+```
+
+
 - find *dir* -type f(file) -name (name of the file )
 **find / will went through all dir**
 

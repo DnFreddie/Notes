@@ -2,7 +2,9 @@
 title: Ansible Vars
 ---
 
+
 # Registers
+
 
 *Capture the output of the play inside the variable*
 
@@ -53,14 +55,21 @@ title: Ansible Vars
     {% endif %}
 
     {% endfor %}
+
     ```
-
 # Ansible variables
+### Varialbe prcencece
+[Docs](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
 
+**The most important  is the `--extra-vars`**
+```bash
+(for example, -e "user=my_user")(always win precedence)
+
+```
 ### Including external variables
 
-*Just use **var~files~** to import them from the another **yml** file*
-Keep in mind that **vars~files~** loads the variables right at the start
+*Just use **var files** to import them from the another **yml** file*
+Keep in mind that **vars files** loads the variables right at the start
 of the playbook\*\*.
 
 ### Dynamic Varaibles

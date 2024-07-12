@@ -29,6 +29,17 @@ Mnageign vms headlessley
     sudo virsh snapshot-create-as ubuntu24.04 ubuSnap1 "new snapshot"
 
 
+### Reverting 
+
+```bash
+virsh snapshot-revert fedora36 snapshot0
+
+```
+- or to the last one
+```bash
+virsh snapshot-revert fedora36 --current
+```
+
 #### Listing Domain 
 -  virsh snapshot-list <name of the vm>
 

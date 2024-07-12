@@ -139,7 +139,9 @@ dbservers
 
 ```
 ### Facts and conditionals
- 
+[Docs](https://www.golinuxcloud.com/ansible-facts/)
+
+#### Gathering info
  *Gathering facts may be constly* use **setup** for the specyfic machines u want to chekout
 
 - If **gather_facts** enabled we can use uthis to veryfie facts of the systme 
@@ -164,10 +166,15 @@ task:
 
 ```
 
+#### User defined facts
+
+Create  `/etc/ansible/facts.d` on the *managed nodes*
+- The file has tave to have **.file**  extentsion 
+- Has to be in the **Json Format**
 
 
 
-#### Plugins  
+### Plugins  
 Uses ansiable-**galaxy**
 They provied modules like for example to work with [Libvirt](https://docs.ansible.com/ansible/latest/collections/community/libvirt/index.html)
 
@@ -176,7 +183,7 @@ They provied modules like for example to work with [Libvirt](https://docs.ansibl
 
 
 
-### Ansiable with nix 
+#### Ansiable with nix 
 Rember to install stuff in the as root user profile then the user can use the softerwe and also add the nix path to **sudo path**
 
 ```bash 

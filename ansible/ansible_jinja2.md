@@ -12,7 +12,8 @@ title: Ansible Jinja2
 ## Delegating
 
 -   By defulat the ansible copies the files to all the host
-    -   To prevent that use **delegate~to~** *local~host~*
+    -   To prevent that use **delegate_to** *local host*
+
 
 ### Template module
 
@@ -40,4 +41,28 @@ title: Ansible Jinja2
     userlist_enable=YES
     # MY IP Address={{ ansible_facts['default_ipv4']['address'] }}
 
+    ```
+
+
+## Filtering the nodes
+
+-   *Shorter one*
+
+    ``` templ
+    {{ ansible_play_host_all | select('not in', ansible_play_hosts) | join(', ') }}
+    ```
+
+-   *Longer one*
+
+    ```templ
+
+    {% for host in ansible_play_host_all %}
+
+    {% if host not in ansible_play_hosts%}
+
+    {{host}}
+
+    {% endif %}
+
+    {% endfor %}
     ```
