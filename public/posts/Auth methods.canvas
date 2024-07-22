@@ -1,0 +1,30 @@
++++
+title = 'Auth methods.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
+  "nodes": [
+    {
+      "id": "aafbc3d61ccd02ff",
+      "type": "text",
+      "text": "### Multi factor Auth(MFA)\n - User password and smth else \n - It requires multiple form, before logging in",
+      "x": -1000,
+      "y": -36,
+      "width": 800,
+      "height": 316
+    },
+    {
+      "id": "9daa8043fdcd5f20",
+      "x": -1000,
+      "y": -400,
+      "width": 800,
+      "height": 300,
+      "type": "text",
+      "text": "### Single Sign On (*SSO*)\n- Query **3rd party**(*google,etc*) to veryfie authetication \n\t- **No local password** "
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

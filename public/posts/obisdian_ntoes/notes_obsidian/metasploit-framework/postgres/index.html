@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Postgres | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="--- date:: 16 04 2023 type:: Data alaises:: Postgconn Baisic Checking health [!bug] Pinging From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.
+To solve this we need to ping it to see if its healthy
+# Keep pinging Postgres until it&#39;s ready to accept commands export PGPASSWORD=&#34;${DB_PASSWORD}&#34; until psql -h &#34;localhost&#34; -U &#34;${DB_USER}&#34; -p &#34;${DB_PORT}&#34; -d &#34;postgres&#34; -c &#39;\q&#39;; do &gt;&amp;2 echo &#34;Postgres is still unavailable - sleeping&#34; sleep 1 done &gt;&amp;2 echo &#34;Postgres is up and running on port ${DB_PORT}!">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/obisdian_ntoes/notes_obsidian/metasploit-framework/postgres/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/obisdian_ntoes/notes_obsidian/metasploit-framework/postgres/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="Postgres">
+  <meta property="og:description" content="--- date:: 16 04 2023 type:: Data alaises:: Postgconn Baisic Checking health [!bug] Pinging From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.
+To solve this we need to ping it to see if its healthy
+# Keep pinging Postgres until it&#39;s ready to accept commands export PGPASSWORD=&#34;${DB_PASSWORD}&#34; until psql -h &#34;localhost&#34; -U &#34;${DB_USER}&#34; -p &#34;${DB_PORT}&#34; -d &#34;postgres&#34; -c &#39;\q&#39;; do &gt;&amp;2 echo &#34;Postgres is still unavailable - sleeping&#34; sleep 1 done &gt;&amp;2 echo &#34;Postgres is up and running on port ${DB_PORT}!">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="Postgres">
+  <meta itemprop="description" content="--- date:: 16 04 2023 type:: Data alaises:: Postgconn Baisic Checking health [!bug] Pinging From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.
+To solve this we need to ping it to see if its healthy
+# Keep pinging Postgres until it&#39;s ready to accept commands export PGPASSWORD=&#34;${DB_PASSWORD}&#34; until psql -h &#34;localhost&#34; -U &#34;${DB_USER}&#34; -p &#34;${DB_PORT}&#34; -d &#34;postgres&#34; -c &#39;\q&#39;; do &gt;&amp;2 echo &#34;Postgres is still unavailable - sleeping&#34; sleep 1 done &gt;&amp;2 echo &#34;Postgres is up and running on port ${DB_PORT}!">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="318"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Postgres">
+<meta name="twitter:description" content="--- date:: 16 04 2023 type:: Data alaises:: Postgconn Baisic Checking health [!bug] Pinging From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.
+To solve this we need to ping it to see if its healthy
+# Keep pinging Postgres until it&#39;s ready to accept commands export PGPASSWORD=&#34;${DB_PASSWORD}&#34; until psql -h &#34;localhost&#34; -U &#34;${DB_USER}&#34; -p &#34;${DB_PORT}&#34; -d &#34;postgres&#34; -c &#39;\q&#39;; do &gt;&amp;2 echo &#34;Postgres is still unavailable - sleeping&#34; sleep 1 done &gt;&amp;2 echo &#34;Postgres is up and running on port ${DB_PORT}!">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Postgres</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
+</code></pre>
+<h2 id="alaises-postgconn">date:: 16 04 2023
+type:: Data
+alaises:: Postgconn</h2>
+<h2 id="baisic">Baisic</h2>
+<h3 id="checking-health">Checking health</h3>
+<blockquote>
+<p>[!bug] Pinging
+From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.</p>
+</blockquote>
+<p>To solve this we need to ping it to see if its <em>healthy</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Keep pinging Postgres until it&#39;s ready to accept commands</span>
+</span></span><span style="display:flex;"><span>export PGPASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_PASSWORD<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">until</span> psql -h <span style="color:#e6db74">&#34;localhost&#34;</span> -U <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_USER<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -p <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;postgres&#34;</span> -c <span style="color:#e6db74">&#39;\q&#39;</span>; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>&gt;&amp;<span style="color:#ae81ff">2</span> echo <span style="color:#e6db74">&#34;Postgres is still unavailable - sleeping&#34;</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>&gt;&amp;<span style="color:#ae81ff">2</span> echo <span style="color:#e6db74">&#34;Postgres is up and running on port </span><span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>
+</span></span><span style="display:flex;"><span>export DATABASE_URL<span style="color:#f92672">=</span>postgres://<span style="color:#e6db74">${</span>DB_USER<span style="color:#e6db74">}</span>:<span style="color:#e6db74">${</span>DB_PASSWORD<span style="color:#e6db74">}</span>@localhost:<span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>DB_NAME<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>sqlx database create
+</span></span></code></pre></div><p>$$1$$</p>
+<h2 id="establisch-docker-connection">Establisch docker connection</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>set -x
+</span></span><span style="display:flex;"><span>set -eo pipefail
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ! <span style="color:#f92672">[</span> -x <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>command -v psql<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>echo &gt;&amp;<span style="color:#ae81ff">2</span> <span style="color:#e6db74">&#34;Error: psql is not installed.&#34;</span>
+</span></span><span style="display:flex;"><span>exit <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ! <span style="color:#f92672">[</span> -x <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>command -v sqlx<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>echo &gt;&amp;<span style="color:#ae81ff">2</span> <span style="color:#e6db74">&#34;Error: sqlx is not installed.&#34;</span>
+</span></span><span style="display:flex;"><span>echo &gt;&amp;<span style="color:#ae81ff">2</span> <span style="color:#e6db74">&#34;Use:&#34;</span>
+</span></span><span style="display:flex;"><span>echo &gt;&amp;<span style="color:#ae81ff">2</span> <span style="color:#e6db74">&#34; cargo install --version=0.5.7 sqlx-cli --no-default-features --features postgres&#34;</span>
+</span></span><span style="display:flex;"><span>echo &gt;&amp;<span style="color:#ae81ff">2</span> <span style="color:#e6db74">&#34;to install it.&#34;</span>
+</span></span><span style="display:flex;"><span>exit <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if a custom user has been set, otherwise default to &#39;postgres&#39;</span>
+</span></span><span style="display:flex;"><span>DB_USER<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>POSTGRES_USER:=postgres<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if a custom password has been set, otherwise default to &#39;password&#39;</span>
+</span></span><span style="display:flex;"><span>DB_PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>POSTGRES_PASSWORD:=password<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if a custom database name has been set, otherwise default to &#39;newsletter&#39;</span>
+</span></span><span style="display:flex;"><span>DB_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>POSTGRES_DB:=newsletter<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if a custom port has been set, otherwise default to &#39;5432&#39;</span>
+</span></span><span style="display:flex;"><span>DB_PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>POSTGRES_PORT:=5432<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Launch postgres using Docker</span>
+</span></span><span style="display:flex;"><span>docker run <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-e POSTGRES_USER<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DB_USER<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-e POSTGRES_PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DB_PASSWORD<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-e POSTGRES_DB<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DB_NAME<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-p <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>:5432 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-d postgres <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>postgres -N <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ^ Increased maximum number of connections for testing purposes</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Keep pinging Postgres until it&#39;s ready to accept commands</span>
+</span></span><span style="display:flex;"><span>export PGPASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_PASSWORD<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">until</span> psql -h <span style="color:#e6db74">&#34;localhost&#34;</span> -U <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_USER<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -p <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;postgres&#34;</span> -c <span style="color:#e6db74">&#39;\q&#39;</span>; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>&gt;&amp;<span style="color:#ae81ff">2</span> echo <span style="color:#e6db74">&#34;Postgres is still unavailable - sleeping&#34;</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>&gt;&amp;<span style="color:#ae81ff">2</span> echo <span style="color:#e6db74">&#34;Postgres is up and running on port </span><span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>
+</span></span><span style="display:flex;"><span>export DATABASE_URL<span style="color:#f92672">=</span>postgres://<span style="color:#e6db74">${</span>DB_USER<span style="color:#e6db74">}</span>:<span style="color:#e6db74">${</span>DB_PASSWORD<span style="color:#e6db74">}</span>@localhost:<span style="color:#e6db74">${</span>DB_PORT<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>DB_NAME<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>sqlx database create
+</span></span></code></pre></div><blockquote>
+<p>[!quote] <a href="/libriairies/Tokio_rs.md">Tokio_rs</a> [Databaes Types](/databases/Databaes Types.md) [[SQL REVISE#SQL]]</p>
+</blockquote>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

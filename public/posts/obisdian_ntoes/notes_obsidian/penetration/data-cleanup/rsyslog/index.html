@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>rsyslog | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="--- date:: 06 04 2023 topic:: sytemlog-baisic-penatration type:: Linux rsyslog.conf Its located in [[etc]] dir
+[!example]- The rsyslog rules The baisic format of this rules facility.priority - action
+facility refrence the programm such as kernel or smth facility types An asterisk wildcard ( * ) in place of a word refers to all facilities. priority ![Priority Codes_visual.png](/static/Priority Codes_visual.png) The codes warn, error, and panic have all been deprecated and should not be used.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/obisdian_ntoes/notes_obsidian/penetration/data-cleanup/rsyslog/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/obisdian_ntoes/notes_obsidian/penetration/data-cleanup/rsyslog/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="rsyslog">
+  <meta property="og:description" content="--- date:: 06 04 2023 topic:: sytemlog-baisic-penatration type:: Linux rsyslog.conf Its located in [[etc]] dir
+[!example]- The rsyslog rules The baisic format of this rules facility.priority - action
+facility refrence the programm such as kernel or smth facility types An asterisk wildcard ( * ) in place of a word refers to all facilities. priority ![Priority Codes_visual.png](/static/Priority Codes_visual.png) The codes warn, error, and panic have all been deprecated and should not be used.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="rsyslog">
+  <meta itemprop="description" content="--- date:: 06 04 2023 topic:: sytemlog-baisic-penatration type:: Linux rsyslog.conf Its located in [[etc]] dir
+[!example]- The rsyslog rules The baisic format of this rules facility.priority - action
+facility refrence the programm such as kernel or smth facility types An asterisk wildcard ( * ) in place of a word refers to all facilities. priority ![Priority Codes_visual.png](/static/Priority Codes_visual.png) The codes warn, error, and panic have all been deprecated and should not be used.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="94"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="rsyslog">
+<meta name="twitter:description" content="--- date:: 06 04 2023 topic:: sytemlog-baisic-penatration type:: Linux rsyslog.conf Its located in [[etc]] dir
+[!example]- The rsyslog rules The baisic format of this rules facility.priority - action
+facility refrence the programm such as kernel or smth facility types An asterisk wildcard ( * ) in place of a word refers to all facilities. priority ![Priority Codes_visual.png](/static/Priority Codes_visual.png) The codes warn, error, and panic have all been deprecated and should not be used.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">rsyslog</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
+</code></pre>
+<h2 id="type-linux">date:: 06 04 2023
+topic:: sytemlog-baisic-penatration
+type:: Linux</h2>
+<h2 id="rsyslogconf">rsyslog.conf</h2>
+<p><strong>Its located in [[etc]] dir</strong></p>
+<blockquote>
+<p>[!example]-
+<img src="/static/Pasted_image_20230407153603.png" alt="Pasted_image_20230407153603.png"></p>
+</blockquote>
+<h2 id="the-rsyslog-rules">The rsyslog rules</h2>
+<p>The baisic format of this rules
+<em>facility.priority - action</em></p>
+<ul>
+<li><strong>facility</strong> refrence the programm such as kernel or smth
+<ul>
+<li><em>facility types</em>
+<ul>
+<li><img src="/static/FacilityTypes_visual.png" alt="FacilityTypes_visual.png">
+<ul>
+<li>An asterisk wildcard ( * ) in place of a word refers to all facilities.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>priority</em>
+<ul>
+<li>![Priority Codes_visual.png](/static/Priority Codes_visual.png)</li>
+<li><strong>The codes warn, error, and panic have all been deprecated and should not be used.</strong>
+<ul>
+<li>If the priority is * , messages of all priorities are logged.
+<strong>action</strong>
+<em>Location where the logfiles should be sent</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!quote]</p>
+</blockquote>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

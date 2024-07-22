@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>trap_command | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="- Handels **signals** during sccipr execution # Define a function to handle signals by name handle_signal() { local signal_name=&#34;$1&#34; echo &#34;Signal $signal_name received.&#34; exit } # List of signal names signal_names=&#34;HUP INT QUIT ILL TRAP ABRT BUS FPE USR1 SEGV USR2 PIPE ALRM TERM&#34; # Trap signals by name and call the handle_signal function for sig in $signal_names; do trap &#39;handle_signal $sig&#39; $sig done # Infinite loop to keep the script running while true; do echo &#34;Script is running.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/trap_command/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/trap_command/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="trap_command">
+  <meta property="og:description" content="- Handels **signals** during sccipr execution # Define a function to handle signals by name handle_signal() { local signal_name=&#34;$1&#34; echo &#34;Signal $signal_name received.&#34; exit } # List of signal names signal_names=&#34;HUP INT QUIT ILL TRAP ABRT BUS FPE USR1 SEGV USR2 PIPE ALRM TERM&#34; # Trap signals by name and call the handle_signal function for sig in $signal_names; do trap &#39;handle_signal $sig&#39; $sig done # Infinite loop to keep the script running while true; do echo &#34;Script is running.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="trap_command">
+  <meta itemprop="description" content="- Handels **signals** during sccipr execution # Define a function to handle signals by name handle_signal() { local signal_name=&#34;$1&#34; echo &#34;Signal $signal_name received.&#34; exit } # List of signal names signal_names=&#34;HUP INT QUIT ILL TRAP ABRT BUS FPE USR1 SEGV USR2 PIPE ALRM TERM&#34; # Trap signals by name and call the handle_signal function for sig in $signal_names; do trap &#39;handle_signal $sig&#39; $sig done # Infinite loop to keep the script running while true; do echo &#34;Script is running.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="86"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="trap_command">
+<meta name="twitter:description" content="- Handels **signals** during sccipr execution # Define a function to handle signals by name handle_signal() { local signal_name=&#34;$1&#34; echo &#34;Signal $signal_name received.&#34; exit } # List of signal names signal_names=&#34;HUP INT QUIT ILL TRAP ABRT BUS FPE USR1 SEGV USR2 PIPE ALRM TERM&#34; # Trap signals by name and call the handle_signal function for sig in $signal_names; do trap &#39;handle_signal $sig&#39; $sig done # Infinite loop to keep the script running while true; do echo &#34;Script is running.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">trap_command</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>- Handels **signals** during sccipr execution 
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Define a function to handle signals by name</span>
+</span></span><span style="display:flex;"><span>handle_signal<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  local signal_name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;Signal </span>$signal_name<span style="color:#e6db74"> received.&#34;</span>
+</span></span><span style="display:flex;"><span>  exit 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># List of signal names</span>
+</span></span><span style="display:flex;"><span>signal_names<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;HUP INT QUIT ILL TRAP ABRT BUS FPE USR1 SEGV USR2 PIPE ALRM TERM&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Trap signals by name and call the handle_signal function</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> sig in $signal_names; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  trap <span style="color:#e6db74">&#39;handle_signal $sig&#39;</span> $sig
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Infinite loop to keep the script running</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;Script is running...&#34;</span>
+</span></span><span style="display:flex;"><span>  sleep <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><hr>
+<p>[[Process management_signals.canvas|Process management_signals]]
+<a href="/obisdian_ntoes/scriptss/command.md">command</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

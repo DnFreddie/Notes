@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>systemd_ordering | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="### General ordering (dependencies) Wants, Wanted By Weakest dependency Please activate together ,but no big deal if you don&rsquo;t
+/lib/systemd/system/friendly-recovery.target
+`Wants=friendly-recovery.service` /lib/systemd/system/motd-news.tmier
+`WantedBy=timers.target` Requiters Required by Strong Dependency You Must activate these units together
+/lib/systemd/system/friendly-recovery.target
+`Requires=baisc.target` /lib/systemd/system/friendly-recovery.target
+`RequiredBy=baisc.target` Explicit Ordering In what order are units started
+/lib/systemd/system/friendly-recovery.target
+`Before=baisc.target` /lib/systemd/system/friendly-recovery.target
+`After=baisc.target` Others Requisite like Requires but must already be active BindsTo like Requires but more tightly coupled PartOf like Requires but only affects starting/stopping Conflicts exclude 2 units from being active simultaneously systemd">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/systemd_ordering/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/systemd_ordering/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="systemd_ordering">
+  <meta property="og:description" content="### General ordering (dependencies) Wants, Wanted By Weakest dependency Please activate together ,but no big deal if you don’t
+/lib/systemd/system/friendly-recovery.target
+`Wants=friendly-recovery.service` /lib/systemd/system/motd-news.tmier
+`WantedBy=timers.target` Requiters Required by Strong Dependency You Must activate these units together
+/lib/systemd/system/friendly-recovery.target
+`Requires=baisc.target` /lib/systemd/system/friendly-recovery.target
+`RequiredBy=baisc.target` Explicit Ordering In what order are units started
+/lib/systemd/system/friendly-recovery.target
+`Before=baisc.target` /lib/systemd/system/friendly-recovery.target
+`After=baisc.target` Others Requisite like Requires but must already be active BindsTo like Requires but more tightly coupled PartOf like Requires but only affects starting/stopping Conflicts exclude 2 units from being active simultaneously systemd">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="systemd_ordering">
+  <meta itemprop="description" content="### General ordering (dependencies) Wants, Wanted By Weakest dependency Please activate together ,but no big deal if you don&rsquo;t
+/lib/systemd/system/friendly-recovery.target
+`Wants=friendly-recovery.service` /lib/systemd/system/motd-news.tmier
+`WantedBy=timers.target` Requiters Required by Strong Dependency You Must activate these units together
+/lib/systemd/system/friendly-recovery.target
+`Requires=baisc.target` /lib/systemd/system/friendly-recovery.target
+`RequiredBy=baisc.target` Explicit Ordering In what order are units started
+/lib/systemd/system/friendly-recovery.target
+`Before=baisc.target` /lib/systemd/system/friendly-recovery.target
+`After=baisc.target` Others Requisite like Requires but must already be active BindsTo like Requires but more tightly coupled PartOf like Requires but only affects starting/stopping Conflicts exclude 2 units from being active simultaneously systemd">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="82"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="systemd_ordering">
+<meta name="twitter:description" content="### General ordering (dependencies) Wants, Wanted By Weakest dependency Please activate together ,but no big deal if you don&rsquo;t
+/lib/systemd/system/friendly-recovery.target
+`Wants=friendly-recovery.service` /lib/systemd/system/motd-news.tmier
+`WantedBy=timers.target` Requiters Required by Strong Dependency You Must activate these units together
+/lib/systemd/system/friendly-recovery.target
+`Requires=baisc.target` /lib/systemd/system/friendly-recovery.target
+`RequiredBy=baisc.target` Explicit Ordering In what order are units started
+/lib/systemd/system/friendly-recovery.target
+`Before=baisc.target` /lib/systemd/system/friendly-recovery.target
+`After=baisc.target` Others Requisite like Requires but must already be active BindsTo like Requires but more tightly coupled PartOf like Requires but only affects starting/stopping Conflicts exclude 2 units from being active simultaneously systemd">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">systemd_ordering</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>### General ordering (dependencies)
+</code></pre>
+<h4 id="wants-wanted-by">Wants, Wanted By</h4>
+<p>Weakest dependency <em>Please <strong>activate</strong> together ,but no big deal if you don&rsquo;t</em></p>
+<p>/lib/systemd/system/friendly-recovery.target</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>Wants<span style="color:#f92672">=</span>friendly-recovery.service<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><p>/lib/systemd/system/motd-news.tmier</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>WantedBy<span style="color:#f92672">=</span>timers.target<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><h3 id="requiters-required-by">Requiters Required by</h3>
+<p>Strong Dependency
+<em>You Must activate these units</em> <strong>together</strong></p>
+<p>/lib/systemd/system/friendly-recovery.target</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>Requires<span style="color:#f92672">=</span>baisc.target<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><p>/lib/systemd/system/friendly-recovery.target</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>RequiredBy<span style="color:#f92672">=</span>baisc.target<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><h3 id="explicit-ordering">Explicit Ordering</h3>
+<p><em>In what order are units started</em></p>
+<p>/lib/systemd/system/friendly-recovery.target</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>Before<span style="color:#f92672">=</span>baisc.target<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><p>/lib/systemd/system/friendly-recovery.target</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e6db74">`</span>After<span style="color:#f92672">=</span>baisc.target<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><h4 id="others">Others</h4>
+<ul>
+<li><strong>Requisite</strong>
+like <em>Requires</em> but must already be active</li>
+<li><strong>BindsTo</strong>
+like <em>Requires</em> but more tightly coupled</li>
+<li><strong>PartOf</strong>
+like <em>Requires</em>  but only affects starting/stopping</li>
+<li><strong>Conflicts</strong>
+exclude 2 units from <em>being active simultaneously</em></li>
+</ul>
+<hr>
+<p><a href="/systemd.md">systemd</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

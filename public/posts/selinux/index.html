@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>SELinux | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="### Security enhanced Linux Define on every file what are they allowed to access
+Modes sestatus Enforcing checking the attribute of the files does&rsquo;t let them access it Permissive Only logs the check Disabled Types Targeted Targeted processes are protected Minimum Only selected processes are targeted Mls Multi Level security protection [!example]- Labels [!example] It&rsquo;s a label on the file User User mapped to the Selinux
+Role What a user or daemon can do with the file">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/selinux/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/selinux/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="SELinux">
+  <meta property="og:description" content="### Security enhanced Linux Define on every file what are they allowed to access
+Modes sestatus Enforcing checking the attribute of the files does’t let them access it Permissive Only logs the check Disabled Types Targeted Targeted processes are protected Minimum Only selected processes are targeted Mls Multi Level security protection [!example]- Labels [!example] It’s a label on the file User User mapped to the Selinux
+Role What a user or daemon can do with the file">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="SELinux">
+  <meta itemprop="description" content="### Security enhanced Linux Define on every file what are they allowed to access
+Modes sestatus Enforcing checking the attribute of the files does&rsquo;t let them access it Permissive Only logs the check Disabled Types Targeted Targeted processes are protected Minimum Only selected processes are targeted Mls Multi Level security protection [!example]- Labels [!example] It&rsquo;s a label on the file User User mapped to the Selinux
+Role What a user or daemon can do with the file">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="185"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="SELinux">
+<meta name="twitter:description" content="### Security enhanced Linux Define on every file what are they allowed to access
+Modes sestatus Enforcing checking the attribute of the files does&rsquo;t let them access it Permissive Only logs the check Disabled Types Targeted Targeted processes are protected Minimum Only selected processes are targeted Mls Multi Level security protection [!example]- Labels [!example] It&rsquo;s a label on the file User User mapped to the Selinux
+Role What a user or daemon can do with the file">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">SELinux</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>### Security enhanced Linux
+</code></pre>
+<p>Define on every file what are they allowed to access</p>
+<h3 id="modes">Modes</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sestatus
+</span></span></code></pre></div><ul>
+<li><strong>Enforcing</strong>
+checking the attribute of the files does&rsquo;t let them access it</li>
+<li><strong>Permissive</strong>
+Only <em>logs</em> the check</li>
+<li><strong>Disabled</strong></li>
+</ul>
+<h3 id="types">Types</h3>
+<ul>
+<li><strong>Targeted</strong>
+Targeted processes are protected</li>
+<li><strong>Minimum</strong>
+Only <em>selected</em> processes are targeted</li>
+<li><strong>Mls</strong>
+<em>Multi Level security protection</em></li>
+</ul>
+<blockquote>
+<p>[!example]-
+<img src="/static/Pasted_image_20240507104548.png" alt="Pasted_image_20240507104548.png"></p>
+</blockquote>
+<h3 id="labels">Labels</h3>
+<blockquote>
+<p>[!example] It&rsquo;s a label on the file
+<img src="/static/Pasted_image_20240507105206.png" alt="Pasted_image_20240507105206.png"></p>
+</blockquote>
+<ul>
+<li>
+<p><strong>User</strong>
+User mapped to the Selinux</p>
+</li>
+<li>
+<p><strong>Role</strong>
+What a user or daemon can do with the file</p>
+</li>
+<li>
+<p><strong>Type</strong>
+What kind of object is it</p>
+<ul>
+<li>It&rsquo;t insert  <strong>context</strong> on a new file not if the file is moved</li>
+</ul>
+</li>
+<li>
+<p><strong>Sensitivity level</strong>
+<em>Only in Mls</em></p>
+</li>
+<li>
+<p><strong>To display it</strong></p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -lZ
+</span></span></code></pre></div><h3 id="changing-context">Changing context</h3>
+<ul>
+<li><strong>chcon</strong>
+Changes the <em>type</em>  for new</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chcon -t httpd_sys file
+</span></span></code></pre></div><ul>
+<li><strong>restorecon</strong>
+<ul>
+<li>set&rsquo;s the proper context for the file</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>restorecon -R *
+</span></span></code></pre></div><blockquote>
+<p>[!tip] To change the conetex for all the files
+add <em>/.autorelable</em></p>
+</blockquote>
+<h3 id="updating-policies">Updating Policies</h3>
+<p>Occasionally, programs may attempt to access different user contents using their policies. However, SELinux may block such attempts, even when the set option is correct. In such cases, you need to adjust the SELinux boolean settings.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>semanage boolead --modyfie --on options
+</span></span></code></pre></div><hr>
+<p><a href="/AppArmor.md">AppArmor</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

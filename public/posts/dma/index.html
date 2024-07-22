@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>DMA | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="--- date:: 2023-08-02 type:: Kernel Direct Memory Access IT allows certain hardware devices to directly access the system&rsquo;s memory (RAM) without involving the Cpu in every data transfer. It enables these devices to read from or write to memory on their own, freeing up the Cpu to focus on other tasks. DMA Contoler Specialized hardware component responsible for managing the data transfer between devices and memory
+Initialization: When the Kernel initializes, it sets up the DMA controller and configures it with the necessary parameters, such as the source and destination memory addresses and the amount of data to transfer.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/dma/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/dma/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="DMA">
+  <meta property="og:description" content="--- date:: 2023-08-02 type:: Kernel Direct Memory Access IT allows certain hardware devices to directly access the system’s memory (RAM) without involving the Cpu in every data transfer. It enables these devices to read from or write to memory on their own, freeing up the Cpu to focus on other tasks. DMA Contoler Specialized hardware component responsible for managing the data transfer between devices and memory
+Initialization: When the Kernel initializes, it sets up the DMA controller and configures it with the necessary parameters, such as the source and destination memory addresses and the amount of data to transfer.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="DMA">
+  <meta itemprop="description" content="--- date:: 2023-08-02 type:: Kernel Direct Memory Access IT allows certain hardware devices to directly access the system&rsquo;s memory (RAM) without involving the Cpu in every data transfer. It enables these devices to read from or write to memory on their own, freeing up the Cpu to focus on other tasks. DMA Contoler Specialized hardware component responsible for managing the data transfer between devices and memory
+Initialization: When the Kernel initializes, it sets up the DMA controller and configures it with the necessary parameters, such as the source and destination memory addresses and the amount of data to transfer.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="264"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="DMA">
+<meta name="twitter:description" content="--- date:: 2023-08-02 type:: Kernel Direct Memory Access IT allows certain hardware devices to directly access the system&rsquo;s memory (RAM) without involving the Cpu in every data transfer. It enables these devices to read from or write to memory on their own, freeing up the Cpu to focus on other tasks. DMA Contoler Specialized hardware component responsible for managing the data transfer between devices and memory
+Initialization: When the Kernel initializes, it sets up the DMA controller and configures it with the necessary parameters, such as the source and destination memory addresses and the amount of data to transfer.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">DMA</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
+</code></pre>
+<h2 id="type-kernel">date:: 2023-08-02
+type:: Kernel</h2>
+<h2 id="direct-memory-access">Direct Memory Access</h2>
+<ul>
+<li>IT  allows certain hardware devices to directly access the system&rsquo;s memory (<strong>RAM</strong>) without involving the <a href="/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md">Cpu</a> in every data transfer.
+<ul>
+<li>It enables these devices to read from or write to memory on their own, freeing up the <a href="/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md">Cpu</a> to focus on other tasks.</li>
+</ul>
+</li>
+</ul>
+<h2 id="dma-contoler">DMA Contoler</h2>
+<p>Specialized hardware component responsible for <strong>managing the data transfer</strong> between <strong>devices</strong> and <strong>memory</strong></p>
+<ol>
+<li>
+<p><strong>Initialization</strong>: When the <a href="/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md">Kernel</a> initializes, it sets up the DMA controller and configures it with the necessary parameters, such as the source and destination memory addresses and the amount of data to transfer.</p>
+</li>
+<li>
+<p><strong>Request for DMA Transfer</strong>: When a hardware device (e.g., a network card or a disk controller) needs to read or write data to/from memory, it sends a request to the DMA controller.</p>
+</li>
+<li>
+<p><strong>DMA Setup</strong>: The device driver in the <a href="/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md">Kernel</a>  (software that manages communication with the hardware device) prepares the data and instructs the DMA controller with the required details, such as the memory addresses and the direction of data transfer (read or write).</p>
+</li>
+<li>
+<p><strong>DMA Transfer</strong>: The DMA controller takes over from here and directly accesses the system&rsquo;s memory, moving data between the device and the memory without the CPU&rsquo;s active involvement. It efficiently transfers the data in the background.</p>
+</li>
+<li>
+<p><strong>DMA Completion:</strong> Once the DMA transfer is complete, the DMA controller signals the device driver to handle any remaining tasks or notifications related to the data transfer.</p>
+</li>
+<li>
+<p><strong>Data Processing</strong>: The device driver can then process the transferred data as needed, e.g., passing it to higher-level software layers or storing it in a file.</p>
+</li>
+</ol>
+<blockquote>
+<p>[!quote] <a href="/NIC_physical.md">NIC_physical</a></p>
+</blockquote>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

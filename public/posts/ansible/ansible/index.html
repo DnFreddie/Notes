@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ansible | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="**Push model** - Ruby based - ***demon less*** - Procedural it creates top to bottom Architecture Controller node (only this requires ansible) This are the inventory and are in the ansible configuration file
+smaller servers network devices kuberntetss public and private cloud Can do windows automation on windows
+It has to hav python isntalled on the machines Plugins/Modules To list modules use ansiable-doc -l To get the help of the particular module use ansible-doc -s &lt;module&gt;">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/ansible/ansible/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/ansible/ansible/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="Ansible">
+  <meta property="og:description" content="**Push model** - Ruby based - ***demon less*** - Procedural it creates top to bottom Architecture Controller node (only this requires ansible) This are the inventory and are in the ansible configuration file
+smaller servers network devices kuberntetss public and private cloud Can do windows automation on windows
+It has to hav python isntalled on the machines Plugins/Modules To list modules use ansiable-doc -l To get the help of the particular module use ansible-doc -s &lt;module&gt;">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="Ansible">
+  <meta itemprop="description" content="**Push model** - Ruby based - ***demon less*** - Procedural it creates top to bottom Architecture Controller node (only this requires ansible) This are the inventory and are in the ansible configuration file
+smaller servers network devices kuberntetss public and private cloud Can do windows automation on windows
+It has to hav python isntalled on the machines Plugins/Modules To list modules use ansiable-doc -l To get the help of the particular module use ansible-doc -s &lt;module&gt;">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="646"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Ansible">
+<meta name="twitter:description" content="**Push model** - Ruby based - ***demon less*** - Procedural it creates top to bottom Architecture Controller node (only this requires ansible) This are the inventory and are in the ansible configuration file
+smaller servers network devices kuberntetss public and private cloud Can do windows automation on windows
+It has to hav python isntalled on the machines Plugins/Modules To list modules use ansiable-doc -l To get the help of the particular module use ansible-doc -s &lt;module&gt;">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Ansible</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code> **Push model**
+- Ruby based 
+	-   ***demon less***
+	  - 
+</code></pre>
+<ul>
+<li><strong>Procedural</strong>
+<ul>
+<li>it creates top to bottom</li>
+</ul>
+</li>
+</ul>
+<h2 id="architecture">Architecture</h2>
+<ol>
+<li>Controller node (<em>only this requires ansible</em>)<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>This are the <em>inventory</em> and are in the ansible configuration file</p>
+<ul>
+<li>smaller servers</li>
+<li>network devices</li>
+<li>kuberntetss</li>
+</ul>
+</li>
+<li>
+<p>public and private cloud
+<strong>Can do windows automation on windows</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>It has to hav <strong>python</strong> isntalled on the machines</li>
+</ul>
+<h3 id="pluginsmodules">Plugins/Modules</h3>
+<p>To list modules  use <code>ansiable-doc  -l</code>
+To get the help of the particular module use <code>ansible-doc -s &lt;module&gt;</code></p>
+<ul>
+<li><em>inventory plugins</em>
+<ul>
+<li>organize managed  host to different  kinds of inventory</li>
+</ul>
+</li>
+<li><em>connection plugins</em>
+<ul>
+<li>How does Ansaible controller connect to the host
+<ul>
+<li>example ssh plugin</li>
+<li>for windows <strong>winrm</strong>  plugin</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>become</em>
+<ul>
+<li>what user u would like to become
+<ul>
+<li>sudo</li>
+<li>run as</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vars</em>
+reference how we make use of variables</li>
+<li><em>lookup</em>
+different  <em>data sources</em></li>
+<li><em>callback</em>
+This just logs</li>
+<li><em>cache</em></li>
+</ul>
+<h3 id="ansible-configuration">Ansible configuration</h3>
+<ol>
+<li>ansible.cfg in the current  directory</li>
+<li><strong>ANSIBLE_CONFIG</strong> environment var</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Provides also current config file in use</span>
+</span></span><span style="display:flex;"><span>ansible --version
+</span></span></code></pre></div><h3 id="example-confiexample">Example confiExample</h3>
+<p>poetry2nix.mkPoetryEnv {
+projectDir = ./.;
+overrides = poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
+}guration</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>defualts<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>inventory <span style="color:#f92672">=</span> ./myInventoru
+</span></span><span style="display:flex;"><span>remote_user <span style="color:#f92672">=</span> devovs 
+</span></span><span style="display:flex;"><span>collections_paths <span style="color:#f92672">=</span> ./collections/
+</span></span><span style="display:flex;"><span>collbacks_enabled <span style="color:#f92672">=</span> ansible.posix.profile_roles
+</span></span></code></pre></div><h3 id="inventory">Inventory</h3>
+<ul>
+<li>U can use pass the arguments <strong>direcly to the ivnentory</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>test_server<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>control_test type<span style="color:#f92672">=</span>client
+</span></span><span style="display:flex;"><span>node_test type<span style="color:#f92672">=</span>server
+</span></span></code></pre></div><ul>
+<li>The beterr approach is to use the <code>ansible_hostname</code>
+<ul>
+<li>since it first performs <em>uname -n</em></li>
+</ul>
+</li>
+</ul>
+<p>To use the <strong>host group</strong> for the playbook  use <code>inventory_hostname</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  hosts: home_machines
+</span></span><span style="display:flex;"><span>  vars:
+</span></span><span style="display:flex;"><span>    user_home: <span style="color:#e6db74">&#34;/home/{{ inventory_hostname }}&#34;</span>
+</span></span></code></pre></div><h4 id="diffrences">Diffrences</h4>
+<p><img src="/static/a_hostname_vs_in_hostname.png" alt="Ansiable hosname vs inventory_hostname"></p>
+<p><a href="https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/">Docs</a></p>
+<p><a href="https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/">Using a dynamic libvirt inventory with Ansible</a></p>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># to show use ansible-invetory --graph or --list in json output </span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>webserver<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>servera
+</span></span><span style="display:flex;"><span>servec
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>dbservers<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>servdb
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##Nested groups </span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Nested:children<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>webserver
+</span></span><span style="display:flex;"><span>dbservers
+</span></span></code></pre></div><h3 id="playbooks">Playbooks</h3>
+<p>(rember to check for the sytnax issues <code>--sytnax check</code> )
+<strong>They are run top to bottom</strong>
+[!bug] By default ansible <em>panics  when error</em></p>
+<ul>
+<li><strong>Task</strong> is just a <strong>task</strong> that has to be done can use modules</li>
+<li><strong>Role</strong> is just the <strong>directory</strong> with the instructions
+<ul>
+<li>Highly parametric-seized</li>
+<li><em>Works with vars</em></li>
+<li>Can mix both</li>
+</ul>
+</li>
+</ul>
+<h4 id="handlers">Handlers</h4>
+<ul>
+<li>They are executing in an order that there were <strong>notyfied</strong> in</li>
+<li>The handlesr executes only once no matter the amount of <em>task calling</em>
+<ul>
+<li>If <strong>force_handlers</strong> enabled then handlers will execute no matter the error</li>
+</ul>
+</li>
+</ul>
+<h5 id="example">Example</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Kernel Update</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">hosts</span>: <span style="color:#ae81ff">test</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">become</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">force_handlers</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">tasks</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Ensure kernel is updated</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e"># Add task</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">handlers</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Ensure system is rebooted</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">ansible.builtin.reboot</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">msg</span>: <span style="color:#e6db74">&#34;Rebooting due to a kernel update&#34;</span>
+</span></span></code></pre></div><h3 id="facts-and-conditionals">Facts and conditionals</h3>
+<p><a href="https://www.golinuxcloud.com/ansible-facts/">Docs</a></p>
+<h4 id="gathering-info">Gathering info</h4>
+<p><em>Gathering facts may be constly</em> use <strong>setup</strong> for the specyfic machines u want to chekout</p>
+<ul>
+<li>If <strong>gather_facts</strong> enabled we can use uthis to veryfie facts of the systme
+<ul>
+<li>And set the taks blocks acordingly</li>
+</ul>
+</li>
+<li>use <strong>when</strong> for the conditoals</li>
+<li>or vars with the <strong>assert</strong> module</li>
+</ul>
+<p><a href="https://www.coursera.org/learn/fundamentals-of-ansible/lecture/u0iXX/using-conditionals">Docs</a></p>
+<p>Ex</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">gather_facts</span>: <span style="color:#66d9ef">true</span> 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">task</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Veryfie that this si the debian dirsto </span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">when</span>: <span style="color:#e6db74">&#34;&#39;Debian&#39; is ansiable_fact[&#39;distribiution&#39;]&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">block</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">This is Debian</span>
+</span></span><span style="display:flex;"><span>        - <span style="color:#f92672">ansible.builtin.debug</span>:
+</span></span><span style="display:flex;"><span>                - <span style="color:#f92672">msg</span>: <span style="color:#ae81ff">This is Debian </span>
+</span></span><span style="display:flex;"><span>          
+</span></span></code></pre></div><h4 id="user-defined-facts">User defined facts</h4>
+<p>Create  <code>/etc/ansible/facts.d</code> on the <em>managed nodes</em></p>
+<ul>
+<li>The file has tave to have <strong>.file</strong>  extentsion</li>
+<li>Has to be in the <strong>Json Format</strong></li>
+</ul>
+<h3 id="plugins">Plugins</h3>
+<p>Uses ansiable-<strong>galaxy</strong>
+They provied modules like for example to work with <a href="https://docs.ansible.com/ansible/latest/collections/community/libvirt/index.html">Libvirt</a></p>
+<h4 id="ansiable-with-nix">Ansiable with nix</h4>
+<p>Rember to install stuff in the as root user profile then the user can use the softerwe and also add the nix path to <strong>sudo path</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Defaults   secure_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nix/var/nix/profiles/default/bin&#34;</span>
+</span></span></code></pre></div><h3 id="pacages">Pacages</h3>
+<p>U can use a bulti in <strong>.package</strong> module  to install different packages
+<a href="https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples">Example</a></p>
+<h3 id="vault-pass">Vault pass</h3>
+<p>Using Ansible Vault with a Password File
+If you do not wish to type in the Vault password each time you execute a task, you can add your Vault password to a file and reference the file during execution.</p>
+<p>For example, you could put your password in a .vault_pass file like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;my_vault_password&#39;</span> &gt; .vault_pass
+</span></span></code></pre></div><p>If you are using version control, make sure to add the password file to your version control software’s ignore file to avoid accidentally committing it:
+<a href="https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data#using-ansible-vault-with-a-password-file">Ansaible vault with the password file </a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ansible-playbook  main.yml -i inventory   --vault-password-file<span style="color:#f92672">=</span>.vault_pass
+</span></span></code></pre></div><hr>
+<p><a href="/Teraform.md">Teraform</a>
+<a href="/Puppet.md">Puppet</a>
+<a href="/ansible/ansible_commands.md">Ansible commands</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>CloudWatch | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="It&rsquo;s an umbrella service Collection of the monitoring tools Logs() Any custom log data, Application Logs,Lambda Logs Metrics Variable in time u wanna monitor cpu usge or memory usage Amazon Event Bridge/Cloud watch events Trigger event based on the condition (every our snapshot the server) Alarms trigger notification based on metric which breach a defined threshold Dashboard Creates the visualization based on metrics Service Lens Visualize and analyze the health,performance,availability in a signed place(smth like summery) Container Insights Logs containerized apps and micro services Synthetics Test web apps to if they&rsquo;re broken Contributor insights view the top contributions impacting the performance of your systems and application in real time Cloud watch integration&rsquo;s S3 U can export logs to S3 do perform analysis">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/sysops_aws_cert/cloudwatch/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/sysops_aws_cert/cloudwatch/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="CloudWatch">
+  <meta property="og:description" content="It’s an umbrella service Collection of the monitoring tools Logs() Any custom log data, Application Logs,Lambda Logs Metrics Variable in time u wanna monitor cpu usge or memory usage Amazon Event Bridge/Cloud watch events Trigger event based on the condition (every our snapshot the server) Alarms trigger notification based on metric which breach a defined threshold Dashboard Creates the visualization based on metrics Service Lens Visualize and analyze the health,performance,availability in a signed place(smth like summery) Container Insights Logs containerized apps and micro services Synthetics Test web apps to if they’re broken Contributor insights view the top contributions impacting the performance of your systems and application in real time Cloud watch integration’s S3 U can export logs to S3 do perform analysis">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="CloudWatch">
+  <meta itemprop="description" content="It&rsquo;s an umbrella service Collection of the monitoring tools Logs() Any custom log data, Application Logs,Lambda Logs Metrics Variable in time u wanna monitor cpu usge or memory usage Amazon Event Bridge/Cloud watch events Trigger event based on the condition (every our snapshot the server) Alarms trigger notification based on metric which breach a defined threshold Dashboard Creates the visualization based on metrics Service Lens Visualize and analyze the health,performance,availability in a signed place(smth like summery) Container Insights Logs containerized apps and micro services Synthetics Test web apps to if they&rsquo;re broken Contributor insights view the top contributions impacting the performance of your systems and application in real time Cloud watch integration&rsquo;s S3 U can export logs to S3 do perform analysis">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="330"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="CloudWatch">
+<meta name="twitter:description" content="It&rsquo;s an umbrella service Collection of the monitoring tools Logs() Any custom log data, Application Logs,Lambda Logs Metrics Variable in time u wanna monitor cpu usge or memory usage Amazon Event Bridge/Cloud watch events Trigger event based on the condition (every our snapshot the server) Alarms trigger notification based on metric which breach a defined threshold Dashboard Creates the visualization based on metrics Service Lens Visualize and analyze the health,performance,availability in a signed place(smth like summery) Container Insights Logs containerized apps and micro services Synthetics Test web apps to if they&rsquo;re broken Contributor insights view the top contributions impacting the performance of your systems and application in real time Cloud watch integration&rsquo;s S3 U can export logs to S3 do perform analysis">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">CloudWatch</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/static/cloud_watch_structer_visual.png" alt="Cloud watch structure"></p>
+<ul>
+<li>It&rsquo;s an <strong>umbrella service</strong>
+<ul>
+<li><em>Collection of the monitoring tools</em></li>
+<li><strong>Logs</strong>()
+Any custom log data, <code>Application Logs</code>,<code>Lambda Logs</code></li>
+<li><strong>Metrics</strong>
+Variable in time u wanna monitor <code>cpu usge</code> or <code>memory usage</code></li>
+<li><strong>Amazon Event Bridge/Cloud watch events</strong>
+Trigger event based on the condition (<em>every our snapshot the  server</em>)</li>
+<li><strong>Alarms</strong>
+trigger notification based on metric which breach a defined threshold</li>
+<li><strong>Dashboard</strong>
+Creates the visualization  based on <em>metrics</em></li>
+<li><strong>Service Lens</strong>
+Visualize and analyze the health,performance,availability in a signed place(<em>smth like summery</em>)</li>
+<li><strong>Container Insights</strong>
+Logs containerized apps and <em>micro services</em></li>
+<li><strong>Synthetics</strong>
+Test <em>web apps</em> to if they&rsquo;re broken</li>
+<li><strong>Contributor insights</strong>
+view the top contributions impacting the performance of your systems and application <em>in real time</em></li>
+</ul>
+</li>
+</ul>
+<h3 id="cloud-watch-integrations">Cloud watch integration&rsquo;s</h3>
+<ul>
+<li>
+<p><strong>S3</strong>
+U can export logs to S3 do perform analysis</p>
+</li>
+<li>
+<p><strong>Security</strong>
+By default log groups are encrypted using <em>SSE</em></p>
+</li>
+<li>
+<p><strong>Log filtering</strong>
+Logs can be filtered using <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html">Filtering syntax</a></p>
+</li>
+<li>
+<p><strong>Log retention</strong>
+By default <strong>logs never expire</strong>
+You can adjust the retention policy for  each log group(<em>from 1 day to 10 years</em>)</p>
+</li>
+</ul>
+<h3 id="log-groups">Log groups</h3>
+<p>A collection of <strong>log streams</strong>.</p>
+<p>&ldquo;/test/prod/app&rdquo;
+&ldquo;/test/prod/db&rdquo;
+&ldquo;/test/dev/db&rdquo;</p>
+<h3 id="log-streams">Log streams</h3>
+<ul>
+<li><em>Sequence of event for the same source</em></li>
+</ul>
+<h4 id="cloud-watch--logs-insights">Cloud Watch  Logs Insights</h4>
+<p><img src="/static/cloud_watch_insights_visual.png" alt="Cloud watch insigts"></p>
+<p>Interactively search and analyze u log date with the <strong>syntax</strong>
+- Supports all kinds of logs
+- Better then importing it locally and sent through [[Athena]]</p>
+<ul>
+<li>Sing request can query up to <strong>20 log groups</strong></li>
+<li>Queries <strong>time out after 15 minutes</strong></li>
+<li>Query  results are <strong>available for 7 days</strong></li>
+</ul>
+<h4 id="sample-queries">Sample queries</h4>
+<ul>
+<li>Remember that aws provide a list of queries that u will usually just need
+<ul>
+<li>All u have to do i to copy the syntax of the one u need
+It evens create a little graph based on it</li>
+</ul>
+</li>
+</ul>
+<h5 id="discover-fields">Discover fields(@)</h5>
+<p>It&rsquo; analyze the <strong>log events</strong> and try to structure the  content
+by generating fields that u can use in your query</p>
+<ul>
+<li><strong>Five system fields</strong> (<em>automatically generated</em>)
+<ul>
+<li><strong>@message</strong>
+Raw unparsed log event</li>
+<li><strong>@timestamp</strong></li>
+<li><strong>@ingestionTime</strong>
+Time when the log was recived</li>
+<li><strong>logStream</strong>
+the name of the log stream the event was added to</li>
+<li><strong>@log</strong>
+Log group identifier</li>
+</ul>
+</li>
+</ul>
+<p><img src="/static/diffrent_discover_fields_aws_log.png" alt="Diffrent discover fileds"></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

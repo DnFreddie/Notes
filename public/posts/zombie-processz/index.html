@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Zombie process(Z) | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="The child process that **finish** his job but it&#39;s **not being cleaned** Ussualy have to get rid of the parent find zombie processes
+ps ux | awk &#39;{if($8==&#34;Z&#34;) print}&#39; When u&rsquo;re done check for u little creations
+Spawn zombies with python Docs
+import os, sys, time ttlForParent = 60; for i in range(0, 10): # This creates the copy of the main process as # a child process but with diffrent PID pid_1 = os.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/zombie-processz/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/zombie-processz/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="Zombie process(Z)">
+  <meta property="og:description" content="The child process that **finish** his job but it&#39;s **not being cleaned** Ussualy have to get rid of the parent find zombie processes
+ps ux | awk &#39;{if($8==&#34;Z&#34;) print}&#39; When u’re done check for u little creations
+Spawn zombies with python Docs
+import os, sys, time ttlForParent = 60; for i in range(0, 10): # This creates the copy of the main process as # a child process but with diffrent PID pid_1 = os.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="Zombie process(Z)">
+  <meta itemprop="description" content="The child process that **finish** his job but it&#39;s **not being cleaned** Ussualy have to get rid of the parent find zombie processes
+ps ux | awk &#39;{if($8==&#34;Z&#34;) print}&#39; When u&rsquo;re done check for u little creations
+Spawn zombies with python Docs
+import os, sys, time ttlForParent = 60; for i in range(0, 10): # This creates the copy of the main process as # a child process but with diffrent PID pid_1 = os.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="86"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Zombie process(Z)">
+<meta name="twitter:description" content="The child process that **finish** his job but it&#39;s **not being cleaned** Ussualy have to get rid of the parent find zombie processes
+ps ux | awk &#39;{if($8==&#34;Z&#34;) print}&#39; When u&rsquo;re done check for u little creations
+Spawn zombies with python Docs
+import os, sys, time ttlForParent = 60; for i in range(0, 10): # This creates the copy of the main process as # a child process but with diffrent PID pid_1 = os.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Zombie process(Z)</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>The child process that **finish** his job but it's **not being cleaned** 
+</code></pre>
+<p><em>Ussualy have to get rid of the parent</em>
+<em>find zombie processes</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ps ux | awk <span style="color:#e6db74">&#39;{if($8==&#34;Z&#34;) print}&#39;</span>
+</span></span></code></pre></div><p>When u&rsquo;re done check for u little creations</p>
+<h3 id="spawn-zombies-with-python">Spawn zombies with python</h3>
+<p><a href="https://medium.com/naukri-engineering/creating-troubleshooting-the-zombie-process-in-python-f4d89c46a85a">Docs</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os<span style="color:#f92672">,</span> sys<span style="color:#f92672">,</span> time
+</span></span><span style="display:flex;"><span>ttlForParent <span style="color:#f92672">=</span> <span style="color:#ae81ff">60</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>):
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This creates the copy of the main process as </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># a child process but with diffrent PID </span>
+</span></span><span style="display:flex;"><span>   pid_1 <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>fork()
+</span></span><span style="display:flex;"><span>   print(pid_1)
+</span></span><span style="display:flex;"><span>   print(<span style="color:#e6db74">&#34;Hello Worlds!!!&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> pid_1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>       sys<span style="color:#f92672">.</span>exit();
+</span></span><span style="display:flex;"><span>time<span style="color:#f92672">.</span>sleep(ttlForParent);
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>wait()
+</span></span></code></pre></div><hr>
+<p><a href="/awk_command.md">awk_command</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

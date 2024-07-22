@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>iptables | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="### Chains Tags that define and match packet to the state [!Overview] k
+Setting default policy iptables --policy CHAIN METHOD It&rsquo;s recommended to set up it to accep first and then change it
+Filter table filtering incoming traffic fire wall stuff Rules Rules are applied from the top to the bottom
+to list sudo iptables -L to append iptables -A CHAIN -s(source) 10.0.0.1 -j(target Rule) DROP to put on top iptables -I -A CHAIN -s(source) 10.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/iptables/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/iptables/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="iptables">
+  <meta property="og:description" content="### Chains Tags that define and match packet to the state [!Overview] k
+Setting default policy iptables --policy CHAIN METHOD It’s recommended to set up it to accep first and then change it
+Filter table filtering incoming traffic fire wall stuff Rules Rules are applied from the top to the bottom
+to list sudo iptables -L to append iptables -A CHAIN -s(source) 10.0.0.1 -j(target Rule) DROP to put on top iptables -I -A CHAIN -s(source) 10.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="iptables">
+  <meta itemprop="description" content="### Chains Tags that define and match packet to the state [!Overview] k
+Setting default policy iptables --policy CHAIN METHOD It&rsquo;s recommended to set up it to accep first and then change it
+Filter table filtering incoming traffic fire wall stuff Rules Rules are applied from the top to the bottom
+to list sudo iptables -L to append iptables -A CHAIN -s(source) 10.0.0.1 -j(target Rule) DROP to put on top iptables -I -A CHAIN -s(source) 10.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="156"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="iptables">
+<meta name="twitter:description" content="### Chains Tags that define and match packet to the state [!Overview] k
+Setting default policy iptables --policy CHAIN METHOD It&rsquo;s recommended to set up it to accep first and then change it
+Filter table filtering incoming traffic fire wall stuff Rules Rules are applied from the top to the bottom
+to list sudo iptables -L to append iptables -A CHAIN -s(source) 10.0.0.1 -j(target Rule) DROP to put on top iptables -I -A CHAIN -s(source) 10.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">iptables</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>### Chains 
+</code></pre>
+<ul>
+<li>Tags that  define and match <em>packet</em> to the <em>state</em></li>
+</ul>
+<blockquote>
+<p>[!Overview]
+<img src="/static/Pasted_image_20240511164722.png" alt="Pasted_image_20240511164722.png">k</p>
+</blockquote>
+<h4 id="setting-default-policy">Setting default policy</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>iptables --policy CHAIN  METHOD
+</span></span></code></pre></div><p><em>It&rsquo;s recommended to set up it to accep first and then change it</em></p>
+<h3 id="filter-table">Filter table</h3>
+<ul>
+<li>filtering incoming traffic
+<ul>
+<li><em>fire wall stuff</em></li>
+</ul>
+</li>
+</ul>
+<h5 id="rules">Rules</h5>
+<p><em><strong>Rules are  applied from the top to the bottom</strong></em></p>
+<ul>
+<li>to list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo iptables -L
+</span></span></code></pre></div><ul>
+<li>to append</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>iptables -A CHAIN  -s<span style="color:#f92672">(</span>source<span style="color:#f92672">)</span> 10.0.0.1 -j<span style="color:#f92672">(</span>target Rule<span style="color:#f92672">)</span> DROP
+</span></span></code></pre></div><ul>
+<li>to put on top</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>iptables -I -A CHAIN  -s<span style="color:#f92672">(</span>source<span style="color:#f92672">)</span> 10.0.0.1 -j<span style="color:#f92672">(</span>target Rule<span style="color:#f92672">)</span> DROP
+</span></span></code></pre></div><p><strong>Accept</strong></p>
+<ul>
+<li>Stop proccesing and allow the packet to flow to the <a href="/obisdian_ntoes/notes_obsidian/Linux/service.md">service</a></li>
+</ul>
+<p><strong>Reject</strong></p>
+<ul>
+<li>Stop the packet and  <em>send feedback</em> to the user</li>
+</ul>
+<p><strong>Drop</strong></p>
+<ul>
+<li>Drop packet and don&rsquo;t inform anyone</li>
+</ul>
+<blockquote>
+<p>[!note] If the packet doesn&rsquo;t match the rule
+it would be matched by the <em>default rule</em>
+If no <em>default rule</em> the packet will be accepted</p>
+</blockquote>
+<h4 id="blocking--ports">Blocking  Ports</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>iptables -I INPUT -p -tcp -dport <span style="color:#ae81ff">80</span>
+</span></span></code></pre></div><h3 id="natobisdian_ntoesnotes_obsidianzpythonrefdjangoframeworknetworkbasic-network-connectionsnatmd-table">[NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) table</h3>
+<ul>
+<li>Redirect to different interfaces</li>
+</ul>
+<h3 id="mangle-table">Mangle table</h3>
+<ul>
+<li>Modifying <em>packets and connections</em></li>
+</ul>
+<hr>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

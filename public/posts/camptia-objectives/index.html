@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Camptia Objectives | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="1. **File system hierarchy** Boot [UEFI vs BIOS](/UEFI vs BIOS.md) [Boot procces](/Boot procces.md) [[UEFI vs BIOS#Partition types|Partition types]] - [[Files systems.canvas|Fiels systems]] [GRUB 2](/GRUB 2.md) [Run Levels](/obisdian_ntoes/for later/Run Levels.md) Devices types in /dev [Block vs character dev](/Block vs character dev.md) [[Block vs character dev#Special character devices|Special character devieces]] [Getting PCI dev info](/Getting PCI dev info.md) [[Combining Disks (raid).canvas|Combining Disks (raid)]] Commands stat(gives a more detailed overview of the metadata) file [Archive vs Compress](/Archive vs Compress.">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:33371/posts/camptia-objectives/">
+    
+
+    <meta property="og:url" content="http://localhost:33371/posts/camptia-objectives/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="Camptia Objectives">
+  <meta property="og:description" content="1. **File system hierarchy** Boot [UEFI vs BIOS](/UEFI vs BIOS.md) [Boot procces](/Boot procces.md) [[UEFI vs BIOS#Partition types|Partition types]] - [[Files systems.canvas|Fiels systems]] [GRUB 2](/GRUB 2.md) [Run Levels](/obisdian_ntoes/for later/Run Levels.md) Devices types in /dev [Block vs character dev](/Block vs character dev.md) [[Block vs character dev#Special character devices|Special character devieces]] [Getting PCI dev info](/Getting PCI dev info.md) [[Combining Disks (raid).canvas|Combining Disks (raid)]] Commands stat(gives a more detailed overview of the metadata) file [Archive vs Compress](/Archive vs Compress.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="Camptia Objectives">
+  <meta itemprop="description" content="1. **File system hierarchy** Boot [UEFI vs BIOS](/UEFI vs BIOS.md) [Boot procces](/Boot procces.md) [[UEFI vs BIOS#Partition types|Partition types]] - [[Files systems.canvas|Fiels systems]] [GRUB 2](/GRUB 2.md) [Run Levels](/obisdian_ntoes/for later/Run Levels.md) Devices types in /dev [Block vs character dev](/Block vs character dev.md) [[Block vs character dev#Special character devices|Special character devieces]] [Getting PCI dev info](/Getting PCI dev info.md) [[Combining Disks (raid).canvas|Combining Disks (raid)]] Commands stat(gives a more detailed overview of the metadata) file [Archive vs Compress](/Archive vs Compress.">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="290"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Camptia Objectives">
+<meta name="twitter:description" content="1. **File system hierarchy** Boot [UEFI vs BIOS](/UEFI vs BIOS.md) [Boot procces](/Boot procces.md) [[UEFI vs BIOS#Partition types|Partition types]] - [[Files systems.canvas|Fiels systems]] [GRUB 2](/GRUB 2.md) [Run Levels](/obisdian_ntoes/for later/Run Levels.md) Devices types in /dev [Block vs character dev](/Block vs character dev.md) [[Block vs character dev#Special character devices|Special character devieces]] [Getting PCI dev info](/Getting PCI dev info.md) [[Combining Disks (raid).canvas|Combining Disks (raid)]] Commands stat(gives a more detailed overview of the metadata) file [Archive vs Compress](/Archive vs Compress.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Camptia Objectives</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>1. **File system hierarchy** 
+</code></pre>
+<ol start="2">
+<li><strong>Boot</strong>
+<ul>
+<li>[UEFI vs BIOS](/UEFI vs BIOS.md)</li>
+<li>[Boot procces](/Boot procces.md)</li>
+<li>[[UEFI vs BIOS#Partition types|Partition types]]
+- [[Files systems.canvas|Fiels systems]]</li>
+<li>[GRUB 2](/GRUB 2.md)
+<ul>
+<li>[Run Levels](/obisdian_ntoes/for later/Run Levels.md)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Devices types in /dev</strong>
+<ul>
+<li>[Block vs character dev](/Block vs character dev.md)
+<ul>
+<li>[[Block vs character dev#Special character devices|Special character devieces]]</li>
+<li>[Getting PCI dev info](/Getting PCI dev info.md)</li>
+</ul>
+</li>
+<li>[[Combining Disks (raid).canvas|Combining Disks (raid)]]</li>
+<li><strong>Commands</strong>
+<ul>
+<li>stat(<em>gives a more detailed overview of the metadata</em>)</li>
+<li>file</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[Archive vs Compress](/Archive vs Compress.md)</li>
+<li><a href="/Partitioning.md">Partitioning</a>
+<ul>
+<li>[Automatic Mounting fstab](/Automatic Mounting fstab.md)</li>
+<li>[Dick encryption](/Dick encryption.md)</li>
+</ul>
+</li>
+<li><a href="/LVM.md">LVM</a></li>
+<li>[[Virtual Storage.canvas|Virtual Storage]]</li>
+<li><a href="/systemd.md">systemd</a></li>
+<li><a href="/obisdian_ntoes/scriptss/Cronetab.md">Cronetab</a>/<a href="/obisdian_ntoes/scriptss/At.md">At</a>/[[systemd#Systemd Timers|Systemd Timers]]</li>
+<li>[[Process management_signals.canvas|Process mangament_signals]]
+<ul>
+<li>[[systemd#Systemd procedures|Systemd procedures]]</li>
+</ul>
+</li>
+<li><strong>Network</strong>
+<ul>
+<li><a href="/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md">DNS</a>
+<ul>
+<li><a href="/nsswitch.conf.md">nsswitch.conf</a></li>
+<li>[[DNS#Changing Dns server|Changing Dns server]]</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/nslookup.md">nslookup</a></li>
+</ul>
+</li>
+<li>[[tcpdump]]</li>
+<li>[[whireshark]]</li>
+</ul>
+</li>
+<li>[Repository Configuration](/Repository Configuration.md)</li>
+<li>[[Kernel#Kernel Otpions|Kernel Options]]</li>
+<li>[Localizaiton time setup](/Localizaiton time setup.md)</li>
+</ol>
+<h2 id="security">Security</h2>
+<ol>
+<li><strong>Encryption</strong>
+<ul>
+<li>[[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]</li>
+<li>[encrypted Web traffic](/encrypted Web traffic.md)</li>
+</ul>
+</li>
+<li>[[System Auth.canvas|System Auth]]</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/Permissions.md">Permissions</a>
+<ol>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/umask.md">umask</a></li>
+</ol>
+</li>
+<li>[[Logging.canvas|Logign]]</li>
+<li><a href="/SELinux.md">SELinux</a></li>
+<li><a href="/AppArmor.md">AppArmor</a></li>
+</ol>
+<h3 id="sys-amdimistrations">Sys amdimistrations</h3>
+<ol>
+<li><strong>User manipulation</strong>
+<ul>
+<li><a href="/profile_etc.md">profile_etc</a></li>
+<li><a href="/etc/skel_etc.md">skel_etc</a></li>
+</ul>
+<ol start="2">
+<li><strong>Commands</strong></li>
+</ol>
+<ul>
+<li><a href="/chage.md">chage</a></li>
+</ul>
+<ol>
+<li><strong>Sudo and visudo</strong></li>
+<li><a href="/pkexec.md">pkexec</a></li>
+<li><a href="/getfacl.md">getfacl</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="cloud">Cloud</h3>
+<ol>
+<li><a href="/git.md">git</a></li>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md">docker</a></li>
+<li>[[Automation tools.canvas|Automation tools]]</li>
+</ol>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<h5 id="io-issues">Io issues</h5>
+<ol>
+<li><strong>High latency</strong>
+Input/output (I/O) wait
+Low throughput
+Input/output operations per second (IOP)
+Low IOPS
+<ul>
+<li>Consider  diffrent [[Files systems.canvas|Files system]]</li>
+<li>check for wa with top</li>
+<li><a href="/ioStat.md">ioStat</a></li>
+</ul>
+</li>
+<li>[inodes exhaustion](/inodes exhaustion.md)</li>
+<li>[IO schedulers](/IO schedulers.md)</li>
+<li><a href="/NVMe.md">NVMe</a></li>
+<li><strong>File system isssues</strong>(<em>coruption  missmatch</em>)
+<ol>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/fsck.md">fsck</a></li>
+</ol>
+</li>
+<li>[[vstat]]</li>
+<li><a href="https://www.site24x7.com/learn/linux/disk-io-troubleshooting.html">Io summery</a></li>
+</ol>
+<h4 id="network-torubleshooting">Network torubleshooting</h4>
+<ul>
+<li>Checking [[subnet mask|subnet]] and <strong>routing</strong></li>
+<li><a href="/iptables.md">iptables</a></li>
+</ul>
+<h5 id="droped-packett">Droped packett</h5>
+<ul>
+<li><a href="/ip_command.md">ip_command</a></li>
+<li>Links (<em>the name of the network devices</em>)
+<ul>
+<li><em><strong>ip -h -s link show device</strong></em></li>
+</ul>
+</li>
+</ul>
+<h5 id="dns-issues">Dns issues</h5>
+<ul>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/nslookup.md">nslookup</a></li>
+<li><a href="/dig_command.md">dig_command</a></li>
+<li><a href="/ping_command.md">ping_command</a></li>
+</ul>
+<h4 id="network-resonance">Network Resonance</h4>
+<p><a href="/obisdian_ntoes/notes_obsidian/Linux/nmap.md">nmap</a>
+openssl client</p>
+<ul>
+<li>to check weather the connection is legit</li>
+</ul>
+<h3 id="cpu-issues">Cpu issues</h3>
+<ul>
+<li>[Load Average](/Load Average.md)</li>
+<li>[[Cpu#Cpu times (<em>Subdevisions</em>)|Cpu times]]</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md">Cpu</a></li>
+<li>[[Cpu#CPU process priorities | Cpu priotities]]
+<ul>
+<li>[OOM process Killer](/OOM process Killer.md)</li>
+</ul>
+</li>
+</ul>
+<p>[Swap memory](/Swap memory.md)</p>
+<h4 id="hardwere">Hardwere</h4>
+<ul>
+<li><em>lscpu</em></li>
+<li><em>lsmemm</em></li>
+<li><em><strong>/proc/cpuinfo</strong></em></li>
+<li><em><strong>/proc/meminfo</strong></em></li>
+</ul>
+<h3 id="user-issue">User issue</h3>
+<p>[[Login troubleshooting ]]
+<a href="/quota.md">quota</a></p>
+<h3 id="systemd">Systemd</h3>
+<p>[[systemd#Systmed units|Units]]
+[[systemd_ordering|Ordering]]
+[[systemd#Systemd Timers|Timers]]</p>
+<hr>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

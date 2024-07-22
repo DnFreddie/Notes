@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+    
+      <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Notes" />
+      <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Notes" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="Posts">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Posts">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Posts
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/systemcall/" class="link black dim">
+        systemcall
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      --- date:: 2023-08-02 type:: Kernel Enables user-level programs to request services and perform privileged operations.
+It acts as a secure gateway, allowing programs to interact with hardware and access higher privileges while maintaining system stability and security. [!example]- Accept syscall [!quote]
+    </div>
+    <a href="/posts/systemcall/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/systemd/" class="link black dim">
+        systemd
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      [playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&amp;list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&amp;index=1) init
+Units Any entity managed by systemd
+[!example]- systemd_ordering
+Location /lib/systemd/systemd standard systmed unit files /usr/lib/systmed/system for locally installed packages (via apt-get) /run/systemd/systemd transient unit files /etc/systemd/system custom unit files Systemd targets Way of managing relation between units It&rsquo;s basically groups processor on phases and start them in a correct order
+systemctl list-units --type=target Last state is multi-user.target u can move between the targets
+systemctl isolate sysinit.target This will rollback to a given target
+    </div>
+    <a href="/posts/systemd/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/systemd_mount/" class="link black dim">
+        systemd_mount
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Systemd mount units are used to control the mounting and unmounting of filesystems.
+#etc They are similar to traditional /etc/fstab entries but are managed by systemd. Mount units are defined in configuration files typically located in /etc/systemd/system or /run/systemd/system.
+These files have a .mount extension.
+A unit configuration file whose name ends in &quot;.mount&quot; encodes information about a file system mount point controlled and supervised by systemd.
+What specifies the device or filesystem to be mounted.
+    </div>
+    <a href="/posts/systemd_mount/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/systemd_ordering/" class="link black dim">
+        systemd_ordering
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      ### General ordering (dependencies) Wants, Wanted By Weakest dependency Please activate together ,but no big deal if you don&rsquo;t
+/lib/systemd/system/friendly-recovery.target
+`Wants=friendly-recovery.service` /lib/systemd/system/motd-news.tmier
+`WantedBy=timers.target` Requiters Required by Strong Dependency You Must activate these units together
+/lib/systemd/system/friendly-recovery.target
+`Requires=baisc.target` /lib/systemd/system/friendly-recovery.target
+`RequiredBy=baisc.target` Explicit Ordering In what order are units started
+/lib/systemd/system/friendly-recovery.target
+`Before=baisc.target` /lib/systemd/system/friendly-recovery.target
+`After=baisc.target` Others Requisite like Requires but must already be active BindsTo like Requires but more tightly coupled PartOf like Requires but only affects starting/stopping Conflicts exclude 2 units from being active simultaneously systemd
+    </div>
+    <a href="/posts/systemd_ordering/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/systemd/systemd-analyze/" class="link black dim">
+        systemd-analyze
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Display the boot time of the machine blame displays the individuals startup times of the services
+Example output
+systemd-analyze blame 4.842s NetworkManager-wait-online.service 3.219s docker.service 1.844s NetworkManager.service 
+    </div>
+    <a href="/posts/systemd/systemd-analyze/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/protocols/telnet/" class="link black dim">
+        telnet
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      --- date:: 2023-07-07 type:: network+ Telnet ==Telecomunication network== Port tcp/23
+Login to devices remotly (console acces) Acesseing it via terminal [!bug] IT has In-the-clear communcation Theres no encryption !!! Not good for production systems
+[!example]- [!quote] ports ssh
+    </div>
+    <a href="/posts/protocols/telnet/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/teraform/" class="link black dim">
+        Teraform
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Teraform Agent less Good and provisioning servicej declaritive it knwos what to spawn first U can create a viev of the deploemnty before it uses api calls 
+    </div>
+    <a href="/posts/teraform/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/protocols/tftp_protcol/" class="link black dim">
+        TFTP_protcol
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      --- date:: 2023-07-28 type:: network+ Trivial File Transfer Protocol [UDP](/obisdian_ntoes/for later/UDP.md)/69 Very simple file transfer application Read files and wirte files ==No authentucation== Not used on productions systems [!quote] FTP_protocol [[ports#Common ports]]
+    </div>
+    <a href="/posts/protocols/tftp_protcol/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/posts/the-price-of-abstraction/" class="link black dim">
+        The price of abstraction
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Living in the world of the services Gmail Dropbox windows Notion they seem like a easy to incorporate and establish solution. People are obsessed about the liabilities it works it&rsquo;s great U don&rsquo;t have to worry about anything Someone else does it for u All u have to do is to pay the price of abstraction
+Obvious tradoff data Most of users don&rsquo;t go for the paid plans, which means they end up paying with their personal data instead.
+    </div>
+    <a href="/posts/posts/the-price-of-abstraction/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/posts/the_gold_is_in_the_block/" class="link black dim">
+        the_gold_is_in_the_block
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      People often find excitement in the world of crypto, blockchain, and NFTs, only to fall victim to scams or invest in worthless tokens. Some even chase digital dreams worth millions! But here&rsquo;s the twist:
+Instead of digging into the systems behind all these treasures, they&rsquo;re all about owning stuff on the web. It&rsquo;s like they&rsquo;re hunting for treasures without a map. What&rsquo;s kinda funny is that I actually find the technology itself more intriguing than the supposed treasures it holds.
+    </div>
+    <a href="/posts/posts/the_gold_is_in_the_block/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+    </section>
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/posts/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/26/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/25/" aria-label="Page 25" class="page-link" role="button">25</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/26/" aria-label="Page 26" class="page-link" role="button">26</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 27" class="page-link" role="button">27</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/28/" aria-label="Page 28" class="page-link" role="button">28</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/29/" aria-label="Page 29" class="page-link" role="button">29</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/28/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/31/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
