@@ -4,8 +4,8 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    <mark class="hltr-pomarancza">This</mark> [statement.sql](/obisdian_ntoes/notes_obsidian/SQL/statement.sql.md)  <mark class="hltr-pomarancza">allows us to perform a separate query</mark> 
-	*(such as aggregating customer’s subscriptions)*
+ <mark class="hltr-pomarancza">This</mark> statment  <mark class="hltr-pomarancza">allows us to perform a separate query</mark> 
+*(such as aggregating customer’s subscriptions)*
 
 
  We are putting a whole first query inside the parentheses `()` and giving it a name. After that, we can use this name as if it’s a table and write a new query _using_ the first query.

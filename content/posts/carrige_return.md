@@ -1,26 +1,20 @@
 +++
-title = 'carrige_return'
+title = 'Carrige return vs line Feed'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-28
-type:: Linux
----
-## Carriage return line Feed 
 Control characters that appear to the text file to innit to the printer that it should rerun the carriage and feed the line 
 
 - Line Feed **"\n"**
 - Carriage Return **"\r"**
 
- ==[HTTP](/protocols/HTTP.md)  and [HTTPS](/HTTPS.md) format is Linefid + Carraige==
+[HTTPS]({{< ref "posts/protocols/HTTPS.md" >}}) and  [HTTP]({{< ref "posts/protocols/HTTP.md" >}})  format is Linefid + Carraige
 
-![Carriage_retur_visual.png](/static/Carriage_retur_visual.png)
+>![Carriage_retur_visual.png](/static/Carriage_retur_visual.png)
 - On windosw 
 	- There are only carriage returns and line feed 
-- On [Linux](/obisdian_ntoes/notes_obsidian/Templates/Linux.md)  (*an in rest of the world*)  there are **line feeds**
+- On Linux  (*an in rest of the world*)  there are **line feeds**
 - On Mac there are only **carriage returns**
 
 
->[!quote] [awk_command](/awk_command.md)

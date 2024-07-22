@@ -1,30 +1,38 @@
 +++
-title = 'bridge_net'
+title = 'Bridge network'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    Virtual or psychical device that connect multiple [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) 's
-![Pasted_image_20240510102627.png](/static/Pasted_image_20240510102627.png)
+ Virtual or psychical device that connect multiple **LAN's**
+
+>![Pasted_image_20240510102627.png](/static/Pasted_image_20240510102627.png)
 - All parts of the bridge will get their collision domain
->[!bug] Collisions
- When to or more devices on the same network try to transmit data at the exact same time (*some packet will be doped*)
+>Bug
+>
+>Collisions
+>
+>When to or more devices on the same network try to transmit data at the exact same time (*some packet will be doped*)
 
 
 ### Docker bridging
-- Default [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md) bridge doesn't allow for the [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) change
+- Default [docker]({{< ref "posts/Linux/Docker/docker.md" >}})
+bridge doesn't allow for the **DNS** change
 	-  U have to create one 
-	- ***[[Dns]] Name is the same as the container name*** 
+	- ***Dns Name is the same as the container name*** 
 
 
 ```bash
-docker network create my-bridge-net --subnet  10.0.0..0/19 
---gateway 10.0.0.1
+docker network create my-bridge-net --subnet  10.0.0..0/19 --gateway 10.0.0.1
 ```
 
->[!example] Docker compose 
+>Example 
+>
+>Docker compose 
 >![Pasted_image_20240510104017.png](/static/Pasted_image_20240510104017.png)
 
 
 --- 
-[NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) [host_net](/host_net.md)
+[NAT]({{< ref "posts/Network/basic_network_connections/NAT.md" >}})
+
+[Host-net]({{< ref "posts/host_net.md" >}})

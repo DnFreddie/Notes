@@ -1,10 +1,10 @@
 +++
-title = 'AppArmor'
+title = 'App Armor'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    Define on every *program*  what it's allows to access 
+*Define on every **program**  what it's allows to access*
 
 
 ### Profiles
@@ -20,7 +20,9 @@ There are located in */etc/apparmor.d*
 Create the profile file *etc/apparmmor.d/local*
 
 
->[!bug] Can't overide deny with the local allow 
+>Bug!
+>
+>Can't overide **deny** with the **local allow**
 >u have to change the profile then 
 
 
@@ -40,10 +42,11 @@ Create the profile file *etc/apparmmor.d/local*
 sudo aa-logprof
 ```
 
- >[!example]-
+ >Example
  >![Pasted_image_20240507121744.png](/static/Pasted_image_20240507121744.png)
 
 
 ---
 [Docs](https://www.youtube.com/watch?v=XP-N22hjijo&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp&index=39)
-[SELinux](/SELinux.md)
+
+[SELinux]({{< ref "posts/SELinux.md" >}})

@@ -3,14 +3,9 @@ title = 'NTP_protocol'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
-
-    ---
-date:: 2023-07-28
-type:: network+
----
 ## Network Time Protocol
 
-- ==Synchronizing the clocs of the system==
+- **Synchronizing the clocs of the system**
 	- Log files authentication outage deatails 
 - **Automatic Updates** 
 	- No flasching 12:00 lights  
@@ -50,8 +45,7 @@ NTP cleint
 - Responds to time request from other NTP clients 
 
 
-==Important to plan NTP stategy while creatin an network==
+**Important to plan NTP stategy while creatin an network**
 
 
 
->[!quote] [HTTP](/protocols/HTTP.md) 

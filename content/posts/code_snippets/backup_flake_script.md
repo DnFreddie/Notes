@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ```bash
+```bash
 
 # Define include directories
 include_dirs=(
@@ -63,4 +63,4 @@ exit 0
 ```
 
 ---
-[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)
+[Code Snipeets Main]({{< ref "posts/SNIPPETS_MAIN.md" >}})

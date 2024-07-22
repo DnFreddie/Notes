@@ -4,7 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Good to know 
 ***U can install repo via adding the it as an input  and the call it later in the pkgs***
 
 ```nix
@@ -52,5 +51,3 @@ draft = false
     };
 }
 ```
- ---
-[nix](/nix.md)  [nix Templates](/code_snippets/nix Templates.md)[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)

@@ -4,11 +4,11 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### ACL
+# ACL
  Add more specific permission 
  - **getfacl** 
  - **setfacl**
->[!example]-
+>Example
 >![Pasted_image_20240507125459.png](/static/Pasted_image_20240507125459.png)
 
 
@@ -16,4 +16,4 @@ draft = false
 	- It show that smth was changed
 
 --- 
-[chattr](/chattr.md)
+[chattr]({{< ref "posts/chattr.md" >}})

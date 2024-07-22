@@ -1,14 +1,15 @@
 +++
-title = 'xargs_commnad'
+title = 'Xargs'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
-
-    ---
-date:: 2023-08-23
-type:: network+
+# Schema
+```bash 
+find . -type f | xargs -I {} mv {} {}.md
+```
 ---
-	## 
-**find . -type f | xargs -I {} mv {} {}.md**
 
->[!quote] [find](/obisdian_ntoes/notes_obsidian/Linux/commands/find.md) [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) [Camptia Objectives](/Camptia Objectives.md)
+[find]({{< ref "posts/Linux/commands/find.md" >}})
+
+
+[Comptia Objectives]({{< ref "posts/Camptia_Objectives.md" >}})

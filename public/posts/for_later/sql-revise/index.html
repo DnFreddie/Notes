@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>SQL REVISE | Notes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="--- date:: 17 04 2023 type:: SQL SQL ![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md) ![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)
+![SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)
+![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)
+![SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
+![Calculation SQL](/obisdian_ntoes/notes_obsidian/SQL/Calculation SQL.md) Data Manipulation Aggregates Case [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) [Distinc SQL](/obisdian_ntoes/notes_obsidian/SQL/Distinc SQL.md) [Group by](/obisdian_ntoes/notes_obsidian/SQL/Group by.md) Having [Is null](/obisdian_ntoes/notes_obsidian/SQL/Is null.md) join.sql [left join.sql](/obisdian_ntoes/notes_obsidian/SQL/left join.sql.md) Like limit [Order by](/obisdian_ntoes/notes_obsidian/SQL/Order by.md) statement.sql union.sql with.sql [!quote] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) |">
+    <meta name="generator" content="Hugo 0.125.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/for_later/sql-revise/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/for_later/sql-revise/">
+  <meta property="og:site_name" content="Notes">
+  <meta property="og:title" content="SQL REVISE">
+  <meta property="og:description" content="--- date:: 17 04 2023 type:: SQL SQL ![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md) ![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)
+![SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)
+![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)
+![SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
+![Calculation SQL](/obisdian_ntoes/notes_obsidian/SQL/Calculation SQL.md) Data Manipulation Aggregates Case [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) [Distinc SQL](/obisdian_ntoes/notes_obsidian/SQL/Distinc SQL.md) [Group by](/obisdian_ntoes/notes_obsidian/SQL/Group by.md) Having [Is null](/obisdian_ntoes/notes_obsidian/SQL/Is null.md) join.sql [left join.sql](/obisdian_ntoes/notes_obsidian/SQL/left join.sql.md) Like limit [Order by](/obisdian_ntoes/notes_obsidian/SQL/Order by.md) statement.sql union.sql with.sql [!quote] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) |">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
+    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
+
+  <meta itemprop="name" content="SQL REVISE">
+  <meta itemprop="description" content="--- date:: 17 04 2023 type:: SQL SQL ![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md) ![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)
+![SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)
+![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)
+![SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
+![Calculation SQL](/obisdian_ntoes/notes_obsidian/SQL/Calculation SQL.md) Data Manipulation Aggregates Case [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) [Distinc SQL](/obisdian_ntoes/notes_obsidian/SQL/Distinc SQL.md) [Group by](/obisdian_ntoes/notes_obsidian/SQL/Group by.md) Having [Is null](/obisdian_ntoes/notes_obsidian/SQL/Is null.md) join.sql [left join.sql](/obisdian_ntoes/notes_obsidian/SQL/left join.sql.md) Like limit [Order by](/obisdian_ntoes/notes_obsidian/SQL/Order by.md) statement.sql union.sql with.sql [!quote] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) |">
+  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
+  <meta itemprop="wordCount" content="69"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="SQL REVISE">
+<meta name="twitter:description" content="--- date:: 17 04 2023 type:: SQL SQL ![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md) ![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)
+![SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)
+![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)
+![SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
+![Calculation SQL](/obisdian_ntoes/notes_obsidian/SQL/Calculation SQL.md) Data Manipulation Aggregates Case [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) [Distinc SQL](/obisdian_ntoes/notes_obsidian/SQL/Distinc SQL.md) [Group by](/obisdian_ntoes/notes_obsidian/SQL/Group by.md) Having [Is null](/obisdian_ntoes/notes_obsidian/SQL/Is null.md) join.sql [left join.sql](/obisdian_ntoes/notes_obsidian/SQL/left join.sql.md) Like limit [Order by](/obisdian_ntoes/notes_obsidian/SQL/Order by.md) statement.sql union.sql with.sql [!quote] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) |">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Notes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">SQL REVISE</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
+</code></pre>
+<h2 id="type-sql">date:: 17 04 2023
+type:: SQL</h2>
+<h1 id="sql">SQL</h1>
+<p>![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md)
+![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)</p>
+<hr>
+<p>![SQL Data types](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL Data types.md)</p>
+<hr>
+<p>![SQL functions](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQL functions.md)</p>
+<hr>
+<p>![SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)</p>
+<hr>
+<h2 id="calculation-sqlobisdian_ntoesnotes_obsidiansqlcalculation-sqlmd">![Calculation SQL](/obisdian_ntoes/notes_obsidian/SQL/Calculation SQL.md)</h2>
+<h2 id="data-manipulation">Data Manipulation</h2>
+<ol>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/Aggregates.md">Aggregates</a></li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/Case.md">Case</a></li>
+<li>[cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md)</li>
+<li>[Distinc SQL](/obisdian_ntoes/notes_obsidian/SQL/Distinc SQL.md)</li>
+<li>[Group by](/obisdian_ntoes/notes_obsidian/SQL/Group by.md)</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/Having.md">Having</a></li>
+<li>[Is null](/obisdian_ntoes/notes_obsidian/SQL/Is null.md)</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/join.sql.md">join.sql</a></li>
+<li>[left join.sql](/obisdian_ntoes/notes_obsidian/SQL/left join.sql.md)</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/Like.md">Like</a></li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/limit.md">limit</a></li>
+<li>[Order by](/obisdian_ntoes/notes_obsidian/SQL/Order by.md)</li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/statement.sql.md">statement.sql</a></li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/union.sql.md">union.sql</a></li>
+<li><a href="/obisdian_ntoes/notes_obsidian/SQL/with.sql.md">with.sql</a></li>
+</ol>
+<blockquote>
+<p>[!quote] [Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) |</p>
+</blockquote>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Notes 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

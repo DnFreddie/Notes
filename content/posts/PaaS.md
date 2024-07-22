@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-09-03
-"type:": network+
----
 ## Platform as a service 
 
 - No servers No software no maintenance team no HVAC
@@ -17,4 +13,4 @@ draft = false
 - Put the building blocks together 
 	- Develop your app from whats available on the platform 
 
->[!quote] [IaaS](/IaaS.md) [PaaS](/PaaS.md) [Cloud models](/Cloud models.md)
+[SaaS]({{< ref "posts/SaaS.md" >}}) [IaaS]({{< ref "posts/Iaas.md" >}}) [Cloud Models]({{< ref "posts/Cloud_Models.md" >}})

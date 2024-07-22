@@ -1,13 +1,9 @@
 +++
-title = 'bots_gtp_recomendations'
+title = 'Web scraping techniques'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-09-01
-"type:": AI
----
 
 
 # Rate Limiting Strategies for Web Scraping
@@ -84,4 +80,3 @@ draft = false
 > **Disclaimer:** Remember that even if you're not blocked by a website, your actions can still be illegal or against the terms of service of the website you're interacting with. Always respect robots.txt and terms of service, and when in doubt, seek legal advice.
 
 
->[!quote] 

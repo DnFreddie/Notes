@@ -1,183 +1,25 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>ansible_jinja2 | Notes</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="--- title: Ansible Jinja2 Stemping the server Alot of the times u don&#39;t know what has changed on the given server
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>Jinja2 | ExampleSite</title>
+<meta name=keywords content><meta name=description content="Stemping the server Alot of the times u don't know what has changed on the given server
 This gives u ability to see what has change before the previous configuration Delegating By defulat the ansible copies the files to all the host To prevent that use delegate_to local host Template module Docs
-- name: use Jinja2 template to configure vsftpd template: src: vsftpd.j2 dest: /etc/vsftpd/vsftpd.conf Example Template">
-    <meta name="generator" content="Hugo 0.125.4">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:33371/posts/ansible/ansible_jinja2/">
-    
-
-    <meta property="og:url" content="http://localhost:33371/posts/ansible/ansible_jinja2/">
-  <meta property="og:site_name" content="Notes">
-  <meta property="og:title" content="ansible_jinja2">
-  <meta property="og:description" content="--- title: Ansible Jinja2 Stemping the server Alot of the times u don&#39;t know what has changed on the given server
-This gives u ability to see what has change before the previous configuration Delegating By defulat the ansible copies the files to all the host To prevent that use delegate_to local host Template module Docs
-- name: use Jinja2 template to configure vsftpd template: src: vsftpd.j2 dest: /etc/vsftpd/vsftpd.conf Example Template">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
-    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
-
-  <meta itemprop="name" content="ansible_jinja2">
-  <meta itemprop="description" content="--- title: Ansible Jinja2 Stemping the server Alot of the times u don&#39;t know what has changed on the given server
-This gives u ability to see what has change before the previous configuration Delegating By defulat the ansible copies the files to all the host To prevent that use delegate_to local host Template module Docs
-- name: use Jinja2 template to configure vsftpd template: src: vsftpd.j2 dest: /etc/vsftpd/vsftpd.conf Example Template">
-  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="wordCount" content="134"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="ansible_jinja2">
-<meta name="twitter:description" content="--- title: Ansible Jinja2 Stemping the server Alot of the times u don&#39;t know what has changed on the given server
-This gives u ability to see what has change before the previous configuration Delegating By defulat the ansible copies the files to all the host To prevent that use delegate_to local host Template module Docs
-- name: use Jinja2 template to configure vsftpd template: src: vsftpd.j2 dest: /etc/vsftpd/vsftpd.conf Example Template">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
-  
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        Notes
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
-    
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">ansible_jinja2</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
-</code></pre>
-<h2 id="title-ansible-jinja2">title: Ansible Jinja2</h2>
-<h1 id="stemping-the-server">Stemping the server</h1>
-<p><em>Alot of the times u don't know what has changed on the given server</em></p>
-<ul>
-<li>This gives u ability to see what has change before the previous
-configuration</li>
-</ul>
-<h2 id="delegating">Delegating</h2>
-<ul>
-<li>By defulat the ansible copies the files to all the host
-<ul>
-<li>To prevent that use <strong>delegate_to</strong> <em>local host</em></li>
-</ul>
-</li>
-</ul>
-<h3 id="template-module">Template module</h3>
-<p><a href="https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_templating.html">Docs</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">use Jinja2 template to configure vsftpd</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">template</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">src</span>: <span style="color:#ae81ff">vsftpd.j2</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">dest</span>: <span style="color:#ae81ff">/etc/vsftpd/vsftpd.conf</span>
-</span></span></code></pre></div><ol>
-<li>
-<p>Example Template</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#[ansible@controller templates]$ cat vsftpd.j2</span>
-</span></span><span style="display:flex;"><span>anonymous_enable<span style="color:#f92672">={{</span> anonymous_enable <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span>local_enable<span style="color:#f92672">={{</span> local_enable <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span>write_enable<span style="color:#f92672">={{</span> write_enable <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span>anon_upload_enable<span style="color:#f92672">={{</span> anon_upload_enable <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span>dirmessage_enable<span style="color:#f92672">=</span>YES
-</span></span><span style="display:flex;"><span>xferlog_enable<span style="color:#f92672">=</span>YES
-</span></span><span style="display:flex;"><span>connect_from_port_20<span style="color:#f92672">=</span>YES
-</span></span><span style="display:flex;"><span>pam_service_name<span style="color:#f92672">=</span>vsftpd
-</span></span><span style="display:flex;"><span>userlist_enable<span style="color:#f92672">=</span>YES
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># MY IP Address={{ ansible_facts[&#39;default_ipv4&#39;][&#39;address&#39;] }}</span>
-</span></span></code></pre></div></li>
-</ol>
-<h2 id="filtering-the-nodes">Filtering the nodes</h2>
-<ul>
-<li>
-<p><em>Shorter one</em></p>
-<pre tabindex="0"><code class="language-templ" data-lang="templ">{{ ansible_play_host_all | select(&#39;not in&#39;, ansible_play_hosts) | join(&#39;, &#39;) }}
-</code></pre></li>
-<li>
-<p><em>Longer one</em></p>
-<pre tabindex="0"><code class="language-templ" data-lang="templ">
+- name: use Jinja2 template to configure vsftpd template: src: vsftpd.j2 dest: /etc/vsftpd/vsftpd.conf Example Template
+#[ansible@controller templates]$ cat vsftpd."><meta name=author content="Me"><link rel=canonical href=http://localhost:1313/posts/ansible/ansible_jinja2/><link crossorigin=anonymous href=/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/ansible/ansible_jinja2/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript></head><body class=dark id=top><script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="Home (Alt + H)"><img src=http://localhost:1313/apple-touch-icon.png alt aria-label=logo height=35>Home</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Jinja2</h1><div class=post-meta><span title='2024-07-22 09:10:24 +0200 CEST'>July 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;132 words&nbsp;·&nbsp;Me</div></header><div class=post-content><h1 id=stemping-the-server>Stemping the server<a hidden class=anchor aria-hidden=true href=#stemping-the-server>#</a></h1><p><em>Alot of the times u don't know what has changed on the given server</em></p><ul><li>This gives u ability to see what has change before the previous
+configuration</li></ul><h2 id=delegating>Delegating<a hidden class=anchor aria-hidden=true href=#delegating>#</a></h2><ul><li>By defulat the ansible copies the files to all the host<ul><li>To prevent that use <strong>delegate_to</strong> <em>local host</em></li></ul></li></ul><h3 id=template-module>Template module<a hidden class=anchor aria-hidden=true href=#template-module>#</a></h3><p><a href=https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_templating.html>Docs</a></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>use Jinja2 template to configure vsftpd</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>template</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>src</span><span class=p>:</span><span class=w> </span><span class=l>vsftpd.j2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>dest</span><span class=p>:</span><span class=w> </span><span class=l>/etc/vsftpd/vsftpd.conf</span><span class=w>
+</span></span></span></code></pre></div><ol><li><p>Example Template</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1>#[ansible@controller templates]$ cat vsftpd.j2</span>
+</span></span><span class=line><span class=cl><span class=nv>anonymous_enable</span><span class=o>={{</span> anonymous_enable <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>local_enable</span><span class=o>={{</span> local_enable <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>write_enable</span><span class=o>={{</span> write_enable <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>anon_upload_enable</span><span class=o>={{</span> anon_upload_enable <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>dirmessage_enable</span><span class=o>=</span>YES
+</span></span><span class=line><span class=cl><span class=nv>xferlog_enable</span><span class=o>=</span>YES
+</span></span><span class=line><span class=cl><span class=nv>connect_from_port_20</span><span class=o>=</span>YES
+</span></span><span class=line><span class=cl><span class=nv>pam_service_name</span><span class=o>=</span>vsftpd
+</span></span><span class=line><span class=cl><span class=nv>userlist_enable</span><span class=o>=</span>YES
+</span></span><span class=line><span class=cl><span class=c1># MY IP Address={{ ansible_facts[&#39;default_ipv4&#39;][&#39;address&#39;] }}</span>
+</span></span></code></pre></div></li></ol><h2 id=filtering-the-nodes>Filtering the nodes<a hidden class=anchor aria-hidden=true href=#filtering-the-nodes>#</a></h2><ul><li><p><em>Shorter one</em></p><pre tabindex=0><code class=language-templ data-lang=templ>{{ ansible_play_host_all | select(&#39;not in&#39;, ansible_play_hosts) | join(&#39;, &#39;) }}
+</code></pre></li><li><p><em>Longer one</em></p><pre tabindex=0><code class=language-templ data-lang=templ>
 {% for host in ansible_play_host_all %}
 
 {% if host not in ansible_play_hosts%}
@@ -187,39 +29,9 @@ configuration</li>
 {% endif %}
 
 {% endfor %}
-</code></pre></li>
-</ul>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
-    &copy;  Notes 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
-</html>
+</code></pre><hr></li></ul><p><a href=http://localhost:1313/posts/ansible/ansible_commands/>Ansible Main</a></p></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/jenkins/><span class=title>« Prev</span><br><span>Jenkins</span>
+</a><a class=next href=http://localhost:1313/posts/sql/join.sql/><span class=title>Next »</span><br><span>join.sql</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>ExampleSite</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 ##   Central Processing Unit
 _The brain of the computer_
 -   The CPU is responsible for executing instructions of computer programs and controlling the other components of the computer system.

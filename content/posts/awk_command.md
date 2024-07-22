@@ -1,15 +1,10 @@
 +++
-title = 'awk_command'
+title = 'Awk'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-17
-type:: Linux
----
-## Awk 
-The  awk contains blocks  
+*The  awk contains blocks* 
 
 ### Skip headers  and empty lines 
 ```bash 
@@ -85,10 +80,10 @@ Certainly! Below is a Markdown table summarizing the built-in string functions i
 | `tolower(str)`              | Converts all upper-case characters in `str` to lower-case.                                | `tolower("HELLO, WORLD !!!");`                          |
 | `toupper(str)`              | Converts all lower-case characters in `str` to upper-case.                                | `toupper("hello, world !!!");`                          |
 
-Feel free to copy this Markdown table into your Markdown-compatible editor to see the formatted version.
 
 
 
 
 
->[!quote] [grep](/obisdian_ntoes/notes_obsidian/Linux/commands/grep.md)
+---
+[grep]({{< ref "posts/Linux/commands/grep.md" >}})

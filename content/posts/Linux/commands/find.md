@@ -3,28 +3,17 @@ title = 'find'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
-
-    ---
-date:: 30 03 2023
-topic:: linux-command
-type:: Linux
----
-## find
-
-- **executable**
-    - Look for the binaries 
+- Look for the binaries 
+    - **executable**
 
  ```bash
-
 find -executable 
 
 ```
 - Look for the broken links 
 
 ```bash 
-
 find . -xtype l
-
 ```
 
 
@@ -39,10 +28,12 @@ find . -xtype l
 >[!example] Possibilities
 >![FindPossibilities.visual.png](/static/FindPossibilities.visual.png)
 
-## U can search files via [Permissions](/obisdian_ntoes/notes_obsidian/Linux/Permissions.md)
+## U can search files via [Permissions]({{< ref "posts/Linux/Permissions.md" >}})
 
->[!example] Finding files with perrmision 4000 ([SUID](/obisdian_ntoes/notes_obsidian/Linux/SUID.md))
->kali >find / -user root -perm -4000
+Finding files with perrmision 4000 [SUID]({{< ref "posts/Linux/SUID.md" >}})
 
+```bash
+find / -user root -perm -4000
+```
 
 

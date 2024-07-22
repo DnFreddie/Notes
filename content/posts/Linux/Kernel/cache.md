@@ -1,16 +1,11 @@
 +++
-title = 'cache'
+title = 'Casche'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-06
-type:: Linux
----
-## Casche 
 Small and fast temporarly storage area 
-located near [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for efficient and near-instant data retrival 
+located near [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}}) for efficient and near-instant data retrival 
 
 - It carries the freqently used data 
 	- It uses **S-ram** 
@@ -18,13 +13,15 @@ located near [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for effic
 - L1 (priamary casche)
 	-  fast 
 	-  small
-	-  emebeded in [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
+	-  emebeded in [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}})
 - L2 
-	  1. holds more then L1 
-	  2. can be emebeded or run on a seperate chip
+	1. holds more then **L1**
+	2. can be emebeded or run on a seperate chip
 - L3 
-		Specialiazed memory design to *improve* the performance of L1  and L2  casches
+		Specialiazed memory design to *improve* the performance of **L1**  and **L2**  casches
 
 
+---
 
->[!quote] [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) ||[redis](/databases/redis.md) [Etag](/Etag.md)
+[Redis]({{< ref "posts/databases/redis.md" >}})
+[Etag]({{< ref "posts/Etag.md" >}})

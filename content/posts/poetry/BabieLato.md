@@ -1,10 +1,9 @@
 +++
-title = 'BabieLato'
+title = 'Babie Lato'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    “Babie lato” 
 kolejny długi jesienny dzień
 jest ciemno standard zasłoniłem rolety 
 znowu leże 

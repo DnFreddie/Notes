@@ -1,10 +1,10 @@
 +++
-title = 'ansible_commands'
+title = 'Ansible Commands'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [Docs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-multiple-servers-with-ansible-ad-hoc-commands)
+[Docs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-multiple-servers-with-ansible-ad-hoc-commands)
 
 # Test Host connection
 
@@ -41,7 +41,7 @@ ansible <target group> -i inventory -m module -a "module options"
 ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 ```
 ---
-[ansible](/ansible/Ansible.md)
+[Ansible Main]({{< ref "posts/ansible/ansible_commands.md" >}})
 
 ### Ansible  Debuging
 *U can skip the deubiging message by using etiher the:*

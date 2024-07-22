@@ -4,13 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-05
-type:: database
---- 
-## Firebase  
-**Non Sql database**
-$$1$$
+*Non Sql database*
 ## Startup 
 - Get *credentials.json* from "**projectsetting/serviceaccounts**"
 - Get **URL** from the *realtime database sectiono*
@@ -29,7 +23,6 @@ FIREBASE_ADMIN.INITIALIZE_APP(CRED, url)
 REF = DB.REFERENCE('/')
 
 ```
-$$2$$
 ## Functions 
 
 | Fn                                 | Description                      |     
@@ -40,5 +33,7 @@ $$2$$
 | reference.update({ node:value }) | *Create a new node*                      |                                    |                     |                         |     |     |
 | reference.push().set("new value")| *Insert a new word*                       |                                    |                     |                         |     |     |
 | reference.transaction(function)  | *Modify the whole node*                   |                                    |                     |                         |     |     |
-$$3$$
->[!quote] [pandas_py](/obisdian_ntoes/notes_obsidian/ZPythonref/pandas_py.md) [redis](/databases/redis.md)
+
+---
+[Pandas]({{< ref "posts/ZPythonref/pandas_py.md" >}})
+[redis]({{< ref "posts/databases/redis.md" >}})

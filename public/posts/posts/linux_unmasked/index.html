@@ -1,216 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>linux_unmasked | Notes</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can&#39;t just learn Linux... But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux&#43; certification.
-I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&hellip;">
-    <meta name="generator" content="Hugo 0.125.4">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:33371/posts/posts/linux_unmasked/">
-    
-
-    <meta property="og:url" content="http://localhost:33371/posts/posts/linux_unmasked/">
-  <meta property="og:site_name" content="Notes">
-  <meta property="og:title" content="linux_unmasked">
-  <meta property="og:description" content="When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can&#39;t just learn Linux... But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what’s required, and so on. That’s what I thought while studying for the CompTIA Linux&#43; certification.
-I’m sure you have in mind Linux mantras “everything is a file” or that “you control the processes”, but little do you know…">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
-    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
-
-  <meta itemprop="name" content="linux_unmasked">
-  <meta itemprop="description" content="When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can&#39;t just learn Linux... But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux&#43; certification.
-I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&hellip;">
-  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="wordCount" content="789"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="linux_unmasked">
-<meta name="twitter:description" content="When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can&#39;t just learn Linux... But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux&#43; certification.
-I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&hellip;">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
-  
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        Notes
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
-    
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">linux_unmasked</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux...
-</code></pre>
-<p>But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux+ certification.</p>
-<p>I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&hellip;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>So it&rsquo;s quite obvious that devices on your system are virtual files in a <code>/dev</code> directory, processes are files, even the request queue is a file. But what exactly does &ldquo;file&rdquo; mean? When you think about it, you probably imagine something similar to the request structures; it has some headers (type of the file, size, etc.), some metadata (permissions, and ownership), and the main contents.</p>
-<p>But this is all a lie&hellip;</p>
-<p>You use <code>ls</code> probably all the time, but did you know there&rsquo;s a <code>-i</code> option?</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>   -i, --inode  print the index of the inode
-</span></span></code></pre></div><p>So what exactly is an inode and why all of a sudden can&rsquo;t files live without it? An inode is a data structure that holds the metadata of the file. If we really want to define what a file is, it&rsquo;s raw data and the pointer to inode that defines it.</p>
-<p>Ok, but what are the directories then?</p>
-<p>Directories are just the table of file names and inodes, that&rsquo;s quite simple. But how can we use this knowledge except boasting about it at beer night? So there comes another myth&hellip;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>That&rsquo;s not quite right, you see on most file systems <em>except ZFS</em>, the inode count is set on file system creation.</p>
-<p>You can check it using <code>stat</code> on <code>/var/log/lastlog</code>.</p>
-<p>If you all of a sudden start creating a lot of files, you get a funny message:</p>
-<p><strong>File Creation Failures Due to Inode Exhaustion?</strong></p>
-<p>The limit of the inodes has been exceeded. It&rsquo;s not as unusual as you might think. The cloud storage ain&rsquo;t cheap, so if we request a small space and all of a sudden our server starts to utilize cache, we might very quickly find that despite having 3GB space left, the server can&rsquo;t work&hellip;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>But let&rsquo;s begin the examination. Processes are, by nature, greedy. They want much more than they can chew. That&rsquo;s why they&rsquo;re requesting far more RAM than they require. Thank God the kernel knows about it and also over-allocates the memory. So, from now on it shouldn&rsquo;t be a surprise that your system is using 8.5 GB memory when it has only 8 GB because programs will use it over time, not instantaneously.</p>
-<p>You think you kill programs, right?</p>
-<p>All you usually do is ask nicely by sending a signal <strong>SIGTERM</strong>, which is politely saying, &ldquo;Please stop.&rdquo; To kill the process no matter what, you send <strong>SIGKILL</strong> or <code>kill -9</code>, and yes, it literally does the job.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Processes are usually killable, but there are two exceptions. Because a process has many states in its life, it can be stopped (meaning paused), or it can be asleep, or it can be in the <strong>eternal sleep</strong>. And that&rsquo;s the issue when the process is in <strong>uninterrupted sleep</strong>; you can&rsquo;t kill it. Usually, this happens when the process has hardware interactions or is waiting for certain kinds of kernel synchronization primitives.</p>
-<p>You know what else doesn&rsquo;t die easily? Zombies.</p>
-<!-- raw HTML omitted -->
-<p>Zombies are just another state of the process. They don&rsquo;t have to be dangerous. All they are is the product of the sloppiness of the programmer. So, when the parent process spawns small children and they achieve certain small goals, and then the parent process doesn&rsquo;t clean them from the process table, they remain there but only as a record. Eventually, the kernel will get rid of them, but it&rsquo;s a sign of some troublesome software.</p>
-<p>You can create zombies on your own. Here is the formula:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os<span style="color:#f92672">,</span> sys<span style="color:#f92672">,</span> time
-</span></span><span style="display:flex;"><span>ttlForParent <span style="color:#f92672">=</span> <span style="color:#ae81ff">60</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>):
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># This creates the copy of the main process as </span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># a child process but with diffrent PID </span>
-</span></span><span style="display:flex;"><span>   pid_1 <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>fork()
-</span></span><span style="display:flex;"><span>   print(pid_1)
-</span></span><span style="display:flex;"><span>   print(<span style="color:#e6db74">&#34;Hello Worlds!!!&#34;</span>)
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> pid_1 <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
-</span></span><span style="display:flex;"><span>       sys<span style="color:#f92672">.</span>exit();
-</span></span><span style="display:flex;"><span>time<span style="color:#f92672">.</span>sleep(ttlForParent);
-</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>wait()
-</span></span></code></pre></div><p>see the <!-- raw HTML omitted -->source<!-- raw HTML omitted --></p>
-<p>When you&rsquo;re done check for your little creations</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-awk" data-lang="awk"><span style="display:flex;"><span><span style="color:#a6e22e">ps</span> <span style="color:#a6e22e">ux</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">awk</span> <span style="color:#e6db74">&#39;{if($8==&#34;Z+&#34;) print}&#39;</span>
-</span></span></code></pre></div><p>Remember that you can&rsquo;t kill them because they are already dead. In order to get rid of them, you have to know one small detail about the process.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Linux has so much more mysteries to discover. So, as you delve deeper into the Linux universe, don&rsquo;t be afraid of the unexpected. Grab your terminal and explore the rabbit hole.</p>
-<p><em>P.S. Wish me luck for my CompTIA Linux+ examination.</em></p>
-<hr>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
-    &copy;  Notes 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
-</html>
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>linux_unmasked | ExampleSite</title>
+<meta name=keywords content><meta name=description content="When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux... But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux+ certification.
+I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&mldr;"><meta name=author content="Me"><link rel=canonical href=http://localhost:1313/posts/posts/linux_unmasked/><link crossorigin=anonymous href=/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/posts/linux_unmasked/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript></head><body class=dark id=top><script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="Home (Alt + H)"><img src=http://localhost:1313/apple-touch-icon.png alt aria-label=logo height=35>Home</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">linux_unmasked</h1><div class=post-meta><span title='2024-07-22 09:10:24 +0200 CEST'>July 22, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;789 words&nbsp;·&nbsp;Me</div></header><div class=post-content><pre><code>When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux...
+</code></pre><p>But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what&rsquo;s required, and so on. That&rsquo;s what I thought while studying for the CompTIA Linux+ certification.</p><p>I&rsquo;m sure you have in mind Linux mantras &ldquo;everything is a file&rdquo; or that &ldquo;you control the processes&rdquo;, but little do you know&mldr;</p><p>So it&rsquo;s quite obvious that devices on your system are virtual files in a <code>/dev</code> directory, processes are files, even the request queue is a file. But what exactly does &ldquo;file&rdquo; mean? When you think about it, you probably imagine something similar to the request structures; it has some headers (type of the file, size, etc.), some metadata (permissions, and ownership), and the main contents.</p><p>But this is all a lie&mldr;</p><p>You use <code>ls</code> probably all the time, but did you know there&rsquo;s a <code>-i</code> option?</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>   -i, --inode  print the index of the inode
+</span></span></code></pre></div><p>So what exactly is an inode and why all of a sudden can&rsquo;t files live without it? An inode is a data structure that holds the metadata of the file. If we really want to define what a file is, it&rsquo;s raw data and the pointer to inode that defines it.</p><p>Ok, but what are the directories then?</p><p>Directories are just the table of file names and inodes, that&rsquo;s quite simple. But how can we use this knowledge except boasting about it at beer night? So there comes another myth&mldr;</p><p>That&rsquo;s not quite right, you see on most file systems <em>except ZFS</em>, the inode count is set on file system creation.</p><p>You can check it using <code>stat</code> on <code>/var/log/lastlog</code>.</p><p>If you all of a sudden start creating a lot of files, you get a funny message:</p><p><strong>File Creation Failures Due to Inode Exhaustion?</strong></p><p>The limit of the inodes has been exceeded. It&rsquo;s not as unusual as you might think. The cloud storage ain&rsquo;t cheap, so if we request a small space and all of a sudden our server starts to utilize cache, we might very quickly find that despite having 3GB space left, the server can&rsquo;t work&mldr;</p><p>But let&rsquo;s begin the examination. Processes are, by nature, greedy. They want much more than they can chew. That&rsquo;s why they&rsquo;re requesting far more RAM than they require. Thank God the kernel knows about it and also over-allocates the memory. So, from now on it shouldn&rsquo;t be a surprise that your system is using 8.5 GB memory when it has only 8 GB because programs will use it over time, not instantaneously.</p><p>You think you kill programs, right?</p><p>All you usually do is ask nicely by sending a signal <strong>SIGTERM</strong>, which is politely saying, &ldquo;Please stop.&rdquo; To kill the process no matter what, you send <strong>SIGKILL</strong> or <code>kill -9</code>, and yes, it literally does the job.</p><p>Processes are usually killable, but there are two exceptions. Because a process has many states in its life, it can be stopped (meaning paused), or it can be asleep, or it can be in the <strong>eternal sleep</strong>. And that&rsquo;s the issue when the process is in <strong>uninterrupted sleep</strong>; you can&rsquo;t kill it. Usually, this happens when the process has hardware interactions or is waiting for certain kinds of kernel synchronization primitives.</p><p>You know what else doesn&rsquo;t die easily? Zombies.</p><p>Zombies are just another state of the process. They don&rsquo;t have to be dangerous. All they are is the product of the sloppiness of the programmer. So, when the parent process spawns small children and they achieve certain small goals, and then the parent process doesn&rsquo;t clean them from the process table, they remain there but only as a record. Eventually, the kernel will get rid of them, but it&rsquo;s a sign of some troublesome software.</p><p>You can create zombies on your own. Here is the formula:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>os</span><span class=o>,</span> <span class=nn>sys</span><span class=o>,</span> <span class=nn>time</span>
+</span></span><span class=line><span class=cl><span class=n>ttlForParent</span> <span class=o>=</span> <span class=mi>60</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=mi>10</span><span class=p>):</span>
+</span></span><span class=line><span class=cl><span class=c1># This creates the copy of the main process as </span>
+</span></span><span class=line><span class=cl><span class=c1># a child process but with diffrent PID </span>
+</span></span><span class=line><span class=cl>   <span class=n>pid_1</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>fork</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>   <span class=nb>print</span><span class=p>(</span><span class=n>pid_1</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>   <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;Hello Worlds!!!&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>   <span class=k>if</span> <span class=n>pid_1</span> <span class=o>==</span> <span class=mi>0</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>       <span class=n>sys</span><span class=o>.</span><span class=n>exit</span><span class=p>();</span>
+</span></span><span class=line><span class=cl><span class=n>time</span><span class=o>.</span><span class=n>sleep</span><span class=p>(</span><span class=n>ttlForParent</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=n>os</span><span class=o>.</span><span class=n>wait</span><span class=p>()</span>
+</span></span></code></pre></div><p>see the source</p><p>When you&rsquo;re done check for your little creations</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-awk data-lang=awk><span class=line><span class=cl><span class=nx>ps</span> <span class=nx>ux</span> <span class=o>|</span> <span class=nx>awk</span> <span class=s1>&#39;{if($8==&#34;Z+&#34;) print}&#39;</span>
+</span></span></code></pre></div><p>Remember that you can&rsquo;t kill them because they are already dead. In order to get rid of them, you have to know one small detail about the process.</p><p>Linux has so much more mysteries to discover. So, as you delve deeper into the Linux universe, don&rsquo;t be afraid of the unexpected. Grab your terminal and explore the rabbit hole.</p><p><em>P.S. Wish me luck for my CompTIA Linux+ examination.</em></p><hr></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/algorithms/linked_list/><span class=title>« Prev</span><br><span>Linked List</span>
+</a><a class=next href=http://localhost:1313/posts/penetration/lo/><span class=title>Next »</span><br><span>lo</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>ExampleSite</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

@@ -1,16 +1,16 @@
 +++
-title = 'cgroups'
+title = 'Cgroups'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Control groups 
-- Organize  all [[process]] in the system 
+# Control groups 
+- Organize  all **process** in the system 
 - Account for resource usage and gather utilization data 
 - Limit or prioritize resources utilization 
 
 
-### Subsystem
+## Subsystem
 - Control group system in an abstract framework 
 - Concrete implementation of the control group s
 -  Subsystem can organize process separately 
@@ -19,23 +19,30 @@ draft = false
 
  >[!example]-
  >- Memory
- >- [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)itme 
+ >- [Cpu ](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
+ >-[Cpu time]({{< ref "/posts/Linux/Kernel/Cpu.md" >}})
  >- Block I/O
- >- [PID_control](/PID_control.md)
+ >-[PID's]({{< ref "/posts/PID_control.md" >}})
  >- Freezer(used by docker pause )
  >- Devices 
  >- Network priority 
 
-#### Hierarchical representation 
-![Pasted_image_20240509114957.png](/static/Pasted_image_20240509114957.png)
-##### Cgroup virtual filesystem 
+### Hierarchical representation 
+
+>![Pasted_image_20240509114957.png](/static/Pasted_image_20240509114957.png)
+#### Cgroup virtual filesystem 
 - Mouted at ***/sys/fs/cgroup***
 	- There are mostly just interfaces
-- **Task** virtual file holds all [[PID_control|Pid]] in the cgroup 
--Other files have setting and utilization data 
+
+- **Task** virtual file holds all [PID's]({{< ref "/posts/PID_control.md" >}})
+in the cgroup 
+- Other files have setting and utilization data 
 
 
 --- 
-[Namespaces](/Namespaces.md) [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)
+[Namespaces]({{< ref "/posts/Namespaces.md" >}})
+
+[Kernel]({{< ref "/posts/Linux/Kernel/Kernel.md" >}})
+
 
 

@@ -4,14 +4,13 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    - The **overlay driver** creates a distributed network among multiple Docker daemon hosts 
-	- This sit on top of the **overlays**
-		- *Host specific networks*
+- The **overlay driver** creates a distributed network among multiple Docker daemon hosts 
+- This sit on top of the **overlays**
+- *Host specific networks*
 
 [Dokcer Swarm](https://docs.docker.com/engine/swarm/) 
-It's beeter to use [Kubernetes](/Kubernetes.md) 
->[!example]
-![Pasted_image_20240510110121.png](/static/Pasted_image_20240510110121.png)
 
----
-[host_net](/host_net.md) [bridge_net](/bridge_net.md) [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)
+It's beeter to use [Kubernetes]({{< ref "/posts/Kubernetes.md" >}})
+
+>![Pasted_image_20240510110121.png](/static/Pasted_image_20240510110121.png)
+

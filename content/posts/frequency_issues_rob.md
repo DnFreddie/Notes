@@ -1,17 +1,13 @@
 +++
-title = 'frequency_issues_rob'
+title = 'Frequency Issues'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-10-07
-"type:": Rob
----
-## Frequency issues 
 
 
->[!example]- Fromula
+# Fromula
+```latex
 
 $$ Noise = y(t) = A \sin(\omega_1 t + \phi_1) + B \sin(\omega_2 t + \phi_2) $$
 $A$ $and$ $B$ are the ==aplitudes== of two signals 
@@ -20,7 +16,7 @@ $\phi_1$ $and$ $\phi_2$  are the phase ==angles== of the two signals (*in radian
 
 $$ \frac{dy(t)}{dt} = A \omega \cos(\omega t + \phi) $$
 
+```
 
 
 
->[!quote] [symmetry_math](/symmetry_math.md)

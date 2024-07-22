@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ```bash
+ ```bash
   set -g default-terminal "tmux-256color"
   set -g base-index 1
   set -s escape-time 0

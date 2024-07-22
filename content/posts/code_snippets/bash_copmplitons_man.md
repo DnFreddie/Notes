@@ -1,10 +1,9 @@
 +++
-title = 'bash_copmplitons_man'
+title = 'Bash Programmable Completion Summary'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-# Bash Programmable Completion Summary
 
 ## Overview
 - Programmable completion in Bash is triggered when word completion is attempted for an argument to a certain command.
@@ -50,5 +49,7 @@ _completion_loader() {
 complete -D -F _completion_loader -o bashdefault -o default
 ```
 
-[Bash Main]({{< ref "/posts/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md" >}})
+---
+[Bash Main]({{< ref "/posts/Linux/commands/bash_MAIN.md" >}})
+[]({{< ref "posts/" >}})
 

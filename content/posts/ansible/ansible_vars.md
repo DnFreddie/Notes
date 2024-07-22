@@ -1,13 +1,8 @@
 +++
-title = 'ansible_vars'
+title = 'Ansible Varaibles'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
-
-    ---
-title: Ansible Vars
----
-
 
 # Registers
 
@@ -36,22 +31,23 @@ title: Ansible Vars
 # Ansible special variables
 
 [Docs](https://docs.ansible.com/ansible/latest/reference_appendices/special_variables.html)
+
 *The two most important ones are*
 
--   **ansible~playhostall~**
--   **ansible~playhost~** *This is holds what nodes where successful*
+-   **ansible playhostall**
+-   **ansible playhost** *This is holds what nodes where successful*
 
 ## Filtering the nodes
 
 -   *Shorter one*
 
-    ``` templ
+    ``` j2
     {{ ansible_play_host_all | select('not in', ansible_play_hosts) | join(', ') }}
     ```
 
 -   *Longer one*
 
-    ``` templ
+    ```j2
     {% for host in ansible_play_host_all %}
 
     {% if host not in ansible_play_hosts%}
@@ -105,4 +101,3 @@ variables in your playbook.
 
     ```
 
-    ---

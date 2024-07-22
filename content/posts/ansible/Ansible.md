@@ -1,13 +1,13 @@
 +++
-title = 'Ansible'
+title = 'Ansible Main'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-     **Push model**
-	- Ruby based 
-		-   ***demon less***
-		  - 
+**Push model**
+- Ruby based 
+- ***demon less***
+		   
 - **Procedural**
 	- it creates top to bottom
 
@@ -53,12 +53,16 @@ To get the help of the particular module use `ansible-doc -s <module>`
 ansible --version
 
 ```
-### Example confiExample
+### Example config
+
+```nix
+
 poetry2nix.mkPoetryEnv {
     projectDir = ./.;
     overrides = poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
 }guration
 
+```
 ```bash
 [defualts]
 inventory = ./myInventoru
@@ -199,6 +203,7 @@ Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:
 ### Pacages 
 
 U can use a bulti in **.package** module  to install different packages
+
 [Example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples) 
 
 ### Vault pass
@@ -221,8 +226,10 @@ ansible-playbook  main.yml -i inventory   --vault-password-file=.vault_pass
 ```
 
 ---
-[Teraform](/Teraform.md) 
-[Puppet](/Puppet.md)
-[Ansible commands](/ansible/ansible_commands.md)
+[Teraform]({{< ref "posts/Teraform.md" >}})
+
+[Puppet]({{< ref "posts/Puppet.md" >}})
+
+[Ansible commands]({{< ref "posts/ansible/ansible_commands.md" >}})
 
 

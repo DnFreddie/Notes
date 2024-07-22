@@ -5,7 +5,7 @@ draft = false
 +++
 
     
-## Using C library 
+# Using C library 
 
 If u want to incroportate any C libray into zig 
 U have to pass `exe.linkLibC();` to the **build.zig**

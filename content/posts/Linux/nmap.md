@@ -4,7 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ## Nmap
 - *By defult nmap scans 1000 ports*
 	- U can scan multple sites in a one scan 
 		- u can also scan both the site and the particula [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)
@@ -36,8 +35,11 @@ draft = false
 - **namp -Pn skips the pingign g**
 
 
-### Goals 
-[Netwrok Scanning](/obisdian_ntoes/for later/Netwrok Scanning.md)
-[Port Scanning](/obisdian_ntoes/for later/Port Scanning.md)
 
->[!quote] [ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md) [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md)[ip_command](/ip_command.md)
+---
+[Netwrok Scanning]({{< ref "posts/for_later/Netwrok_Scanning.md" >}})
+[Port Scanning]({{< ref "posts/for_later/Port_Scanning.md" >}})
+
+[ifconfig]({{< ref "posts/Penetration/ifconfig.md" >}})
+[nslookup]({{< ref "posts/Linux/nslookup.md" >}})
+

@@ -7,7 +7,7 @@ draft = false
     
 [Docs](https://sumit-ghosh.com/posts/create-vm-using-libvirt-cloud-images-cloud-init/)
 
-- Developed server isntace 
+- Developed server instance 
 - Set's up server based on metadata 
 
 
@@ -15,5 +15,6 @@ draft = false
 [Cloud-init modules](https://cloudinit.readthedocs.io/en/latest/reference/modules.html)
 
 [Users and Groups](https://cloudinit.readthedocs.io/en/latest/reference/modules.html#users-and-groups)
+
 [Metadata](https://cloudinit.readthedocs.io/en/latest/explanation/instancedata.html)
--  [[docker|Docker]] for cloud isntance
+-   for cloud instance [Docker]({{< ref "posts/Linux/Docker/docker.md" >}})

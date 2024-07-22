@@ -1,38 +1,34 @@
 +++
-title = 'bash_MAIN'
+title = 'Bash Main'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-13
-type:: Bash
----
 [Docs](https://tldp.org/)
 
 
-![modes_bash](/obisdian_ntoes/notes_obsidian/Linux/commands/modes_bash.md)
+[Bash redirecition ]({{< ref "posts/Linux/commands/modes_bash.md" >}})
 
 ---
 
 
-$$A$$
-**Functions are the only way to change status of an existing shell**
- ![Functions](/obisdian_ntoes/scriptss/Functions.md)
-$$B$$
+
+>Tip
+>
+>*Functions are the only way to change status of an existing shell*
+
+[Fucntions]({{< ref "posts/scriptss/Functions.md" >}})
 
 ---
-![Case statment_bash](/obisdian_ntoes/scriptss/Case statment_bash.md)
-$$C$$
+[Case stament]({{< ref "posts/scriptss/Case_statment_bash.md" >}})
 
 ---
-![while loop_bash](/obisdian_ntoes/scriptss/while loop_bash.md)
-$$D$$
-![Variables](/obisdian_ntoes/scriptss/Variables.md)
+[While loop ]({{< ref "posts/scriptss/while_loop_bash.md" >}})
+
+---
+[Variables]({{< ref "posts/scriptss/Variables.md" >}})
 
 
-$$E$$
 
-![redirecrtion_bash](/obisdian_ntoes/notes_obsidian/Linux/commands/redirecrtion_bash.md)
+[Bash redirecition ]({{< ref "posts/Linux/commands/redirecrtion_bash.md" >}})
 
->[!quote] 

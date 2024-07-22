@@ -1,10 +1,11 @@
 +++
-title = 'boot_process'
+title = 'Boot process'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [UEFI vs BIOS](/UEFI vs BIOS.md)
+
+[UEFI vs BIOS.md]({{< ref "posts/UEFI_vs_BIOS.md" >}})
 
 ### See the init boot procsse right from grub
 

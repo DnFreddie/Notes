@@ -1,171 +1,24 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33371&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>ansible_vars | Notes</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="--- title: Ansible Vars Registers Capture the output of the play inside the variable
-- name: Register Playbook hosts: proxy tasks: - name: Run a command command: uptime register: server_uptime - name: Inspect the server_uptime variable debug: var: server_uptime - name: Show the server uptime debug: msg: &#34;{{ server_uptime.stdout }}&#34; Ansible special variables Docs The two most important ones are
-ansible~playhostall~ ansible~playhost~ This is holds what nodes where successful Filtering the nodes Shorter one">
-    <meta name="generator" content="Hugo 0.125.4">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="http://localhost:33371/posts/ansible/ansible_vars/">
-    
-
-    <meta property="og:url" content="http://localhost:33371/posts/ansible/ansible_vars/">
-  <meta property="og:site_name" content="Notes">
-  <meta property="og:title" content="ansible_vars">
-  <meta property="og:description" content="--- title: Ansible Vars Registers Capture the output of the play inside the variable
-- name: Register Playbook hosts: proxy tasks: - name: Run a command command: uptime register: server_uptime - name: Inspect the server_uptime variable debug: var: server_uptime - name: Show the server uptime debug: msg: &#34;{{ server_uptime.stdout }}&#34; Ansible special variables Docs The two most important ones are
-ansible~playhostall~ ansible~playhost~ This is holds what nodes where successful Filtering the nodes Shorter one">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-22T09:10:24+02:00">
-    <meta property="article:modified_time" content="2024-07-22T09:10:24+02:00">
-
-  <meta itemprop="name" content="ansible_vars">
-  <meta itemprop="description" content="--- title: Ansible Vars Registers Capture the output of the play inside the variable
-- name: Register Playbook hosts: proxy tasks: - name: Run a command command: uptime register: server_uptime - name: Inspect the server_uptime variable debug: var: server_uptime - name: Show the server uptime debug: msg: &#34;{{ server_uptime.stdout }}&#34; Ansible special variables Docs The two most important ones are
-ansible~playhostall~ ansible~playhost~ This is holds what nodes where successful Filtering the nodes Shorter one">
-  <meta itemprop="datePublished" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="dateModified" content="2024-07-22T09:10:24+02:00">
-  <meta itemprop="wordCount" content="215"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="ansible_vars">
-<meta name="twitter:description" content="--- title: Ansible Vars Registers Capture the output of the play inside the variable
-- name: Register Playbook hosts: proxy tasks: - name: Run a command command: uptime register: server_uptime - name: Inspect the server_uptime variable debug: var: server_uptime - name: Show the server uptime debug: msg: &#34;{{ server_uptime.stdout }}&#34; Ansible special variables Docs The two most important ones are
-ansible~playhostall~ ansible~playhost~ This is holds what nodes where successful Filtering the nodes Shorter one">
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
-  
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        Notes
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
-    
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">ansible_vars</h1>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2024-07-22T09:10:24+02:00">July 22, 2024</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre><code>---
-</code></pre>
-<h2 id="title-ansible-vars">title: Ansible Vars</h2>
-<h1 id="registers">Registers</h1>
-<p><em>Capture the output of the play inside the variable</em></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Register Playbook</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">hosts</span>: <span style="color:#ae81ff">proxy</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">tasks</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Run a command</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">command</span>: <span style="color:#ae81ff">uptime</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">register</span>: <span style="color:#ae81ff">server_uptime</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Inspect the server_uptime variable</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">debug</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">var</span>: <span style="color:#ae81ff">server_uptime</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Show the server uptime</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">debug</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">msg</span>: <span style="color:#e6db74">&#34;{{ server_uptime.stdout }}&#34;</span>
-</span></span></code></pre></div><h1 id="ansible-special-variables">Ansible special variables</h1>
-<p><a href="https://docs.ansible.com/ansible/latest/reference_appendices/special_variables.html">Docs</a>
-<em>The two most important ones are</em></p>
-<ul>
-<li><strong>ansible~playhostall~</strong></li>
-<li><strong>ansible~playhost~</strong> <em>This is holds what nodes where successful</em></li>
-</ul>
-<h2 id="filtering-the-nodes">Filtering the nodes</h2>
-<ul>
-<li>
-<p><em>Shorter one</em></p>
-<pre tabindex="0"><code class="language-templ" data-lang="templ">{{ ansible_play_host_all | select(&#39;not in&#39;, ansible_play_hosts) | join(&#39;, &#39;) }}
-</code></pre></li>
-<li>
-<p><em>Longer one</em></p>
-<pre tabindex="0"><code class="language-templ" data-lang="templ">{% for host in ansible_play_host_all %}
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>Ansible Varaibles | ExampleSite</title>
+<meta name=keywords content><meta name=description content='Registers Capture the output of the play inside the variable
+- name: Register Playbook hosts: proxy tasks: - name: Run a command command: uptime register: server_uptime - name: Inspect the server_uptime variable debug: var: server_uptime - name: Show the server uptime debug: msg: "{{ server_uptime.stdout }}" Ansible special variables Docs
+The two most important ones are
+ansible playhostall ansible playhost This is holds what nodes where successful Filtering the nodes Shorter one'><meta name=author content="Me"><link rel=canonical href=http://localhost:1313/posts/ansible/ansible_vars/><link crossorigin=anonymous href=/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=http://localhost:1313/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/ansible/ansible_vars/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript></head><body class=dark id=top><script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="Home (Alt + H)"><img src=http://localhost:1313/apple-touch-icon.png alt aria-label=logo height=35>Home</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Home</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Ansible Varaibles</h1><div class=post-meta><span title='2024-07-22 09:10:24 +0200 CEST'>July 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;213 words&nbsp;·&nbsp;Me</div></header><div class=post-content><h1 id=registers>Registers<a hidden class=anchor aria-hidden=true href=#registers>#</a></h1><p><em>Capture the output of the play inside the variable</em></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Register Playbook</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>hosts</span><span class=p>:</span><span class=w> </span><span class=l>proxy</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>tasks</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Run a command</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>command</span><span class=p>:</span><span class=w> </span><span class=l>uptime</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>register</span><span class=p>:</span><span class=w> </span><span class=l>server_uptime</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Inspect the server_uptime variable</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>debug</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>var</span><span class=p>:</span><span class=w> </span><span class=l>server_uptime</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Show the server uptime</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>debug</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>msg</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;{{ server_uptime.stdout }}&#34;</span><span class=w>
+</span></span></span></code></pre></div><h1 id=ansible-special-variables>Ansible special variables<a hidden class=anchor aria-hidden=true href=#ansible-special-variables>#</a></h1><p><a href=https://docs.ansible.com/ansible/latest/reference_appendices/special_variables.html>Docs</a></p><p><em>The two most important ones are</em></p><ul><li><strong>ansible playhostall</strong></li><li><strong>ansible playhost</strong> <em>This is holds what nodes where successful</em></li></ul><h2 id=filtering-the-nodes>Filtering the nodes<a hidden class=anchor aria-hidden=true href=#filtering-the-nodes>#</a></h2><ul><li><p><em>Shorter one</em></p><pre tabindex=0><code class=language-j2 data-lang=j2>{{ ansible_play_host_all | select(&#39;not in&#39;, ansible_play_hosts) | join(&#39;, &#39;) }}
+</code></pre></li><li><p><em>Longer one</em></p><pre tabindex=0><code class=language-j2 data-lang=j2>{% for host in ansible_play_host_all %}
 
 {% if host not in ansible_play_hosts%}
 
@@ -174,69 +27,24 @@ ansible~playhostall~ ansible~playhost~ This is holds what nodes where successful
 {% endif %}
 
 {% endfor %}
-</code></pre></li>
-</ul>
-<h1 id="ansible-variables">Ansible variables</h1>
-<h3 id="varialbe-prcencece">Varialbe prcencece</h3>
-<p><a href="https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable">Docs</a></p>
-<p><strong>The most important  is the <code>--extra-vars</code></strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">(</span><span style="color:#66d9ef">for</span> example, -e <span style="color:#e6db74">&#34;user=my_user&#34;</span><span style="color:#f92672">)(</span>always win precedence<span style="color:#f92672">)</span>
-</span></span></code></pre></div><h3 id="including-external-variables">Including external variables</h3>
-<p><em>Just use <strong>var files</strong> to import them from the another <strong>yml</strong> file</em>
+</code></pre></li></ul><h1 id=ansible-variables>Ansible variables<a hidden class=anchor aria-hidden=true href=#ansible-variables>#</a></h1><h3 id=varialbe-prcencece>Varialbe prcencece<a hidden class=anchor aria-hidden=true href=#varialbe-prcencece>#</a></h3><p><a href=https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable>Docs</a></p><p><strong>The most important is the <code>--extra-vars</code></strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>(</span><span class=k>for</span> example, -e <span class=s2>&#34;user=my_user&#34;</span><span class=o>)(</span>always win precedence<span class=o>)</span>
+</span></span></code></pre></div><h3 id=including-external-variables>Including external variables<a hidden class=anchor aria-hidden=true href=#including-external-variables>#</a></h3><p><em>Just use <strong>var files</strong> to import them from the another <strong>yml</strong> file</em>
 Keep in mind that <strong>vars files</strong> loads the variables right at the start
-of the playbook**.</p>
-<h3 id="dynamic-varaibles">Dynamic Varaibles</h3>
-<p>You can also use the <strong>include~vars~</strong> module to dynamically load your
-variables in your playbook.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Working with variables</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">hosts</span>: <span style="color:#ae81ff">node1</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">tasks</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Load the variables</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">include_vars</span>: <span style="color:#ae81ff">myvars.yml</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Show 2nd item in port_nums</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">debug</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">msg</span>: <span style="color:#ae81ff">SSH port is {{ port_nums[1] }}</span>
-</span></span></code></pre></div><ol>
-<li>
-<p>Creating a list dictionaries</p>
-<p><em>The variables can be listed in the array</em></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">vars</span>:
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">port_nums</span>: [<span style="color:#ae81ff">21</span>,<span style="color:#ae81ff">22</span>,<span style="color:#ae81ff">23</span>,<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">80</span>,<span style="color:#ae81ff">443</span>]
-</span></span></code></pre></div><hr>
-</li>
-</ol>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
-    </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33371/" >
-    &copy;  Notes 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
-</html>
+of the playbook**.</p><h3 id=dynamic-varaibles>Dynamic Varaibles<a hidden class=anchor aria-hidden=true href=#dynamic-varaibles>#</a></h3><p>You can also use the <strong>include~vars~</strong> module to dynamically load your
+variables in your playbook.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Working with variables</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>hosts</span><span class=p>:</span><span class=w> </span><span class=l>node1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>tasks</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Load the variables</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>include_vars</span><span class=p>:</span><span class=w> </span><span class=l>myvars.yml</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Show 2nd item in port_nums</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>debug</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>msg</span><span class=p>:</span><span class=w> </span><span class=l>SSH port is {{ port_nums[1] }}</span><span class=w>
+</span></span></span></code></pre></div><ol><li><p>Creating a list dictionaries</p><p><em>The variables can be listed in the array</em></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>vars</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>   </span><span class=nt>port_nums</span><span class=p>:</span><span class=w> </span><span class=p>[</span><span class=m>21</span><span class=p>,</span><span class=m>22</span><span class=p>,</span><span class=m>23</span><span class=p>,</span><span class=m>25</span><span class=p>,</span><span class=m>80</span><span class=p>,</span><span class=m>443</span><span class=p>]</span><span class=w>
+</span></span></span></code></pre></div></li></ol></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/ansible/ansible/><span class=title>« Prev</span><br><span>Ansible Main</span>
+</a><a class=next href=http://localhost:1313/posts/for_later/anycast/><span class=title>Next »</span><br><span>Anycast</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>ExampleSite</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
