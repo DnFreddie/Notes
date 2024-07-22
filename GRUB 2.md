@@ -1,4 +1,10 @@
-## Edit config 
++++
+title = 'GRUB 2'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Edit config 
 It's in the */etc/defualt/*
 
 ### To update 

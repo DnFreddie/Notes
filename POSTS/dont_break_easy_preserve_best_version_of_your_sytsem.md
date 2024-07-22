@@ -1,4 +1,10 @@
++++
+title = 'dont_break_easy_preserve_best_version_of_your_sytsem'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 ![Broken system](/blog_imgs/brokenComputer.jpg)
 
 I'm sure you remember the feeling of your perfect setup.  

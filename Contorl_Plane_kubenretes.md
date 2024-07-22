@@ -1,4 +1,10 @@
- Maneges worker nodes and pods in the cluster
++++
+title = 'Contorl_Plane_kubenretes'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+     Maneges worker nodes and pods in the cluster
 >[!example]
 ![Pasted_image_20240509161141.png](/static/Pasted_image_20240509161141.png)
 ### Kube-apiserver 

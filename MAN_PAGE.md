@@ -1,4 +1,10 @@
++++
+title = 'MAN_PAGE'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 - The location of them is held in **$MANPATH**
 ### Manual page structure 
 ![Man_Sections_Picture.png](/static/Man_Sections_Picture.png)

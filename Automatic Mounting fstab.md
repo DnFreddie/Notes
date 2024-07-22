@@ -1,4 +1,10 @@
-This is ussualy handeld 
++++
+title = 'Automatic Mounting fstab'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    This is ussualy handeld 
 by the **systemd**  u can create the service but the better is to use file
 
 >[!example]- In order to do it on boot u have to create entries in  **/etc/fstab**

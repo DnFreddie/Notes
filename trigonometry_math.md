@@ -1,4 +1,10 @@
-### Trigonomety 
++++
+title = 'trigonometry_math'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Trigonomety 
 
 [Docs](https://www.youtube.com/watch?v=mhd9FXYdf4s&t=189s)
 

@@ -1,4 +1,10 @@
-## Commands 
++++
+title = 'Partitioning'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Commands 
 - **blkid** 
 	 list all the devices that are *being in used* currently
 - **lbsk** 

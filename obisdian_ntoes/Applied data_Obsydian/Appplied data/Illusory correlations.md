@@ -1,1 +1,0 @@
-**If two events co-exist together ,we tend to see a calsual relationship between them** 

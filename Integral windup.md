@@ -1,4 +1,10 @@
-### Integral windup
++++
+title = 'Integral windup'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Integral windup
 - Theres a huge problem with reducing the error later 
 	-  It builds staedli and then **satuarte the distance**
 >[!tip]- imagine a drone

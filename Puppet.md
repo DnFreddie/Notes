@@ -1,4 +1,10 @@
-- **Pull model**
++++
+title = 'Puppet'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    - **Pull model**
 	- Ruby based
 - Agent based 
 	- Except **Puppet Bolt**

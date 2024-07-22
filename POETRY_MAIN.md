@@ -1,4 +1,10 @@
++++
+title = 'POETRY_MAIN'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 | Number | Poems                |
 | ------ | -------------------- |
 | 1.     | [BabieLato](/poetry/BabieLato.md)        |

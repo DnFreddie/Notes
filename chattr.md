@@ -1,4 +1,10 @@
-### Change attribute
++++
+title = 'chattr'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Change attribute
 The chattr command in Linux is a powerful tool for managing file attributes, offering features like setting the sticky bit and making files immutable.
 
 ### Sticky Bit (t):

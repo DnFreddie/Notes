@@ -1,4 +1,10 @@
----
++++
+title = 'PoW_algorithms'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ---
 "date:": 2023-11-06
 "type:": Rust
 ---

@@ -1,4 +1,10 @@
-### Server Message Block 
++++
+title = 'SMB'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Server Message Block 
 __ Port 445  __
 - used with devices like (*printers routers* **used in windows**)
 

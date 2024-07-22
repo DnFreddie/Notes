@@ -1,0 +1,25 @@
++++
+title = 'nslookup'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ---
+date:: 06 04 2023
+topic:: network-penetration-reconesans
+type:: network+
+---
+## Name server lookup
+Used to query [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) to get inforamtion about domain names such as [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) or other records
+>[!example]
+>Type nslookup followed by the domain name you want to query (e.g., nslookup example.com).
+### Two Modes 
+#### Interactive 
+ In interactive mode, you can enter commands and receive immediate feedback
+#### Non-interactive
+in non-interactive mode, you can specify a command and receive output without entering the interactive mode.
+
+
+
+
+>[!quote] [nmap](/obisdian_ntoes/notes_obsidian/Linux/nmap.md) [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) [dig_command](/dig_command.md)

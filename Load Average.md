@@ -1,4 +1,10 @@
-The number of currently active and queued processes
++++
+title = 'Load Average'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    The number of currently active and queued processes
 divided by the [[Cpu|Cpu capasity]] (*number of cores lscpu*)
 
 ***/proc/cpuinfo ***

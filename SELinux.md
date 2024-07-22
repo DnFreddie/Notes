@@ -1,4 +1,10 @@
-### Security enhanced Linux
++++
+title = 'SELinux'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Security enhanced Linux
 Define on every file what are they allowed to access 
 ### Modes
 ```bash

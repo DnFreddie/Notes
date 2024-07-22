@@ -1,4 +1,10 @@
-Mnageign vms headlessley 
++++
+title = 'virsh'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Mnageign vms headlessley 
 
 [Docs](https://kifarunix.com/start-and-stop-kvm-virtual-machines-from-command-line/)
 

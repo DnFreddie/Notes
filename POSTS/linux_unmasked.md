@@ -1,4 +1,10 @@
-When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux...
++++
+title = 'linux_unmasked'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux...
 
 But regardless of the surprise, you usually have a solid understanding of the system. You know more or less how things work, what's required, and so on. That's what I thought while studying for the CompTIA Linux+ certification.
 

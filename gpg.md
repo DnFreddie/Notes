@@ -1,4 +1,10 @@
-# Gnu Pg
++++
+title = 'gpg'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    # Gnu Pg
 [Docs](https://www.maketecheasier.com/verify-authenticity-linux-software-digital-signatures/)
 - [Linux](/obisdian_ntoes/notes_obsidian/Templates/Linux.md)  utility  that verifies the [[Digital certificate|digital signature]] of the package
 	- It' usually marked with the **checksum** file

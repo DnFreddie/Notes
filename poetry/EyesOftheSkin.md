@@ -1,4 +1,10 @@
-Eyes of the skin
++++
+title = 'EyesOftheSkin'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Eyes of the skin
 
 Overhead music flows in a compressed stream 
 author detaches itself from visibility 

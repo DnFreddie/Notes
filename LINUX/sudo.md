@@ -1,4 +1,10 @@
-# To get hold of the gorups and permiiosns of the user 
++++
+title = 'sudo'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    # To get hold of the gorups and permiiosns of the user 
 
 ```bash
 sudo -l -U <user>

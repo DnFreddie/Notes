@@ -1,4 +1,10 @@
-1. **File system hierarchy** 
++++
+title = 'Camptia Objectives'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    1. **File system hierarchy** 
 2. **Boot**
 	- [UEFI vs BIOS](/UEFI vs BIOS.md) 
 	- [Boot procces](/Boot procces.md)

@@ -1,1 +1,0 @@
-<mark class="hltr-grses">Ensures that all the values in the column  are different </mark>

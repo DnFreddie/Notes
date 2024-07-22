@@ -1,4 +1,10 @@
-Retrieve entries from various databases
++++
+title = 'getent'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Retrieve entries from various databases
 
  - *passwd* (user account) 
  - *group* (group account), 

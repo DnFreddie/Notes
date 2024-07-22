@@ -1,4 +1,10 @@
-[playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&index=1)
++++
+title = 'systemd'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    [playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&index=1)
 [init](/init.md)
 
 #### Units 

@@ -1,4 +1,10 @@
-- Handels **signals** during sccipr execution 
++++
+title = 'trap_command'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    - Handels **signals** during sccipr execution 
 ```bash
 # Define a function to handle signals by name
 handle_signal() {

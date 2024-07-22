@@ -1,4 +1,10 @@
-1. What program does the workstation firmware start at boot time?
++++
+title = 'revievQUestiosns'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    1. What program does the workstation firmware start at boot time?
 A. A bootloader
 B. The fsck program
 C. The Windows OS

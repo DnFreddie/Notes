@@ -1,4 +1,10 @@
-{
++++
+title = 'chalange_filed.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
 	"nodes":[
 		{"id":"e2fb610528fa952c","type":"group","x":-380,"y":-580,"width":1360,"height":850,"label":"One  field"},
 		{"id":"382759855e8f110a","type":"text","text":"### Map/ Image \n*map mayby on hover*","x":-320,"y":-250,"width":600,"height":500},

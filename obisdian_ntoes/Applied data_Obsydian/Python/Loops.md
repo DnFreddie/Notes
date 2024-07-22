@@ -1,2 +1,0 @@
- [For Loop_python](/obisdian_ntoes/Applied data_Obsydian/Python/For Loop_python.md) ![[For Loop_python ]]
-[While loop](/obisdian_ntoes/Applied data_Obsydian/Python/While loop.md) ![While loop](/obisdian_ntoes/Applied data_Obsydian/Python/While loop.md)

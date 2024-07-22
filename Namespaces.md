@@ -1,4 +1,10 @@
-### Namespaces 
++++
+title = 'Namespaces'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Namespaces 
 - Limits what u can see (*and therefore use *)
 - The processes only see what's is in the namespaces
 - it can be users

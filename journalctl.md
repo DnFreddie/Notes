@@ -1,4 +1,10 @@
++++
+title = 'journalctl'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 [Docs](https://linuxhandbook.com/journalctl-command/)
 ### Filter logs based on UID, GID and PID
 ```bash 

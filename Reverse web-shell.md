@@ -1,4 +1,10 @@
-## Reverse shell 
++++
+title = 'Reverse web-shell'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Reverse shell 
 
 - By passing the php  file we can open the reverse shell 
 

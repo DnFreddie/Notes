@@ -1,4 +1,10 @@
-The terminal is one of the last remaining things that bestows absolute power upon you.
++++
+title = 'learning_through_self-destruction'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    The terminal is one of the last remaining things that bestows absolute power upon you.
 It allows you to witness the entire operating system disappear and then be reborn in a matter of seconds.
 
 *(I strongly advise you to try this at home: `sudo rm -rfv /`)*

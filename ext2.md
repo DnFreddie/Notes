@@ -1,4 +1,10 @@
-#### Second Extended File System
++++
+title = 'ext2'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    #### Second Extended File System
 (the oldest)
 #### Architecture
 - Data is stored in files; files are stored in

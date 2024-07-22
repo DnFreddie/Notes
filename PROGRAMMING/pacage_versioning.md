@@ -1,4 +1,10 @@
++++
+title = 'pacage_versioning'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 - ***MAJOR*** 
     version when you make incompatible API changes
 - ***MINOR*** 

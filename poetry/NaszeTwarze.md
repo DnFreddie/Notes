@@ -1,4 +1,10 @@
-“Kto pisał nasze twarze”
++++
+title = 'NaszeTwarze'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    “Kto pisał nasze twarze”
 
 Kto pisał nasze twarze?
 powoli wklepuje podkład ściągając go aż do szyi 

@@ -1,4 +1,10 @@
-```rust
++++
+title = 'solana-rs'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ```rust
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,

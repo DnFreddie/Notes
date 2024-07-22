@@ -1,4 +1,10 @@
-[[Boot_Prcooccess.canvas|Boot_Prcooccess]]
++++
+title = 'UEFI vs BIOS'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    [[Boot_Prcooccess.canvas|Boot_Prcooccess]]
 
 | **UEFI**                                                                        | *BIOS*                             |
 | ------------------------------------------------------------------------------- | ---------------------------------- |

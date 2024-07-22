@@ -1,4 +1,10 @@
-![columnar_db](/databases/columnar_db.md)
++++
+title = 'Databaes Types'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ![columnar_db](/databases/columnar_db.md)
 $$A$$
 [redis](/databases/redis.md)
 ![firebase](/databases/firebase.md)

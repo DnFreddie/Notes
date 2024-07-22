@@ -1,4 +1,10 @@
++++
+title = 'Localizaiton time setup'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 - Synchronizing the time with the rest of the world 
 	- **NTPD**(*daemon*)
 		Uses [NTP_protocol](/protocols/NTP_protocol.md)

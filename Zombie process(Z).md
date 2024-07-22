@@ -1,4 +1,10 @@
-The child process that **finish** his job but it's **not being cleaned** 
++++
+title = 'Zombie process(Z)'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    The child process that **finish** his job but it's **not being cleaned** 
 *Ussualy have to get rid of the parent*
 *find zombie processes*
 

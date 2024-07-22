@@ -1,4 +1,10 @@
-{
++++
+title = 'Algorithms.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
 	"nodes":[
 		{"id":"cdff62bc7c036e40","x":-3933,"y":-385,"width":1591,"height":1718,"type":"group","label":"Search algorithms"},
 		{"id":"d67f900980f88490","type":"file","file":"Algorithms/quick sort.md","x":-980,"y":220,"width":1097,"height":787},

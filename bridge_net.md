@@ -1,4 +1,10 @@
-Virtual or psychical device that connect multiple [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) 's
++++
+title = 'bridge_net'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Virtual or psychical device that connect multiple [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) 's
 ![Pasted_image_20240510102627.png](/static/Pasted_image_20240510102627.png)
 - All parts of the bridge will get their collision domain
 >[!bug] Collisions

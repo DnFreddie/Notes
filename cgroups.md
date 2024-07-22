@@ -1,4 +1,10 @@
-### Control groups 
++++
+title = 'cgroups'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Control groups 
 - Organize  all [[process]] in the system 
 - Account for resource usage and gather utilization data 
 - Limit or prioritize resources utilization 

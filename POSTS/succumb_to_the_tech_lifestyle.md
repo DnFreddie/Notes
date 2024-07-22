@@ -1,4 +1,10 @@
-Nowadays, there are many movements and lifestyles to follow: alpha, sigma, red pill, woke, leftist, rightist. But nobody says anything about the technicians.
++++
+title = 'succumb_to_the_tech_lifestyle'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Nowadays, there are many movements and lifestyles to follow: alpha, sigma, red pill, woke, leftist, rightist. But nobody says anything about the technicians.
 
 <br>
 

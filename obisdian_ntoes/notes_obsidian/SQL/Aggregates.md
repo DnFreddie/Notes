@@ -1,1 +1,0 @@
-<mark class="hltr-purple">Calculation performed on multiple rows </mark>

@@ -1,4 +1,10 @@
-## Recursion 
++++
+title = 'recursion'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Recursion 
 *The function calles itself until it reaches ==base case==*
 
 

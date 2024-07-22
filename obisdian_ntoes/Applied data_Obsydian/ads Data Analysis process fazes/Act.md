@@ -1,4 +1,0 @@
-- apply your insights 
-- solve  problems 
-- make decisions 
-- create smth new 

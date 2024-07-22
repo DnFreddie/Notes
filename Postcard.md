@@ -1,4 +1,10 @@
-Postcard
++++
+title = 'Postcard'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Postcard
 Some of us are photographers.
 I only wanted to take a mental note.
 There’s not much to talk about,

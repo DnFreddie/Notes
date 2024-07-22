@@ -1,3 +1,0 @@
-Ethool
-[ip_command]
-

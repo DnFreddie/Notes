@@ -1,4 +1,10 @@
----
++++
+title = 'Big O'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ---
 date:: 2023-06-27
 type:: Linux
 ---
@@ -33,7 +39,7 @@ $$1$$
 - O(log n)
 	- [[Binary search trees]]
 	
-[BIgOTypes_visual.png](/static/BIgOTypes_visual.png)
+![BIgOTypes_visual.png](/static/BIgOTypes_visual.png)
 
 
 

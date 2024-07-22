@@ -1,4 +1,10 @@
-Słoneczny dotyk wyciszył  wzburzone emocje 
++++
+title = 'ostanie lato'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Słoneczny dotyk wyciszył  wzburzone emocje 
 wakacyjna koszula powiewa w rytm  nadmorskiej bryzy
 delikatnie trace percepcje 
 łagodna mgiełka roznosi się po pokoju 

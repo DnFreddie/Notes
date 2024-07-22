@@ -1,4 +1,10 @@
-#issue 
++++
+title = 'Golang AWS_issue'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    #issue 
 - Go wont copile on aws unleess this paramter is being added to the copmpilation flag 
 - the fucntion either cant share the dir or its impossible for it to acess diffren name of the bainery only main is accebtable 
 	- If its not main it gives the ereror of the the file has no been found and fails 

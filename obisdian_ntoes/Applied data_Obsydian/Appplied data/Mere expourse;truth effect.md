@@ -1,1 +1,0 @@
-*A psychogolical pehnomeno by whc* **people tend to develop a preference for things or people that are more familiatr to them** .

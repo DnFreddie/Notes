@@ -1,4 +1,10 @@
++++
+title = 'Block vs character dev'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 | **Block**                                                     |                                   |
 | ------------------------------------------------------------- | --------------------------------- |
 | uses buffers and caches to transfer large amounts of data<br> | a stream of data (*no buffering*) |

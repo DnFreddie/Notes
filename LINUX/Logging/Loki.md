@@ -1,4 +1,10 @@
++++
+title = 'Loki'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 
 [Project](https://github.com/grafana/loki-fundamentals/tree/what-is-loki)
 - Accepts all formats  but requiers u to index   a specyfick fileds that u would like to monitor 

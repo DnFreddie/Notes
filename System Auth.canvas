@@ -1,4 +1,10 @@
-{
++++
+title = 'System Auth.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
   "nodes": [
     {
       "id": "79d8d8cf0189a3c0",

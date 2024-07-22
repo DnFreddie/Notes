@@ -1,4 +1,10 @@
++++
+title = 'Dick encryption'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 - U have to use
 	**cryptsetup luksformat** partition name
 	*it uses  the AES [Encryption](/Encryption.md) *

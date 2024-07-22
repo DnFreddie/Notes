@@ -1,4 +1,10 @@
-### [SMB](/SMB.md) CLient
++++
+title = 'SMB client'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### [SMB](/SMB.md) CLient
 
 **$IPC**  means  that this is the admistrative account 
 

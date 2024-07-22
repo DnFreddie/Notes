@@ -1,4 +1,10 @@
-- U can mount 2 drives as one 
++++
+title = 'btrfs'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    - U can mount 2 drives as one 
 	```bash
 	btrfs device add
 	```

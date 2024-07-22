@@ -1,4 +1,10 @@
-[Containers](/Containers.md) Share the same networkin  [Namespaces](/Namespaces.md) as  host 
++++
+title = 'host_net'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    [Containers](/Containers.md) Share the same networkin  [Namespaces](/Namespaces.md) as  host 
 - no [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md)
 - no [proxy](/obisdian_ntoes/notes_obsidian/Linux/Network manipulation/proxy.md) 
 **--network host**  flag

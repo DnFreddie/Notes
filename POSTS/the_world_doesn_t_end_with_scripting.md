@@ -1,4 +1,10 @@
++++
+title = 'the_world_doesn_t_end_with_scripting'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 When you start your Linux journey or follow Linux-based YouTubers, you often hear them praising the benefits of writing scripts.
 
 They encourage you to create your own scripts for various tasks because 

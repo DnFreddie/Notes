@@ -1,4 +1,10 @@
-## Description 
++++
+title = 'Longest Sub string Without Repeating Characters'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Description 
 Given a string s, find the length of the longest 
 *subsisting* without repeating characters.
 

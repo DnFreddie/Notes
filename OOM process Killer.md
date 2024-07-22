@@ -1,4 +1,10 @@
++++
+title = 'OOM process Killer'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 ## Out of Memory killer 
 - The system scores each  process  by how much the system would gain from eliminating it.
 

@@ -1,4 +1,10 @@
-[Docs](https://averagelinuxuser.com/linux-swap/G)
++++
+title = 'Swap memory'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    [Docs](https://averagelinuxuser.com/linux-swap/G)
 - A **partition** or a **file** on a hard drive that helps to allocate temp memory when ram i exhaust 
 
 - Check the size of the swap with 

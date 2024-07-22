@@ -1,4 +1,10 @@
-#etc
++++
+title = 'nsswitch.conf'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    #etc
 
  - Specifies how the system should **switch between different name service providers.** 
  

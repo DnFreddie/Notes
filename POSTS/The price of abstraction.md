@@ -1,4 +1,10 @@
-Living in the world of the services 
++++
+title = 'The price of abstraction'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Living in the world of the services 
 Gmail  Dropbox windows  Notion they seem like a easy to 
 incorporate and establish solution. 
 People  are obsessed about  the liabilities 

@@ -1,4 +1,10 @@
-	### Third Extended File System 
++++
+title = 'ext3'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    	### Third Extended File System 
 
 - It's baiscly [ext2](/ext2.md) but with **journal**
 	-  Disk recovery time after an improper shutdown takes dramatically less time

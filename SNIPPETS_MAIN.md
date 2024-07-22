@@ -1,4 +1,10 @@
++++
+title = 'SNIPPETS_MAIN'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 | Function                     | location                      |
 | ---------------------------- | ----------------------------- |
 | setup poetry with docker*    | [poetry_docker_snippets](/poetry_docker_snippets.md)    |

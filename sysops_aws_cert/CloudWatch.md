@@ -1,4 +1,10 @@
++++
+title = 'CloudWatch'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
 
+    
 ![Cloud watch structure](/static/cloud_watch_structer_visual.png)
 
 - It's an **umbrella service**  

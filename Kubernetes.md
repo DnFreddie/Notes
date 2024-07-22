@@ -1,4 +1,10 @@
-### Benefits
++++
+title = 'Kubernetes'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Benefits
 - **Availability and scalability**
 	-  **Load balancing**
 		- It can *duplicate* the applicatipn  

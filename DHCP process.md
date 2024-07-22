@@ -1,4 +1,10 @@
-## Discover 
++++
+title = 'DHCP process'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Discover 
 -  The device sends DHCP **Discover meesage** using [UDP](/obisdian_ntoes/for later/UDP.md)(becose it does not have [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)) 
 	- It's [broadcast](/obisdian_ntoes/for later/broadcast.md) connation that the router ignores (*since no IP*) but **its accepted** by [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md)
 		- ![DHCPDiscover_visual.png](/static/DHCPDiscover_visual.png)

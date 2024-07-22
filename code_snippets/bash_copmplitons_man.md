@@ -1,7 +1,9 @@
----
-"date:": 2023-09-03
-"type:": Linux
----
++++
+title = 'bash_copmplitons_man'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
 # Bash Programmable Completion Summary
 
 ## Overview
@@ -48,6 +50,5 @@ _completion_loader() {
 complete -D -F _completion_loader -o bashdefault -o default
 ```
 
-This summary covers the essential features and behaviors of programmable completion in Bash as of GNU Bash 5.1, released in October 2020.
+[Bash Main]({{< ref "/posts/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md" >}})
 
->[!quote] [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)

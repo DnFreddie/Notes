@@ -1,4 +1,10 @@
-**"Divide and concure"**
++++
+title = 'quick sort'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    **"Divide and concure"**
 [binary search](/Algorithms/binary search.md)
 
 

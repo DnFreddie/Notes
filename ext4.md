@@ -1,4 +1,10 @@
-### Fourth Extended File System
++++
+title = 'ext4'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Fourth Extended File System
 - The max voulme is **1 exabyte**(1,000 TB)
 	- Max file size is **16TB**
 	- Max *4 billion files*

@@ -1,4 +1,10 @@
-Display  the boot time of the machine 
++++
+title = 'systemd-analyze'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    Display  the boot time of the machine 
 
 **blame**  displays the individuals  startup times of the services 
 

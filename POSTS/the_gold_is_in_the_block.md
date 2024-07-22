@@ -1,4 +1,10 @@
-People often find excitement in the world of crypto, blockchain, and NFTs, only to fall victim to scams or invest in worthless tokens.
++++
+title = 'the_gold_is_in_the_block'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    People often find excitement in the world of crypto, blockchain, and NFTs, only to fall victim to scams or invest in worthless tokens.
 Some even chase digital dreams worth millions!
 But here's the twist:  
 Instead of digging into the systems behind all these treasures, they're all about owning stuff on the web.

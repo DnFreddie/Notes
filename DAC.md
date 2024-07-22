@@ -1,4 +1,10 @@
-### Discretionary Access Control
++++
+title = 'DAC'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ### Discretionary Access Control
 
 - Enforces security by **ownership**
 	-  Basked on the [Permissions](/obisdian_ntoes/notes_obsidian/Linux/Permissions.md)

@@ -1,4 +1,10 @@
-## Bst 
++++
+title = 'Binary Search Tree'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Bst 
 It  is similar to the [[trees_algorithms#Trees]]'
 but i has ==one condition== 
 - The left  side has to **be less or eqaul** to 

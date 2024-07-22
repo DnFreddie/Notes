@@ -1,0 +1,24 @@
++++
+title = 'CAN'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ---
+date:: 21 03 2023
+topic:: network-type
+status:: START
+---
+## Campus Area Network
+
+#alt-name **Corporate Area Network**
+*A middle ground betwwen [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) and [MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)*
+$$ $$ 
+- Limited geographical area
+	- A group of buildings like campus
+- Lan Technolgoies 
+	- Fiber connected(*from one building to another*)
+	- High speed [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md)
+
+<mark style="background: #FFB86CA6;">Ussualy No third-party providers</mark>
+$$ U-put-your-own-fiber-to-the-ground $$

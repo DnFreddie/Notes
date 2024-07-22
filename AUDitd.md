@@ -1,4 +1,10 @@
-[Check](https://www.youtube.com/watch?v=lc1i9h1GyMA)
++++
+title = 'AUDitd'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    [Check](https://www.youtube.com/watch?v=lc1i9h1GyMA)
 
 
 

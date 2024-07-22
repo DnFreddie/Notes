@@ -1,4 +1,10 @@
-#dynamic_array
++++
+title = 'ring buffer'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    #dynamic_array
 ## Ring Buffer 
  - In rust they are called [**VecDeque**](https://doc.rust-lang.org/std/collections/struct.VecDeque.html)
  - Its aarray lists with **index based head** and **index based head** 

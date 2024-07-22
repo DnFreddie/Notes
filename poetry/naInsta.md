@@ -1,4 +1,10 @@
-“Rozpałka” (#pisze pierwszy)
++++
+title = 'naInsta'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    “Rozpałka” (#pisze pierwszy)
 
 Rozsiądź się wygodnie
 chcę wiedzieć wszystko

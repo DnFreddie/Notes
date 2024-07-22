@@ -1,4 +1,10 @@
-## Binary Search 
++++
+title = 'binary search'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    ## Binary Search 
 - We split the value in half to up to the point we find it 
 	- its basically an logarithm so the run time is **O(log n)**
 	- List has to be **ordered** 
