@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 30 03 2023
-topic:: network-messure
-type:: Network+
----
 ## Latency
 #def <mark style="background: #FF5582A6;">The time it takes for a packet of data to travel from its source to its destination across a network</mark>
 - **Latency is typically measured in milliseconds (ms)**

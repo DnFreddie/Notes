@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 03 04 2023
-topic:: network-server-baisic 
-type:: Linux
----
 ## Dynamic Host Configuration Server
 - The DHCP assaigns [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address to all devisces on the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
 	- IT keeps all the log files of wich machine is

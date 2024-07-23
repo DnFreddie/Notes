@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 20 03 2023
-
----
 #Constant 
  <mark style="background: #FFB86CA6;">Maximum Transmition Unit</mark>
 #def *Size of the data that can be send through the network without being fragmented*

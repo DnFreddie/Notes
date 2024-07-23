@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: linxu-scripting-datastreams
-type:: Linux
----
 ##  Standard Error 
 Output that produces an error 
 **2 constiudes standard error**

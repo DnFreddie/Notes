@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: network-baisc-penetration 
-type:: Linux
----
 ## Loopback address
 #alt-name *Local Host*
 This is a special software address that connects you to your own

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-10-04
-"type:": rob
----
 ## Current (*I*)
   - The flow of electric charge through a conductor or circuit. 
    *(t measures the speed at which electricity flows through a cable or any other conductor)*

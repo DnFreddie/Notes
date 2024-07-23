@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-07
-type:: Rust
----
 ## Test modules in rust 
 In order to create a test in rust u create /test dir 
 and particular modules to enable that 

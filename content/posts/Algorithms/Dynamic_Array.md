@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-03
-type:: Algorithms
----
 
 A dynamic array, also known as  a **vector**, provides array access with the ability to grow dynamically when needed. 
 

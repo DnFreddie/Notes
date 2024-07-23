@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 ## Rsync 
 -  Copying and synchronizing files and directories between two locations, either on the same computer or on different computers connected over a network
 	- Baisic syntax 

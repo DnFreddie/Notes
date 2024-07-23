@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 29 03 2023
-topic:: network-psychical
-status:: START
----
 ## Smart Jack 
 Power system that is able  to detrmeinted whats 
 the issue it's a remote monitroingf of the network

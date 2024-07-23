@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 ## Run levels 
 
 Run it with sudo **init** run level (*this are called init scripts*)

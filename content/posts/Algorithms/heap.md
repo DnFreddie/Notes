@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-07
-type:: data_structer
----
 ## The Heap
 It's binary tree where every child and grand child is smaller (**max heap**) or larger(**mini heap**) then the current node 
 - Whenever a **node is added** ,we must adjust the tree 

@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 05 04 2023
-topic:: linux-commands-resources
-type:: Linux
----
 ## Renice 
 - **Sets the priority to the particular level**
 	- Takes values between -20 and 19 

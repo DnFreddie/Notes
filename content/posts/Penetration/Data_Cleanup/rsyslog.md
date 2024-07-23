@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 06 04 2023
-topic:: sytemlog-baisic-penatration
-type:: Linux
----
 ## rsyslog.conf
 **Its located in [[etc]] dir** 
 >[!example]-

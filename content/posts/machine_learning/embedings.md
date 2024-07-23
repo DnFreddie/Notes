@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-14
-type:: Data 
-type:: Ai
----
 ## Embedings 
 - They are ussualy build by implemeting the large dataa  set puting thehm ino a cevtio fo categories and indexing based one the main node 
 - **Baiscily a vector of vectors semanticly similar**

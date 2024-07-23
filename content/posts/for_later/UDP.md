@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: network+
----
 #alt-name message protocol 
 ## UDP
 - <mark style="background: #72083D;">Connection less system </mark>

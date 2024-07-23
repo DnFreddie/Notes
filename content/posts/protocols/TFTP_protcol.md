@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-28
-type:: network+
----
 ## Trivial File Transfer Protocol 
 - [UDP](/obisdian_ntoes/for later/UDP.md)**/69**   
 - Very simple file transfer application 

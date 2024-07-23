@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 02 04 2023
-topic:: proxy-ip-stealth
-type:: network+
----
 ## Proxies 
 To confighure proxies use **etc/proxychains.conf**
 >[!example]

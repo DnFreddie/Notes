@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 02 04 2023
-topic:: network-systmem
-type:: network+
----
 ## Domain Name System
 It translates the domain name such as przegląd koniski.pl 
 to the aproparite IP addres  so the system knows how to get it 

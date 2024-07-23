@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: data-evidance-penetration
-type:: Linux
----
 ## Shred 
 Overwrite the specified FILE(s) repeatedly in order to make it harder
 for even very expensive hardware probing to recover data

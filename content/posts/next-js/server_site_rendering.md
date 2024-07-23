@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-06-29
-type:: Next-JS   
----
 ## Flexibility 
 - In [next-js](/next-js/next-js.md)  u  can choose weather u want to *render site* on **cilent end** or **server end**
 

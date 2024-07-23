@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-02
-type:: Protocol
----
 ## TLS session 
 When a connection is established between a client and a server
 - TLS protocol allows them to negotiate the encryption parameters and establish a secure channel for communication

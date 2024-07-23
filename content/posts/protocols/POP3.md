@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-28
-type:: network+
----
 ## Post Office Protocol V3 
 - **tcp/110(plain text)**
 - **tcop/995(POP3 over [TLS_SSL](/protocols/TLS_SSL.md) )**

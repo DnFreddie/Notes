@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: linux-scripts-schedule
-type:: Linux
----
 ## cronetab -e 
 **U can run separate jobs as diffrent users**
 - *If u got sudo u can edit others cronetabs with sudo cronetab -u username*

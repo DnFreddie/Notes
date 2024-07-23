@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-05
-type:: netwrok
----
 ## Web Assembly 
 - This allows us to copile code into the browser 
 	- It runs a **virtal machine** underneath the hood 

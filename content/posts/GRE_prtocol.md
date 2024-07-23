@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-31
-type:: network+
----
 ## Generic Route Encapsulation 
 
 Its (*tunnel bettwent two endpoints*)that allows te encapsolation of wide roange of layer protocols 

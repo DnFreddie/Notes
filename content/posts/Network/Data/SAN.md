@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 03 2023
-topic:: network-data-storage
-status:: START
----
 ## Storage Area Network
 
 - Looks like a local storage device 

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-14
-type:: Data 
----
 ## Vector databaes 
 IT provideds **approxime resutls**
 ![VectorDatabseModel_visual.png](/static/VectorDatabseModel_visual.png)

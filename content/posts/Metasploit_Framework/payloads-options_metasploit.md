@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 16 04 2023
-type:: Penetration
----
 ## payloads-options
 1. Meterpreter: A powerful and versatile payload that provides a full-featured command shell, file system access, and remote access to the target system.
 

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-10-05
-"type:": Math
----
 ## Revolutions per minute
  A unit that measures the **rotational speed** or the number of times a rotary component completes a full $360\degree$ rotation in one minute.
 

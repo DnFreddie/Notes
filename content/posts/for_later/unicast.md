@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 18 04 2023
-type:: network+
----
 ## Unicast 
 - One station sending inforamtion to another station 
 	- Exanple making a request to the server or file transferr 

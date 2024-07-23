@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-06-29
-type:: Linux
----
 ## Region-based memory allocator 
 
 - **U alllcated a big chunk of memeory and every time the  more memory is requaierd u get subchanks of that **

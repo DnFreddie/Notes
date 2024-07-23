@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 ## Kernel modules  
 - **modeprobe**
 	- Automatically loads dependencies and makes loading and removing kernel modules less risky

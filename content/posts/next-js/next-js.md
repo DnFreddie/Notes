@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-06-29
-type:: Linux
-
----
 
 ## Startup 
 to start a project in next js type 

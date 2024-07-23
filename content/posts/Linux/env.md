@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: command-baisic-variables
-type:: Linux
----
 ## Env 
 - Env allows to list *Envariomental Variables*
 	- To see all use **set**

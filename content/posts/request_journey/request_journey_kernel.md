@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-01
-type:: network+
----
 ## Request 
 IT's a stream of bytes thaht has theiri particular 
 section define(body,request itself) via ceritain prtococol(ex. [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md) ) and then that is parsed to the particular programing language (*u  can define ure own protocol*)

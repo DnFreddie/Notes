@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-31
-type:: network+
----
 ## Internet Protocol Security 
 Provides secriuty fir [Network_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Network_OSI.md)
  - Authenticantio nad encryption for every packet 

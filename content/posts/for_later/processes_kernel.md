@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 An isnstance of the eceacutable 
  - **Only one process may use the Cpu and a given time**
 	-   each process uses the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for a small fraction of as second then pauses then another process uses the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)

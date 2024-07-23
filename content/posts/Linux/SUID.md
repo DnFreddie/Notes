@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: user-permmisons 
-type:: Linux
----
 ## Granting Temporary Root Permissions with SUID
 The **s** instead of h rperesnts that file is in *SUID mode* 
 - Any user can exexute the file iwt he permios of the owner bu those permissions dont extend beyond the use of that file 

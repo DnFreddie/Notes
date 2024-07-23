@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 02 04 2023
-topic:: linxu-netowrk-penetration  
-type:: Linux
----
 ## Ifconfig 
 Examine and interact with active nework interfaces 
 

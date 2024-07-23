@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 18 04 2023
-type:: network+
----
 ## Multicast 
 **Delivery of information to interested systems**
 - One-to-many-of-many

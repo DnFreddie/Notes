@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-10-02
-"type:": Math
----
 ## Understanding symmetry 
 
 The symmetry of the object is when despite applying changes to the potion it remains unchanged 

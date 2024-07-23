@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-28
-type:: network+
----
 ## Internet Message Acces Protocol v4 
 - **tcp/143(plain text)**,**tcp/993**(IMAP over [TLS_SSL](/protocols/TLS_SSL.md))
 - Incluedes managment of email inbox from multiple clients 

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 16 04 2023
-type:: network+
----
 
 ## Network Address Translotion 
 The devicec changes ip while it communicate trhugh networ

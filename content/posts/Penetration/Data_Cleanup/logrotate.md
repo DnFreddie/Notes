@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 06 04 2023
-topic:: logs-evidance-penetration 
-type:: Linux
----
 ## Automatically Cleaning Up Logs with logrotate
 At the end of each rotation period, the log files are renamed and pushed toward the end of the chain of logs as a new log file is created, replacing the current log file. 
 *For instance, /var/log.auth will become /var/log.auth.1, then

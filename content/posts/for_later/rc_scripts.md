@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 21 04 2023
-type:: Linux
----
 ## Rc scripts 
 - Scripts that set up the linux envairoment 
 	- After the [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) has initialized and loaded all its modules, the kernel starts a dameon  **known as init or initd.** 

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-02
-type:: network+
----
 ## Read 
 - Once the connection was put to the [accept_ queue](/accept_ queue.md)   we use the [systemcall](/systemcall.md) **Accept** to pop it from the que and return file description represitenting the coonection (*now backend has a poinbter to the connection*) 
 - Now the backaend  [systemcall](/systemcall.md)  **recv**  

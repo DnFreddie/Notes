@@ -70,6 +70,3 @@ draft = false
     ```
 
 
-    ---
-
-[Ansible Main]({{< ref "posts/ansible/ansible_commands.md" >}})

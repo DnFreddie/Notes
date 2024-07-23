@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: linux-scripting-bash
-type:: Linux
----
 ## exit code 
 
 **echo $?** prints a code of an error *of the last command*

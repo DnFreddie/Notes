@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-12
-type:: Data
----
 ## pipling 
 - Enabling client to send all the queries **upfront**
 	It minimaizes time spend by one side waiting for the other to finisch sending data 

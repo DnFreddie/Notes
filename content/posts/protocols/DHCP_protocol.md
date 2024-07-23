@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-28
-type:: network+
----
 ## Dynamic Host Configuration 
 - [UDP](/obisdian_ntoes/for later/UDP.md) **/67** ,[UDP](/obisdian_ntoes/for later/UDP.md) **/68** 
 - Requiers a [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md)  

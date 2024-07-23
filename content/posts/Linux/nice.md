@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: baisic-commands-resources
-type:: Linux
----
 ## Nice 
 The nice command is used to influance the priority of procces to the kernel 
 (*the kernel has a final say*)

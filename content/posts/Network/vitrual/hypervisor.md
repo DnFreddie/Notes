@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 29 03 2023
-topic:: network-virtual
-status:: START
----
 ## Virtual Machine Manager
 
 [Hyperviser_visual.png](/static/Hyperviser_visual.png)

@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-08-02
-type:: Kernel
----
 ## Direct Memory Access
  - IT  allows certain hardware devices to directly access the system's memory (**RAM**) without involving the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) in every data transfer. 
 	 - It enables these devices to read from or write to memory on their own, freeing up the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) to focus on other tasks.

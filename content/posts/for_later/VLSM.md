@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 20 04 2023
-type:: network+
----
 ## Variable Lenght Subent Masks 
 - **Allow network administraters to define their owndmasks**
 	- customize the [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) to the specyfic requierments 

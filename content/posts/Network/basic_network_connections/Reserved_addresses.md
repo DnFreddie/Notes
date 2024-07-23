@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 16 04 2023
-type:: network+
----
 ## Reserved addresses
 - Addresses that are not used and dayly baisis 
 	- **They are set aside for testing or futrue use**

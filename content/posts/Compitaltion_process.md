@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 30 04 2023
-type:: Rust
----
 ## Compitaltion procces
 
 ![CompliationProcess_visual.png](/static/CompliationProcess_visual.png)

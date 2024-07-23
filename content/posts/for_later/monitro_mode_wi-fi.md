@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 16 04 2023
-type:: network+
----
 ## Monitor mode 
 In monitor mode, a Wi-Fi adapter can passively listen to all the wireless traffic on a specific channel without actually connecting to any network. This mode is useful for tasks such as network analysis, packet sniffing, and intrusion detection.
 

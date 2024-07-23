@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: network-penetration
-type:: Linux
----
 ## Spoofing 
 *Changing mac adress to appppear as a diffrent device*
 U just need to make the hardwer down ([ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md))

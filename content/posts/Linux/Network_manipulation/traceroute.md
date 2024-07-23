@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 15 04 2023
-topic:: 
-type:: network 
----
 ## Traceroute 
 A command to finde [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) adreses tah the device is connacting to before reaching the destination 
 >[!example]

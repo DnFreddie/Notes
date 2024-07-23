@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 29 03 2023
-topic:: network-type
-status:: START
----
 ## Software Defined Networking 
 
 **A [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md) built for the cloud** 

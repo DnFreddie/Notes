@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 02 04 2023
-topic:: wi-fi-security 
-type:: network+
----
 ## Security 
 *This is the security protocol used on the Wi-Fi AP that is
 being read from. There are three primary security protocols for Wi-Fi.*

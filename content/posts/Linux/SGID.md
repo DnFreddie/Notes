@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: user-permmision
-type:: Linux
----
 ## Grants the permmison to the group 
 **The SGID bit is represented as 2 before the regular permissions**
 >[!example] The SGID bit is represented as 2 before the regular permissions

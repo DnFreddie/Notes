@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 17 04 2023
-type:: SQL
----
 # SQL
 ![Baisic structure of a SQL](/obisdian_ntoes/notes_obsidian/SQL/Baisic structure of a SQL.md)
 ![foregin key.sql](/obisdian_ntoes/notes_obsidian/SQL/to revise/foregin key.sql.md)

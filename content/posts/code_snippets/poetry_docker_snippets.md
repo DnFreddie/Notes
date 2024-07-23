@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-"date:": 2023-10-31
-"type:": Linux
----
 ## Configure poetry for network apps 
 
 [refrence](https://medium.com/@harpalsahota/dockerizing-python-poetry-applications-1aa3acb76287)

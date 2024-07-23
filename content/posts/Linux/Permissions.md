@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 01 04 2023
-topic:: files-permission 
-type:: Linux
----
 ## The user permmison are wirt in the sctions 
 First is for user second is for gorup and third for all users 
 

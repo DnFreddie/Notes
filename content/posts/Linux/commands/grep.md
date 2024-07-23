@@ -4,11 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 30 03 2023
-topic:: linux-command
-type:: Linux
----
 ## grep
 This search for a particular keyword 
 - ==Syntax==
