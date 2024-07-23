@@ -4,9 +4,8 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    - I/O schedulers exist as a way to optimize disk access requests.
-	- It's  merging I/O requests to similar locations on disk. By grouping requests located at similar sections of disk, the drive doesn't need to "seek" as often, improving the overall response time for disk operations.
-$$$$
+- I/O schedulers exist as a way to optimize disk access requests.
+- It's  merging I/O requests to similar locations on disk. By grouping requests located at similar sections of disk, the drive doesn't need to "seek" as often, improving the overall response time for disk operations.
 - The  **run-time config** is located in
 	 ***/sys/block/sda(disk)/queue/scheduler***
 

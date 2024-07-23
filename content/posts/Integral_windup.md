@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Integral windup
+### Integral windup
 - Theres a huge problem with reducing the error later 
 	-  It builds staedli and then **satuarte the distance**
 >[!tip]- imagine a drone
@@ -27,7 +27,7 @@ instead we steadly incerase the speed to the point that we can overcome the obst
 - rember about the non perfect sesnr 
 - Think about the dynaimc error 
 
-![Clamping_Diagram_visual.png](/static/Clamping_Diagram_visual.png)
+![Clamping_Diagram_visual.png](/Clamping_Diagram_visual.png)
 
 
 
@@ -36,5 +36,5 @@ instead we steadly incerase the speed to the point that we can overcome the obst
 
 
 >[!example]-
->![ClampingMechanismGraph_visual.png](/static/ClampingMechanismGraph_visual.png)
+>![ClampingMechanismGraph_visual.png](/ClampingMechanismGraph_visual.png)
 

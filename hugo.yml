@@ -1,5 +1,5 @@
 baseURL: "https://examplesite.com/"
-title: ExampleSite
+title: DefnotNotes
 paginate: 5
 theme: PaperMod
 
@@ -13,14 +13,17 @@ minify:
   minifyOutput: true
 
 params:
-  env: productio
+  env: production
   title: DefnotNotes
   description: "Defnotfreddie's notes"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
-  disableThemeToggle: false
+  disableThemeToggle: true
+  homeInfoParams:
+    Title: Usefull learinig matirials just click search
+    Content: "Definitely Not my Personal Notes "
 
   ShowReadingTime: true
   ShowPostNavLinks: true
@@ -69,7 +72,7 @@ params:
 menu:
   main:
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 20
 pygmentsUseClasses: true

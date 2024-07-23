@@ -4,10 +4,6 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ---
-date:: 2023-07-12
-type:: Data
----
 ## Redis 
 It uses ==key-value pairs==
 *each key can hold 512 MB of data*

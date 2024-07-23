@@ -4,8 +4,8 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [Worth loooking](https://www.secur.cc/how-to-troubleshoot-linux-user-issues/)
-### Troubleshooting procces 
+[Worth loooking](https://www.secur.cc/how-to-troubleshoot-linux-user-issues/)
+# Troubleshooting procces 
 1. check last log [[Logging.canvas|Logging]]
 	- *last or lastb*
 2. check if user is created 
