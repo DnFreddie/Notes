@@ -8,7 +8,7 @@ draft = false
 - Used extensivly for 
 	**[DMVPNM](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/Data_ref/DMVPNM.md)**
 - Common on [[Cisco routesrs]]
-[mGre_Visual.png](/static/mGre_Visual.png)
+[mGre_Visual.png](/mGre_Visual.png)
 $$ $$
 ## VPN builds itself
 - **Tunnels are built dynamically on demand**

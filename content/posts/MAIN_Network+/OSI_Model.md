@@ -21,4 +21,4 @@ draft = false
   -  6. [Phyiscal]({{< ref "posts/Network/Ref_OSI/Presentation_OSI.md" >}})
   -  7. [Application]({{< ref "posts/Network/Ref_OSI/Application_OSI.md" >}})
 
->![Summary_OSI_Visual.png](/static/Summary_OSI_Visual.png)
+>![Summary_OSI_Visual.png](/Summary_OSI_Visual.png)

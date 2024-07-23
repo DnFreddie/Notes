@@ -6,7 +6,7 @@ draft = false
 
 ## Network interface unit 
 - **Device taht determines the [Demarcation point](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Demarcation point.md)(Demarc)**
-	- [DemarcPoint_visual.png](/static/DemarcPoint_visual.png)
+	- [DemarcPoint_visual.png](/DemarcPoint_visual.png)
 - Network Interface Device 
 - Telephone Network Interface
 

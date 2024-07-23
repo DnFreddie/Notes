@@ -7,7 +7,7 @@ draft = false
     
 - The location of them is held in **$MANPATH**
 ### Manual page structure 
-![Man_Sections_Picture.png](/static/Man_Sections_Picture.png)
+![Man_Sections_Picture.png](/Man_Sections_Picture.png)
 
 
 ### Useful commands

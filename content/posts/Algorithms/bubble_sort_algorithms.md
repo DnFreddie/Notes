@@ -6,7 +6,7 @@ draft = false
 
 - Singular iteration produces the largest number 
 - *The first interation is N the other is N-1* 
->![BubleSort_visual.png](/static/BubleSort_visual.png)
+>![BubleSort_visual.png](/BubleSort_visual.png)
 - we take an sorrted **Static Array**
 	- then we aske the value waether is bigger or not 
 		- if its bigger we swaps it to the right 

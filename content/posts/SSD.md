@@ -18,7 +18,7 @@ TRIM is a command with the help of which the operating system can tell the solid
 #etc 
 >[!tip] To enalbe it permanetyly modyfiie
 >***/etc/fstab*** and add **discard option**
->![Pasted_image_20240511151618.png](/static/Pasted_image_20240511151618.png)
+>![Pasted_image_20240511151618.png](/Pasted_image_20240511151618.png)
 	
 - **To run it manually**
 ```bash

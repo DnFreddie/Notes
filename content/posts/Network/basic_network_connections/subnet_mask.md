@@ -11,9 +11,9 @@ Its dividing [Network_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFrame
 In order to calculate this we sum up all the ones 
 **use cheat sheet** 
 >[!example]-
->![CIDRCalculation_visual.png](/static/CIDRCalculation_visual.png)
+>![CIDRCalculation_visual.png](/CIDRCalculation_visual.png)
 >>[!tip]- Cheat sheet
->> ![CheatSheetCIDR_visual.png](/static/CheatSheetCIDR_visual.png)
+>> ![CheatSheetCIDR_visual.png](/CheatSheetCIDR_visual.png)
 
 
 - Each subnet is identified by a unique network address and a subnet mask, which is used to determine the range of IP addresses that belong to that subnet.

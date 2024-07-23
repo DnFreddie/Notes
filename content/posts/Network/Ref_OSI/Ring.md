@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Ring 
-[RingTopology_visual.png](/static/RingTopology_visual.png)
+[RingTopology_visual.png](/RingTopology_visual.png)
 * **Used for wide area networks**
 	- [MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)**Metro area networks**
 	- [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md) **Wide area Networks**

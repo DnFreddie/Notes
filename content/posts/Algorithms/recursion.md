@@ -32,7 +32,7 @@ draft = false
 	- [Arguments](/obisdian_ntoes/scriptss/Arguments.md) 
 		- The arguments u pass in to the function 
 
-![BaseCaseRecursion_visual.png](/static/BaseCaseRecursion_visual.png)
+![BaseCaseRecursion_visual.png](/BaseCaseRecursion_visual.png)
 
 
 
@@ -53,6 +53,6 @@ draft = false
 
 #codingProblem
 ## Maze Solver Porblem
-![MazeSolver_visual.png](/static/MazeSolver_visual.png)
+![MazeSolver_visual.png](/MazeSolver_visual.png)
 - Code implemention
 - 

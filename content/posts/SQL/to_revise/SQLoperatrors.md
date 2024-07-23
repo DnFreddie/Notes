@@ -7,7 +7,7 @@ draft = false
     <mark class="hltr-try">**AND** </mark>
 **It displaces multiple condition
 similarly to python if both conditions are true**
-![SQL_and_opertator_visualization.png](/static/SQL_and_opertator_visualization.png)
+![SQL_and_opertator_visualization.png](/SQL_and_opertator_visualization.png)
 <mark class="hltr-try">**OR**</mark>
  **If one condition is satisficed then it shows the data**
 
@@ -36,11 +36,11 @@ extracts record where particular pattern is present
 % 
 represents zero ,
 one or multiple characters 
-![Pasted_image_20230109144457.png](/static/Pasted_image_20230109144457.png)
+![Pasted_image_20230109144457.png](/Pasted_image_20230109144457.png)
 _
 <mark class="hltr-try">Represents a single character </mark>
 
 ---
 Between operators 
 **Select values within a given range**
-![Pasted_image_20230109145216.png](/static/Pasted_image_20230109145216.png)
+![Pasted_image_20230109145216.png](/Pasted_image_20230109145216.png)

@@ -13,7 +13,7 @@ Its (*tunnel bettwent two endpoints*)that allows te encapsolation of wide roange
 ### Encapsualte traffic inside of IP 
 
 - Two endpoints  appear to be direcly connected to each other 
-	![GREModel_visual.png](/static/GREModel_visual.png)
+	![GREModel_visual.png](/GREModel_visual.png)
 - ==No build in Encryptoin==
 	- In order to encrypted this data use [VPN](/VPN.md)
 

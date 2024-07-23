@@ -8,7 +8,7 @@ draft = false
 1. Clietn sent the **SYN-SENT**
 2. SYN *seq 100* **ACK**
 
->![3WayhandshakeGraph_visual.png](/static/3WayhandshakeGraph_visual.png)
+>![3WayhandshakeGraph_visual.png](/3WayhandshakeGraph_visual.png)
 
 ---
 [nmap]({{< ref "/posts/Linux/nmap.md" >}})

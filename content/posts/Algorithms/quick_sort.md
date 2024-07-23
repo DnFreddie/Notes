@@ -15,14 +15,14 @@ draft = false
 	- **Weak soritng**
 		Everything before the **pivot**  is smaller 
 		Everything after is  bigger 
-		![QuicSortTree_visual.png](/static/QuicSortTree_visual.png)
+		![QuicSortTree_visual.png](/QuicSortTree_visual.png)
 - **Run time**
 	==O of n log n==
 
 ## Quicsort problem
 - I u hand in **reversed** sorted array 
 	U end up with run time of ==O of n2(squer)==
-	[ReversedSortedArrayProblem_visual.png](/static/ReversedSortedArrayProblem_visual.png)
+	[ReversedSortedArrayProblem_visual.png](/ReversedSortedArrayProblem_visual.png)
 - **Solution**
 	- Use  **median of free**
 		- Take first middle and last elemnet of an array 

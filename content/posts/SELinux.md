@@ -25,10 +25,10 @@ sestatus
 - **Mls** 
 	*Multi Level security protection* 
 >[!example]-
-> ![Pasted_image_20240507104548.png](/static/Pasted_image_20240507104548.png)
+> ![Pasted_image_20240507104548.png](/Pasted_image_20240507104548.png)
 ### Labels
 >[!example] It's a label on the file
->![Pasted_image_20240507105206.png](/static/Pasted_image_20240507105206.png)
+>![Pasted_image_20240507105206.png](/Pasted_image_20240507105206.png)
 
 - **User**
 	User mapped to the Selinux 

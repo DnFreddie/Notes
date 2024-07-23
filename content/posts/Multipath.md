@@ -10,7 +10,7 @@ draft = false
 >If one of the swithces fails the other takes it place 
 >since the controler is connected to both 
 >
->[MULITIPATHGRAPH_visual.png](/static/MULITIPATHGRAPH_visual.png)
+>[MULITIPATHGRAPH_visual.png](/MULITIPATHGRAPH_visual.png)
 
 ---
 

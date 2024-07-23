@@ -17,7 +17,7 @@ IF the servers supporst websocet it rteturen code **101** **Switching Protcols**
 it enables *bidriectional communication*
 >[!example]-
 >It will be connected unti either parites sends a *close messege*
->![WebsocetConnectionUpgrade_visual.png](/static/WebsocetConnectionUpgrade_visual.png)
+>![WebsocetConnectionUpgrade_visual.png](/WebsocetConnectionUpgrade_visual.png)
 
 ## [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md) socets 
 

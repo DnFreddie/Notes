@@ -95,7 +95,7 @@ To use the **host group** for the playbook  use `inventory_hostname`
     user_home: "/home/{{ inventory_hostname }}"
 ```
 #### Diffrences
-![Ansiable hosname vs inventory_hostname](/static/a_hostname_vs_in_hostname.png)
+![Ansiable hosname vs inventory_hostname](/a_hostname_vs_in_hostname.png)
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
 

@@ -8,7 +8,7 @@ draft = false
 ## Baisisc info of the kernel 
 **uname -a**/**-r**
 >[!tip]- Result 
->![KernnelVersion_visual.png](/static/KernnelVersion_visual.png)
+>![KernnelVersion_visual.png](/KernnelVersion_visual.png)
 
 ### Main tasks
 -   Spliting memory into subdevisons

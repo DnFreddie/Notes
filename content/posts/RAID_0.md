@@ -13,7 +13,7 @@ draft = false
 >[!bug] It's vulnerable to the data loss
 
 >[!example]
-![Pasted_image_20240425180738.png](/static/Pasted_image_20240425180738.png)
+![Pasted_image_20240425180738.png](/Pasted_image_20240425180738.png)
 
 ----
 [[Combining Disks (raid).canvas|Combining Disks (raid)]]

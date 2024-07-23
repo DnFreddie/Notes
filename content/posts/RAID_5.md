@@ -13,6 +13,6 @@ draft = false
 	- U can restore the faild one 
 
 >[!example] 
->![Raid5Example_visual.png](/static/Raid5Example_visual.png)
+>![Raid5Example_visual.png](/Raid5Example_visual.png)
 
 [[Combining Disks (raid).canvas|Combining Disks (raid)]]

@@ -8,9 +8,9 @@ draft = false
 - They are ussualy build by implemeting the large dataa  set puting thehm ino a cevtio fo categories and indexing based one the main node 
 - **Baiscily a vector of vectors semanticly similar**
 >[!example]-
->![EmbedingMap_visual.png](/static/EmbedingMap_visual.png)
+>![EmbedingMap_visual.png](/EmbedingMap_visual.png)
 ## Creation
-![CreationEmmbeding_visual.png](/static/CreationEmmbeding_visual.png)
+![CreationEmmbeding_visual.png](/CreationEmmbeding_visual.png)
 ## Usage
 - **Semantic Search**
 	- search engines traditionally work by searching for overlaps of keywords. By leveraging vector embeddings, semantic search can go beyond keyword matching and deliver based on the query’s semantic meaning.

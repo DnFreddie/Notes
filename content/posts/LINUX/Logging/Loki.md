@@ -9,7 +9,7 @@ draft = false
 [Project](https://github.com/grafana/loki-fundamentals/tree/what-is-loki)
 - Accepts all formats  but requiers u to index   a specyfick fileds that u would like to monitor 
 - 
-![Locky structure](/static/loki_struckter_visual.png)
+![Locky structure](/loki_struckter_visual.png)
  
 # Deployment 
 - *Loki configuration file*

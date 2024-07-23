@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Three-tier architecteru
-![Tree_TIer_Acrchitecture_visual.png](/static/Tree_TIer_Acrchitecture_visual.png)
+![Tree_TIer_Acrchitecture_visual.png](/Tree_TIer_Acrchitecture_visual.png)
 
 1. **Core**
 	- The **center** of the network

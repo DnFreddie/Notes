@@ -9,4 +9,4 @@ draft = false
 -   Configured and connected through the [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md) 
 	- Enable additional features 
 	- [[VLAN]] aggregation, multiple interfaces
->[!example] ![VirtualNetworkInterfaceCard_visula.png](/static/VirtualNetworkInterfaceCard_visula.png)
+>[!example] ![VirtualNetworkInterfaceCard_visula.png](/VirtualNetworkInterfaceCard_visula.png)

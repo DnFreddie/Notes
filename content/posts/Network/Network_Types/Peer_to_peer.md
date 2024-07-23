@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-[Peer-to-peer_visual.png](/static/Peer-to-peer_visual.png)
+[Peer-to-peer_visual.png](/Peer-to-peer_visual.png)
 ## Characters
 - All devices are both **clients and servers**
 	*Everybody talks to everyone*

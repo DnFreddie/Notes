@@ -21,7 +21,7 @@ Confidentiality and integrity/anti-replay
 
 ## Modes 
 **Original packet**
- - ![OriginalPacket_visual.png](/static/OriginalPacket_visual.png)
+ - ![OriginalPacket_visual.png](/OriginalPacket_visual.png)
 
 **Transport mode**
  - We add the IPSsec headears to encrypt the data but not the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md)

@@ -28,7 +28,7 @@ Its the what to categorize algortihms  *time or memory requaierments based on th
 - O squere ("*usually loop inside the loop*")
 	**O (N^2)**
  
-	 >![OSquer_visla.png](/static/OSquer_visla.png)
+	 >![OSquer_visla.png](/OSquer_visla.png)
   
 >Tip
 >
@@ -39,7 +39,7 @@ Its the what to categorize algortihms  *time or memory requaierments based on th
 - O(log n)
     - [Binary search trees]({{< ref "posts/Algorithms/Binary_Search_Tree.md" >}})
 	
->![BIgOTypes_visual.png](/static/BIgOTypes_visual.png)
+>![BIgOTypes_visual.png](/BIgOTypes_visual.png)
 
 
 

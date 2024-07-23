@@ -5,7 +5,7 @@ draft = false
 +++
 
     <mark style="background: #FFB86CA6;"> **Hybrid**</mark>
-[HybridTopology_visual.png](/static/HybridTopology_visual.png)
+[HybridTopology_visual.png](/HybridTopology_visual.png)
 **Most networks are hybrid**
 
 $$ $$

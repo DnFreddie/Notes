@@ -18,7 +18,7 @@ draft = false
 
 - Deployed from the [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md)
 	Automate with orchestration
-> [!example] ![vSwitch_visual.png](/static/vSwitch_visual.png)
+> [!example] ![vSwitch_visual.png](/vSwitch_visual.png)
 
 > [!quote] [vNIC](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/vNIC.md)
 

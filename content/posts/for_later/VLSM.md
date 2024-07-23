@@ -13,7 +13,7 @@ draft = false
  - **[subnet classes](/obisdian_ntoes/for later/subnet classes.md) are inefficient**
 	 - The [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) is based on the network class 
 > [!example]- Calculating subnet and host 
-> ![SubnetAndHost_visual.png](/static/SubnetAndHost_visual.png)
+> ![SubnetAndHost_visual.png](/SubnetAndHost_visual.png)
 
 
 >[!quote] [subnet construction](/obisdian_ntoes/for later/subnet construction.md)

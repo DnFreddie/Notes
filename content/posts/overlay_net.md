@@ -12,5 +12,5 @@ draft = false
 
 It's beeter to use [Kubernetes]({{< ref "/posts/Kubernetes.md" >}})
 
->![Pasted_image_20240510110121.png](/static/Pasted_image_20240510110121.png)
+>![Pasted_image_20240510110121.png](/Pasted_image_20240510110121.png)
 

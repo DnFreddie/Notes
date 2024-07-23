@@ -11,7 +11,7 @@ To refrence a variable u have to add $ :
 **echo $LOL** 
 <mark style="background: #FF5582A6;">IMPORTANT!</mark>
 Statment in **''** pritnts the variable name 
-![BashVaraiblesQuotes_visual.png](/static/BashVaraiblesQuotes_visual.png)
+![BashVaraiblesQuotes_visual.png](/BashVaraiblesQuotes_visual.png)
 - *This avoids the collision with possible commands*
 - also $ worsk similar to an  f string 
 >[!example]-

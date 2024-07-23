@@ -7,6 +7,6 @@ draft = false
 ## Database ports 
 
 >[!example]-
->![DatabasePorts_visual.png](/static/DatabasePorts_visual.png)
+>![DatabasePorts_visual.png](/DatabasePorts_visual.png)
 
 >[!quote] [ports](/ports/ports.md) [sqlx](/libriairies/sqlx.md)

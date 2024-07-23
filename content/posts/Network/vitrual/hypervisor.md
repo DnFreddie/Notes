@@ -6,7 +6,7 @@ draft = false
 
 ## Virtual Machine Manager
 
-[Hyperviser_visual.png](/static/Hyperviser_visual.png)
+[Hyperviser_visual.png](/Hyperviser_visual.png)
 **Manages the virtual paltform and guest operating system**
  - Hardwere Manager
 	 *Cpu Networking Seciurty*

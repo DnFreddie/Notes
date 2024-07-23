@@ -37,14 +37,14 @@ docker inspect -f '{{.HostConfig.LogConfig.Type}}' <container_id>
 ```
 
 >[!Note]- Login drivers list
->![Pasted_image_20240508103531.png](/static/Pasted_image_20240508103531.png)
+>![Pasted_image_20240508103531.png](/Pasted_image_20240508103531.png)
 >[Docs](https://betterstack.com/community/guides/logging/how-to-start-logging-with-docker/)
 
 
 ## Creating a driver
 
 >[!example] Example file
->![Pasted_image_20240508103008.png](/static/Pasted_image_20240508103008.png)
+>![Pasted_image_20240508103008.png](/Pasted_image_20240508103008.png)
 
 
 ## Changing the driver
@@ -101,13 +101,13 @@ docker exec -it (container id ) /bin/sh(or bash if installed)
 - version (*need to checuotu the last complibit version*)
 	- It has to be a string! 
 - servives  are whats beeing run 
-	-   ![DockerComposeServices_visual.png](/static/DockerComposeServices_visual.png)
+	-   ![DockerComposeServices_visual.png](/DockerComposeServices_visual.png)
 	- u can also define ports with 
 		ports 
 ## commands 
 - To start the server use **docker-compose up**
 - To end the app type **docker compose down **
 - **Auto-reload**
-	![DockerAutoReload_visual.png](/static/DockerAutoReload_visual.png)
+	![DockerAutoReload_visual.png](/DockerAutoReload_visual.png)
 
 >[!quote] [cloud-int](/cloud-int.md)

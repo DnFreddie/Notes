@@ -87,21 +87,21 @@ Product Code: 1064 Price: $5
 ## Groups 
 **U can set matches into particular gorups**
 
-![ReGroups_visual.png](/static/ReGroups_visual.png)
+![ReGroups_visual.png](/ReGroups_visual.png)
 **In order to replace the hole group u have to use sub with /number_of_group**
- ![ReGroupReplacments_visual.png](/static/ReGroupReplacments_visual.png)
+ ![ReGroupReplacments_visual.png](/ReGroupReplacments_visual.png)
 ## Modification 
 
 - **re.split**
 	- splits thes trings inot a list and slpts were the regular expresion matches 
- 	- ![Re_Splited_visual.png](/static/Re_Splited_visual.png)
+ 	- ![Re_Splited_visual.png](/Re_Splited_visual.png)
 - **re.sub**
 	- repalce were the reguolar expresion marches 
 
 ## Compilation flags 
 *In order to add this as compialation method*
 **re.complie(pattern,re.IGNORECASE)**
-![ReCompilationFlags_visual.png](/static/ReCompilationFlags_visual.png)
+![ReCompilationFlags_visual.png](/ReCompilationFlags_visual.png)
 
 ## Regex classses
 

@@ -16,7 +16,7 @@ This is suggested order in which you wrote your SQL queries .
 
 Start big(data table ) and go small (specyfic codition )
 
-![baiscqueresSQLvisual.png](/static/baiscqueresSQLvisual.png)
+![baiscqueresSQLvisual.png](/baiscqueresSQLvisual.png)
 <mark class="hltr-grses">Queries</mark>
 
 Select * from employees where employees = male ;

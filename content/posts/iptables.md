@@ -7,7 +7,7 @@ draft = false
     ### Chains 
 - Tags that  define and match *packet* to the *state*
 >[!Overview]
->![Pasted_image_20240511164722.png](/static/Pasted_image_20240511164722.png)k
+>![Pasted_image_20240511164722.png](/Pasted_image_20240511164722.png)k
 #### Setting default policy 
 
 ```bash

@@ -18,7 +18,7 @@ Run it with sudo **init** run level (*this are called init scripts*)
 
 
 >[!example] 
->![Pasted_image_20240426141511.png](/static/Pasted_image_20240426141511.png)
+>![Pasted_image_20240426141511.png](/Pasted_image_20240426141511.png)
 
 
 >[!quote] [Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) | [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) | [rc scripts](/obisdian_ntoes/for later/rc scripts.md)

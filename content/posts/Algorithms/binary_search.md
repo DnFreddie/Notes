@@ -30,7 +30,7 @@ n = m
 >Example
 >
 >Code in action
-![Pasted_image_20230628235827.png](/static/Pasted_image_20230628235827.png)
+![Pasted_image_20230628235827.png](/Pasted_image_20230628235827.png)
 
 #codingProblem 
 ## Two crystal balls problem 

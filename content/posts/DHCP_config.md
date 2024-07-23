@@ -17,7 +17,7 @@ draft = false
 ## Pools 
 One **Scope** is genarlly a single contiguaous pool of IP addresses 
  Each [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)  has its own scope 
-  [SUbnetScopes_visual.png](/static/SUbnetScopes_visual.png)
+  [SUbnetScopes_visual.png](/SUbnetScopes_visual.png)
   - DHCP exeptions can be made inside of the scope 
 
 ## Address Assigments 
@@ -35,7 +35,7 @@ One **Scope** is genarlly a single contiguaous pool of IP addresses
 **Table of** [[MAC Adress]]
 - Each [[MAC Adress]]  has its matching [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address 
 ## Address reservation 
-![Address_Reservation_visual.png](/static/Address_Reservation_visual.png)
+![Address_Reservation_visual.png](/Address_Reservation_visual.png)
 ## DHCP renewal 
 - **T1 Timer**
 	- Check in with the lending [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) to renew the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address 

@@ -8,7 +8,7 @@ draft = false
 by the **systemd**  u can create the service but the better is to use file*
 
 >Example
->![Pasted_image_20240427154510.png](/static/Pasted_image_20240427154510.png)
+>![Pasted_image_20240427154510.png](/Pasted_image_20240427154510.png)
 >In order to do it on boot u have to create entries in  **/etc/fstab**
 
 
