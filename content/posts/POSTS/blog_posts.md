@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [learning_through_self-destruction](/POSTS/learning_through_self-destruction.md)
+ [learning_through_self-destruction](/POSTS/learning_through_self-destruction.md)
 [the_gold_is_in_the_block](/POSTS/the_gold_is_in_the_block.md)
 [linux_unmasked](/POSTS/linux_unmasked.md)
 [dont_break_easy_preserve_best_version_of_your_sytsem](/POSTS/dont_break_easy_preserve_best_version_of_your_sytsem.md)
