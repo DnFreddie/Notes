@@ -10,7 +10,7 @@ draft = false
 #### Units 
 **Any entity** managed by systemd
 >[!example]-
->![Pasted_image_20240514192234.png](/Pasted_image_20240514192234.png)
+>![Pasted_image_20240514192234.png](/Notes/Pasted_image_20240514192234.png)
 
 
 
@@ -91,7 +91,7 @@ systemctl cat ssh
 
 ### Configuration
 >[!example]- [Docs configuration](https://access.redhat.com/documentation/enus/red_hat_enterprise_linux/8/html-single/using_systemd_unit_files_to_customize_and_optimize_your_system/indexj)
->![Pasted_image_20240514205706.png](/Pasted_image_20240514205706.png)
+>![Pasted_image_20240514205706.png](/Notes/Pasted_image_20240514205706.png)
 
 
 
@@ -99,7 +99,7 @@ systemctl cat ssh
 
 ### Systemd Timers
 >[!example]
->![Pasted_image_20240514231948.png](/Pasted_image_20240514231948.png)
+>![Pasted_image_20240514231948.png](/Notes/Pasted_image_20240514231948.png)
 
 ![Systemd](https://www.youtube.com/watch?v=n6BuUgkZ5T0)
 

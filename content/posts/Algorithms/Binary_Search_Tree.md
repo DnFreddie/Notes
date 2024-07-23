@@ -12,6 +12,6 @@ but i has **one condition**
 	- It's similar  to the [Quick sort]({{< ref "posts/Algorithms/quick_sort.md" >}})
 
 >Example
->![BinarySearchTree_visual.png](/BinarySearchTree_visual.png)
+>![BinarySearchTree_visual.png](/Notes/BinarySearchTree_visual.png)
 
 

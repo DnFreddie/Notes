@@ -11,6 +11,6 @@ draft = false
 ### Adding [service](/obisdian_ntoes/notes_obsidian/Linux/service.md) to the boot 
 - rc.d 
 	- This command enables you to add or remove services from the rc.d script
-		- ![AddingRcService_visual.png](/AddingRcService_visual.png)
+		- ![AddingRcService_visual.png](/Notes/AddingRcService_visual.png)
 
 >[!quote] [Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) | [Run Levels](/obisdian_ntoes/for later/Run Levels.md)

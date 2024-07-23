@@ -8,12 +8,12 @@ draft = false
 ## Recursive query 
 - Delegate the lookup to a DNS Server 
 	- The DNS Serveer does the work adn reports back
-		- ![ReqursiveQuery_visual.png](/ReqursiveQuery_visual.png)
+		- ![ReqursiveQuery_visual.png](/Notes/ReqursiveQuery_visual.png)
 - Large DNS [cache](/nixos/cache.md) provides a speed advatage
 
 ## Iterative queries 
 - Do all queries ==yourself==
-	- ![IterativeDNSQuery_visual.png](/IterativeDNSQuery_visual.png)
+	- ![IterativeDNSQuery_visual.png](/Notes/IterativeDNSQuery_visual.png)
 - Your DNS [cache](/nixos/cache.md)  is specyfic to ure device  
 $$1$$
 ### TTL
@@ -26,7 +26,7 @@ $$1$$
 $$2$$
 ## Answers 
 >[!example]- [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md) answers 
->![AnswersDNSAuthority_visiual.png](/AnswersDNSAuthority_visiual.png)
+>![AnswersDNSAuthority_visiual.png](/Notes/AnswersDNSAuthority_visiual.png)
 ### The Authority 
 The DNS server is the authority for the zone 
 
@@ -46,6 +46,6 @@ $$3$$
 - Provides the DNS server with an [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addres 
 - **DNS server** provides an [FQDN](/FQDN.md) 
 >[!example]-
->![ReverseDNSExample_visual.png](/ReverseDNSExample_visual.png)
+>![ReverseDNSExample_visual.png](/Notes/ReverseDNSExample_visual.png)
 
 >[!quote] [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) [DNS_Records](/DNS_Records.md)

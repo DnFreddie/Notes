@@ -5,4 +5,4 @@ draft = false
 +++
 
     >[!example]
->![Pasted_image_20240504095944.png](/Pasted_image_20240504095944.png)
+>![Pasted_image_20240504095944.png](/Notes/Pasted_image_20240504095944.png)

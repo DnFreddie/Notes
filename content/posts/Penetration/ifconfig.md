@@ -8,7 +8,7 @@ draft = false
 Examine and interact with active nework interfaces 
 
 >[!example]-
->![IfconfigExamle_visual.png](/IfconfigExamle_visual.png)
+>![IfconfigExamle_visual.png](/Notes/IfconfigExamle_visual.png)
 
 this dispalys most important informatio 
 1.  [[MAC Adress]]
@@ -18,7 +18,7 @@ this dispalys most important informatio
 **If u want to see the[IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) u have to 
 run IP**  adrr
 >[!tip]- result
->![IpAddr_visual.png](/IpAddr_visual.png)
+>![IpAddr_visual.png](/Notes/IpAddr_visual.png)
 
 - Enables to connect and  manipulate [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md)
 - U can easily switch ure IP with 

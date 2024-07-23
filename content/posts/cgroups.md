@@ -29,7 +29,7 @@ draft = false
 
 ### Hierarchical representation 
 
->![Pasted_image_20240509114957.png](/Pasted_image_20240509114957.png)
+>![Pasted_image_20240509114957.png](/Notes/Pasted_image_20240509114957.png)
 #### Cgroup virtual filesystem 
 - Mouted at ***/sys/fs/cgroup***
 	- There are mostly just interfaces

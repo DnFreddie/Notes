@@ -7,7 +7,7 @@ draft = false
 Data is stored and accesed based on columns 
 - This storage allows for efficient copperssion and query performence 
 - high compression rates due to the column-wise storage structure. Data in a column typically has similar data types and patterns
->![ColumnarDatabaseExample_visual.png](/ColumnarDatabaseExample_visual.png)
+>![ColumnarDatabaseExample_visual.png](/Notes/ColumnarDatabaseExample_visual.png)
 
 [redis]({{< ref "posts/databases/redis.md" >}})
 [firebase]({{< ref "posts/databases/redis.md" >}})

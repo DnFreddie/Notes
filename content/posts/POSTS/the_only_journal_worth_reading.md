@@ -103,7 +103,7 @@ journalctl --disk-usage
 
 ### How Does journalctl Think?
 
-![Journalctl levels](/blog_imgs/journal_levels.png)
+![Journalctl levels](/Notes/blog_imgs/journal_levels.png)
 
 **Journalctl** views the changing reality of your system in eight categories. 
 
@@ -166,7 +166,7 @@ This structured approach allows you to quickly filter and find specific types of
 
 ### We Are Surrounded by Sessions
 
-![Session picutre](/blog_imgs/seesion.png)
+![Session picutre](/Notes/blog_imgs/seesion.png)
 
 Yoga sessions, therapy sessions, browser sessions ,  sessions are everywhere. journalctl is no exception; it keeps things real with its **boot session**
 
@@ -255,7 +255,7 @@ sudo lastb
 
 ### All of Us Are Peeping Toms Somewhere Deep Down
 
-![Pair peeping on friends](/blog_imgs/peeping.png)
+![Pair peeping on friends](/Notes/blog_imgs/peeping.png)
 
 That's why the **w** command was invented. 
 
@@ -305,7 +305,7 @@ whowatch
 
 ### Logs Are Everywhere, You Just Have to Reach for Them
 
-![What does the log say](/blog_imgs/what_doesThe_log_say.png)
+![What does the log say](/Notes/blog_imgs/what_doesThe_log_say.png)
 
 Unfortunately, in the Linux world, we tend to skip any form of reading logs because it's much simpler and quicker to create a new machine or to format it than to traverse through the logs. But this is the wrong way of thinking. 
 

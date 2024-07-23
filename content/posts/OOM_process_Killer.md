@@ -21,7 +21,7 @@ choom -n 300 firefox
 	***/etc/systemd***
 
 >[!example]
->![Pasted_image_20240512200927.png](/Pasted_image_20240512200927.png)
+>![Pasted_image_20240512200927.png](/Notes/Pasted_image_20240512200927.png)
 
 
 

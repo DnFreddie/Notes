@@ -6,7 +6,7 @@ draft = false
 
  Virtual or psychical device that connect multiple **LAN's**
 
->![Pasted_image_20240510102627.png](/Pasted_image_20240510102627.png)
+>![Pasted_image_20240510102627.png](/Notes/Pasted_image_20240510102627.png)
 - All parts of the bridge will get their collision domain
 >Bug
 >
@@ -29,7 +29,7 @@ docker network create my-bridge-net --subnet  10.0.0..0/19 --gateway 10.0.0.1
 >Example 
 >
 >Docker compose 
->![Pasted_image_20240510104017.png](/Pasted_image_20240510104017.png)
+>![Pasted_image_20240510104017.png](/Notes/Pasted_image_20240510104017.png)
 
 
 --- 

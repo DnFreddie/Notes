@@ -17,7 +17,7 @@ In order to stuart up the engeine u have to provide **Suppley Voltage**
 
 - Motors requiter a relativity ==high [voltage_rob](/voltage_rob.md)==  and [current_rob](/current_rob.md)
 >[!bug]- Connecting them directly to processor by end up in fire
->![Pasted_image_20231004133958.png](/Pasted_image_20231004133958.png)
+>![Pasted_image_20231004133958.png](/Notes/Pasted_image_20231004133958.png)
 
 - Therefor we use motordirver 
 	- It takes lots of voltage and uses this power supplay to an amplyfaier creating
@@ -41,6 +41,6 @@ Common layer that tarehe speend and send instruction  to the motor itslef
 - **Control softwere**
 	- Calcualte the speed that it want motor to go 
 	- Transmit those speed using prtocol to the controler
-	![Pasted_image_20231005093118.png](/Pasted_image_20231005093118.png)
+	![Pasted_image_20231005093118.png](/Notes/Pasted_image_20231005093118.png)
 
 >[!quote]

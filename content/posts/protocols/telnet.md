@@ -16,7 +16,7 @@ Port **tcp/23**
 >Not good for production systems 
 
 >[!example]-
->![TelentExmaple_visual.png](/TelentExmaple_visual.png)
+>![TelentExmaple_visual.png](/Notes/TelentExmaple_visual.png)
 
 
 

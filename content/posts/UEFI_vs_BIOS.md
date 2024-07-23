@@ -28,6 +28,6 @@ draft = false
 
 >[!important] **GPT**  creates fake Master record in order to be compatible with  the Bios 
 
-![Pasted_image_20240425173903.png](/Pasted_image_20240425173903.png)
+![Pasted_image_20240425173903.png](/Notes/Pasted_image_20240425173903.png)
 
 

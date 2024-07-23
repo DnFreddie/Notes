@@ -28,7 +28,7 @@ $$1$$
 $$2$$
 ## Managing the data 
 - Diffrent ports enable to differentiet before the *transfered data*
-	![MenaginPortsData_visual.png](/MenaginPortsData_visual.png)
+	![MenaginPortsData_visual.png](/Notes/MenaginPortsData_visual.png)
 $$3$$
 ## Common ports 
 | port                                              | name                                   | fn                                           |     |     |

@@ -303,7 +303,7 @@ This is time-consuming and sometimes isn't even possible
 
 
 ### Virutalization the  queen of the flexabilty 
-![Docker Logo](/blog_imgs/dokcer_Logo.png)
+![Docker Logo](/Notes/blog_imgs/dokcer_Logo.png)
 When it comes to quick and easy solutions, containers immediately comes to mind. 
 
 They offer a rapid and straightforward approach: install everything you need in the container, push it to [Dockerhub](https://hub.docker.com/), and Pccess it from anywhere you want. 

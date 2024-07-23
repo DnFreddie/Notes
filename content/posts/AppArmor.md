@@ -43,7 +43,7 @@ sudo aa-logprof
 ```
 
  >Example
- >![Pasted_image_20240507121744.png](/Pasted_image_20240507121744.png)
+ >![Pasted_image_20240507121744.png](/Notes/Pasted_image_20240507121744.png)
 
 
 ---

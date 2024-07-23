@@ -13,7 +13,7 @@ draft = false
 
 
 >Example
->![Pasted_image_20240430084931.png](/Pasted_image_20240430084931.png)
+>![Pasted_image_20240430084931.png](/Notes/Pasted_image_20240430084931.png)
 
 ---
 [DNS]({{< ref "/posts/Network/Phisicall/DNS.md" >}})

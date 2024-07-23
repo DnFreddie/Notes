@@ -32,12 +32,12 @@ on  http://localhost:3000
 
 - U can add *loading.js* file 
 	-  U will reneder a *Loading Skeleton*
-		  ![Next-JsLoaingSkeleton_visual.png](/Next-JsLoaingSkeleton_visual.png)
+		  ![Next-JsLoaingSkeleton_visual.png](/Notes/Next-JsLoaingSkeleton_visual.png)
 
 ## Error Handling 
 - To handle errors create *error.js file* in sub directory 
 	- This wiil present the error acordingly to the user 
-	 ![Next-JsErrorHandling_visual.png](/Next-JsErrorHandling_visual.png)
+	 ![Next-JsErrorHandling_visual.png](/Notes/Next-JsErrorHandling_visual.png)
 
 
 >[!quote] [React](/next-js/Reactjs/React.md)||[Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md)||

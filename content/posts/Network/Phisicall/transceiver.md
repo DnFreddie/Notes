@@ -13,6 +13,6 @@ draft = false
 - Many diffrenjt types and designs 
 	-  *Remember to chec the documentation becouse diffrent devices need diffrent transivers*
 
-![Transciver_visual.png](/Transciver_visual.png)
+![Transciver_visual.png](/Notes/Transciver_visual.png)
 
 >[!quote] [Physical_OSI](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Physical_OSI.md) [media converter](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/media converter.md)

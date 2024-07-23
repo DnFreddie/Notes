@@ -6,4 +6,4 @@ draft = false
 
 ## Introduction
 
-![protemtheus](/prometheus_overwiev.png)
+![protemtheus](/Notes/prometheus_overwiev.png)

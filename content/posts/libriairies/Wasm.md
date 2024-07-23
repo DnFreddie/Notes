@@ -17,7 +17,7 @@ $$1$$
 - It's a binary file 
   - ==The wasm can interact with js==
   - *yet it canot talk direcly with html*
-	- ![WebAssamblyBrowser_visual.png](/WebAssamblyBrowser_visual.png)
+	- ![WebAssamblyBrowser_visual.png](/Notes/WebAssamblyBrowser_visual.png)
 
 
 $$2$$

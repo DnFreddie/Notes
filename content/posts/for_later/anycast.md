@@ -11,4 +11,4 @@ Single destiantion [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) has multiple 
 - Packet sent to an anycast address are delivered to the closest interface (the device closet to u)
 	- Announce the same rout of multple data centers clinets use the data center closest to them 
 	- commonly used with Anycast DNS
-![Anycast_visual.png](/Anycast_visual.png)
+![Anycast_visual.png](/Notes/Anycast_visual.png)

@@ -13,7 +13,7 @@ docker run -d --name test --network host aura/myapp-188:v3
 ```
  
 
-![Pasted_image_20240510105230.png](/Pasted_image_20240510105230.png)
+![Pasted_image_20240510105230.png](/Notes/Pasted_image_20240510105230.png)
 
 
 

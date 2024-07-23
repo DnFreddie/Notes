@@ -5,7 +5,7 @@ draft = false
 +++
 
 >Best Way to combine storage
-![Pasted_image_20240427140250.png](/Pasted_image_20240427140250.png)
+![Pasted_image_20240427140250.png](/Notes/Pasted_image_20240427140250.png)
 
 >[!bug] It does not offer data protection
 >If one drive fails the other fail too 

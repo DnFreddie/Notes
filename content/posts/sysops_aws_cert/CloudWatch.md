@@ -5,7 +5,7 @@ draft = false
 +++
 
     
-![Cloud watch structure](/cloud_watch_structer_visual.png)
+![Cloud watch structure](/Notes/cloud_watch_structer_visual.png)
 
 - It's an **umbrella service**  
     - *Collection of the monitoring tools*
@@ -53,7 +53,7 @@ A collection of **log streams**.
 
 #### Cloud Watch  Logs Insights
 
-![Cloud watch insigts](/cloud_watch_insights_visual.png)
+![Cloud watch insigts](/Notes/cloud_watch_insights_visual.png)
 
 Interactively search and analyze u log date with the **syntax**
     - Supports all kinds of logs 
@@ -82,4 +82,4 @@ by generating fields that u can use in your query
     - **@log**
         Log group identifier
 
-![Diffrent discover fileds](/diffrent_discover_fields_aws_log.png)
+![Diffrent discover fileds](/Notes/diffrent_discover_fields_aws_log.png)

@@ -8,14 +8,14 @@ draft = false
 To confighure proxies use **etc/proxychains.conf**
 >[!example]
 >- If you’re not adding your own proxies and want to use Tor, leave this as it is. If you are not using Tor, you’ll need to comment out this line
-![ProxyList_visual.png](/ProxyList_visual.png)
+![ProxyList_visual.png](/Notes/ProxyList_visual.png)
 
 <mark style="background: #FF5582A6;">To make it hapen u have to type **proxychains browser domain**</mark>
 ### Random chainging 
 In order to change the proxy server randomly u have to set *chain* to the **dynamic chain**
 adn specyfie the *len* of the **chain**
 >[!example]-
->![DynamicChainn_visual.png](/DynamicChainn_visual.png)
+>![DynamicChainn_visual.png](/Notes/DynamicChainn_visual.png)
 
 ## Proxy Types
 

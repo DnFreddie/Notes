@@ -10,6 +10,6 @@ draft = false
 - Leaf switches ==do not== connect to each other 
 	*Same for switches*
 
-![SpineLeaf_arch9itectuee_visuaol.png](/SpineLeaf_arch9itectuee_visuaol.png)
+![SpineLeaf_arch9itectuee_visuaol.png](/Notes/SpineLeaf_arch9itectuee_visuaol.png)
 
 >[!quote]

@@ -28,7 +28,7 @@ draft = false
 - Can share folders with main container 
 - Can communicate via localhost 
 >[!example]-
->![Pasted_image_20240509205921.png](/Pasted_image_20240509205921.png)
+>![Pasted_image_20240509205921.png](/Notes/Pasted_image_20240509205921.png)
 ######  Ambassador
 
 - The  main app does not connect to external services 
@@ -36,14 +36,14 @@ draft = false
 	- It works pretty much as proxy 
 
 >[!example]-
->![Pasted_image_20240509205439.png](/Pasted_image_20240509205439.png)
+>![Pasted_image_20240509205439.png](/Notes/Pasted_image_20240509205439.png)
 
 ##### Adapter
 - This modifies the information revived from the container to the desired format 
 	- Example logs  or data required for the  app
 
 >[!example]-
->![pasted_image_20240509210026.png](/pasted_image_20240509210026.png)
+>![pasted_image_20240509210026.png](/Notes/pasted_image_20240509210026.png)
 
 [docks](https://raghavramesh.github.io/posts/kubernetes-multi-container-patterns/)
 

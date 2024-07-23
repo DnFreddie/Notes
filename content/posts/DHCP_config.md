@@ -35,7 +35,7 @@ One **Scope** is genarlly a single contiguaous pool of IP addresses
 **Table of** [[MAC Adress]]
 - Each [[MAC Adress]]  has its matching [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address 
 ## Address reservation 
-![Address_Reservation_visual.png](/Address_Reservation_visual.png)
+![Address_Reservation_visual.png](/Notes/Address_Reservation_visual.png)
 ## DHCP renewal 
 - **T1 Timer**
 	- Check in with the lending [DHCP server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DHCP server.md) to renew the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address 

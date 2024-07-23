@@ -47,7 +47,7 @@ We even build the web so you can brag about your problems and sell your  ponzi s
 
 ### We Love Our Tools
 
-![Proggraming setup meme](/blog_imgs/sucumb_to_tech/setupjoke.png)
+![Proggraming setup meme](/Notes/blog_imgs/sucumb_to_tech/setupjoke.png)
 
 Emacs, Vim, Linux, Windows, React, Solid, Ranger, vifm we know them inside and out.
 

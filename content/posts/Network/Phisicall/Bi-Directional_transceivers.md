@@ -9,7 +9,7 @@ draft = false
 
 - Reduce the number of fiber runs by half
 >Example
->![Bi-Directional transceivers_visual.png](/Bi-Directional_transceivers_visual.png)
+>![Bi-Directional transceivers_visual.png](/Notes/Bi-Directional_transceivers_visual.png)
 
 
 [Transreciver]({{< ref "posts/Network/Phisicall/transceiver.md" >}})

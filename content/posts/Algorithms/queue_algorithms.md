@@ -15,12 +15,12 @@ Its a linked list that only allows insertions through first and last elmeent
 - Poping 
 	- *we pop from the head*
 
-![Pasted_image_20230702114452.png](/Pasted_image_20230702114452.png)
+![Pasted_image_20230702114452.png](/Notes/Pasted_image_20230702114452.png)
 ## Code implematation 
 
 
 >[!example]-
->![ImplementaionQue_visual.png](/ImplementaionQue_visual.png) 
+>![ImplementaionQue_visual.png](/Notes/ImplementaionQue_visual.png) 
 
 ```
 <T> = {

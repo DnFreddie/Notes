@@ -17,6 +17,6 @@ The device sends *only one signal* to the network
 		- Uses  [multicast]({{< ref "posts/for_later/multicast.md" >}}) instead
 
 >Example
->![Broadcast_visual.png](/Broadcast_visual.png)
+>![Broadcast_visual.png](/Notes/Broadcast_visual.png)
 
 [unicast]({{< ref "posts/for_later/unicast.md" >}}) 

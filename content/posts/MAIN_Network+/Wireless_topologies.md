@@ -16,7 +16,7 @@ $$  $$
 ## WLAN Mesh
 - Ad hoc devices work together to form a **mesh cloud**
 - **Self Form and self Heal**
-![WirllesMesh_Visual.png](/WirllesMesh_Visual.png)
+![WirllesMesh_Visual.png](/Notes/WirllesMesh_Visual.png)
 
 --- 
 

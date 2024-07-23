@@ -26,7 +26,7 @@ find . -xtype l
 	 *A search for *  * *  at will display cat hat and bat *
 
 >[!example] Possibilities
->![FindPossibilities.visual.png](/FindPossibilities.visual.png)
+>![FindPossibilities.visual.png](/Notes/FindPossibilities.visual.png)
 
 ## U can search files via [Permissions]({{< ref "posts/Linux/Permissions.md" >}})
 

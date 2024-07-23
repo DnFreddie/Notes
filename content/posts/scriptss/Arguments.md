@@ -6,4 +6,4 @@ draft = false
 U can give arguments by **$number**
 - **$#** it chechs weather the particular number of arguments where inserted 
 >Example 
->![ArgumentsCheck_visual.png](/ArgumentsCheck_visual.png)
+>![ArgumentsCheck_visual.png](/Notes/ArgumentsCheck_visual.png)

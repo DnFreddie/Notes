@@ -7,11 +7,11 @@ draft = false
 ## Proportional Integral Derivative Contorler 
 
 >[!tip]- Main schema 
->![Pasted_image_20231004151914.png](/Pasted_image_20231004151914.png)
+>![Pasted_image_20231004151914.png](/Notes/Pasted_image_20231004151914.png)
 
 - This uses the past error present error and future error to calculate appropriate commands 
 - Schema 
-	![Pasted_image_20231004144626.png](/Pasted_image_20231004144626.png)
+	![Pasted_image_20231004144626.png](/Notes/Pasted_image_20231004144626.png)
 
 
 ### PID contor 
@@ -24,7 +24,7 @@ draft = false
 
 >[!bug]- Saturation 
 >wheh a system meets its limit
->![SatrurationModel_visual.png](/SatrurationModel_visual.png)
+>![SatrurationModel_visual.png](/Notes/SatrurationModel_visual.png)
 
 
 ![Integral windup](/Integral windup.md) 

@@ -20,4 +20,4 @@ The data is beeing hold im the [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/D
 ## Transfering data 
 The data ins *Encapsulated* by the IP protocol
 - [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md)  **frame**
->![TransferEthernetFrame_visual.png](/TransferEthernetFrame_visual.png)
+>![TransferEthernetFrame_visual.png](/Notes/TransferEthernetFrame_visual.png)

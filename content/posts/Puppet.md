@@ -15,7 +15,7 @@ draft = false
 	- Tool  that controls *all the masters*
 
 >[!example]-
-![Pasted_image_20240508131449.png](/Pasted_image_20240508131449.png)
+![Pasted_image_20240508131449.png](/Notes/Pasted_image_20240508131449.png)
 
 ### Configuration 
 
@@ -25,7 +25,7 @@ The main configuration is **Manifest.pp**
 	- This can be also setup further in module 
 	
 >[!example]- 
-![Pasted_image_20240508132228.png](/Pasted_image_20240508132228.png)
+![Pasted_image_20240508132228.png](/Notes/Pasted_image_20240508132228.png)
 
 
 --- 

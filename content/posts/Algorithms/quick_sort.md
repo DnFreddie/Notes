@@ -15,7 +15,7 @@ draft = false
 	- **Weak soritng**
 		Everything before the **pivot**  is smaller 
 		Everything after is  bigger 
-		![QuicSortTree_visual.png](/QuicSortTree_visual.png)
+		![QuicSortTree_visual.png](/Notes/QuicSortTree_visual.png)
 - **Run time**
 	==O of n log n==
 

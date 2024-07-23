@@ -10,7 +10,7 @@ draft = false
 	- [UDP](/obisdian_ntoes/for later/UDP.md) **/161** 
 
 >[!example]-
->![SNMP_visual.png](/SNMP_visual.png)
+>![SNMP_visual.png](/Notes/SNMP_visual.png)
 
 - V3 A secure standard 
 	- Message integrity 

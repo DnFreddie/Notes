@@ -88,5 +88,5 @@ p> Hello <p
 ```
 ## JS and Css 
 - **Java script and css file should be located in a static folder** and linked by the *url similarly to the icons*
-	- ![Java_Css_Files_visual.png](/Java_Css_Files_visual.png)
+	- ![Java_Css_Files_visual.png](/Notes/Java_Css_Files_visual.png)
 	- {{ url_for('static', filename='css/box.css') }}

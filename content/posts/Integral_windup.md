@@ -27,7 +27,7 @@ instead we steadly incerase the speed to the point that we can overcome the obst
 - rember about the non perfect sesnr 
 - Think about the dynaimc error 
 
-![Clamping_Diagram_visual.png](/Clamping_Diagram_visual.png)
+![Clamping_Diagram_visual.png](/Notes/Clamping_Diagram_visual.png)
 
 
 
@@ -36,5 +36,5 @@ instead we steadly incerase the speed to the point that we can overcome the obst
 
 
 >[!example]-
->![ClampingMechanismGraph_visual.png](/ClampingMechanismGraph_visual.png)
+>![ClampingMechanismGraph_visual.png](/Notes/ClampingMechanismGraph_visual.png)
 

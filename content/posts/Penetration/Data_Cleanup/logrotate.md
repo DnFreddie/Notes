@@ -13,7 +13,7 @@ At the end of each rotation period, the log files are renamed and pushed toward 
 The config is located into **/etc/logrotate.conf**
 
 >[!example]-
->![LogareteConf_visual.png](/LogareteConf_visual.png)
+>![LogareteConf_visual.png](/Notes/LogareteConf_visual.png)
 
 ### Removing logs 
 In order to remove files and do not leacve baisic evidance u have to [shred](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/shred.md) the Logfiles

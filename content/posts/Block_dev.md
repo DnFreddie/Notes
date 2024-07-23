@@ -9,7 +9,7 @@ draft = false
 - contains small memory cells 
 
 >Example
->![Pasted_image_20240511143906.png](/Pasted_image_20240511143906.png)
+>![Pasted_image_20240511143906.png](/Notes/Pasted_image_20240511143906.png)
 
 ---
 [SSD]({{< ref "posts/SSD.md" >}})

@@ -9,7 +9,7 @@ draft = false
 	[ThreadsGrap_visual.png](/ThreadsGrap_visual.png)
 
 ### Multithreades 
-![MultiThreadsGraph_Visual.png](/MultiThreadsGraph_Visual.png)
+![MultiThreadsGraph_Visual.png](/Notes/MultiThreadsGraph_Visual.png)
 ### Differece between the [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)
 [ProcessVsThreads_visual.png](/ProcessVsThreads_visual.png)
 

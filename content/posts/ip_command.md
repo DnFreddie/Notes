@@ -10,4 +10,4 @@ draft = false
 ip -s link show {inerface}
 ```
 >[!example]
->![Pasted_image_20240511194505.png](/Pasted_image_20240511194505.png)
+>![Pasted_image_20240511194505.png](/Notes/Pasted_image_20240511194505.png)
