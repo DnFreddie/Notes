@@ -10,7 +10,7 @@ The device sends *only one signal* to the network
 	- One packet recived by everyone
 - Limited scope 
 	- broadcast domain 
-		- It a range of yur local ip [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md)
+		- It a range of yur local ip [subnet mask](/Network/basic network connections/subnet mask.md)
 - Touting updates ARP requests
 - Used in [IPv4]({{< ref "posts/Network/basic_network_connections/IPv4_address.md" >}})
 	- **Not used in IPv6**

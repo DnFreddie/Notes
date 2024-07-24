@@ -5,8 +5,8 @@ draft = false
 +++
 
 ## Web socets 
-- [ports](/ports/ports.md) numbers and [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addresses **combined** creates **socets**
-- Allows [duplex communication](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/duplex communication.md) bettwen **the server  and the client** 
+- [ports](/ports/ports.md) numbers and [IP](/Network/Ref_OSI/IP.md) addresses **combined** creates **socets**
+- Allows [duplex communication](/Network/Phisicall/duplex communication.md) bettwen **the server  and the client** 
 - Enables u to connect your **frontend with backend**
 $$1$$
 ## Connection 
@@ -19,7 +19,7 @@ it enables *bidriectional communication*
 >It will be connected unti either parites sends a *close messege*
 >![WebsocetConnectionUpgrade_visual.png](/Notes/WebsocetConnectionUpgrade_visual.png)
 
-## [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md) socets 
+## [IPv4 address](/Network/basic network connections/IPv4 address.md) socets 
 
 - Server 
 	1. Server IP adress

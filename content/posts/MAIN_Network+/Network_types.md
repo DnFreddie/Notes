@@ -4,36 +4,36 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-![LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md)
+![LAN](/Network/Network Types/LAN.md)
 
 
 ---
 
-![WLAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WLAN.md)
+![WLAN](/Network/Network Types/WLAN.md)
 
 ---
 
-![PAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/PAN.md)
+![PAN](/Network/Network Types/PAN.md)
 
 --- 
 
-![MAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/MAN.md)
+![MAN](/Network/Network Types/MAN.md)
 
 ---
-![CAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/CAN.md)
+![CAN](/Network/Network Types/CAN.md)
 
 ---
-![WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md)
+![WAN](/Network/Network Types/WAN.md)
 
 ---
 
-![Peer to peer](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Peer to peer.md)
+![Peer to peer](/Network/Network Types/Peer to peer.md)
 
 ---
-![Client-server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Client-server.md)
+![Client-server](/Network/Network Types/Client-server.md)
 
 --- 
-![SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md)
+![SAN](/Network/Data/SAN.md)
 
 ---
 
@@ -41,4 +41,4 @@ draft = false
 
 
 > [!quote]
-> [Network Topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network Topologies.md) [Virtual networks](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Virtual networks.md)
+> [Network Topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network Topologies.md) [Virtual networks](/Network/Network Types/Virtual networks.md)

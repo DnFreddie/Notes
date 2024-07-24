@@ -7,7 +7,7 @@ draft = false
 #alt-name message protocol 
 ## UDP
 - <mark style="background: #72083D;">Connection less system </mark>
-	- in cotriary to [TCP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/TCP.md)
+	- in cotriary to [TCP](/Network/Ref_OSI/TCP.md)
 - ==Unreliable delievery==
 	- No error recovery
 	- No reordering of data

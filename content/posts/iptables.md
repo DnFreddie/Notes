@@ -56,7 +56,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 ```bash
 iptables -I INPUT -p -tcp -dport 80
 ```
-### [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md) table
+### [NAT](/Network/basic network connections/NAT.md) table
 - Redirect to different interfaces
 ### Mangle table
 - Modifying *packets and connections*

@@ -7,7 +7,7 @@ draft = false
 ## Generic Route Encapsulation 
 
 Its (*tunnel bettwent two endpoints*)that allows te encapsolation of wide roange of layer protocols 
-**inside** [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) **packets** 
+**inside** [IP](/Network/Ref_OSI/IP.md) **packets** 
 
 
 ### Encapsualte traffic inside of IP 

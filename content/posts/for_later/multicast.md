@@ -15,8 +15,8 @@ draft = false
 - Very specialized 
 	- Difficult to scale across large networks 
 - Used both in 
-	- [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md)
-	-  extensive use in [IPv6 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/IPv6 address.md)
+	- [IPv4 address](/Network/basic network connections/IPv4 address.md)
+	-  extensive use in [IPv6 address](/Network/IPv6 address.md)
 
 
 >[!quote] [anycast](/obisdian_ntoes/for later/anycast.md) |[multicast](/obisdian_ntoes/for later/multicast.md) | [broadcast](/obisdian_ntoes/for later/broadcast.md)

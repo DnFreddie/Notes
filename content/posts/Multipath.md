@@ -14,4 +14,4 @@ draft = false
 
 ---
 
-[SAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md)  [iSCSI](/iSCSI.md)
+[SAN](/Network/Data/SAN.md)  [iSCSI](/iSCSI.md)

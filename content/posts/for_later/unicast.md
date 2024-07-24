@@ -11,5 +11,5 @@ draft = false
 - It does not scale optimally for real-time streaming media 
 	- U wpould have to send single straem to every device 
 >[!example] ![Unicast_visual.png](/Notes/Unicast_visual.png)
-- Mostly use with [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md)and [IPv6 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/IPv6 address.md)
->[!quote] [broadcast](/obisdian_ntoes/for later/broadcast.md) [Peer to peer](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Peer to peer.md) [DHCP_protocol](/protocols/DHCP_protocol.md)
+- Mostly use with [IPv4 address](/Network/basic network connections/IPv4 address.md)and [IPv6 address](/Network/IPv6 address.md)
+>[!quote] [broadcast](/obisdian_ntoes/for later/broadcast.md) [Peer to peer](/Network/Network Types/Peer to peer.md) [DHCP_protocol](/protocols/DHCP_protocol.md)

@@ -31,7 +31,7 @@ draft = false
 5. [[Process management_signals.canvas|Process mangament_signals]]
 	- [[systemd#Systemd procedures|Systemd procedures]]
 6. **Network**
-	- [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) 
+	- [DNS](/Network/Phisicall/DNS.md) 
 		- [nsswitch.conf](/nsswitch.conf.md)
 		- [[DNS#Changing Dns server|Changing Dns server]]
 		- [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md) 
