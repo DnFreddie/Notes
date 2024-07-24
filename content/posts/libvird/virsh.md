@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    Mnageign vms headlessley 
+*Managing vms heedlessly*
 
 [Docs](https://kifarunix.com/start-and-stop-kvm-virtual-machines-from-command-line/)
 
@@ -28,12 +28,16 @@ draft = false
  qemu-img create -b focal-server-cloudimg-amd64.img -f qcow2 -F qcow2 hal9000.img 10G
 ```
     
-### Creating snapshot 
+## Creating snapshot 
 [Docs](https://www.linuxtechi.com/create-revert-delete-kvm-virtual-machine-snapshot-virsh-command/)
 
- `virsh snapshot-create-as –domain {vm_name} –name {snapshot_name} –description  “enter description here”`
-    sudo virsh snapshot-create-as ubuntu24.04 ubuSnap1 "new snapshot"
+```bash
+virsh snapshot-create-as –domain {vm_name} –name {snapshot_name} –description  “enter description here”
+sudo virsh snapshot-create-as ubuntu25.04 ubuSnap1 "new snapshot"
+```
 
+### Listing Domain 
+-  virsh snapshot-list <name of the vm>
 
 ### Reverting 
 
@@ -46,8 +50,6 @@ virsh snapshot-revert fedora36 snapshot0
 virsh snapshot-revert fedora36 --current
 ```
 
-#### Listing Domain 
--  virsh snapshot-list <name of the vm>
 
 
 

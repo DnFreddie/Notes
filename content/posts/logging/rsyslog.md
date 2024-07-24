@@ -18,13 +18,12 @@ The baisic format of this rules
 	- *facility types*
 		- ![FacilityTypes_visual.png](/Notes/FacilityTypes_visual.png)
 			- An asterisk wildcard ( * ) in place of a word refers to all facilities.
-	- *priority*
-		- ![Priority Codes_visual.png](/Notes/Priority Codes_visual.png)
-		- **The codes warn, error, and panic have all been deprecated and should not be used.**
-			- If the priority is * , messages of all priorities are logged.
-**action**
-	*Location where the logfiles should be sent*
+- **action** *Location where the logfiles should be sent*
+- *priority*
+    - **The codes warn, error, and panic have all been deprecated and should not be used.**
+	- If the priority is * , messages of all priorities are logged.
+
+>![Priority_Codes_visual.png](/Notes/Priority_Codes_visual.png)
 
 
 
->[!quote] 
