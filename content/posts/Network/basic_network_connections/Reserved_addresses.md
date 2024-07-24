@@ -10,4 +10,4 @@ draft = false
 		- *240.0.0.1 thhrough 254.255.255.254*
 		- *All Class E addresses*
 
->[!quote] [Virtual IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/Virtual IP.md) | [[IP]] | [subnet mask](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/subnet mask.md) | [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md)
+>[!quote] [Virtual IP](/Network/vitrual/Virtual IP.md) | [[IP]] | [subnet mask](/Network/basic network connections/subnet mask.md) | [DNS](/Network/Phisicall/DNS.md)

@@ -10,4 +10,4 @@ draft = false
 ![PrivateAdresses_visual.png](/Notes/PrivateAdresses_visual.png)
 
 
->[!quote] [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md)
+>[!quote] [NAT](/Network/basic network connections/NAT.md)

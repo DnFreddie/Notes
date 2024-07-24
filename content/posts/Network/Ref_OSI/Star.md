@@ -10,5 +10,5 @@ draft = false
 [StartTopol_visual.png](/StartTopol_visual.png)
 - Used in most large and smal networks 
 - All devices are connected to the central device
-- Switched [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) network
+- Switched [Ethernet](/Network/Ref_OSI/Ethernet.md) network
   *The swich is in the middle*

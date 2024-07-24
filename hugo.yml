@@ -22,7 +22,7 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: true
   homeInfoParams:
-    Title: Useful learning materials. Just click search"
+    Title: Useful learning materials. Just click search
     Content: "*Definitely Not my Personal Notes*  🙃 "
 
   ShowReadingTime: true

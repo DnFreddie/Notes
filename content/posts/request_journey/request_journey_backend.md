@@ -20,7 +20,7 @@ Since i did the  [TLS_session](/TLS_session.md)   eariler i can get **symetric k
 ## Pharsing 
 We determine the protocol and being pharsing acordingly 
  Issuess
-  - It may be that we dont see the full request (it does not fit the [bandwidth](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/bandwidth.md))
+  - It may be that we dont see the full request (it does not fit the [bandwidth](/Network/Phisicall/bandwidth.md))
 	  - THen u have to wait for the request top be fully get 
 
 ## Decoding 

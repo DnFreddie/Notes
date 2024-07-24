@@ -13,4 +13,4 @@ draft = false
 		Commericail Bulding Telocomunications Cabling Standards
 	- Commonoly refernced for a pin and pair assagmets of eight-conductor 100-ohm balanced twisted pair cablinbg 
 		- T5668A and T568B 
-[Cables](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cables.md)
+[Cables](/Network/Phisicall/Cables.md)

@@ -40,12 +40,12 @@ $$3$$
 
 ### Forword Lookup 
 - Provide the DNS server with [FQDN](/FQDN.md)
-- DNS server provides an [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addres 
+- DNS server provides an [IP](/Network/Ref_OSI/IP.md) addres 
 
 ### Reverse DNS lookup 
-- Provides the DNS server with an [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) addres 
+- Provides the DNS server with an [IP](/Network/Ref_OSI/IP.md) addres 
 - **DNS server** provides an [FQDN](/FQDN.md) 
 >[!example]-
 >![ReverseDNSExample_visual.png](/Notes/ReverseDNSExample_visual.png)
 
->[!quote] [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) [DNS_Records](/DNS_Records.md)
+>[!quote] [DNS](/Network/Phisicall/DNS.md) [DNS_Records](/DNS_Records.md)

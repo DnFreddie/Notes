@@ -5,9 +5,9 @@ draft = false
 +++
 
 ## DNS Records 
-- The database records  of [DNS](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md) 
+- The database records  of [DNS](/Network/Phisicall/DNS.md) 
 	- Over 30 of records  types 
-		- ([IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) adresses certyficates host alias,names)
+		- ([IP](/Network/Ref_OSI/IP.md) adresses certyficates host alias,names)
 
 
 >[!example]- Sample  forward lookup file 
@@ -28,11 +28,11 @@ draft = false
 $$1$$
 ### Address records(AAAA)
 
-- Defines the [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) address of a host 
+- Defines the [IP](/Network/Ref_OSI/IP.md) address of a host 
 	- This is the **most popular query** 
-- **A** records are  for [IPv4 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/IPv4 address.md)
-	- Modyfie the A record to change the host name to [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) ==address  resolution==
-- **AAAA** records are for [IPv6 address](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/IPv6 address.md) 
+- **A** records are  for [IPv4 address](/Network/basic network connections/IPv4 address.md)
+	- Modyfie the A record to change the host name to [IP](/Network/Ref_OSI/IP.md) ==address  resolution==
+- **AAAA** records are for [IPv6 address](/Network/IPv6 address.md) 
 	- **Same DNS serverA** diffrent records 
 >[!example]-
 >![AAARecordsExample_visual.png](/Notes/AAARecordsExample_visual.png)

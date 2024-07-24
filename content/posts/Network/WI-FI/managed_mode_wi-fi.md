@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Manged 
-The device is prepared to connect to an [access point](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/access point.md)
+The device is prepared to connect to an [access point](/Network/Ref_OSI/access point.md)
 
 
 >[!quote]

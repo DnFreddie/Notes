@@ -6,7 +6,7 @@ draft = false
 
 ## Virtual Network Interface Card
 - A virtual machine needs a network interface
--   Configured and connected through the [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md) 
+-   Configured and connected through the [hypervisor](/Network/vitrual/hypervisor.md) 
 	- Enable additional features 
 	- [[VLAN]] aggregation, multiple interfaces
 >[!example] ![VirtualNetworkInterfaceCard_visula.png](/Notes/VirtualNetworkInterfaceCard_visula.png)

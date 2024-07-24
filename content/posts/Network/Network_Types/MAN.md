@@ -5,4 +5,4 @@ draft = false
 +++
 
 ## Metropolitan Area Network
-- **Larger then [LAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/LAN.md) smaller then [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md)**
+- **Larger then [LAN](/Network/Network Types/LAN.md) smaller then [WAN](/Network/Network Types/WAN.md)**

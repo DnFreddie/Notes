@@ -17,7 +17,7 @@ Networking devices have different functional panes of operation
 ***Data plane***
 
  - Processes networking frames and packets 
- - Forwarding trunking encrypting [NAT](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/basic network connections/NAT.md)
+ - Forwarding trunking encrypting [NAT](/Network/basic network connections/NAT.md)
 ### Control layer / Control plane
 
  - Manges the action of the data plane 
@@ -30,4 +30,4 @@ Networking devices have different functional panes of operation
 
 
 
->[!quote] [hypervisor](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/hypervisor.md) [SD-WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/SD-WAN.md) TOCHECK:virtual_server
+>[!quote] [hypervisor](/Network/vitrual/hypervisor.md) [SD-WAN](/Network/Network Types/SD-WAN.md) TOCHECK:virtual_server

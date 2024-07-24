@@ -29,4 +29,4 @@ The main configuration is **Manifest.pp**
 
 
 --- 
-[vSwitch](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/vitrual/vSwitch.md)
+[vSwitch](/Network/vitrual/vSwitch.md)

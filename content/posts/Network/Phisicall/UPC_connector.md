@@ -6,7 +6,7 @@ draft = false
 
 ## Ultra-polished connectors
 - Fereule end-face radius polished data a zero degree angle 
-- High [Return Loss](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Return Loss.md)
+- High [Return Loss](/Network/Phisicall/Return Loss.md)
 
 
->[!quote] [Fiber](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Fiber.md) [Cables](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Phisicall/Cables.md)
+>[!quote] [Fiber](/Network/Phisicall/Fiber.md) [Cables](/Network/Phisicall/Cables.md)

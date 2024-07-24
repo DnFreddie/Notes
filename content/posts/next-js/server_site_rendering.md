@@ -11,4 +11,4 @@ draft = false
 	- **Server rendering**  renders everrythin before the *browser* which enables **webcrawlers** to have more time to crawl which improves **SEO** 
 
 
->[!quote] [Client-server](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/Client-server.md) [[serverless]] [next-js](/next-js/next-js.md)
+>[!quote] [Client-server](/Network/Network Types/Client-server.md) [[serverless]] [next-js](/next-js/next-js.md)

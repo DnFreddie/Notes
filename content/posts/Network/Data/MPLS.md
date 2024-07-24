@@ -7,10 +7,10 @@ draft = false
 ## Multiprotocol Label Switching 
 
 - Learning from [[ATM]] and [[Frame Relay]]
-- Packets through the [WAN](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Network Types/WAN.md) have a label
+- Packets through the [WAN](/Network/Network Types/WAN.md) have a label
 	- Routing decision are easy
 - **Any transport medium any protocol inside** 
-	- [IP](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/IP.md) packets, [Ethernet](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Ref_OSI/Ethernet.md) frames
+	- [IP](/Network/Ref_OSI/IP.md) packets, [Ethernet](/Network/Ref_OSI/Ethernet.md) frames
 ## Intial configuration 
 Defines were all the sites may be located 
 And what lables are used to switchi data 
@@ -29,4 +29,4 @@ And what lables are used to switchi data
 $$ $$
 
 ---
-{{[mGRE](/obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/mGRE.md)}}
+{{[mGRE](/Network/Data/mGRE.md)}}
