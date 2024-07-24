@@ -39,7 +39,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 ```
 
 **Accept** 
-- Stop proccesing and allow the packet to flow to the [service](/obisdian_ntoes/notes_obsidian/Linux/service.md)  
+- Stop proccesing and allow the packet to flow to the [service](/Linux/service.md)  
 
 **Reject**
 - Stop the packet and  *send feedback* to the user

@@ -10,4 +10,4 @@ draft = false
 		- *rsync -av /path/to/source/ /path/to/destination/*
 
 
->[!quote] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md) 
+>[!quote] [Commands](/MAIN Linux/Commands.md) 

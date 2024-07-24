@@ -65,7 +65,7 @@ journalctl -r
 journalctl -f
 ```
 
-**[Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md) message**
+**[Kernel](/Linux/Kernel/Kernel.md) message**
 
 ```bash
 journalctl -k

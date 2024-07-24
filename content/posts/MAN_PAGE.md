@@ -17,4 +17,4 @@ draft = false
 
 
 
->[!quote] [Commands](/obisdian_ntoes/notes_obsidian/MAIN Linux/Commands.md)  [Baisic Linux commands](/obisdian_ntoes/notes_obsidian/Linux/Linux commands/Baisic Linux commands.md)
+>[!quote] [Commands](/MAIN Linux/Commands.md)  [Baisic Linux commands](/Linux/Linux commands/Baisic Linux commands.md)

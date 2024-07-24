@@ -20,5 +20,5 @@ draft = false
 
 >[!quote] 
 [[userID]] 
-[Postgres](/obisdian_ntoes/notes_obsidian/Metasploit Framework/Postgres.md) 
+[Postgres](/Metasploit Framework/Postgres.md) 
 [[SQL REVISE#SQL]]

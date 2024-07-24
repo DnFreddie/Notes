@@ -18,4 +18,4 @@ $$ $$
 ![Mesh](/Network/Ref_OSI/Mesh.md)
 
 ---
-**{{[Wireless topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Wireless topologies.md)}}** **{{[[]]}}**
+**{{[Wireless topologies](/MAIN Network+/Wireless topologies.md)}}** **{{[[]]}}**

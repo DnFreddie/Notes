@@ -26,4 +26,4 @@ draft = false
 >[!example]- Summary
 > (https://www.youtube.com/watch?v=N2y6csonII4)[]
 
->[!quote] [compilers](/obisdian_ntoes/compilers.md) [garbage_collector_c](/obisdian_ntoes/notes_obsidian/Linux/Kernel/garbage_collector_c.md)
+>[!quote] [compilers](/obisdian_ntoes/compilers.md) [garbage_collector_c](/Linux/Kernel/garbage_collector_c.md)

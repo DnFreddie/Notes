@@ -11,4 +11,4 @@ draft = false
 		- *Only root can increase priority but evry user can decrese the priority*
 
 
->[!quote] [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md) [kill](/obisdian_ntoes/notes_obsidian/Linux/kill.md) 
+>[!quote] [nice](/Linux/nice.md) [kill](/Linux/kill.md) 

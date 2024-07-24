@@ -18,5 +18,5 @@ divided by the [[Cpu|Cpu capasity]] (*number of cores lscpu*)
 Also displayed by 
 - **uptime**
 - **w**
-- [top](/obisdian_ntoes/notes_obsidian/Linux/top.md) 
+- [top](/Linux/top.md) 
 

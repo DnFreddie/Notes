@@ -7,7 +7,7 @@ draft = false
     ### Discretionary Access Control
 
 - Enforces security by **ownership**
-	-  Basked on the [Permissions](/obisdian_ntoes/notes_obsidian/Linux/Permissions.md)
+	-  Basked on the [Permissions](/Linux/Permissions.md)
 
 >[!bug] The biggest issue is root 
 >If  the root account or **process** with root privileges 

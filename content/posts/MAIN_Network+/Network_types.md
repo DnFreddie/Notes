@@ -41,4 +41,4 @@ draft = false
 
 
 > [!quote]
-> [Network Topologies](/obisdian_ntoes/notes_obsidian/MAIN Network+/Network Topologies.md) [Virtual networks](/Network/Network Types/Virtual networks.md)
+> [Network Topologies](/MAIN Network+/Network Topologies.md) [Virtual networks](/Network/Network Types/Virtual networks.md)

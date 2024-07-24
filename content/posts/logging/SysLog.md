@@ -5,15 +5,15 @@ draft = false
 +++
 
 *Linux uses a daemon called syslogd to automatically log events on  your com­
-puter. Several variations of syslog, including [rsyslog](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/rsyslog.md) and syslog-ng, are used
+puter. Several variations of syslog, including [rsyslog](/Penetration/Data Cleanup/rsyslog.md) and syslog-ng, are used
 on different distributions of Linux, and even though they operate very simi­larly, some minor differences exist.*
 
-[rsyslog](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/rsyslog.md)
+[rsyslog](/Penetration/Data Cleanup/rsyslog.md)
 $$1$$
 
 ## Cleaning logs with logrotate
 
-[logrotate](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/logrotate.md)
+[logrotate](/Penetration/Data Cleanup/logrotate.md)
 
 
 

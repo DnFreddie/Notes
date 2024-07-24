@@ -19,4 +19,4 @@ draft = false
 		- $$” indicates the process id of the current instance of the shell you are running
 
 
->[!quote]  [ps](/obisdian_ntoes/notes_obsidian/Linux/commands/ps.md) | [Baisic Linux commands](/obisdian_ntoes/notes_obsidian/Linux/Linux commands/Baisic Linux commands.md)
+>[!quote]  [ps](/Linux/commands/ps.md) | [Baisic Linux commands](/Linux/Linux commands/Baisic Linux commands.md)

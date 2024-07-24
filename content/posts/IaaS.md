@@ -6,7 +6,7 @@ draft = false
 
 ## Infrastructre as a service 
 
-#alt-name **HaaS**  (*hardwer as a [service](/obisdian_ntoes/notes_obsidian/Linux/service.md) *)
+#alt-name **HaaS**  (*hardwer as a [service](/Linux/service.md) *)
 
  - U'r still responsible for the management  and security 
 	 

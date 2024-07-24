@@ -23,4 +23,4 @@ u can also use fdisk -l
 
 
 
->[!quote] [fsck](/obisdian_ntoes/notes_obsidian/Linux/fsck.md)  [Block vs character dev](/Block vs character dev.md)
+>[!quote] [fsck](/Linux/fsck.md)  [Block vs character dev](/Block vs character dev.md)

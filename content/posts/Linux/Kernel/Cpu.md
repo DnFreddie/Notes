@@ -39,7 +39,7 @@ _The brain of the computer_
 [[mpstat]]
 
 ### CPU process priorities
-![nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md)
-- ![renice](/obisdian_ntoes/notes_obsidian/Linux/renice.md)
+![nice](/Linux/nice.md)
+- ![renice](/Linux/renice.md)
 ---
- [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) [garbage_collector_c](/obisdian_ntoes/notes_obsidian/Linux/Kernel/garbage_collector_c.md)
+ [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) [garbage_collector_c](/Linux/Kernel/garbage_collector_c.md)

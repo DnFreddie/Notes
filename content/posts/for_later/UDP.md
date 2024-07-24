@@ -16,4 +16,4 @@ draft = false
 
 - Widely used in gameing and  becouse we dont care about the the message revie we update the data so many times that it does not matter ([ping_command](/ping_command.md)) 
 
->[!quote] [OSI Model](/obisdian_ntoes/notes_obsidian/MAIN Network+/OSI Model.md)
+>[!quote] [OSI Model](/MAIN Network+/OSI Model.md)

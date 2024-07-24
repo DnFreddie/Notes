@@ -7,4 +7,4 @@ draft = false
 ## which
 List the location of **binaries** in the **PATH**
 >[!quote] 
->[whereis](/obisdian_ntoes/notes_obsidian/Linux/commands/whereis.md)
+>[whereis](/Linux/commands/whereis.md)

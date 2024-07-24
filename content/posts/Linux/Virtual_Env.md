@@ -21,4 +21,4 @@ draft = false
 
 
 
->[!quote] [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)
+>[!quote] [docker](/Linux/Docker/docker.md)

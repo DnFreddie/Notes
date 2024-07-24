@@ -19,10 +19,10 @@ The config is located into **/etc/logrotate.conf**
 >![LogareteConf_visual.png](/Notes/LogareteConf_visual.png)
 
 ### Removing logs 
-In order to remove files and do not leacve baisic evidance u have to [shred](/obisdian_ntoes/notes_obsidian/Penetration/Data Cleanup/shred.md) the Logfiles
+In order to remove files and do not leacve baisic evidance u have to [shred](/Penetration/Data Cleanup/shred.md) the Logfiles
 
 ### Disable logs 
-To disable log u have to stop the [service](/obisdian_ntoes/notes_obsidian/Linux/service.md) daemon 
+To disable log u have to stop the [service](/Linux/service.md) daemon 
 service rsyslog stop 
 
 ***!! REMEBER to delete the line weere th sys log was stopped!!***

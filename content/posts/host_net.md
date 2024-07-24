@@ -6,7 +6,7 @@ draft = false
 
     [Containers](/Containers.md) Share the same networkin  [Namespaces](/Namespaces.md) as  host 
 - no [NAT](/Network/basic network connections/NAT.md)
-- no [proxy](/obisdian_ntoes/notes_obsidian/Linux/Network manipulation/proxy.md) 
+- no [proxy](/Linux/Network manipulation/proxy.md) 
 **--network host**  flag
 ```bash
 docker run -d --name test --network host aura/myapp-188:v3
@@ -18,4 +18,4 @@ docker run -d --name test --network host aura/myapp-188:v3
 
 
 ---
-[bridge_net](/bridge_net.md) [overlay_net](/overlay_net.md) [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)
+[bridge_net](/bridge_net.md) [overlay_net](/overlay_net.md) [docker](/Linux/Docker/docker.md)

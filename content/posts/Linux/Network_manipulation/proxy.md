@@ -31,4 +31,4 @@ adn specyfie the *len* of the **chain**
 
 
 
->[!quote] [traceroute](/obisdian_ntoes/notes_obsidian/Linux/Network manipulation/traceroute.md) [ping_command](/ping_command.md) [sneakers_bots_project](/sneakers_bots_project.md)
+>[!quote] [traceroute](/Linux/Network manipulation/traceroute.md) [ping_command](/ping_command.md) [sneakers_bots_project](/sneakers_bots_project.md)

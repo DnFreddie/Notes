@@ -13,4 +13,4 @@ draft = false
 ### Differece between the [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)
 [ProcessVsThreads_visual.png](/ProcessVsThreads_visual.png)
 
->[!quote] [handle](/obisdian_ntoes/notes_obsidian/Linux/Kernel/handle.md) [Kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel.md)
+>[!quote] [handle](/Linux/Kernel/handle.md) [Kernel](/Linux/Kernel/Kernel.md)

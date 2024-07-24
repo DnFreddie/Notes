@@ -30,4 +30,4 @@ Confidentiality and integrity/anti-replay
  - This also encrypts the [IP](/Network/Ref_OSI/IP.md)
 	 -  ![IPSecTunnelMode_visual.png](/Notes/IPSecTunnelMode_visual.png)
 
->[!quote] [OSI Model](/obisdian_ntoes/notes_obsidian/MAIN Network+/OSI Model.md)  [VPN](/VPN.md)
+>[!quote] [OSI Model](/MAIN Network+/OSI Model.md)  [VPN](/VPN.md)

@@ -19,7 +19,7 @@ draft = false
 
  >[!example]-
  >- Memory
- >- [Cpu ](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
+ >- [Cpu ](/Linux/Kernel/Cpu.md)
  >-[Cpu time]({{< ref "/posts/Linux/Kernel/Cpu.md" >}})
  >- Block I/O
  >-[PID's]({{< ref "/posts/PID_control.md" >}})

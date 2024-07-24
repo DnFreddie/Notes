@@ -7,4 +7,4 @@ draft = false
 ## Top
 Top displays acitve procces with th refrexh rate of 3s 
 
->[!quote] [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md)
+>[!quote] [nice](/Linux/nice.md)

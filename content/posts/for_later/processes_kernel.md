@@ -6,8 +6,8 @@ draft = false
 
 An isnstance of the eceacutable 
  - **Only one process may use the Cpu and a given time**
-	-   each process uses the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) for a small fraction of as second then pauses then another process uses the [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
-	-   This stitching is called [context switch_kernel](/obisdian_ntoes/notes_obsidian/Linux/Kernel/context switch_kernel.md)
+	-   each process uses the [Cpu](/Linux/Kernel/Cpu.md) for a small fraction of as second then pauses then another process uses the [Cpu](/Linux/Kernel/Cpu.md)
+	-   This stitching is called [context switch_kernel](/Linux/Kernel/context switch_kernel.md)
 - The app is running muitple processes 
 	- The process is na continer 
 	- Process ca run other porceses that are called *child processes*
@@ -24,8 +24,8 @@ An isnstance of the eceacutable
 
 ---
 ### Prioryty 
-- Change prioryty using [nice](/obisdian_ntoes/notes_obsidian/Linux/nice.md) [renice](/obisdian_ntoes/notes_obsidian/Linux/renice.md)
-	- [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md) time  = priority level
+- Change prioryty using [nice](/Linux/nice.md) [renice](/Linux/renice.md)
+	- [Cpu](/Linux/Kernel/Cpu.md) time  = priority level
 - Priortiy class 
 
 | Class     | Function                                                            |

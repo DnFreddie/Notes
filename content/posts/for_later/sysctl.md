@@ -19,4 +19,4 @@ To enable the packet
  >U can see them in a  */proc* as a vritual  procces
 
 
-![Kernel modules](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Kernel modules.md)
+![Kernel modules](/Linux/Kernel/Kernel modules.md)

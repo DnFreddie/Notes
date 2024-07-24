@@ -34,7 +34,7 @@ draft = false
 	- [DNS](/Network/Phisicall/DNS.md) 
 		- [nsswitch.conf](/nsswitch.conf.md)
 		- [[DNS#Changing Dns server|Changing Dns server]]
-		- [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md) 
+		- [nslookup](/Linux/nslookup.md) 
 	- [[tcpdump]]
 	- [[whireshark]]
 7. [Repository Configuration](/Repository Configuration.md)
@@ -45,8 +45,8 @@ draft = false
 	-  [[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]
 	- [encrypted Web traffic](/encrypted Web traffic.md)
 2. [[System Auth.canvas|System Auth]]
-3. [Permissions](/obisdian_ntoes/notes_obsidian/Linux/Permissions.md)
-	1. [umask](/obisdian_ntoes/notes_obsidian/Linux/umask.md)
+3. [Permissions](/Linux/Permissions.md)
+	1. [umask](/Linux/umask.md)
 4. [[Logging.canvas|Logign]]
 5. [SELinux](/SELinux.md)
 6. [AppArmor](/AppArmor.md)
@@ -61,7 +61,7 @@ draft = false
 	3. [getfacl](/getfacl.md)
 ### Cloud 
 1. [git](/git.md)
-2. [docker](/obisdian_ntoes/notes_obsidian/Linux/Docker/docker.md)
+2. [docker](/Linux/Docker/docker.md)
 3. [[Automation tools.canvas|Automation tools]]
 ### Troubleshooting
  ##### Io issues
@@ -78,7 +78,7 @@ draft = false
 3. [IO schedulers](/IO schedulers.md)
 4. [NVMe](/NVMe.md)
 5. **File system isssues**(*coruption  missmatch*)
-	1. [fsck](/obisdian_ntoes/notes_obsidian/Linux/fsck.md)
+	1. [fsck](/Linux/fsck.md)
 6. [[vstat]]
 7. [Io summery](https://www.site24x7.com/learn/linux/disk-io-troubleshooting.html)
 #### Network torubleshooting
@@ -90,11 +90,11 @@ draft = false
 	- ***ip -h -s link show device***
 
 ##### Dns issues
-- [nslookup](/obisdian_ntoes/notes_obsidian/Linux/nslookup.md)
+- [nslookup](/Linux/nslookup.md)
 - [dig_command](/dig_command.md)
 - [ping_command](/ping_command.md)
 ####  Network Resonance
-[nmap](/obisdian_ntoes/notes_obsidian/Linux/nmap.md)
+[nmap](/Linux/nmap.md)
  openssl client 
 - to check weather the connection is legit
 
@@ -102,7 +102,7 @@ draft = false
 
 - [Load Average](/Load Average.md)
 - [[Cpu#Cpu times (*Subdevisions*)|Cpu times]]
-- [Cpu](/obisdian_ntoes/notes_obsidian/Linux/Kernel/Cpu.md)
+- [Cpu](/Linux/Kernel/Cpu.md)
 - [[Cpu#CPU process priorities | Cpu priotities]]
 	- [OOM process Killer](/OOM process Killer.md)
 
