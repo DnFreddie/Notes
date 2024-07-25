@@ -76,7 +76,7 @@ of the playbook\*\*.
 
 ### Dynamic Varaibles
 
-You can also use the **include~vars~** module to dynamically load your
+You can also use the **include vars** module to dynamically load your
 variables in your playbook.
 
 ``` yaml

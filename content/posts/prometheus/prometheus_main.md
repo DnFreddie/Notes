@@ -56,6 +56,7 @@ sudo useradd -M -r -s /bin/false prometheus
 ### Service discovery
 *Can be either `File based` or `Http Based`*
 - File based *via node exporter*
+### Service
     - deuflt adress *http://localhost:9100/metrics*
     - can be any ohter port
 - Http based
@@ -71,5 +72,12 @@ sudo useradd -M -r -s /bin/false prometheus
 ## PromQL 
 [Cheat sheet and labs](https://promlabs.com/promql-cheat-sheet/)
 
+*Base units*
+![Base prometheus units](/Notes/promql_units.png)
+### Retention time 
+By defualt it st
+```bash
+--storage.tsdb.retatnion.time 31\
+```
 ### Full Prometheus Model
 >![protemtheus](/Notes/prometheus_overwiev.png)

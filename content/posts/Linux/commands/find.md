@@ -12,13 +12,24 @@ find -executable
 ```
 - Look for the broken links 
 
-```bash 
+```
 find . -xtype l
 ```
+- Files changed in the last 24h 
+```bash
+find . -mtime -1
+```
+- Files changed erariler the the specyic date 
+```bash
+find . -type f -newermt 2019-07-24
+```
+
 
 
 - find *dir* -type f(file) -name (name of the file )
 **find / will went through all dir**
+
+
 
 ### Wildcards
 - **[  ]** match the characters that appears in the squere brackets 
@@ -35,5 +46,7 @@ Finding files with perrmision 4000 [SUID]({{< ref "posts/Linux/SUID.md" >}})
 ```bash
 find / -user root -perm -4000
 ```
+
+
 
 

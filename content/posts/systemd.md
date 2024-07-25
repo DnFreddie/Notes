@@ -4,10 +4,9 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&index=1)
-[init](/init.md)
+[playlist](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI&index=1)
 
-#### Units 
+# Units 
 **Any entity** managed by systemd
 >[!example]-
 >![Pasted_image_20240514192234.png](/Notes/Pasted_image_20240514192234.png)
@@ -17,7 +16,7 @@ draft = false
 [systemd_ordering](/systemd_ordering.md)
 
 
-#### Location 
+## Location 
 
 - ***/lib/systemd/systemd*** 
 	 standard systmed unit files
@@ -39,15 +38,27 @@ systemctl list-units --type=target
 ```
 
 
+- ***Target types***
+    - Service units: These represent system services.
+    - Target units: These are used to group units and act as synchronization points during boot-up.
+    - Device units: These represent devices in the system.
+    - Mount units: These define mount points for file systems.
+    - Socket units: These represent inter-process communication sockets.
+    - Timer units: These define timer-based activation of other units.
+    - Path units: These trigger activation of other units based on file system events.
+    - Snapshot units: These are used to save the state of the systemd manager.
+
+
 - Last state is **multi-user.target**
 
 
-u can move between the targets 
+`u can move between the targets`
+
+***!!This will rollback to a given target!!**
 ```bash
 systemctl isolate sysinit.target
 ```
 
-This will rollback to a given target
 ### Systemd procedures
 
 >[!bug] Always execute the systemctl daemon-reload command
@@ -109,4 +120,6 @@ systemctl cat ssh
 
 
 --- 
-[Cronetab](/obisdian_ntoes/scriptss/Cronetab.md) [At](/obisdian_ntoes/scriptss/At.md)
+[Cronetab](/obisdian_ntoes/scriptss/Cronetab.md)
+[At](/obisdian_ntoes/scriptss/At.md)
+[init](/init.md)

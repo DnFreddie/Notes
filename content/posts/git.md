@@ -46,6 +46,12 @@ git add -p
 >![Pasted_image_20240508110725.png](/Notes/Pasted_image_20240508110725.png)
 
 
+### Pulling submodels
+```bash
+git submodule update --init
+```
+
+
 ###  Merge vs Rebase 
 >[!bug] Use rebase locally 
 ![Pasted_image_20240508123416.png](/Notes/Pasted_image_20240508123416.png)

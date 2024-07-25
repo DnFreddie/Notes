@@ -4,11 +4,10 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### General ordering (dependencies)
+ # General ordering (dependencies)
 
 
-
-#### Wants, Wanted By 
+## Wants, Wanted By 
 
 Weakest dependency *Please **activate** together ,but no big deal if you don't*
 
@@ -25,7 +24,7 @@ Weakest dependency *Please **activate** together ,but no big deal if you don't*
 `WantedBy=timers.target`
 ```
 
-### Requiters Required by
+## Requiters Required by
 Strong Dependency
 *You Must activate these units* **together**
 

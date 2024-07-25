@@ -11,7 +11,7 @@ draft = false
 - **Procedural**
 	- it creates top to bottom
 
-## Architecture 
+# Architecture 
 
 1. Controller node (*only this requires ansible*)<!--- Ansaible is a python program -->
     - This are the *inventory* and are in the ansible configuration file 
@@ -23,7 +23,7 @@ draft = false
 **Can do windows automation on windows**
  - It has to hav **python** isntalled on the machines
 
-### Plugins/Modules
+## Plugins/Modules
 To list modules  use `ansiable-doc  -l`
 To get the help of the particular module use `ansible-doc -s <module>`
 - *inventory plugins* 
@@ -44,7 +44,7 @@ To get the help of the particular module use `ansible-doc -s <module>`
     This just logs 
 - *cache*
 
-### Ansible configuration
+## Ansible configuration
 
 1. ansible.cfg in the current  directory 
 2. **ANSIBLE_CONFIG** environment var
@@ -71,7 +71,7 @@ collections_paths = ./collections/
 collbacks_enabled = ansible.posix.profile_roles
 ```
 
-### Inventory
+## Inventory
 
 - U can use pass the arguments **direcly to the ivnentory**
 ```bash 
@@ -94,7 +94,7 @@ To use the **host group** for the playbook  use `inventory_hostname`
   vars:
     user_home: "/home/{{ inventory_hostname }}"
 ```
-#### Diffrences
+### Diffrences
 ![Ansiable hosname vs inventory_hostname](/Notes/a_hostname_vs_in_hostname.png)
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
@@ -114,7 +114,10 @@ servdb
 webserver
 dbservers
 ```
-### Playbooks 
+### Dynamic inverntories
+Remember to **define dynamic groups as empty** in the static inventory file elswere the ansible will error
+
+## Playbooks 
 
 (rember to check for the sytnax issues `--sytnax check` )
 **They are run top to bottom**
@@ -125,13 +128,13 @@ dbservers
     - *Works with vars*
     - Can mix both
 
-#### Handlers
+### Handlers
 
 - They are executing in an order that there were **notyfied** in 
 - The handlesr executes only once no matter the amount of *task calling*
     - If **force_handlers** enabled then handlers will execute no matter the error
 
-##### Example
+#### Example
 ```yaml
 - name: Kernel Update
   hosts: test

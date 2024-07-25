@@ -3,9 +3,12 @@ title = 'sysctl'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
+*modify kernel parameters at runtime.*
 
-## Sysctl
-
+List all varialbes
+```bash
+sysctl -a
+```
 
 ### Enable packet forwording
 
