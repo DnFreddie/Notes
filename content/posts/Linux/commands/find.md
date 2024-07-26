@@ -23,11 +23,16 @@ find . -mtime -1
 ```bash
 find . -type f -newermt 2019-07-24
 ```
+*Sort by the size*
+```bash
+find -size +10G
+```
 
 
-
-- find *dir* -type f(file) -name (name of the file )
-**find / will went through all dir**
+*U can use + and - to query them*
+- **‘k'**    for kibibytes KiB 
+- **‘M'**    for mebibytes MiB 
+- **‘G'**    for gibibytes GiB 
 
 
 
