@@ -15,6 +15,7 @@ minify:
 params:
   env: production
   title: DefnotNotes
+  canonifyURLs: true
   description: "Defnotfreddie's notes"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me

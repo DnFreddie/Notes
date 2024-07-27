@@ -99,7 +99,6 @@ To use the **host group** for the playbook  use `inventory_hostname`
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
 
-[Using a dynamic libvirt inventory with Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
 
 Example:
 ```bash
@@ -114,8 +113,12 @@ servdb
 webserver
 dbservers
 ```
-### Dynamic inverntories
-Remember to **define dynamic groups as empty** in the static inventory file elswere the ansible will error
+### Dynamic inventories
+*Remember to **define dynamic groups as empty** in the static inventory file elswere the ansible will error*
+
+- [Dynamic inventory in go ]({{< ref "posts/code_snippets/dynamic_inventory_go.md" >}})
+
+- [Using a dynamic libvirt inventory with Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
 
 ## Playbooks 
 
