@@ -6,7 +6,7 @@ draft = false
 
 
 ## The point were u connect with outside world 
-- [WAN](/Network/Network Types/WAN.md) provider
+- [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}}) provider
 - Internet service provider
 - #alt-name  **demarc** 
 - Used everywhere
@@ -14,4 +14,4 @@ draft = false
 	- Central location in a building 
 		- *Usually a netowrk interface device*
 		- Can be as simple as an RJ-45 connection
-- U connect your [CPE](/Network/Phisicall/CPE.md)
+- U connect your [CPE]({{< ref "posts/Network/Phisicall/CPE.md" >}})

@@ -7,10 +7,10 @@ draft = false
 ## Data Streams
 
 
-![Standard input](/obisdian_ntoes/scriptss/Standard input.md)
+![Standard input]({{< ref "posts/scriptss/Standard input.md" >}})
 
 ---
-![Standard output](/obisdian_ntoes/scriptss/Standard output.md)
+![Standard output]({{< ref "posts/scriptss/Standard output.md" >}})
 
 ---
-![Standard Error](/obisdian_ntoes/scriptss/Standard Error.md)
+![Standard Error]({{< ref "posts/scriptss/Standard Error.md" >}})

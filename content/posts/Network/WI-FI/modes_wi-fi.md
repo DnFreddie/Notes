@@ -5,8 +5,8 @@ draft = false
 +++
 **Wi-Fi can operate in 3 modes**
 
-1. ![managed mode_wi-fi](/Network/WI-FI/managed mode_wi-fi.md)
-2. ![master mode_wi-fi](/Network/WI-FI/master mode_wi-fi.md)
+1. ![managed mode_wi-fi]({{< ref "posts/Network/WI-FI/managed mode_wi-fi.md" >}})
+2. ![master mode_wi-fi]({{< ref "posts/Network/WI-FI/master mode_wi-fi.md" >}})
 3. ![[monitor mode_wi-fi]]
 
 

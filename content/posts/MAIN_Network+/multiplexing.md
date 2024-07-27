@@ -9,4 +9,4 @@ draft = false
 - Use many diffrent appcialtions at the same time 
 
 
->[!quote] [TCP](/Network/Ref_OSI/TCP.md)|[[UDP]]|[IP](/Network/Ref_OSI/IP.md)|[Transport_OSI](/Network/Ref_OSI/Transport_OSI.md)
+>[!quote] [TCP]({{< ref "posts/Network/Ref_OSI/TCP.md" >}})|[[UDP]]|[IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})|[Transport_OSI]({{< ref "posts/Network/Ref_OSI/Transport_OSI.md" >}})

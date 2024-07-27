@@ -18,9 +18,9 @@ Short for *lsit block*
 u can also use fdisk -l
 
 ## Disk Free 
-[command](/obisdian_ntoes/scriptss/command.md) df 
+[command]({{< ref "posts/scriptss/command.md" >}}) df 
 
 
 
 
->[!quote] [fsck](/Linux/fsck.md)  [Block vs character dev](/Block vs character dev.md)
+>[!quote] [fsck]({{< ref "posts/Linux/fsck.md" >}})  [Block vs character dev]({{< ref "posts/Block vs character dev.md" >}})

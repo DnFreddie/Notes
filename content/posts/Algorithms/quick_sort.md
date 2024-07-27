@@ -5,7 +5,7 @@ draft = false
 +++
 
     **"Divide and concure"**
-[binary search](/Algorithms/binary search.md)
+[binary search]({{< ref "posts/Algorithms/binary search.md" >}})
 
 
 - Split input into number chunks and go over smaller subset and go over those smaller subset 

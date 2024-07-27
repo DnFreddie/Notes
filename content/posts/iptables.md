@@ -39,7 +39,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 ```
 
 **Accept** 
-- Stop proccesing and allow the packet to flow to the [service](/Linux/service.md)  
+- Stop proccesing and allow the packet to flow to the [service]({{< ref "posts/Linux/service.md" >}})  
 
 **Reject**
 - Stop the packet and  *send feedback* to the user
@@ -56,7 +56,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 ```bash
 iptables -I INPUT -p -tcp -dport 80
 ```
-### [NAT](/Network/basic network connections/NAT.md) table
+### [NAT]({{< ref "posts/Network/basic network connections/NAT.md" >}}) table
 - Redirect to different interfaces
 ### Mangle table
 - Modifying *packets and connections*

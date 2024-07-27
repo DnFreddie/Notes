@@ -9,7 +9,7 @@ draft = false
 
 
 ## Other protocols for clients 
-[POP3](/protocols/POP3.md)
+[POP3]({{< ref "posts/protocols/POP3.md" >}})
 
-[IMAP4](/protocols/IMAP4.md)
+[IMAP4]({{< ref "posts/protocols/IMAP4.md" >}})
 >[!quote]

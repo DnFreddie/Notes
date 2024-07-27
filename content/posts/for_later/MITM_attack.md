@@ -8,4 +8,4 @@ draft = false
 - The ahcker places themselves **between communicatin host** to *intercept the information*
 	- To achive thiis u have to **enable packet forwording ** 
 
->[!quote] [sysctl](/obisdian_ntoes/for later/sysctl.md)
+>[!quote] [sysctl]({{< ref "posts/for later/sysctl.md" >}})

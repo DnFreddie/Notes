@@ -14,7 +14,7 @@ sysctl -a
 
 To enable the packet
 **sysctl -w net.ipv4.ip_forward=1**
-*Used to [MITM attack](/obisdian_ntoes/for later/MITM attack.md)*
+*Used to [MITM attack]({{< ref "posts/for later/MITM attack.md" >}})*
 
 
 
@@ -22,4 +22,4 @@ To enable the packet
  >U can see them in a  */proc* as a vritual  procces
 
 
-![Kernel modules](/Linux/Kernel/Kernel modules.md)
+![Kernel modules]({{< ref "posts/Linux/Kernel/Kernel modules.md" >}})

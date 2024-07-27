@@ -9,5 +9,5 @@ draft = false
 - Stores Authentication ,authorization,Identity
 
 ---
-[AD](/AD.md)
+[AD]({{< ref "posts/AD.md" >}})
 [[System Auth.canvas|System Auth]]

@@ -7,4 +7,4 @@ draft = false
 ## monomorphization
 - Take the fucntion copy it and chnage the types accordingly 
 
->[!quote] [compilers](/obisdian_ntoes/compilers.md) [serde](/libriairies/serde.md)
+>[!quote] [compilers]({{< ref "posts/compilers.md" >}}) [serde]({{< ref "posts/libriairies/serde.md" >}})

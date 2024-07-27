@@ -9,4 +9,4 @@ draft = false
 - Not assosiated with a *physical network adapter* 
 - Virtual machine internal router addres 
 
->[!quote] [Virtual networks](/Network/Network Types/Virtual networks.md) | [Reserved addresses](/Network/basic network connections/Reserved addresses.md) |[[virtual hosting]]
+>[!quote] [Virtual networks]({{< ref "posts/Network/Network Types/Virtual networks.md" >}}) | [Reserved addresses]({{< ref "posts/Network/basic network connections/Reserved addresses.md" >}}) |[[virtual hosting]]

@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Standard output
-Output that is printed to the screen that does not constitiutes [Standard Error](/obisdian_ntoes/scriptss/Standard Error.md)
+Output that is printed to the screen that does not constitiutes [Standard Error]({{< ref "posts/scriptss/Standard Error.md" >}})
 	**2 Constitutes for Standard Output**
 	& Constitutes for both
->[!quote] [devnull](/obisdian_ntoes/scriptss/devnull.md) [find](/obisdian_ntoes/notes_obsidian/Linux/commands/find.md) 
+>[!quote] [devnull]({{< ref "posts/scriptss/devnull.md" >}}) [find]({{< ref "posts/Linux/commands/find.md" >}}) 

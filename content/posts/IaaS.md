@@ -6,10 +6,10 @@ draft = false
 
 ## Infrastructre as a service 
 
-#alt-name **HaaS**  (*hardwer as a [service](/Linux/service.md) *)
+#alt-name **HaaS**  ({{< ref "posts*hardwer as a [service](/Linux/service.md" >}}) *)
 
  - U'r still responsible for the management  and security 
 	 
 
 
->[!quote] [SaaS](/SaaS.md)
+>[!quote] [SaaS]({{< ref "posts/SaaS.md" >}})

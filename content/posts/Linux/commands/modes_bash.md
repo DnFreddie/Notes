@@ -20,4 +20,4 @@ draft = false
 | `-o errexit -o errtrace`| Combination for error handling and capturing failures.       |
 
 
->[!quote] [bash_MAIN](/Linux/commands/bash_MAIN.md) 
+>[!quote] [bash_MAIN]({{< ref "posts/Linux/commands/bash_MAIN.md" >}}) 

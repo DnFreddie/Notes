@@ -23,9 +23,9 @@ $$1$$
 ## Databases
 - **Compile time safty**
 	- In most libres the language will acces data during **Run Time** ex tokio-postgres 
-	- Hovere libres  such as **diesel** or **[sqlx](/libriairies/sqlx.md)** will do it on compile time
-		- It create a *representation of database schema* as rust code or uses *procedular macros* to see that [data_py](/ZPythonref/data_py.md)  is correct 
+	- Hovere libres  such as **diesel** or **[sqlx]({{< ref "posts/libriairies/sqlx.md" >}})** will do it on compile time
+		- It create a *representation of database schema* as rust code or uses *procedular macros* to see that [data_py]({{< ref "posts/ZPythonref/data_py.md" >}})  is correct 
 - Speed 
-	- [piplining_db](/databases/piplining_db.md)
+	- [piplining_db]({{< ref "posts/databases/piplining_db.md" >}})
 
->[!quote] [Rust Projects](/obisdian_ntoes/Rust/Rust Projects.md)
+>[!quote] [Rust Projects]({{< ref "posts/Rust/Rust Projects.md" >}})

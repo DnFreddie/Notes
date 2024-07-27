@@ -13,4 +13,4 @@ draft = false
 	 ON orders.customer_id = customers.customer_id;
 
 
-others [cross join.sql](/obisdian_ntoes/notes_obsidian/SQL/cross join.sql.md) 
+others [cross join.sql]({{< ref "posts/SQL/cross join.sql.md" >}}) 

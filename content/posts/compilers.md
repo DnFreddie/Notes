@@ -6,7 +6,7 @@ draft = false
 
 ## Compilers 
 - The binary  instructions are
-written in machine language, an elementary language the [Cpu](/Linux/Kernel/Cpu.md) can understand. 
+written in machine language, an elementary language the [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}}) can understand. 
 - Compilers are designed to translate the language of C code into machine language for a variety of *processor architectures*.
 
 ### Processor Architacture 
@@ -17,7 +17,7 @@ written in machine language, an elementary language the [Cpu](/Linux/Kernel/Cpu.
 
 ### Examine Binaries 
 
-Use [objdump](/obisdian_ntoes/objdump.md)
+Use [objdump]({{< ref "posts/objdump.md" >}})
 
 
->[!quote] [Compitaltion process](/obisdian_ntoes/Compitaltion process.md)
+>[!quote] [Compitaltion process]({{< ref "posts/Compitaltion process.md" >}})

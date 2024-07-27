@@ -8,4 +8,4 @@ draft = false
 <mark style="background: #FF5582A6;">It looks for the**binary** files </mark>
 - this command also source the  man page 
 >[!quote] 
->[which](/Linux/commands/which.md)
+>[which]({{< ref "posts/Linux/commands/which.md" >}})

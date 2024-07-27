@@ -10,7 +10,7 @@ draft = false
 
 ### Multithreades 
 ![MultiThreadsGraph_Visual.png](/Notes/MultiThreadsGraph_Visual.png)
-### Differece between the [processes_kernel](/obisdian_ntoes/for later/processes_kernel.md)
+### Differece between the [processes_kernel]({{< ref "posts/for later/processes_kernel.md" >}})
 [ProcessVsThreads_visual.png](/ProcessVsThreads_visual.png)
 
->[!quote] [handle](/Linux/Kernel/handle.md) [Kernel](/Linux/Kernel/Kernel.md)
+>[!quote] [handle]({{< ref "posts/Linux/Kernel/handle.md" >}}) [Kernel]({{< ref "posts/Linux/Kernel/Kernel.md" >}})

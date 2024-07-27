@@ -7,7 +7,7 @@ draft = false
     ## sar - Collect, report, or save system activity information.
 
 
-Checking the k[io stat](/ioStat.md)
+Checking the k[io stat]({{< ref "posts/ioStat.md" >}})
 ```bash 
 sar -b 4 3
 ```

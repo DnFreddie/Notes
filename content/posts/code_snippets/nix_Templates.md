@@ -39,4 +39,4 @@ draft = false
 }
 ```
 ---
-[nix](/nix.md) [flake](/code_snippets/flake.md)[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)
+[nix]({{< ref "posts/nix.md" >}}) [flake]({{< ref "posts/code_snippets/flake.md" >}})[SNIPPETS_MAIN]({{< ref "posts/SNIPPETS_MAIN.md" >}})

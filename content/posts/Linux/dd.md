@@ -12,4 +12,4 @@ dd if=inputfile of=outputfile
 1257440+0 records out
 7643809280 bytes (7.6 GB) copied, 1220.729 s, 5.2 MB/s
 
->[!quote] [tar](/Linux/tar.md) [devnull](/obisdian_ntoes/scriptss/devnull.md)
+>[!quote] [tar]({{< ref "posts/Linux/tar.md" >}}) [devnull]({{< ref "posts/scriptss/devnull.md" >}})

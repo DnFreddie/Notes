@@ -14,4 +14,4 @@ draft = false
 	- U got reward 
 - Else restart process form step #2 but **nonce +=1**
 
- >[!quote] [binary search](/Algorithms/binary search.md) 
+ >[!quote] [binary search]({{< ref "posts/Algorithms/binary search.md" >}}) 

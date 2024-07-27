@@ -19,7 +19,7 @@ draft = false
 
  >[!example]-
  >- Memory
- >- [Cpu ](/Linux/Kernel/Cpu.md)
+ >- [Cpu ]({{< ref "posts/Linux/Kernel/Cpu.md" >}})
  >-[Cpu time]({{< ref "/posts/Linux/Kernel/Cpu.md" >}})
  >- Block I/O
  >-[PID's]({{< ref "/posts/PID_control.md" >}})

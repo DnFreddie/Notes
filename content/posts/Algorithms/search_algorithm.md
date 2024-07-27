@@ -4,10 +4,10 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ![lineral search](/Algorithms/lineral search.md)
+    ![lineral search]({{< ref "posts/Algorithms/lineral search.md" >}})
 
 $$1$$
 
 
 
-![binary search](/Algorithms/binary search.md)
+![binary search]({{< ref "posts/Algorithms/binary search.md" >}})

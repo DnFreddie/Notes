@@ -5,12 +5,12 @@ draft = false
 +++
 
     ### Digigtal signing
-- [Hash](/Hash.md) the data set 
-- Then **encrytp** the resulting [Hash](/Hash.md)
+- [Hash]({{< ref "posts/Hash.md" >}}) the data set 
+- Then **encrytp** the resulting [Hash]({{< ref "posts/Hash.md" >}})
 	- it makes sure that original hash came from someone with the key
 
 ---
-[Hash](/Hash.md)  
-[Encryption](/Encryption.md)  
+[Hash]({{< ref "posts/Hash.md" >}})  
+[Encryption]({{< ref "posts/Encryption.md" >}})  
 [[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]
 [[gnup]]

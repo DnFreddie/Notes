@@ -9,7 +9,7 @@ draft = false
 	- Log files authentication outage deatails 
 - **Automatic Updates** 
 	- No flasching 12:00 lights  
-- Switches routers firewalls servers and workstatio [UDP](/obisdian_ntoes/for later/UDP.md) **/123**
+- Switches routers firewalls servers and workstatio [UDP]({{< ref "posts/for later/UDP.md" >}}) **/123**
 	- Every device has it's own clock 
 - **Flexible** 
 	- You control how clocks beeing updated 
@@ -29,7 +29,7 @@ NTP cleint
 - Use multiple NTP servers
 ## NTP server  
 
-- listens to  [UDP](/obisdian_ntoes/for later/UDP.md) **/123** 
+- listens to  [UDP]({{< ref "posts/for later/UDP.md" >}}) **/123** 
 	- Need at leas one clock source 
 	- Specyfiy the stratum level of choice 
 		- Response to time request from NTP clients 

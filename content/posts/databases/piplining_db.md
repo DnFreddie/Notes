@@ -9,4 +9,4 @@ draft = false
 	It minimaizes time spend by one side waiting for the other to finisch sending data 
 	- Tradditionaly each query has to be sent to the server *independently* and wait until the last one is *complete*
 ![SequentialVsPiplinging_visual.png](/Notes/SequentialVsPiplinging_visual.png)
->[!quote] [Relational Database](/obisdian_ntoes/Applied data_Obsydian/Appplied data/Dataanalys essentails/Relational Database.md) [Tokio_rs](/libriairies/Tokio_rs.md)
+>[!quote] [Relational Database]({{< ref "posts/Applied data_Obsydian/Appplied data/Dataanalys essentails/Relational Database.md" >}}) [Tokio_rs]({{< ref "posts/libriairies/Tokio_rs.md" >}})

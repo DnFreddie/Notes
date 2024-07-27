@@ -7,4 +7,4 @@ draft = false
 ## subnet classes 
 ![Pasted_image_20230418132909.png](/Notes/Pasted_image_20230418132909.png)
 
->[!quote] [VLSM](/obisdian_ntoes/for later/VLSM.md) [subnet mask](/Network/basic network connections/subnet mask.md) [subnet construction](/obisdian_ntoes/for later/subnet construction.md)
+>[!quote] [VLSM]({{< ref "posts/for later/VLSM.md" >}}) [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) [subnet construction]({{< ref "posts/for later/subnet construction.md" >}})

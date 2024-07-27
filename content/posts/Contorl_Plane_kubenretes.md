@@ -9,7 +9,7 @@ draft = false
 ![Pasted_image_20240509161141.png](/Notes/Pasted_image_20240509161141.png)
 ### Kube-apiserver 
 - Front end of the control plane
-- **Exposing  [Kubernetes](/Kubernetes.md) API**
+- **Exposing  [Kubernetes]({{< ref "posts/Kubernetes.md" >}}) API**
 
 
 ### Etcd

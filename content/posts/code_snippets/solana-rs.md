@@ -34,4 +34,4 @@ entrypoint!(process_instruction);
 ```
 ---
 
-[SNIPPETS_MAIN](/SNIPPETS_MAIN.md)
+[SNIPPETS_MAIN]({{< ref "posts/SNIPPETS_MAIN.md" >}})

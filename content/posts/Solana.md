@@ -11,6 +11,6 @@ draft = false
 	- **SOl is the native token**
 		- 1 billion **LAMPORTS**
 - In order to develop u need to connect to the cluster
-- [smart_transactions](/smart_transactions.md)
+- [smart_transactions]({{< ref "posts/smart_transactions.md" >}})
 	- the ==first account==is responsible for **paying blockchain transactions fees**
->[!quote] [RPC_calls](/RPC_calls.md) [smart_transactions](/smart_transactions.md) 
+>[!quote] [RPC_calls]({{< ref "posts/RPC_calls.md" >}}) [smart_transactions]({{< ref "posts/smart_transactions.md" >}}) 

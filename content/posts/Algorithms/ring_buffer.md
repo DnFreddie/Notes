@@ -23,4 +23,4 @@ draft = false
 - flushing 
 - 
 
->[!quote] [Linked List](/Algorithms/Linked List.md)
+>[!quote] [Linked List]({{< ref "posts/Algorithms/Linked List.md" >}})

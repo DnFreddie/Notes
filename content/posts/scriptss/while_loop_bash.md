@@ -6,7 +6,7 @@ draft = false
 
 ## While loop
 while read 
-while [Variables](/obisdian_ntoes/scriptss/Variables.md)
+while [Variables]({{< ref "posts/scriptss/Variables.md" >}})
 do
 	echo do smth
 	**sleep 0.5**

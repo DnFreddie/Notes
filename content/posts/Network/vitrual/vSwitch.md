@@ -16,9 +16,9 @@ draft = false
 >[!tip]
 >*Its just the psychical switch pushed to the virtual envairoment*
 
-- Deployed from the [hypervisor](/Network/vitrual/hypervisor.md)
+- Deployed from the [hypervisor]({{< ref "posts/Network/vitrual/hypervisor.md" >}})
 	Automate with orchestration
 > [!example] ![vSwitch_visual.png](/Notes/vSwitch_visual.png)
 
-> [!quote] [vNIC](/Network/vitrual/vNIC.md)
+> [!quote] [vNIC]({{< ref "posts/Network/vitrual/vNIC.md" >}})
 

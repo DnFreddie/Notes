@@ -7,4 +7,4 @@ draft = false
 ![Sysops roles](/Notes/roles_sysops_viusal.png)
 [Course Link](https://www.youtube.com/watch?v=KX_AfyrhlgQ&t=1618s)
 
-[CloudWatch](/sysops_aws_cert/CloudWatch.md)
+[CloudWatch]({{< ref "posts/sysops_aws_cert/CloudWatch.md" >}})

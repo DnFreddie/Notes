@@ -27,4 +27,4 @@ draft = false
 >![SatrurationModel_visual.png](/Notes/SatrurationModel_visual.png)
 
 
-![Integral windup](/Integral windup.md) 
+![Integral windup]({{< ref "posts/Integral windup.md" >}}) 

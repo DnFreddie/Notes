@@ -29,7 +29,7 @@ draft = false
 		- Every time the function is called it needs to know how it got here becouse it has to *hand in the value back* 
 	- Return Value 
 		- The space for value that is beeing return 
-	- [Arguments](/obisdian_ntoes/scriptss/Arguments.md) 
+	- [Arguments]({{< ref "posts/scriptss/Arguments.md" >}}) 
 		- The arguments u pass in to the function 
 
 ![BaseCaseRecursion_visual.png](/Notes/BaseCaseRecursion_visual.png)

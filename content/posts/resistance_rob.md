@@ -11,4 +11,4 @@ draft = false
 	flowing through a pipe. 
 	- If the pipe is narrow (high resistance), the water pressure (voltage) will be lower. If the pipe is wide (lowresistance), the water pressure will be higher.
 
->[!quote] [voltage_rob](/voltage_rob.md) [current_rob](/current_rob.md)
+>[!quote] [voltage_rob]({{< ref "posts/voltage_rob.md" >}}) [current_rob]({{< ref "posts/current_rob.md" >}})

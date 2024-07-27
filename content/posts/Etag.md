@@ -6,7 +6,7 @@ draft = false
 
 ## Entity tag
 
-- Used for [cache](/nixos/cache.md) validation 
+- Used for [cache]({{< ref "posts/nixos/cache.md" >}}) validation 
 	When a client **request the same resource** it sends ==etag== back 
 	- If the resource hasnt chnagded
 	  the server tells the client to used the *cached version* 
@@ -34,4 +34,4 @@ draft = false
 
 
 
->[!quote] [HTTPS](/HTTPS.md) [http_headers](/http_headers.md) [CORS](/CORS.md)
+>[!quote] [HTTPS]({{< ref "posts/HTTPS.md" >}}) [http_headers]({{< ref "posts/http_headers.md" >}}) [CORS]({{< ref "posts/CORS.md" >}})

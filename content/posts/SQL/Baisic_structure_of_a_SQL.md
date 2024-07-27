@@ -90,7 +90,7 @@ Keyword that allows u to rename a column or table
 
 <mark class="hltr-grses">**Select distinct**</mark>
 
-[SQLoperatrors](/obisdian_ntoes/notes_obsidian/SQL/to revise/SQLoperatrors.md)
+[SQLoperatrors]({{< ref "posts/SQL/to revise/SQLoperatrors.md" >}})
 It only select distinct values such as 
 
 *select distinct e_gender from employee*
@@ -122,4 +122,4 @@ WHERE twitter_handle IS NULL;
 
 SELECT * FROM celebs;`
 
-![1](/obisdian_ntoes/notes_obsidian/SQL/to revise/1.md)
+![1]({{< ref "posts/SQL/to revise/1.md" >}})

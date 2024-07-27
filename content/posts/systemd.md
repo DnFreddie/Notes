@@ -13,7 +13,7 @@ draft = false
 
 
 
-[systemd_ordering](/systemd_ordering.md)
+[systemd_ordering]({{< ref "posts/systemd_ordering.md" >}})
 
 
 ## Location 
@@ -67,7 +67,7 @@ systemctl isolate sysinit.target
 
 - **Mask Unmask**
 	Blocks the service u can't start it or enable it 
-	*(it creates a service that points to [devnull](/obisdian_ntoes/scriptss/devnull.md))*
+	*({{< ref "postsit creates a service that points to [devnull](/scriptss/devnull.md" >}}))*
 
 - **Reload service**
 	Try to reload the config and apply changes
@@ -84,7 +84,7 @@ sudo systemctl restart *service*
 sudo service *name* restart 
 ```
 
-[service](/obisdian_ntoes/notes_obsidian/Linux/service.md)
+[service]({{< ref "posts/Linux/service.md" >}})
 
 
 
@@ -120,6 +120,6 @@ systemctl cat ssh
 
 
 --- 
-[Cronetab](/obisdian_ntoes/scriptss/Cronetab.md)
-[At](/obisdian_ntoes/scriptss/At.md)
-[init](/init.md)
+[Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}})
+[At]({{< ref "posts/scriptss/At.md" >}})
+[init]({{< ref "posts/init.md" >}})

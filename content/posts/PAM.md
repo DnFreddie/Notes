@@ -7,9 +7,9 @@ draft = false
 ## Pluggable Authentication Modules
 
 -  It' allows to use various **auth** methods
-	- like [LDAP](/LDAP.md) database or [AD](/AD.md)
+	- like [LDAP]({{< ref "posts/LDAP.md" >}}) database or [AD]({{< ref "posts/AD.md" >}})
 
 ---- 
-[SSSD](/SSSD.md) 
+[SSSD]({{< ref "posts/SSSD.md" >}}) 
 [[System Auth.canvas|System Auth]]
-[orange book](/orange book.md)
+[orange book]({{< ref "posts/orange book.md" >}})

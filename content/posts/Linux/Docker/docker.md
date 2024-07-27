@@ -110,4 +110,4 @@ docker exec -it (container id ) /bin/sh(or bash if installed)
 - **Auto-reload**
 	![DockerAutoReload_visual.png](/Notes/DockerAutoReload_visual.png)
 
->[!quote] [cloud-int](/cloud-int.md)
+>[!quote] [cloud-int]({{< ref "posts/cloud-int.md" >}})

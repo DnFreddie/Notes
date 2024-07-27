@@ -10,4 +10,4 @@ draft = false
 
 
 ---
-[ssh](/protocols/ssh.md)
+[ssh]({{< ref "posts/protocols/ssh.md" >}})

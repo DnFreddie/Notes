@@ -10,4 +10,4 @@ draft = false
 
 
 
->[!quote] [web socets](/obisdian_ntoes/notes_obsidian/MAIN Network+/web socets.md)|[Network_OSI](/Network/Ref_OSI/Network_OSI.md) | [IP](/Network/Ref_OSI/IP.md) |
+>[!quote] [web socets]({{< ref "posts/MAIN Network+/web socets.md" >}})|[Network_OSI]({{< ref "posts/Network/Ref_OSI/Network_OSI.md" >}}) | [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) |

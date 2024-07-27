@@ -30,7 +30,7 @@ create your own *urls.py* in app directoy
 
 --- 
 ## Tepaltes 
-In order to add tempalte similalry to [Flask MAIN](/obisdian_ntoes/Flask startup/Flask MAIN.md) u have to create a *tempaltes* folder in main dir  
+In order to add tempalte similalry to [Flask MAIN]({{< ref "posts/Flask startup/Flask MAIN.md" >}}) u have to create a *tempaltes* folder in main dir  
 and *render* them
 - **/sideNote/**
 	- if u want tmepletes specyficly for ure app u have to create dir app in ure app dir and another with *ure app name* 
@@ -48,4 +48,4 @@ To the *sqlite3* Database
 **There are premade tables**
 - Command is **mange migrate**
 
->[!quote]  [MAIN_Python](/obisdian_ntoes/notes_obsidian/ZPythonref/MAIN_Python.md)
+>[!quote]  [MAIN_Python]({{< ref "posts/ZPythonref/MAIN_Python.md" >}})

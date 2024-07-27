@@ -6,19 +6,19 @@ draft = false
 
 # Wi-Fi Networks 
 
-[access point](/Network/Ref_OSI/access point.md)
+[access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})
 --- 
 
-[chanels_wi-fi](/Network/WI-FI/chanels_wi-fi.md)
+[chanels_wi-fi]({{< ref "posts/Network/WI-FI/chanels_wi-fi.md" >}})
 
 --- 
-[modes_wi-fi](/Network/WI-FI/modes_wi-fi.md)
+[modes_wi-fi]({{< ref "posts/Network/WI-FI/modes_wi-fi.md" >}})
 
 --- 
-[security_wi-fi](/Network/WI-FI/security_wi-fi.md)
+[security_wi-fi]({{< ref "posts/Network/WI-FI/security_wi-fi.md" >}})
 
 ---
-[frequency_wi-fi](/Network/WI-FI/frequency_wi-fi.md)
+[frequency_wi-fi]({{< ref "posts/Network/WI-FI/frequency_wi-fi.md" >}})
 
 
 ---

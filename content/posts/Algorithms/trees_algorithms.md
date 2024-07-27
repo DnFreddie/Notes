@@ -28,7 +28,7 @@ draft = false
 	- The amount of children a tree has 
 
 $$ A $$
-![traversals](/Algorithms/traversals.md)
+![traversals]({{< ref "posts/Algorithms/traversals.md" >}})
 $$B$$
 
->[!quote] [quick sort](/Algorithms/quick sort.md)
+>[!quote] [quick sort]({{< ref "posts/Algorithms/quick sort.md" >}})

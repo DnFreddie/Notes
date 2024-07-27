@@ -9,4 +9,4 @@ draft = false
 - Character encoding'
 - Application encryption 
 **side note**
-often combined with [Application_OSI](/Network/Ref_OSI/Application_OSI.md)
+often combined with [Application_OSI]({{< ref "posts/Network/Ref_OSI/Application_OSI.md" >}})

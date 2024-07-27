@@ -7,7 +7,7 @@ draft = false
     ### Discretionary Access Control
 
 - Enforces security by **ownership**
-	-  Basked on the [Permissions](/Linux/Permissions.md)
+	-  Basked on the [Permissions]({{< ref "posts/Linux/Permissions.md" >}})
 
 >[!bug] The biggest issue is root 
 >If  the root account or **process** with root privileges 
@@ -15,5 +15,5 @@ draft = false
 
 
 ---
-[MAC](/MAC.md)
-[AppArmor](/AppArmor.md)
+[MAC]({{< ref "posts/MAC.md" >}})
+[AppArmor]({{< ref "posts/AppArmor.md" >}})

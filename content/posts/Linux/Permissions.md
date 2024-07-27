@@ -14,9 +14,9 @@ First is for user second is for gorup and third for all users
 >[!Example] Numeric represenation of permmmision 
 >![Pasted_image_20230404214606.png](/Notes/Pasted_image_20230404214606.png)
 
-![umask](/Linux/umask.md)
+![umask]({{< ref "posts/Linux/umask.md" >}})
 ## Special permisions
-![SUID](/Linux/SUID.md)
-![SGID](/Linux/SGID.md)
+![SUID]({{< ref "posts/Linux/SUID.md" >}})
+![SGID]({{< ref "posts/Linux/SGID.md" >}})
 
->[!quote] [skel_etc](/etc/skel_etc.md)
+>[!quote] [skel_etc]({{< ref "posts/etc/skel_etc.md" >}})

@@ -6,14 +6,14 @@ draft = false
 
 ## TLS
 #alt-name SSL 
-TLS add an extra layer of encryption to the [HTTPS](/HTTPS.md)
+TLS add an extra layer of encryption to the [HTTPS]({{< ref "posts/HTTPS.md" >}})
 - USed in appp 
 - Easy to implement 
 ![TLSHeadshake_visual.png](/Notes/TLSHeadshake_visual.png)
 
-[TLS_session](/TLS_session.md)
+[TLS_session]({{< ref "posts/TLS_session.md" >}})
 
 
 
 
->[!quote] [sqlx](/libriairies/sqlx.md) [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 
+>[!quote] [sqlx]({{< ref "posts/libriairies/sqlx.md" >}}) [3-way Handshake]({{< ref "posts/for later/3-way Handshake.md" >}}) 

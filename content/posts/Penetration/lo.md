@@ -14,4 +14,4 @@ You would use lo to test something on your system, such as your own web server.
 **The localhost is generally represented with the IP address 127.0.0.1**
  - An easy way to self refence is to ping **127.0.0.1**
 
->[!quote] [defult gateway](/Network/basic network connections/defult gateway.md) ; [subnet mask](/Network/basic network connections/subnet mask.md) ; [DNS](/Network/Phisicall/DNS.md)
+>[!quote] [defult gateway]({{< ref "posts/Network/basic network connections/defult gateway.md" >}}) ; [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) ; [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}})

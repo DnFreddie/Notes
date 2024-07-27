@@ -24,4 +24,4 @@ RUN poetry install --no-dev
 
 
 
->[!quote] [SNIPPETS_MAIN](/SNIPPETS_MAIN.md)
+>[!quote] [SNIPPETS_MAIN]({{< ref "posts/SNIPPETS_MAIN.md" >}})

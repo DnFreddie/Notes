@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Iwconfig
-Ipconfig for [Wi-Fi](/Network/WI-FI/Wi-Fi.md)
+Ipconfig for [Wi-Fi]({{< ref "posts/Network/WI-FI/Wi-Fi.md" >}})
 
 
->[!quote] [ifconfig](/obisdian_ntoes/notes_obsidian/Penetration/ifconfig.md)
+>[!quote] [ifconfig]({{< ref "posts/Penetration/ifconfig.md" >}})

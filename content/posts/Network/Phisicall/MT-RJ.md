@@ -8,4 +8,4 @@ draft = false
 ![Pasted_image_20230406235524.png](/Notes/Pasted_image_20230406235524.png)
 
 
->[!quote] [Smartjack](/Network/Phisicall/Smartjack.md)
+>[!quote] [Smartjack]({{< ref "posts/Network/Phisicall/Smartjack.md" >}})

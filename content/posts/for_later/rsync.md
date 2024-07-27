@@ -10,4 +10,4 @@ draft = false
 		- *rsync -av /path/to/source/ /path/to/destination/*
 
 
->[!quote] [Commands](/MAIN Linux/Commands.md) 
+>[!quote] [Commands]({{< ref "posts/MAIN Linux/Commands.md" >}}) 

@@ -7,4 +7,4 @@ draft = false
     This utility tries to fix any problems that were created when the system went down without properly dismounting the disk.
 
 ---
-[fsck](/Linux/fsck.md)  [[Files systems.canvas|Fiels systems]] [Commands_filesSytem](/Commands_filesSytem.md)
+[fsck]({{< ref "posts/Linux/fsck.md" >}})  [[Files systems.canvas|Fiels systems]] [Commands_filesSytem]({{< ref "posts/Commands_filesSytem.md" >}})

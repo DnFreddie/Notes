@@ -21,4 +21,4 @@ draft = false
 
 
 
->[!quote] [docker](/Linux/Docker/docker.md)
+>[!quote] [docker]({{< ref "posts/Linux/Docker/docker.md" >}})

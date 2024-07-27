@@ -20,4 +20,4 @@ draft = false
 ```
 
 
->[!quote]  [regex](/ZPythonref/regex.md) [python_functions](/ZPythonref/python_functions.md)
+>[!quote]  [regex]({{< ref "posts/ZPythonref/regex.md" >}}) [python_functions]({{< ref "posts/ZPythonref/python_functions.md" >}})

@@ -11,5 +11,5 @@ draft = false
 - It does not scale optimally for real-time streaming media 
 	- U wpould have to send single straem to every device 
 >[!example] ![Unicast_visual.png](/Notes/Unicast_visual.png)
-- Mostly use with [IPv4 address](/Network/basic network connections/IPv4 address.md)and [IPv6 address](/Network/IPv6 address.md)
->[!quote] [broadcast](/obisdian_ntoes/for later/broadcast.md) [Peer to peer](/Network/Network Types/Peer to peer.md) [DHCP_protocol](/protocols/DHCP_protocol.md)
+- Mostly use with [IPv4 address]({{< ref "posts/Network/basic network connections/IPv4 address.md" >}})and [IPv6 address]({{< ref "posts/Network/IPv6 address.md" >}})
+>[!quote] [broadcast]({{< ref "posts/for later/broadcast.md" >}}) [Peer to peer]({{< ref "posts/Network/Network Types/Peer to peer.md" >}}) [DHCP_protocol]({{< ref "posts/protocols/DHCP_protocol.md" >}})

@@ -6,8 +6,8 @@ draft = false
 
 ## Session Initiation Protocol 
 
-- Voice over [IP](/Network/Ref_OSI/IP.md) *(VoIP)* signaling 
-	- [TCP](/Network/Ref_OSI/TCP.md) **/5056** [TCP](/Network/Ref_OSI/TCP.md) **/5061**
+- Voice over [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) *(VoIP)* signaling 
+	- [TCP]({{< ref "posts/Network/Ref_OSI/TCP.md" >}}) **/5056** [TCP]({{< ref "posts/Network/Ref_OSI/TCP.md" >}}) **/5061**
 - Setup and manage VOIP sessions 
 	- Call rin hang up 
 - ==Extended voice communication==

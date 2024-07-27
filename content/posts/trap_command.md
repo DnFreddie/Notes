@@ -31,4 +31,4 @@ done
 
 ---
 [[Process management_signals.canvas|Process management_signals]]
-[command](/obisdian_ntoes/scriptss/command.md)
+[command]({{< ref "posts/scriptss/command.md" >}})

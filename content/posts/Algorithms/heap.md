@@ -11,4 +11,4 @@ It's binary tree where every child and grand child is smaller (**max heap**) or 
 - ==Therese no traversing==
 
 
->[!quote] [cache](/nixos/cache.md)|[Virtual Memory Address](/obisdian_ntoes/for later/Virtual Memory Address.md)
+>[!quote] [cache]({{< ref "posts/nixos/cache.md" >}})|[Virtual Memory Address]({{< ref "posts/for later/Virtual Memory Address.md" >}})

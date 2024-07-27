@@ -14,4 +14,4 @@ draft = false
 
 ---
 
-[SAN](/Network/Data/SAN.md)  [iSCSI](/iSCSI.md)
+[SAN]({{< ref "posts/Network/Data/SAN.md" >}})  [iSCSI]({{< ref "posts/iSCSI.md" >}})

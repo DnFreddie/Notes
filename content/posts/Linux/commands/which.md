@@ -7,4 +7,4 @@ draft = false
 ## which
 List the location of **binaries** in the **PATH**
 >[!quote] 
->[whereis](/Linux/commands/whereis.md)
+>[whereis]({{< ref "posts/Linux/commands/whereis.md" >}})

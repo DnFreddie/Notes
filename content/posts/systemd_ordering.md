@@ -64,6 +64,6 @@ Strong Dependency
 	exclude 2 units from *being active simultaneously*
 
 --- 
-[systemd](/systemd.md)
+[systemd]({{< ref "posts/systemd.md" >}})
 
 	

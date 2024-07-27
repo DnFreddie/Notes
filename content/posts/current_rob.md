@@ -11,4 +11,4 @@ draft = false
 
 $V=I*R$
 
->[!quote] [voltage_rob](/voltage_rob.md) [resistance_rob](/resistance_rob.md)
+>[!quote] [voltage_rob]({{< ref "posts/voltage_rob.md" >}}) [resistance_rob]({{< ref "posts/resistance_rob.md" >}})

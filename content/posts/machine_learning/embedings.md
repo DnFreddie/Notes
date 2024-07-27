@@ -32,4 +32,4 @@ draft = false
 
 
 
->[!quote] [vector_databse](/databases/vector_databse.md) 
+>[!quote] [vector_databse]({{< ref "posts/databases/vector_databse.md" >}}) 

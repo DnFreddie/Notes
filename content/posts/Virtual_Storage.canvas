@@ -45,7 +45,7 @@ draft = false
     {
       "id": "696e7bbcc205a445",
       "type": "text",
-      "text": "### Remeber about [Multipath](/Multipath.md)",
+      "text": "### Remeber about [Multipath]({{< ref "posts/Multipath.md" >}})",
       "x": 1901,
       "y": 440,
       "width": 721,
@@ -55,7 +55,7 @@ draft = false
     {
       "id": "7409914d5d5513ee",
       "type": "file",
-      "file": "obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/SAN.md",
+      "file": "ZPythonref/DjangoFramework/Network+/Data/SAN.md",
       "x": -1560,
       "y": -700,
       "width": 1000,
@@ -64,7 +64,7 @@ draft = false
     {
       "id": "ff98a8b7535da6b1",
       "type": "file",
-      "file": "obisdian_ntoes/notes_obsidian/ZPythonref/DjangoFramework/Network+/Data/NAS.md",
+      "file": "ZPythonref/DjangoFramework/Network+/Data/NAS.md",
       "x": -480,
       "y": -700,
       "width": 880,

@@ -9,7 +9,7 @@ draft = false
 1. check last log [[Logging.canvas|Logging]]
 	- *last or lastb*
 2. check if user is created 
-	- [getent](/getent.md)
+	- [getent]({{< ref "posts/getent.md" >}})
 3. Check gui session
 	- ***sudo sytemctl status graphical.target***
 

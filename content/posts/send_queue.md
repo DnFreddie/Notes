@@ -7,6 +7,6 @@ draft = false
 	#alt-name Send Buffer 
 ## Send queue 
 
-- When the backend application wants to send data **back to the client**, it places the data into the send queue using the **send()** [systemcall](/systemcall.md) 
+- When the backend application wants to send data **back to the client**, it places the data into the send queue using the **send()** [systemcall]({{< ref "posts/systemcall.md" >}}) 
 
->[!quote] [recive_queue](/recive_queue.md)
+>[!quote] [recive_queue]({{< ref "posts/recive_queue.md" >}})

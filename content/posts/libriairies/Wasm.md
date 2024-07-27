@@ -9,8 +9,8 @@ draft = false
 	- It runs a **virtal machine** underneath the hood 
 	- It gives better perormance and can be implemented with js 
 -  *Its baisicly micro processor in the browser*
-	- [Compialtion process history](/compilation_porcess/Compialtion process history.md)
-- Web assembly  is stack base (*[stack_algorithms](/Algorithms/stack_algorithms.md) *)
+	- [Compialtion process history]({{< ref "posts/compilation_porcess/Compialtion process history.md" >}})
+- Web assembly  is stack base ({{< ref "posts*[stack_algorithms](/Algorithms/stack_algorithms.md" >}}) *)
 - *Web assambly does not know what the string is*
 $$1$$
 ## Web assembly module 
@@ -29,5 +29,5 @@ $$2$$
 [Speed Test](https://youtu.be/4KtotxNAwME)
 
 
->[!quote] [compilers](/obisdian_ntoes/compilers.md) | [Compitaltion process](/obisdian_ntoes/Compitaltion process.md) |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
+>[!quote] [compilers]({{< ref "posts/compilers.md" >}}) | [Compitaltion process]({{< ref "posts/Compitaltion process.md" >}}) |[Docs](https://www.youtube.com/watch?v=3sU557ZKjUs)
 

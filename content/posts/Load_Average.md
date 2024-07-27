@@ -18,5 +18,5 @@ divided by the [[Cpu|Cpu capasity]] (*number of cores lscpu*)
 Also displayed by 
 - **uptime**
 - **w**
-- [top](/Linux/top.md) 
+- [top]({{< ref "posts/Linux/top.md" >}}) 
 

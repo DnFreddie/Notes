@@ -7,9 +7,9 @@ draft = false
 ## Http Headers 
 
 
-![Etag](/Etag.md)
+![Etag]({{< ref "posts/Etag.md" >}})
 
 
 
 
->[!quote] [ports](/ports/ports.md)
+>[!quote] [ports]({{< ref "posts/ports/ports.md" >}})

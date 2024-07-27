@@ -25,4 +25,4 @@ draft = false
 
 >[!tip]-  sfhhjskfshjfsk
 
->[!quote] [SDN](/SDN.md) 
+>[!quote] [SDN]({{< ref "posts/SDN.md" >}}) 

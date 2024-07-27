@@ -21,4 +21,4 @@ iostat -hymx 1 4
 
 ---
 
-[command](/obisdian_ntoes/scriptss/command.md)
+[command]({{< ref "posts/scriptss/command.md" >}})

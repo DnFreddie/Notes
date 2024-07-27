@@ -12,7 +12,7 @@ draft = false
 | Uses Partition(*storse the system there*)                                       | Config stored on the *motherboard* |
 | support for the **big drives**                                                  | **2 TB drive**                     |
 | ==new==                                                                         | ==old==                            |
-| **secure boot**(digital key that system is not malware [Digital certificate](/Digital certificate.md)) |                                    |
+| **secure boot**({{< ref "postsdigital key that system is not malware [Digital certificate](/Digital certificate.md" >}})) |                                    |
 **
 
 >[!bug] Some computers refer to UEFI as BIOS

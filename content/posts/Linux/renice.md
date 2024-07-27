@@ -11,4 +11,4 @@ draft = false
 		- *Only root can increase priority but evry user can decrese the priority*
 
 
->[!quote] [nice](/Linux/nice.md) [kill](/Linux/kill.md) 
+>[!quote] [nice]({{< ref "posts/Linux/nice.md" >}}) [kill]({{< ref "posts/Linux/kill.md" >}}) 

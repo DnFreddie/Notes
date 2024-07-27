@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Traceroute 
-A command to finde [IP](/Network/Ref_OSI/IP.md) adreses tah the device is connacting to before reaching the destination 
+A command to finde [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) adreses tah the device is connacting to before reaching the destination 
 >[!example]
 >## In this case the road to google.com took 18 *hops*
 >traceroute google.com
@@ -20,4 +20,4 @@ traceroute to google.com (172.217.1.78), 30 hops max, 60 bytes packets
 --snip--
 18 lgal15s44-in-f14.le100.net (172.217.1.78) 94.666 ms 42.990 ms 41.564 ms
  
->[!quote] [IPv4 address](/Network/basic network connections/IPv4 address.md)
+>[!quote] [IPv4 address]({{< ref "posts/Network/basic network connections/IPv4 address.md" >}})

@@ -65,7 +65,7 @@ journalctl -r
 journalctl -f
 ```
 
-**[Kernel](/Linux/Kernel/Kernel.md) message**
+**[Kernel]({{< ref "posts/Linux/Kernel/Kernel.md" >}}) message**
 
 ```bash
 journalctl -k

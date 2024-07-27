@@ -74,4 +74,4 @@ semanage boolead --modyfie --on options
 
 ---
 
-[AppArmor](/AppArmor.md)
+[AppArmor]({{< ref "posts/AppArmor.md" >}})

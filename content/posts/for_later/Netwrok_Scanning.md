@@ -9,4 +9,4 @@ The process of identyfing host on a target network with the goal of creating a *
 
 
 
->[!quote] [Port Scanning](/obisdian_ntoes/for later/Port Scanning.md)
+>[!quote] [Port Scanning]({{< ref "posts/for later/Port Scanning.md" >}})

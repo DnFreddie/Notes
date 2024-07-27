@@ -6,7 +6,7 @@ draft = false
 
 ## Ultra-polished connectors
 - Fereule end-face radius polished data a zero degree angle 
-- High [Return Loss](/Network/Phisicall/Return Loss.md)
+- High [Return Loss]({{< ref "posts/Network/Phisicall/Return Loss.md" >}})
 
 
->[!quote] [Fiber](/Network/Phisicall/Fiber.md) [Cables](/Network/Phisicall/Cables.md)
+>[!quote] [Fiber]({{< ref "posts/Network/Phisicall/Fiber.md" >}}) [Cables]({{< ref "posts/Network/Phisicall/Cables.md" >}})

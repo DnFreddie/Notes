@@ -16,4 +16,4 @@ draft = false
 | *check weathert the thing is calllable* | **calllable**()                     | Functions Classes Methods and Instances are callable                                                                |
 | *filter values *                        | **filter(*function , iterable*)**   | if the first argument eaual = to none it will get rid of zeros *alot of the times  used with* ***lambda function*** |
 
->[!quote] [Functions](/obisdian_ntoes/scriptss/Functions.md)
+>[!quote] [Functions]({{< ref "posts/scriptss/Functions.md" >}})

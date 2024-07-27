@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Internet Protocol Security 
-Provides secriuty fir [Network_OSI](/Network/Ref_OSI/Network_OSI.md)
+Provides secriuty fir [Network_OSI]({{< ref "posts/Network/Ref_OSI/Network_OSI.md" >}})
  - Authenticantio nad encryption for every packet 
  - ITs very standarlezed 
 	 - **multi vendor** implementation 
@@ -16,7 +16,7 @@ Confidentiality and integrity/anti-replay
 	
 
 ## Core IPSec protocols 
-- [AH_protocol](/AH_protocol.md) **Authentitacion Header**
+- [AH_protocol]({{< ref "posts/AH_protocol.md" >}}) **Authentitacion Header**
 - [ESP_prtocol] **Encapslation Security Payload**
 
 ## Modes 
@@ -24,10 +24,10 @@ Confidentiality and integrity/anti-replay
  - ![OriginalPacket_visual.png](/Notes/OriginalPacket_visual.png)
 
 **Transport mode**
- - We add the IPSsec headears to encrypt the data but not the [IP](/Network/Ref_OSI/IP.md)
+ - We add the IPSsec headears to encrypt the data but not the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})
 	 - ![IPSecTransportMode_visual.png](/Notes/IPSecTransportMode_visual.png)
 **Tunnelmode**
- - This also encrypts the [IP](/Network/Ref_OSI/IP.md)
+ - This also encrypts the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})
 	 -  ![IPSecTunnelMode_visual.png](/Notes/IPSecTunnelMode_visual.png)
 
->[!quote] [OSI Model](/MAIN Network+/OSI Model.md)  [VPN](/VPN.md)
+>[!quote] [OSI Model]({{< ref "posts/MAIN Network+/OSI Model.md" >}})  [VPN]({{< ref "posts/VPN.md" >}})

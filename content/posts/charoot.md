@@ -7,4 +7,4 @@ draft = false
     
 
 ---
-[Namespaces](/Namespaces.md)
+[Namespaces]({{< ref "posts/Namespaces.md" >}})

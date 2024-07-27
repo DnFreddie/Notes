@@ -20,5 +20,5 @@ draft = false
 
 >[!quote] 
 [[userID]] 
-[Postgres](/Metasploit Framework/Postgres.md) 
+[Postgres]({{< ref "posts/Metasploit Framework/Postgres.md" >}}) 
 [[SQL REVISE#SQL]]

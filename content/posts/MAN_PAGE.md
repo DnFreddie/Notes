@@ -17,4 +17,4 @@ draft = false
 
 
 
->[!quote] [Commands](/MAIN Linux/Commands.md)  [Baisic Linux commands](/Linux/Linux commands/Baisic Linux commands.md)
+>[!quote] [Commands]({{< ref "posts/MAIN Linux/Commands.md" >}})  [Baisic Linux commands]({{< ref "posts/Linux/Linux commands/Baisic Linux commands.md" >}})

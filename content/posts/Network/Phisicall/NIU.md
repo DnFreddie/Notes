@@ -5,11 +5,11 @@ draft = false
 +++
 
 ## Network interface unit 
-- **Device taht determines the [Demarcation point](/Network/Phisicall/Demarcation point.md)(Demarc)**
+- **Device taht determines the [Demarcation point]({{< ref "posts/Network/Phisicall/Demarcation point.md" >}})(Demarc)**
 	- [DemarcPoint_visual.png](/DemarcPoint_visual.png)
 - Network Interface Device 
 - Telephone Network Interface
 
-**It's coommon for network prvoiders to use [Smartjack](/Network/Phisicall/Smartjack.md)**
+**It's coommon for network prvoiders to use [Smartjack]({{< ref "posts/Network/Phisicall/Smartjack.md" >}})**
 $$ $$
-**{{[Physical_OSI](/Network/Ref_OSI/Physical_OSI.md)}}**
+**{{[Physical_OSI]({{< ref "posts/Network/Ref_OSI/Physical_OSI.md" >}})}}**

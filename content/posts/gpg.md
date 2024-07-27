@@ -6,7 +6,7 @@ draft = false
 
     # Gnu Pg
 [Docs](https://www.maketecheasier.com/verify-authenticity-linux-software-digital-signatures/)
-- [Linux](/Templates/Linux.md)  utility  that verifies the [[Digital certificate|digital signature]] of the package
+- [Linux]({{< ref "posts/Templates/Linux.md" >}})  utility  that verifies the [[Digital certificate|digital signature]] of the package
 	- It' usually marked with the **checksum** file
 
 ###  Doing it manually 

@@ -21,4 +21,4 @@ Port **tcp/23**
 
 
 
->[!quote] [ports](/ports/ports.md) [ssh](/protocols/ssh.md) 
+>[!quote] [ports]({{< ref "posts/ports/ports.md" >}}) [ssh]({{< ref "posts/protocols/ssh.md" >}}) 

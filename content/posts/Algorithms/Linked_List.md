@@ -5,7 +5,7 @@ draft = false
 +++
 
 Often called *node base data structure*(*type fo container*)
-- So its an  **[node](/node.md) that contnateins a **value** and **refrence to another value/node**
+- So its an  **[node]({{< ref "posts/node.md" >}}) that contnateins a **value** and **refrence to another value/node**
 $$$$
 - Every linked list is a *graph*
 >[!example]- Signly link list a only points forwaords there no refrence backworks
@@ -42,4 +42,4 @@ The linked list has a *special refrence* that points to the beginning and the en
 
 --- 
 
- [Static Array](/obisdian_ntoes/Applied data_Obsydian/Python/data.py/Static Array.md)
+ [Static Array]({{< ref "posts/Applied data_Obsydian/Python/data.py/Static Array.md" >}})

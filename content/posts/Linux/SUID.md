@@ -10,4 +10,4 @@ The **s** instead of h rperesnts that file is in *SUID mode*
 >[!example] To set the SUID bit, enter a 4 before the regular permissions
 >you want to do so, you’ll use the chmod command, as in chmod 4644 filename.
 
->[!quote] [[userID]] [SGID](/Linux/SGID.md) [UUID](/datatypes/UUID.md)
+>[!quote] [[userID]] [SGID]({{< ref "posts/Linux/SGID.md" >}}) [UUID]({{< ref "posts/datatypes/UUID.md" >}})

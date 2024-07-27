@@ -5,8 +5,8 @@ draft = false
 +++
 
 ## Web socets 
-- [ports](/ports/ports.md) numbers and [IP](/Network/Ref_OSI/IP.md) addresses **combined** creates **socets**
-- Allows [duplex communication](/Network/Phisicall/duplex communication.md) bettwen **the server  and the client** 
+- [ports]({{< ref "posts/ports/ports.md" >}}) numbers and [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) addresses **combined** creates **socets**
+- Allows [duplex communication]({{< ref "posts/Network/Phisicall/duplex communication.md" >}}) bettwen **the server  and the client** 
 - Enables u to connect your **frontend with backend**
 $$1$$
 ## Connection 
@@ -19,7 +19,7 @@ it enables *bidriectional communication*
 >It will be connected unti either parites sends a *close messege*
 >![WebsocetConnectionUpgrade_visual.png](/Notes/WebsocetConnectionUpgrade_visual.png)
 
-## [IPv4 address](/Network/basic network connections/IPv4 address.md) socets 
+## [IPv4 address]({{< ref "posts/Network/basic network connections/IPv4 address.md" >}}) socets 
 
 - Server 
 	1. Server IP adress
@@ -29,10 +29,10 @@ it enables *bidriectional communication*
 - Client 
 	1. Client IP adress 
 	2. protocol
-	3. clients [ports](/ports/ports.md) number 
+	3. clients [ports]({{< ref "posts/ports/ports.md" >}}) number 
 ==Docs==
 [100s web socets](https://www.youtube.com/watch?v=ayUfHdHFCZE)
 [[How to start Rust Chat App#ws-rs for websocket server|chatrs]]
 
 
->[!quote] [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) 
+>[!quote] [3-way Handshake]({{< ref "posts/for later/3-way Handshake.md" >}}) 

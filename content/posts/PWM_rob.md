@@ -14,4 +14,4 @@ draft = false
 
 
 
->[!quote] [startup_robotics](/startup_robotics.md)
+>[!quote] [startup_robotics]({{< ref "posts/startup_robotics.md" >}})

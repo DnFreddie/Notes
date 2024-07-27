@@ -25,6 +25,6 @@ draft = false
     - Contianer for the 
 
 ---
-[journalctl](/journalctl.md)
+[journalctl]({{< ref "posts/journalctl.md" >}})
 
 

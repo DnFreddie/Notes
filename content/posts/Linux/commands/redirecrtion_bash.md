@@ -18,4 +18,4 @@ exec 2> >(tee >(nc localhost 3000))
 and the results of `www.google.com`'s default web page will be printed to `stdout`.
 
 
->[!quote] [bash_MAIN](/Linux/commands/bash_MAIN.md) [TCP](/Network/Ref_OSI/TCP.md)
+>[!quote] [bash_MAIN]({{< ref "posts/Linux/commands/bash_MAIN.md" >}}) [TCP]({{< ref "posts/Network/Ref_OSI/TCP.md" >}})

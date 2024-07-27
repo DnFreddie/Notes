@@ -14,4 +14,4 @@ draft = false
 	#alt-name **One pane of glass*
 	-   *instead of managing houdrets of virtulasystem u just go to the one managing system*
 	 $$ $$
-> [!quote] [vSwitch](/Network/vitrual/vSwitch.md)
+> [!quote] [vSwitch]({{< ref "posts/Network/vitrual/vSwitch.md" >}})

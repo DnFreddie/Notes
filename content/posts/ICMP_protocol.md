@@ -20,11 +20,11 @@ draft = false
 - Text messaging for your network devices 
 - Another prtocol carried by Ip 
 	- Not used for data trasfer 
-- Devices can request and reply to administrativer requests [ping_command](/ping_command.md)
+- Devices can request and reply to administrativer requests [ping_command]({{< ref "posts/ping_command.md" >}})
 	- When u send ping u send the **ICMP packet** and get **ICP packet** in response
 - Devices can send massege whetn things dont go well (*message where created becouse of ICMP*)
 	- The network u're trying to reach is not reachable from here 
 	- Your time-to-live expired 
  
 
->[!quote] [ports](/ports/ports.md) 
+>[!quote] [ports]({{< ref "posts/ports/ports.md" >}}) 

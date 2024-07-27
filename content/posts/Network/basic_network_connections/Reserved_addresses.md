@@ -10,4 +10,4 @@ draft = false
 		- *240.0.0.1 thhrough 254.255.255.254*
 		- *All Class E addresses*
 
->[!quote] [Virtual IP](/Network/vitrual/Virtual IP.md) | [[IP]] | [subnet mask](/Network/basic network connections/subnet mask.md) | [DNS](/Network/Phisicall/DNS.md)
+>[!quote] [Virtual IP]({{< ref "posts/Network/vitrual/Virtual IP.md" >}}) | [[IP]] | [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) | [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}})

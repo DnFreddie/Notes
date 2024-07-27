@@ -6,7 +6,7 @@ draft = false
 
 ## Spoofing 
 *Changing mac adress to appppear as a diffrent device*
-U just need to make the hardwer down ([ifconfig](/Penetration/ifconfig.md))
+U just need to make the hardwer down ({{< ref "posts[ifconfig](/Penetration/ifconfig.md" >}}))
 and cahnge the mac adrees with hr 
 >[!example]-
 >kali >ifconfig eth0 down
@@ -15,4 +15,4 @@ kali >ifconfig eth0 up
 
 
 
->[!quote] [ifconfig](/Penetration/ifconfig.md) [iwconfig](/Penetration/iwconfig.md)
+>[!quote] [ifconfig]({{< ref "posts/Penetration/ifconfig.md" >}}) [iwconfig]({{< ref "posts/Penetration/iwconfig.md" >}})

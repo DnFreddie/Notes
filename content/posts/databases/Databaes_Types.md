@@ -4,11 +4,11 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ![columnar_db](/databases/columnar_db.md)
+    ![columnar_db]({{< ref "posts/databases/columnar_db.md" >}})
 $$A$$
-[redis](/databases/redis.md)
-![firebase](/databases/firebase.md)
+[redis]({{< ref "posts/databases/redis.md" >}})
+![firebase]({{< ref "posts/databases/firebase.md" >}})
 $$B$$
-![firebase](/databases/firebase.md)
+![firebase]({{< ref "posts/databases/firebase.md" >}})
 $$C$$$
->[!quote] [[Tokio_rs#Databases]] [Data frame](/obisdian_ntoes/Applied data_Obsydian/Appplied data/Dataanalys essentails/adsData_analys_essentials/Data frame.md) [Data Streams](/obisdian_ntoes/scriptss/Data Streams.md) [connection_db](/databases/connection_db.md)
+>[!quote] [[Tokio_rs#Databases]] [Data frame]({{< ref "posts/Applied data_Obsydian/Appplied data/Dataanalys essentails/adsData_analys_essentials/Data frame.md" >}}) [Data Streams]({{< ref "posts/scriptss/Data Streams.md" >}}) [connection_db]({{< ref "posts/databases/connection_db.md" >}})

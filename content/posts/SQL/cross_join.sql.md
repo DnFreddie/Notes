@@ -12,4 +12,4 @@ draft = false
 >cross join ;
 
 
-[join.sql](/obisdian_ntoes/notes_obsidian/SQL/join.sql.md) 
+[join.sql]({{< ref "posts/SQL/join.sql.md" >}}) 

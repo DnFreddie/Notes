@@ -12,7 +12,7 @@ draft = false
 	- Transfer files between systems 
 	- Authenticates  with username  and password 
 	- Fulle-featured functionality (*list , add, delete, etc.*)
-- Simple alterative is [TFTP_protcol](/protocols/TFTP_protcol.md)
+- Simple alterative is [TFTP_protcol]({{< ref "posts/protocols/TFTP_protcol.md" >}})
 
 
 >[!quote] [[ports#Common ports]]

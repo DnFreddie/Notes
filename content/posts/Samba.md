@@ -5,9 +5,9 @@ draft = false
 +++
 
     - Provides **file and print services interoperability** between Unix and Windows
-	- It  uses *Server Message Block* [SMB](/SMB.md)
+	- It  uses *Server Message Block* [SMB]({{< ref "posts/SMB.md" >}})
 
-- The printing for Linux is [CUPS](/CUPS.md)
+- The printing for Linux is [CUPS]({{< ref "posts/CUPS.md" >}})
 -  Require **authentication**
 	- U can pass it to the file
 

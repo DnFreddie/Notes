@@ -45,4 +45,4 @@ draft = false
 --- 
 
 
->[!quote] [regex](/obisdian_ntoes/notes_obsidian/ZPythonref/regex.md) [data_py](/obisdian_ntoes/notes_obsidian/ZPythonref/data_py.md) [firebase](/databases/firebase.md)
+>[!quote] [regex]({{< ref "posts/ZPythonref/regex.md" >}}) [data_py]({{< ref "posts/ZPythonref/data_py.md" >}}) [firebase]({{< ref "posts/databases/firebase.md" >}})

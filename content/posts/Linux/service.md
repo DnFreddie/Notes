@@ -11,4 +11,4 @@ waiting for you to use it**
 - Syntax 
 	- service servicename **start|stop|restart**
 
->[!quote] [ps](/Linux/commands/ps.md) [top](/Linux/top.md)
+>[!quote] [ps]({{< ref "posts/Linux/commands/ps.md" >}}) [top]({{< ref "posts/Linux/top.md" >}})

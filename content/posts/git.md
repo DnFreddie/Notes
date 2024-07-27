@@ -6,7 +6,7 @@ draft = false
 
 ## Seting up github 
 
-1. [ssh](/protocols/ssh.md) 
+1. [ssh]({{< ref "posts/protocols/ssh.md" >}}) 
 2. setinging user 
 ```bash
 git config --global user.name 'aura'
@@ -69,4 +69,4 @@ git rebase --abrot
 ```
 
 
->[!quote] [docker](/Linux/Docker/docker.md)
+>[!quote] [docker]({{< ref "posts/Linux/Docker/docker.md" >}})

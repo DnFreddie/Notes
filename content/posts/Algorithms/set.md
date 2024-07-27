@@ -8,4 +8,4 @@ draft = false
 Data struture that does not allow duplicate values 
 - Arrayed based set 
 
->[!quote] [Dynamic Array](/Algorithms/Dynamic Array.md)
+>[!quote] [Dynamic Array]({{< ref "posts/Algorithms/Dynamic Array.md" >}})

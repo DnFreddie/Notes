@@ -15,10 +15,10 @@ draft = false
 - Extensive installation
 	- Relativly inexpensive 
 	- Easy to install and maintain 
-- Limited [bandwidth](/Network/Phisicall/bandwidth.md) avaliabity
+- Limited [bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}) avaliabity
 	- *Psychics limits electrical signals through copper*
- - Used in [WAN](/Network/Network Types/WAN.md)
-	 - cable modem [DSL](/Network/Phisicall/DSL.md)
+ - Used in [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}})
+	 - cable modem [DSL]({{< ref "posts/Network/Phisicall/DSL.md" >}})
 - Often comabined with fiber
 	- *Copper on  the local loop ,fiber in the bacground*
 ## Copper cable categories 
@@ -31,10 +31,10 @@ draft = false
 	 ![CoaxialCables_visual.png](/Notes/CoaxialCables_visual.png)
 ## Twinaxial cable 
 Two inner conductors (*Twins*)
-- Common on 10 Gigabit [Ethernet](/Network/Ref_OSI/Ethernet.md) SFP+ cables
+- Common on 10 Gigabit [Ethernet]({{< ref "posts/Network/Ref_OSI/Ethernet.md" >}}) SFP+ cables
 	- full duplex
 	- five meters 
 	- low cost 
-	- low [Latency](/Network/Data/Latency.md) commpared to *twisted paitr*
+	- low [Latency]({{< ref "posts/Network/Data/Latency.md" >}}) commpared to *twisted paitr*
 	 
->[!quote] [Fiber](/Network/Phisicall/Fiber.md) [[Structure cabling standartds]]
+>[!quote] [Fiber]({{< ref "posts/Network/Phisicall/Fiber.md" >}}) [[Structure cabling standartds]]

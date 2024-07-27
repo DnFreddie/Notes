@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Nagle's Algorithm ([TCP](/Network/Ref_OSI/TCP.md))
+## Nagle's Algorithm ({{< ref "posts[TCP](/Network/Ref_OSI/TCP.md" >}}))
 
 - **Purpose:** Reduces the number of small packets on the network by combining small messages.
 - **Problem:** Sending many tiny packets can inefficiently use bandwidth.
@@ -20,4 +20,4 @@ draft = false
 
 
 
->[!quote] [HTTP](/protocols/HTTP.md) [ports](/ports/ports.md) [bandwidth](/Network/Phisicall/bandwidth.md)
+>[!quote] [HTTP]({{< ref "posts/protocols/HTTP.md" >}}) [ports]({{< ref "posts/ports/ports.md" >}}) [bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}})

@@ -8,7 +8,7 @@ draft = false
 ## Transmission Control Protocol
 It makes sure that data is transmmited in reaiable way 
 
-[PAR](/obisdian_ntoes/for later/PAR.md)
+[PAR]({{< ref "posts/for later/PAR.md" >}})
 - <mark style="background: #72083D;">TCP is a connection base system </mark>
 	- U have to establisch the connetion with the device to send the packet 
 - **Ordering**
@@ -31,4 +31,4 @@ It makes sure that data is transmmited in reaiable way
 
 
 
->[!quote] [3-way Handshake](/obisdian_ntoes/for later/3-way Handshake.md) [Port Scanning](/obisdian_ntoes/for later/Port Scanning.md) [Nagle's Algorithm](/Nagle's Algorithm.md)
+>[!quote] [3-way Handshake]({{< ref "posts/for later/3-way Handshake.md" >}}) [Port Scanning]({{< ref "posts/for later/Port Scanning.md" >}}) [Nagle's Algorithm]({{< ref "posts/Nagle's Algorithm.md" >}})

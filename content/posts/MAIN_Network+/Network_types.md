@@ -4,36 +4,36 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-![LAN](/Network/Network Types/LAN.md)
+![LAN]({{< ref "posts/Network/Network Types/LAN.md" >}})
 
 
 ---
 
-![WLAN](/Network/Network Types/WLAN.md)
+![WLAN]({{< ref "posts/Network/Network Types/WLAN.md" >}})
 
 ---
 
-![PAN](/Network/Network Types/PAN.md)
+![PAN]({{< ref "posts/Network/Network Types/PAN.md" >}})
 
 --- 
 
-![MAN](/Network/Network Types/MAN.md)
+![MAN]({{< ref "posts/Network/Network Types/MAN.md" >}})
 
 ---
-![CAN](/Network/Network Types/CAN.md)
+![CAN]({{< ref "posts/Network/Network Types/CAN.md" >}})
 
 ---
-![WAN](/Network/Network Types/WAN.md)
+![WAN]({{< ref "posts/Network/Network Types/WAN.md" >}})
 
 ---
 
-![Peer to peer](/Network/Network Types/Peer to peer.md)
+![Peer to peer]({{< ref "posts/Network/Network Types/Peer to peer.md" >}})
 
 ---
-![Client-server](/Network/Network Types/Client-server.md)
+![Client-server]({{< ref "posts/Network/Network Types/Client-server.md" >}})
 
 --- 
-![SAN](/Network/Data/SAN.md)
+![SAN]({{< ref "posts/Network/Data/SAN.md" >}})
 
 ---
 
@@ -41,4 +41,4 @@ draft = false
 
 
 > [!quote]
-> [Network Topologies](/MAIN Network+/Network Topologies.md) [Virtual networks](/Network/Network Types/Virtual networks.md)
+> [Network Topologies]({{< ref "posts/MAIN Network+/Network Topologies.md" >}}) [Virtual networks]({{< ref "posts/Network/Network Types/Virtual networks.md" >}})

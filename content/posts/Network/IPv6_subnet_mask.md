@@ -8,7 +8,7 @@ draft = false
 1. **Internet assaigne Numbers Authority**
 proviedes the blockt to RIRs(*Regional Internet Registers*)
 2. **RIRs** assigns smaller subnet vlocks to **ISPs** (*internet  service providers*)
-3. **ISPs** assaigns a /48 [subnet mask](/Network/basic network connections/subnet mask.md) to the customer 
+3. **ISPs** assaigns a /48 [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) to the customer 
 
->[!quote] [IPv6 address](/Network/IPv6 address.md)
+>[!quote] [IPv6 address]({{< ref "posts/Network/IPv6 address.md" >}})
 

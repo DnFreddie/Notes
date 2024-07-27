@@ -8,8 +8,8 @@ draft = false
 The most popular networking toll 
 
 - Modern Ethernet uses 
-	- [Fiber](/Network/Phisicall/Fiber.md)
-	- [Copper](/Network/Phisicall/Copper.md)
+	- [Fiber]({{< ref "posts/Network/Phisicall/Fiber.md" >}})
+	- [Copper]({{< ref "posts/Network/Phisicall/Copper.md" >}})
 - BASE (*baseband*)
 	- single frequency using the entire medium 
-	- [Cable broadband](/Network/Phisicall/Cable broadband.md) using many frequencies ,sharing the medium
+	- [Cable broadband]({{< ref "posts/Network/Phisicall/Cable broadband.md" >}}) using many frequencies ,sharing the medium

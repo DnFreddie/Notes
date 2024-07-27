@@ -12,4 +12,4 @@ draft = false
 	- No develompent work requaierd 
 
 
->[!quote] [IaaS](/IaaS.md)  [PaaS](/PaaS.md)
+>[!quote] [IaaS]({{< ref "posts/IaaS.md" >}})  [PaaS]({{< ref "posts/PaaS.md" >}})

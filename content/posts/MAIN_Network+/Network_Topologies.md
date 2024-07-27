@@ -9,13 +9,13 @@ draft = false
 **Most networks are hybrid**
 
 $$ $$
- ![Ring](/Network/Ref_OSI/Ring.md)
+ ![Ring]({{< ref "posts/Network/Ref_OSI/Ring.md" >}})
 
 --- 
-![Bus](/Network/Ref_OSI/Bus.md)
+![Bus]({{< ref "posts/Network/Ref_OSI/Bus.md" >}})
 
 --- 
-![Mesh](/Network/Ref_OSI/Mesh.md)
+![Mesh]({{< ref "posts/Network/Ref_OSI/Mesh.md" >}})
 
 ---
-**{{[Wireless topologies](/MAIN Network+/Wireless topologies.md)}}** **{{[[]]}}**
+**{{[Wireless topologies]({{< ref "posts/MAIN Network+/Wireless topologies.md" >}})}}** **{{[[]]}}**

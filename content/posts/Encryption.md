@@ -9,6 +9,6 @@ draft = false
 
 --- 
 >[!quote]-
-[Hash](/Hash.md)
-[Digital certificate](/Digital certificate.md)
+[Hash]({{< ref "posts/Hash.md" >}})
+[Digital certificate]({{< ref "posts/Digital certificate.md" >}})
 [[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]

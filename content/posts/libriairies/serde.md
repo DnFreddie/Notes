@@ -24,4 +24,4 @@ name:String,
 
 
 
->[!quote] [monomorphization](/compilation_porcess/monomorphization.md)
+>[!quote] [monomorphization]({{< ref "posts/compilation_porcess/monomorphization.md" >}})

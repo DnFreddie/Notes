@@ -9,4 +9,4 @@ draft = false
 >[!example]-
 >![DatabasePorts_visual.png](/Notes/DatabasePorts_visual.png)
 
->[!quote] [ports](/ports/ports.md) [sqlx](/libriairies/sqlx.md)
+>[!quote] [ports]({{< ref "posts/ports/ports.md" >}}) [sqlx]({{< ref "posts/libriairies/sqlx.md" >}})

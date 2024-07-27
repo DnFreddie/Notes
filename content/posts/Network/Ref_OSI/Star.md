@@ -10,5 +10,5 @@ draft = false
 [StartTopol_visual.png](/StartTopol_visual.png)
 - Used in most large and smal networks 
 - All devices are connected to the central device
-- Switched [Ethernet](/Network/Ref_OSI/Ethernet.md) network
+- Switched [Ethernet]({{< ref "posts/Network/Ref_OSI/Ethernet.md" >}}) network
   *The swich is in the middle*

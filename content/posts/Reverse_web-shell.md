@@ -19,4 +19,4 @@ draft = false
 4. Create a **python server** that catches the shell and enables interactivity
 
 
->[!quote]  [bash_MAIN](/obisdian_ntoes/notes_obsidian/Linux/commands/bash_MAIN.md)
+>[!quote]  [bash_MAIN]({{< ref "posts/Linux/commands/bash_MAIN.md" >}})

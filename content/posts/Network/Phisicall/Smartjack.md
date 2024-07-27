@@ -13,4 +13,4 @@ the issue it's a remote monitroingf of the network
 *(alot of bliking lights and status lights 
 with limmited acces becouse its the property of a network provider)*
 $$ $$
-**{{[Physical_OSI](/Network/Ref_OSI/Physical_OSI.md)}}** **{{[CPE](/Network/Phisicall/CPE.md)}}**
+**{{[Physical_OSI]({{< ref "posts/Network/Ref_OSI/Physical_OSI.md" >}})}}** **{{[CPE]({{< ref "posts/Network/Phisicall/CPE.md" >}})}}**

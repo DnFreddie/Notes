@@ -21,4 +21,4 @@ draft = false
 
 
 
->[!quote] [Golang AWS_issue](/Golang AWS_issue.md) [VPN](/VPN.md)
+>[!quote] [Golang AWS_issue]({{< ref "posts/Golang AWS_issue.md" >}}) [VPN]({{< ref "posts/VPN.md" >}})

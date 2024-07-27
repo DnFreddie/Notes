@@ -9,4 +9,4 @@ Popular becouse u can store alot of them into the router
 ![Local_connectors.png](/Notes/Local_connectors.png)
 
 
->[!quote] [Cables](/Network/Phisicall/Cables.md)
+>[!quote] [Cables]({{< ref "posts/Network/Phisicall/Cables.md" >}})

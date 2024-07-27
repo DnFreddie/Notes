@@ -6,4 +6,4 @@ draft = false
 
 ## Networks Intrusion Detection System 
 
-![Snort](/obisdian_ntoes/notes_obsidian/Penetration/Snort.md)
+![Snort]({{< ref "posts/Penetration/Snort.md" >}})
