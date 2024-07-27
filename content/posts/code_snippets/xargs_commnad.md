@@ -12,4 +12,4 @@ find . -type f | xargs -I {} mv {} {}.md
 [find]({{< ref "posts/Linux/commands/find.md" >}})
 
 
-[Comptia Objectives]({{< ref "posts/Camptia_Objectives.md" >}})
+[Comptia Objectives]({{< ref "posts/Comptia_Objectives.md" >}})

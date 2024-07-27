@@ -17,10 +17,8 @@ sudo nix-collect-garbage -d
 sudo nix-rebuild list-generations
 ```
 
-
-
-
 ## Nix flakes 
+
 
 - Packages 
 	- its the source code of your app 
@@ -38,5 +36,11 @@ Git respect history of git so it will not find itself if it hasn't been added
 - nix build .#dockerImages.x86_64-linux.default
 - docker load -i ./result
 
+## Upadte  the flake.lock
+
+```bash 
+nix flake update
+
+```
 
 >[!quote] [nix Templates]({{< ref "posts/code_snippets/nix_Templates.md" >}})

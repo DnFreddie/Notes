@@ -111,7 +111,7 @@ systemctl cat ssh
 >[!example]
 >![Pasted_image_20240514231948.png](/Notes/Pasted_image_20240514231948.png)
 
-![Systemd](https://www.youtube.com/watch?v=n6BuUgkZ5T0)
+[Systemd youtube](https://www.youtube.com/watch?v=n6BuUgkZ5T0)
 
 
 

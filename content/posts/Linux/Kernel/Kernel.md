@@ -43,19 +43,17 @@ ls -l /boot/vm*
 apt list --installed | grep linux-image
 ```
 
-### Kernel Otpions
+### Kernel Options
 U have to write to *etc/sysctl.conf*
-![sysctl]({{< ref "posts/for_later/sysctl.md" >}})
+[sysctl]({{< ref "posts/for_later/sysctl.md" >}})
 
 
 
 
 ### Boot 
-[Boot procces]({{< ref "posts/Boot_procces.md" >}})
-![rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})
-
-
-[cgroups]({{< ref "posts/cgroups.md" >}})
+- [Boot procces]({{< ref "posts/Boot_procces.md" >}})
+- [rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})
+- [cgroups]({{< ref "posts/cgroups.md" >}})
 
 
 
