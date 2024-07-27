@@ -2,6 +2,8 @@
 title = 'Ansible Commands'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+tags = ["automation"]
+categories = ["ansible"]
 +++
 
 [Docs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-multiple-servers-with-ansible-ad-hoc-commands)

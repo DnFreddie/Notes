@@ -2,6 +2,8 @@
 title = 'Prometheus'
 date = 2024-07-22T22:10:24+02:00
 draft = false
+tags = ["logging"]
+categories = ["prometheus"]
 +++
 #QuicRead
 [Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
