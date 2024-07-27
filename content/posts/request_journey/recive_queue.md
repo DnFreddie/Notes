@@ -9,4 +9,5 @@ draft = false
 As data arrives from the client, it is placed into the receive queue by the operating system or network stack, ready for the backend application to retrieve using the **recv()** [systemcall]({{< ref "posts/systemcall.md" >}}) .
 
 
->[!quote] [send_queue]({{< ref "posts/send_queue.md" >}})
+---
+[send_queue]({{< ref "posts/send_queue.md" >}})

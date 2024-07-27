@@ -1,53 +1,56 @@
 +++
-title = 'DNS_Records'
+title = 'DNS Records'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## DNS Records 
-- The database records  of [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}}) 
-	- Over 30 of records  types 
-		- ({{< ref "posts[IP](/Network/Ref_OSI/IP.md" >}}) adresses certyficates host alias,names)
+## DNS Records
+- The database records of [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}})
+  - Over 30 types of records
+    - ([IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) addresses, certificates, host aliases, names)
 
-
->[!example]- Sample  forward lookup file 
+>[!example]
+>Sample forward lookup file
 >![SampleForwardLookup_visual.png](/Notes/SampleForwardLookup_visual.png)
->[[DNS_Queries#Forword Lookup]]
-### SOA 
+>[[DNS_Queries#Forward_Lookup]]
+
+### SOA
 **Start of Authority**
-- Describes the DNS zone details
-- **Structure**
-	- IN SOA(*internet zone,Start of Authority*) with name of zone 
-	- Serial number 
-	- Refrech retry and expire timeframes
-	- Casching duration [[DNS_Queries#TTL]]
- 
->[!example]- 
->![SOABeginignFile_visual.png](/Notes/SOABeginignFile_visual.png)
+- Describes the DNS zone details.
+- **Structure:**
+  - `IN SOA` (Internet zone, Start of Authority) with the name of the zone
+  - Serial number
+  - Refresh, retry, and expire timeframes
+  - Caching duration ([TTL]({{< ref "posts/Network/DNS_Queries.md#TTL" >}}))
 
-$$1$$
-### Address records(AAAA)
+>[!example]
+>![SOABeginningFile_visual.png](/Notes/SOABeginningFile_visual.png)
 
-- Defines the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) address of a host 
-	- This is the **most popular query** 
-- **A** records are  for [IPv4 address]({{< ref "posts/Network/basic network connections/IPv4 address.md" >}})
-	- Modyfie the A record to change the host name to [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) ==address  resolution==
-- **AAAA** records are for [IPv6 address]({{< ref "posts/Network/IPv6 address.md" >}}) 
-	- **Same DNS serverA** diffrent records 
->[!example]-
+
+### Address Records (AAAA)
+- Defines the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) address of a host
+  - This is the **most popular query**
+- **A** records are for [IPv4 address]({{< ref "posts/Network/basic_network_connections/IPv4_address.md" >}})
+  - Modify the A record to change the host name to [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) (address resolution)
+- **AAAA** records are for [IPv6 address]({{< ref "posts/Network/IPv6_address.md" >}})
+  - **Same DNS server** with different records
+
+>[!example]
 >![AAARecordsExample_visual.png](/Notes/AAARecordsExample_visual.png)
 
-$$2$$
-### CNAME 
-**Cannonical name records**
-- A name is an alias of another  *cannonical name*
-	- ==One psychical server multiple services== 
- 
->[!example]-
->![CannonicalName_visual.png](/Notes/CannonicalName_visual.png)
 
-$$3$$
+### CNAME
+**Canonical Name Records**
+- A name is an alias of another *canonical name*
+  - (One physical server, multiple services)
+
+>[!example]
+>![CanonicalName_visual.png](/Notes/CanonicalName_visual.png)
+
+
 ### SRV
-**Service Records** 
+**Service Records**
 
->[!quote] [DNS_Queries]({{< ref "posts/DNS_Queries.md" >}})
+>[!quote]
+>[DNS Queries]({{< ref "posts/Network/DNS_Queries.md" >}})
+

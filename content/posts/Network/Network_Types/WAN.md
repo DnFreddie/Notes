@@ -8,7 +8,7 @@ draft = false
 ## Wide Area Network
 - Spannin the glob 
 	- *The larger tne network the slower it gets*
-- Connects [LAN]({{< ref "posts/Network/Network Types/LAN.md" >}}) across a distance 
+- Connects [LAN]({{< ref "posts/Network/Network_Types/LAN.md" >}}) across a distance 
 	- Gennerly much slower then LAN
 $$ $$
 ### WAN technoglogies
@@ -19,4 +19,4 @@ $$ $$
 
 
 $$ $$
-**{{[SD-WAN]({{< ref "posts/Network/Network Types/SD-WAN.md" >}})}}**
+**{{[SD-WAN]({{< ref "posts/Network/Network_Types/SD-WAN.md" >}})}}**

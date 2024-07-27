@@ -19,4 +19,4 @@ draft = false
 		- $$” indicates the process id of the current instance of the shell you are running
 
 
->[!quote]  [ps]({{< ref "posts/Linux/commands/ps.md" >}}) | [Baisic Linux commands]({{< ref "posts/Linux/Linux commands/Baisic Linux commands.md" >}})
+>[!quote]  [ps]({{< ref "posts/Linux/commands/ps.md" >}}) | [Baisic Linux commands]({{< ref "posts/Linux/Linux_commands/Baisic_Linux_commands.md" >}})

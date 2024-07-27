@@ -4,37 +4,39 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Ifconfig 
-Examine and interact with active nework interfaces 
+## Ifconfig
+Examine and interact with active network interfaces.
 
->[!example]-
->![IfconfigExamle_visual.png](/Notes/IfconfigExamle_visual.png)
+>[!example]
+>![IfconfigExample_visual.png](/Notes/IfconfigExample_visual.png)
 
-this dispalys most important informatio 
-1.  [[MAC Adress]]
+This displays the most important information:
+1. [MAC Address]
 2. [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})
-3. [Bcast]({{< ref "posts/Penetration/Bcast.md" >}})
-4. [lo]({{< ref "posts/Penetration/lo.md" >}})
-**If u want to see the[IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) u have to 
-run IP**  adrr
->[!tip]- result
+3. [Broadcast]({{< ref "posts/Penetration/Bcast.md" >}})
+4. [Loopback]({{< ref "posts/Penetration/lo.md" >}})
+
+**If you want to see the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}), you have to run `ip addr`.**
+
+>[!tip]
 >![IpAddr_visual.png](/Notes/IpAddr_visual.png)
 
-- Enables to connect and  manipulate [LAN]({{< ref "posts/Network/Network Types/LAN.md" >}})
-- U can easily switch ure IP with 
-	- sudo ifconfig eth(*number of connection*) new IP
-	- U can also change [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) and  [Bcast]({{< ref "posts/Penetration/Bcast.md" >}}) 
-	-  ''#  spoofing 
-	>[!example]- 
-	>kali >ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
- 
-## Usefull flags 
+- Enables you to connect and manipulate [LAN]({{< ref "posts/Network/Network_Types/LAN.md" >}})
+- You can easily switch your IP with:
+  - `sudo ifconfig eth0 new_ip`
+  - You can also change the [subnet mask]({{< ref "posts/Network/basic_network_connections/subnet_mask.md" >}}) and [broadcast]({{< ref "posts/Penetration/Bcast.md" >}})
+  - Example of IP spoofing:
+    > [!example]
+    > `kali > ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255`
+
+## Useful Flags
 
 - **Down**
-	- Marks an interface as not working (down), which keeps the systemfrom trying to transmit messages through that interface. 
-		-  If possible, the ifconfig command also resets the interface to disable reception ofmessages.  
-		- Routes that use the interface,
-		    however, are not automatically disabled.
+  - Marks an interface as not working (down), which prevents the system from trying to transmit messages through that interface.
+    - If possible, the `ifconfig` command also resets the interface to disable reception of messages.
+    - Routes that use the interface, however, are not automatically disabled.
 
- 
->[!quote] [iwconfig]({{< ref "posts/Penetration/iwconfig.md" >}}) [spoof]({{< ref "posts/Linux/spoof.md" >}})
+---
+
+[iwconfig]({{< ref "posts/Penetration/iwconfig.md" >}})  [Spoofing]({{< ref "posts/Linux/spoof.md" >}})
+

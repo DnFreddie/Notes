@@ -31,4 +31,4 @@ adn specyfie the *len* of the **chain**
 
 
 
->[!quote] [traceroute]({{< ref "posts/Linux/Network manipulation/traceroute.md" >}}) [ping_command]({{< ref "posts/ping_command.md" >}}) [sneakers_bots_project]({{< ref "posts/sneakers_bots_project.md" >}})
+>[!quote] [traceroute]({{< ref "posts/Linux/Network_manipulation/traceroute.md" >}}) [ping_command]({{< ref "posts/ping_command.md" >}}) [sneakers_bots_project]({{< ref "posts/sneakers_bots_project.md" >}})

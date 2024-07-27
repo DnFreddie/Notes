@@ -20,4 +20,4 @@ traceroute to google.com (172.217.1.78), 30 hops max, 60 bytes packets
 --snip--
 18 lgal15s44-in-f14.le100.net (172.217.1.78) 94.666 ms 42.990 ms 41.564 ms
  
->[!quote] [IPv4 address]({{< ref "posts/Network/basic network connections/IPv4 address.md" >}})
+>[!quote] [IPv4 address]({{< ref "posts/Network/basic_network_connections/IPv4_address.md" >}})

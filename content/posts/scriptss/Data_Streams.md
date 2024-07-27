@@ -7,10 +7,10 @@ draft = false
 ## Data Streams
 
 
-![Standard input]({{< ref "posts/scriptss/Standard input.md" >}})
+![Standard input]({{< ref "posts/scriptss/Standard_input.md" >}})
 
 ---
-![Standard output]({{< ref "posts/scriptss/Standard output.md" >}})
+![Standard output]({{< ref "posts/scriptss/Standard_output.md" >}})
 
 ---
-![Standard Error]({{< ref "posts/scriptss/Standard Error.md" >}})
+![Standard Error]({{< ref "posts/scriptss/Standard_Error.md" >}})

@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Trivial File Transfer Protocol 
-- [UDP]({{< ref "posts/for later/UDP.md" >}})**/69**   
+- [UDP]({{< ref "posts/for_later/UDP.md" >}})**/69**   
 - Very simple file transfer application 
 	- Read files and wirte files 
 - ==No authentucation==

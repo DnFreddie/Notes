@@ -4,10 +4,14 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Internet Message Acces Protocol v4 
-- **tcp/143(plain text)**,**tcp/993**({{< ref "postsIMAP over [TLS_SSL](/protocols/TLS_SSL.md" >}}))
-- Incluedes managment of email inbox from multiple clients 
-	- We can delete email on one device and it will delete it on all of the devices 
+# Internet Message Access Protocol v4
 
+- **TCP/143** (plain text), **TCP/993** IMAP over TLS SSL.md
+- Includes management of email inbox from multiple clients 
+  - You can delete an email on one device, and it will be deleted on all other devices.
 
->[!quote] [[ports#Common ports]] [POP3]({{< ref "posts/protocols/POP3.md" >}})
+---
+
+ [[Ports#Common ports]] 
+ [POP3]({{< ref "posts/protocols/POP3.md" >}})
+

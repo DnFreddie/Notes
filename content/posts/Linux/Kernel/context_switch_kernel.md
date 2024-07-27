@@ -10,4 +10,4 @@ draft = false
 		-   gives a process enough time for significat computation
 
 
->[!quote]  [threads]({{< ref "posts/for later/threads.md" >}}) 
+>[!quote]  [threads]({{< ref "posts/for_later/threads.md" >}}) 

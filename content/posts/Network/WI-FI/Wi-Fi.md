@@ -6,7 +6,7 @@ draft = false
 
 # Wi-Fi Networks 
 
-[access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})
+[access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}})
 --- 
 
 [chanels_wi-fi]({{< ref "posts/Network/WI-FI/chanels_wi-fi.md" >}})

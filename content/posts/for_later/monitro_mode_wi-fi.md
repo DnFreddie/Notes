@@ -14,7 +14,7 @@ antenna (standard is about 300–500 feet)*
 
 
 ## Activation 
-<mark style="background: #72083D;">Thsi will rename ure [WLAN]({{< ref "posts/Network/Network Types/WLAN.md" >}}) </mark>
+<mark style="background: #72083D;">Thsi will rename ure [WLAN]({{< ref "posts/Network/Network_Types/WLAN.md" >}}) </mark>
 	example: **wlan0mon** 
 - Formula 
 	- *airmon-ng start|stop|restart interface*
@@ -28,11 +28,11 @@ the key data from broadcasting APs and any clients connected to thoseAPs or with
 
 | Short  | Type of information                                     |
 | ------ | ------------------------------------------------------- |
-| BSSID  | The [[MAC Adress]] of the [access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})of the client |
+| BSSID  | The [[MAC Adress]] of the [access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}})of the client |
 | PWRC   | The strenght of the signal                              |
 | ENC    | The encryption                                          |
 | # Data | The data throughput rate                                |
-| Ch     | The chanell the [access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}}) is opereting on                   |
-| ESSID  | The name of the [access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})                                                     |
+| Ch     | The chanell the [access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}}) is opereting on                   |
+| ESSID  | The name of the [access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}})                                                     |
 
 >[!quote]

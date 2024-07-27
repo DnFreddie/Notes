@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Standard Input
-Its the third type of [Data Streams]({{< ref "posts/scriptss/Data Streams.md" >}})
+Its the third type of [Data Streams]({{< ref "posts/scriptss/Data_Streams.md" >}})
 U have to store the value of **read** into [Variables]({{< ref "posts/scriptss/Variables.md" >}}) 
 >[!example]-
 >echo "Enter ure name"

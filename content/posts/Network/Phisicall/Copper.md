@@ -17,7 +17,7 @@ draft = false
 	- Easy to install and maintain 
 - Limited [bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}) avaliabity
 	- *Psychics limits electrical signals through copper*
- - Used in [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}})
+ - Used in [WAN]({{< ref "posts/Network/Network_Types/WAN.md" >}})
 	 - cable modem [DSL]({{< ref "posts/Network/Phisicall/DSL.md" >}})
 - Often comabined with fiber
 	- *Copper on  the local loop ,fiber in the bacground*

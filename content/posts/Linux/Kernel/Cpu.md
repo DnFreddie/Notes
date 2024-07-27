@@ -42,4 +42,4 @@ _The brain of the computer_
 ![nice]({{< ref "posts/Linux/nice.md" >}})
 - ![renice]({{< ref "posts/Linux/renice.md" >}})
 ---
- [Compitaltion process]({{< ref "posts/Compitaltion process.md" >}}) [garbage_collector_c]({{< ref "posts/Linux/Kernel/garbage_collector_c.md" >}})
+ [Compitaltion process]({{< ref "posts/Compitaltion_process.md" >}}) [garbage_collector_c]({{< ref "posts/Linux/Kernel/garbage_collector_c.md" >}})

@@ -6,15 +6,15 @@ draft = false
 
     
 - The location of them is held in **$MANPATH**
-### Manual page structure 
-![Man_Sections_Picture.png](/Notes/Man_Sections_Picture.png)
+
+ >*Manual page structure*
+>![Man_Sections_Picture.png](/Notes/Man_Sections_Picture.png)
 
 
-### Useful commands
-- -k 
+## Useful commands
+- `-k `
 	-  search across all manual page names and descriptions to find a specific keyword (*man –k ″remove empty″*)
 
 
 
-
->[!quote] [Commands]({{< ref "posts/MAIN Linux/Commands.md" >}})  [Baisic Linux commands]({{< ref "posts/Linux/Linux commands/Baisic Linux commands.md" >}})
+[Baisic Linux commands]({{< ref "posts/Linux/Linux_commands/Baisic_Linux_commands.md" >}})

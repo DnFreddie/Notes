@@ -7,4 +7,4 @@ draft = false
     <mark class="hltr-grses">Uniquely identifies each record in a table</mark>
 (*Not Null+Unique*)
 
-oppostie [foregin key.sql]({{< ref "posts/SQL/to revise/foregin key.sql.md" >}})
+oppostie [foregin key.sql]({{< ref "posts/SQL/to_revise/foregin_key.sql.md" >}})

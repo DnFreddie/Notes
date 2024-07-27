@@ -10,4 +10,4 @@ draft = false
 >The mommy of the systems
 >-  It take care of orphan process by *reasinging the parent*
 >- It get rids of the zombie procces 
->- [Run Levels]({{< ref "posts/for later/Run Levels.md" >}})(*old*)
+>- [Run Levels]({{< ref "posts/for_later/Run_Levels.md" >}})(*old*)

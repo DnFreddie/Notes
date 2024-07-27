@@ -8,4 +8,4 @@ draft = false
 U have o untwist before removing 
 
 
->[!quote][St connector]({{< ref "posts/Network/Phisicall/St connector.md" >}})[[SC connector ]]
+>[!quote][St connector]({{< ref "posts/Network/Phisicall/St_connector.md" >}})[[SC connector ]]

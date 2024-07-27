@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Network interface unit 
-- **Device taht determines the [Demarcation point]({{< ref "posts/Network/Phisicall/Demarcation point.md" >}})(Demarc)**
+- **Device taht determines the [Demarcation point]({{< ref "posts/Network/Phisicall/Demarcation_point.md" >}})(Demarc)**
 	- [DemarcPoint_visual.png](/DemarcPoint_visual.png)
 - Network Interface Device 
 - Telephone Network Interface

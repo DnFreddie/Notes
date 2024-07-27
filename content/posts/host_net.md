@@ -5,8 +5,8 @@ draft = false
 +++
 
     [Containers]({{< ref "posts/Containers.md" >}}) Share the same networkin  [Namespaces]({{< ref "posts/Namespaces.md" >}}) as  host 
-- no [NAT]({{< ref "posts/Network/basic network connections/NAT.md" >}})
-- no [proxy]({{< ref "posts/Linux/Network manipulation/proxy.md" >}}) 
+- no [NAT]({{< ref "posts/Network/basic_network_connections/NAT.md" >}})
+- no [proxy]({{< ref "posts/Linux/Network_manipulation/proxy.md" >}}) 
 **--network host**  flag
 ```bash
 docker run -d --name test --network host aura/myapp-188:v3

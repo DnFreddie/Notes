@@ -8,4 +8,4 @@ draft = false
 - Communciation in the browser  and by other applications 
 
 
->[!quote] [HTTPS]({{< ref "posts/HTTPS.md" >}}) [carrige_return]({{< ref "posts/carrige_return.md" >}})
+>[!quote] [HTTPS]({{< ref "posts/protocols/HTTPS.md" >}}) [carrige_return]({{< ref "posts/carrige_return.md" >}})

@@ -71,4 +71,4 @@ sqlx database create
 
 
 
->[!quote] [Tokio_rs]({{< ref "posts/libriairies/Tokio_rs.md" >}}) [Databaes Types]({{< ref "posts/databases/Databaes Types.md" >}}) [[SQL REVISE#SQL]]
+>[!quote] [Tokio_rs]({{< ref "posts/libriairies/Tokio_rs.md" >}}) [Databaes Types]({{< ref "posts/databases/Databaes_Types.md" >}}) [[SQL REVISE#SQL]]

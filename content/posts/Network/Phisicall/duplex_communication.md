@@ -11,5 +11,5 @@ draft = false
 ![Duplex_Transcivers_visual.png](/Notes/Duplex_Transcivers_visual.png)
 
 ---
-*The alternative to it is  [Bi-Directional transceivers]({{< ref "posts/Network/Phisicall/Bi-Directional transceivers.md" >}})*
+*The alternative to it is  [Bi-Directional transceivers]({{< ref "posts/Network/Phisicall/Bi-Directional_transceivers.md" >}})*
 >[!quote] [Physical_OSI]({{< ref "posts/Network/Ref_OSI/Physical_OSI.md" >}})

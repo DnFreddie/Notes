@@ -23,4 +23,4 @@ u can also use fdisk -l
 
 
 
->[!quote] [fsck]({{< ref "posts/Linux/fsck.md" >}})  [Block vs character dev]({{< ref "posts/Block vs character dev.md" >}})
+>[!quote] [fsck]({{< ref "posts/Linux/fsck.md" >}})  [Block vs character dev]({{< ref "posts/Block_vs_character_dev.md" >}})

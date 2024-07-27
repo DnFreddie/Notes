@@ -13,4 +13,4 @@ draft = false
 
 ---
 ### Undone 
-[The price of abstraction]({{< ref "posts/POSTS/The price of abstraction.md" >}})
+[The price of abstraction]({{< ref "posts/POSTS/The_price_of_abstraction.md" >}})

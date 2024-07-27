@@ -66,8 +66,7 @@ systemctl isolate sysinit.target
 >*systemctl deamon-reload*
 
 - **Mask Unmask**
-	Blocks the service u can't start it or enable it 
-	*({{< ref "postsit creates a service that points to [devnull](/scriptss/devnull.md" >}}))*
+	Blocks the service u can't start it or enable ,it creates a service that points to the **devnull**
 
 - **Reload service**
 	Try to reload the config and apply changes

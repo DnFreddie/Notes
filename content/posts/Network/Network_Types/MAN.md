@@ -5,4 +5,4 @@ draft = false
 +++
 
 ## Metropolitan Area Network
-- **Larger then [LAN]({{< ref "posts/Network/Network Types/LAN.md" >}}) smaller then [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}})**
+- **Larger then [LAN]({{< ref "posts/Network/Network_Types/LAN.md" >}}) smaller then [WAN]({{< ref "posts/Network/Network_Types/WAN.md" >}})**

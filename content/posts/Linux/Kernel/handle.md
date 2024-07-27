@@ -7,4 +7,4 @@ draft = false
 **Generic unit of identification**
 Used to identyfuie the process 
 
->[!quote] [processes_kernel]({{< ref "posts/for later/processes_kernel.md" >}})
+>[!quote] [processes_kernel]({{< ref "posts/for_later/processes_kernel.md" >}})

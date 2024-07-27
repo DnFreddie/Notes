@@ -18,4 +18,4 @@ $$ $$
 ![Mesh]({{< ref "posts/Network/Ref_OSI/Mesh.md" >}})
 
 ---
-**{{[Wireless topologies]({{< ref "posts/MAIN Network+/Wireless topologies.md" >}})}}** **{{[[]]}}**
+**{{[Wireless topologies]({{< ref "posts/MAIN_Network+/Wireless_topologies.md" >}})}}** **{{[[]]}}**

@@ -8,4 +8,4 @@ draft = false
 The addres space for each process is private and can not be accces unless is shared 
 ![VirtualAdressSpace_visual.png](/Notes/VirtualAdressSpace_visual.png)
 
->[!quote] [Compitaltion process]({{< ref "posts/Compitaltion process.md" >}}) [Wasm]({{< ref "posts/libriairies/Wasm.md" >}})
+>[!quote] [Compitaltion process]({{< ref "posts/Compitaltion_process.md" >}}) [Wasm]({{< ref "posts/libriairies/Wasm.md" >}})

@@ -48,4 +48,5 @@ $$3$$
 >[!example]-
 >![ReverseDNSExample_visual.png](/Notes/ReverseDNSExample_visual.png)
 
->[!quote] [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}}) [DNS_Records]({{< ref "posts/DNS_Records.md" >}})
+---
+[DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}}) [DNS_Records]({{< ref "posts/Network/DNS_Records.md" >}})

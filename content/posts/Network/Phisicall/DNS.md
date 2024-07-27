@@ -33,8 +33,9 @@ In order to do it change the file **/etc/resolv.conf** on your systmem
 -  U can check it with the **resolvectl**
 
 ![ResolveConf_visual.png](/Notes/ResolveConf_visual.png)
->[!note]- For [DHCP server]({{< ref "posts/Network/Phisicall/DHCP server.md" >}}) 
+>[!note]- For [DHCP server]({{< ref "posts/Network/Phisicall/DHCP_server.md" >}}) 
 >If you’re using a **DHCP** address and the DHCP server provides a DNS setting, the
 **DHCP** server will replace the contents of the file when it renews the DHCP address.
 
->[!quote]  [DNS_Queries]({{< ref "posts/DNS_Queries.md" >}})
+---
+[DNS_Queries]({{< ref "posts/Network/DNS_Queries.md" >}})

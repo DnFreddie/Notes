@@ -28,4 +28,4 @@ $$1$$
 - Speed 
 	- [piplining_db]({{< ref "posts/databases/piplining_db.md" >}})
 
->[!quote] [Rust Projects]({{< ref "posts/Rust/Rust Projects.md" >}})
+>[!quote] [Rust Projects]({{< ref "posts/Rust/Rust_Projects.md" >}})

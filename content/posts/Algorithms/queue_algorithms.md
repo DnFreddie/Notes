@@ -79,4 +79,4 @@ export default class Queue<T> {
 
 ```
  
->[!quote] [Linked List]({{< ref "posts/Algorithms/Linked List.md" >}}) [stack_algorithms]({{< ref "posts/Algorithms/stack_algorithms.md" >}})
+>[!quote] [Linked List]({{< ref "posts/Algorithms/Linked_List.md" >}}) [stack_algorithms]({{< ref "posts/Algorithms/stack_algorithms.md" >}})

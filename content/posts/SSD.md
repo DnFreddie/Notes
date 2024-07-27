@@ -4,36 +4,35 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-### Solid-state drive 
+### Solid-State Drive (SSD)
 
-
-## [[Block_dev|Block devices]] Limitations
-- Data can be read only on **empty** [[Block_dev#page|pages]]
-- *Erasing* can only be than at the [[Block_dev|block level]] 
+## [[Block_dev|Block Devices]] Limitations
+- Data can be read only on **empty** [[Block_dev#page|pages]].
+- *Erasing* can only be done at the [[Block_dev|block level]].
 
 ### Trimming
-TRIM is a command with the help of which the operating system can tell the solid state drive ({{< ref "posts[SSD](/SSD.md" >}})) which data blocks are no longer needed and can be deleted, or are marked as free for rewriting
-- Instead of deleting hole blocks of memory it enables to delete [[Block_dev#page|pages]]
+TRIM is a command that allows the operating system to inform the solid-state drive ({{< ref "posts/SSD.md" >}}) which data blocks are no longer needed and can be deleted or marked as free for rewriting.
+- Instead of deleting whole blocks of memory, TRIM enables deletion at the [[Block_dev#page|page level]].
 - Whenever a delete command is issued by the operating system or the user, the [SSD]({{< ref "posts/SSD.md" >}}) automatically sends a TRIM command to wipe the storage space being erased.
-#etc 
->[!tip] To enalbe it permanetyly modyfiie
->***/etc/fstab*** and add **discard option**
+
+>[!tip] To enable it permanently, modify
+>***/etc/fstab*** and add the **discard option**.
 >![Pasted_image_20240511151618.png](/Notes/Pasted_image_20240511151618.png)
-	
-- **To run it manually**
-```bash
-sudo fstrim -v 
-```
 
-[Docs](https://www.baeldung.com/linux/trim-ssd#2-modifying-theetcfstab-file) 
+- **To run it manually:**
+  ```bash
+  sudo fstrim -v
+  ```
 
-j[[Automatic Mounting fstab|fstab]]
+[Docs](https://www.baeldung.com/linux/trim-ssd#2-modifying-theetcfstab-file)
+
+[j[[Automatic Mounting fstab|fstab]]]
 
 #### Benefits
-- Prevents fast wear of the flash memory chips that are found inside the [SSD]({{< ref "posts/SSD.md" >}}).
-- Faster reading and writing speed 
+- Prevents rapid wear of the flash memory chips inside the [SSD]({{< ref "posts/SSD.md" >}}).
+- Faster reading and writing speeds.
 
 ---
 
-
 [NVMe]({{< ref "posts/NVMe.md" >}})
+

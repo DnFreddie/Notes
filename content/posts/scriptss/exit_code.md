@@ -14,4 +14,4 @@ draft = false
 	> ![Pasted_image_20230401160713.png](/Notes/Pasted_image_20230401160713.png)
 
 >[!quote] **U can redirect the wrong outpu to the** [devnull]({{< ref "posts/scriptss/devnull.md" >}})
-> [Standard Error]({{< ref "posts/scriptss/Standard Error.md" >}}) [Data Streams]({{< ref "posts/scriptss/Data Streams.md" >}})
+> [Standard Error]({{< ref "posts/scriptss/Standard_Error.md" >}}) [Data Streams]({{< ref "posts/scriptss/Data_Streams.md" >}})

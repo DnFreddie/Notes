@@ -12,6 +12,6 @@ draft = false
 - **Closed controllers**
 	- The environment influence the robot behavior
 		- *Robot makes constat calcualtion *
-		- [closed_loop_control]({{< ref "posts/closed_loop_control.md" >}})
+		- [closed_loop_control](https://www.youtube.com/watch?v=8m0VP5_feOY)
 
 >[!quote] [startup_robotics]({{< ref "posts/startup_robotics.md" >}})

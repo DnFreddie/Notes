@@ -11,9 +11,9 @@ draft = false
 | Unified Extenxsible FIrmware Interface                                          | Basic Input Output System          |
 | Uses Partition(*storse the system there*)                                       | Config stored on the *motherboard* |
 | support for the **big drives**                                                  | **2 TB drive**                     |
-| ==new==                                                                         | ==old==                            |
-| **secure boot**({{< ref "postsdigital key that system is not malware [Digital certificate](/Digital certificate.md" >}})) |                                    |
-**
+| new                                                                         | old                           |
+| **secure boot** postsdigital key that system is not malware [Digital_certificate]({{< ref "posts/Digital_certificate.md" >}}) |                                    |
+
 
 >[!bug] Some computers refer to UEFI as BIOS
 ### Partition types 

@@ -34,4 +34,4 @@ draft = false
 
 
 
->[!quote] [HTTPS]({{< ref "posts/HTTPS.md" >}}) [http_headers]({{< ref "posts/http_headers.md" >}}) [CORS]({{< ref "posts/CORS.md" >}})
+>[!quote] [HTTPS]({{< ref "posts/protocols/HTTPS.md" >}}) [http_headers]({{< ref "posts/http_headers.md" >}}) [CORS]({{< ref "posts/CORS.md" >}})

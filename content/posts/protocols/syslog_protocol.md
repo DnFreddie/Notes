@@ -6,10 +6,11 @@ draft = false
 
 ## Standard for message loging 
 - Diverse systems,consolidated log 
-- [UDP]({{< ref "posts/for later/UDP.md" >}}) **/514**
+- [UDP]({{< ref "posts/for_later/UDP.md" >}}) **/514**
 	- Usualy a ==central log colection==
 	- intergrated wit the **SEIM** (*securitie log manger*)
 >[!bug] You need a lot of disk space 
 >Data storage from many devices over an extended timeframe
 
->[!quote] [SysLog]({{< ref "posts/Penetration/Data Cleanup/SysLog.md" >}}) [[ports#Common ports]]
+---
+[SysLog]({{< ref "posts/logging/SysLog.md" >}}) 

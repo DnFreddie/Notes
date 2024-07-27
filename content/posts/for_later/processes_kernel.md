@@ -7,13 +7,13 @@ draft = false
 An isnstance of the eceacutable 
  - **Only one process may use the Cpu and a given time**
 	-   each process uses the [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}}) for a small fraction of as second then pauses then another process uses the [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}})
-	-   This stitching is called [context switch_kernel]({{< ref "posts/Linux/Kernel/context switch_kernel.md" >}})
+	-   This stitching is called [context switch_kernel]({{< ref "posts/Linux/Kernel/context_switch_kernel.md" >}})
 - The app is running muitple processes 
 	- The process is na continer 
 	- Process ca run other porceses that are called *child processes*
 - The process is not aware of ohter processes 
 -  ![ProcessContainer_visual.png](/Notes/ProcessContainer_visual.png)
-- Eaach process has it's own [Virtual Memory Address]({{< ref "posts/for later/Virtual Memory Address.md" >}})
+- Eaach process has it's own [Virtual Memory Address]({{< ref "posts/for_later/Virtual_Memory_Address.md" >}})
 ### Types of processes 
 |     | *Types*              | *Functionality*                                                            |
 | --- | -------------------- | -------------------------------------------------------------------------- |
@@ -35,6 +35,6 @@ An isnstance of the eceacutable
 | Real time | Exlusive priority                                                   |
 
 --- 
-![threads]({{< ref "posts/for later/threads.md" >}})
+![threads]({{< ref "posts/for_later/threads.md" >}})
  
 >[!quote] 

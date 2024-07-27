@@ -21,10 +21,10 @@ In order to calculate this we sum up all the ones
 		- Used by the local device **in conjunction with [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})** to  determnie what subnet its on 
 			- *The subnet mask is not (ussualy transmited across the network)*
 
-Now we use [VLSM]({{< ref "posts/for later/VLSM.md" >}}) instead of [subnet classes]({{< ref "posts/for later/subnet classes.md" >}})
+Now we use [VLSM]({{< ref "posts/for_later/VLSM.md" >}}) instead of [subnet classes]({{< ref "posts/for_later/subnet_classes.md" >}})
 
 
 
 $$ $$
-[subnet construction]({{< ref "posts/for later/subnet construction.md" >}})
->[!quote] [defult gateway]({{< ref "posts/Network/basic network connections/defult gateway.md" >}}) [DHCP server]({{< ref "posts/Network/Phisicall/DHCP server.md" >}})
+[subnet construction]({{< ref "posts/for_later/subnet_construction.md" >}})
+>[!quote] [defult gateway]({{< ref "posts/Network/basic_network_connections/defult_gateway.md" >}}) [DHCP server]({{< ref "posts/Network/Phisicall/DHCP_server.md" >}})

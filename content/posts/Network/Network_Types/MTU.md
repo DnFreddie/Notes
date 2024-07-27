@@ -1,41 +1,46 @@
+
 +++
 title = 'MTU'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-#Constant 
- <mark style="background: #FFB86CA6;">Maximum Transmition Unit</mark>
-#def *Size of the data that can be send through the network without being fragmented*
+# Constant
+<mark style="background: #FFB86CA6;">Maximum Transmission Unit (MTU)</mark>
 
-## MTU size are ussualy configured once
-*Based on the network infrasturture it does not change often*
+**Definition:** *Size of the data that can be sent through the network without being fragmented.*
 
-#### It's hard to know MTU all the way through the path 
-- **Automated Methods are inaccurate**
-- **Especailly when** [ICMP_protocol]({{< ref "posts/ICMP_protocol.md" >}}) **is filtered**
+## MTU Size Configuration
+- MTU sizes are usually configured once.
+  *Based on the network infrastructure, it does not change often.*
 
-### A siginficant concern for tunneled  traffic({{< ref "posts[VPN](/VPN.md" >}}))
-*The tunnele might be smaller then your local Ethernet segment*
-$$1$$
+#### Challenges with MTU Discovery
+- **Automated methods are inaccurate.**
+- **Especially when** [ICMP Protocol]({{< ref "posts/ICMP_protocol.md" >}}) **is filtered.**
 
-## IF u send to large data wit DF set?
-**Df = ** *dont fragment*
-- Routers will respond back andd tell you to fragment
-- **Hope u get the** [ICMP_protocol]({{< ref "posts/ICMP_protocol.md" >}}) message(*data is to large to sent*)
-### Check weather data is to large!
-- Troubleshoot using [ping_command]({{< ref "posts/ping_command.md" >}})
-	- Ping with **DF** force a perticular size of data
-	  1500 bytes - 8bytes [ICMP_protocol]({{< ref "posts/ICMP_protocol.md" >}}) headr - 20bytes [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) = **1472**
-		- **Widnows**
-		  ```
-		  ping -f -l 1472 8.8.8.8 
-		  ```
-		- MAC and Linux
-		  ```
-		ping -D -s 1472 8.8.8.8
-		  ```
+### Significant Concern for Tunneled Traffic ([VPN]({{< ref "posts/VPN.md" >}}))
+*The tunnel might be smaller than your local Ethernet segment.*
 
-$$2$$
->[!quote] 
->[bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}) [ifconfig]({{< ref "posts/Penetration/ifconfig.md" >}}) 
+
+## What If You Send Data Too Large with DF Set?
+**DF =** *Don't Fragment*
+- Routers will respond back and tell you to fragment the data.
+- **You need to receive** [ICMP Protocol]({{< ref "posts/ICMP_protocol.md" >}}) **message (data is too large to send).**
+
+### Check Whether Data Is Too Large
+- Troubleshoot using [ping Command]({{< ref "posts/ping_command.md" >}})
+  - Ping with **DF** forces a particular size of data:
+    - 1500 bytes - 8 bytes [ICMP Protocol]({{< ref "posts/ICMP_protocol.md" >}}) header - 20 bytes [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) = **1472**
+    - **Windows:**
+      ```bash
+      ping -f -l 1472 8.8.8.8
+      ```
+    - **macOS and Linux:**
+      ```bash
+      ping -D -s 1472 8.8.8.8
+      ```
+
+
+---
+[Bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}})  [Ifconfig]({{< ref "posts/Penetration/ifconfig.md" >}})
+

@@ -13,4 +13,4 @@ draft = false
 	- This command enables you to add or remove services from the rc.d script
 		- ![AddingRcService_visual.png](/Notes/AddingRcService_visual.png)
 
->[!quote] [Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}}) | [Run Levels]({{< ref "posts/for later/Run Levels.md" >}})
+>[!quote] [Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}}) | [Run Levels]({{< ref "posts/for_later/Run_Levels.md" >}})

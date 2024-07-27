@@ -13,4 +13,3 @@ draft = false
 | $36\degree$ | */degree*       |
 
 ---
-[math_MAIN]({{< ref "posts/math_MAIN.md" >}})

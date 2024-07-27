@@ -12,7 +12,7 @@ draft = false
 - Then in order to use it u have to open it 
 	*cryptesetup open /dev/sdd1 device_name*  
 
-### Decryption on [Boot procces]({{< ref "posts/Boot procces.md" >}}) 
+### Decryption on [Boot procces]({{< ref "posts/Boot_procces.md" >}}) 
 
 >[!example] U have to create **/etc/crypttab** file 
 >![Pasted_image_20240427161821.png](/Notes/Pasted_image_20240427161821.png)

@@ -10,4 +10,4 @@ hanks to this approach, we can reuse code used to deploy infrastructure (for exa
 
 --- 
 [[Automation tools.canvas|Automation tools]]
-[CI CD]({{< ref "posts/CI CD.md" >}})
+[CI CD]({{< ref "posts/CI_CD.md" >}})

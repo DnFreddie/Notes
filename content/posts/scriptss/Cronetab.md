@@ -22,9 +22,9 @@ This are located in */etc/cron.(daily,weekly)*
 >[!bug] Don't ever change the global config  
 Add the cronjob as a separate file in */etc/cron.d*
 ### Boot  
-![rc scripts]({{< ref "posts/for later/rc scripts.md" >}})
+![rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})
 
 ---
 
 
->[!quote] [Scheduling Scripts]({{< ref "posts/scriptss/Scheduling Scripts.md" >}}) | [Commands]({{< ref "posts/MAIN Linux/Commands.md" >}}) 
+[Scheduling Scripts]({{< ref "posts/scriptss/Scheduling_Scripts.md" >}})   

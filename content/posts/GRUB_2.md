@@ -23,4 +23,4 @@ dmesg | head
 
 
 
->[!quote] [Boot procces]({{< ref "posts/Boot procces.md" >}})
+>[!quote] [Boot procces]({{< ref "posts/Boot_procces.md" >}})

@@ -8,4 +8,4 @@ draft = false
 Output that produces an error 
 **2 constiudes standard error**
 & constitutes for both 
->[!quote] [exit code]({{< ref "posts/scriptss/exit code.md" >}}), [devnull]({{< ref "posts/scriptss/devnull.md" >}})
+>[!quote] [exit code]({{< ref "posts/scriptss/exit_code.md" >}}), [devnull]({{< ref "posts/scriptss/devnull.md" >}})

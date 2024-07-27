@@ -4,12 +4,12 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Infrastructre as a service 
+## Infrastructure as a Service
 
-#alt-name **HaaS**  ({{< ref "posts*hardwer as a [service](/Linux/service.md" >}}) *)
+**Alternate Name: HaaS** (*hardware as a service*)
 
- - U'r still responsible for the management  and security 
-	 
+- You are still responsible for management and security.
 
+---
+[SaaS]({{< ref "posts/SaaS.md" >}})
 
->[!quote] [SaaS]({{< ref "posts/SaaS.md" >}})

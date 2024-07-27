@@ -7,7 +7,7 @@ draft = false
 ## Multiprotocol Label Switching 
 
 - Learning from [[ATM]] and [[Frame Relay]]
-- Packets through the [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}}) have a label
+- Packets through the [WAN]({{< ref "posts/Network/Network_Types/WAN.md" >}}) have a label
 	- Routing decision are easy
 - **Any transport medium any protocol inside** 
 	- [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}}) packets, [Ethernet]({{< ref "posts/Network/Ref_OSI/Ethernet.md" >}}) frames

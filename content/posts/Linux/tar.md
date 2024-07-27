@@ -14,4 +14,4 @@ from many files *which is then referred to as an archive, tar file, or tarball.*
 
 
 
->[!quote] [Archive vs Compress]({{< ref "posts/Archive vs Compress.md" >}})
+>[!quote] [Archive vs Compress]({{< ref "posts/Archive_vs_Compress.md" >}})

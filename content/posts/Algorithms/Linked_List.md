@@ -42,4 +42,3 @@ The linked list has a *special refrence* that points to the beginning and the en
 
 --- 
 
- [Static Array]({{< ref "posts/Applied data_Obsydian/Python/data.py/Static Array.md" >}})

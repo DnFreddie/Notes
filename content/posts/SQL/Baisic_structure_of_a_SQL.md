@@ -90,7 +90,7 @@ Keyword that allows u to rename a column or table
 
 <mark class="hltr-grses">**Select distinct**</mark>
 
-[SQLoperatrors]({{< ref "posts/SQL/to revise/SQLoperatrors.md" >}})
+[SQLoperatrors](https://www.w3schools.com/sql/sql_operators.asp)
 It only select distinct values such as 
 
 *select distinct e_gender from employee*
@@ -122,4 +122,3 @@ WHERE twitter_handle IS NULL;
 
 SELECT * FROM celebs;`
 
-![1]({{< ref "posts/SQL/to revise/1.md" >}})

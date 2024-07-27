@@ -19,7 +19,7 @@ The config is located into **/etc/logrotate.conf**
 >![LogareteConf_visual.png](/Notes/LogareteConf_visual.png)
 
 ### Removing logs 
-In order to remove files and do not leacve baisic evidance u have to [shred]({{< ref "posts/Penetration/Data Cleanup/shred.md" >}}) the Logfiles
+In order to remove files and do not leacve baisic evidance u have to [shred]({{< ref "posts/logging/shred.md" >}}) the Logfiles
 
 ### Disable logs 
 To disable log u have to stop the [service]({{< ref "posts/Linux/service.md" >}}) daemon 

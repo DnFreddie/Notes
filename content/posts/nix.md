@@ -39,4 +39,4 @@ Git respect history of git so it will not find itself if it hasn't been added
 - docker load -i ./result
 
 
->[!quote] [nix Templates]({{< ref "posts/code_snippets/nix Templates.md" >}})
+>[!quote] [nix Templates]({{< ref "posts/code_snippets/nix_Templates.md" >}})

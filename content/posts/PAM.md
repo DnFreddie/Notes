@@ -12,4 +12,4 @@ draft = false
 ---- 
 [SSSD]({{< ref "posts/SSSD.md" >}}) 
 [[System Auth.canvas|System Auth]]
-[orange book]({{< ref "posts/orange book.md" >}})
+[orange book]({{< ref "posts/orange_book.md" >}})

@@ -20,4 +20,4 @@ written in machine language, an elementary language the [Cpu]({{< ref "posts/Lin
 Use [objdump]({{< ref "posts/objdump.md" >}})
 
 
->[!quote] [Compitaltion process]({{< ref "posts/Compitaltion process.md" >}})
+>[!quote] [Compitaltion process]({{< ref "posts/Compitaltion_process.md" >}})

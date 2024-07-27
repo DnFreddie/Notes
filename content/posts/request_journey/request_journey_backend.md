@@ -4,41 +4,36 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Read 
-- Once the connection was put to the [accept_ queue]({{< ref "posts/accept_ queue.md" >}})   we use the [systemcall]({{< ref "posts/systemcall.md" >}}) **Accept** to pop it from the que and return file description represitenting the coonection (*now backend has a poinbter to the connection*) 
-- Now the backaend  [systemcall]({{< ref "posts/systemcall.md" >}})  **recv**  
-- And call andother [systemcall]({{< ref "posts/systemcall.md" >}})  **read**
-	We **copy** them to the [[system application layer]]
-	- This are alll encryted raw bytes 
-	- ==We dont now yet weather its a request==
-	- Also we have to take care of read time since [recive_queue]({{< ref "posts/recive_queue.md" >}}) has a  limited size 
- $$1$$
-## Decrytp 
-Since i did the  [TLS_session]({{< ref "posts/TLS_session.md" >}})   eariler i can get **symetric key** and exchange it wiht the client 
- - This beeing handeld partially by the [TMP]({{< ref "posts/TMP.md" >}})
-- Then the packet is beeing **copied** (*check decryption in place*) and decrepted 
-## Pharsing 
-We determine the protocol and being pharsing acordingly 
- Issuess
-  - It may be that we dont see the full request ({{< ref "postsit does not fit the [bandwidth](/Network/Phisicall/bandwidth.md" >}}))
-	  - THen u have to wait for the request top be fully get 
+## Read
+- Once the connection is added to the [accept queue]({{< ref "/posts/request_journey/accept_queue.md" >}}), the [system call]({{< ref "posts/systemcall.md" >}}) **accept** is used to pop it from the queue and return a file descriptor representing the connection (*now the backend has a pointer to the connection*).
+- The backend then uses the [system call]({{< ref "posts/systemcall.md" >}}) **recv**.
+- Another [system call]({{< ref "posts/systemcall.md" >}}) **read** is used.
+  - We **copy** the data to the [[system application layer]].
+    - This data is encrypted raw bytes.
+    - ==We do not know yet whether it's a request.==
+    - We must also account for read time, as the [receive queue]({{< ref "posts/request_journey/recive_queue.md" >}}) has a limited size.
 
-## Decoding 
+$$1$$
 
-- What type of encodin the message has it it ASKI or UTF-8 iot based of the language of the backend 
-	- Decopressing compressed parts of the request  
-	- Also **desiralization happens here**
-  
+## Decrypt
+Since I performed the [TLS session]({{< ref "posts/TLS_session.md" >}}) earlier, I can get the **symmetric key** and exchange it with the client.
+- This is partially handled by the [TMP]({{< ref "posts/TMP.md" >}}).
+- The packet is then **copied** (check for decryption in place) and decrypted.
 
-## Process 
-We **fire the evnent** the callBack happen and we get the request 
+## Parsing
+We determine the protocol and begin parsing accordingly. 
+- **Issues:**
+  - It may be that we do not see the full request it does not fit the  [bandwith]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}).
+    - In this case, you have to wait for the request to be fully received.
 
+## Decoding
+- Determine the type of encoding used in the message (e.g., ASCII or UTF-8) based on the backend's language.
+  - Decompress compressed parts of the request.
+  - **Deserialization** happens here.
 
+## Process
+We **fire the event**, the callback occurs, and we process the request.
 
+---
+ [request_journey_kernel]({{< ref "posts/request_journey/request_journey_kernel.md" >}})
 
-
-
-
-
-
->[!quote] [request_journey_kernel]({{< ref "posts/request_journey_kernel.md" >}})

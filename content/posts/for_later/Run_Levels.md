@@ -8,7 +8,7 @@ draft = false
 
 Run it with sudo **init** run level (*this are called init scripts*)
 
->[!Note] Does not work for [sysctl]({{< ref "posts/for later/sysctl.md" >}}) 
+>[!Note] Does not work for [sysctl]({{< ref "posts/for_later/sysctl.md" >}}) 
 
 - **0** Halt the system 
 - **1** Single user/minimal mode 
@@ -21,4 +21,4 @@ Run it with sudo **init** run level (*this are called init scripts*)
 >![Pasted_image_20240426141511.png](/Notes/Pasted_image_20240426141511.png)
 
 
->[!quote] [Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}}) | [Kernel]({{< ref "posts/Linux/Kernel/Kernel.md" >}}) | [rc scripts]({{< ref "posts/for later/rc scripts.md" >}})
+>[!quote] [Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}}) | [Kernel]({{< ref "posts/Linux/Kernel/Kernel.md" >}}) | [rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})

@@ -10,4 +10,4 @@ draft = false
 ![PrivateAdresses_visual.png](/Notes/PrivateAdresses_visual.png)
 
 
->[!quote] [NAT]({{< ref "posts/Network/basic network connections/NAT.md" >}})
+>[!quote] [NAT]({{< ref "posts/Network/basic_network_connections/NAT.md" >}})

@@ -7,7 +7,7 @@ draft = false
 # structure
 It'contains  all
 - File size 
-- [reference count]({{< ref "posts/reference count.md" >}})
+- [reference count]({{< ref "posts/reference_count.md" >}})
 - permission
 - etc
 

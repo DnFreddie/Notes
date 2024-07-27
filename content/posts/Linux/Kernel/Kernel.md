@@ -12,7 +12,7 @@ draft = false
 
 ### Main tasks
 -   Spliting memory into subdevisons
--   **[processes_kernel]({{< ref "posts/for later/processes_kernel.md" >}})**
+-   **[processes_kernel]({{< ref "posts/for_later/processes_kernel.md" >}})**
 
 -   The kernel is responsible for determining which processes are allowed to use the CPU.
 
@@ -29,7 +29,7 @@ draft = false
 	    
 
 -   **System calls and support**
-	-   [processes_kernel]({{< ref "posts/for later/processes_kernel.md" >}}) normally use system calls to communicate with the kernel.
+	-   [processes_kernel]({{< ref "posts/for_later/processes_kernel.md" >}}) normally use system calls to communicate with the kernel.
 
 
 ### See the previous verison of the kernel that are on the machine
@@ -45,14 +45,14 @@ apt list --installed | grep linux-image
 
 ### Kernel Otpions
 U have to write to *etc/sysctl.conf*
-![sysctl]({{< ref "posts/for later/sysctl.md" >}})
+![sysctl]({{< ref "posts/for_later/sysctl.md" >}})
 
 
 
 
 ### Boot 
-[Boot procces]({{< ref "posts/Boot procces.md" >}})
-![rc scripts]({{< ref "posts/for later/rc scripts.md" >}})
+[Boot procces]({{< ref "posts/Boot_procces.md" >}})
+![rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})
 
 
 [cgroups]({{< ref "posts/cgroups.md" >}})

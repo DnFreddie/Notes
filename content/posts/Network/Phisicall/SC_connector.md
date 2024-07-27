@@ -7,4 +7,4 @@ draft = false
 ## Subscriber connectors 
 ![Pasted_image_20230406235245.png](/Notes/Pasted_image_20230406235245.png)
 
->[!quote] [St connector]({{< ref "posts/Network/Phisicall/St connector.md" >}})[LC connector]({{< ref "posts/Network/Phisicall/LC connector.md" >}})
+>[!quote] [St connector]({{< ref "posts/Network/Phisicall/St_connector.md" >}})[LC connector]({{< ref "posts/Network/Phisicall/LC_connector.md" >}})

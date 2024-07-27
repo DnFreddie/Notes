@@ -51,5 +51,4 @@ complete -D -F _completion_loader -o bashdefault -o default
 
 ---
 [Bash Main]({{< ref "/posts/Linux/commands/bash_MAIN.md" >}})
-[]({{< ref "posts/" >}})
 

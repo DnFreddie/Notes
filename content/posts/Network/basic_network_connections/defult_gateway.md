@@ -11,4 +11,4 @@ draft = false
 
 
 
->[!quote] [subnet mask]({{< ref "posts/Network/basic network connections/subnet mask.md" >}}) ; [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}}) ; [lo]({{< ref "posts/Penetration/lo.md" >}})
+>[!quote] [subnet mask]({{< ref "posts/Network/basic_network_connections/subnet_mask.md" >}}) ; [DNS]({{< ref "posts/Network/Phisicall/DNS.md" >}}) ; [lo]({{< ref "posts/Penetration/lo.md" >}})

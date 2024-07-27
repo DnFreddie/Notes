@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Iwlist
-To see  [Wi-Fi]({{< ref "posts/Network/WI-FI/Wi-Fi.md" >}}) **[access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})**  
+To see  [Wi-Fi]({{< ref "posts/Network/WI-FI/Wi-Fi.md" >}}) **[access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}})**  
 >[!example]- *iwlist interface action*
 >![IwlistCOnfig_visual.png](/Notes/IwlistCOnfig_visual.png)
 

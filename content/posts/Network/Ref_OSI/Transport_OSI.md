@@ -11,4 +11,4 @@ has to be devided into smaller pieces
 - TCP(*Transmition Control Protocol*)
 - UDP (*USer Datagram Protocol*)
 >[!quote] 
->[bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}),[MTU]({{< ref "posts/Network/Network Types/MTU.md" >}})
+>[bandwidth]({{< ref "posts/Network/Phisicall/bandwidth.md" >}}),[MTU]({{< ref "posts/Network/Network_Types/MTU.md" >}})

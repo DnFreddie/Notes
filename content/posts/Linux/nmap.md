@@ -29,7 +29,7 @@ draft = false
 	- It look for the operating sysetm  and other services 
 - **nmap  - sV **
 	- Gives  u the version of the operating syste m
-		- usefull to target [Exploits_metasloit]({{< ref "posts/Metasploit Framework/Exploits_metasloit.md" >}}) for this system version 
+		- usefull to target [Exploits_metasloit]({{< ref "posts/Metasploit_Framework/Exploits_metasloit.md" >}}) for this system version 
 ## Nmap for speed 
 - **nmap -T (1-5) its the speed of the command **
 - **namp -Pn skips the pingign g**

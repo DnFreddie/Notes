@@ -4,13 +4,15 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## Post Office Protocol V3 
-- **tcp/110(plain text)**
-- **tcop/995({{< ref "postsPOP3 over [TLS_SSL](/protocols/TLS_SSL.md" >}}) )**
+## Post Office Protocol v3
 
-## Usage 
-Baisic mait transfer fucntionality 
-It ==does not offer many possiblites of mangaing the data== there for [IMAP4]({{< ref "posts/protocols/IMAP4.md" >}}) is used more offten 
+- **TCP/110** (plain text)
+- **TCP/995** POP3 over TLS SSL.md
 
+## Usage
 
->[!quote] [[ports#Common ports]]
+Basic mail transfer functionality. It ==does not offer many possibilities for managing data==; therefore, [IMAP4]({{< ref "posts/protocols/IMAP4.md" >}}) is used more often.
+
+---
+ [[Ports#Common ports]]
+

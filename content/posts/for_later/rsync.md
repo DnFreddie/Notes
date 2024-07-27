@@ -10,4 +10,5 @@ draft = false
 		- *rsync -av /path/to/source/ /path/to/destination/*
 
 
->[!quote] [Commands]({{< ref "posts/MAIN Linux/Commands.md" >}}) 
+---
+[Commands]({{< ref "/posts/Linux/commands/bash_MAIN" >}}) 

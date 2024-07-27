@@ -16,7 +16,7 @@ Confidentiality and integrity/anti-replay
 	
 
 ## Core IPSec protocols 
-- [AH_protocol]({{< ref "posts/AH_protocol.md" >}}) **Authentitacion Header**
+- [AH_protocol]({{< ref "posts/Ah_header.md" >}}) **Authentitacion Header**
 - [ESP_prtocol] **Encapslation Security Payload**
 
 ## Modes 
@@ -30,4 +30,4 @@ Confidentiality and integrity/anti-replay
  - This also encrypts the [IP]({{< ref "posts/Network/Ref_OSI/IP.md" >}})
 	 -  ![IPSecTunnelMode_visual.png](/Notes/IPSecTunnelMode_visual.png)
 
->[!quote] [OSI Model]({{< ref "posts/MAIN Network+/OSI Model.md" >}})  [VPN]({{< ref "posts/VPN.md" >}})
+>[!quote] [OSI Model]({{< ref "posts/MAIN_Network+/OSI_Model.md" >}})  [VPN]({{< ref "posts/VPN.md" >}})

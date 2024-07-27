@@ -20,4 +20,4 @@ All the computer are connected to the internet via Proxy
 	- Conncet to the home server and acces the webiste 
 
 
->[!quote] [NAT]({{< ref "posts/Network/basic network connections/NAT.md" >}}) [proxy]({{< ref "posts/Linux/Network manipulation/proxy.md" >}})
+>[!quote] [NAT]({{< ref "posts/Network/basic_network_connections/NAT.md" >}}) [proxy]({{< ref "posts/Linux/Network_manipulation/proxy.md" >}})

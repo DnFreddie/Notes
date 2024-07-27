@@ -4,9 +4,9 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    # Gnu Pg
+# Gnu Pg
 [Docs](https://www.maketecheasier.com/verify-authenticity-linux-software-digital-signatures/)
-- [Linux]({{< ref "posts/Templates/Linux.md" >}})  utility  that verifies the [[Digital certificate|digital signature]] of the package
+- Linux utility  that verifies the [[Digital certificate|digital signature]] of the package
 	- It' usually marked with the **checksum** file
 
 ###  Doing it manually 

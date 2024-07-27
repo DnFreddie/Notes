@@ -6,24 +6,24 @@ draft = false
 
     1. **File system hierarchy** 
 2. **Boot**
-	- [UEFI vs BIOS]({{< ref "posts/UEFI vs BIOS.md" >}}) 
-	- [Boot procces]({{< ref "posts/Boot procces.md" >}})
+	- [UEFI vs BIOS]({{< ref "posts/UEFI_vs_BIOS.md" >}}) 
+	- [Boot procces]({{< ref "posts/Boot_procces.md" >}})
 	- [[UEFI vs BIOS#Partition types|Partition types]]
 			- [[Files systems.canvas|Fiels systems]]
-	- [GRUB 2]({{< ref "posts/GRUB 2.md" >}})
-		- [Run Levels]({{< ref "posts/for later/Run Levels.md" >}})
+	- [GRUB 2]({{< ref "posts/GRUB_2.md" >}})
+		- [Run Levels]({{< ref "posts/for_later/Run_Levels.md" >}})
 3. **Devices types in /dev**
-	- [Block vs character dev]({{< ref "posts/Block vs character dev.md" >}})
+	- [Block vs character dev]({{< ref "posts/Block_vs_character_dev.md" >}})
 		- [[Block vs character dev#Special character devices|Special character devieces]]
-		- [Getting PCI dev info]({{< ref "posts/Getting PCI dev info.md" >}})
+		- [Getting PCI dev info]({{< ref "posts/Getting_PCI_dev_info.md" >}})
 	- [[Combining Disks (raid).canvas|Combining Disks (raid)]]
 	 - **Commands** 
 		 - stat(*gives a more detailed overview of the metadata*)
 		 - file
-4. [Archive vs Compress]({{< ref "posts/Archive vs Compress.md" >}})
+4. [Archive vs Compress]({{< ref "posts/Archive_vs_Compress.md" >}})
 5. [Partitioning]({{< ref "posts/Partitioning.md" >}})
-	- [Automatic Mounting fstab]({{< ref "posts/Automatic Mounting fstab.md" >}}) 
-	- [Dick encryption]({{< ref "posts/Dick encryption.md" >}})
+	- [Automatic Mounting fstab]({{< ref "posts/Automatic_Mounting_fstab.md" >}}) 
+	- [Dick encryption]({{< ref "posts/Dick_encryption.md" >}})
 1. [LVM]({{< ref "posts/LVM.md" >}})
 2. [[Virtual Storage.canvas|Virtual Storage]]
 3. [systemd]({{< ref "posts/systemd.md" >}})
@@ -37,13 +37,13 @@ draft = false
 		- [nslookup]({{< ref "posts/Linux/nslookup.md" >}}) 
 	- [[tcpdump]]
 	- [[whireshark]]
-7. [Repository Configuration]({{< ref "posts/Repository Configuration.md" >}})
+7. [Repository Configuration]({{< ref "posts/Repository_Configuration.md" >}})
 8. [[Kernel#Kernel Otpions|Kernel Options]]
-9. [Localizaiton time setup]({{< ref "posts/Localizaiton time setup.md" >}})
+9. [Localizaiton time setup]({{< ref "posts/Localizaiton_time_setup.md" >}})
 ## Security
 1. **Encryption**
 	-  [[Hash vs Encryption vs digital signature.canvas|Hash vs Encryption vs digital signature]]
-	- [encrypted Web traffic]({{< ref "posts/encrypted Web traffic.md" >}})
+	- [encrypted Web traffic]({{< ref "posts/encrypted_Web_traffic.md" >}})
 2. [[System Auth.canvas|System Auth]]
 3. [Permissions]({{< ref "posts/Linux/Permissions.md" >}})
 	1. [umask]({{< ref "posts/Linux/umask.md" >}})
@@ -74,8 +74,8 @@ draft = false
 	- Consider  diffrent [[Files systems.canvas|Files system]]
 	- check for wa with top
 	- [ioStat]({{< ref "posts/ioStat.md" >}})
-2. [inodes exhaustion]({{< ref "posts/inodes exhaustion.md" >}}) 
-3. [IO schedulers]({{< ref "posts/IO schedulers.md" >}})
+2. [inodes exhaustion]({{< ref "posts/inodes_exhaustion.md" >}}) 
+3. [IO schedulers]({{< ref "posts/IO_schedulers.md" >}})
 4. [NVMe]({{< ref "posts/NVMe.md" >}})
 5. **File system isssues**(*coruption  missmatch*)
 	1. [fsck]({{< ref "posts/Linux/fsck.md" >}})
@@ -100,13 +100,13 @@ draft = false
 
 ### Cpu issues 
 
-- [Load Average]({{< ref "posts/Load Average.md" >}})
+- [Load Average]({{< ref "posts/Load_Average.md" >}})
 - [[Cpu#Cpu times (*Subdevisions*)|Cpu times]]
 - [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}})
 - [[Cpu#CPU process priorities | Cpu priotities]]
-	- [OOM process Killer]({{< ref "posts/OOM process Killer.md" >}})
+	- [OOM process Killer]({{< ref "posts/OOM_process_Killer.md" >}})
 
-[Swap memory]({{< ref "posts/Swap memory.md" >}})
+[Swap memory]({{< ref "posts/Swap_memory.md" >}})
 
 #### Hardwere
 - *lscpu*

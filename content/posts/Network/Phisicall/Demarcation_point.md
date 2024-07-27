@@ -6,7 +6,7 @@ draft = false
 
 
 ## The point were u connect with outside world 
-- [WAN]({{< ref "posts/Network/Network Types/WAN.md" >}}) provider
+- [WAN]({{< ref "posts/Network/Network_Types/WAN.md" >}}) provider
 - Internet service provider
 - #alt-name  **demarc** 
 - Used everywhere

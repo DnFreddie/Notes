@@ -8,7 +8,8 @@ draft = false
 - Share a desktop  from a remote lovation over [TCP]({{< ref "posts/Network/Ref_OSI/TCP.md" >}})**/3389**
 - Remote Desktop  Services on many Windows versions 
 	- Can connect to an entire desktop or just an application 
-	- Clients for *Windows MAc Iphon [Linux]({{< ref "posts/Templates/Linux.md" >}})* can connect easily 
+	- Clients for *Windows MAc Iphon* **Linux** can connect easily 
  
 
->[!quote] [[ports#Common ports]]
+---
+[[ports#Common ports]]

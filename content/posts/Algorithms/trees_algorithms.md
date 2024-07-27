@@ -31,4 +31,4 @@ $$ A $$
 ![traversals]({{< ref "posts/Algorithms/traversals.md" >}})
 $$B$$
 
->[!quote] [quick sort]({{< ref "posts/Algorithms/quick sort.md" >}})
+>[!quote] [quick sort]({{< ref "posts/Algorithms/quick_sort.md" >}})

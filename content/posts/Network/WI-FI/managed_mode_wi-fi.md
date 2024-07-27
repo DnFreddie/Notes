@@ -5,7 +5,7 @@ draft = false
 +++
 
 ## Manged 
-The device is prepared to connect to an [access point]({{< ref "posts/Network/Ref_OSI/access point.md" >}})
+The device is prepared to connect to an [access point]({{< ref "posts/Network/Ref_OSI/access_point.md" >}})
 
 
 >[!quote]
