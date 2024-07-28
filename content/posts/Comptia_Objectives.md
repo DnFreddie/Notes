@@ -2,8 +2,8 @@
 title = 'Comptia Objectives'
 date = 2024-07-22T09:10:24+02:00
 draft = false
-tags = ["certs"]
-categories = ["Comptia Linux +"]
+categories = ["certs"]
+tags = ["Comptia Linux +"]
 +++
 
 *Overview of What You Need to Learn for CompTIA Linux+*
