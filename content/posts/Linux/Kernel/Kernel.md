@@ -51,7 +51,7 @@ U have to write to *etc/sysctl.conf*
 
 
 ### Boot 
-- [Boot procces]({{< ref "posts/Boot_procces.md" >}})
+- [Boot procces]({{< ref "posts/boot_process.md" >}})
 - [rc scripts]({{< ref "posts/for_later/rc_scripts.md" >}})
 - [cgroups]({{< ref "posts/cgroups.md" >}})
 

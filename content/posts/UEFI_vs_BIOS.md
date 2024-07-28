@@ -4,7 +4,8 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    [[Boot_Prcooccess.canvas|Boot_Prcooccess]]
+[Boot procces]({{< ref "posts/boot_process.md" >}})
+
 
 | **UEFI**                                                                        | *BIOS*                             |
 | ------------------------------------------------------------------------------- | ---------------------------------- |
@@ -15,7 +16,9 @@ draft = false
 | **secure boot** postsdigital key that system is not malware [Digital_certificate]({{< ref "posts/Digital_certificate.md" >}}) |                                    |
 
 
->[!bug] Some computers refer to UEFI as BIOS
+>bug!
+>
+>Some computers refer to **UEFI as BIOS**
 ### Partition types 
 
 >

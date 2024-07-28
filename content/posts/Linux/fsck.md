@@ -5,6 +5,9 @@ draft = false
 +++
 
 ## Check errors on the flash drive 
- ** - p means *autoamticly repair *
+  `- p` means *autoamticly repair*
  
->[!quote]  [e2fsck]({{< ref "posts/e2fsck.md" >}}) [Commands_filesSytem]({{< ref "posts/Commands_filesSytem.md" >}}) [[Files systems.canvas|Fiels systems]]
+---
+[e2fsck]({{< ref "posts/e2fsck.md" >}})
+
+[File system Commands]({{< ref "posts/Commands_filesSytem.md" >}}) 

@@ -4,11 +4,11 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### lspci 
+## lspci 
 Getting a list of the connected **PCI** devices
 
 
-### dmidecode 
+## dmidecode 
 Give u the full inforamtion of the devces 
 - There are presented as section 
 	- ![Pasted_image_20240425142425.png](/Notes/Pasted_image_20240425142425.png)

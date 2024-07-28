@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ## Edit config 
+## Edit config 
 It's in the */etc/defualt/*
 
 ### To update 
@@ -17,10 +17,11 @@ It's in the */etc/defualt/*
 ```bash 
 cat /proc/cmdline
 ```
-```
+
+```bash
 dmesg | head 
 ```
 
 
-
->[!quote] [Boot procces]({{< ref "posts/Boot_procces.md" >}})
+---
+[boot procces]({{< ref "posts/boot_process.md" >}})

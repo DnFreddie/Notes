@@ -38,4 +38,5 @@ WantedBy=multi-user.target
 
 ---
 [systemd]({{< ref "posts/systemd.md" >}}) 
-[[systemd#Systemd Timers|Timers]]
+
+[Systemd Timers]({{< ref "posts/systemd#systemd-timers" >}})

@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Security enhanced Linux
+## Security enhanced Linux
 Define on every file what are they allowed to access 
 ### Modes
 ```bash
@@ -73,5 +73,4 @@ semanage boolead --modyfie --on options
 
 
 ---
-
 [AppArmor]({{< ref "posts/AppArmor.md" >}})

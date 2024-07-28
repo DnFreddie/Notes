@@ -13,10 +13,8 @@ draft = false
 Accts like a one block devie
 
 ### Commands
-#check 
 - **pv**(*create* *display* *change*) 
 - **vg**(*create*)
 - **lv**(*create*)
-
---- 
-[[Combining Disks (raid).canvas|Combining Disks (raid)]]
+### Alternatives are the Raid devices
+- ![Raid devices](/Notes/raid_devices_canvas.png)

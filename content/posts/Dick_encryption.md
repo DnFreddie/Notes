@@ -1,5 +1,5 @@
 +++
-title = 'Dick encryption'
+title = 'Disck encryption'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
@@ -12,7 +12,7 @@ draft = false
 - Then in order to use it u have to open it 
 	*cryptesetup open /dev/sdd1 device_name*  
 
-### Decryption on [Boot procces]({{< ref "posts/Boot_procces.md" >}}) 
+### Decryption on  [boot procces]({{< ref "posts/boot_process.md" >}})
 
 >[!example] U have to create **/etc/crypttab** file 
 >![Pasted_image_20240427161821.png](/Notes/Pasted_image_20240427161821.png)

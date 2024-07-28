@@ -4,19 +4,28 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-## The user permmison are wirt in the sctions 
-First is for user second is for gorup and third for all users 
 
+Permissions are written in 3 sections.
+1. for the user
+2. for the group
+3. for all users
 
-## Permisions can be added   binary
-- Meaning that in ordder to add  all permisions to all users u have to type 7 7 7 
+## Adding Permissions in Binary
 
->[!Example] Numeric represenation of permmmision 
->![Pasted_image_20230404214606.png](/Notes/Pasted_image_20230404214606.png)
+To add all permissions to all users, you need to type `777`.
 
-![umask]({{< ref "posts/Linux/umask.md" >}})
-## Special permisions
-![SUID]({{< ref "posts/Linux/SUID.md" >}})
-![SGID]({{< ref "posts/Linux/SGID.md" >}})
+> Example 
+>
+>Numeric representation of permissions  
+> ![Permissions Example](/Notes/Pasted_image_20230404214606.png)
 
->[!quote] [skel_etc]({{< ref "posts/etc/skel_etc.md" >}})
+[umask]({{< ref "posts/Linux/umask.md" >}})
+
+## Special Permissions
+
+- [SUID]({{< ref "posts/Linux/SUID.md" >}})
+- [SGID]({{< ref "posts/Linux/SGID.md" >}})
+
+---
+
+[skel_etc]({{< ref "posts/etc/skel_etc.md" >}})

@@ -17,7 +17,7 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 1. **File system hierarchy** 
 2. **Boot**
 	- [UEFI vs BIOS]({{< ref "posts/UEFI_vs_BIOS.md" >}}) 
-	- [Boot procces]({{< ref "posts/Boot_procces.md" >}})
+	- [Boot procces]({{< ref "posts/boot_process.md" >}})
 	- [Partition types]( {{< ref "posts/UEFI_vs_BIOS.md#partition-types" >}})
 	    - **Fiels systems**
 
@@ -35,7 +35,7 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 4. [Archive vs Compress]({{< ref "posts/Archive_vs_Compress.md" >}})
 5. [Partitioning]({{< ref "posts/Partitioning.md" >}})
 	- [Automatic Mounting fstab]({{< ref "posts/Automatic_Mounting_fstab.md" >}}) 
-	- [Dick encryption]({{< ref "posts/Dick_encryption.md" >}})
+	- [Disck encryption]({{< ref "posts/Dick_encryption.md" >}})
 1. [LVM]({{< ref "posts/LVM.md" >}})
 2. **Virtual Storage**
 |-----------------|-----------------|
@@ -106,7 +106,7 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 6. **vstat**
 7. [Io summery](https://www.site24x7.com/learn/linux/disk-io-troubleshooting.html)
 #### Network torubleshooting
-- Checking [[subnet mask|subnet]] and **routing**
+- Checking [subnet mask]({{< ref "posts/Network/basic_network_connections/subnet_mask.md" >}}) and **routing**
 - [iptables]({{< ref "posts/iptables.md" >}}) 
 ##### Droped packett
 - [ip_command]({{< ref "posts/ip_command.md" >}})
