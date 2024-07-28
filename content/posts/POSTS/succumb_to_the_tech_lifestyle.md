@@ -1,10 +1,11 @@
 +++
-title = 'succumb_to_the_tech_lifestyle'
+title = 'Succumb to the tech_lifestyle'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
-    Nowadays, there are many movements and lifestyles to follow: alpha, sigma, red pill, woke, leftist, rightist. But nobody says anything about the technicians.
+Nowadays, there are many movements and lifestyles to follow: alpha, sigma, red pill, woke, leftist, rightist. But nobody says anything about the technicians.
 
 <br>
 

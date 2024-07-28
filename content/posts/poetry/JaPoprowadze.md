@@ -1,10 +1,10 @@
 +++
 title = 'JaPoprowadze'
 date = 2024-07-22T09:10:24+02:00
-draft = false
+draft = true
 +++
 
-    “dziś-ja-poprowadzę“
+“dziś-ja-poprowadzę“
 
 Zapach migdałów i dzikich róż roznosi się po całym mieszkaniu 
 plastry miodu odrywają się i spadają z sufitu 

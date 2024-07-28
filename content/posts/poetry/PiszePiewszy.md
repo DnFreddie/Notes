@@ -1,10 +1,10 @@
 +++
 title = 'PiszePiewszy'
 date = 2024-07-22T09:10:24+02:00
-draft = false
+draft = true
 +++
 
-    “Rozpałka” 
+ “Rozpałka” 
 
 Rozsiądź się wygodnie
 chcę wiedzieć wszystko

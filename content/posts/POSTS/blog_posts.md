@@ -1,7 +1,7 @@
 +++
 title = 'blog posts'
 date = 2024-07-22T09:10:24+02:00
-draft = false
+draft = true
 +++
 
  [learning_through_self-destruction]({{< ref "posts/POSTS/learning_through_self-destruction.md" >}})
@@ -12,5 +12,3 @@ draft = false
 
 
 ---
-### Undone 
-[The price of abstraction]({{< ref "posts/POSTS/The_price_of_abstraction.md" >}})

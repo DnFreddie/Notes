@@ -1,7 +1,8 @@
 +++
-title = 'the_gold_is_in_the_block'
+title = 'The gold is in the block'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
     People often find excitement in the world of crypto, blockchain, and NFTs, only to fall victim to scams or invest in worthless tokens.

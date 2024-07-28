@@ -54,9 +54,9 @@ params:
   tocopen: false
 
   assets:
-    favicon: "favicon-32x32.png"
-    favicon16x16: "favicon16x16.png"
-    favicon32x32: "favicon-32x32.png"
+    favicon: "/Notes/favicon-32x32.png"
+    favicon16x16: "/Notes/favicon16x16.png"
+    favicon32x32: "/Notes/favicon-32x32.png"
 
   label:
     text: "Home"

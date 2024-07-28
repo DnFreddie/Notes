@@ -2,6 +2,7 @@
 title = 'Its just a body (Ansible)'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
 *Mark your systmes*

@@ -1,7 +1,8 @@
 +++
-title = 'dont_break_easy_preserve_best_version_of_your_sytsem'
+title = 'Dont break easy preserve best_version of your sytsem'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
     

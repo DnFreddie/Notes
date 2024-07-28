@@ -1,7 +1,8 @@
 +++
-title = 'learning_through_self-destruction'
+title = 'Learning through self-destruction'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
     The terminal is one of the last remaining things that bestows absolute power upon you.

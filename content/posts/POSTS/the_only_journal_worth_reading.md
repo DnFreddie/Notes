@@ -1,10 +1,11 @@
 +++
-title = 'the_only_journal_worth_reading'
+title = 'The only journal worth reading'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
-    Everyone has that moment in their life when they think, "Maybe today is the day I'll start journaling." It's just a fleeting thought. You pick up the pen, only to realize that after a long day, you struggle to recall anything significant. Or worse, there's an overwhelming amount to write about, leaving you torn between writing it all and watching TV with your favorite anime girlfriend. *Fortunately, we have computers*...
+Everyone has that moment in their life when they think, "Maybe today is the day I'll start journaling." It's just a fleeting thought. You pick up the pen, only to realize that after a long day, you struggle to recall anything significant. Or worse, there's an overwhelming amount to write about, leaving you torn between writing it all and watching TV with your favorite anime girlfriend. *Fortunately, we have computers*...
 
 ### Computers log everything 
 

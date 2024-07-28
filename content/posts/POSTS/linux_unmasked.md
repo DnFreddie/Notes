@@ -1,7 +1,8 @@
 +++
-title = 'linux_unmasked'
+title = 'Linux unmasked'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+categories = ["posts"]
 +++
 
     When you use an OS like Linux, you must constantly familiarize yourself with the feeling that you will be surprised by it. You can't just learn Linux...
