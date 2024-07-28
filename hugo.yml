@@ -25,6 +25,18 @@ params:
   homeInfoParams:
     Title: Useful learning materials. Just click search
     Content: "*Definitely Not my Personal Notes*  🙃 "
+  socialIcons:
+    - name: github
+      title: Checkout my github
+      url: "https://github.com/DnFreddie"
+    - name: linkedin
+      title: Chekout my linkedin
+      url: "https://www.linkedin.com/in/fryderyk-%C5%82ysiak-b49426254/"
+    - name:  My website
+      title: Chekout my website
+      url: "https://defnotfreddie.com/"
+
+
 
   ShowReadingTime: true
   ShowPostNavLinks: true
@@ -48,7 +60,7 @@ params:
 
   label:
     text: "Home"
-    icon: favicon-32x32.png
+    icon: /Notes/favicon-32x32.png
     iconHeight: 35
   # home-info mode
 
@@ -85,6 +97,7 @@ menu:
       url: archives
 
 pygmentsUseClasses: true
+
 markup:
   highlight:
     noClasses: false
