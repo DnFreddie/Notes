@@ -54,13 +54,13 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/Notes/favicon-32x32.png"
-    favicon16x16: "/Notes/favicon16x16.png"
-    favicon32x32: "/Notes/favicon-32x32.png"
+    favicon: "/favicon-32x32.png"
+    favicon16x16: "/favicon16x16.png"
+    favicon32x32: "/favicon-32x32.png"
 
   label:
     text: "Home"
-    icon: /Notes/favicon-32x32.png
+    icon: /favicon-32x32.png
     iconHeight: 35
   # home-info mode
 
