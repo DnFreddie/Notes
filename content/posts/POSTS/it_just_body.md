@@ -5,7 +5,6 @@ draft = false
 categories = ["posts"]
 +++
 
-*Mark your systmes*
 
 With the endless anthropomorphization of AI and tech, we often think that technology is starting to become more human-like.
 
@@ -19,7 +18,7 @@ But what happens when you have 5,000 Janeys or an entire cluster of them?
 
 
 ### Creating an Environment
-
+![Enviroment](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2FcodingEnvairoment.jpg?alt=media&token=ad313356-64a5-4eac-aee2-c38dc98ea16c)
 It's important to know where we are working whether it's in production, a main cluster, or some other environment.
 In general, the more information a node holds, the easier it is to troubleshoot.
 In Ansible, we can achieve this by setting variables within the inventory itself.
@@ -66,11 +65,13 @@ In the playbook, we can easily choose only the hosts we need based on these vari
       when: hostvars[inventory_hostname]['nodes'] == 2
 ```
 
-### Our enviaroment is not stable 
+### Our environment is not stable 
+
+![aws web services](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Faws_web_servises.jpg?alt=media&token=61b8533f-232c-461a-8eb5-25b8f2dc1c1b)
 
 As I mentioned earlier, when we scale up, we start dealing with dynamic IPs, constant rotation of instances, and varying request loads.
 
-This can make it difficult to pinpoint the true location of boxes  this can truly create horrible mess 
+This can make it difficult to pinpoint the true location of boxes  this can truly create horrible mess. 
 
 Fortunately, Ansible offers a solution to this complexity through **dynamic inventories.**
 
@@ -82,12 +83,13 @@ Just remember to define dynamic groups as empty in the static inventory file; ot
 
 
 ```bash
-# tooo list all the availabe ones
+# list all the available ones
 ansible-doc -t inventory -l
 ```
-Herese the example documentation for the [Docker Containers inventory](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_containers_inventory.html)
+Hearse the example documentation for the [Docker Containers inventory](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_containers_inventory.html)
 
 ### Sometimes u have to do something custom
+
 
 Fortunately, creating something tailored to your needs is straightforward.
 You’re not restricted to using Python. 
@@ -97,7 +99,7 @@ You can use any language that supports outputting JSON to standard output.
 To create a dynamic inventory, simply write a script in your preferred language that generates JSON and outputs it.
 
 You just need to specify the path to the script or binary in your Ansible configuration.
->Herese a small example:
+>Hearse a small example:
 ```go 
 package main
 
@@ -143,8 +145,8 @@ ansible-playbook -i main {playbook name }
 ```
 
 
-
 ### Who Touched It?
+![Goldilocks and the Three Bears](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Fgolidbolocs.webp?alt=media&token=2174424c-cf31-4047-b294-e3099f345c67)
 Imagine you have set up your inventory, executed your favorite playbook, and everything seems nice and stable.
 Then u come back later the same day.
 And, the system doesn't work as expected.
@@ -176,6 +178,7 @@ In this example, the checksum ensures that the file you're copying matches the e
 If the file has been altered, Ansible will detect the discrepancy, helping you identify any unauthorized changes.
 
 ### In a System, Everyone Touches Everything
+![Quote](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Feverything_touches.jpg?alt=media&token=76ac5692-f0d3-4496-944f-37e0ccc71a5c)
 
 Files and systems are constantly moving and changing, making them hard to track.
 
