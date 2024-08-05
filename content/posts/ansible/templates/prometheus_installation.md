@@ -1,64 +1,82 @@
 +++
-title = 'Prometheus_installation'
+title = 'Prometheus installation'
 date = 2024-07-24T22:29:10+02:00
 draft = false
 +++
 
 ```yaml
 ---
-# tasks file for node_exporter
-- name: make a user for prometheus
-  user:
-    name: node_exporter
-    shell: /sbin/nologin
-    create_home: no
+- name: Install Prometheus 
+  hosts: machines
+  become: true  
+  vars:
+    prometheus_url: "https://github.com/prometheus/prometheus/releases/download/v2.25.0/prometheus-2.25.0.linux-amd64.tar.gz"
+    prometheus_tarball: "{{ prometheus_url | basename | regex_replace('\\.tar\\.gz$', '') }}"
 
-- name: Copy over node_exporter to /usr/local/bin
-  copy:
-    src: node_exporter
-    dest: /usr/local/bin/node_exporter
-    mode: 0755
+  tasks:
 
-- name: copy over the service file
-  copy:
-    src: node_exporter.service
-    dest: /etc/systemd/system/node_exporter.service
+    - name: Make a user for Prometheus
+      user:
+        name: prometheus
+        shell: /sbin/nologin
+        system: true
+        create_home: no
+        group: prometheus  
 
-- name: Start the node_exporter service
-  systemd:
-    name: node_exporter
-    state: started
-    daemon_reload: yes
-    enabled: yes
+    - name: Create a group for Prometheus
+      group:
+        name: prometheus
+        system: true
 
-- name: Firewall set for 9100 to be accessible
-  firewalld:
-    port: 9100/tcp
-    permanent: yes
-    state: enabled
-    immediate: yes
-  failed_when: false
-  ignore_errors: true
+    - name: Unarchive a file that needs to be downloaded 
+      unarchive:
+        src: "{{ prometheus_url }}"
+        dest: /opt
+        group: prometheus
+        owner: prometheus
+        remote_src: yes
 
-- name: Setup
-  copy:
-    content: |
-      [
-        {
-          "targets": [ "{{hostvars[item]['ansible_default_ipv4']['address']}}:9100" ],
-          "labels": {
-            "team": "infra",
-            "job": "node"
-           }
-        }
-      ]
-    dest: "/etc/prometheus/{{item}}.json"
-  delegate_to: 192.168.11.193
-  run_once: true
-  loop: "{{ play_hosts }}"
+    - name: Create a symbolic link to Prometheus
+      file:
+        src: "/opt/{{ prometheus_tarball }}"
+        dest: /opt/prometheus
+        owner: prometheus
+        state: link
 
-- name: Restart prometheus
-  shell: pkill -SIGHUP prometheus
-  delegate_to: 192.168.11.193
-  run_once: true
+    - name: Linke the tarball 
+      file:
+        src: "/opt/{{ prometheus_tarball }}"
+        dest: /opt/prometheus
+        owner: prometheus
+        state: link
+
+    - name: Copy the configuration
+      copy:
+        remote_src: yes
+        src: /opt/prometheus/prometheus.yml 
+        dest: /etc/prometheus.yml
+        owner: prometheus
+
+    - name: Firewall set for 9100 to be accessible
+      firewalld:
+        port: 9090/tcp
+        permanent: yes
+        state: enabled
+        immediate: yes
+      failed_when: false
+      ignore_errors: true
+
+    - name: copy over the service file
+      copy:
+          src: prometheus.service
+          dest: /etc/systemd/system/prometheus.service
+
+    - name: Start the prometheus
+      systemd:
+        name: prometheus
+        state: started
+        daemon_reload: yes
+        enabled: yes
+
+
 ```

@@ -28,7 +28,7 @@ sudo useradd -M -r -s /bin/false prometheus
     - **Exporters** **pulls the data over the http** form the nodes 
 - Targets are dicovered via *service discovery or static configuration* 
 >U need to hve **Prometheus server** on main node
->And [Node Exporter]() on the others
+>And [Node Exporter]({{< ref "posts/ansible/templates/node_exporter_installation.md" >}}) on the others
 >![protemtheus Structure](/Notes/prometheus_structure.png)
 
 
