@@ -42,6 +42,7 @@ sudo useradd -M -r -s /bin/false prometheus
 
 
 ###  Push vs pull 
+
 #### Push 
 *Refers to the end point pushing data into promethues instance*
 
@@ -53,8 +54,11 @@ sudo useradd -M -r -s /bin/false prometheus
 *Refers to the end point presenting http inforamtion and then having the promethues isntance **scrape** the data into database*
 - Natively checks weather the node is down (*becouse it's pulling data obviously*)
 - They **roate** if the scrapes are deleted
-
-
+##### Retention time 
+By defualt it st
+```bash
+--storage.tsdb.retatnion.time 31\
+```
 ### Service discovery
 *Can be either `File based` or `Http Based`*
 - File based *via node exporter*
@@ -67,19 +71,10 @@ sudo useradd -M -r -s /bin/false prometheus
     - Contnent-Type must be application/json 
     - Body must be valid JSON
 >![Service discovery](/Notes/service_discovery.png)
+
 ## Tracing and spans
 - `Trace` the hole journey of the request actions as it moves through all nodes in distributed stysem 
 - `Spans` operation or work taking place on a service , web server responding  to an individual **request** or **function**
 
-## PromQL 
-[Cheat sheet and labs](https://promlabs.com/promql-cheat-sheet/)
-
-*Base units*
-![Base prometheus units](/Notes/promql_units.png)
-### Retention time 
-By defualt it st
-```bash
---storage.tsdb.retatnion.time 31\
-```
-### Full Prometheus Model
+## Full Prometheus Model
 >![protemtheus](/Notes/prometheus_overwiev.png)

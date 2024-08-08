@@ -9,6 +9,12 @@ draft = false
 runing as host  
 ```bash
 docker run --rm -ti --network host -v $PWD/work:/work parrotsec/security
+
+```
+Get rid of all running containers
+
+```bash 
+docker rm -f $(docker ps -a -q)
 ```
 # Docker logging 
 
