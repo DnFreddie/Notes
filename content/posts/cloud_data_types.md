@@ -1,5 +1,5 @@
 +++
-title = 'Cloud_data_types'
+title = 'Cloud data types'
 date = 2024-08-08T21:32:30+02:00
 draft = false 
 +++

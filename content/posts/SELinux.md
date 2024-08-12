@@ -2,11 +2,16 @@
 title = 'SELinux'
 date = 2024-07-22T09:10:24+02:00
 draft = false
+tags = ["redhat"]
 +++
 
-## Security enhanced Linux
+# Security enhanced Linux
 Define on every file what are they allowed to access 
-### Modes
+## Contianers   
+[Selinux Containers]({{< ref "posts/redhat/selinux_containers.md">}})
+
+
+## Modes
 ```bash
 sestatus
 ```
