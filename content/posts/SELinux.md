@@ -11,6 +11,9 @@ Define on every file what are they allowed to access
 [Selinux Containers]({{< ref "posts/redhat/selinux_containers.md">}})
 
 
+## Policies 
+[Selinux Policies]({{< ref "posts/redhat/selinux_policies.md">}})
+
 ## Modes
 ```bash
 sestatus
@@ -68,7 +71,35 @@ restorecon -R *
 >add */.autorelable* 
 
 
-### Updating Policies
+
+## Logging
+
+
+[Troubelshootig Selinux Logs](https://www.redhat.com/sysadmin/selinux-denial2)
+
+Hole SELinux message can usually be spotted via journalctl and searching for SELinux.  
+
+```bash
+# It's the current boot session 
+journalctl -b 0
+```
+Or to use what journalctl uses under the hood, which is `/var/log/messages`.  
+
+>The other way around is if the auditd is enabled.
+
+```bash 
+# This will list selinux messages 
+ausearch -m avc
+
+# or 
+grep "denied"/var/log/audit/audit.log
+
+```
+
+## Updating Policies
+
+[Selinux Policies]({{< ref "posts/redhat/selinux_policies.md">}})
+
 Occasionally, programs may attempt to access different user contents using their policies. However, SELinux may block such attempts, even when the set option is correct. In such cases, you need to adjust the SELinux boolean settings.
 
 

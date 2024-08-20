@@ -13,6 +13,8 @@ tags = ["selinux"]
 
 > ***This doesn't work with volumes!!!***
 
+[Explanation](https://www.redhat.com/sysadmin/container-permission-denied-errors)
+
 To label the file as a volume u have to change it context with `container_file_t`
 ```bash
 sudo chcon -t container_file_t /path/to/file
@@ -37,3 +39,11 @@ Docker has access to
 > Containers  can read everything labled  `svirt_sandbox_file_t`
 >
 >[Docs](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_atomic_host/7/html/container_security_guide/docker_selinux_security_policy#docker_selinux_security_policy)
+
+
+### Udica 
+[Docs](https://github.com/containers/udica)
+TODO!
+
+---
+[Selinux MAIN]({{< ref "posts/SELinux.md">}}) [Selinux Containers]({{< ref "posts/redhat/selinux_containers.md">}})

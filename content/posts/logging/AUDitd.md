@@ -38,6 +38,9 @@ Use the -m option to identify specific messages and `-sv` to define the success 
 ausearch -m USER_LOGIN -sv no 
 ```
 
+### Selinux Logs 
+
+[Selinux MAIN]({{< ref "posts/SELinux.md#logging">}})
 
 ### Summary
 *search for executubles*

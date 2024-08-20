@@ -6,6 +6,17 @@ tags = ["selinux"]
 +++
 *When system starts the policies are loaded into memory*
 
+>**Disclaimer**
+>
+>Don't write your own policies for the apps.
+>
+>**Use Containers!**
+>
+>If they fail, use a tool like [udica](https://github.com/containers/udica) to label them.
+>
+>If you absolutely have to, then clone context from the existing app, like Nginx.
+
+
 **List modules**
 ```bash
 semodule -l 
@@ -34,6 +45,8 @@ semange -a -t  http_port_t -p tcp 444-333
 ```
 >- `-m `is to modyfie already existing policy 
 > - `-d` to delete 
+> - `-t` type 
+> - `-a` add
 
 U can check for only your customization wiht -`lC`
 ```bash 
@@ -77,4 +90,9 @@ semanage boolean -l -C
 >Tip 
 >
 >Install **setroubleshoot-server** to deal with the message
+
+
+--- 
+[Selinux MAIN]({{< ref "posts/SELinux.md">}}) [Selinux Containers]({{< ref "posts/redhat/selinux_containers.md">}})
+
 
