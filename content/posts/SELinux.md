@@ -2,7 +2,8 @@
 title = 'SELinux'
 date = 2024-07-22T09:10:24+02:00
 draft = false
-tags = ["redhat"]
+tags = ["selinux","RHEL"]
+categories = ["redhat"]
 +++
 
 # Security enhanced Linux

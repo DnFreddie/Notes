@@ -3,7 +3,7 @@ title = 'Auditd'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 categories = ["logging"]
-tags = ["Redhat"]
+tags = ["RHEL"]
 +++
 # Rules
 #[Check](https://www.youtube.com/watch?v=lc1i9h1GyMA) #[Template](https://github.com/Neo23x0/auditd)

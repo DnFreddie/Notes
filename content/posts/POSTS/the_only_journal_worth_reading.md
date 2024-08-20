@@ -1,6 +1,6 @@
 +++
 title = 'The only journal worth reading'
-date = 2024-07-22T09:10:24+02:00
+date = 2024-06-06T11:49:02.000Z
 draft = false
 categories = ["posts"]
 +++
@@ -9,7 +9,7 @@ Everyone has that moment in their life when they think, "Maybe today is the day 
 
 ### Computers log everything 
 
-![Micorsoft recall](/blog_imgs/Microsoft-Recall-Title.jpg)
+![Micorsoft recall](/Notes/Microsoft-Recall-Title.jpg)
 
 Booting, crashes, and now even your browser activity. Recently, Microsoft announced their new killer feature called Copilot [Recall](https://support.microsoft.com/en-gb/windows/privacy-and-control-over-your-recall-experience-d404f672-7647-41e5-886c-a3c59680af15).
 It's a personal LLM that logs every keystroke and every action you do on your computer, essentially taking screenshots every 5 seconds if the content on your desktop changes.
@@ -69,7 +69,7 @@ Today, however, I want to present a more positive side of logging, the balance b
 
 ### A Small Introduction
 
-![We need more logs meme](/blog_imgs/logging_meeme.jpeg)
+![We need more logs meme](/Notes/logging_meeme.jpeg)
 
 **Journalctl** is an honorable member of the systemd tools suite. 
 
@@ -104,7 +104,7 @@ journalctl --disk-usage
 
 ### How Does journalctl Think?
 
-![Journalctl levels](/Notes/blog_imgs/journal_levels.png)
+![Journalctl levels](/Notes/journal_levels.png)
 
 **Journalctl** views the changing reality of your system in eight categories. 
 
@@ -167,7 +167,7 @@ This structured approach allows you to quickly filter and find specific types of
 
 ### We Are Surrounded by Sessions
 
-![Session picutre](/Notes/blog_imgs/seesion.png)
+![Session picutre](/Notes/seesion.png)
 
 Yoga sessions, therapy sessions, browser sessions ,  sessions are everywhere. journalctl is no exception; it keeps things real with its **boot session**
 
@@ -203,7 +203,7 @@ But **journalctl** isn't alone; there are many more journalists among us...
 
 ### Who Watches Last, Lastb? Somebody’s Watching Me?
 
-![Somebodys watching singer ](/blog_imgs/somboeiesWatching.jpg)
+![Somebodys watching singer ](/Notes/somboeiesWatching.jpg)
 
 I always feel like  [Somebody's Watching Me... ](https://www.youtube.com/watch?v=7YvAYIJSSZY)
 
@@ -256,7 +256,7 @@ sudo lastb
 
 ### All of Us Are Peeping Toms Somewhere Deep Down
 
-![Pair peeping on friends](/Notes/blog_imgs/peeping.png)
+![Pair peeping on friends](/Notes/peeping.png)
 
 That's why the **w** command was invented. 
 
@@ -306,7 +306,7 @@ whowatch
 
 ### Logs Are Everywhere, You Just Have to Reach for Them
 
-![What does the log say](/Notes/blog_imgs/what_doesThe_log_say.png)
+![What does the log say](/Notes/what_doesThe_log_say.png)
 
 Unfortunately, in the Linux world, we tend to skip any form of reading logs because it's much simpler and quicker to create a new machine or to format it than to traverse through the logs. But this is the wrong way of thinking. 
 
@@ -337,5 +337,6 @@ Eventually, I left this and never came back, but there was a remedy for this. Al
 Logging doesn't have to be scary (despite Microsoft demonizing it). I hope I convinced you to at least try it for fun with **whowatch** or to explore how programmers design their logs. Sometimes it might be hard to keep track of everything, I know this. In the next post, I will try to show you that you can make it far easier by creating audits.
 
 But for now, peace out and remember: **journalct** is the only journal worth reading.
+
 
 

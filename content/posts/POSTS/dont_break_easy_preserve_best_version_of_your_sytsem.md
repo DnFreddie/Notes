@@ -1,22 +1,22 @@
 +++
 title = 'Dont break easy preserve best version of your sytsem'
-date = 2024-07-22T09:10:24+02:00
+date = 2024-05-23T11:49:02.000Z
 draft = false
 categories = ["posts"]
 +++
 
     
-![Broken system](/blog_imgs/brokenComputer.jpg)
+![Broken system](/Notes/brokenComputer.jpg)
 
-I'm sure you remember the feeling of your perfect setup.  
+I'm sure you remember the feeling of your perfect setup.
 
 Special ordered coffee from Network Chuck.
 
-The thrill of the customized Xmonad guessing your current mood and selecting the wallpaper accordingly.  
-All VSCode themes and plugins meticulously selected.  
-The urge to spout code like there's no tomorrow.  
+The thrill of the customized Xmonad guessing your current mood and selecting the wallpaper accordingly.
+All VSCode themes and plugins meticulously selected.
+The urge to spout code like there's no tomorrow.
 
-You open your computer  
+You open your computer
 
 <br>
 
@@ -24,14 +24,14 @@ Only to realize the disk is corrupted and all is gone...
 
 <br>
 
-There's no turning back unless you have a photographic memory  
-and even then, it's so hard to redo this whole thing again.  
+There's no turning back unless you have a photographic memory
+and even then, it's so hard to redo this whole thing again.
 
 <br>
 
 What if I tell you there's a way to preserve your best system self?
 
-Buy my course at www...  
+Buy my course at www...
 No, I'm kidding, the recipe is simple.
 
 ## 3 pillars of the stable system
@@ -49,46 +49,46 @@ When you evaluate your environment, you have to focus on these 3 things:
 
 ### Regular backups
 
-![Broken system](/blog_imgs/cloudBckup.jpg)
+![Broken system](/Notes/cloudBckup.jpg)
 
-It's the obvious one, but I'm pretty sure there's one thing you forgot to do so.  
+It's the obvious one, but I'm pretty sure there's one thing you forgot to do so.
 This one photo album from summer 2019?
-And that good  you shouldn't remember at all about it...  
-No, I mean it.  
-The issue with backups is that they take a lot of mental effort to do so.  
+And that good  you shouldn't remember at all about it...
+No, I mean it.
+The issue with backups is that they take a lot of mental effort to do so.
 That's why you have to automate it.
 
 <br>
 
 **Stick to the basic tools**
 
-I'm sure you're familiar with **git**, you used **rsync** one or two times while SSHing to your Home Lab.  
-You might have heard about the cron jobs or systemd timers.  
+I'm sure you're familiar with **git**, you used **rsync** one or two times while SSHing to your Home Lab.
+You might have heard about the cron jobs or systemd timers.
 Why not combine all these tools?
 
-So set up a repo backup or whatever 
+So set up a repo backup or whatever
 
 *remember about creating also one more branch not only main.*
 
 <br>
 
-The thing is you might change something in config that's not stable and later  regret it.  
-And I know in git, you can revert to the particular commit, but sometimes you like all the changes except one or two on different commits...  
+The thing is you might change something in config that's not stable and later  regret it.
+And I know in git, you can revert to the particular commit, but sometimes you like all the changes except one or two on different commits...
 
-So let's say that main branch is for the stable version that you generally enjoy any future changes will be on dev.  
+So let's say that main branch is for the stable version that you generally enjoy any future changes will be on dev.
 
-*You can always merge them any time.*  
+*You can always merge them any time.*
 
 <br>
 
 Then get the list of things you want to backup into one *.txt* file
-and use some bash example 
+and use some bash example
 
 <br>
 
 ```bash
 while read -r line;
-do  
+do
     rsync -av "$line" "$HOME/backup"
 done < backup_list.txt
 ```
@@ -97,9 +97,9 @@ done < backup_list.txt
 
 ## Scheduling
 
-![Shcedules](/blog_imgs/scheduler-min.jpg)
+![Shcedules](/Notes/scheduler-min.jpg)
 
-Now you have to know a bit about the cron jobs or systemd timers.  
+Now you have to know a bit about the cron jobs or systemd timers.
 
 **Cron jobs** may be easier, but I think that having a **unit** is more future-proof.
 
@@ -125,7 +125,7 @@ vim    ~/.config/systemd/user/backup.timer
 
 ```bash
 [Unit]
-Description=Backup files 
+Description=Backup files
 
 [Service]
 ExecStart=/bin/bash -c 'path/to/your/script'
@@ -136,11 +136,11 @@ WantedBy=network.target
 
 <br>
 
-**Install** is just which step of the system initialization it should be executed with 
+**Install** is just which step of the system initialization it should be executed with
 
-*(remember not explicitly after or before)*.  
-Because systemd is the **parent of all the processes**.  
-And it spawns them in a particular order.  
+*(remember not explicitly after or before)*.
+Because systemd is the **parent of all the processes**.
+And it spawns them in a particular order.
 
 <br>
 
@@ -171,11 +171,11 @@ WantedBy=default.target
 ```
 
 
-now add your sevice and timer with 
+now add your sevice and timer with
 
 
 ```bash
-systemctl --user daemon-reload 
+systemctl --user daemon-reload
 systemctl --user --now enable backup.timer
 systemctl --user --now start backup.timer
 ```
@@ -183,18 +183,18 @@ systemctl --user --now start backup.timer
 
 <br>
 
-And voila, we can forget about this once and for all.  
+And voila, we can forget about this once and for all.
 If you're interested in backing up automatically on USB,
-You can edit */etc/fstab* to mount your USB in the given location on boot  
-And just add  the path to  rsync  destination in the script 
+You can edit */etc/fstab* to mount your USB in the given location on boot
+And just add  the path to  rsync  destination in the script
 
 **But be careful and read more about [fstab](https://www.redhat.com/sysadmin/etc-fstab) before you start experimenting.**
 
 
 
-# Reproducibility 
-![Reproduciblity meme](/blog_imgs/reproduciblity_meme.jpg)
-It's great to have everything in place, but how quickly can we get it to work? 
+# Reproducibility
+![Reproduciblity meme](/Notes/reproduciblity_meme.jpg)
+It's great to have everything in place, but how quickly can we get it to work?
 
 Unfortunately, the process is currently too slow.
 
@@ -210,7 +210,7 @@ Therefore, we need to create a script that processes our dotfiles, creates symli
 
 <br>
 
-When we install packages and configure systems traditionally, we often take an **imperative approach**, making modifications directly rather than strictly defining configurations. 
+When we install packages and configure systems traditionally, we often take an **imperative approach**, making modifications directly rather than strictly defining configurations.
 
 <br>
 
@@ -223,7 +223,7 @@ Thast why here comes our sponsor Nixos...
 
 
 ### Nix: Your Way Out
-![Nixos Logo](/blog_imgs/nixosLogo.webp)
+![Nixos Logo](/Notes/nixosLogo.webp)
 Sorry, I know, I know, this isn't the tech coaching channel. But back to the point.
 
 [Nixos](https://nixos.org/), a Linux distribution , offers a completely **declarative** approach.
@@ -248,7 +248,7 @@ This makes testing ridiculously easy since you can install any app, test it, and
 
 *(In the future, there will be more collaboration between NixOS and Docker.)*
 
-You can create a .nix script to locally run and deploy containers based on it. 
+You can create a .nix script to locally run and deploy containers based on it.
 
 The possibilities are endless.
 
@@ -257,14 +257,14 @@ See the [template](https://nix.dev/tutorials/nixos/building-and-running-docker-i
 
 ### Drawbacks of Nix
 While powerful, Nix has limitations.
-Direct binary installations are not supported, and it has a steep learning curve (*it doesn't help that the Nix language is functional*). 
+Direct binary installations are not supported, and it has a steep learning curve (*it doesn't help that the Nix language is functional*).
 
 However, you can get around these issues by using **flakes** and [nix-id](https://github.com/Mic92/nix-ld).
 
 For frequent testers or users with multiple devices, it's highly recommended.
 
 ### Things get corupted (Security Concerns)
-![Bleeding heart](/blog_imgs/heartBleed.webp)
+![Bleeding heart](/Notes/heartBleed.webp)
 
 These days, there are a lot of attacks on software, and particularly recently we had an affair with [Heartbleed 2.0](https://www.techradar.com/pro/website-hosting/huge-backdoor-discovered-that-could-compromise-ssh-logins-on-linux)
 
@@ -290,7 +290,7 @@ I know you haven't thought about it, have you? Neither have I.
 That's why this will be the topic of my next blog post.
 
 ### Portability
-![Bleeding heart](/blog_imgs/porybility.jpeg)
+![Bleeding heart](/Notes/porybility.jpeg)
 
 Despite backups and automation, accessibility remains crucial.
 
@@ -298,16 +298,16 @@ Despite backups and automation, accessibility remains crucial.
 
 Usually, when we have a snapshot or a configuration, we have to install the particular operating system.
 
-This is time-consuming and sometimes isn't even possible 
+This is time-consuming and sometimes isn't even possible
 
 *(for example, when you are using someone else's computer or you have Windows installed)* .
 
 
-### Virutalization the  queen of the flexabilty 
-![Docker Logo](/Notes/blog_imgs/dokcer_Logo.png)
-When it comes to quick and easy solutions, containers immediately comes to mind. 
+### Virutalization the  queen of the flexabilty
+![Docker Logo](/Notes/dokcer_Logo.png)
+When it comes to quick and easy solutions, containers immediately comes to mind.
 
-They offer a rapid and straightforward approach: install everything you need in the container, push it to [Dockerhub](https://hub.docker.com/), and Pccess it from anywhere you want. 
+They offer a rapid and straightforward approach: install everything you need in the container, push it to [Dockerhub](https://hub.docker.com/), and Pccess it from anywhere you want.
 
 <br>
 
@@ -317,8 +317,8 @@ You can even build **container-based** solutions or troubleshoot issues on the t
 
 Containers are quick, simple, and resource-efficient. However, for our daily driver, we're looking for something more versatile and robust
 
-###  Just  use  Vms 
-![Vmare Logo](/blog_imgs/VMware-logo.webp)
+###  Just  use  Vms
+![Vmare Logo](/Notes/VMware-logo.webp)
 This article can be summed up in just one line.
 
 <br>
@@ -348,7 +348,7 @@ If you're not using VMs, just stop reading here and install one...
 <br>
 
 ### Ventoy: The Swiss Army Knife of USB Sticks
-![Ventoy Logo](/blog_imgs/ventoy_logo.jpg)
+![Ventoy Logo](/Notes/ventoy_logo.jpg)
 
 Here in Poland, we were recently advised to have a backpack with essential items just in case something happens.
 
@@ -367,12 +367,12 @@ That's why you should know about [Ventoy](https://www.ventoy.net/en/index.html).
 
 <br>
 
-You probably use Rufus or Balena Etcher to flash your USB drive. 
+You probably use Rufus or Balena Etcher to flash your USB drive.
 
 But what if I told you that you could have *all your VM ISOs,
 files, and family photos* on **one pen drive**?
 
-**Ventoy** does that for you. 
+**Ventoy** does that for you.
 
 Go read about it and be prepared for anything.
 
@@ -380,7 +380,7 @@ Go read about it and be prepared for anything.
 
 You might laugh at me, but how would you know that the computer you happen to find wasn't compromised or doesn't have the tools you need to survive? Or there could be network limitations.
 
-### To sum up 
+### To sum up
 
 So, next time you're diving into the digital land, remember these simple rules:
 
@@ -393,6 +393,7 @@ So, keep tinkering, keep exploring, and above all, keep your system running like
 Because in a world of chaos, your tech setup should be the calm in the storm.
 
 *Don't break easy, preserve that best version of your system!*
+
 
 
 

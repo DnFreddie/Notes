@@ -1,6 +1,6 @@
 +++
-title = 'Succumb to the tech_lifestyle'
-date = 2024-07-22T09:10:24+02:00
+title = 'Succumb to the tech lifestyle'
+date = 2024-06-20T10:15:50.000Z
 draft = false
 categories = ["posts"]
 +++
@@ -22,7 +22,7 @@ But think again. **We're the Davids in this battle, and we all know how that sto
 
 ### We're the Builders
 
-![Building softwere meme](/blog_imgs/sucumb_to_tech/unsucesfullbuild.webp)
+![Building softwere meme](/Notes/unsucesfullbuild.webp)
 
 **When was the last time you built something?**
 
@@ -48,7 +48,7 @@ We even build the web so you can brag about your problems and sell your  ponzi s
 
 ### We Love Our Tools
 
-![Proggraming setup meme](/Notes/blog_imgs/sucumb_to_tech/setupjoke.png)
+![Proggraming setup meme](/Notes/setupjoke.png)
 
 Emacs, Vim, Linux, Windows, React, Solid, Ranger, vifm we know them inside and out.
 
@@ -70,7 +70,7 @@ For every action you do, we have a bot, a shortcut, or a script ready.
 
 ### We're the learners 
 
-![Obsidian setup](/blog_imgs/sucumb_to_tech/obsidian_setup.jpeg)
+![Obsidian setup](/Notes/obsidian_setup.jpeg)
 
 I'm sure you've thought at least once in your life that what you learn in school won't help you in the real world.
 
@@ -96,7 +96,7 @@ U see one day the abstraction will literally blow your mind.
 
 ### We are the community
 
-![How to be a linux user video](/blog_imgs/sucumb_to_tech/how_to_fit.jpg)
+![How to be a linux user video](/Notes/how_to_fit.jpg)
 
 People might dive in, gushing about tools and programming languages, but when they see you creating, they're always ready to help.
 

@@ -17,8 +17,6 @@ However, once I started deploying containers, everything took a turn for the wor
 
 To follow along with this tutorial, you'll need to download a [special Red Hat instruction](https://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf).
 
-If you think you can skip this step, you might be missing out on some valuable insights.
-
 If you think you are so smart that you won't need it, I'll say you will miss a lot.
 But for those who won't believe, I leave this...
 
@@ -42,7 +40,7 @@ There are three states of SELinux:
 
 To check the current status, use the command `sestatus`.
 
-We can skip the **"Disabled"** state because none of us wants to receive a copy of the coloring book handed to us in front of our boss!
+We can skip the **"Disabled"**  because none of us wants to receive a copy of the coloring book handed to us in front of our boss!
 
 This leaves us with two options:
 - we can either conform to the Red Hat specifications 
@@ -72,6 +70,7 @@ I will show you this in my future post so stay tuned for that!
 >![Selinux error message](/Notes/selinux_meme.jpg)
 
 In SELinux, file labeling is crucial and follows this format:  
+
 `user:role:type:level`
 
 Unless you work for a governmental institution, you can **skip user, level, and role,** and default to **unconfined**.
@@ -84,7 +83,7 @@ To view the SELinux context of files, you can use the following command:
 ls -Z
 ```
 
-All you have to remeber is the firs part of the context, such as `httpd_t`, it  indicates which components can interact with each other.
+All you have to remeber is the first part of the context, such as `httpd_t`, it  indicates which components can interact with each other.
 
 For instance, `httpd_t` can interact with all `httpd` components but cannot interact with `ssh_t`.
 
@@ -97,14 +96,14 @@ If you check the output of the command:
 ps -auxZ
 ```
 
-you will see that even running processes maintain their SELinux context.
+You will see that even running processes maintain their SELinux context.
 The same principle applies to network ports. By using the command:
 
 ```bash
 ss -tunaZ
 ```
 
-you can view the associated contexts for network connections.
+You can view the associated contexts for network connections.
 
 Typically, different services are linked to default ports. 
 For example, if you want to enable SSH to listen on port **6969**, you would need to execute the following command:
@@ -113,10 +112,8 @@ For example, if you want to enable SSH to listen on port **6969**, you would nee
 # -a is for add, -t is for type, -p is for port
 sudo semanage port -a -t ssh_port_t -p tcp 6969
 ```
-Here’s a formatted version of your text:
 
 ---
-
 ### Where This All Is Defined and How to Be Lazy
 
 > ![SELinux error message](/Notes/being_lazy_visual.jpg)
@@ -124,6 +121,7 @@ Here’s a formatted version of your text:
 There are a lot of apps that work similarly to each other, so if you ever worried about the policy or the context, look them up and basically copy it.
 
 The contexts are stored in `/etc/selinux/targeted/contexts/files/file_contexts`.  
+
 There are almost **7000** default contexts inside it (*6658 on my system*). To set one, you have to first point SELinux to what the context should be:
 
 ```bash
@@ -149,7 +147,7 @@ And that's a mistake.
 
 Containers are superior due to the fact that they are isolated and do not interact with the host system as much. They are much easier to handle than,  for example, writing custom policies.
 
-Becouse there unique lables inside them.
+Becouse of  unique lables inside them.
 
 However, there are some nuances that need to be covered.
 
@@ -199,7 +197,11 @@ This tool will relabel the context to meet the requirements of the containers, s
 
 > ![SELinux error message](/Notes/selinux_message_visual.png)
 
-When people say SELinux is hard to debug, I think they forget about `journalctl`. The messages are quite extensive and usually point you to what to do in order to resolve the issues. You just have to know where to look for them.
+When people say SELinux is hard to debug, I think they forget about `journalctl`.
+
+The messages are quite extensive and usually point you to what to do in order to resolve the issues.
+
+*You just have to know where to look for them.*
 
 All SELinux messages can usually be spotted via `journalctl` by searching for "SELinux":
 

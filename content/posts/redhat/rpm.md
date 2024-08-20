@@ -2,7 +2,7 @@
 title = 'Rpm package manager'
 date = 2024-08-01T19:23:14+02:00
 draft = false
-tags = ["redhat"]
+tags = ["RHEL"]
 +++
 
 

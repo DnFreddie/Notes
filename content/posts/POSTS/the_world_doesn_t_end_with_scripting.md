@@ -1,6 +1,6 @@
 +++
 title = 'The world doesnt end with scripting'
-date = 2024-07-22T09:10:24+02:00
+date = 2024-07-09T11:27:06.000Z
 draft = false
 categories = ["posts"]
 +++

@@ -17,6 +17,8 @@ tags = ["selinux"]
 >If you absolutely have to, then clone context from the existing app, like Nginx.
 
 
+[Guide to write a policy](https://access.redhat.com/articles/6999267)
+
 **List modules**
 ```bash
 semodule -l 

@@ -1,10 +1,9 @@
 +++
-title = 'Its just a body (Ansible)'
-date = 2024-07-22T09:10:24+02:00
+title = 'Humanise Servers With Ansible'
+date = 2024-07-09T11:27:06.000Z
 draft = false
 categories = ["posts"]
 +++
-
 
 With the endless anthropomorphization of AI and tech, we often think that technology is starting to become more human-like.
 
