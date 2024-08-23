@@ -28,10 +28,11 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 - [Block vs character dev]({{< ref "posts/Block_vs_character_dev.md" >}})
      - [Special character devices]({{< ref "posts/Block_vs_character_dev.md#special-character-devices" >}})
 	- [Getting PCI dev info]({{< ref "posts/Getting_PCI_dev_info.md" >}})
-- ![Raid devices](/Notes/raid_devices_canvas.png)
-	 - **Commands** 
-		 - stat(*gives a more detailed overview of the metadata*)
-		 - file
+>[Raid devices]( {{< ref "posts/RAID_STORAGE.md" >}})
+>![Raid devices](/Notes/raid_devices_canvas.png)
+ - **Commands** 
+	- stat(*gives a more detailed overview of the metadata*)
+	- file
 4. [Archive vs Compress]({{< ref "posts/Archive_vs_Compress.md" >}})
 5. [Partitioning]({{< ref "posts/Partitioning.md" >}})
 	- [Automatic Mounting fstab]({{< ref "posts/Automatic_Mounting_fstab.md" >}}) 

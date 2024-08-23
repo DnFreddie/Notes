@@ -5,16 +5,21 @@ draft = false
 +++
 
 ## rsyslog.conf
+*By defualt in `Redhat` kernel messages are not collected!*
+
 >[Example](/Notes/Pasted_image_20230407153603.png)
 >
 
 ### Forwording  log to a diffrnetnt location 
 *By defualt this puts every log into* `one giant file`
+
+*Ususaly chose one either UDP or TCP both my crasch it*
 ```bash
 # Provides UDP syslog reception
  for parameters see http://www.rsyslog.com/doc/imudp.html
 module(load="imudp") # needs to be done just once
 input(type="imudp" port="514")
+
 
 # Provides TCP syslog reception
 for parameters see http://www.rsyslog.com/doc/imtcp.html
@@ -22,7 +27,7 @@ module(load="imtcp") # needs to be done just once
 input(type="imtcp" port="514")
 ```
 #### Templates/Filters
-[Docs](https://www.rsyslog.com/doc/configuration/templates.html)
+[TemplatingDocs](https://www.rsyslog.com/doc/configuration/templates.html)
 
 *This shoudl have been created as a seprate rule in* `rsyslog.d`
 

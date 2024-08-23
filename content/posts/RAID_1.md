@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Mirrored Array 
+### Mirrored Array 
 
 - Every single drive is a mirror of the other drives
 	- **No speed increase**

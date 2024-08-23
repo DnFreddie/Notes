@@ -4,7 +4,7 @@ date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
 
-    ### Stripe 
+### Stripe 
 - All of the drives are added together (**ex 40 GB**)
 	- **High  space composite**
 	- When u write a file to the disc array quarter of the files  go to each disk
@@ -13,7 +13,7 @@ draft = false
 >[!bug] It's vulnerable to the data loss
 
 >[!example]
-![Pasted_image_20240425180738.png](/Notes/Pasted_image_20240425180738.png)
+>![Pasted_image_20240425180738.png](/Notes/Pasted_image_20240425180738.png)
 
 ----
 [[Combining Disks (raid).canvas|Combining Disks (raid)]]
