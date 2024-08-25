@@ -32,7 +32,8 @@ draft = false
 - Use Case 
     - Aplication that maximzie high avalibility
     - Each instance has to be isolated form faileur from each other
-
+### Can Operate on racks and hosts 
+[Aws host outputs]({{< ref "posts/sysops_aws_cert/ec2_instances/aws_outposts.md" >}})
 
 
 
@@ -47,4 +48,4 @@ draft = false
 
 
 --- 
-[Ec2instance]({{< ref "posts/sysops_aws_cert/ec2_instance.md" >}})
+[Ec2instance]({{< ref "posts/sysops_aws_cert/ec2_instances/ec2_instance.md" >}})

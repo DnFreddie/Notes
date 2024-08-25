@@ -6,6 +6,7 @@ draft = false
 
 # Open System Interactions Refrence Model
 **How data move across devices**
+>![Summary_OSI_Visual.png](/Notes/Summary_OSI_Visual.png)
 
 *All People Seem To Need Data Procsess*
 - **Psyhical**
@@ -21,4 +22,3 @@ draft = false
   -  6. [Phyiscal]({{< ref "posts/Network/Ref_OSI/Presentation_OSI.md" >}})
   -  7. [Application]({{< ref "posts/Network/Ref_OSI/Application_OSI.md" >}})
 
->![Summary_OSI_Visual.png](/Notes/Summary_OSI_Visual.png)

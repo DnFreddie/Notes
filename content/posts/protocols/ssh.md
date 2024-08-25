@@ -5,23 +5,47 @@ draft = false
 +++
 
 ## Secure shell 
-Looks and acts the same as a telnet
+*Looks and acts the same as a telnet but it's encrypted*
 
-####  To checkot the config use 
- **ssd -T**
+###  To checkot the config use 
+```bash
+ sshd -T
+```
+
+### Example Client config 
+
+```bash 
+Host test
+    HostName 123.457.23
+    User test
+    Port 22
+     IdentityFile ~/.ssh/keys.pem
+```
 
 #### Key-gen 
 
 ```bash
 ssh-keygen -t ed25519
 ```
+
 >[!bug] Rember about [Permissions]({{< ref "posts/Linux/Permissions.md" >}}) 
 >Wsl grants all the permison to a file that may casue issue becouse ssh will claim thas **insecure**
+>
+>The the permisons shoudl be  `0400` 
 
 
 >[!quote] [ports]({{< ref "posts/ports/ports.md" >}}) [podman]({{< ref "posts/podman.md" >}}) [docker]({{< ref "posts/Linux/Docker/docker.md" >}})
 
 
+### SSH Tunnels/Por forwarding
+[Article](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
+```bash 
+# -N to only mentaine the proxy  not interactable
+# -f run in the backgorund 
+#ssh -L [LOCAL_IP:]LOCAL_PORT:DESTINATION:DESTINATION_PORT [USER@]SSH_SERVER
+
+ssh -L 5901:localhost:6969 -N -f user@remote.host
+```
 
 ### Deufalt message 
 
