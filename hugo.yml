@@ -1,4 +1,4 @@
-baseURL: "https://dnfreddie.github.io./Notes/"
+baseURL: "https://dnfreddie.github.io/Notes/"
 title: DefnotNotes
 paginate: 5
 theme: PaperMod
@@ -54,13 +54,13 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/favicon-32x32.png"
-    favicon16x16: "/favicon16x16.png"
-    favicon32x32: "/favicon-32x32.png"
+    favicon:  favicon-32x32.png
+    favicon16x16: assets/favicon16x16.ico
+    favicon32x32: assets/favicon-32x32.ico
 
   label:
     text: "Home"
-    icon: /favicon-32x32.png
+    icon: potentialLogo.jpg  
     iconHeight: 35
   # home-info mode
 
@@ -83,18 +83,18 @@ params:
 menu:
   main:
     - identifier: search
-      name: Search
+      name: Search🔍
       url: /search/
       weight: 10
-    - name: Tags
+    - name: Tags 🏷️
       url: tags
       weight: 30
-    - name: Categories
+    - name: Categories📁
       url: categories
       weight: 20
     - identifier: Archives
-      name: Archives
-      url: archives
+      name: Timeline ⏳ 
+      url: timeline
 
 pygmentsUseClasses: true
 

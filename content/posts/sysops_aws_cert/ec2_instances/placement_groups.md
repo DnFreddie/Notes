@@ -2,6 +2,7 @@
 title = 'Placement groups'
 date = 2024-08-23T10:36:15+02:00
 draft = false
+tags = ['ec2']
 +++
 *This is similar to the [Raid Levels]({{< ref "posts/RAID_0.md" >}})*
 ## Cluster

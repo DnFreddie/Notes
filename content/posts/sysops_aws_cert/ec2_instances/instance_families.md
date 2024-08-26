@@ -2,6 +2,7 @@
 title = 'Instance Types'
 date = 2024-08-24T19:46:01+02:00
 draft = false
+tags = ['ec2']
 +++
 
 (**A, C, D, H, I, R, T, Z**) refer to different families of instance types, each optimized for specific use cases

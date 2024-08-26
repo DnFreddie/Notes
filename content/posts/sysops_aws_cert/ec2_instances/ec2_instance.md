@@ -3,6 +3,7 @@ title = 'Ec2 instance'
 date = 2024-08-23T09:25:54+02:00
 draft = false
 categories = ["aws"]
+tags = ['ec2']
 +++
 
 *The defult user for aws is the `ec2-user`*
@@ -103,4 +104,5 @@ You **can't connect to the EC2 instance in the browser using your local IP addre
 
 
 
-## Purchesing options 
+## Purchasing options 
+[Ec2 purchasing options]({{< ref "posts/sysops_aws_cert/ec2_instances/ec2_purches_options.md" >}})

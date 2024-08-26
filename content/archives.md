@@ -1,6 +1,6 @@
 ---
-title: "Archive"
+title: "Timeline 📅"
 layout: "archives"
-url: "/archives/"
+url: "/timeline/"
 summary: archives
 ---
