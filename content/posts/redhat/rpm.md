@@ -4,8 +4,7 @@ date = 2024-08-01T19:23:14+02:00
 draft = false
 tags = ["RHEL"]
 +++
-
-
+[Rocky Linux Repositories](https://wiki.rockylinux.org/rocky/repo/#community-approved-repositories)
 
 ### When the pacage was insatlled `--last`
 ```bash

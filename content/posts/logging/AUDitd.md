@@ -6,7 +6,12 @@ categories = ["logging"]
 tags = ["RHEL"]
 +++
 # Rules
-#[Check](https://www.youtube.com/watch?v=lc1i9h1GyMA) #[Template](https://github.com/Neo23x0/auditd)
+#[Youtube tutorial](https://www.youtube.com/watch?v=lc1i9h1GyMA) #[Defult rules repo](https://github.com/Neo23x0/auditd)
+
+```bash
+# To Reastart auditd
+service auditd restart
+```
 
 
 ## ausearch 
