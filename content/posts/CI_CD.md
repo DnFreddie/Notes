@@ -9,5 +9,4 @@ draft = false
  frequent merging of code and adding testing in an automated manner to perform checks as new code is pushed and merged. 
  
  ---
-
-[iac]({{< ref "posts/iaC.md" >}})
+[iac]({{< ref "posts/cloud/iaC/iaC.md" >}})

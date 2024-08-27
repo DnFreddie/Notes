@@ -234,7 +234,7 @@ ansible-playbook  main.yml -i inventory   --vault-password-file=.vault_pass
 ```
 
 ---
-[Teraform]({{< ref "posts/Teraform.md" >}})
+[teraform]({{< ref "posts/cloud/terraform/terraform.md" >}})
 
 [Puppet]({{< ref "posts/Puppet.md" >}})
 

@@ -11,10 +11,10 @@ draft = false
 
 
 ---
-[iaC]({{< ref "posts/iaC.md" >}})
+[iaC]({{< ref "posts/cloud/iaC/iaC.md" >}})
 [[Automation tools.canvas|Automation tools]]
 
 | Push         | Pull       |
 | ------------ | ---------- |
 | [[Ansyible]] | [Puppet]({{< ref "posts/Puppet.md" >}}) |
-| [Teraform]({{< ref "posts/Teraform.md" >}}) |            |
+| [Teraform]({{< ref "posts/cloud/terraform/terraform.md" >}}) |            |

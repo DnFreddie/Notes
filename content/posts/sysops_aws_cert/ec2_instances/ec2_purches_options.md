@@ -5,8 +5,7 @@ draft = false
 tags = ['ec2']
 +++
 
-## Table of EC2 Pricing Models
-
+---
 | Pricing Model                | Workload Type         | Payment Structure                | Discounts Available | Commitment Period |
 |------------------------------|-----------------------|----------------------------------|---------------------|-------------------|
 | [On-Demand](#on-demand)                    | Short workloads       | Pay by the second                | None                | None              |I
@@ -19,7 +18,6 @@ tags = ['ec2']
 | [Capacity Reservations](#capacity-reservations)         | Reserved capacity      | Pay for reserved capacity        | None                | None              |
 
 ---
-Here is the text formatted with correct grammar and spelling, while keeping the original content intact:
 
 ### On-Demand
 *Short workload, **pay by the second.***
@@ -68,6 +66,8 @@ Here is the text formatted with correct grammar and spelling, while keeping the 
 
 ### Spot Instances  
 *Instances that get lost if the **max price is less than the current spot price***
+
+[Spot instance mechanism]({{< ref "posts/sysops_aws_cert/ec2_instances/spot_instance_mechanism.md" >}})
 - Short workloads 
 - Cheap 
 - Can lose instances (*less reliable*)
