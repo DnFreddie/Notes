@@ -13,7 +13,7 @@ For systemd services, the following files control the limits:
 - `/etc/systemd/system/unit.d/override.conf`
 - `/etc/security/limits.conf`
 
-For more details, refer to the [systemd documentation](https://man.archlinux.org/man/systemd-system.conf.5).
+[Systemd Docs](https://man.archlinux.org/man/systemd-system.conf.5).
 
 ## nproc
 *The `nproc` setting defines how many processes a user is allowed to have running at any one time.*
@@ -41,7 +41,9 @@ You can check the status of your user slice with:
 ```bash
 systemctl status user-$UID.slice
 ```
+![User slice ](/Notes/user_slice_process_limit_visual.png)
 
+[Article](https://www.baeldung.com/linux/fork-bombs)
 ## Nofile
 
 The `nofile` setting limits the number of file descriptors that any process owned by the specified user can have open at any one time.
@@ -63,4 +65,5 @@ ulimit -c unlimited
 *This ensures that root can address any unresponsive system issues effectively.*
 
 ---
+
 

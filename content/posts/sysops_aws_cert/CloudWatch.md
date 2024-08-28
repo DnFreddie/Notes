@@ -84,3 +84,5 @@ by generating fields that u can use in your query
         Log group identifier
 
 ![Diffrent discover fileds](/Notes/diffrent_discover_fields_aws_log.png)
+
+### [Cloud watch for ec2 metrics]({{< ref "posts/sysops_aws_cert/cloud_watch/cloud_watch_ec2.md" >}})

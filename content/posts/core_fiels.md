@@ -11,9 +11,8 @@ Usful for debuging the program crashes
 ```bash 
 # U have to rise the limit for the curret shell to generate one
 ulimit -c unlimited
-
 ```
 
 
 --- 
-[Core files]({{< ref "posts/limits.conf.md#core-files" >}})
+[limits.conf]({{< ref "posts/limits.conf.md#core-files" >}})

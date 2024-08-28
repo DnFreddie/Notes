@@ -26,8 +26,15 @@ tags = ['ec2']
 6. **R (Memory Optimized)**:
    - These instances are optimized for memory-intensive applications, providing a high amount of RAM relative to vCPUs. They are ideal for applications such as in-memory databases, real-time big data analytics, and high-performance computing.
 
-7. **T (Burstable Performance)**:
-   - These instances provide a baseline level of CPU performance with the ability to burst to higher levels when needed. They are suitable for applications with variable workloads, such as web servers and development environments.
+7. **T2/T3 (Burstable Performance)**:
+   - These instances provide a baseline level of CPU performance with the ability to burst to higher levels when needed.
+   - If the machine bursts, it uses `burst credits`
+        -They are suitable for applications with variable workloads, such as web servers and development environments.
+*If CPU credits are exhausted beyond the `burst level`, then the CPU performance will slow down to the baseline level.*
+![Cpu spike grahp](/Notes/burstable_instance_visual.png)
+- U can setup the unilited but be cerfull
+    - U pay extra money when over the credit balance
+    - U pay for additional `vCPU/h`  if the `avarge cpu usage` **over 24h** exceeds the baseline 
 
 8. **Z (High Performance Computing)**:
    - These instances are designed for high-performance computing applications that require significant computational power. They are suitable for workloads such as simulations, financial modeling, and scientific computing.
