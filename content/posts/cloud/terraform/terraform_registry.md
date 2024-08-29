@@ -5,5 +5,15 @@ draft = false
 +++
 
 ---
+- Public
+- Private (*part of the terraform cloud*)
+    -  publish private module 
+    - hase to be connectoed to `VSC`(*version control system*)
 
 - [terraform]({{< ref "posts/cloud/terraform/terraform.md" >}})
+
+
+### Terraform cloud
+![Terraform Cloud](/Notes/terraform_cloud_visual.png)
+
+

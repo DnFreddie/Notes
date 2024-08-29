@@ -48,9 +48,22 @@ terraform {
 
 ---
  `Provider Block`**Stores configuration of the provider**
+
+
+**List all the providers**
+
+```bash
+terraform providers
+```
+
 ```terraform
   host     = "ssh://user@remote-host:22"
 ```
+
+
+- **Aliases** (*To disguise the same providers e.g., AWS regions)*
+
+![Aliases rules](/Notes/alias_providers_code_block_visual.png)
 [Docker Provider Example](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs)
 
 --- 
@@ -64,6 +77,41 @@ resource "docker_image" "nginx" {
 }
 
 ```
+--- 
+
+`modules`(*Modules are just like roles in Ansible; they are pre-packed.*)
+- **Providers** are the raw APIs where **modules**  give you shorthand
+
+---
+### Varaibles
+`input varaibles`(*paramaters ot to the teraform modules*)
+- Declere varaibles in **root module** or **child module**
+- Options
+    - **default**(assaing the defautl value)
+    - **type**
+    - **descirption**(*optional for documentation*)
+    - **Validation** (*baicly if statmetns)*
+    - **sensitive** don't show up in the oput of terraform (*something like a private filed)*
+
+```terraform
+variable "docker_ports" {
+  type = list(object({
+    internal = number
+  }))
+  default = [
+    {
+      protocol = "tcp"
+    }
+  ]
+}
+
+```
+####  [Varaibles Definitons Files]({{< ref "posts/cloud/terraform/terraform_config_files.md#variable-definitions-files">}})
+####  [Env Vars]({{< ref "posts/cloud/terraform/terraform_config_files.md#env-variables">}})
+
+
+
+
 ---
 
 `Outpus`**similar to the ansible registers**
@@ -73,6 +121,24 @@ output "instance_ip" {
   value = aws_instance.my_instance.public_ip
 }
 ```
+---
+
+- `data block` (`source`and `name`)[Docs](https://developer.hashicorp.com/terraform/language/data-sources)
+
+```terraform
+data "aws_ami" "example" {
+  most_recent = true
+  owners = ["self"]
+  tags = {
+    Name   = "app-server"
+    Tested = "true"
+  }
+}
+```
+- `lifecycle`
+    -`precodition` if stament for the data block 
+    - `postcodition`
+
 ---
 ### Provisoners/Prebakeing/
 ---
@@ -108,7 +174,7 @@ resource "terraform_data" "example1" {
 - `Inline` list commands strigns
 - `Scritp` scrip that will be copied and executed 
 - `Scritps` multile scirpt execution
-a
+
 
 ### Execution Plans 
 *A Manual Review of What I'll Add, Change, or Destroy Before Applying Changes*
@@ -123,6 +189,12 @@ terraform graph  | dot -Tsvg > graph.svg
 - `Core` *usese  [RPC_]({{< ref "posts/RPC_calls.md" >}}) to communicate wiht plugins*
 - `Plugins`expose impelemtation for a sepcyfic service or provisioner
 
+
+
+### Terraform and ansible 
+
+![Terraform and ansible](/Notes/terraform_and_ansible_visual.png)
+
 ---
+
 [Terraform Spotyfie](https://developer.hashicorp.com/terraform/tutorials/community-providers/spotify-playlist)
-![Terraform Cloud](/Notes/terraform_cloud_visual.png)
