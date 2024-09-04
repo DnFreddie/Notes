@@ -14,6 +14,12 @@ Are set up to work really well with [Amazon Elastic Block Store]({{< ref "posts/
 
 [Aws Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html)
 
+#### User data
+*it contains a scirpt that starts at the start of the instance*
+
+#### [Amis]({{< ref "posts/sysops_aws_cert/ec2_instances/ami.md" >}})
+
+
 
 ## Enhanced Networking 
 
@@ -59,6 +65,10 @@ ethtool -i eht0
 *How shoud the instace reacte when shutdown is done*
 - `Stop`(*default*)
 - `Terminate`
+- `Hiberante`
+    - The in-memory (**RAM**) state is preserverd
+    - The instace boot fastert(*the OS is not stopped/restarted*)
+
 
 AWSConsole Attribute: `InstanceInitiatedShutdownBehavior`
 - *This attribute determines the behavior of the instance when it is shut down from within the operating system.*
@@ -75,6 +85,7 @@ Here’s a revised version of your text regarding **Termination Protection**:
     - Shutting down the instance from the **operating system** will still result in the instance being terminated.
 
 - **Important Note**: This occurs because the shutdown action is **initiated from within the operating system**, rather than through the AWS Management Console.
+
 ## Trouble shoot 
 ### Error Types 
 - `#InstanceLimitExeeded` 

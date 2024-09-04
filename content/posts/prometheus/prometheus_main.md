@@ -5,10 +5,8 @@ draft = false
 categories = ["logging"]
 tags = ["prometheus"]
 +++
-#QuicRead
-[Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
 
-*Not a logging tooll just* [time series db]({{< ref "posts/databases/time_series_db.md" >}}) 
+*Not a logging tool just* [time series db]({{< ref "posts/databases/time_series_db.md" >}}) 
 # Installation
 - Normal way
 [Docs](https://stevescargall.com/blog/2021/12/how-to-install-prometheus-and-grafana-on-fedora-server/)
@@ -42,7 +40,7 @@ sudo useradd -M -r -s /bin/false prometheus
 
 
 ###  Push vs pull 
-
+[Aritcle](https://prometheus.io/blog/2016/07/23/pull-does-not-scale-or-does-it/)
 #### Push 
 *Refers to the end point pushing data into promethues instance*
 
@@ -75,6 +73,12 @@ By defualt it st
 ## Tracing and spans
 - `Trace` the hole journey of the request actions as it moves through all nodes in distributed stysem 
 - `Spans` operation or work taking place on a service , web server responding  to an individual **request** or **function**
+
+## Logging 
+By fefualt the prometheus logs to the `/var/log/prometheus`
+
+## [Slos Slis Slas]({{< ref "posts/prometheus/slos_slas_slis.md" >}})
+[Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
 
 ## Full Prometheus Model
 >![protemtheus](/Notes/prometheus_overwiev.png)

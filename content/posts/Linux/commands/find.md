@@ -15,10 +15,26 @@ find -executable
 ```
 find . -xtype l
 ```
-- Files changed in the last 24h 
+- find files based on changes to their content
 ```bash
 find . -mtime -1
 ```
+- find files based on changes to their metadata or attributes
+
+```bash
+find /path/to/directory -ctime -2
+```
+- when the file was accesed
+
+
+- Files changed in an hour
+```bash
+find /path/to/directory -mmin -60
+
+```
+
+
+
 - Files changed erariler the the specyic date 
 ```bash
 find . -type f -newermt 2019-07-24

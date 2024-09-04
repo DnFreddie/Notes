@@ -17,6 +17,10 @@ draft = false
 - Terraform Registry 
     - via AWS CDK 
 
+**Speculative  vs Saved**
+![Seculative Plans vs Saved Plans](/Notes/terraform_plan_table_visual.png)
+
+### [Terraform state]({{< ref "posts/cloud/terraform/terraform_state.md" >}})
 
 
 ### [Registry]({{< ref "posts/cloud/terraform/terraform_registry.md" >}})
@@ -269,5 +273,4 @@ terraform graph  | dot -Tsvg > graph.svg
 ![Terraform and ansible](/Notes/terraform_and_ansible_visual.png)
 
 ---
-
 [Terraform Spotyfie](https://developer.hashicorp.com/terraform/tutorials/community-providers/spotify-playlist)
