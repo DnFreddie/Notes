@@ -34,7 +34,7 @@ ps aux -L | awk '{print $1}' | sort | uniq -c | sort -n | tail -n 1
 ### For systemd services
   Total number of tasks that systemd allows for each user is usually **33% of the system-wide total**. 
 
-Systemd creates a [Cgorup]({{< ref "posts/cgroups.md " >}}) for each user, which sets limits on system resources such as the total number of processes and RAM usage.
+Systemd creates a [Cgorup]({{< ref "posts/cgroups.md" >}}) for each user, which sets limits on system resources such as the total number of processes and RAM usage.
 
 You can check the status of your user slice with:
 
