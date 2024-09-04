@@ -84,6 +84,8 @@ resource "docker_image" "nginx" {
 
 ---
 ### Varaibles
+
+
 `input varaibles`(*paramaters ot to the teraform modules*)
 - Declere varaibles in **root module** or **child module**
 - Options
@@ -106,6 +108,77 @@ variable "docker_ports" {
 }
 
 ```
+
+`HERDOC`  *multile-line strigns*
+
+```bash
+<<EOT
+test
+world 
+hello
+EOT
+```
+
+
+`strign directive % %` *can be used in `HEREDOC`*
+- `~` will stirp the space 
+
+```terraform
+"Hello %{if var.name != ""}%{else}%{endif}"
+
+<<EOT
+%{for ip in aws_instance.example.*.private_ip ~}
+server ${ip}
+%{ endfor }
+EOT
+```
+
+
+--- 
+
+>`null`   is either **absent** or **default**
+
+---
+
+`ternary if else conditions`
+*the return type for it the if stament must be the same type*
+
+```terraform
+condition ? true_val:false_val
+var.a != "" ? var.a : "default-a"
+```
+
+`for loops`
+
+```terraform
+# Arrays
+[for s in var.list : upper(s)]
+
+# Maps
+[for k, v in var.map : lenght(k) + lenght(v)]
+
+# Returning structure 
+{for s in var.list :s => upper(s)}
+```
+
+`spalt expresion`*iterate over evieyhitn *
+
+```terraform
+var.list[*].id
+var.list[*].interafaces.name
+```
+
+`Dynamic blocs`*simmilar to loop in ansible*
+
+```terraform
+
+dynamic "ingress"{
+    for_each  = local.ingressruellse
+}
+
+
+```
+
 ####  [Varaibles Definitons Files]({{< ref "posts/cloud/terraform/terraform_config_files.md#variable-definitions-files">}})
 ####  [Env Vars]({{< ref "posts/cloud/terraform/terraform_config_files.md#env-variables">}})
 

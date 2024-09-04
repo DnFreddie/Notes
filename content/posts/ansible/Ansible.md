@@ -75,6 +75,7 @@ collbacks_enabled = ansible.posix.profile_roles
 
 ## Inventory
 
+
 - U can use pass the arguments **direcly to the ivnentory**
 ```bash 
 [test_server]
@@ -86,6 +87,13 @@ node_test type=server
 
 - The beterr approach is to use the `ansible_hostname` 
     - since it first performs *uname -n*
+
+
+---
+
+If u want to execute one host at a time use the `serial` varaible
+
+---
 
 To use the **host group** for the playbook  use `inventory_hostname`
 

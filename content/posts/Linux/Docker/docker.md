@@ -96,6 +96,8 @@ docker container run --rm --name nginx \
 
 
 
+## [Multi-stage docker images]({{< ref "posts/Linux/Docker/multi_stage_image.md" >}})
+
 
 ## Attach to the container 
 ```bash
@@ -116,4 +118,5 @@ docker exec -it (container id ) /bin/sh(or bash if installed)
 - **Auto-reload**
 	![DockerAutoReload_visual.png](/Notes/DockerAutoReload_visual.png)
 
->[!quote] [cloud-int]({{< ref "posts/cloud-int.md" >}})
+---
+- [cloud-int]({{< ref "posts/cloud-int.md" >}})

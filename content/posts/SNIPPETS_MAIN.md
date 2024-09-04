@@ -13,5 +13,6 @@ draft = false
 | solana defult instructions   | [solana-rs]({{< ref "posts/code_snippets/solana-rs.md" >}})                 |
 | default flake                | [flake]({{< ref "posts/code_snippets/flake.md" >}})                     |
 | scrript to backup flake repo | [backup_flake_script]({{< ref "posts/code_snippets/backup_flake_script.md" >}})       |
-| img upload svelte            | [upload img svelte_snippet]({{< ref "posts/upload_img_svelte_snippet.md" >}}) |
+| img upload svelte            | [upload img svelte_snippet]({{< ref "posts/code_snippets/upload_img_svelte_snippet.md" >}}) |
+|  aws cloud watch ec2 config            | [upload img svelte_snippet]({{< ref "posts/code_snippets/cloud_watch_config.md  " >}}) |
 
