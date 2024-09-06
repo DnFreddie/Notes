@@ -26,8 +26,11 @@ service auditd restart
 [Docs](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/security_guide/sec-audit_record_types#sec-Audit_Record_Types)
 
 ### Keys `-k`
+*Listing exisiting keys*
+```bash
+auditctl -l
+```
 *U can add new keys with*
-
 ```bash
 -w /path/to/file -p rwxa -k my_key
 ```

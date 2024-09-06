@@ -17,3 +17,6 @@ draft = false
 ![Terraform Cloud](/Notes/terraform_cloud_visual.png)
 
 
+--- 
+- [Terraform module structure]({{< ref "posts/cloud/terraform/terraform_standard_module_sturcture.md" >}})
+

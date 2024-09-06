@@ -45,7 +45,7 @@ sudo useradd -M -r -s /bin/false prometheus
 *Refers to the end point pushing data into promethues instance*
 
 ***!It's not a prefered method!***
-- If u must push, therse a `Protemtheus Push Gateway`
+- If u must push, therse a [`Protemtheus Push Gateway`]()
 - This is not a agregator or distributed coutnter  it's a  `metric cache`
     - ***!Pushed metrics are never removed without mannual purge!***
 #### Pull
@@ -79,6 +79,24 @@ By fefualt the prometheus logs to the `/var/log/prometheus`
 
 ## [Slos Slis Slas]({{< ref "posts/prometheus/slos_slas_slis.md" >}})
 [Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
+
+## Prometheus limitaion
+- LTS a 10 year cycle
+- Every ^ weeks new minor realease cycle begins
+**Local storage**
+- It's not clustered or repliceated so needs to be treaded like a disk
+- Compaction happens  in the background 
+    - Initial 2h block are eventualy commpacted into longer blocks in the background
+    - 10% of data retatnion
+    - 32 days which ever is smaller 
+
+## Dashboarding Basics
+*Instead of showing everything at once spilt it based on purpose*
+- No more the 5 graphs on a console 
+- No more hten 5 lines on each graph 
+- Avoid mire then 20-30 entires in the rig-hand-sid table 
+
+
 
 ## Full Prometheus Model
 >![protemtheus](/Notes/prometheus_overwiev.png)

@@ -8,6 +8,11 @@ tags = ["prometheus"]
 [Cheat sheet and labs](https://promlabs.com/promql-cheat-sheet/)
 
 
+### Data Models and Lablse 
+- `Metrics Names` Specyige the general feature of system taht is mesaured(*http_request_toatl*)
+- `Metrics Lables` Enable Prometheus dimensional data modle to ideentyfie any given combination of labes for the same metiric anem 
+    - Can't use __ resrved for the internal testing 
+
 ## DataTypes
 - `Stirng` 
 - `Scalar` *int*
@@ -60,5 +65,51 @@ tags = ["prometheus"]
 ## Filters
 - Based on ***labels***
 
+
+### Rates and Derivities
+`rate()` Stable increase of vector
+`irate()` The same as vecotrs unless spikes 
+`derive` desinged to show changes more for an aletr then the daschboard
+
+### Cpu usage over the last cpu
+
+```prometheus
+sum by(cpu)(rate(node_cpu_seconds_total{mode!="idle"}[5m]))*100
+```
+```prometheus
+sum by(path)(rate(http_request_total{status="500"} [1d]))
+```
+### Aggregation over dimmesions 
+- *lables  add dimension to the dataset*
+*http_request_total has 3 lables **application instance grouop***
+- Get all the labes 
+```prometheus
+sum(http_request_total)
+```
+- Exclude instaces
+```prometheus
+sum(http_request_total) without(instance)
+```
+- or based on another group 
+```prometheus
+sum by (application_group)(http_request_total)
+```
+
+### Timestamps  Metrics
+*`timestamps` are given in `epoch time`  and can be queried for instant vector*
+- How fresh the data is 
+
+```bash 
+# So this will give u the raw data to 
+timestamp(go_memstat_frees_total)
+
+# To get human readable time use 
+time() - timestamp(go_memstat_frees_total)
+```
+
 ### Base units
 ![Base prometheus units](/Notes/promql_units.png)
+
+
+
+

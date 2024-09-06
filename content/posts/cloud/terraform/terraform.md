@@ -14,8 +14,10 @@ draft = false
 - Depdndency grpahing 
 - State mangament 
 - Provision infastructure in familiarr languages 
-- Terraform Registry 
+- [Terraform Registry]({{< ref "posts/cloud/terraform/terraform_registry.md" >}})/[Terraform moudles structure]({{< ref "posts/cloud/terraform/terraform_standard_module_sturcture.md" >}})
     - via AWS CDK 
+
+
 
 **Speculative  vs Saved**
 ![Seculative Plans vs Saved Plans](/Notes/terraform_plan_table_visual.png)

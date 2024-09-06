@@ -56,5 +56,9 @@ terraform apply -replace="aws_instance.example[0]"
 #### Refresh-Only Mode
 ![Refresh-Only mode diffrences](/Notes/terraform_flags_refresh_only_visual.png)
 
+ 
+### [Terraform backends]({{< ref "posts/cloud/terraform/terraform_backends.md" >}})
+
+---
 
 - [Teraform]({{< ref "posts/cloud/terraform/terraform.md" >}}) 
