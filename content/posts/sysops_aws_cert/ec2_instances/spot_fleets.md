@@ -2,6 +2,7 @@
 title = 'Spot fleets'
 date = 2024-08-27T12:45:29+02:00
 draft = false
+tags = ['ec2']
 +++
 *Allows to automaticly reqest spot instances with the lowest price*
 

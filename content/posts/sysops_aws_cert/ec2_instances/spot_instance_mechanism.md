@@ -2,6 +2,7 @@
 title = 'Spot instance mechanism'
 date = 2024-08-27T12:16:58+02:00
 draft = false
+tags = ['ec2']
 +++
 
 ---

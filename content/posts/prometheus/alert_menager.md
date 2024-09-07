@@ -2,6 +2,7 @@
 title = 'Alert manager'
 date = 2024-09-06T14:45:18+02:00
 draft = false
+tags = ["prometheus"]
 +++
 *Alert Menager is confgiured via cmd-flags and configuration file*
 

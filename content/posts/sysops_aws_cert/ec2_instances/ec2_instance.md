@@ -117,3 +117,9 @@ You **can't connect to the EC2 instance in the browser using your local IP addre
 
 ## Purchasing options 
 [Ec2 purchasing options]({{< ref "posts/sysops_aws_cert/ec2_instances/ec2_purches_options.md" >}})
+
+
+--- 
+- [SSM]({{< ref "posts/sysops_aws_cert/ec2_instances/ssm_main/SSM.md" >}})
+
+

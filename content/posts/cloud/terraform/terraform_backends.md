@@ -2,6 +2,7 @@
 title = 'Terraform backends'
 date = 2024-09-06T21:47:07+02:00
 draft = false
+tags = ["terraform"]
 +++
 *It specyfie where and hwo operation are performed and where the snapshot are stored*
 **Standard backends**(ussualy third-party backends e.g.AWS S3)
@@ -53,6 +54,24 @@ backend "s3"{
 Becouse u run this in a cloud enviroment 
 
 Your **provider crediatinals** need to be configured in as **Env Vars** in Terraform cloud
+
+---
+
+### Backend Initialization 
+The `backednd-config` falg for **terraform init** used for `partial backend` configuration 
+- Use when the backend seting are  **dynamic or sensitive** 
+*Baiscly u run this form another file*
+![Backend Initialization](/Notes/backend_initialization_visual.png)
+
+
+
+### [Terraform State Locking]({{< ref "posts/cloud/terraform/terraform_state.md#terraform-state-locking">}}) 
+
+### [Terraform Remote state]({{< ref "posts/cloud/terraform/terraform_state.md#terrafrom_remote_state">}}) 
+
+
+
+
 
 ---
 - [Teraform state]({{< ref "posts/cloud/terraform/terraform_state.md" >}}) 

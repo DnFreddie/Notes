@@ -2,6 +2,7 @@
 title = 'Cloud watch for EC2 metrics'
 date = 2024-08-28T17:42:11+02:00
 draft = false
+tags = ['ec2']
 +++
 
 *Aws provided metrics (AWS pushes them)*

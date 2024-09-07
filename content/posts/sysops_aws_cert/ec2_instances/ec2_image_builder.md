@@ -2,6 +2,7 @@
 title = 'ec2 image builder'
 date = 2024-09-04T18:58:32+02:00
 draft = false
+tags = ['ec2']
 +++
 *Used to automate the creation of Vms and containers*
 

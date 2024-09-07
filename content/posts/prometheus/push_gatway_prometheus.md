@@ -2,6 +2,7 @@
 title = 'Push gatway prometheus'
 date = 2024-09-05T15:14:01+02:00
 draft = false 
+tags = ["prometheus"]
 +++
 
 ## Constraints

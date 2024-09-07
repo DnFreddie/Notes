@@ -2,6 +2,7 @@
 title = 'Service instrumentation'
 date = 2024-09-06T13:13:03+02:00
 draft = false
+tags = ["prometheus"]
 +++
 *What stats should give u every library serice or subsystme*
 

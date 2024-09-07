@@ -2,6 +2,8 @@
 title = 'Ami'
 date = 2024-09-04T14:43:33+02:00
 draft = false
+tags = ['ec2']
+
 +++
 ## Amazon Machine Image
 
@@ -44,7 +46,15 @@ To addres that u need to provide the **reboot parameter** while taking image
 |------------------|------------------|
 | ![Image 1](/Notes/default_plans_create_ami_visual.png) | ![Image 2](/Notes/plans_ami_creation_backup_visual.png) |
 
-## Cross-Account AMI Sharing
+
+## AMI in Production 
+- You can force users to only launch EC2 instances from **pre-approved AMI's** using **IAM policies**
+- Combine with AWS config to find **not complient** EC2 instances(*launched with non-approved AMIs*)
+![iam perrmissions for ami ](/Notes/iam_perrmissions_for_ami_visual.png)
+
+
+
+### Cross-Account AMI Sharing
 - You can share an AMI wiht another AWS account
     - Sharing AMI does not affect the ownership 
     - U can only hsare AMI's with 
@@ -55,7 +65,7 @@ To addres that u need to provide the **reboot parameter** while taking image
 
     ![Ami Sharing with KMS](/Notes/am_shared_kms_key_visual.png)
 
-### Coross-Account AMI Copy
+#### Cross-Account AMI Copy
  - When copy the shared AMI u become the **owner**
      - The source owner must grant u read perrmisions for the storages that backs the AMI
 - If encrypted then must have a key 

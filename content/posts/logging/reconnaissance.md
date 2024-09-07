@@ -14,8 +14,14 @@ cat /etc/*release
 ## See what  procces stated the system 
 ```bash 
 cat /proc/cmdline
+cat /proc/cpuinfo
 ```
 
+## See the paramters of the system
+```bash 
+# -S is for the type of metric
+vmstat -S M  1
+```
 
 ## Failed attemps to login  /var/log/secure
 

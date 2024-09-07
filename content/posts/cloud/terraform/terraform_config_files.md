@@ -2,6 +2,7 @@
 title = 'Terraform config files'
 date = 2024-08-29T10:41:41+02:00
 draft = false  
+tags = ["terraform"]
 +++
 - Terraform file end in the etendsion of `.tf` or either `.tf.json`
 

@@ -2,6 +2,7 @@
 title = 'Hashicorp terraform examination'
 date = 2024-08-28T01:51:24+02:00
 draft = false
+tags = ["terraform"]
 +++
 
 [Course Link](https://www.youtube.com/watch?v=SPcwo0Gq9T8)
