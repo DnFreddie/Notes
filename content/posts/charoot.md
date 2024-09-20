@@ -3,6 +3,19 @@ title = 'charoot'
 date = 2024-07-22T09:10:24+02:00
 draft = false
 +++
+*Allows to control access to  a servie or filesystem whiel controling the expouser to the underling server*
+- during the boot sequence (*emergency shell*)
+- secure FTP (*SFTP*)
+
+```bash 
+chroot <newroot>[[command] arguemnts]
+
+```
+[Charoot sftp 1 Web](https://www.redhat.com/sysadmin/set-linux-chroot-jails)
+[Charoot sftp 2 Web](https://www.redhat.com/sysadmin/deeper-linux-chroot-jails)
+
+
+----
 
 *utilized within the phone operating system.*
 ## Virtual Environment: 
@@ -12,6 +25,7 @@ Users can only access the specified tools within this environment, preventing in
 
 ### Mount Bind
 Mount bind is employed to provide access to **host system resources** within the chroot directory.
+
 
 ---
 [Namespaces]({{< ref "posts/Namespaces.md" >}})

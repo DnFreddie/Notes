@@ -16,7 +16,24 @@ Get rid of all running containers
 ```bash 
 docker rm -f $(docker ps -a -q)
 ```
-# Docker logging 
+
+## ENTRYPOINT vs CMD
+- Use `ENTRYPOINT` to define the main command that should always run.
+- Use `CMD` to provide default arguments or commands that can be overridden.
+```DockerFile
+#Example
+FROM ubuntu:latest
+
+# Set the entry point
+ENTRYPOINT ["python3", "app.py"]
+
+# Set default arguments
+CMD ["--help"]
+
+
+```
+
+## Docker logging 
 
 - Basic options
 - **--tail**
