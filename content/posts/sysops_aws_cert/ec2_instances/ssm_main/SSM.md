@@ -5,11 +5,13 @@ draft = false
 tags = ['ec2']
 categories = ["aws"]
 +++
+
 ## AWS Systems Manager Overview
 *free service needs to be instaled onot the system we contole*
 - Menage [Ec2]({{< ref "posts/sysops_aws_cert/ec2_instances/ec2_instance.md" >}})
 and **On-Premises** systems and scale 
     - It  shows the instance in a **Fleet Manager**
+    - U dont have to open any ports
 - Installed by defualt on Amazon Linux 2 
     -  U just have to add a [**AmazonSSMMangegedInstanceCore**](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonSSMManagedInstanceCore.html)
 - Get operationa insight about the sate fo your infrasturcture
@@ -28,11 +30,27 @@ and **On-Premises** systems and scale
 - define the paramters and actions 
 
 
-### SSM Automation 
+## SSM Automation 
 
+### SSM with ansible 
 
 ### AWS System Menager Features 
 ![System menager features](/Notes/aws_system_meanger_features_visual.png)
 
+### [Paramater sotre]({{< ref "/posts/sysops_aws_cert/ec2_instances/ssm_main/ssm_parameter.md" >}})
+
+### Ssm inventory 
+
+#### State manager
+*keep the state that u define on [Ec2]({{< ref "posts/sysops_aws_cert/ec2_instances/ec2_instance.md" >}})*
+
+**State Manager Association** 
+- Defines the state that you want ot maintain to your mangaged instances 
+	- Example port 22 must be closed,antivirus must be installed
+- Sepcyfie a schedule when this configuration is applaied
+- Uses SSM Documents to create an Association *(e.g SSM Document to configure CW Agent )*
+
+
+---
 
 
