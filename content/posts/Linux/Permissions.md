@@ -28,4 +28,4 @@ To add all permissions to all users, you need to type `777`.
 
 ---
 
-[skel_etc]({{< ref "posts/etc/skel_etc.md" >}})
+[skel_etc]({{< ref "posts/Linux/etc/skel_etc.md" >}})

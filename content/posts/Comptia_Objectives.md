@@ -76,8 +76,8 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 6. [AppArmor]({{< ref "posts/AppArmor.md" >}})
 ### Sys amdimistrations
 1. **User manipulation**
-	 - [profile_etc]({{< ref "posts/profile_etc.md" >}})
-	 - [skel_etc]({{< ref "posts/etc/skel_etc.md" >}})
+	 - [profile_etc]({{< ref "posts/Linux/etc/profile_etc.md" >}})
+	 - [skel_etc]({{< ref "posts/Linux/etc/skel_etc.md" >}})
 	 2. **Commands**
 	 - [chage]({{< ref "posts/chage.md" >}}) 
 	1. **Sudo and visudo**

@@ -1,5 +1,5 @@
 +++
-title = 'Emacs_treestier_nativ'
+title = 'Native treesiter in emacs'
 date = 2024-10-03T21:18:34+02:00
 draft = false
 +++

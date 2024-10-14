@@ -6,6 +6,12 @@ draft = false
 
 [Docs](https://tldp.org/)
 
+## Seitng up defualt values with `:`
+*set default values for variables without performing any action*
+```bash
+: ${VAR:=default_value}
+
+```
 
 [Bash redirecition ]({{< ref "posts/Linux/commands/modes_bash.md" >}})
 

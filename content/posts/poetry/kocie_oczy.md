@@ -12,4 +12,3 @@ Dzis leze drwi tlum dokoa
 Ty sie smiejesz a ja glaszcze jej wlosy 
 bog nadman czuwa 
 nie twoj  bog alb jakis inny ale ten  znaleziony w potrzebie
-Kiedys ktos spisze moje spisze moje zycie 
