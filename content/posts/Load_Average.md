@@ -15,6 +15,8 @@ divided by the [[Cpu|Cpu capasity]] (*number of cores lscpu*)
 - U can find it in
 	#proc
 	***/proc/loadavg;***
+    #check **/proc/cmdline**
+
 Also displayed by 
 - **uptime**
 - **w**

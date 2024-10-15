@@ -15,6 +15,14 @@ cat /etc/*release
 ```bash 
 cat /proc/cmdline
 cat /proc/cpuinfo
+cat /proc/loavg 
+```
+
+### Check the mem consumption of the process
+```bash
+pgrep -ila 
+expr `pgrep -i   hugo ` / 1024
+cat /proc/$*/status
 ```
 
 ## See the paramters of the system
@@ -22,6 +30,7 @@ cat /proc/cpuinfo
 # -S is for the type of metric
 vmstat -S M  1
 ```
+
 
 ## Failed attemps to login  /var/log/secure
 

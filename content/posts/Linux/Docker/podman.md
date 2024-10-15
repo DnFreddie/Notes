@@ -6,7 +6,6 @@ draft = false
 
 ## Creating a systemd service
 
-[Article](https://linuxhandbook.com/autostart-podman-containers/)
 ```bash
 #/home/pratham/container-chitragupta-db.service
 podman generate systemd --new --name chitragupta-db -f
@@ -25,5 +24,3 @@ podman generate systemd --new --name chitragupta-db -f
 
 ```
 
----
-- [docker]({{< ref "posts/Linux/Docker/docker.md">}})

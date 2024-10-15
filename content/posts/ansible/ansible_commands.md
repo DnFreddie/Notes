@@ -50,3 +50,10 @@ ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 - **Verbosity Level** in ur playbook
 - Just use `-vvv` flag
 
+## Ansible Roles 
+Init a role 
+
+```bash 
+ansible-galaxy init <role_name>
+```
+
