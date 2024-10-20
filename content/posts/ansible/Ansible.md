@@ -58,14 +58,13 @@ ansible --version
 ### Example config
 
 ```nix
-
 poetry2nix.mkPoetryEnv {
     projectDir = ./.;
     overrides = poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
 }guration
 
 ```
-```bash
+```ini
 [defualts]
 inventory = ./myInventoru
 remote_user = devovs 
@@ -75,19 +74,16 @@ collbacks_enabled = ansible.posix.profile_roles
 
 ## Inventory
 
-
 - U can use pass the arguments **direcly to the ivnentory**
-```bash 
+```ini   
 [test_server]
 control_test type=client
 node_test type=server
 
 ```
 
-
 - The beterr approach is to use the `ansible_hostname` 
     - since it first performs *uname -n*
-
 
 ---
 
@@ -98,8 +94,7 @@ If u want to execute one host at a time use the `serial` varaible
 To use the **host group** for the playbook  use `inventory_hostname`
 
 
-```bash 
-
+```yaml
   hosts: home_machines
   vars:
     user_home: "/home/{{ inventory_hostname }}"
@@ -216,7 +211,7 @@ Rember to install stuff in the as root user profile then the user can use the so
 Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nix/var/nix/profiles/default/bin"
 
 ```
-### Pacages 
+### Pacages/Collections
 
 U can use a bulti in **.package** module  to install different packages
 

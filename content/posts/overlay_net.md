@@ -10,7 +10,7 @@ draft = false
 
 [Dokcer Swarm](https://docs.docker.com/engine/swarm/) 
 
-It's beeter to use [Kubernetes]({{< ref "/posts/Kubernetes.md" >}})
+It's beeter to use [Kubernetes]({{< ref "/posts/CKA/Kubernetes.md" >}})
 
 >![Pasted_image_20240510110121.png](/Notes/Pasted_image_20240510110121.png)
 

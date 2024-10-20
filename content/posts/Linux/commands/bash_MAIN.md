@@ -9,11 +9,43 @@ draft = false
 ## Seitng up defualt values with `:`
 *set default values for variables without performing any action*
 ```bash
-: ${VAR:=default_value}
+: ${VAR:=default_value}```
 
+
+## Bash string manipulation  
+
+> **Perom  replacment**
+```bash 
+# ${parameter/pattern/string}
+ selected="my_session:123:456"
+session_name="${selected//:/-}"
+echo $session_name  # Output: my_session-123-456
 ```
 
-[Bash redirecition ]({{< ref "posts/Linux/commands/modes_bash.md" >}})
+> **Delte from match to the end**
+```bash
+# %% to find the longest possilbe match 
+session_name="${selected%%:*}"
+```
+### Checking if the output was from stdin or as cmd args
+```bash
+if [[  -t 0  ]]; then 
+    printf "this was provided from cmd args\n"
+fi
+
+if [[  ! -t 0  ]]; then 
+    printf "this was provided from pipe\n"
+fi 
+```
+
+### Printitn mulitple values
+```bash
+printf -v sep  '%.0s-' {1..15};)
+```
+### Checking the lenght of the array 
+```bash
+${#parameter}
+```
 
 ---
 
@@ -34,7 +66,11 @@ draft = false
 ---
 [Variables]({{< ref "posts/scriptss/Variables.md" >}})
 
-
-
+--- 
 [Bash redirecition ]({{< ref "posts/Linux/commands/redirecrtion_bash.md" >}})
+
+
+--- 
+[xargs_commnad]({{< ref "posts/code_snippets/xargs_commnad.md">}})
+
 

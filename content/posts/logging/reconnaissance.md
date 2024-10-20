@@ -18,6 +18,17 @@ cat /proc/cpuinfo
 cat /proc/loavg 
 ```
 
+### Check for older verisons of the kernel
+
+
+```bash
+ls -l /boot/vm*
+#or 
+apt list -installed | grep linux-image
+```
+
+
+
 ### Check the mem consumption of the process
 ```bash
 pgrep -ila 

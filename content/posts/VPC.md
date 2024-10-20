@@ -18,7 +18,6 @@ draft = false
 >- you'r not sure which VMs are reacted to which applications 
 >- It becomes extremely difficult to deproveision 
 
-
-
-
->[!quote] [Golang AWS_issue]({{< ref "posts/Golang_AWS_issue.md" >}}) [VPN]({{< ref "posts/VPN.md" >}})
+---
+- [Golang_AWS_issue]({{< ref "posts/PROGRAMMING/go/Golang_AWS_issue.md">}})
+- [VPN]({{< ref "posts/VPN.md" >}})

@@ -54,6 +54,7 @@ ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 Init a role 
 
 ```bash 
+# role creation
 ansible-galaxy init <role_name>
 ```
 
