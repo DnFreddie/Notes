@@ -1,23 +1,25 @@
-+++
-title = 'compilers'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: compilers
+---
 
-## Compilers 
-- The binary  instructions are
-written in machine language, an elementary language the [Cpu]({{< ref "posts/Linux/Kernel/Cpu.md" >}}) can understand. 
-- Compilers are designed to translate the language of C code into machine language for a variety of *processor architectures*.
+## Compilers
 
-### Processor Architacture 
+-   The binary instructions are written in machine language, an
+    elementary language the [Cpu](/Notes/posts/Linux/Kernel/Cpu) can
+    understand.
+-   Compilers are designed to translate the language of C code into
+    machine language for a variety of *processor architectures*.
 
-1. x86 architecture
-2. Sparc processor architectures                              (used in Sun Workstations)
-3. PowerPC processor architecture                           (used in pre-Intel Macs)
+### Processor Architacture
 
-### Examine Binaries 
+1.  x86 architecture
+2.  Sparc processor architectures (used in Sun Workstations)
+3.  PowerPC processor architecture (used in pre-Intel Macs)
 
-Use [objdump]({{< ref "posts/objdump.md" >}})
+### Examine Binaries
 
+Use [objdump](/Notes/posts/objdump)
 
->[!quote] [Compitaltion process]({{< ref "posts/Compitaltion_process.md" >}})
+> \[!quote\] [Compitaltion process](/Notes/posts/Compitaltion_process)

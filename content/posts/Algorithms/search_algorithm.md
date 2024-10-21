@@ -1,13 +1,11 @@
-+++
-title = 'search_algorithm'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: search_algorithm
+---
 
-    ![lineral search]({{< ref "posts/Algorithms/lineral_search.md" >}})
+    ![lineral search](/Notes/posts/Algorithms/lineral_search)
 
-$$1$$
+1
 
-
-
-![binary search]({{< ref "posts/Algorithms/binary_search.md" >}})
+![binary search](/Notes/posts/Algorithms/binary_search)

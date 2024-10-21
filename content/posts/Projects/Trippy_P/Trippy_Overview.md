@@ -1,20 +1,18 @@
-+++
-title = 'Trippy_Overview'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Trippy_Overview
+---
 
-    
 ### TODOS
-![TODO_P]({{< ref "posts/Projects/Trippy_P/TODO_P.md" >}})
 
+![TODO_P](/Notes/posts/Projects/Trippy_P/TODO_P)
 
-$$1$$
+1
 
-![Problems_T]({{< ref "posts/Projects/Trippy_P/Problems_T.md" >}})
+![Problems_T](/Notes/posts/Projects/Trippy_P/Problems_T)
 
+2
+![knowndlage_P](/Notes/posts/Projects/Trippy_P/knowndlage_P)
 
-$$2$$
-![knowndlage_P]({{< ref "posts/Projects/Trippy_P/knowndlage_P.md" >}})
-
-$$3$$
+3

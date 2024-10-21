@@ -1,46 +1,46 @@
-+++
-title = 'nix'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: nix
+---
 
+### To get rid of the not required geneterations
 
-### To get rid of the  not required  geneterations 
-
-```bash 
+``` bash
 sudo nix-collect-garbage -d
 ```
 
-- To list them use 
+-   To list them use
 
-```bash 
+``` bash
 sudo nix-rebuild list-generations
 ```
 
-## Nix flakes 
+## Nix flakes
 
+-   Packages
+    -   its the source code of your app
+-   dev-shell
+    -   Its u’r environment
+-   Apps
+    -   it tells nix what to run and when (*similarly to the
+        containers*)
 
-- Packages 
-	- its the source code of your app 
-- dev-shell 
-	- Its u'r environment 
-- Apps 
-	- it tells nix what to run and when (*similarly to the containers*)
+Git respect history of git so it will not find itself if it hasn’t been
+added
 
-Git respect history of git so it will not find itself if it hasn't been added
+-   to run the developer environment type **nix develop**
 
+-   nix shell nixpkgs#google-chromkjjke
 
-- to run the   developer environment type **nix develop**
+-   nix build .#dockerImages.x86_64-linux.default
 
-- nix shell nixpkgs#google-chromkjjke
-- nix build .#dockerImages.x86_64-linux.default
-- docker load -i ./result
+-   docker load -i ./result
 
-## Upadte  the flake.lock
+## Upadte the flake.lock
 
-```bash 
+``` bash
 nix flake update
-
 ```
 
->[!quote] [nix Templates]({{< ref "posts/code_snippets/nix_Templates.md" >}})
+> \[!quote\] [nix Templates](/Notes/posts/code_snippets/nix_Templates)

@@ -1,71 +1,76 @@
-+++
-title = 'Awk'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Awk
+---
 
-*The  awk contains blocks* 
+*The awk contains blocks*
 
-### Skip headers  and empty lines 
-```bash 
+### Skip headers and empty lines
+
+``` bash
 awk 'NR > 1 && $2 != "" {print $2}' 
-
 ```
- - Givinig new headers to the table  
-(*rename columns*)
-```awk
+
+-   Givinig new headers to the table  
+    (*rename columns*)
+
+``` awk
 awk ' BEGIN{ printf "Sr No\tName\tSub\tMarsk\n"}
 
 {print} file.txt' 
 ```
- -  If for some raeson u want to use awk itself use **-f** flag
-- Varaibles 
-	- **-v** allows to pushc a varaible into the command 
-```awk
-awk -v name=Jerry 'BEGIN{printf "Name = %s\n", name}'
-```
 
+-   If for some raeson u want to use awk itself use **-f** flag
+-   Varaibles
+    -   **-v** allows to pushc a varaible into the command
+
+    ``` awk
+    awk -v name: Jerry 'BEGIN{printf "Name = %s\n", name}'
+    ```
 
 ## Patterns
-- Searching for an pattern 
-	-  it has to be in **"/pattern/"**
-	- its important  that this will output the *entire* *row* 
-	- 
 
-- Counting Matches (*in a loop*)
-	- Important to add **END** without it will print each iteration
-- Counting letters 
-	- Awk has builtin function called **lenght** that returns the *lenght* of the string 1
-```awk
-awk 'length($0) > 18' marks.tx
+-   Searching for an pattern
+    -   it has to be in **“/pattern/”**
+    -   its important that this will output the *entire* *row*
+    -   
+-   Counting Matches (*in a loop*)
+    -   Important to add **END** without it will print each iteration
+-   Counting letters
+    -   Awk has builtin function called **lenght** that returns the
+        *lenght* of the string 1
+
+    ``` awk
+    awk 'length($0) > 18' marks.tx
+    ```
+-   **Ignore Case**
+
+``` awk
+awk 'BEGIN{IGNORECASE: 1} /amit/' marks.txt
 ```
 
+## Awk functions
 
-- **Ignore Case**
-```awk
-awk 'BEGIN{IGNORECASE = 1} /amit/' marks.txt
-
-```
-## Awk functions 
-
-```awk
+``` awk
 awk 'BEGIN {
-   a = 30;
+   a: 30;
    
    if (a==10)
-   print "a = 10";
+   print "a: 10";
    else if (a == 20)
-   print "a = 20";
+   print "a: 20";
    else if (a == 30)
-   print "a = 30";
+   print "a: 30";
 }'
-
 ```
 
-Certainly! Below is a Markdown table summarizing the built-in string functions in AWK you mentioned, complete with brief descriptions and examples.
+Certainly! Below is a Markdown table summarizing the built-in string
+functions in AWK you mentioned, complete with brief descriptions and
+examples.
 
 | Function                    | Description                                                                               | Example                                                 |
-| --------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+|-----------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | `asort(arr [, d [, how]])`  | Sorts the array `arr` and replaces the indexes with sequential integers starting at 1.    | `asort(arr); for (i in arr) { print arr[i]; }`          |
 | `asorti(arr [, d [, how]])` | Sorts the array `arr` based on array indexes.                                             | `asorti(arr); for (i in arr) { print arr[i]; }`         |
 | `gsub(regex, sub, string)`  | Performs global substitution of `regex` with `sub` in `string`.                           | `gsub("World", "Jerry", str);`                          |
@@ -80,10 +85,6 @@ Certainly! Below is a Markdown table summarizing the built-in string functions i
 | `tolower(str)`              | Converts all upper-case characters in `str` to lower-case.                                | `tolower("HELLO, WORLD !!!");`                          |
 | `toupper(str)`              | Converts all lower-case characters in `str` to upper-case.                                | `toupper("hello, world !!!");`                          |
 
+------------------------------------------------------------------------
 
-
-
-
-
----
-[grep]({{< ref "posts/Linux/commands/grep.md" >}})
+[grep](/Notes/posts/Linux/commands/grep)

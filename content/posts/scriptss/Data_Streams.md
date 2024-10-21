@@ -1,16 +1,15 @@
-+++
-title = 'Data Streams'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Data Streams
+---
 
 ## Data Streams
 
+![Standard input](/Notes/posts/scriptss/Standard_input)
 
-![Standard input]({{< ref "posts/scriptss/Standard_input.md" >}})
+|                                                           |
+|-----------------------------------------------------------|
+| ![Standard output](/Notes/posts/scriptss/Standard_output) |
 
----
-![Standard output]({{< ref "posts/scriptss/Standard_output.md" >}})
-
----
-![Standard Error]({{< ref "posts/scriptss/Standard_Error.md" >}})
+![Standard Error](/Notes/posts/scriptss/Standard_Error)

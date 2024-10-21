@@ -1,14 +1,14 @@
-+++
-title = 'MAIN_Python'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: MAIN_Python
+---
 
-    
-# [regex]({{< ref "posts/ZPythonref/regex.md" >}})
-# Python Baisick Function  
-![python_functions]({{< ref "posts/ZPythonref/python_functions.md" >}})
-# Data Functions
+# [regex](/Notes/posts/ZPythonref/regex)
 
-![data_py]({{< ref "posts/ZPythonref/data_py.md" >}}) 
+# Python Baisick Function
 
+![python_functions](/Notes/posts/ZPythonref/python_functions) # Data
+Functions
+
+![data_py](/Notes/posts/ZPythonref/data_py)

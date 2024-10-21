@@ -1,35 +1,34 @@
-+++
-title = 'Bitwise operators'
-date = 2024-09-20T23:58:04+02:00
-draft = false
-+++
+---
+date: "2024-09-20T23:58:04+02:00"
+draft: false
+title: Bitwise operators
+---
 
 You can store up to **8 boolean flags** in a single bit.
 
-[Video](https://www.youtube.com/watch?v=igIjGxF2J-w)
+[Video](https://www.youtube.com/watch?v:%20igIjGxF2J-w)
 
+### Defining the Bitflags (\<\<)
 
-### Defining the Bitflags (<<)
-
-```go
+``` go
 type flag uint
 
 const (
     // Shifts the bit for two places for the rest of the flags 
     // so they are unique 
-    READ flag = 1 << iota 
+    READ flag: 1 << iota 
     EXECUTE
     WRITE 
     // You can also combine all keywords into one 
-    ALL flag = READ | WRITE | EXECUTE
+    ALL flag: READ | WRITE | EXECUTE
 )
 ```
 
-### Passing the BitFlags (|)
+### Passing the BitFlags (\|)
 
- *checks what values are passed and applies them:*
+*checks what values are passed and applies them:*
 
-```go
+``` go
 func test(f flag) {
     // Function implementation here
 }
@@ -44,13 +43,12 @@ func main() {
 ```
 
 ### Checking the BitFlags (&)
+
 *checks if a specific flag matches:*
 
-```go
+``` go
 switch {
 case flag & READ:
 fmt.Println("You can read :)")
 }
 ```
-
-

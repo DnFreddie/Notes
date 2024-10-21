@@ -1,14 +1,15 @@
-+++
-title = 'FCoE'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: FCoE
+---
 
-## Fibre Chanel over [Ethernet]({{< ref "posts/Network/Ref_OSI/Ethernet.md" >}}) 
+## Fibre Chanel over [Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet)
 
-- No special hardware  needed
-- Ussualy integrates with an exsisting [Fibre_chanel]({{< ref "posts/Fibre_chanel.md" >}}) infrastructure
-- ==No routable==
+-   No special hardware needed
+-   Ussualy integrates with an exsisting
+    [Fibre_chanel](/Notes/posts/Fibre_chanel) infrastructure
+-   ==No routable==
 
-
->[!quote] [SAN]({{< ref "posts/Network/Data/SAN.md" >}}) [Fibre_chanel]({{< ref "posts/Fibre_chanel.md" >}}) [iSCSI]({{< ref "posts/iSCSI.md" >}})
+> \[!quote\] [SAN](/Notes/posts/Network/Data/SAN)
+> [Fibre_chanel](/Notes/posts/Fibre_chanel) [iSCSI](/Notes/posts/iSCSI)

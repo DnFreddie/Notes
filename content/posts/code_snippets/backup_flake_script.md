@@ -1,11 +1,10 @@
-+++
-title = 'backup_flake_script'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: backup_flake_script
+---
 
-```bash
-
+``` bash
 # Define include directories
 include_dirs=(
     alacritty
@@ -32,9 +31,9 @@ send_notification() {
 
 rsync_command="rsync -av"
 for dir in "${include_dirs[@]}"; do
-    rsync_command+=" --include='$dir/' --include='$dir/**'"
+    rsync_command+=" --include: "$dir/" --include='$dir/**'"
 done
-rsync_command+=" --exclude='*'"
+rsync_command+=" --exclude: "*""
 
 output=$(eval "$rsync_command $HOME/.config/ $HOME/Desktop/nixconfig/dotfiles/") || { send_notification "Rsync command failed"; exit 1; }
 
@@ -59,8 +58,8 @@ git push --set-upstream origin backup || { send_notification "Unable to push cha
 
 notify-send "UPDATE Statu " "Sucessfull"
 exit 0
-
 ```
 
----
-[Code Snipeets Main]({{< ref "posts/SNIPPETS_MAIN.md" >}})
+------------------------------------------------------------------------
+
+[Code Snipeets Main](/Notes/posts/SNIPPETS_MAIN)

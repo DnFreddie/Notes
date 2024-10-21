@@ -1,52 +1,49 @@
-+++
-title = 'App Armor'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: App Armor
+---
 
-*Define on every **program**  what it's allows to access*
-
+*Define on every **program** what it’s allows to access*
 
 ### Profiles
 
-#etc
-There are located in */etc/apparmor.d*
+#etc There are located in */etc/apparmor.d*
 
-- U can create profile for each **binary**
-	- It's the path to it ex *usr.bin.man*
-	- replace */* with *.*
+-   U can create profile for each **binary**
+    -   It’s the path to it ex *usr.bin.man*
+    -   replace */* with *.*
 
-#### Overwriting Profile  
+#### Overwriting Profile
+
 Create the profile file *etc/apparmmor.d/local*
 
-
->Bug!
+> Bug!
 >
->Can't overide **deny** with the **local allow**
->u have to change the profile then 
-
+> Can’t overide **deny** with the **local allow** u have to change the
+> profile then
 
 ### Modes
- ```bash 
- aa-status
+
+``` bash
+aa-status
 ```
 
-- **Enforced**
-	It works and stops programs
-- **Complain**
-	Only logs
-- **Disabled**
+-   **Enforced** It works and stops programs
+-   **Complain** Only logs
+-   **Disabled**
 
-####  Create profile based on logs
-```bash
+#### Create profile based on logs
+
+``` bash
 sudo aa-logprof
 ```
 
- >Example
- >![Pasted_image_20240507121744.png](/Notes/Pasted_image_20240507121744.png)
+> Example
+> ![Pasted_image_20240507121744.png](/Notes/Pasted_image_20240507121744.png)
 
+------------------------------------------------------------------------
 
----
-[Docs](https://www.youtube.com/watch?v=XP-N22hjijo&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp&index=39)
+[Docs](https://www.youtube.com/watch?v:%20XP-N22hjijo&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp&index=39)
 
-[SELinux]({{< ref "posts/SELinux.md" >}})
+[SELinux](/Notes/posts/SELinux)

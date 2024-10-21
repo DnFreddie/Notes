@@ -1,16 +1,16 @@
-+++
-title = 'Firefox custom css'
-date = 2024-10-15T20:49:21+02:00
-draft = false
-+++
+---
+date: "2024-10-15T20:49:21+02:00"
+draft: false
+title: Firefox custom css
+---
 
+## Instructions
 
-## Instructions 
-1. Enter `about:support`  
-2. Check  the defualt profile
-3. Create `chrome/userChrome.css`
+1.  Enter `about:support`  
+2.  Check the defualt profile
+3.  Create `chrome/userChrome.css`
 
-```css
+``` css
 #TabsToolbar {
   visibility: collapse !important;
 }

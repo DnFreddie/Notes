@@ -1,112 +1,106 @@
-+++
-title = 'Ansible Main'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-tags = ["ansible"]
-categories = ["automation"]
-+++
+---
+categories:
+- automation
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+tags:
+- ansible
+title: Ansible Main
+---
 
-**Push model**
-- Ruby based 
-- ***demon less***
-		   
-- **Procedural**
-	- it creates top to bottom
+**Push model** - Ruby based - ***demon less***
 
-# Architecture 
+-   **Procedural**
+    -   it creates top to bottom
 
-1. Controller node (*only this requires ansible*)<!--- Ansaible is a python program -->
-    - This are the *inventory* and are in the ansible configuration file 
-        - smaller servers 
-        - network devices 
-        - kuberntetss
+# Architecture
 
-    - public and private cloud 
-**Can do windows automation on windows**
- - It has to hav **python** isntalled on the machines
+1.  Controller node (*only this requires
+    ansible*)<!--- Ansaible is a python program -->
+    -   This are the *inventory* and are in the ansible configuration
+        file
+        -   smaller servers
+        -   network devices
+        -   kuberntetss
+    -   public and private cloud **Can do windows automation on
+        windows**
+
+-   It has to hav **python** isntalled on the machines
 
 ## Plugins/Modules
-To list modules  use `ansiable-doc  -l`
-To get the help of the particular module use `ansible-doc -s <module>`
-- *inventory plugins* 
-    - organize managed  host to different  kinds of inventory
-- *connection plugins*   
-    - How does Ansaible controller connect to the host 
-        - example ssh plugin
-        - for windows **winrm**  plugin
-- *become*
-    - what user u would like to become
-        - sudo
-        - run as 
-- *vars*
-    reference how we make use of variables 
-- *lookup*
-    different  *data sources* 
-- *callback*
-    This just logs 
-- *cache*
+
+To list modules use `ansiable-doc  -l` To get the help of the particular
+module use `ansible-doc -s <module>` - *inventory plugins* - organize
+managed host to different kinds of inventory - *connection plugins*  
+- How does Ansaible controller connect to the host - example ssh plugin
+- for windows **winrm** plugin - *become* - what user u would like to
+become - sudo - run as - *vars* reference how we make use of variables -
+*lookup* different *data sources* - *callback* This just logs - *cache*
 
 ## Ansible configuration
 
-1. ansible.cfg in the current  directory 
-2. **ANSIBLE_CONFIG** environment var
-```bash 
+1.  ansible.cfg in the current directory
+2.  **ANSIBLE_CONFIG** environment var
+
+``` bash
 # Provides also current config file in use
 ansible --version
-
 ```
+
 ### Example config
 
-```nix
+``` nix
 poetry2nix.mkPoetryEnv {
     projectDir = ./.;
-    overrides = poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
+    overrides: poetry2nix.overrides.withDefaults (final: prev: { foo = null; });
 }guration
-
 ```
-```ini
+
+``` ini
 [defualts]
 inventory = ./myInventoru
-remote_user = devovs 
+remote_user: devovs 
 collections_paths = ./collections/
-collbacks_enabled = ansible.posix.profile_roles
+collbacks_enabled: ansible.posix.profile_roles
 ```
 
 ## Inventory
 
-- U can use pass the arguments **direcly to the ivnentory**
-```ini   
-[test_server]
-control_test type=client
-node_test type=server
+-   U can use pass the arguments **direcly to the ivnentory**
 
+``` ini
+[test_server]
+control_test type: client
+node_test type: server
 ```
 
-- The beterr approach is to use the `ansible_hostname` 
-    - since it first performs *uname -n*
+-   The beterr approach is to use the `ansible_hostname`
+    -   since it first performs *uname -n*
 
----
+------------------------------------------------------------------------
 
 If u want to execute one host at a time use the `serial` varaible
 
----
+------------------------------------------------------------------------
 
-To use the **host group** for the playbook  use `inventory_hostname`
+To use the **host group** for the playbook use `inventory_hostname`
 
-
-```yaml
+``` yaml
   hosts: home_machines
   vars:
     user_home: "/home/{{ inventory_hostname }}"
 ```
+
 ### Diffrences
-![Ansiable hosname vs inventory_hostname](/Notes/a_hostname_vs_in_hostname.png)
+
+![Ansiable hosname vs
+inventory_hostname](/Notes/a_hostname_vs_in_hostname.png)
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
 
-
 Example:
-```bash
+
+``` bash
 # to show use ansible-invetory --graph or --list in json output 
 [webserver]
 servera
@@ -118,32 +112,37 @@ servdb
 webserver
 dbservers
 ```
+
 ### Dynamic inventories
-*Remember to **define dynamic groups as empty** in the static inventory file elswere the ansible will error*
 
-- [Dynamic inventory in go ]({{< ref "posts/code_snippets/dynamic_inventory_go.md" >}})
+*Remember to **define dynamic groups as empty** in the static inventory
+file elswere the ansible will error*
 
-- [Using a dynamic libvirt inventory with Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
+-   [Dynamic inventory in
+    go](/Notes/posts/code_snippets/dynamic_inventory_go)
 
-## Playbooks 
+-   [Using a dynamic libvirt inventory with
+    Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
 
-(rember to check for the sytnax issues `--sytnax check` )
-**They are run top to bottom**
-[!bug] By default ansible *panics  when error*
-- **Task** is just a **task** that has to be done can use modules 
-- **Role** is just the **directory** with the instructions 
-    - Highly parametric-seized 
-    - *Works with vars*
-    - Can mix both
+## Playbooks
+
+(rember to check for the sytnax issues `--sytnax check` ) **They are run
+top to bottom** \[!bug\] By default ansible *panics when error* -
+**Task** is just a **task** that has to be done can use modules -
+**Role** is just the **directory** with the instructions - Highly
+parametric-seized - *Works with vars* - Can mix both
 
 ### Handlers
 
-- They are executing in an order that there were **notyfied** in 
-- The handlesr executes only once no matter the amount of *task calling*
-    - If **force_handlers** enabled then handlers will execute no matter the error
+-   They are executing in an order that there were **notyfied** in
+-   The handlesr executes only once no matter the amount of *task
+    calling*
+    -   If **force_handlers** enabled then handlers will execute no
+        matter the error
 
 #### Example
-```yaml
+
+``` yaml
 - name: Kernel Update
   hosts: test
   become: true
@@ -156,24 +155,28 @@ dbservers
     - name: Ensure system is rebooted
       ansible.builtin.reboot:
         msg: "Rebooting due to a kernel update"
-
-
 ```
+
 ### Facts and conditionals
+
 [Docs](https://www.golinuxcloud.com/ansible-facts/)
 
 #### Gathering info
- *Gathering facts may be constly* use **setup** for the specyfic machines u want to chekout
 
-- If **gather_facts** enabled we can use uthis to veryfie facts of the systme 
-    - And set the taks blocks acordingly 
-- use **when** for the conditoals 
-- or vars with the **assert** module 
+*Gathering facts may be constly* use **setup** for the specyfic machines
+u want to chekout
+
+-   If **gather_facts** enabled we can use uthis to veryfie facts of the
+    systme
+    -   And set the taks blocks acordingly
+-   use **when** for the conditoals
+-   or vars with the **assert** module
 
 [Docs](https://www.coursera.org/learn/fundamentals-of-ansible/lecture/u0iXX/using-conditionals)
 
 Ex
-```yaml
+
+``` yaml
 gather_facts: true 
 task:
     - name: Veryfie that this si the debian dirsto 
@@ -183,64 +186,60 @@ task:
         - ansible.builtin.debug:
                 - msg: This is Debian 
           
-
-
 ```
 
 #### User defined facts
 
-Create  `/etc/ansible/facts.d` on the *managed nodes*
-- The file has tave to have **.file**  extentsion 
-- Has to be in the **Json Format**
+Create `/etc/ansible/facts.d` on the *managed nodes* - The file has tave
+to have **.file** extentsion - Has to be in the **Json Format**
 
+### Plugins
 
+Uses ansiable-**galaxy** They provied modules like for example to work
+with
+[Libvirt](https://docs.ansible.com/ansible/latest/collections/community/libvirt/index.html)
 
-### Plugins  
-Uses ansiable-**galaxy**
-They provied modules like for example to work with [Libvirt](https://docs.ansible.com/ansible/latest/collections/community/libvirt/index.html)
+#### Ansiable with nix
 
+Rember to install stuff in the as root user profile then the user can
+use the softerwe and also add the nix path to **sudo path**
 
-
-
-
-
-#### Ansiable with nix 
-Rember to install stuff in the as root user profile then the user can use the softerwe and also add the nix path to **sudo path**
-
-```bash 
+``` bash
 Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nix/var/nix/profiles/default/bin"
-
 ```
+
 ### Pacages/Collections
 
-U can use a bulti in **.package** module  to install different packages
+U can use a bulti in **.package** module to install different packages
 
-[Example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples) 
+[Example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples)
 
 ### Vault pass
-Using Ansible Vault with a Password File
-If you do not wish to type in the Vault password each time you execute a task, you can add your Vault password to a file and reference the file during execution.
 
-For example, you could put your password in a .vault_pass file like this:
+Using Ansible Vault with a Password File If you do not wish to type in
+the Vault password each time you execute a task, you can add your Vault
+password to a file and reference the file during execution.
 
- 
-```bash
+For example, you could put your password in a .vault_pass file like
+this:
+
+``` bash
 echo 'my_vault_password' > .vault_pass
 ```
-If you are using version control, make sure to add the password file to your version control software’s ignore file to avoid accidentally committing it:
-[Ansaible vault with the password file ](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data#using-ansible-vault-with-a-password-file)
 
+If you are using version control, make sure to add the password file to
+your version control software’s ignore file to avoid accidentally
+committing it: [Ansaible vault with the password
+file](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data#using-ansible-vault-with-a-password-file)
 
-```bash
+``` bash
 ansible-playbook  main.yml -i inventory   --vault-password-file=.vault_pass
-
 ```
 
----
-[teraform]({{< ref "posts/cloud/terraform/terraform.md" >}})
+------------------------------------------------------------------------
 
-[Puppet]({{< ref "posts/Puppet.md" >}})
+[teraform](/Notes/posts/cloud/terraform/terraform)
 
-[Ansible commands]({{< ref "posts/ansible/ansible_commands.md" >}})
+[Puppet](/Notes/posts/Puppet)
 
-
+[Ansible commands](/Notes/posts/ansible/ansible_commands)

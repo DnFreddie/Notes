@@ -1,9 +1,9 @@
-+++
-title = 'Scheduling Scripts'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Scheduling Scripts
+---
 
-- [At]({{< ref "posts/scriptss/At.md" >}})
-- [Cronetab]({{< ref "posts/scriptss/Cronetab.md" >}})
-- [Systemd Timers]({{< ref "posts/systemd#systemd-timers" >}})
+-   [At](/Notes/posts/scriptss/At)
+-   [Cronetab](/Notes/posts/scriptss/Cronetab)
+-   [Systemd Timers](/Notes/posts/systemd#systemd-timers)

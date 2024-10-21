@@ -1,31 +1,37 @@
-+++
-title = 'Humanise Servers With Ansible'
-date = 2024-07-09T11:27:06.000Z
-draft = false
-categories = ["posts"]
-+++
+---
+categories:
+- posts
+date: "2024-07-09T11:27:06.000Z"
+draft: false
+title: Humanise Servers With Ansible
+---
 
-With the endless anthropomorphization of AI and tech, we often think that technology is starting to become more human-like.
+With the endless anthropomorphization of AI and tech, we often think
+that technology is starting to become more human-like.
 
-However, we rarely realize that what truly surrounds us are millions of servers, like an army of starwars clones.
+However, we rarely realize that what truly surrounds us are millions of
+servers, like an army of starwars clones.
 
-From a server's perspective, it doesn’t fully comprehend what is happening.
-A server doesn't know that it is a server unless we assign it a name or identifier.
+From a server’s perspective, it doesn’t fully comprehend what is
+happening. A server doesn’t know that it is a server unless we assign it
+a name or identifier.
 
-You might name your favorite virtual machine "Janey" and live happily ever after.
-But what happens when you have 5,000 Janeys or an entire cluster of them?
-
+You might name your favorite virtual machine “Janey” and live happily
+ever after. But what happens when you have 5,000 Janeys or an entire
+cluster of them?
 
 ### Creating an Environment
-![Enviroment](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2FcodingEnvairoment.jpg?alt=media&token=ad313356-64a5-4eac-aee2-c38dc98ea16c)
-It's important to know where we are working whether it's in production, a main cluster, or some other environment.
-In general, the more information a node holds, the easier it is to troubleshoot.
-In Ansible, we can achieve this by setting variables within the inventory itself.
-In a previous post, I mentioned groups as the first way to organize your machines.
-This is the most basic yet powerful feature.
-For now, let's say we have two environments: `home_lab` and `production`.
 
-```toml
+![Enviroment](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2FcodingEnvairoment.jpg?alt:%20media&token=ad313356-64a5-4eac-aee2-c38dc98ea16c)
+It’s important to know where we are working whether it’s in production,
+a main cluster, or some other environment. In general, the more
+information a node holds, the easier it is to troubleshoot. In Ansible,
+we can achieve this by setting variables within the inventory itself. In
+a previous post, I mentioned groups as the first way to organize your
+machines. This is the most basic yet powerful feature. For now, let’s
+say we have two environments: `home_lab` and `production`.
+
+``` toml
 [home_lab]
 proxy
 jimmy
@@ -38,23 +44,25 @@ webserver3
 
 
 [production:vars]
-some_server=foo.southeast.example.com    
-type=test
-halon_system_timeout=30
-self_destruct_countdown=60
-escape_pods=2
-
+some_server: foo.southeast.example.com    
+type: test
+halon_system_timeout: 30
+self_destruct_countdown: 60
+escape_pods: 2
 ```
 
-Ansible is so great that it supports different formats for inventory, such as YAML and JSON.
+Ansible is so great that it supports different formats for inventory,
+such as YAML and JSON.
 
-JSON is especially handy if you want to grab a list of machines from an API call.
+JSON is especially handy if you want to grab a list of machines from an
+API call.
 
-You can also provide additional variables to the hosts, like `escape_pods: 2`, which can be used for matching conditions later.
-In the playbook, we can easily choose only the hosts we need based on these variables.
+You can also provide additional variables to the hosts, like
+`escape_pods: 2`, which can be used for matching conditions later. In
+the playbook, we can easily choose only the hosts we need based on these
+variables.
 
-
-```yaml
+``` yaml
 ---
 - hosts: production
   tasks:
@@ -64,77 +72,87 @@ In the playbook, we can easily choose only the hosts we need based on these vari
       when: hostvars[inventory_hostname]['nodes'] == 2
 ```
 
-### Our environment is not stable 
+### Our environment is not stable
 
-![aws web services](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Faws_web_servises.jpg?alt=media&token=61b8533f-232c-461a-8eb5-25b8f2dc1c1b)
+![aws web
+services](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Faws_web_servises.jpg?alt:%20media&token=61b8533f-232c-461a-8eb5-25b8f2dc1c1b)
 
-As I mentioned earlier, when we scale up, we start dealing with dynamic IPs, constant rotation of instances, and varying request loads.
+As I mentioned earlier, when we scale up, we start dealing with dynamic
+IPs, constant rotation of instances, and varying request loads.
 
-This can make it difficult to pinpoint the true location of boxes  this can truly create horrible mess. 
+This can make it difficult to pinpoint the true location of boxes this
+can truly create horrible mess.
 
-Fortunately, Ansible offers a solution to this complexity through **dynamic inventories.**
+Fortunately, Ansible offers a solution to this complexity through
+**dynamic inventories.**
 
-With dynamic inventories, you don’t have to write the code yourself much like using roles or collections.
+With dynamic inventories, you don’t have to write the code yourself much
+like using roles or collections.
 
-You can download inventory scripts or plugins for various platforms, from Docker to GitLab runners.
+You can download inventory scripts or plugins for various platforms,
+from Docker to GitLab runners.
 
-Just remember to define dynamic groups as empty in the static inventory file; otherwise, Ansible will throw an error.
+Just remember to define dynamic groups as empty in the static inventory
+file; otherwise, Ansible will throw an error.
 
-
-```bash
+``` bash
 # list all the available ones
 ansible-doc -t inventory -l
 ```
-Hearse the example documentation for the [Docker Containers inventory](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_containers_inventory.html)
+
+Hearse the example documentation for the [Docker Containers
+inventory](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_containers_inventory.html)
 
 ### Sometimes u have to do something custom
 
+Fortunately, creating something tailored to your needs is
+straightforward. You’re not restricted to using Python.
 
-Fortunately, creating something tailored to your needs is straightforward.
-You’re not restricted to using Python. 
+You can use any language that supports outputting JSON to standard
+output.
 
-You can use any language that supports outputting JSON to standard output.
+To create a dynamic inventory, simply write a script in your preferred
+language that generates JSON and outputs it.
 
-To create a dynamic inventory, simply write a script in your preferred language that generates JSON and outputs it.
+You just need to specify the path to the script or binary in your
+Ansible configuration. \>Hearse a small example:
 
-You just need to specify the path to the script or binary in your Ansible configuration.
->Hearse a small example:
-```go 
+``` go
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"os"
+    "encoding/json"
+    "fmt"
+    "os"
 )
 
 
 // Represents  hosts and variables.
 type Group struct {
-	Hosts []string          `json:"hosts"`
-	Vars  map[string]string `json:"vars"`
+    Hosts []string          `json:"hosts"`
+    Vars  map[string]string `json:"vars"`
 }
 
 func main() {
-	inventory:= Group{
-			Hosts: []string{"host1", "host2"},
-			Vars: map[string]string{
-				"var1": "value1",
-				"var2": "value2",
-			},
-		}
+    inventory:= Group{
+            Hosts: []string{"host1", "host2"},
+            Vars: map[string]string{
+                "var1": "value1",
+                "var2": "value2",
+            },
+        }
 
-	output, err := json.MarshalIndent(inventory, "", "  ")
-	if err != nil {
-		fmt.Println("Error:", err)
-		os.Exit(1)
-	}
+    output, err := json.MarshalIndent(inventory, "", "  ")
+    if err != nil {
+        fmt.Println("Error:", err)
+        os.Exit(1)
+    }
 
-	fmt.Println(string(output))
+    fmt.Println(string(output))
 }
-
 ```
-```bash 
+
+``` bash
 # then build it 
 go build main.go
 
@@ -143,60 +161,73 @@ go build main.go
 ansible-playbook -i main {playbook name }
 ```
 
-
 ### Who Touched It?
-![Goldilocks and the Three Bears](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Fgolidbolocs.webp?alt=media&token=2174424c-cf31-4047-b294-e3099f345c67)
-Imagine you have set up your inventory, executed your favorite playbook, and everything seems nice and stable.
-Then u come back later the same day.
-And, the system doesn't work as expected.
-You start asking around to find out what happened, but nobody knows anything.
-If only you knew that you could hash your files to track changes...
 
+![Goldilocks and the Three
+Bears](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Fgolidbolocs.webp?alt:%20media&token=2174424c-cf31-4047-b294-e3099f345c67)
+Imagine you have set up your inventory, executed your favorite playbook,
+and everything seems nice and stable. Then u come back later the same
+day. And, the system doesn’t work as expected. You start asking around
+to find out what happened, but nobody knows anything. If only you knew
+that you could hash your files to track changes…
 
 Fortunately, the Ansible copy module has a `checksum` parameter.
 
-By default, it uses the SHA-1 algorithm, but you can provide the hash and the hashing method upfront.
+By default, it uses the SHA-1 algorithm, but you can provide the hash
+and the hashing method upfront.
 
-This is an excellent practice to verify your files before running the playbook.
+This is an excellent practice to verify your files before running the
+playbook.
 
-If something goes wrong, you can easily confirm if the system was altered by someone else and ensure you're not the source of the issue.
+If something goes wrong, you can easily confirm if the system was
+altered by someone else and ensure you’re not the source of the issue.
 
-Example:
-Let's say you have a configuration file that you need to copy to a remote server.
-You can use the Ansible copy module with the checksum parameter to ensure the file hasn't been tampered with.
+Example: Let’s say you have a configuration file that you need to copy
+to a remote server. You can use the Ansible copy module with the
+checksum parameter to ensure the file hasn’t been tampered with.
 
-```yaml
+``` yaml
 - name: Copy configuration file with checksum
   ansible.builtin.copy:
     src: /path/to/local/config/file.conf
     dest: /path/to/remote/config/file.conf
     checksum: sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
-
 ```
-In this example, the checksum ensures that the file you're copying matches the expected hash.
-If the file has been altered, Ansible will detect the discrepancy, helping you identify any unauthorized changes.
+
+In this example, the checksum ensures that the file you’re copying
+matches the expected hash. If the file has been altered, Ansible will
+detect the discrepancy, helping you identify any unauthorized changes.
 
 ### In a System, Everyone Touches Everything
-![Quote](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Feverything_touches.jpg?alt=media&token=76ac5692-f0d3-4496-944f-37e0ccc71a5c)
 
-Files and systems are constantly moving and changing, making them hard to track.
+![Quote](https://firebasestorage.googleapis.com/v0/b/fbase-2d77d.appspot.com/o/assets%2Fit_just_body%2Feverything_touches.jpg?alt:%20media&token=76ac5692-f0d3-4496-944f-37e0ccc71a5c)
 
-Sometimes, you work on a machine for a while, then leave it for three weeks, only to return and struggle to figure out what happened.
+Files and systems are constantly moving and changing, making them hard
+to track.
 
-Remember that even a simple accidental `touch` command can change the modification date of a file, complicating the tracking process.
+Sometimes, you work on a machine for a while, then leave it for three
+weeks, only to return and struggle to figure out what happened.
 
-As engineers, we usually rely on notes to solve this issue, but it would be even better if we could document changes directly within our systems?
+Remember that even a simple accidental `touch` command can change the
+modification date of a file, complicating the tracking process.
 
-A good story adds clarity and context, making everything more manageable.
+As engineers, we usually rely on notes to solve this issue, but it would
+be even better if we could document changes directly within our systems?
 
-That's why Ansible comes with a templating engine, a tool you might have used early in your web development career before moving to the shiny world of JavaScript and forgetting about it. 
+A good story adds clarity and context, making everything more
+manageable.
 
-This  [Jinja](https://jinja.palletsprojects.com/en/2.10.x/) engine can execute Python code within itself, providing a powerful way to maintain and document your systems.
+That’s why Ansible comes with a templating engine, a tool you might have
+used early in your web development career before moving to the shiny
+world of JavaScript and forgetting about it.
+
+This [Jinja](https://jinja.palletsprojects.com/en/2.10.x/) engine can
+execute Python code within itself, providing a powerful way to maintain
+and document your systems.
 
 I’ll show you a useful template that’s great to have.
 
-```j2
-
+``` j2
 # Configuration file generated by Ansible
 # Date: {{ ansible_date_time.iso8601 }}
 # System Name: {{ inventory_hostname }}
@@ -208,25 +239,27 @@ I’ll show you a useful template that’s great to have.
 # {{ file }}: {{ hash }}
 {% endfor %}
 
-
 ```
-First, record the system name and the date when the modification occurred.
 
-Then, log what changed, such as the installation of Nginx or the creation of new files.
+First, record the system name and the date when the modification
+occurred.
+
+Then, log what changed, such as the installation of Nginx or the
+creation of new files.
 
 For file creation, store their hashes.
 
-You can write this information to /var/log and later rewrite it or store a copy on your local machine.
+You can write this information to /var/log and later rewrite it or store
+a copy on your local machine.
 
 However, managing this for thousands of entries might be problematic.
 
-Additionally, log other variables, such as whether it was a testing or production system, or if it was a routine scan.
+Additionally, log other variables, such as whether it was a testing or
+production system, or if it was a routine scan.
 
 The more information you provide, the better.
 
-
-```yaml 
-
+``` yaml
 - name: Generate configuration with detailed information
   hosts: all
   vars:
@@ -243,15 +276,20 @@ The more information you provide, the better.
 ```
 
 ### Never Get Lost Again
-As you gain experience in tech and programming, you'll frequently transition between different environments.
 
-It’s crucial not to fear the unfamiliar but to understand where you are and what has changed.
+As you gain experience in tech and programming, you’ll frequently
+transition between different environments.
+
+It’s crucial not to fear the unfamiliar but to understand where you are
+and what has changed.
 
 This approach will help you avoid confusion and frustration.
 
-*There’s nothing worse than having something work and not knowing why, or having something fail and not understanding what changed.*
+*There’s nothing worse than having something work and not knowing why,
+or having something fail and not understanding what changed.*
 
-By documenting your path and changes, you can navigate through your work with clarity and confidence.
+By documenting your path and changes, you can navigate through your work
+with clarity and confidence.
 
 Mark your path and stay informed.
 

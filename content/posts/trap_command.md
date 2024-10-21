@@ -1,11 +1,12 @@
-+++
-title = 'trap_command'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: trap_command
+---
 
     - Handels **signals** during sccipr execution 
-```bash
+
+``` bash
 # Define a function to handle signals by name
 handle_signal() {
   local signal_name="$1"
@@ -26,9 +27,9 @@ while true; do
   echo "Script is running..."
   sleep 5
 done
-
 ```
 
----
-[[Process management_signals.canvas|Process management_signals]]
-[command]({{< ref "posts/scriptss/command.md" >}})
+------------------------------------------------------------------------
+
+\[\[Process management_signals.canvas\|Process management_signals\]\]
+[command](/Notes/posts/scriptss/command)

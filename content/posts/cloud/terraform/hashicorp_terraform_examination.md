@@ -1,18 +1,14 @@
-+++
-title = 'Hashicorp terraform examination'
-date = 2024-08-28T01:51:24+02:00
-draft = false
-tags = ["terraform"]
-+++
+---
+date: "2024-08-28T01:51:24+02:00"
+draft: false
+tags:
+- terraform
+title: Hashicorp terraform examination
+---
 
-[Course Link](https://www.youtube.com/watch?v=SPcwo0Gq9T8)
+[Course Link](https://www.youtube.com/watch?v:%20SPcwo0Gq9T8)
 
-
-
-
-- [terraform]({{< ref "posts/cloud/terraform/terraform.md" >}})
-- [Configuration drift]({{< ref "posts/cloud/iaC/configuration_drift.md" >}})
-- [Infrastructure as Code (IaC)]({{< ref "posts/cloud/iaC/iaC.md" >}})
-- [CI CD]({{< ref "posts/CI_CD.md" >}})
-
-
+-   [terraform](/Notes/posts/cloud/terraform/terraform)
+-   [Configuration drift](/Notes/posts/cloud/iaC/configuration_drift)
+-   [Infrastructure as Code (IaC)](/Notes/posts/cloud/iaC/iaC)
+-   [CI CD](/Notes/posts/CI_CD)

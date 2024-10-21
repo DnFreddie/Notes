@@ -1,14 +1,17 @@
-+++
-title = 'resistance_rob'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: resistance_rob
+---
 
-## Resistance 
+## Resistance
 
-- The more resistance in a circuit, the lower the voltage will be across the resistor.
-- Think of it like water
-	flowing through a pipe. 
-	- If the pipe is narrow (high resistance), the water pressure (voltage) will be lower. If the pipe is wide (lowresistance), the water pressure will be higher.
+-   The more resistance in a circuit, the lower the voltage will be
+    across the resistor.
+-   Think of it like water flowing through a pipe.
+    -   If the pipe is narrow (high resistance), the water pressure
+        (voltage) will be lower. If the pipe is wide (lowresistance),
+        the water pressure will be higher.
 
->[!quote] [voltage_rob]({{< ref "posts/voltage_rob.md" >}}) [current_rob]({{< ref "posts/current_rob.md" >}})
+> \[!quote\] [voltage_rob](/Notes/posts/voltage_rob)
+> [current_rob](/Notes/posts/current_rob)

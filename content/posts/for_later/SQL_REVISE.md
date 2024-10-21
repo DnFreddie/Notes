@@ -1,43 +1,39 @@
-+++
-title = 'SQL REVISE'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: SQL REVISE
+---
 
 # SQL
-![Baisic structure of a SQL]({{< ref "posts/SQL/Baisic_structure_of_a_SQL.md" >}})
-![foregin key.sql]({{< ref "posts/SQL/to_revise/foregin_key.sql.md" >}})
 
---- 
-![SQL Data types]({{< ref "posts/SQL/to_revise/SQL_Data_types.md" >}})
+![Baisic structure of a SQL](/Notes/posts/SQL/Baisic_structure_of_a_SQL)
+![foregin key.sql](/Notes/posts/SQL/to_revise/foregin_key.sql)
 
----
-![SQL functions]({{< ref "posts/SQL/to_revise/SQL_functions.md" >}})
+| ![SQL Data types](/Notes/posts/SQL/to_revise/SQL_Data_types) |
+|--------------------------------------------------------------|
+| ![SQL functions](/Notes/posts/SQL/to_revise/SQL_functions)   |
 
----
-![SQLoperatrors]({{< ref "posts/SQL/to_revise/SQLoperatrors.md" >}})
+![SQLoperatrors](/Notes/posts/SQL/to_revise/SQLoperatrors)
 
----
+------------------------------------------------------------------------
 
-![Calculation SQL]({{< ref "posts/SQL/Calculation_SQL.md" >}})
----
+## ![Calculation SQL](/Notes/posts/SQL/Calculation_SQL)
 
 ## Data Manipulation
-1. [Aggregates]({{< ref "posts/SQL/Aggregates.md" >}})
-2. [Case]({{< ref "posts/SQL/Case.md" >}})
-3. [cross join.sql]({{< ref "posts/SQL/cross_join.sql.md" >}})
-4. [Distinc SQL]({{< ref "posts/SQL/Distinc_SQL.md" >}})
-5. [Group by]({{< ref "posts/SQL/Group_by.md" >}})
-6. [Having]({{< ref "posts/SQL/Having.md" >}})
-7. [Is null]({{< ref "posts/SQL/Is_null.md" >}})
-8. [join.sql]({{< ref "posts/SQL/join.sql.md" >}})
-9. [left join.sql]({{< ref "posts/SQL/left_join.sql.md" >}})
-10. [Like]({{< ref "posts/SQL/Like.md" >}})
-11. [limit]({{< ref "posts/SQL/limit.md" >}})
-12. [Order by]({{< ref "posts/SQL/Order_by.md" >}})
-13. [statement.sql]({{< ref "posts/SQL/statement.sql.md" >}})
-14. [union.sql]({{< ref "posts/SQL/union.sql.md" >}})
-15. [with.sql]({{< ref "posts/SQL/with.sql.md" >}})
->[!quote] [Postgres]({{< ref "posts/Metasploit_Framework/Postgres.md" >}}) | 
 
-
+1.  [Aggregates](/Notes/posts/SQL/Aggregates)
+2.  [Case](/Notes/posts/SQL/Case)
+3.  [cross join.sql](/Notes/posts/SQL/cross_join.sql)
+4.  [Distinc SQL](/Notes/posts/SQL/Distinc_SQL)
+5.  [Group by](/Notes/posts/SQL/Group_by)
+6.  [Having](/Notes/posts/SQL/Having)
+7.  [Is null](/Notes/posts/SQL/Is_null)
+8.  [join.sql](/Notes/posts/SQL/join.sql)
+9.  [left join.sql](/Notes/posts/SQL/left_join.sql)
+10. [Like](/Notes/posts/SQL/Like)
+11. [limit](/Notes/posts/SQL/limit)
+12. [Order by](/Notes/posts/SQL/Order_by)
+13. [statement.sql](/Notes/posts/SQL/statement.sql)
+14. [union.sql](/Notes/posts/SQL/union.sql)
+15. [with.sql](/Notes/posts/SQL/with.sql) >\[!quote\]
+    [Postgres](/Notes/posts/Metasploit_Framework/Postgres) \|

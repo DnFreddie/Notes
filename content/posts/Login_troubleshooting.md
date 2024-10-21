@@ -1,36 +1,37 @@
-+++
-title = 'Login troubleshooting'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Login troubleshooting
+---
 
-[Worth loooking](https://www.secur.cc/how-to-troubleshoot-linux-user-issues/)
-# Troubleshooting procces 
-1. check last log [[Logging.canvas|Logging]]
-	- *last or lastb*
-2. check if user is created 
-	- [getent]({{< ref "posts/getent.md" >}})
-3. Check gui session
-	- ***sudo sytemctl status graphical.target***
+[Worth
+loooking](https://www.secur.cc/how-to-troubleshoot-linux-user-issues/) #
+Troubleshooting procces 1. check last log
+\[\[Logging.canvas\|Logging\]\] - *last or lastb* 2. check if user is
+created - [getent](/Notes/posts/getent) 3. Check gui session - ***sudo
+sytemctl status graphical.target***
 
+### Tty issues
 
-### Tty issues 
-U can check weather the terminal sesison where corrupted in 
-#dev
-***/dev/tty***
-- If the file is corupted it will have **-** in front if *c* then the file is ok 
-	- Use **mknod**
+U can check weather the terminal sesison where corrupted in #dev
+***/dev/tty*** - If the file is corupted it will have **-** in front if
+*c* then the file is ok - Use **mknod**
 
-- Check if the [getty](https://0pointer.net/blog/projects/serial-console.html) service is  up
-	- It's responsible for the login prompt
+-   Check if the
+    [getty](https://0pointer.net/blog/projects/serial-console.html)
+    service is up
+    -   It’s responsible for the login prompt
 
 #### Check if the account is locked
-```bash 
+
+``` bash
 sudo passwd -S user
 ```
 
-### Check for ulimit 
+### Check for ulimit
+
 [ulimit docs](https://phoenixnap.com/kb/ulimit-linux-command)
-```bash
+
+``` bash
 ulimit user
 ```

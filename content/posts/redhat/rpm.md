@@ -1,34 +1,40 @@
-+++
-title = 'Rpm package manager'
-date = 2024-08-01T19:23:14+02:00
-draft = false
-tags = ["RHEL"]
-+++
-[Rocky Linux Repositories](https://wiki.rockylinux.org/rocky/repo/#community-approved-repositories)
+---
+date: "2024-08-01T19:23:14+02:00"
+draft: false
+tags:
+- RHEL
+title: Rpm package manager
+---
+
+[Rocky Linux
+Repositories](https://wiki.rockylinux.org/rocky/repo/#community-approved-repositories)
 
 ### When the pacage was insatlled `--last`
-```bash
+
+``` bash
 rpm -qa  --last
 ```
 
 ## General info `-qi`
-```bash
+
+``` bash
 rpm -qi openssl
 ```
 
-
 ### Pacage Dependecies `-R`
-```bash
+
+``` bash
 rpm -qR openssl
 ```
 
 ### Reading a package changelog `--changelog`
 
-```bash
+``` bash
 rpm -q --changelog  openssl
 ```
 
 ### Files provided by the pacage `-l`
-```bash
+
+``` bash
 rpm -ql openssl
 ```

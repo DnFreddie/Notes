@@ -1,31 +1,28 @@
-+++
-title = 'Permissions'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Permissions
+---
 
-
-Permissions are written in 3 sections.
-1. for the user
-2. for the group
+Permissions are written in 3 sections. 1. for the user 2. for the group
 3. for all users
 
 ## Adding Permissions in Binary
 
 To add all permissions to all users, you need to type `777`.
 
-> Example 
+> Example
 >
->Numeric representation of permissions  
+> Numeric representation of permissions  
 > ![Permissions Example](/Notes/Pasted_image_20230404214606.png)
 
-[umask]({{< ref "posts/Linux/umask.md" >}})
+[umask](/Notes/posts/Linux/umask)
 
 ## Special Permissions
 
-- [SUID]({{< ref "posts/Linux/SUID.md" >}})
-- [SGID]({{< ref "posts/Linux/SGID.md" >}})
+-   [SUID](/Notes/posts/Linux/SUID)
+-   [SGID](/Notes/posts/Linux/SGID)
 
----
+------------------------------------------------------------------------
 
-[skel_etc]({{< ref "posts/Linux/etc/skel_etc.md" >}})
+[skel_etc](/Notes/posts/Linux/etc/skel_etc)

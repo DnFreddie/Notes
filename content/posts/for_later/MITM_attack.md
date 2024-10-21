@@ -1,11 +1,13 @@
-+++
-title = 'MITM attack'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: MITM attack
+---
 
-# Man in the middle 
-- The ahcker places themselves **between communicatin host** to *intercept the information*
-	- To achive thiis u have to **enable packet forwording ** 
+# Man in the middle
 
->[!quote] [sysctl]({{< ref "posts/for_later/sysctl.md" >}})
+-   The ahcker places themselves **between communicatin host** to
+    *intercept the information*
+    -   To achive thiis u have to **enable packet forwording **
+
+> \[!quote\] [sysctl](/Notes/posts/for_later/sysctl)

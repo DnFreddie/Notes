@@ -1,12 +1,13 @@
-+++
-title = 'Black Box Test'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Black Box Test
+---
 
-Veryfie the behaviour of the system by **examinating its output** given a set if ubputs without having access to the details of ist internal implementaion 
+Veryfie the behaviour of the system by **examinating its output** given
+a set if ubputs without having access to the details of ist internal
+implementaion
 
+[Visual reggression tests](/Notes/posts/tests/visual-reggression_tests)
 
-[Visual reggression tests ]({{< ref "posts/tests/visual-reggression_tests.md" >}})
-
-[Rust Tests]({{< ref "posts/tests/rust_tests.md" >}})
+[Rust Tests](/Notes/posts/tests/rust_tests)

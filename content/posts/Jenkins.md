@@ -1,8 +1,9 @@
-+++
-title = 'Jenkins'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Jenkins
+---
 
-    [CI CD]({{< ref "posts/CI_CD.md" >}}) automation 
+    [CI CD](/Notes/posts/CI_CD) automation 
+
 Pipleins and so onnn

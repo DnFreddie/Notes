@@ -1,8 +1,9 @@
-+++
-title = 'Loging_linux'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Loging_linux
+---
 
-    [ssh_LOG]({{< ref "posts/ssh_LOG.md" >}})
+    [ssh_LOG](/Notes/posts/ssh_LOG)
+
 [Graphana/Loki](https://hub.docker.com/r/grafana/loki/)

@@ -1,12 +1,12 @@
-+++
-title = 'Go_chanels'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Go_chanels
+---
 
     ### Read from multiple channels
 
-```go 
+``` go
 func main() {
 
   c1 := make(chan int)

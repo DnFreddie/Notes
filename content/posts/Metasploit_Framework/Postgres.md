@@ -1,17 +1,19 @@
-+++
-title = 'Postgres'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Postgres
+---
 
-## Baisic 
+## Baisic
 
-### Checking health 
->[!bug] Pinging
->From time to time the Postgres container will not be ready to accept connections when we try to run sqlx database create.
+### Checking health
 
-To solve this we need to ping it to see if its *healthy* 
-```bash
+> \[!bug\] Pinging From time to time the Postgres container will not be
+> ready to accept connections when we try to run sqlx database create.
+
+To solve this we need to ping it to see if its *healthy*
+
+``` bash
 # Keep pinging Postgres until it's ready to accept commands
 export PGPASSWORD="${DB_PASSWORD}"
 until psql -h "localhost" -U "${DB_USER}" -p "${DB_PORT}" -d "postgres" -c '\q'; do
@@ -19,13 +21,14 @@ until psql -h "localhost" -U "${DB_USER}" -p "${DB_PORT}" -d "postgres" -c '\q';
 sleep 1
 done
 >&2 echo "Postgres is up and running on port ${DB_PORT}!"
-export DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/${DB_NAME}
+export DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/${DB_NAME}
 sqlx database create
 ```
 
-$$1$$
-## Establisch docker connection 
-```bash
+1
+## Establisch docker connection
+
+``` bash
 #!/usr/bin/env bash
 set -x
 set -eo pipefail
@@ -36,7 +39,7 @@ fi
 if ! [ -x "$(command -v sqlx)" ]; then
 echo >&2 "Error: sqlx is not installed."
 echo >&2 "Use:"
-echo >&2 " cargo install --version=0.5.7 sqlx-cli --no-default-features --features postgres"
+echo >&2 " cargo install --version: 0.5.7 sqlx-cli --no-default-features --features postgres"
 echo >&2 "to install it."
 exit 1
 fi
@@ -64,11 +67,9 @@ until psql -h "localhost" -U "${DB_USER}" -p "${DB_PORT}" -d "postgres" -c '\q';
 sleep 1
 done
 >&2 echo "Postgres is up and running on port ${DB_PORT}!"
-export DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/${DB_NAME}
+export DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/${DB_NAME}
 sqlx database create
 ```
 
-
-
-
->[!quote] [Tokio_rs]({{< ref "posts/libriairies/Tokio_rs.md" >}}) [Databaes Types]({{< ref "posts/databases/Databaes_Types.md" >}}) [[SQL REVISE#SQL]]
+> \[!quote\] [Tokio_rs](/Notes/posts/libriairies/Tokio_rs) [Databaes
+> Types](/Notes/posts/databases/Databaes_Types) \[\[SQL REVISE#SQL\]\]

@@ -1,27 +1,27 @@
-+++
-title = 'Tmux'
-date = 2024-10-09T18:42:53+02:00
-draft = false
-+++
+---
+date: "2024-10-09T18:42:53+02:00"
+draft: false
+title: Tmux
+---
 
 ## Run tmux without the config
 
-```bash 
+``` bash
 tmux -f /dev/null
-
 ```
 
 ## Markers
+
 `M` near the pane marked it as **selected**
 
 ### Breaking panes
-```.tmux.conf
+
+``` .tmux.conf
 bind-key !k
 ```
+
 ### Joining-panes
 
-```bash
+``` bash
 join-pane -t <optional session name>:<destination pane
-``` 
-
-
+```

@@ -1,16 +1,12 @@
-+++
-title = 'Case statments in Bash'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Case statments in Bash
+---
 
+It allows to have multiple options Fucntios wirthut writing if
 
-It allows to have multiple options Fucntios 
-wirthut writing if
-
->Example
->![CaseStamentBash_visual.png](/Notes/CaseStamentBash_visual.png)
-> (* ) means else 
-> **remeber about ;; at the end of the line 
-> exept the last one**
-
+> Example
+> ![CaseStamentBash_visual.png](/Notes/CaseStamentBash_visual.png) (\* )
+> means else **remeber about ;; at the end of the line exept the last
+> one**

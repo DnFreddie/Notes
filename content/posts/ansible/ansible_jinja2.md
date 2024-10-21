@@ -1,14 +1,16 @@
-+++
-title = 'Jinja2'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-tags = ["ansible"]
-categories = ["logging"]
-+++
+---
+categories:
+- logging
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+tags:
+- ansible
+title: Jinja2
+---
 
 # Stemping the server
 
-*Alot of the times u don\'t know what has changed on the given server*
+*Alot of the times u don't know what has changed on the given server*
 
 -   This gives u ability to see what has change before the previous
     configuration
@@ -17,7 +19,6 @@ categories = ["logging"]
 
 -   By defulat the ansible copies the files to all the host
     -   To prevent that use **delegate_to** *local host*
-
 
 ### Template module
 
@@ -38,15 +39,13 @@ categories = ["logging"]
     local_enable={{ local_enable }}
     write_enable={{ write_enable }}
     anon_upload_enable={{ anon_upload_enable }}
-    dirmessage_enable=YES
-    xferlog_enable=YES
-    connect_from_port_20=YES
-    pam_service_name=vsftpd
-    userlist_enable=YES
+    dirmessage_enable: YES
+    xferlog_enable: YES
+    connect_from_port_20: YES
+    pam_service_name: vsftpd
+    userlist_enable: YES
     # MY IP Address={{ ansible_facts['default_ipv4']['address'] }}
-
     ```
-
 
 ## Filtering the nodes
 
@@ -58,8 +57,7 @@ categories = ["logging"]
 
 -   *Longer one*
 
-    ```templ
-
+    ``` templ
     {% for host in ansible_play_host_all %}
 
     {% if host not in ansible_play_hosts%}
@@ -70,5 +68,3 @@ categories = ["logging"]
 
     {% endfor %}
     ```
-
-

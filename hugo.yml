@@ -2,6 +2,8 @@ baseURL: "https://dnfreddie.github.io/Notes/"
 title: DefnotNotes
 paginate: 5
 theme: PaperMod
+disablePathToLower: true
+
 
 enableRobotsTXT: true
 buildDrafts: false

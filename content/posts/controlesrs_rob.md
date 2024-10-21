@@ -1,17 +1,18 @@
-+++
-title = 'controlesrs_rob'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: controlesrs_rob
+---
 
-## Types of controlers 
+## Types of controlers
 
-- **Open controllers**
-	- The output does not affecte the control output 
-		- *If the machine goes straightforward no matter what or is being controlled directly by joystick*
-- **Closed controllers**
-	- The environment influence the robot behavior
-		- *Robot makes constat calcualtion *
-		- [closed_loop_control](https://www.youtube.com/watch?v=8m0VP5_feOY)
+-   **Open controllers**
+    -   The output does not affecte the control output
+        -   *If the machine goes straightforward no matter what or is
+            being controlled directly by joystick*
+-   **Closed controllers**
+    -   The environment influence the robot behavior
+        -   *Robot makes constat calcualtion *
+        -   [closed_loop_control](https://www.youtube.com/watch?v:%208m0VP5_feOY)
 
->[!quote] [startup_robotics]({{< ref "posts/startup_robotics.md" >}})
+> \[!quote\] [startup_robotics](/Notes/posts/startup_robotics)

@@ -1,14 +1,11 @@
-+++
-title = 'AD'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
-
-
-
-
-
 ---
-[LDAP]({{< ref "posts/LDAP.md" >}})
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: AD
+---
 
-System Auth.canvas|System 
+------------------------------------------------------------------------
+
+[LDAP](/Notes/posts/LDAP)
+
+System Auth.canvas\|System

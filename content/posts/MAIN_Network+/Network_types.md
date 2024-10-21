@@ -1,44 +1,35 @@
-+++
-title = 'Network types'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
-
-![LAN]({{< ref "posts/Network/Network_Types/LAN.md" >}})
-
-
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Network types
 ---
 
-![WLAN]({{< ref "posts/Network/Network_Types/WLAN.md" >}})
+![LAN](/Notes/posts/Network/Network_Types/LAN)
 
----
+------------------------------------------------------------------------
 
-![PAN]({{< ref "posts/Network/Network_Types/PAN.md" >}})
+![WLAN](/Notes/posts/Network/Network_Types/WLAN)
 
---- 
+------------------------------------------------------------------------
 
-![MAN]({{< ref "posts/Network/Network_Types/MAN.md" >}})
+![PAN](/Notes/posts/Network/Network_Types/PAN)
 
----
-![CAN]({{< ref "posts/Network/Network_Types/CAN.md" >}})
+------------------------------------------------------------------------
 
----
-![WAN]({{< ref "posts/Network/Network_Types/WAN.md" >}})
+![MAN](/Notes/posts/Network/Network_Types/MAN)
 
----
+| ![CAN](/Notes/posts/Network/Network_Types/CAN) |
+|------------------------------------------------|
+| ![WAN](/Notes/posts/Network/Network_Types/WAN) |
 
-![Peer to peer]({{< ref "posts/Network/Network_Types/Peer_to_peer.md" >}})
+![Peer to peer](/Notes/posts/Network/Network_Types/Peer_to_peer)
 
----
-![Client-server]({{< ref "posts/Network/Network_Types/Client-server.md" >}})
+| ![Client-server](/Notes/posts/Network/Network_Types/Client-server) |
+|--------------------------------------------------------------------|
+| ![SAN](/Notes/posts/Network/Data/SAN)                              |
 
---- 
-![SAN]({{< ref "posts/Network/Data/SAN.md" >}})
+\[\[Satelite networking \]\]
 
----
-
-![[Satelite networking ]]
-
-
-> [!quote]
-> [Network Topologies]({{< ref "posts/MAIN_Network+/Network_Topologies.md" >}}) [Virtual networks]({{< ref "posts/Network/Network_Types/Virtual_networks.md" >}})
+> \[!quote\] [Network
+> Topologies](/Notes/posts/MAIN_Network+/Network_Topologies) [Virtual
+> networks](/Notes/posts/Network/Network_Types/Virtual_networks)

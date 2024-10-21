@@ -1,18 +1,18 @@
-+++
-title = 'Ansible Varaibles'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-tags= ["ansible"]
-categories = ["automation"]
-+++
+---
+categories:
+- automation
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+tags:
+- ansible
+title: Ansible Varaibles
+---
 
 # Registers
-
 
 *Capture the output of the play inside the variable*
 
 ``` yaml
-
 - name: Register Playbook
   hosts: proxy
   tasks:
@@ -27,7 +27,6 @@ categories = ["automation"]
     - name: Show the server uptime
       debug:
         msg: "{{ server_uptime.stdout }}"
-
 ```
 
 # Ansible special variables
@@ -49,7 +48,7 @@ categories = ["automation"]
 
 -   *Longer one*
 
-    ```j2
+    ``` j2
     {% for host in ansible_play_host_all %}
 
     {% if host not in ansible_play_hosts%}
@@ -59,17 +58,20 @@ categories = ["automation"]
     {% endif %}
 
     {% endfor %}
-
     ```
-# Ansible variables
-### Varialbe prcencece
-[Docs](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
 
-**The most important  is the `--extra-vars`**
-```bash
-(for example, -e "user=my_user")(always win precedence)
+    # Ansible variables
 
+    ### Varialbe prcencece
+
+    [Docs](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
+
+**The most important is the `--extra-vars`**
+
+``` bash
+(for example, -e "user: my_user")(always win precedence)
 ```
+
 ### Including external variables
 
 *Just use **var files** to import them from the another **yml** file*
@@ -100,6 +102,4 @@ variables in your playbook.
     ``` yaml
     vars:
        port_nums: [21,22,23,25,80,443]
-
     ```
-

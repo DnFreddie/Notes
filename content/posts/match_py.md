@@ -1,12 +1,12 @@
-+++
-title = 'match_py'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: match_py
+---
 
 ## Pattern Matching
 
-```
+``` python
 >>> def file_handler_v1(command):
 ...     match command.split():
 ...         case ['show']:
@@ -19,5 +19,5 @@ draft = false
 ...             print('Command not recognized')
 ```
 
-
->[!quote]  [regex]({{< ref "posts/ZPythonref/regex.md" >}}) [python_functions]({{< ref "posts/ZPythonref/python_functions.md" >}})
+> \[!quote\] [regex](/Notes/posts/ZPythonref/regex)
+> [python_functions](/Notes/posts/ZPythonref/python_functions)

@@ -1,29 +1,29 @@
-+++
-title = 'Zombie process(Z)'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Zombie process(Z)
+---
 
-The child process that **finish** his job but it's **not being cleaned** 
-*Ussualy have to get rid of the parent*
-*find zombie processes*
+The child process that **finish** his job but it’s **not being cleaned**
+*Ussualy have to get rid of the parent* *find zombie processes*
 
-```bash
+``` bash
 ps ux | awk '{if($8=="Z") print}'
 ```
-*When u're done check for u little creations*
 
+*When u’re done check for u little creations*
 
+### Spawn zombies with python
 
-### Spawn zombies with python 
 [Docs](https://medium.com/naukri-engineering/creating-troubleshooting-the-zombie-process-in-python-f4d89c46a85a)
-```python
+
+``` python
 import os, sys, time
-ttlForParent = 60;
+ttlForParent: 60;
 for i in range(0, 10):
 # This creates the copy of the main process as 
 # a child process but with diffrent PID 
-   pid_1 = os.fork()
+   pid_1: os.fork()
    print(pid_1)
    print("Hello Worlds!!!")
    if pid_1 == 0:
@@ -32,6 +32,6 @@ time.sleep(ttlForParent);
 os.wait()
 ```
 
+------------------------------------------------------------------------
 
---- 
-[awk]({{< ref "posts/awk_command.md" >}})
+[awk](/Notes/posts/awk_command)

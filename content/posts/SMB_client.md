@@ -1,14 +1,14 @@
-+++
-title = 'SMB client'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: SMB client
+---
 
-    ### [SMB]({{< ref "posts/SMB.md" >}}) CLient
+    ### [SMB](/Notes/posts/SMB) CLient
 
-**$IPC**  means  that this is the admistrative account 
+**$IPC** means that this is the admistrative account
 
-Allows u to connect to SMB 
+Allows u to connect to SMB
 ![Pasted_image_20240229202606.png](/Notes/Pasted_image_20240229202606.png)
->[!quote]  [Docs](https://linuxtect.com/linux-smbclient-command-tutorial/)
-
+\>\[!quote\]
+[Docs](https://linuxtect.com/linux-smbclient-command-tutorial/)

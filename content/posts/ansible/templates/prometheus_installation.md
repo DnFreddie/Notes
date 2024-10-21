@@ -1,10 +1,10 @@
-+++
-title = 'Prometheus installation'
-date = 2024-07-24T22:29:10+02:00
-draft = false
-+++
+---
+date: "2024-07-24T22:29:10+02:00"
+draft: false
+title: Prometheus installation
+---
 
-```yaml
+``` yaml
 ---
 - name: Install Prometheus 
   hosts: machines
@@ -77,6 +77,5 @@ draft = false
         state: started
         daemon_reload: yes
         enabled: yes
-
 
 ```

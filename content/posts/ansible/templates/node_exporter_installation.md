@@ -1,10 +1,10 @@
-+++
-title = 'Node_exporter installation'
-date = 2024-08-05T14:21:03+02:00
-draft = false
-+++
+---
+date: "2024-08-05T14:21:03+02:00"
+draft: false
+title: Node_exporter installation
+---
 
-```yaml
+``` yaml
 ---
 - name: Install node_exporter
   hosts: machines
@@ -98,7 +98,6 @@ draft = false
       systemd:
         name: node_exporter
         state: restarted
-
 
 
 ```

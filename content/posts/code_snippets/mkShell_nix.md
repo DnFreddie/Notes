@@ -1,18 +1,17 @@
-+++
-title = 'mkShell_nix'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: mkShell_nix
+---
 
- ```nix
+``` nix
 {
 pkgs ? import<nixpkgs>{}
 }:
 
 pkgs.mkShell{
-pacages = with pkgs; [
+pacages: with pkgs; [
 nodejs
 ];
 }
-
 ```

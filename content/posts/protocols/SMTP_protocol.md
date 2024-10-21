@@ -1,15 +1,15 @@
-+++
-title = 'SMTP_protocol'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: SMTP_protocol
+---
 
-## Simple Mail transfer 
-- ==Server to server== email transfer
+## Simple Mail transfer
 
+-   ==Server to server== email transfer
 
-## Other protocols for clients 
-[POP3]({{< ref "posts/protocols/POP3.md" >}})
+## Other protocols for clients
 
-[IMAP4]({{< ref "posts/protocols/IMAP4.md" >}})
->[!quote]
+[POP3](/Notes/posts/protocols/POP3)
+
+[IMAP4](/Notes/posts/protocols/IMAP4) \>\[!quote\]

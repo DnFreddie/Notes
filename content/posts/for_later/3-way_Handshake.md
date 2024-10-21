@@ -1,16 +1,15 @@
-+++
-title = '3-way Handshake'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
-
-`Syn SYN-ACK`
-1. Clietn sent the **SYN-SENT**
-2. SYN *seq 100* **ACK**
-
->![3WayhandshakeGraph_visual.png](/Notes/3WayhandshakeGraph_visual.png)
-
 ---
-[nmap]({{< ref "/posts/Linux/nmap.md" >}})
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: 3-way Handshake
+---
 
-[TCP]({{< ref "/posts/Network/Ref_OSI/TCP.md" >}})
+`Syn SYN-ACK` 1. Clietn sent the **SYN-SENT** 2. SYN *seq 100* **ACK**
+
+> ![3WayhandshakeGraph_visual.png](/Notes/3WayhandshakeGraph_visual.png)
+
+------------------------------------------------------------------------
+
+[nmap](/Notes/posts//posts/Linux/nmap)
+
+[TCP](/Notes/posts//posts/Network/Ref_OSI/TCP)

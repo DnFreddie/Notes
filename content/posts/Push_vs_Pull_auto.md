@@ -1,20 +1,21 @@
-+++
-title = 'Push vs Pull_auto'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Push vs Pull_auto
+---
 
     - **Push**
-	- Push the integration to the devices
-- **Pull**
-	- Pull the integration from the master  devices 
+    - Push the integration to the devices
 
+-   **Pull**
+    -   Pull the integration from the master devices
 
----
-[iaC]({{< ref "posts/cloud/iaC/iaC.md" >}})
-[[Automation tools.canvas|Automation tools]]
+------------------------------------------------------------------------
 
-| Push         | Pull       |
-| ------------ | ---------- |
-| [[Ansyible]] | [Puppet]({{< ref "posts/Puppet.md" >}}) |
-| [Teraform]({{< ref "posts/cloud/terraform/terraform.md" >}}) |            |
+[iaC](/Notes/posts/cloud/iaC/iaC) \[\[Automation
+tools.canvas\|Automation tools\]\]
+
+| Push                                               | Pull                          |
+|----------------------------------------------------|-------------------------------|
+| \[\[Ansyible\]\]                                   | [Puppet](/Notes/posts/Puppet) |
+| [Teraform](/Notes/posts/cloud/terraform/terraform) |                               |

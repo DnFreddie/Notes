@@ -1,12 +1,12 @@
-+++
-title = 'Cloud watch configuration json'
-date = 2024-08-30T12:41:16+02:00
-draft = false
-+++
+---
+date: "2024-08-30T12:41:16+02:00"
+draft: false
+title: Cloud watch configuration json
+---
 
 *Basic cofniguration to watch the ec2_instance*
 
-```json
+``` json
 {
     "agent": {
             "metrics_collection_interval": 60,

@@ -1,23 +1,22 @@
-+++
-title = 'SNMP_protocol'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: SNMP_protocol
+---
 
-## Simple network mangment protocol 
+## Simple network mangment protocol
 
-- Gather statistic form network devices
-	- [UDP]({{< ref "posts/for_later/UDP.md" >}}) **/161** 
+-   Gather statistic form network devices
+    -   [UDP](/Notes/posts/for_later/UDP) **/161**
 
->[!example]-
->![SNMP_visual.png](/Notes/SNMP_visual.png)
+> \[!example\]- ![SNMP_visual.png](/Notes/SNMP_visual.png)
 
-- V3 A secure standard 
-	- Message integrity 
-	- Authentication
-	- Encryption 
-- Alerts and notyfication from the network deviceses 
-	- [UDP]({{< ref "posts/for_later/UDP.md" >}}) **162**
+-   V3 A secure standard
+    -   Message integrity
+    -   Authentication
+    -   Encryption
+-   Alerts and notyfication from the network deviceses
+    -   [UDP](/Notes/posts/for_later/UDP) **162**
 
-
->[!quote] [[ports#Common ports]] [SysLog]({{< ref "posts/logging/SysLog.md" >}})
+> \[!quote\] \[\[ports#Common ports\]\]
+> [SysLog](/Notes/posts/logging/SysLog)

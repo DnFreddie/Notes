@@ -1,15 +1,13 @@
-+++
-title = 'HTTPS'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: HTTPS
+---
 
+-   [Etag](/Notes/posts/Etag)
 
+-   [HTTP](/Notes/posts/protocols/HTTP)
 
-- [Etag]({{< ref "posts/Etag.md" >}})
+-   [Carige Return](/Notes/posts/carrige_return)
 
-- [HTTP]({{< ref "posts/protocols/HTTP.md" >}})
-
-- [Carige Return]({{< ref "posts/carrige_return.md" >}})
-
-- [NTP]({{< ref "posts/protocols/NTP_protocol.md" >}})
+-   [NTP](/Notes/posts/protocols/NTP_protocol)

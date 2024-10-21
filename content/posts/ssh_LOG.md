@@ -1,13 +1,11 @@
-+++
-title = 'ssh_LOG'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: ssh_LOG
+---
 
 First thing is the **/var/log/auth.log**
 
+------------------------------------------------------------------------
 
-
-
----
-[ssh]({{< ref "posts/protocols/ssh.md" >}})
+[ssh](/Notes/posts/protocols/ssh)

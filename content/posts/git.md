@@ -1,72 +1,75 @@
-+++
-title = 'git'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: git
+---
 
-## Seting up github 
+## Seting up github
 
-1. [ssh]({{< ref "posts/protocols/ssh.md" >}}) 
-2. setinging user 
-```bash
+1.  [ssh](/Notes/posts/protocols/ssh)
+2.  setinging user
+
+``` bash
 git config --global user.name 'aura'
 ```
-### Git Log 
+
+### Git Log
+
 *To better display the commits*
-```bash 
+
+``` bash
 git log --oneline 
 ```
 
-```bash
+``` bash
 git config --global user.email DefnotFreddie@defnotfreddie@gmail.com
 ```
->[!tip]- It has to be u're gti name
->![Pasted_image_20230903144619.png](/Notes/Pasted_image_20230903144619.png)
 
+> \[!tip\]- It has to be u’re gti name
+> ![Pasted_image_20230903144619.png](/Notes/Pasted_image_20230903144619.png)
 
-### Creating the branch 
+### Creating the branch
 
-```bash
+``` bash
 git switch -c <branch name>
 ```
 
+### Add files
 
-### Add files 
-- It add files that haven't   been added yet
-```bash
+-   It add files that haven’t been added yet
+
+``` bash
 git -A . 
 ```
 
-- **Add interactivle**
-```bash
+-   **Add interactivle**
+
+``` bash
 git add -p 
 ```
 
->[!example]-
->![Pasted_image_20240508110725.png](/Notes/Pasted_image_20240508110725.png)
-
+> \[!example\]-
+> ![Pasted_image_20240508110725.png](/Notes/Pasted_image_20240508110725.png)
 
 ### Pulling submodels
-```bash
+
+``` bash
 git submodule update --init
 ```
 
+### Merge vs Rebase
 
-###  Merge vs Rebase 
->[!bug] Use rebase locally 
-![Pasted_image_20240508123416.png](/Notes/Pasted_image_20240508123416.png)
+> \[!bug\] Use rebase locally
+> ![Pasted_image_20240508123416.png](/Notes/Pasted_image_20240508123416.png)
 
+#### Undo the megre
 
-
-#### Undo the megre 
-```bash
+``` bash
 git merge --abrot
 ```
 
-
-```bash
+``` bash
 git rebase --abrot
 ```
 
-
->[!quote] [docker]({{< ref "posts/Linux/Docker/docker.md" >}})
+> \[!quote\] [docker](/Notes/posts/Linux/Docker/docker)

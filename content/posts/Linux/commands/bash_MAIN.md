@@ -1,14 +1,16 @@
-+++
-title = 'Bash Main'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: Bash Main
+---
 
 [Docs](https://tldp.org/)
 
 ## Seitng up defualt values with `:`
+
 *set default values for variables without performing any action*
-```bash
+
+``` bash
 : ${VAR:=default_value}```
 
 
@@ -23,12 +25,15 @@ echo $session_name  # Output: my_session-123-456
 ```
 
 > **Delte from match to the end**
-```bash
+
+``` bash
 # %% to find the longest possilbe match 
 session_name="${selected%%:*}"
 ```
+
 ### Checking if the output was from stdin or as cmd args
-```bash
+
+``` bash
 if [[  -t 0  ]]; then 
     printf "this was provided from cmd args\n"
 fi
@@ -39,38 +44,33 @@ fi
 ```
 
 ### Printitn mulitple values
-```bash
+
+``` bash
 printf -v sep  '%.0s-' {1..15};)
 ```
-### Checking the lenght of the array 
-```bash
+
+### Checking the lenght of the array
+
+``` bash
 ${#parameter}
 ```
 
----
+------------------------------------------------------------------------
 
-
-
->Tip
+> Tip
 >
->*Functions are the only way to change status of an existing shell*
+> *Functions are the only way to change status of an existing shell*
 
-[Fucntions]({{< ref "posts/scriptss/Functions.md" >}})
+[Fucntions](/Notes/posts/scriptss/Functions)
 
----
-[Case stament]({{< ref "posts/scriptss/Case_statment_bash.md" >}})
+| [Case stament](/Notes/posts/scriptss/Case_statment_bash) |
+|----------------------------------------------------------|
+| [While loop](/Notes/posts/scriptss/while_loop_bash)      |
 
----
-[While loop ]({{< ref "posts/scriptss/while_loop_bash.md" >}})
+[Variables](/Notes/posts/scriptss/Variables)
 
----
-[Variables]({{< ref "posts/scriptss/Variables.md" >}})
+|                                                                    |
+|--------------------------------------------------------------------|
+| [Bash redirecition](/Notes/posts/Linux/commands/redirecrtion_bash) |
 
---- 
-[Bash redirecition ]({{< ref "posts/Linux/commands/redirecrtion_bash.md" >}})
-
-
---- 
-[xargs_commnad]({{< ref "posts/code_snippets/xargs_commnad.md">}})
-
-
+\[xargs_commnad\]({{\< ref “posts/code_snippets/xargs_commnad.md”\>}})

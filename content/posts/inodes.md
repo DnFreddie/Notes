@@ -1,36 +1,34 @@
-+++
-title = 'inodes'
-date = 2024-07-22T09:10:24+02:00
-draft = false
-+++
+---
+date: "2024-07-22T09:10:24+02:00"
+draft: false
+title: inodes
+---
 
 # Inode structure
-- File size 
-- [reference count]({{< ref "posts/reference_count.md" >}})
-- permission
-- etc
 
+-   File size
+-   [reference count](/Notes/posts/reference_count)
+-   permission
+-   etc
 
->[!tip] Files don't have metadata
->- They are just ***file name and inode member*** (*pointer*)
->- Directories are just table of file names and inodes
+> \[!tip\] Files don’t have metadata - They are just ***file name and
+> inode member*** (*pointer*) - Directories are just table of file names
+> and inodes
 
- >**Inodes count is setup on the file system creation**
+> **Inodes count is setup on the file system creation**
 >
->except zfs
-## Inodes creation 
-If you're talking about ext4 filesystems, it's based on the size of the filesystem.
+> except zfs ## Inodes creation If you’re talking about ext4
+> filesystems, it’s based on the size of the filesystem.
 
 [ArchWiki](https://wiki.archlinux.org/index.php/ext4#Bytes-per-inode_ratio)
 
-### Determine the amount of inodes on the system 
+### Determine the amount of inodes on the system
 
-```bash 
+``` bash
 df -iT | awk 'NR > 1 {print $3}' | awk '{sum +=$1} END {print sum}'
 ```
 
----
-- [Inodes exhaustion]({{< ref "posts/inodes_exhaustion.md" >}})
-- [Journaled Filesystem]({{< ref "posts/file_systmes/journaled_fs.md" >}})
+------------------------------------------------------------------------
 
-
+-   [Inodes exhaustion](/Notes/posts/inodes_exhaustion)
+-   [Journaled Filesystem](/Notes/posts/file_systmes/journaled_fs)

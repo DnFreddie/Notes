@@ -1,13 +1,12 @@
-+++
-title = 'Nvim'
-date = 2024-10-17T23:03:03+02:00
-draft = false
-+++
+---
+date: "2024-10-17T23:03:03+02:00"
+draft: false
+title: Nvim
+---
 
+## Passing arguments to the nvim could be done by just appending the string
 
-## Passing arguments to the nvim could be done by just appending the string 
-
-```bash 
+``` bash
 v() {
     if [ "$#" -eq 1 ];then # 
   if test -d "$1";then 
@@ -20,5 +19,4 @@ else
     nvim . +":cd %:p:h" +"Explore"
 fi
 }
-
 ```
