@@ -17,4 +17,4 @@ title: ext3
 
 ------------------------------------------------------------------------
 
-\[\[Files systems.canvas\|Fiels systems\]\]
+[Files systems](posts/Files_systems.canvas)

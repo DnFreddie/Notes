@@ -1,6 +1,5 @@
 baseURL: "https://dnfreddie.github.io/Notes/"
 title: DefnotNotes
-paginate: 5
 theme: PaperMod
 disablePathToLower: true
 
@@ -15,6 +14,7 @@ minify:
   minifyOutput: true
 
 params:
+  social: true
   env: production
   title: DefnotNotes
   canonifyURLs: true

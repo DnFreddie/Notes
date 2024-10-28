@@ -15,6 +15,8 @@ both in - [IPv4
 address](/Notes/posts/Network/basic_network_connections/IPv4_address) -
 extensive use in [IPv6 address](/Notes/posts/Network/IPv6_address)
 
-> \[!quote\] [anycast](/Notes/posts/for_later/anycast)
-> \|[multicast](/Notes/posts/for_later/multicast) \|
-> [broadcast](/Notes/posts/for_later/broadcast)
+------------------------------------------------------------------------
+
+-   [anycast](/Notes/posts/for_later/anycast)
+-   [multicast](/Notes/posts/for_later/multicast)
+-   [broadcast](/Notes/posts/for_later/broadcast)

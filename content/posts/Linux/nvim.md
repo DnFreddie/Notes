@@ -4,6 +4,12 @@ draft: false
 title: Nvim
 ---
 
+### U dont need any file explorer use Expolrer
+
+1.  `mf` to mark the directory
+2.  `mx` to apply shell command to marked files
+3.  rm -rf
+
 ## Passing arguments to the nvim could be done by just appending the string
 
 ``` bash

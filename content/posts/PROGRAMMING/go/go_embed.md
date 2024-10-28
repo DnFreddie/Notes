@@ -19,3 +19,4 @@ For example, here are three ways to embed a file named hello.txt and
 then print its contents at run time.
 
 Embedding one file into a string:
+[HardLink]

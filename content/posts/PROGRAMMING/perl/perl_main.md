@@ -58,6 +58,27 @@ binary
 pp -o packed.exe source.pl        # makes packed.exe
 ```
 
+### Perl pacagemenager
+
+**Install Carton** `cpanm Carton`
+
+Set Up the cpanfile: In your project directory, create a cpanfile and
+list your module dependencies there
+
+``` perl
+# cpanfile
+requires 'Test::MockModule', '0.17';
+requires 'Test::More', '1.302162';
+```
+
+then
+
+``` bash
+carton install
+carton exec perl your_script.pl
+carton exec prove -l
+```
+
 ### Perl varaibles
 
 if we the function requiers an argument and we will not feed it direcly
@@ -141,3 +162,9 @@ printf $f ("%s\n", $flash)
 
 close($fh) or die "Cannot close file: $!";
 ```
+
+------------------------------------------------------------------------
+
+- [perl pod](posts/PROGRAMMING/perl/perl_pod.md)
+- [perl main](posts/PROGRAMMING/perl/perl_main.md)
+- [perl regex](posts/PROGRAMMING/perl/perl_regex.md)

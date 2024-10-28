@@ -30,5 +30,6 @@ df -iT | awk 'NR > 1 {print $3}' | awk '{sum +=$1} END {print sum}'
 
 ------------------------------------------------------------------------
 
+-   [Hardlink](/Notes/posts/Linux/hardlink)
 -   [Inodes exhaustion](/Notes/posts/inodes_exhaustion)
 -   [Journaled Filesystem](/Notes/posts/file_systmes/journaled_fs)

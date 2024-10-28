@@ -6,99 +6,123 @@ tags:
 title: Terraform
 ---
 
-[Best Pracitces](https://www.terraform-best-practices.com/)
+[Best Practices](https://www.terraform-best-practices.com/)
 
-*open source cloud agnostic [iac](/Notes/posts/cloud/iaC/iaC)*
+*open source cloud agnostic [iac](/Notes/posts/cloud/iaC/iaC)*  
 ![Terraform Life cycle](/Notes/terraform_life_cycle_visual.png)
 
--   **Decalrative** cofnigratation files
--   Installable modules
--   Plan and predict changes
--   Depdndency grpahing
--   State mangament
--   Provision infastructure in familiarr languages
+-   **Declarative** configuration files  
+-   Installable modules  
+-   Plan and predict changes  
+-   Dependency graphing  
+-   State management  
+-   Provision infrastructure in familiar languages  
 -   [Terraform
-    Registry](/Notes/posts/cloud/terraform/terraform_registry)/[Terraform
-    moudles
-    structure](/Notes/posts/cloud/terraform/terraform_standard_module_sturcture)
+    Registry](/Notes/posts/cloud/terraform/terraform_registry) /
+    [Terraform modules
+    structure](/Notes/posts/cloud/terraform/terraform_standard_module_structure)
     -   via AWS CDK
 
-**Speculative vs Saved** ![Seculative Plans vs Saved
+**Speculative vs Saved**  
+![Speculative Plans vs Saved
 Plans](/Notes/terraform_plan_table_visual.png)
 
 ### [Terraform state](/Notes/posts/cloud/terraform/terraform_state)
 
 ### [Registry](/Notes/posts/cloud/terraform/terraform_registry)
 
-### Initailaizing
+### Initializing
 
-*the initailzaion works like npm install it fetches the requaiermetns*
+*The initialization works like npm install; it fetches the
+requirements.*
 
-## ### Structure
+## Structure
 
-`Terraform  Block` **Terraform setting and the requaierd `providers`** -
-`source` defines and optional hostname, namespace, type
+`Terraform Block` **Terraform setting and the required `providers`** -
+`source` defines an optional hostname, namespace, and type
 
--   By default providers are pulled from the [Terraform
+-   By default, providers are pulled from the [Terraform
     Registry](https://registry.terraform.io/)
 
 ``` terraform
 terraform {
   required_providers {
     docker = {
-      source = "kreuzwerker/docker"
+      source  = "kreuzwerker/docker"
       version = "~> 3.0.1"
     }
   }
 }
 ```
 
-|                                                                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                                                                         `Provider Block`**Stores configuration of the provider** |
-|                                                                                                                                       **List all the providers** |
-|                                                                                                                                       `bash terraform providers` |
-|                                                                                                               `terraform host     = "ssh://user@remote-host:22"` |
-|                                                                                              \- **Aliases** (*To disguise the same providers e.g., AWS regions)* |
-| ![Aliases rules](/Notes/alias_providers_code_block_visual.png) [Docker Provider Example](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs) |
+|                                                                     |
+|---------------------------------------------------------------------|
+| `Provider Block` **Stores configuration of the provider**           |
+| **List all the providers**                                          |
+| `bash terraform providers`                                          |
+| `terraform host = "ssh://user@remote-host:22"`                      |
+| \- **Aliases** (*To disguise the same providers e.g., AWS regions*) |
 
-`Resource Block` **Components of the infastructure**(`type` and `name`)
+![Aliases rules](/Notes/alias_providers_code_block_visual.png)  
+[Docker Provider
+Example](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs)
+
+`Resource Block` **Components of the infrastructure** (`type` and
+`name`)
 
 ``` terraform
 // resource type docker_container resource name nginx
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
-  keep_locally: false
+  keep_locally = false
 }
 ```
 
 ------------------------------------------------------------------------
 
-`modules`(*Modules are just like roles in Ansible; they are
-pre-packed.*) - **Providers** are the raw APIs where **modules** give
-you shorthand
+`modules` (*Modules are just like roles in Ansible; they are
+pre-packed.*) - **Providers** are the raw APIs, whereas **modules** give
+you shorthand.
 
-|                                                                                                                                                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ### Varaibles                                                                                                                                                                                                                                                                                                                                                          |
-| `input varaibles`(*paramaters ot to the teraform modules*) - Declere varaibles in **root module** or **child module** - Options - **default**(assaing the defautl value) - **type** - **descirption**(*optional for documentation*) - **Validation** (*baicly if statmetns)* - **sensitive** don’t show up in the oput of terraform (*something like a private filed)* |
-| \`\`\`terraform variable “docker_ports” { type: list(object({ internal: number })) default = \[ { protocol = “tcp” }\] }                                                                                                                                                                                                                                               |
-| \`\`\`                                                                                                                                                                                                                                                                                                                                                                 |
-| `HERDOC` *multile-line strigns*                                                                                                                                                                                                                                                                                                                                        |
-| `bash <<EOT test world hello EOT`                                                                                                                                                                                                                                                                                                                                      |
-| `strign directive % %` *can be used in `HEREDOC`* - `~` will stirp the space                                                                                                                                                                                                                                                                                           |
-| \`\`\`terraform “Hello %{if var.name !=”“}%{else}%{endif}”                                                                                                                                                                                                                                                                                                             |
-| \<\<EOT %{for ip in aws_instance.example.\*.private_ip \~} server ${ip} %{ endfor } EOT \`\`\`                                                                                                                                                                                                                                                                         |
+| **Variable Type**   | **Description**                                                                                                                              |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Input Variables** | Parameters passed to Terraform modules. They can be declared in either the **root module** or a **child module**.                            |
+| **Options**         | \- **default**: Assigns a default value to the variable.                                                                                     |
+|                     | \- **type**: Specifies the data type of the variable.                                                                                        |
+|                     | \- **description**: (Optional) Used for documentation purposes.                                                                              |
+|                     | \- **validation**: Provides a way to add conditional checks (similar to `if` statements) to validate input values.                           |
+|                     | \- **sensitive**: Marks the variable as sensitive, meaning it won’t appear in the output of Terraform (useful for private or secret values). |
+
+``` terraform
+variable "docker_ports" {
+  type = list(object({ internal = number }))
+  default = [{ protocol = "tcp" }]
+}
+```
+
+`HEREDOC` *multiline strings*  
+`bash <<EOT test world hello EOT`  
+`string directive % %` *can be used in `HEREDOC`* - `~` will strip the
+space
+
+``` terraform
+"Hello %{if var.name != ""}%{else}%{endif}"
+<<EOT
+%{for ip in aws_instance.example.*.private_ip ~}
+server ${ip}
+%{ endfor }
+EOT
+```
 
 > `null` is either **absent** or **default**
 
 ------------------------------------------------------------------------
 
-`ternary if else conditions` *the return type for it the if stament must
+`ternary if else conditions` *the return type for the if statement must
 be the same type*
 
 ``` terraform
-condition ? true_val:false_val
+condition ? true_val : false_val
 var.a != "" ? var.a : "default-a"
 ```
 
@@ -109,50 +133,49 @@ var.a != "" ? var.a : "default-a"
 [for s in var.list : upper(s)]
 
 # Maps
-[for k, v in var.map : lenght(k) + lenght(v)]
+[for k, v in var.map : length(k) + length(v)]
 
 # Returning structure 
-{for s in var.list :s => upper(s)}
+{for s in var.list : s => upper(s)}
 ```
 
-`spalt expresion`*iterate over evieyhitn *
+`splat expression` *iterate over everything*
 
 ``` terraform
 var.list[*].id
-var.list[*].interafaces.name
+var.list[*].interfaces.name
 ```
 
-`Dynamic blocs`*simmilar to loop in ansible*
+`Dynamic blocks` *similar to loop in Ansible*
 
 ``` terraform
-dynamic "ingress"{
-    for_each: local.ingressruellse
+dynamic "ingress" {
+    for_each = local.ingressrules
 }
-
 ```
 
-#### \[Varaibles Definitons Files\]({{\< ref “posts/cloud/terraform/terraform_config_files.md#variable-definitions-files”\>}})
+#### [Variables Definitions Files](/Notes/posts/cloud/terraform/terraform_config_files#variable-definitions-files)
 
-#### \[Env Vars\]({{\< ref “posts/cloud/terraform/terraform_config_files.md#env-variables”\>}})
+#### [Env Vars](/Notes/posts/cloud/terraform/terraform_config_files#env-variables)
 
 ------------------------------------------------------------------------
 
-`Outpus`**similar to the ansible registers**
+`Outputs` **similar to Ansible registers**
 
 ``` terraform
 output "instance_ip" {
-  value: aws_instance.my_instance.public_ip
+  value = aws_instance.my_instance.public_ip
 }
 ```
 
 ------------------------------------------------------------------------
 
--   `data block` (`source`and
-    `name`)[Docs](https://developer.hashicorp.com/terraform/language/data-sources)
+-   `data block` (`source` and `name`)
+    [Docs](https://developer.hashicorp.com/terraform/language/data-sources)
 
 ``` terraform
 data "aws_ami" "example" {
-  most_recent: true
+  most_recent = true
   owners = ["self"]
   tags = {
     Name   = "app-server"
@@ -161,8 +184,8 @@ data "aws_ami" "example" {
 }
 ```
 
--   `lifecycle` -`precodition` if stament for the data block
-    -   `postcodition`
+-   `lifecycle` - `precondition` if statement for the data block
+    -   `postcondition`
 
 > `Important` **Use provisioners as a last resort. There are better
 > alternatives for most situations. Refer to [Declaring
@@ -170,17 +193,20 @@ data "aws_ami" "example" {
 
 ------------------------------------------------------------------------
 
--   `file provisioner` copy fiels from local machine to **new resource**
--   `connection` *tells how to establich connection*
+-   `file provisioner` copies files from local machine to **new
+    resource**
+-   `connection` *tells how to establish connection*
     -   With `ssh` connect through Bastion Host
--   `null_resources` **pleaceholder for resorces with no provider**
-    -   `triggers`Map of values which cause provisioners to re run
+-   `null_resources` **placeholder for resources with no provider**
+    -   `triggers` Map of values which cause provisioners to re-run
 
 ### Local Exec
 
-*Execute **local commands** after a resource is provisoned* -
-`command`(*requaierd*) Command to execute - `working_dir` -
-`interpreter`**Entry point for the command** - `envairoment`*env vars*
+*Execute **local commands** after a resource is provisioned*  
+`command` (*required*) Command to execute  
+`working_dir`  
+`interpreter` **Entry point for the command**  
+`environment` *env vars*
 
 ``` terraform
 resource "terraform_data" "example1" {
@@ -193,11 +219,12 @@ resource "terraform_data" "example1" {
 
 #### Remote Execute
 
-*its the same just has modes*
+*It’s the same, just has modes*
 
-*U can only choose to use one mode a time* - `Inline` list commands
-strigns - `Scritp` scrip that will be copied and executed - `Scritps`
-multile scirpt execution
+*You can only choose to use one mode at a time*  
+- `Inline` list of command strings  
+- `Script` script that will be copied and executed  
+- `Scripts` multiple script execution
 
 ### Execution Plans
 
@@ -206,24 +233,24 @@ Changes*
 
 ## Visualize
 
-Use [Graph Viz](https://graphviz.org/) to visualzie to create the graph
-of ure plan
+Use [Graph Viz](https://graphviz.org/) to create the graph of your plan
 
 ``` bash
-terraform graph  | dot -Tsvg > graph.svg
+terraform graph | dot -Tsvg > graph.svg
 ```
 
 ### Terraform Core and Plugins
 
--   `Core` *usese [RPC\_](/Notes/posts/RPC_calls) to communicate wiht
+-   `Core` *uses [RPC](/Notes/posts/RPC_calls) to communicate with
     plugins*
--   `Plugins`expose impelemtation for a sepcyfic service or provisioner
+-   `Plugins` expose implementation for a specific service or
+    provisioner
 
-### Terraform and ansible
+### Terraform and Ansible
 
-![Terraform and ansible](/Notes/terraform_and_ansible_visual.png)
+![Terraform and Ansible](/Notes/terraform_and_ansible_visual.png)
 
 ------------------------------------------------------------------------
 
 [Terraform
-Spotyfie](https://developer.hashicorp.com/terraform/tutorials/community-providers/spotify-playlist)
+Spotify](https://developer.hashicorp.com/terraform/tutorials/community-providers/spotify-playlist)

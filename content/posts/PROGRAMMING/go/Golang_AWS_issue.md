@@ -4,7 +4,7 @@ draft: false
 title: Golang AWS_issue
 ---
 
-    #issue 
+#issue 
 
 -   Go wont copile on aws unleess this paramter is being added to the
     copmpilation flag

@@ -4,69 +4,112 @@ draft: false
 title: find
 ---
 
--   Look for the binaries
-    -   **executable**
+## Basic Usage
+
+### 1. Look for Executable Files
 
 ``` bash
-find -executable 
+find . -executable
 ```
 
--   Look for the broken links
+### 2. Look for Broken Links
 
-<!-- -->
+``` bash
+find . -xtype l
+```
 
-    find . -xtype l
-
--   find files based on changes to their content
+### 3.  Based on Content Changes
 
 ``` bash
 find . -mtime -1
 ```
 
--   find files based on changes to their metadata or attributes
+-   **Explanation**: Finds files that were modified in the last day.
+
+### 4.  Based on Metadata or Attribute Changes
 
 ``` bash
 find /path/to/directory -ctime -2
 ```
 
--   when the file was accesed
+-   **Explanation**: Finds files where metadata or attributes were
+    changed in the last two days.
 
--   Files changed in an hour
+### 5.  Based on Last Accessed Time
+
+``` bash
+find /path/to/directory -atime -1
+```
+
+-   **Explanation**: Finds files that were accessed in the last day.
+
+### 6.  Changed in the Last Hour
 
 ``` bash
 find /path/to/directory -mmin -60
 ```
 
--   Files changed erariler the the specyic date
+-   **Explanation**: Finds files modified within the last 60 minutes.
+
+### 7.  Changed Earlier than a Specific Date
 
 ``` bash
 find . -type f -newermt 2019-07-24
 ```
 
-*Sort by the size*
+-   **Explanation**: Finds files modified after July 24, 2019.
 
-``` bash
-find -size +10G
+
+###  [Hardlink](posts/Linux/hardlink)
+
+```bash
+find /path/to/directory -samefile myfile.txt
 ```
 
-*U can use + and - to query them* - **‘k’** for kibibytes KiB - **‘M’**
-for mebibytes MiB - **‘G’** for gibibytes GiB
+## Sorting and Filtering
 
-### Wildcards
+### Sort by Size
 
--   **\[ \]** match the characters that appears in the squere brackets
+``` bash
+find . -size +10G
+```
 
--   -   matches any charactert of any lenght from none to unlimited
-        number of characters *A search for * \* \* at will display cat
-        hat and bat \*
+-   **Explanation**: Finds files larger than 10 GiB.
 
-> \[!example\] Possibilities
-> ![FindPossibilities.visual.png](/Notes/FindPossibilities.visual.png)
+**Tip:** You can use the following size suffixes: - **‘k’** for
+kibibytes (KiB) - **‘M’** for mebibytes (MiB) - **‘G’** for gibibytes
+(GiB)
 
-## U can search files via [Permissions](/Notes/posts/Linux/Permissions)
+## Using Wildcards
 
-Finding files with perrmision 4000 [SUID](/Notes/posts/Linux/SUID)
+-   **`[]`**: Matches the characters that appear within the square
+    brackets.
+
+-   **`*`**: Matches any character sequence of any length (including
+    none). For example:
+
+    -   A search for `*at` will match “cat”, “hat”, and “bat”.
+
+### Example: Excluding Specific Characters
+
+-   **`[!char]`**: Excludes specific characters inside the square
+    brackets.
+
+## Visual Guide
+
+> ![Find Possibilities](FindPossibilities.visual.png)
+
+## Searching Files via Permissions
+
+### Finding Files with Specific Permissions
+
+#### Finding Files with SUID (Set User ID)
 
 ``` bash
 find / -user root -perm -4000
 ```
+
+-   **Explanation**: Finds files owned by the root user with SUID
+    permissions set.
+
+------------------------------------------------------------------------

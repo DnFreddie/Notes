@@ -1,10 +1,10 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: Go_chanels
+title: Go chanels
 ---
 
-    ### Read from multiple channels
+### Read from multiple channels
 
 ``` go
 func main() {
@@ -28,3 +28,8 @@ func main() {
   }(c1, c2, out)
 }
 ```
+
+------------------------------------------------------------------------
+
+-   [go concurency](/Notes/posts/PROGRAMMING/go/go_concurency)
+-   [go main](/Notes/posts/PROGRAMMING/go/go_main)

@@ -9,4 +9,6 @@ title: Netwrok Scanning
 The process of identyfing host on a target network with the goal of
 creating a *deattiled schematic of the networkd infratracture*
 
-> \[!quote\] [Port Scanning](/Notes/posts/for_later/Port_Scanning)
+------------------------------------------------------------------------
+
+- [Port Scanning](posts/for_later/Port_Scanning.md)
