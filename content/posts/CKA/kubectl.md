@@ -12,3 +12,7 @@ Docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-kube
 ``` bash
 kubectl api-resources
 ```
+
+------------------------------------------------------------------------
+
+[Namespaces](/Notes/posts/Namespaces)
