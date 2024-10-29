@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: MAN_PAGE
+title: MAN PAGE
 ---
 
 -   The location of them is held in **$MANPATH**

@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: Transport_OSI
+title: Transport OSI
 ---
 
     #def Describes how data is being delivered and where is being deliverd on the system 

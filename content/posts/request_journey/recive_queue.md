@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: recive_queue
+title: recive queue
 ---
 
 #alt-name Recieve Buffer ## Recive queue As data arrives from the

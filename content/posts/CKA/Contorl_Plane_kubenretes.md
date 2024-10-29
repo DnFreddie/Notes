@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: Contorl_Plane_kubenretes
+title: Contorl Plane kubenretes
 ---
 
      Maneges worker nodes and pods in the cluster

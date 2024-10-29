@@ -1,7 +1,7 @@
 ---
 date: "2024-08-05T14:21:03+02:00"
 draft: false
-title: Node_exporter installation
+title: Node exporter installation
 ---
 
 ``` yaml

@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: Loging_linux
+title: Loging linux
 ---
 
     [ssh_LOG](/Notes/posts/ssh_LOG)

@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: systemd_mount
+title: systemd mount
 ---
 
 Systemd mount units are used to control the mounting and unmounting of

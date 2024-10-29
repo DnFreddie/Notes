@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: Physical_OSI
+title: Physical OSI
 ---
 
     #def *The physics of the network*

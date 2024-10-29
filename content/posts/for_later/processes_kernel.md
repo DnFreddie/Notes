@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: processes_kernel
+title: processes kernel
 ---
 
 An isnstance of the eceacutable - **Only one process may use the Cpu and

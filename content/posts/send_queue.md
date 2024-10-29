@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: send_queue
+title: send queue
 ---
 
 #alt-name Send Buffer

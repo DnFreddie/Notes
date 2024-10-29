@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: pacage_versioning
+title: pacage versioning
 ---
 
 -   ***MAJOR*** version when you make incompatible API changes

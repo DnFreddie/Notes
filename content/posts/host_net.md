@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: host_net
+title: host net
 ---
 
     [Containers](/Notes/posts/Containers) Share the same networkin  [Namespaces](/Notes/posts/Namespaces) as  host 

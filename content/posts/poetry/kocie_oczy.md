@@ -1,7 +1,7 @@
 ---
 date: "2024-09-07T01:05:40+02:00"
 draft: true
-title: Kocie_oczy
+title: Kocie oczy
 ---
 
 Dzis mijam noca ulice glodny od nalogt potykajca sie o ludzi wolajacyhc

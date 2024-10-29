@@ -1,7 +1,7 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: SNMP_protocol
+title: SNMP protocol
 ---
 
 ## Simple network mangment protocol
