@@ -96,3 +96,8 @@ title: Web scraping techniques
 > your actions can still be illegal or against the terms of service of
 > the website you’re interacting with. Always respect robots.txt and
 > terms of service, and when in doubt, seek legal advice.
+
+---
+
+[Sneakers bots project](/Notes/posts/sneakers_bots_project)
+

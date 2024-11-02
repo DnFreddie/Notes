@@ -53,6 +53,12 @@ it can’t execute it*
 k create systemaccount test -n node1 -n node2 
 ```
 
+
+>**Crete a role smoke in applaication  ns that can create deled against pods,deployments
+```bash
+k -n applications create role smoke --verb create,delete --resource pods,deployments,sts
+```
+
 ### Nodes and there roles
 
 > **get the information about the particular role** `k get clusterrole`

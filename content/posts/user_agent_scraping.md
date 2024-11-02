@@ -1,17 +1,22 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: user agent_scraping
+title: user agent scraping
 ---
 
 ## User agent
 
 **Stirng of thex sends to server that identyfies the borwser params**
 
-> \[!example\] User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-> AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61
-> Safari/537.36 ### Seting up
+> **Example User agent**
+```bash
+# User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#  AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61
+#  Safari/537.36 
+```
 
+
+### Seting up
 U have to pass it in the headers
 
 ``` python
@@ -23,8 +28,8 @@ headers = {
 }
 
 response: requests.get(url, headers=headers)
+# Process the response ...
 
-# Process the response
 ```
 
 #### Expenations

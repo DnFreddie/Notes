@@ -8,179 +8,194 @@ tags:
 title: Comptia Objectives
 ---
 
-*Overview of What You Need to Learn for CompTIA Linux+*
+# Overview of What You Need to Learn for CompTIA Linux+
 
-I highly recommend watching all the videos by [Shawn
-Powers](https://www.youtube.com/watch?v:%20niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp).
+I highly recommend watching all the videos by [Shawn Powers](https://www.youtube.com/watch?v:%20niPWk7tgD2Q&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp).
 
-Afterward, study from books and engage in hands-on projects or labs to
-reinforce your learning.
+Afterward, study from books and engage in hands-on projects or labs to reinforce your learning.
 
-[Offical
-Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-linux-xk0-005-exam-objectives-(1-0))
+[Official Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-linux-xk0-005-exam-objectives-(1-0))
 
-1.  **File system hierarchy**
-2.  **Boot**
-    -   [UEFI vs BIOS](/Notes/posts/UEFI_vs_BIOS)
-    -   [Boot procces](/Notes/posts/boot_process)
-    -   \[Partition types\]( {{\< ref
-        “posts/UEFI_vs_BIOS.md#partition-types” >}})
-        -   **Fiels systems**
+1. **File system hierarchy**
+2. **Boot**
+   - [UEFI vs BIOS](/Notes/posts/UEFI_vs_BIOS)
+   - [Boot process](/Notes/posts/boot_process)
+   - [Partition types](/Notes/posts/UEFI_vs_BIOS#partition-types)
+   - **File systems**
 
-![Files systmes](/Notes/filesSystem_visiual.png) - [GRUB
-2](/Notes/posts/GRUB_2) - [Run
-Levels](/Notes/posts/for_later/Run_Levels) 3. **Devices types in /dev**
-- [Block vs character dev](/Notes/posts/Block_vs_character_dev) -
-[Special character
-devices](/Notes/posts/Block_vs_character_dev.md#special-character-devices)
-- [Getting PCI dev info](/Notes/posts/Getting_PCI_dev_info) \>\[Raid
-devices\]( {{\< ref “posts/RAID_STORAGE.md” \>}}) \>![Raid
-devices](/Notes/raid_devices_canvas.png) - **Commands** - stat(*gives a
-more detailed overview of the metadata*) - file 4. [Archive vs
-Compress](/Notes/posts/Archive_vs_Compress) 5.
-[Partitioning](/Notes/posts/Partitioning) - [Automatic Mounting
-fstab](/Notes/posts/Automatic_Mounting_fstab) - [Disck
-encryption](/Notes/posts/Dick_encryption) 1. [LVM](/Notes/posts/LVM) 2.
-**Virtual Storage** \|—————–\|—————–\| \| ![Virtual Storage
-1](/Notes/virtual_storage_visual.png) \| ![Virtual Storage
-2](/Notes/virtual_storage_tech.png) \|
+   ![Files systems](/Notes/filesSystem_visual.png) 
+   - [GRUB 2](/Notes/posts/GRUB_2) 
+   - [Run Levels](/Notes/posts/for_later/Run_Levels)
 
-3.  [systemd](/Notes/posts/systemd)
+3. **Device types in /dev**
+   - [Block vs character devices](/Notes/posts/Block_vs_character_dev)
+   - [Special character devices](/Notes/posts/Block_vs_character_dev#special-character-devices)
+   - [Getting PCI device info](/Notes/posts/Getting_PCI_dev_info)
+   - [RAID devices](/Notes/posts/RAID_STORAGE)
 
--   [Cronetab](/Notes/posts/scriptss/Cronetab)
--   [At](/Notes/posts/scriptss/At)
--   [Systemd Timers](/Notes/posts/systemd#systemd-timers)
+   ![RAID devices](/Notes/raid_devices_canvas.png) 
 
-5.  Process management ![Process
-    mangament_signals](/Notes/process_menagment_visual.png)
+   - **Commands**
+     - `stat` (gives a more detailed overview of the metadata)
+     - `file`
 
-    -   [systemd procedures](/Notes/posts/systemd.md#systemd-procedures)
+4. [Archive vs Compress](/Notes/posts/Archive_vs_Compress)
 
-6.  **Network**
+5. [Partitioning](/Notes/posts/Partitioning) 
+   - [Automatic Mounting fstab](/Notes/posts/Automatic_Mounting_fstab) 
+   - [Disk encryption](/Notes/posts/Disk_encryption) 
+   - [LVM](/Notes/posts/LVM) 
 
-    -   [DNS](/Notes/posts/Network/Phisicall/DNS)
-        -   [nsswitch.conf](/Notes/posts/nsswitch.conf)
-        -   [Changing DNS
-            server](/Notes/posts//posts/Network/Phisicall/DNS.md#changing-dns-server)
-        -   [nslookup](/Notes/posts/Linux/nslookup)
-    -   **tcpdump**
-    -   **whireshark**
+6. **Virtual Storage**
 
-7.  [Repository Configuration](/Notes/posts/Repository_Configuration)
+   ![Virtual Storage 1](/Notes/virtual_storage_visual.png) ![Virtual Storage 2](/Notes/virtual_storage_tech.png)
 
-8.  [Kernel
-    Options](/Notes/posts//posts/Linux/Kernel/Kernel.md#kernel-options)
+7. [systemd](/Notes/posts/systemd)
+   - [Crontab](/Notes/posts/scriptss/Crontab) 
+   - [At](/Notes/posts/scriptss/At) 
+   - [Systemd Timers](/Notes/posts/systemd#systemd-timers)
 
-9.  [Localizaiton time setup](/Notes/posts/Localizaiton_time_setup) ##
-    Security
+8. **Process management**
 
-10. **Encryption**
+   ![Process management_signals](/Notes/process_management_visual.png) 
+   - [systemd procedures](/Notes/posts/systemd#systemd-procedures)
 
-    -   **Hash vs Encryption vs digital signature** ![Hash vs Encryption
-        vs digital
-        signature](/Notes/hash_encryption_vs_digital_siginture.png)
+9. **Network**
+   - [DNS](/Notes/posts/Network/Physical/DNS)
+   - [nsswitch.conf](/Notes/posts/nsswitch.conf)
+   - [Changing DNS server](/Notes/posts/Network/Physical/DNS#changing-dns-server)
+   - [nslookup](/Notes/posts/Linux/nslookup)
+   - **tcpdump**
+   - **Wireshark**
 
-    -   [encrypted Web traffic](/Notes/posts/encrypted_Web_traffic)
+10. [Repository Configuration](/Notes/posts/Repository_Configuration)
 
-11. **System Auth** ![System Auth](/Notes/system_auth_visual.png)
+11. [Kernel Options](/Notes/posts/Linux/Kernel/Kernel#kernel-options)
 
-12. [Permissions](/Notes/posts/Linux/Permissions)
+12. [Localization time setup](/Notes/posts/Localization_time_setup)
 
-    1.  [umask](/Notes/posts/Linux/umask)
+### Security
 
-13. **Logging** ![Logging canvas](/Notes/logs_canvas_visual.png)
+13. **Encryption**
+   - **Hash vs Encryption vs Digital Signature**
 
-14. [SELinux](/Notes/posts/SELinux)
+     ![Hash vs Encryption vs Digital Signature](/Notes/hash_encryption_vs_digital_signature.png) 
 
-15. [AppArmor](/Notes/posts/AppArmor) ### Sys amdimistrations
+   - [Encrypted Web traffic](/Notes/posts/encrypted_Web_traffic)
 
-16. **User manipulation**
+14. **System Auth**
 
-    -   [profile_etc](/Notes/posts/Linux/etc/profile_etc)
-    -   [skel_etc](/Notes/posts/Linux/etc/skel_etc)
+    ![System Auth](/Notes/system_auth_visual.png)
 
-    2.  **Commands**
+15. [Permissions](/Notes/posts/Linux/Permissions)
+    - [umask](/Notes/posts/Linux/umask)
 
-    -   [chage](/Notes/posts/chage)
+16. **Logging**
 
-    1.  **Sudo and visudo**
-    2.  [pkexec](/Notes/posts/pkexec)
-    3.  [getfacl](/Notes/posts/getfacl) ### Cloud
+    ![Logging canvas](/Notes/logs_canvas_visual.png)
 
-17. [git](/Notes/posts/git)
+17. [SELinux](/Notes/posts/SELinux)
 
-18. [docker](/Notes/posts/Linux/Docker/docker)
+18. [AppArmor](/Notes/posts/AppArmor)
 
-19. **Automation tools** ![Automation
-    tools](/Notes/automaiton_tools_canvas.png) ### Troubleshooting #####
-    Io issues
+### System Administration
 
-20. **High latency** Input/output (I/O) wait Low throughput Input/output
-    operations per second (IOP) Low IOPS
+19. **User manipulation**
+    - [profile etc](/Notes/posts/Linux/etc/profile_etc) 
+    - [skel etc](/Notes/posts/Linux/etc/skel_etc)
 
-    -   Consider diffrent **Files system**
-    -   check for wa with top
-    -   [ioStat](/Notes/posts/ioStat)
+    - **Commands**
+      - [chage](/Notes/posts/chage)
 
-21. [inodes exhaustion](/Notes/posts/inodes_exhaustion)
+    - **Sudo and visudo**
+    - [pkexec](/Notes/posts/pkexec)
+    - [getfacl](/Notes/posts/getfacl)
 
-22. [IO schedulers](/Notes/posts/IO_schedulers)
+### Cloud
 
-23. [NVMe](/Notes/posts/NVMe)
+20. [git](/Notes/posts/git)
 
-24. **File system isssues**(*coruption missmatch*)
+21. [docker](/Notes/posts/Linux/Docker/docker)
 
-    1.  [fsck](/Notes/posts/Linux/fsck)
+22. **Automation tools**
 
-25. **vstat**
+    ![Automation tools](/Notes/automation_tools_canvas.png)
 
-26. [Io
-    summery](https://www.site24x7.com/learn/linux/disk-io-troubleshooting.html)
-    #### Network torubleshooting
+### Troubleshooting
 
--   Checking [subnet
-    mask](/Notes/posts/Network/basic_network_connections/subnet_mask)
-    and **routing**
--   [iptables](/Notes/posts/iptables) ##### Droped packett
--   [ip_command](/Notes/posts/ip_command)
--   Links (*the name of the network devices*)
-    -   ***ip -h -s link show device***
+#### I/O issues
 
-##### Dns issues
+23. **High latency**
+    - Input/output (I/O) wait
+    - Low throughput
+    - Input/output operations per second (IOPS)
+    - Low IOPS
 
--   [nslookup](/Notes/posts/Linux/nslookup)
--   [dig_command](/Notes/posts/dig_command)
--   [ping_command](/Notes/posts/ping_command) #### Network Resonance
-    [nmap](/Notes/posts/Linux/nmap) openssl client
--   to check weather the connection is legit
+    - Consider different **File systems**
+    - Check for wa with `top`
+    - [ioStat](/Notes/posts/ioStat)
 
-### Cpu issues
+24. [inodes exhaustion](/Notes/posts/inodes_exhaustion)
 
--   [Load Average](/Notes/posts/Load_Average)
--   [Cpu times](/Notes/posts/Linux/Kernel/Cpu)(*Subdevisions*)
--   [Cpu](/Notes/posts/Linux/Kernel/Cpu)
--   [Cpu procces
-    priotities](/Notes/posts/Linux/Kernel/Cpu.md#cpu-process-priorities)
-    -   [OOM process Killer](/Notes/posts/OOM_process_Killer)
+25. [IO schedulers](/Notes/posts/IO_schedulers)
 
-[Swap memory](/Notes/posts/Swap_memory)
+26. [NVMe](/Notes/posts/NVMe)
 
-#### Hardwere
+27. **File system issues** (*corruption mismatch*)
+    - [fsck](/Notes/posts/Linux/fsck)
 
--   *lscpu*
--   *lsmemm*
--   ***/proc/cpuinfo***
--   ***/proc/meminfo***
+28. **vstat**
 
-### User issue
+29. [I/O summary](https://www.site24x7.com/learn/linux/disk-io-troubleshooting.html)
 
--   [Logging torubleshooting](/Notes/posts/Login_troubleshooting)
--   [quota](/Notes/posts/quota)
+#### Network troubleshooting
+
+- Checking [subnet mask](/Notes/posts/Network/basic_network_connections/subnet_mask) and **routing**
+- [iptables](/Notes/posts/iptables)
+
+##### Dropped packets
+
+- [ip command](/Notes/posts/ip_command)
+- Links (*the name of the network devices*)
+  - **`ip -h -s link show device`**
+
+##### DNS issues
+
+- [nslookup](/Notes/posts/Linux/nslookup)
+- [dig command](/Notes/posts/dig_command)
+- [ping command](/Notes/posts/ping_command)
+
+#### Network Resonance
+
+- [nmap](/Notes/posts/Linux/nmap)
+- `openssl client` to check whether the connection is legit
+
+### CPU issues
+
+- [Load Average](/Notes/posts/Load_Average)
+- [CPU times](/Notes/posts/Linux/Kernel/Cpu) (*Subdivisions*)
+- [CPU](/Notes/posts/Linux/Kernel/Cpu)
+- [CPU process priorities](/Notes/posts/Linux/Kernel/Cpu#cpu-process-priorities)
+  - [OOM process Killer](/Notes/posts/OOM_process_Killer)
+
+- [Swap memory](/Notes/posts/Swap_memory)
+
+#### Hardware
+
+- `lscpu`
+- `lsmem`
+- ***/proc/cpuinfo***
+- ***/proc/meminfo***
+
+### User issues
+
+- [Logging troubleshooting](/Notes/posts/Login_troubleshooting)
+- [quota](/Notes/posts/quota)
 
 ### Systemd
 
--   [Systemd Units](/Notes/posts/systemd#systemd-units)
--   [Systemd Ordering](/Notes/posts/systemd_ordering)
--   [Systemd Timers](/Notes/posts/systemd#systemd-timers)
+- [Systemd Units](/Notes/posts/systemd#systemd-units)
+- [Systemd Ordering](/Notes/posts/systemd_ordering)
+- [Systemd Timers](/Notes/posts/systemd#systemd-timers)
 
-------------------------------------------------------------------------
+---

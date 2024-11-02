@@ -25,7 +25,6 @@ A proxy helps mask bots as multiple buyers. Otherwise, a targeted
 website can determine that all entries are from one source and ban the
 IP.
 
-\[\[TODO\]\]
-[bots_gtp_recomendations](/Notes/posts/bots_gtp_recomendations)
+------------------------------------------------------------------------
 
-> \[!quote\]
+[bots_gtp_recomendations](/Notes/posts/bots_gtp_recomendations)
