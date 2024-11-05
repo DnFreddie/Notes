@@ -1,24 +1,27 @@
 ---
 date: "2024-07-22T09:10:24+02:00"
 draft: false
-title: modes bash
+title: "Modes in Bash"
 ---
 
-[Docs](https://tldp.org/)
+[Documentation](https://tldp.org/)
 
 ## Modes Table
 
-`U should check weather u have the perrmison to wirte to a log file or smth`
-\| Mode \| Description \| \| ———————– \| ———————————————————– \| \| `-e`
-or `-o errexit` \| Exits immediately if any command fails. \| \| `-u` or
-`-o nounset` \| Treats unset variables as an error. \| \| `-x` or
-`-o xtrace` \| Enables verbose mode, printing each command. \| \|
-`-o pipefail` \| ensures that if any command within a pipeline fails,
-the overall exit status of the pipeline is also considered a failure. \|
-\| `-o noclobber` \| Prevents overwriting files with redirection. \| \|
-`-o noglob` \| Disables pathname expansion with wildcards. \| \|
-`-o nocaseglob` \| Enables case-insensitive globbing. \| \|
-`-o errexit -o errtrace`\| Combination for error handling and capturing
-failures. \|
+> **Note**: Ensure you have permission to write to a log file or other necessary locations.
 
-> \[!quote\] [bash_MAIN](/Notes/posts/Linux/commands/bash_MAIN)
+| Mode                  | Description                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------|
+| `-e` or `-o errexit`  | Exits immediately if any command fails.                                                         |
+| `-u` or `-o nounset`  | Treats unset variables as an error.                                                             |
+| `-x` or `-o xtrace`   | Enables verbose mode, printing each command before execution.                                   |
+| `-o pipefail`         | Ensures that if any command within a pipeline fails, the overall pipeline exit status is a fail.|
+| `-o noclobber`        | Prevents overwriting files through redirection.                                                 |
+| `-o noglob`           | Disables pathname expansion with wildcards.                                                     |
+| `-o nocaseglob`       | Enables case-insensitive globbing.                                                              |
+| `-o errexit -o errtrace` | Combines error handling and failure capture.                                                 |
+
+--------------------------------------------------------------------------------------------------------------------------
+
+* [Back to Bash Overview](/Notes/posts/Linux/commands/bash_MAIN)
+
