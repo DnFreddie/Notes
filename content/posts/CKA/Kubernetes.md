@@ -4,8 +4,7 @@ draft: false
 title: Kubernetes
 ---
 
-    ### Benefits
-
+## Benefits
 -   **Availability and scalability**
     -   **Load balancing**
         -   It can *duplicate* the applicatipn  
@@ -13,52 +12,48 @@ title: Kubernetes
     -   can run anywhere on any type of the infrastructure
 -   **Popularity**
 
-### Cluster Architecture
+## Cluster Architecture
+> `Lifecycles` of [pods](/Notes/posts/CKA/pods) and [kube service](/Notes/posts/CKA/kube_service) are not connected !
 
-#### Pod
+### [RBAC cluster](/Notes/posts/CKA/RBAC_cluster)
 
--   The smallest **deploy-able** unit
-    -   Group of one or more container
-        -   They **share storage and network** resources
--   **Unit of replication**
-    -   Easy to increase the number of pods running
+#### Config map
+*External configuration of u'r application*
 
-##### Pods kinds
+>**Get all config maps in the [deployments](/Notes/posts/CKA/kube_deployments)**
+```bash
+kubeclt get cm
+# Output:
+# index-html-blue        1      20s
+# index-html-yellow-v2   1      20s
+# kube-root-ca.crt       1      28d
+```
 
-###### Sidecar
+### Nodes 
 
--   Run in the same Pod as main container
+####  Master Nodes 
+*Always run this four processes*
+* `API server` 
+* `Scheduler`(*it calls [kubectl](/Notes/posts/CKA/kubectl)*)
+    * wehre to put the pod 
+* `Controler manager`(*calls the `scheduler`*)
+    *  Detecting the state changes 
+* `etcd`(*a cluster brain*)
+    * Baisicly it holds the entire data of the cluster state
+    * cluster changes are saved in a **key-value store**
+        *  only `application data` is not stored in etcd 
 
--   Can share folders with main container
+#### Worker node 
+* Has  mulitple [pods](#pod) running 
+* Has those 3 components **always installed**
+    * Container runtime 
+    * Kubelet (scheduling the containers)
+    * Kube Proxy
 
--   Can communicate via
-    localhost >\[!example\]- >![Pasted_image_20240509205921.png](/Notes/Pasted_image_20240509205921.png)
-    ###### Ambassador
-
--   The main app does not connect to external services
-
-    -   The **ambassador container** does it
-    -   It works pretty much as proxy
-
-> \[!example\]-
-> ![Pasted_image_20240509205439.png](/Notes/Pasted_image_20240509205439.png)
-
-##### Adapter
-
--   This modifies the information revived from the container to the
-    desired format
-    -   Example logs or data required for the app
-
-> \[!example\]-
-> ![pasted_image_20240509210026.png](/Notes/pasted_image_20240509210026.png)
-
-[docks](https://raghavramesh.github.io/posts/kubernetes-multi-container-patterns/)
-
-#### node_k
-
+##### node_k
 -   **pshyhical virtual machine**
-    -   ## runs one or more pod
+    -    runs one or more pod
 
 ## Diffrent tools
 
--   **warewolf** [WareWolf](https://warewulf.org/)
+-   [WareWolf](https://warewulf.org/)

@@ -12,11 +12,42 @@ title: Yq
 go install github.com/mikefarah/yq/v4@latest
 ```
 
+
 ## Options
 
 [Article](https://www.baeldung.com/linux/yq-utility-processing-yaml)
 
 -   **`-i` changes in place**
+
+
+
+ >**Display top level keys**
+
+```bash
+yq 'keys' <file.yml>
+# Output:
+# 
+
+```
+>**Get the number of documents in the file**
+```bash
+ yq 'select(di != null) | length ' test.yml | wc -l 
+ # Output: 
+ # 5
+```
+> Get all unique keys from the yaml document 
+```bash
+ yq '.. | select (type =="!!map") | keys ' test.yml  | sort -u 
+ # Output:
+ # - allowPrivilegeEscalation
+ # - apiVersion
+ # - app
+ # - configMap
+```
+
+
+
+
 
 ``` bash
 yq -i '.a.b[0].c = "cool"' file.yaml

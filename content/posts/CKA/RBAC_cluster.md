@@ -11,7 +11,6 @@ RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 Lab](https://killercoda.com/killer-shell-cka/scenario/rbac-serviceaccount-permissions)
 
 ## RBAC resources
-
 (*so it’s just binding resources to the any grups*)
 
 -   **`ClusterRole|Role`**
@@ -122,3 +121,4 @@ proxymity \> When the resources are in the `same namespace` they can
 ------------------------------------------------------------------------
 
 [Namespaces](/Notes/posts/Namespaces)
+[Kubernetes](/Notes/posts/CKA/Kubernetes)
