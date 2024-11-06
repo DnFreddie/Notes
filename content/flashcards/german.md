@@ -57,3 +57,13 @@ draft: false
 * deal with: umgehen
 * to invent: erfinden
 * to find out: herausfinden
+---
+*  hiered eignetshtelt
+* start : anfag
+* improve : verbessern
+* bettwen : zwischen 
+* made up of : besteht aus 
+*  all around the world : auf dem ganze velt
+* evry : jeder 
+* focusirt/cocentriit
+* only : nur

@@ -10,6 +10,43 @@ RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 [Killercoda
 Lab](https://killercoda.com/killer-shell-cka/scenario/rbac-serviceaccount-permissions)
 
+# Namespaces 
+*By default kubernetes provides 4 namescpaes* 
+* `kube-system`
+    * Do not create or modyfie in here !!!
+    * System processes 
+    * Master and [kubectl](/Notes/posts/CKA/kubectl) processes 
+* `kube-public`
+    * Publicly avaiable data
+    * [Config Map](/Notes/posts/CKA/Kubernetes#config-map) 
+* `kube-node-lease`
+    * **hearbeats** of nodes
+    * each node has associated `lease object` in namespace
+    * determines the **availability of a node**
+* `deufalt `
+    * resource u create are stored here
+    
+>**Namespaces can be created with the config files**
+```yml
+apiVersion: v11
+kind: ConfigMap
+metadata:
+    name: mysql-configmap 
+    namesapce: my-namespace
+data: 
+    db_url: mysql-service.database
+```
+>**Example to get nampespaces
+```bash
+kubectl get namescpaes
+# Output:
+# NAME                 STATUS   AGE
+# default              Active   46h
+# kube-node-lease      Active   46h
+# kube-public          Active   46h
+# kube-system          Active   46h
+```
+
 ## RBAC resources
 (*so it’s just binding resources to the any grups*)
 
