@@ -2,6 +2,8 @@
 date: "2024-10-29T13:44:19+01:00"
 draft: false
 title: Ansible Vault
+tags: 
+- ansible
 ---
 
 ### Ansible Vault

@@ -2,6 +2,8 @@
 title: "Molecule"
 date: 2024-10-30T12:25:31+01:00
 draft: false
+tags:
+- ansible
 ---
 
 **Testing Ansible with Molecule**
