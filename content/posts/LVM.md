@@ -18,3 +18,6 @@ Accts like a one block devie
 -   **vg**(*create*)
 -   **lv**(*create*) ### Alternatives are the Raid devices
 -   ![Raid devices](/Notes/raid_devices_canvas.png "fig:")
+
+
+

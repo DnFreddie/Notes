@@ -22,3 +22,12 @@ title: Kernel modules
     -   load or or insert a module
 -   **rmmod**
     -   remove the mode(**Be carfull with this!**)
+
+
+
+
+### Managing KErnel Module Parameters 
+> Example loading a  `cdrom module` with a debug paramater 
+```bash 
+modprobe cdrom debug=1.
+```

@@ -6,3 +6,4 @@ hugo.linux
 hugo.darwin
 Home.md
 .info.vim
+content/posts/CKA/kube_volumes.md

@@ -10,6 +10,15 @@ RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 [Killercoda
 Lab](https://killercoda.com/killer-shell-cka/scenario/rbac-serviceaccount-permissions)
 
+## Buidlidng Blocks
+* `Subject`
+ * The user or process that want to access a resource
+* `Resource`
+    * The kubernetes API **resource type** (ex. *Depoloyment or node*)
+* `Verb` 
+    * The operation that can be executed on the resource (*creating a pod or delete the service*)
+
+
 # Namespaces 
 *By default kubernetes provides 4 namescpaes* 
 * `kube-system`
@@ -153,7 +162,30 @@ proxymity \> When the resources are in the `same namespace` they can
  # controlplane $ 
 ```
 
-#### Cluser roles
+#### Creating Cluster Roles
+> Example creating a cluster role
+```bash
+kubectl -n applications create role smoke \
+  --verb=create,delete \
+  --resource=pods,deployments,statefulsets
+
+# Output: 
+# role.rbac.authorization.k8s.io/smoke created
+```
+
+#### Service accounts
+Upon object creation, the API server creates a Secret holding the API token
+and assigns it to the ServiceAccount.
+
+> Exaple disoviering SericeAccount  secrets
+```bash 
+ kubectl get secrets
+
+# Output:
+# NAME                          TYPE                                  DATA   AGE
+# build-bot-token-rvjnz         kubernetes.io/service-account-token   3      20m
+# default-token-qgh5n           kubernetes.io/service-account-token   3      93d
+```
 
 ------------------------------------------------------------------------
 

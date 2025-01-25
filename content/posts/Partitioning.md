@@ -19,3 +19,30 @@ fills up the entire partion*)
 
 -   **df**
 -   **du**
+
+
+###  Partitioning process 
+
+> Inform operating system that the new partiotion where created 
+
+```bash
+partprobe
+
+```
+## Wipefs
+[Docs](https://linuxconfig.org/wipefs-linux-command-tutorial-with-examples)
+
+> [The leftower patition issues](https://unix.stackexchange.com/questions/680801/pvcreate-cant-use-dev-sda-device-is-partitioned)
+```bash 
+# This only shows what partiontabels are left on the block devcie
+sudo wipefs /dev/sda
+# Output: 
+# DEVICE OFFSET TYPE UUID LABEL
+# sda    0x1fe  dos
+# ------------------------------ 
+# This wipes of the remaining partitions
+sudo wipefs /dev/sda -a
+```
+
+
+

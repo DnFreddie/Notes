@@ -103,6 +103,18 @@ systemctl cat ssh
 
 [Systemd youtube](https://www.youtube.com/watch?v:%20n6BuUgkZ5T0)
 
+
+####  Restart 
+```bash
+# ls /var/log/journal 
+systemctl restart systemd-journald.service 
+```
+Important
+*  by restarting the `systemd-journald` , you 'll loose all the logging of the current session 
+ so it's recommended to do the following cmd : 
+```bash
+killall -USR1 systemd-journald 
+```
 ------------------------------------------------------------------------
 
 [Cronetab](/Notes/posts/scriptss/Cronetab)
