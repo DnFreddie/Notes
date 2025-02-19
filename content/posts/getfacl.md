@@ -12,6 +12,15 @@ Add more specific permission - **getfacl** - **setfacl** \>Example
 -   Look for the **+** symbol on the ls
     -   It show that smth was changed
 
+
+
+> Set the Acli
+```bash
+setfacl u:nix:rw
+setfacl g:builders:0
+```
+
+
 ------------------------------------------------------------------------
 
 [chattr](/Notes/posts/chattr)

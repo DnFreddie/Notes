@@ -4,9 +4,31 @@ date : 2025-01-21T20:15:48+01:00
 draft: false
 ---
 
+[UEFI vs BIOS](/Notes/posts/UEFI_vs_BIOS)
+
+![Pasted_image_20240424191852.png](/Notes/Pasted_image_20240424191852.png)
+
+## Hardware sources
+
+-   PXE (*pre-boot execution environment*)
+    -   install operating system online
+-   iPXE(**uses HTTPS**)
+
+### See the init boot procsse right from grub
+
+``` bash
+cat /proc/cmdline
+```
+
+``` bash
+dmesg | head 
+```
+
+------------------------------------------------------------------------
+
+[Grub 2](/Notes/posts/GRUB_2)
 
 ### Steps 
-
 
 * `POST`(*power on self*)
     * Turning On for the system firemwer 
@@ -29,3 +51,24 @@ draft: false
 * `Switch to rootfs `
     * Runing the default target afterwards
 
+
+### Changing  the root password 
+
+1. Enter the rescue mode 
+2. Add this line before `intird `
+```bash 
+init=/bin/bash 
+```
+3. Then boot 
+4. Mount the system in rw perrmison  to be able to applay changes 
+```bash
+mount -o remount,rw /
+# And then back to readonly 
+mount -o remount,ro /
+```
+5. reboot the system 
+```bash 
+exec /sbin/init 6
+```
+---
+[init](/Notes/posts/init)

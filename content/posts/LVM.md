@@ -12,10 +12,17 @@ title: LVM
 
 Accts like a one block devie
 
+
+>U can easily both shrink/extend fs and lvvm with `--resizefs`
+
+```bash 
+lvresize --resizefs -L +5G /dev/test/lv-data
+``` 
+
 ### Commands
 
 -   **pv**(*create* *display* *change*)
--   **vg**(*create*)
+   **vg**(*create*)
 -   **lv**(*create*) ### Alternatives are the Raid devices
 -   ![Raid devices](/Notes/raid_devices_canvas.png "fig:")
 

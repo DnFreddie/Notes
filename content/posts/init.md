@@ -4,7 +4,19 @@ draft: false
 title: init
 ---
 
-    - First process on the machine(*PID 1*)
+>Example reboot a system withou the systemd 
+```bash
+exec /sbin/init 6 
+```
+[Chnaging root Password](/Notes/posts/redhat/boot_process#changing--the-root-password)
+
+> Reboot the system with systemd 
+```bash 
+systemctl isolate rescue.target
+```
+
+
+- First process on the machine(*PID 1*)
 
 > \[!tip\] The kernel starts init directly Init starts everything else
 > The mommy of the systems - It take care of orphan process by

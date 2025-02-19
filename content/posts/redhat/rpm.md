@@ -60,3 +60,7 @@ rmp -q --scritps
 rpm -qd dnsmas
 ```
 
+
+
+
+### Creating a repo 
