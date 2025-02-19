@@ -11,8 +11,9 @@ exec /sbin/init 6
 [Chnaging root Password](/Notes/posts/redhat/boot_process#changing--the-root-password)
 
 > Reboot the system with systemd 
+
 ```bash 
-systemctl isolate rescue.target
+exec /usr/lib/systemd/system
 ```
 
 

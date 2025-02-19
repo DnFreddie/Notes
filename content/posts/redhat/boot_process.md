@@ -65,10 +65,16 @@ init=/bin/bash
 mount -o remount,rw /
 # And then back to readonly 
 mount -o remount,ro /
+
 ```
+Rembert to `.autorelabel` for [SELinux](/Notes/posts/SELinux)
 5. reboot the system 
+
 ```bash 
 exec /sbin/init 6
+# or 
+exec /usr/lib/systemd/systemd
 ```
 ---
+[restet root pass](/Notes/posts/redhat/troubleshotting/restet_root_pass)
 [init](/Notes/posts/init)
