@@ -163,6 +163,48 @@ printf $f ("%s\n", $flash)
 close($fh) or die "Cannot close file: $!";
 ```
 
+
+### Grep usage
+*ARGV* Holds the name of the file where $& holds the match 
+If u dont't use close after $ARGV then  it will look further and pruitn this agian
+> Finding weather the string matches the file 
+```bash
+perl -wnl -e '/pass auf/i and print $ARGV and close $ARGV ;' ./*
+$ perl -nle '$seen{$ARGV}++ or print $ARGV if /pass|auf/i' *
+
+./czasKatedr.md
+./test.md
+```
+
+### MAtching in context
+> Example printing with the context
+perl --00 -nle  'print if /pass/ i'
+
+### Templating
+> CONVERTING SPECIAL CHARACTERS 103
+```bash 
+#! /usr/bin/perl -s –wpl
+# Template processor for SPUG meeting announcement
+s/ %%DATE%% /$date/gx;
+s/ %%SPEAKER%% /$speaker/gx;
+s/ %%TITLE%% /$title/gx;
+s/ %%CONTACT%% /$contact/gx;
+s/ %%SUMMARY%% /$summary/gx;
+```
+
+Begin block
+```bash 
+#! /usr/bin/perl -s -i.bak -wpl
+# Inserts contact info for script author after shebang line
+BEGIN {
+$author or
+warn "Usage: $0 -author='Author info' f1 [f2 ...]\n" and
+exit 255;
+}
+# Append contact-info line to shebang line
+$. == 1 and
+s|^#!.*/bin/.+$|$&\n# Author: $author|g
+```
 ------------------------------------------------------------------------
 
 - [perl pod](posts/PROGRAMMING/perl/perl_pod.md)

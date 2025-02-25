@@ -32,3 +32,8 @@ nmcli general perrmison
 * There are located in  `/etc/NetworkManager/system-connections/`
 * On the legacy system there were stored in `/etc/sysconfig/network-scripts`
 
+
+> Modyfing the connection 
+```bash
+ nmcli connection modify eth0  ipv4.addresses 172.24.0.110/24 ipv4.gateway 172.24.0.254 ipv4.dns 172.24.0.254 ipv4.method manual
+```

@@ -17,11 +17,16 @@ draft: false
 ```
 2. Then create netir autofs 
 ```bash 
-fstype=nfs,sync,rw classroom.example.com:/home/guests/netuser1
+shared  -fstype=nfs,rw,hard ftp.example.org:/shared
 ```
-
-
-
+## Options 
+> DOCS 
+```bash 
+man 5 nfs 
+```
+`intr` *(Interruptible)* → Allows the NFS request to be interrupted if the server is unresponsive. **DEPRECATED**
+`soft`  → when  the NFS server becomes unresponsive, the client will timeout instead of hanging indefinitely
+`hard `→   Prevents file corruption by ensuring retries instead of timeout failures.
 
 2. If ur'e using systemd mounts remember about `network-online` target
 
