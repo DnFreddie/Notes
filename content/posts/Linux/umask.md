@@ -2,7 +2,7 @@
 date: "2024-07-22T09:10:24+02:00"
 draft: false
 title: umask
---
+---
 
 - The default value of umask is set in `/etc/login.defs`
 -   This with touch command creates a file with different perrmisons
