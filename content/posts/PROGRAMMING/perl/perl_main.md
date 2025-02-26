@@ -205,6 +205,45 @@ exit 255;
 $. == 1 and
 s|^#!.*/bin/.+$|$&\n# Author: $author|g
 ```
+
+
+#### Test operators 
+>U can easily run perl for  the test operators
+```bash 
+find -type f | perl -lne  'print if -B ' 
+
+```
+**File Test Operators in Perl**
+`Operator`	`Description`
+-r	File is readable by the current user
+-w	File is writable by the current user
+-x	File is executable by the current user
+-o	File is owned by the current user
+-R	File is readable by real user ID
+-W	File is writable by real user ID
+-X	File is executable by real user ID
+-O	File is owned by real user ID
+-e	File exists
+-z	File exists and is empty
+-s	File exists and is not empty (returns size in bytes)
+-f	File is a regular file (not a directory, pipe, etc.)
+-d	File is a directory
+-l	File is a symbolic link
+-p	File is a named pipe (FIFO)
+-S	File is a socket
+-b	File is a block special file (e.g., disk device)
+-c	File is a character special file (e.g., terminal)
+-u	File has setuid bit set
+-g	File has setgid bit set
+-k	File has sticky bit set
+-t	Filehandle is opened to a terminal (TTY)
+-T	File is a text file
+-B	File is a binary file
+-M	File's age in days since last modification
+-A	File's age in days since last access
+-C	File's age in days since last inode change
+
+
 ------------------------------------------------------------------------
 
 - [perl pod](posts/PROGRAMMING/perl/perl_pod.md)
