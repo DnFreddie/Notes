@@ -4,12 +4,15 @@ draft: false
 title: sar
 ---
 
-    ## sar - Collect, report, or save system activity information.
+## sar - Collect, report, or save system activity information.
 
 Checking the k[io stat](/Notes/posts/ioStat)
 
+> Check the interfaces 
 ``` bash
-sar -b 4 3
+sar -n DEV 1 1
+# For wide output
+vmstat  -w 
 ```
 
 [Docs](https://www.howtogeek.com/793513/how-to-use-the-sar-command-on-linux/)

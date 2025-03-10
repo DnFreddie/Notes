@@ -3,11 +3,15 @@ title: 'Quadlet'
 date : 2025-02-21T10:40:54+01:00
 draft: false
 ---
-
+Docs are avaialbe at `man quadlet`
 * U can use systemd service as a contianers 
     * Thery are stored `~/.config/containers/systemd/` as `.conatainer` files
         * When u add them add them as  a service not as a container file 
     
+>`Important Notice` 
+>
+>***If  u ever want to enable continer as a service u have to be logged as tty su is insuficitent***
+
 > Check weather the systemd sees the `.container` files
 ```bash 
 /usr/lib/systemd/system-generators/podman-system-generator --user --dryrun
@@ -45,7 +49,7 @@ loginctl show-user aura
 # IdleSinceHintMonotonic=0
 # Linger=no
 loginctl enable-linger
-```
+``
 --- 
 [podman](/Notes/posts/podman)
 

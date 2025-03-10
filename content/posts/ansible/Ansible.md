@@ -191,7 +191,9 @@ task:
 #### User defined facts
 
 Create `/etc/ansible/facts.d` on the *managed nodes* - The file has tave
-to have **.file** extentsion - Has to be in the **Json Format**
+to have **.fact** extentsion - Has to be in the **Json Format or .ini**
+Theare stored in `ansible_facts[’ansible_local’]`
+
 
 ### Plugins
 
@@ -219,6 +221,28 @@ U can use a bulti in **.package** module to install different packages
 [Ansible vault](/Notes/posts/ansible/ansible_vault)
 
 
+
+
+
+### Ansible Baisc modules and there usage
+
+| Name    | Use                                                        |
+|---------|------------------------------------------------------------|
+| command | Runs arbitrary commands but not using a shell              |
+| shell   | Runs arbitrary commands using a shell                      |
+| raw     | Runs commands directly on top of SSH without using Python  |
+| copy    | Copies files or lines of text to files                     |
+| yum     | Manages packages on RHEL family-managed hosts              |
+| service | Manages the current state of systemd and system-V services |
+| ping    | Checks whether managed hosts are in a manageable state     |
+
+
+
+> `raw ` is used to do it over ssh withou the pytoh  so can be used for installing things for ansible
+```bash
+ansible -u root -i inventory ansible3 --ask-pass -m raw -a “yuminstall python3"
+
+```
 
 ------------------------------------------------------------------------
 

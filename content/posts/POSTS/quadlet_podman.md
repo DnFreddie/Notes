@@ -58,15 +58,21 @@ This ensures that processes continue running **without relying on a global daemo
 Who among us doesn’t love `systemd` and all its capabilities, especially when working with containers?
 However, we all know the struggle of manually generating a service file for a specific container and then customizing it.
 It’s just inconvenient. And as it turns out, this old method is now deprecated. 
-**Enter `quadlet`!** [Check where `quadlet` took over.]
 ### **The New Way of Creating Services**
-Instead of manually writing `systemd` service files, we now use **`.container` files**.
+Instead of manually writing `systemd` service files, we now use **`.container` files**.or genearting them with podman systemd genearte 
 Which are located accrodingly  in 
 - For system-wide containers: `/etc/containers/systemd/`
 - For user-specific containers: `/home/$USER/.config/containers/systemd/$FILENAME.container`
 
 ### **The `.container` File Format**
-[Write about the file format here.]
+
+The formath is rekavtuvku straight forward if u want to know more u just run man quadllet and this \w
+will explain everthing 
+
+Rember that the container file us essabntialy a servuce \
+So u can use execpres start timeout and all the good stuff 
+one thing to also mention is the fact that if the command to enable the pre command to fail s
+smt if we set - before this means can failed and wont discourage systemd for executing out service 
 
 ### **What’s Nice About This?**
 The best part? We still get all the benefits of our familiar `systemd` service files! We can:
@@ -86,6 +92,11 @@ This will check your `.container` files and print the **generated service** outp
 Although you might be tempted to blindly use the `--enable` option, **don’t**. Generated files **cannot** be enabled in the usual way. [Find an article about this issue.]
 
 Luckily, `systemd` takes care of everything for us—just **start the service**, and you’re good to go!
+Also in order to change enable systemctl service as user u have to be in the interactive session 
+example beeing login in the tty terminal either u can login as using the logut and login in your login menager 
+or alt +f6 to login as tty  the other option if ur;e ssh deamon is enabled is to   login shh usernam@localhost \
+this will enalbe you to setup the service 
+in other whea u will see failed to conect to the dbus 
 
 ### **One Key Thing to Remember**
 Even though the file is named `.container`, **`systemd` will treat it as an actual service**. So when managing it, use standard `systemctl` commands!
