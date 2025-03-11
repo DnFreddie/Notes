@@ -7,13 +7,39 @@ tags:
 - ansible
 title: Ansible Main
 ---
-
-**Push model** - Ruby based - ***demon less***
-
--   **Procedural**
-    -   it creates top to bottom
+* [Architecture](#architecture)
+  * [Plugin/Modules](#pluginmodules)
+  * [Ansible configuration](#ansible-configuration)
+    * [Example config](#example-config)
+  * [Inventory](#inventory)
+    * [Diffrences](#diffrences)
+    * [Dynamic inventories](#dynamic-inventories)
+  * [Playbooks](#playbooks)
+    * [Handlers](#handlers)
+    * [Facts and conditionals](#facts-and-conditionals)
+      * [Gathering info](#gathering-info)
+      * [User defined facts](#user-defined-facts)
+    * [Plugins](#plugins)
+      * [Ansiable with nix](#ansiable-with-nix)
+    * [Packages/Collections](#packagescollections)
+    * [Ansible Vault](#ansible-vault)
+    * [Ansible Baisc modules and there usage](#ansible-baisc-modules-and-there-usage)
+  * [Check Mode](#check-mode)
+    * [Diff mode --diff](#diff-mode---diff)
+  * [Error Message Readability](#error-message-readability)
+* [Mange task tags and list task](#mange-task-tags-and-list-task)
+  * [List the task](#list-the-task)
+  * [Useful modules](#useful-modules)
+    * [Tags](#tags)
+  * [Managing Software  and repos](#managing-software-and-repos)
+    * [Downloading the local repo](#downloading-the-local-repo)
+    * [Managing subscriptions](#managing-subscriptions)
+---
 
 # Architecture
+**Push model** - Ruby based - ***demon less***
+-   **Procedural**
+    -   it creates top to bottom
 
 1.  Controller node (*only this requires
     ansible*)<!--- Ansaible is a python program -->
@@ -25,9 +51,9 @@ title: Ansible Main
     -   public and private cloud **Can do windows automation on
         windows**
 
--   It has to hav **python** isntalled on the machines
+-   It has to have **python** installed on the machines
 
-## Plugins/Modules
+## Plugin/Modules
 
 To list modules use `ansiable-doc  -l` To get the help of the particular
 module use `ansible-doc -s <module>` - *inventory plugins* - organize
@@ -140,8 +166,7 @@ parametric-seized - *Works with vars* - Can mix both
     -   If **force_handlers** enabled then handlers will execute no
         matter the error
 
-#### Example
-
+> Example
 ``` yaml
 - name: Kernel Update
   hosts: test
@@ -210,7 +235,7 @@ use the softerwe and also add the nix path to **sudo path**
 Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nix/var/nix/profiles/default/bin"
 ```
 
-### Pacages/Collections
+### Packages/Collections
 
 U can use a bulti in **.package** module to install different packages
 
@@ -219,10 +244,6 @@ U can use a bulti in **.package** module to install different packages
 
 ### Ansible Vault
 [Ansible vault](/Notes/posts/ansible/ansible_vault)
-
-
-
-
 
 ### Ansible Baisc modules and there usage
 
@@ -244,6 +265,107 @@ ansible -u root -i inventory ansible3 --ask-pass -m raw -a “yuminstall python3
 
 ```
 
+## Check Mode
+> Some modules don't support the check mode
+`check_mode: yes` yes can be used with any task it also overwrites the entire playbook
+
+### Diff mode --diff
+>  Display changes in file contents
+```bash
+ansible-playbook playbook.yml --diff
+
+#  Output:
+# --- before: /etc/myconfig.conf
+# +++ after: /etc/myconfig.conf
+# @@ -1,3 +1,3 @@
+#  setting1 = true
+# -setting2 = old_value
+# +setting2 = new_value
+#  setting3 = enabled
+```
+
+## Error Message Readability
+> Improve error message readability
+```bash
+# file: ansible.cfg
+# stdout_callback = debug
+# or
+# stdout_callback = error
+```
+# Mange task tags and list task
+## List the task
+```bash
+ansible     --list-task <playbook>
+ansible     --list-task <playbook>
+```
+## Useful modules
+* Uri
+    * To perform quick checks and so on
+* Stat
+    * stat the files and dirs
+* Assert
+```yml
+- name: check if file size is valid
+  assert:
+    that:
+    - "{{ (filesize | int) <= 100 }}"
+    - "{{ (filesize | int) >= 1 }}"
+    fail_msg: "file size must be between 0 and
+    100"
+    success_msg: "file size is good, let\’s
+    continue"
+
+- name: create a file
+  command: dd if=/dev/zero of=/bigfile bs=1
+  count={{ filesize }}
+
+```
+### Tags
+* U can list tags with just --list-tags
+* If u set the tag to `never` it want run unless specified (useful for debugging)
+## Managing Software  and repos
+U can provide a list to the package argument instead of looping over the packages
+
+### Downloading the local repo
+Ansible doesn't provide the module for creating the repos u have to do it manually
+
+Also there's a `rmp_key` module for downloading  the gpg keys
+> Example downloading and creating a local repo
+```yml
+- name: make directory
+file:
+path: /var/ftp/repo
+state: directory
+- name: download packages
+yum:
+name: nmap
+download_only: yes
+download_dir: /var/ftp/repo
+- name: createrepo
+command: createrepo /var/ftp/repo
+```
+### Managing subscriptions
+There are two models that deal with the subscription management
+* `red hat_subscription` Subscription and Registration in one task
+* `rhsm_repository` add subscription manager repos
+> Example Using subscription manager to set up Ansible
+```yml
+---
+- name: register and subscribe ansible5
+redhat_subscription:
+username: bob@example.com
+password: verysecretpassword
+state: present
+- name: configure additional repo access
+  rhsm_repository:
+- name:
+  - rh-gluster-3-client-for-rhel-8-x86_64-
+  rpms
+    - rhel-8-for-x86_64-appstream-debug-rpms
+```
+
+
+
 ------------------------------------------------------------------------
 
 [teraform](/Notes/posts/cloud/terraform/terraform)
@@ -252,3 +374,4 @@ ansible -u root -i inventory ansible3 --ask-pass -m raw -a “yuminstall python3
 
 [Ansible commands](/Notes/posts/ansible/ansible_commands)
 
+[ansible-navigator](/Notes/posts/ansible/ansible-navigator)
