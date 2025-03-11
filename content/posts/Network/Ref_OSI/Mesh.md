@@ -8,5 +8,5 @@ title: Mesh
 
 [MeshTopology_visual.png](/MeshTopology_visual.png) - Bot Fully
 connected Partially connacted - Redundancy fault-tolernace load
-balancing - Used in [WAN](/Notes/posts/Network/Network_Types/WAN) **Wide
+balancing - Used in [WAN](/Network/Network_Types/WAN) **Wide
 area network** - Both Fully and Partially Meshed

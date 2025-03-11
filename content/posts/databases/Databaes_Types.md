@@ -4,12 +4,12 @@ draft: false
 title: Databaes Types
 ---
 
-[columnar_db](/Notes/posts/databases/columnar_db)
+[columnar_db](/databases/columnar_db)
 
-[redis](/Notes/posts/databases/redis)
+[redis](/databases/redis)
 
-## [firebase](/Notes/posts/databases/firebase)
+## [firebase](/databases/firebase)
 
 > \[!quote\] \[\[Tokio_rs#Databases\]\] [Data
-> Streams](/Notes/posts/scriptss/Data_Streams)
-> [connection_db](/Notes/posts/databases/connection_db)
+> Streams](/scriptss/Data_Streams)
+> [connection_db](/databases/connection_db)

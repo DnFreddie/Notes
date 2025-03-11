@@ -4,6 +4,6 @@ draft: false
 title: Scheduling Scripts
 ---
 
--   [At](/Notes/posts/scriptss/At)
--   [Cronetab](/Notes/posts/scriptss/Cronetab)
--   [Systemd Timers](/Notes/posts/systemd#systemd-timers)
+-   [At](/scriptss/At)
+-   [Cronetab](/scriptss/Cronetab)
+-   [Systemd Timers](/systemd#systemd-timers)

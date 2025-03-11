@@ -15,4 +15,4 @@ title: controlesrs rob
         -   *Robot makes constat calcualtion *
         -   [closed_loop_control](https://www.youtube.com/watch?v:%208m0VP5_feOY)
 
-> \[!quote\] [startup_robotics](/Notes/posts/startup_robotics)
+> \[!quote\] [startup_robotics](/startup_robotics)

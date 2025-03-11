@@ -18,9 +18,9 @@ title: Spot instance mechanism
         -   **Grace Period:** 2 minutes.
 
 > This show weather the price rises above the max jprice that we defined
-> ![Pricing](/Notes/spot-instance-pricing-history_visual.png)
+> ![Pricing](/static/spot-instance-pricing-history_visual.png)
 
-### [Spot Fleets](/Notes/posts/sysops_aws_cert/ec2_instances/spot_fleets)
+### [Spot Fleets](/sysops_aws_cert/ec2_instances/spot_fleets)
 
 *The Spot Fleet will try to meet the tartget capacity with the price
 constrains*
@@ -36,7 +36,7 @@ constrains*
 ### Terminating spot instance
 
 *Aws wont termiante the spot instance u have to do it mannualy* \>![Note
-isntance termination graph](/Notes/spot_instance_termination_visual.png)
+isntance termination graph](/static/spot_instance_termination_visual.png)
 - You can only cance Spot instance request ath are `open`, `active` or
 `disabled`. 1. Cancel the **Spot Reuqest** 2. Terminatne the assosciated
 Spot instnaces
@@ -49,5 +49,5 @@ Spot instnaces
 ------------------------------------------------------------------------
 
 -   [Purches
-    options](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_purches_options)
--   [ec2](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_instance)
+    options](/sysops_aws_cert/ec2_instances/ec2_purches_options)
+-   [ec2](/sysops_aws_cert/ec2_instances/ec2_instance)

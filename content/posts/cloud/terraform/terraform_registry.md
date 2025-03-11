@@ -9,8 +9,8 @@ title: Terraform registry
 |                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | \- Public - Private (*part of the terraform cloud*) - publish private module - hase to be connectoed to `VSC`(*version control system*) |
-| \- [terraform](/Notes/posts/cloud/terraform/terraform)                                                                                  |
-| ### Terraform cloud ![Terraform Cloud](/Notes/terraform_cloud_visual.png)                                                               |
+| \- [terraform](/cloud/terraform/terraform)                                                                                  |
+| ### Terraform cloud ![Terraform Cloud](/static/terraform_cloud_visual.png)                                                               |
 
 -   [Terraform module
-    structure](/Notes/posts/cloud/terraform/terraform_standard_module_sturcture)
+    structure](/cloud/terraform/terraform_standard_module_sturcture)

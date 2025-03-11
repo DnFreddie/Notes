@@ -12,4 +12,4 @@ title: SSSD
 
 -   ## Popularized by red hat
 
-    [PAM](/Notes/posts/PAM) \[\[Auth methods.canvas\|Auth methods\]\]
+    [PAM](/PAM) \[\[Auth methods.canvas\|Auth methods\]\]

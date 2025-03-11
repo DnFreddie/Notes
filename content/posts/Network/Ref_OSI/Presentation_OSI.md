@@ -10,4 +10,4 @@ title: Presentation OSI
 
 -   Character encoding’
 -   Application encryption **side note** often combined with
-    [Application_OSI](/Notes/posts/Network/Ref_OSI/Application_OSI)
+    [Application_OSI](/Network/Ref_OSI/Application_OSI)

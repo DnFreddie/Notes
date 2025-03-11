@@ -8,5 +8,5 @@ title: Standard Error
 
 Output that produces an error **2 constiudes standard error** &
 constitutes for both \>\[!quote\] [exit
-code](/Notes/posts/scriptss/exit_code),
-[devnull](/Notes/posts/scriptss/devnull)
+code](/scriptss/exit_code),
+[devnull](/scriptss/devnull)

@@ -64,4 +64,4 @@ Strong Dependency *You Must activate these units* **together**
 
 ------------------------------------------------------------------------
 
-[systemd](/Notes/posts/systemd)
+[systemd](/systemd)

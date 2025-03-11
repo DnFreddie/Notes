@@ -23,4 +23,4 @@ EC2 instance role are correct
     -   System staus: check the underlying hardwer
 -   Disk: Read/Write for Ops / Bytes (*only for instance store*)
 
-![Cloudwatch Dashboard](/Notes/cloud_watch_metrics_dashboard_visual.png)
+![Cloudwatch Dashboard](/static/cloud_watch_metrics_dashboard_visual.png)

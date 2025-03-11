@@ -8,16 +8,16 @@ title: Fibre channel
 
 ==FC== A specialized high-speed topology: - Connects server to storage -
 2, 4, 8, and 16 gigabit per second
-[bandwidth](/Notes/posts/Network/Phisicall/bandwidth) - Supported over
-**both** [Fiber](/Notes/posts/Network/Phisicall/Fiber) and
-[Copper](/Notes/posts/Network/Phisicall/Copper)
+[bandwidth](/Network/Phisicall/bandwidth) - Supported over
+**both** [Fiber](/Network/Phisicall/Fiber) and
+[Copper](/Network/Phisicall/Copper)
 
 **Servers and storage** connect to a Fiber Channel switch: - Server
 (*initiator*) needs a **FC interface** - Storage (*target*) is commonly
 referenced by SCSI, SAS, and SATA commands
 
-**Alternatives**: - [FCoE](/Notes/posts/FCoE)
+**Alternatives**: - [FCoE](/FCoE)
 
-> \[!quote\] [SAN](/Notes/posts/Network/Data/SAN) \| [Spine and leaf
-> architecture](/Notes/posts/Spine_and_leaf_architecture) [three-tier
-> architecture_net_arch](/Notes/posts/three-tier_architecture_net_arch)
+> \[!quote\] [SAN](/Network/Data/SAN) \| [Spine and leaf
+> architecture](/Spine_and_leaf_architecture) [three-tier
+> architecture_net_arch](/three-tier_architecture_net_arch)

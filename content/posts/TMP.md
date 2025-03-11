@@ -29,7 +29,7 @@ to establish and maintain a trusted computing environment.
 4.  **Secure Communication**: TPMs can be used in conjunction with
     cryptographic protocols to securely store and manage keys required
     for establishing secure communication channels like
-    [TLS_SSL](/Notes/posts/protocols/TLS_SSL) connections. This ensures
+    [TLS_SSL](/protocols/TLS_SSL) connections. This ensures
     that keys are protected from unauthorized access or tampering.
 
 5.  **Data Integrity and Sealing**: TPMs can seal data, ensuring that it

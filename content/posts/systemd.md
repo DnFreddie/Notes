@@ -9,9 +9,9 @@ title: systemd
 # Units
 
 **Any entity** managed by systemd \>\[!example\]-
-\>![Pasted_image_20240514192234.png](/Notes/Pasted_image_20240514192234.png)
+\>![Pasted_image_20240514192234.png](/static/Pasted_image_20240514192234.png)
 
-[systemd_ordering](/Notes/posts/systemd_ordering)
+[systemd_ordering](/systemd_ordering)
 
 ## Location
 
@@ -79,7 +79,7 @@ sudo systemctl restart *service*
 sudo service *name* restart 
 ```
 
-[service](/Notes/posts/Linux/service)
+[service](/Linux/service)
 
 #### See what was dirscly when the unit was started
 
@@ -94,12 +94,12 @@ systemctl cat ssh
 
 > \[!example\]- [Docs
 > configuration](https://access.redhat.com/documentation/enus/red_hat_enterprise_linux/8/html-single/using_systemd_unit_files_to_customize_and_optimize_your_system/indexj)
-> ![Pasted_image_20240514205706.png](/Notes/Pasted_image_20240514205706.png)
+> ![Pasted_image_20240514205706.png](/static/Pasted_image_20240514205706.png)
 
 ### Systemd Timers
 
 > \[!example\]
-> ![Pasted_image_20240514231948.png](/Notes/Pasted_image_20240514231948.png)
+> ![Pasted_image_20240514231948.png](/static/Pasted_image_20240514231948.png)
 
 [Systemd youtube](https://www.youtube.com/watch?v:%20n6BuUgkZ5T0)
 
@@ -117,5 +117,5 @@ killall -USR1 systemd-journald
 ```
 ------------------------------------------------------------------------
 
-[Cronetab](/Notes/posts/scriptss/Cronetab)
-[At](/Notes/posts/scriptss/At) [init](/Notes/posts/init)
+[Cronetab](/scriptss/Cronetab)
+[At](/scriptss/At) [init](/init)

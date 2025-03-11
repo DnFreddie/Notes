@@ -28,4 +28,4 @@ name:String,
 ```
 
 > \[!quote\]
-> [monomorphization](/Notes/posts/compilation_porcess/monomorphization)
+> [monomorphization](/compilation_porcess/monomorphization)

@@ -6,7 +6,7 @@ title: git
 
 ## Seting up github
 
-1.  [ssh](/Notes/posts/protocols/ssh)
+1.  [ssh](/protocols/ssh)
 2.  setinging user
 
 ``` bash
@@ -26,7 +26,7 @@ git config --global user.email DefnotFreddie@defnotfreddie@gmail.com
 ```
 
 > \[!tip\]- It has to be u’re gti name
-> ![Pasted_image_20230903144619.png](/Notes/Pasted_image_20230903144619.png)
+> ![Pasted_image_20230903144619.png](/static/Pasted_image_20230903144619.png)
 
 ### Creating the branch
 
@@ -49,7 +49,7 @@ git add -p
 ```
 
 > \[!example\]-
-> ![Pasted_image_20240508110725.png](/Notes/Pasted_image_20240508110725.png)
+> ![Pasted_image_20240508110725.png](/static/Pasted_image_20240508110725.png)
 
 ### Pulling submodels
 
@@ -60,7 +60,7 @@ git submodule update --init
 ### Merge vs Rebase
 
 > \[!bug\] Use rebase locally
-> ![Pasted_image_20240508123416.png](/Notes/Pasted_image_20240508123416.png)
+> ![Pasted_image_20240508123416.png](/static/Pasted_image_20240508123416.png)
 
 #### Undo the megre
 
@@ -72,4 +72,4 @@ git merge --abrot
 git rebase --abrot
 ```
 
-> \[!quote\] [docker](/Notes/posts/Linux/Docker/docker)
+> \[!quote\] [docker](/Linux/Docker/docker)

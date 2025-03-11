@@ -6,7 +6,7 @@ title: server site rendering
 
 ## Flexibility
 
--   In [next-js](/Notes/posts/next-js/next-js) u can choose weather u
+-   In [next-js](/next-js/next-js) u can choose weather u
     want to *render site* on **cilent end** or **server end**
 
     -   **Clienits rendering** happens when the *browser* generate all
@@ -16,5 +16,5 @@ title: server site rendering
         improves **SEO**
 
 > \[!quote\]
-> [Client-server](/Notes/posts/Network/Network_Types/Client-server)
-> \[\[serverless\]\] [next-js](/Notes/posts/next-js/next-js)
+> [Client-server](/Network/Network_Types/Client-server)
+> \[\[serverless\]\] [next-js](/next-js/next-js)

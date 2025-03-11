@@ -17,4 +17,4 @@ dd if=/dev/sdb of=/root/flashcopy
 7643809280 bytes (7.6 GB) copied, 1220.729 s, 5.2 MB/s
 ```
 
-[tar](/Notes/posts/Linux/tar) [devnull](/Notes/posts/scriptss/devnull)
+[tar](/Linux/tar) [devnull](/scriptss/devnull)

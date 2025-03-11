@@ -10,7 +10,7 @@ title: RAID 1
     -   **No speed increase**
     -   **No storage increase**
 -   Very good agaisnt **data loss** >\[!example\]
-    ![Pasted_image_20240425181811.png](/Notes/Pasted_image_20240425181811.png)
+    ![Pasted_image_20240425181811.png](/static/Pasted_image_20240425181811.png)
 
 ------------------------------------------------------------------------
 

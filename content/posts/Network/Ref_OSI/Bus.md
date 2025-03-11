@@ -4,7 +4,7 @@ draft: false
 title: Bus
 ---
 
-> ![BusTopology_visual.png](/Notes/BusTopology_visual.png) - Early local
+> ![BusTopology_visual.png](/static/BusTopology_visual.png) - Early local
 > area networks - Simple but prone to errors
 
     >Bug

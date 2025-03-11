@@ -15,30 +15,30 @@ title: Copper Cables
 -   Extensive installation
     -   Relativly inexpensive
     -   Easy to install and maintain
--   Limited [bandwidth](/Notes/posts/Network/Phisicall/bandwidth)
+-   Limited [bandwidth](/Network/Phisicall/bandwidth)
     avaliabity
     -   *Psychics limits electrical signals through copper*
--   Used in [WAN](/Notes/posts/Network/Network_Types/WAN)
-    -   cable modem [DSL](/Notes/posts/Network/Phisicall/DSL)
+-   Used in [WAN](/Network/Network_Types/WAN)
+    -   cable modem [DSL](/Network/Phisicall/DSL)
 -   Often comabined with fiber
     -   *Copper on the local loop ,fiber in the bacground* ## Copper
         cable categories
-        ![CopperCablesCategories_visual.png](/Notes/CopperCablesCategories_visual.png)
+        ![CopperCablesCategories_visual.png](/static/CopperCablesCategories_visual.png)
 
 ### Coaxial cables
 
 -   Two or more forms share a common axis
 -   Rg-6 used in televison/digital cable
     -   AND high speed internet over cablee
-        ![CoaxialCables_visual.png](/Notes/CoaxialCables_visual.png) ##
+        ![CoaxialCables_visual.png](/static/CoaxialCables_visual.png) ##
         Twinaxial cable Two inner conductors (*Twins*)
 -   Common on 10 Gigabit
-    [Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet) SFP+ cables
+    [Ethernet](/Network/Ref_OSI/Ethernet) SFP+ cables
     -   full duplex
     -   five meters
     -   low cost
-    -   low [Latency](/Notes/posts/Network/Data/Latency) commpared to
+    -   low [Latency](/Network/Data/Latency) commpared to
         *twisted paitr*
 
-> \[!quote\] [Fiber](/Notes/posts/Network/Phisicall/Fiber) \[\[Structure
+> \[!quote\] [Fiber](/Network/Phisicall/Fiber) \[\[Structure
 > cabling standartds\]\]

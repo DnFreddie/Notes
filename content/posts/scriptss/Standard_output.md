@@ -7,7 +7,7 @@ title: Standard output
 ## Standard output
 
 Output that is printed to the screen that does not constitiutes
-[Standard Error](/Notes/posts/scriptss/Standard_Error) **2 Constitutes
+[Standard Error](/scriptss/Standard_Error) **2 Constitutes
 for Standard Output** & Constitutes for both \>\[!quote\]
-[devnull](/Notes/posts/scriptss/devnull)
-[find](/Notes/posts/Linux/commands/find)
+[devnull](/scriptss/devnull)
+[find](/Linux/commands/find)

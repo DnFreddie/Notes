@@ -120,7 +120,7 @@ To use the **host group** for the playbook use `inventory_hostname`
 ### Diffrences
 
 ![Ansiable hosname vs
-inventory_hostname](/Notes/a_hostname_vs_in_hostname.png)
+inventory_hostname](/static/a_hostname_vs_in_hostname.png)
 
 [Docs](https://www.middlewareinventory.com/blog/ansible-inventory_hostname-ansible_hostname-variables/)
 
@@ -145,7 +145,7 @@ dbservers
 file elswere the ansible will error*
 
 -   [Dynamic inventory in
-    go](/Notes/posts/code_snippets/dynamic_inventory_go)
+    go](/code_snippets/dynamic_inventory_go)
 
 -   [Using a dynamic libvirt inventory with
     Ansible](https://blog.christophersmart.com/2022/04/03/using-a-dynamic-libvirt-inventory-with-ansible/)
@@ -243,7 +243,7 @@ U can use a bulti in **.package** module to install different packages
 
 
 ### Ansible Vault
-[Ansible vault](/Notes/posts/ansible/ansible_vault)
+[Ansible vault](/ansible/ansible_vault)
 
 ### Ansible Baisc modules and there usage
 
@@ -368,10 +368,10 @@ state: present
 
 ------------------------------------------------------------------------
 
-[teraform](/Notes/posts/cloud/terraform/terraform)
+[teraform](/cloud/terraform/terraform)
 
-[Puppet](/Notes/posts/Puppet)
+[Puppet](/Puppet)
 
-[Ansible commands](/Notes/posts/ansible/ansible_commands)
+[Ansible commands](/ansible/ansible_commands)
 
-[ansible-navigator](/Notes/posts/ansible/ansible-navigator)
+[ansible-navigator](/ansible/ansible-navigator)

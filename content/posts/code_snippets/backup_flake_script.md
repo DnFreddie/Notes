@@ -62,4 +62,4 @@ exit 0
 
 ------------------------------------------------------------------------
 
-[Code Snipeets Main](/Notes/posts/SNIPPETS_MAIN)
+[Code Snipeets Main](/SNIPPETS_MAIN)

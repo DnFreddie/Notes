@@ -6,8 +6,8 @@ title: subnet classes
 
 ## subnet classes
 
-![Pasted_image_20230418132909.png](/Notes/Pasted_image_20230418132909.png)
+![Pasted_image_20230418132909.png](/static/Pasted_image_20230418132909.png)
 
-> \[!quote\] [VLSM](/Notes/posts/for_later/VLSM) [subnet
-> mask](/Notes/posts/Network/basic_network_connections/subnet_mask)
-> [subnet construction](/Notes/posts/for_later/subnet_construction)
+> \[!quote\] [VLSM](/for_later/VLSM) [subnet
+> mask](/Network/basic_network_connections/subnet_mask)
+> [subnet construction](/for_later/subnet_construction)

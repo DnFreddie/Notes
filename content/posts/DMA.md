@@ -8,16 +8,16 @@ title: DMA
 
 -   IT allows certain hardware devices to directly access the system’s
     memory (**RAM**) without involving the
-    [Cpu](/Notes/posts/Linux/Kernel/Cpu) in every data transfer.
+    [Cpu](/Linux/Kernel/Cpu) in every data transfer.
     -   It enables these devices to read from or write to memory on
-        their own, freeing up the [Cpu](/Notes/posts/Linux/Kernel/Cpu)
+        their own, freeing up the [Cpu](/Linux/Kernel/Cpu)
         to focus on other tasks.
 
 ## DMA Contoler
 
 Specialized hardware component responsible for **managing the data
 transfer** between **devices** and **memory** 1. **Initialization**:
-When the [Kernel](/Notes/posts/Linux/Kernel/Kernel) initializes, it sets
+When the [Kernel](/Linux/Kernel/Kernel) initializes, it sets
 up the DMA controller and configures it with the necessary parameters,
 such as the source and destination memory addresses and the amount of
 data to transfer.
@@ -27,7 +27,7 @@ data to transfer.
     to/from memory, it sends a request to the DMA controller.
 
 3.  **DMA Setup**: The device driver in the
-    [Kernel](/Notes/posts/Linux/Kernel/Kernel) (software that manages
+    [Kernel](/Linux/Kernel/Kernel) (software that manages
     communication with the hardware device) prepares the data and
     instructs the DMA controller with the required details, such as the
     memory addresses and the direction of data transfer (read or write).
@@ -45,4 +45,4 @@ data to transfer.
     transferred data as needed, e.g., passing it to higher-level
     software layers or storing it in a file.
 
-> \[!quote\] [NIC_physical](/Notes/posts/NIC_physical)
+> \[!quote\] [NIC_physical](/NIC_physical)

@@ -61,16 +61,16 @@ ${#parameter}
 >
 > *Functions are the only way to change status of an existing shell*
 
-[Fucntions](/Notes/posts/scriptss/Functions)
+[Fucntions](/scriptss/Functions)
 
-| [Case stament](/Notes/posts/scriptss/Case_statment_bash) |
+| [Case stament](/scriptss/Case_statment_bash) |
 |----------------------------------------------------------|
-| [While loop](/Notes/posts/scriptss/while_loop_bash)      |
+| [While loop](/scriptss/while_loop_bash)      |
 
-[Variables](/Notes/posts/scriptss/Variables)
+[Variables](/scriptss/Variables)
 
 |                                                                    |
 |--------------------------------------------------------------------|
-| [Bash redirecition](/Notes/posts/Linux/commands/redirecrtion_bash) |
+| [Bash redirecition](/Linux/commands/redirecrtion_bash) |
 
 \[xargs_commnad\]({{\< ref “posts/code_snippets/xargs_commnad.md”\>}})

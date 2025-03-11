@@ -40,10 +40,10 @@ sudo aa-logprof
 ```
 
 > Example
-> ![Pasted_image_20240507121744.png](/Notes/Pasted_image_20240507121744.png)
+> ![Pasted_image_20240507121744.png](/static/Pasted_image_20240507121744.png)
 
 ------------------------------------------------------------------------
 
 [Docs](https://www.youtube.com/watch?v:%20XP-N22hjijo&list=PL78ppT-_wOmuwT9idLvuoKOn6UYurFKCp&index=39)
 
-[SELinux](/Notes/posts/SELinux)
+[SELinux](/SELinux)

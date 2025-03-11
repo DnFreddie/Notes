@@ -13,4 +13,4 @@ title: join.sql
     join customers
      ON orders.customer_id: customers.customer_id;
 
-others [cross join.sql](/Notes/posts/SQL/cross_join.sql)
+others [cross join.sql](/SQL/cross_join.sql)

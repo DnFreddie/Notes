@@ -4,10 +4,10 @@ draft: false
 title: HTTPS
 ---
 
--   [Etag](/Notes/posts/Etag)
+-   [Etag](/Etag)
 
--   [HTTP](/Notes/posts/protocols/HTTP)
+-   [HTTP](/protocols/HTTP)
 
--   [Carige Return](/Notes/posts/carrige_return)
+-   [Carige Return](/carrige_return)
 
--   [NTP](/Notes/posts/protocols/NTP_protocol)
+-   [NTP](/protocols/NTP_protocol)

@@ -67,4 +67,4 @@ func ExampleParseHeader() {
 
 ------------------------------------------------------------------------
 
--   [go main](/Notes/posts/PROGRAMMING/go/go_main)
+-   [go main](/PROGRAMMING/go/go_main)

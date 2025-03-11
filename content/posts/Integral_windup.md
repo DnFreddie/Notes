@@ -25,7 +25,7 @@ stoping*) we slow down the speed so we dont overshoult those 20 km per
 hour - rember about the non perfect sesnr - Think about the dynaimc
 error
 
-![Clamping_Diagram_visual.png](/Notes/Clamping_Diagram_visual.png)
+![Clamping_Diagram_visual.png](/static/Clamping_Diagram_visual.png)
 
 > \[!example\]-
-> ![ClampingMechanismGraph_visual.png](/Notes/ClampingMechanismGraph_visual.png)
+> ![ClampingMechanismGraph_visual.png](/static/ClampingMechanismGraph_visual.png)

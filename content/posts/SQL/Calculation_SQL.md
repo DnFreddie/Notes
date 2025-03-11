@@ -4,7 +4,7 @@ draft: false
 title: Calculation SQL
 ---
 
-[Aggragates](/Notes/posts/SQL/Aggregates)
+[Aggragates](/SQL/Aggregates)
 
 *Baisic aggragetes* <mark class="hltr-pink">COUNT</mark>(): count the
 number of rows

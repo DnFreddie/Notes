@@ -16,5 +16,5 @@ Pandas \|
 \|  
 *mean* \| **np.mean(ndf\[“Win%”\])** \| Numpy
 
-> \[!quote\] [regex](/Notes/posts/ZPythonref/regex) \|
-> [pandas_py](/Notes/posts/ZPythonref/pandas_py)
+> \[!quote\] [regex](/ZPythonref/regex) \|
+> [pandas_py](/ZPythonref/pandas_py)

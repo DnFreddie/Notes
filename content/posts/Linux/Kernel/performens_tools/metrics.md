@@ -9,17 +9,17 @@ draft: false
 ## CPU text 
 * taking *timed-interval* samples of the on-
 CPU code paths.
-    * `flame graphs`
-| Flame Graph 1 | Flame Graph 2 |
-|--------------|--------------|
-| ![Flame Graph 1](/Notes/flame_graph_visualsiatio_.visual.png) | ![Flame Graph 2](/Notes/flame_graph_visual.png) |
+  * `flame graphs` 
+
+> **the more red the more CPU CONSUMPTION**
+> ![Flame Graph 2](/static/flame_graph_visual.png) 
 
 Flame graphs visualize function calls and their CPU usage.
 They show which functions were called, their execution order, and how much CPU time they consumed.
 The wider a function block is, the more CPU time it took.
 Syscalls (system calls) appear in the stack, revealing how the program interacts with the operating system.
 The wider the line the more time process took on the CPU
-![Function stack](/Notes/flame_graph_visual_functions.png)
+![Function stack](/static/flame_graph_visual_functions.png)
 
 
 ## Tracing 

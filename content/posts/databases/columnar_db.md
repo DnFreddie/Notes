@@ -8,7 +8,7 @@ Data is stored and accesed based on columns - This storage allows for
 efficient copperssion and query performence - high compression rates due
 to the column-wise storage structure. Data in a column typically has
 similar data types and patterns
-\>![ColumnarDatabaseExample_visual.png](/Notes/ColumnarDatabaseExample_visual.png)
+\>![ColumnarDatabaseExample_visual.png](/static/ColumnarDatabaseExample_visual.png)
 
-[redis](/Notes/posts/databases/redis)
-[firebase](/Notes/posts/databases/redis)
+[redis](/databases/redis)
+[firebase](/databases/redis)

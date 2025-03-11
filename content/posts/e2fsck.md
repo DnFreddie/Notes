@@ -8,5 +8,5 @@ title: e2fsck
 
 ------------------------------------------------------------------------
 
-[fsck](/Notes/posts/Linux/fsck) \[\[Files systems.canvas\|Fiels
-systems\]\] [Commands_filesSytem](/Notes/posts/Commands_filesSytem)
+[fsck](/Linux/fsck) \[\[Files systems.canvas\|Fiels
+systems\]\] [Commands_filesSytem](/Commands_filesSytem)

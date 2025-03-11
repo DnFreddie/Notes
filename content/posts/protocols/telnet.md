@@ -13,7 +13,7 @@ title: telnet
 > good for production systems
 
 > \[!example\]-
-> ![TelentExmaple_visual.png](/Notes/TelentExmaple_visual.png)
+> ![TelentExmaple_visual.png](/static/TelentExmaple_visual.png)
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
-> [ssh](/Notes/posts/protocols/ssh)
+> \[!quote\] [ports](/ports/ports)
+> [ssh](/protocols/ssh)

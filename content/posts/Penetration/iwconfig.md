@@ -6,6 +6,6 @@ title: iwconfig
 
 ## Iwconfig
 
-Ipconfig for [Wi-Fi](/Notes/posts/Network/WI-FI/Wi-Fi)
+Ipconfig for [Wi-Fi](/Network/WI-FI/Wi-Fi)
 
-> \[!quote\] [ifconfig](/Notes/posts/Penetration/ifconfig)
+> \[!quote\] [ifconfig](/Penetration/ifconfig)

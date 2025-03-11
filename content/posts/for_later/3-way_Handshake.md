@@ -6,10 +6,10 @@ title: 3-way Handshake
 
 `Syn SYN-ACK` 1. Clietn sent the **SYN-SENT** 2. SYN *seq 100* **ACK**
 
-> ![3WayhandshakeGraph_visual.png](/Notes/3WayhandshakeGraph_visual.png)
+> ![3WayhandshakeGraph_visual.png](/static/3WayhandshakeGraph_visual.png)
 
 ------------------------------------------------------------------------
 
-[nmap](/Notes/posts//posts/Linux/nmap)
+[nmap](//posts/Linux/nmap)
 
-[TCP](/Notes/posts//posts/Network/Ref_OSI/TCP)
+[TCP](//posts/Network/Ref_OSI/TCP)

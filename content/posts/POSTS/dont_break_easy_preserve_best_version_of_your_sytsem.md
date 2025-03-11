@@ -6,7 +6,7 @@ draft: false
 title: Dont break easy preserve best version of your sytsem
 ---
 
-![Broken system](/Notes/brokenComputer.jpg)
+![Broken system](/static/brokenComputer.jpg)
 
 I’m sure you remember the feeling of your perfect setup.
 
@@ -47,7 +47,7 @@ When you evaluate your environment, you have to focus on these 3 things:
 
 ### Regular backups
 
-![Broken system](/Notes/cloudBckup.jpg)
+![Broken system](/static/cloudBckup.jpg)
 
 It’s the obvious one, but I’m pretty sure there’s one thing you forgot
 to do so. This one photo album from summer 2019? And that good you
@@ -97,7 +97,7 @@ done < backup_list.txt
 
 ## Scheduling
 
-![Shcedules](/Notes/scheduler-min.jpg)
+![Shcedules](/static/scheduler-min.jpg)
 
 Now you have to know a bit about the cron jobs or systemd timers.
 
@@ -189,7 +189,7 @@ experimenting.**
 
 # Reproducibility
 
-![Reproduciblity meme](/Notes/reproduciblity_meme.jpg) It’s great to
+![Reproduciblity meme](/static/reproduciblity_meme.jpg) It’s great to
 have everything in place, but how quickly can we get it to work?
 
 Unfortunately, the process is currently too slow.
@@ -224,7 +224,7 @@ Thast why here comes our sponsor Nixos…
 
 ### Nix: Your Way Out
 
-![Nixos Logo](/Notes/nixosLogo.webp) Sorry, I know, I know, this isn’t
+![Nixos Logo](/static/nixosLogo.webp) Sorry, I know, I know, this isn’t
 the tech coaching channel. But back to the point.
 
 [Nixos](https://nixos.org/), a Linux distribution , offers a completely
@@ -280,7 +280,7 @@ recommended.
 
 ### Things get corupted (Security Concerns)
 
-![Bleeding heart](/Notes/heartBleed.webp)
+![Bleeding heart](/static/heartBleed.webp)
 
 These days, there are a lot of attacks on software, and particularly
 recently we had an affair with [Heartbleed
@@ -311,7 +311,7 @@ why this will be the topic of my next blog post.
 
 ### Portability
 
-![Bleeding heart](/Notes/porybility.jpeg)
+![Bleeding heart](/static/porybility.jpeg)
 
 Despite backups and automation, accessibility remains crucial.
 
@@ -327,7 +327,7 @@ Windows installed)* .
 
 ### Virutalization the queen of the flexabilty
 
-![Docker Logo](/Notes/dokcer_Logo.png) When it comes to quick and easy
+![Docker Logo](/static/dokcer_Logo.png) When it comes to quick and easy
 solutions, containers immediately comes to mind.
 
 They offer a rapid and straightforward approach: install everything you
@@ -346,7 +346,7 @@ daily driver, we’re looking for something more versatile and robust
 
 ### Just use Vms
 
-![Vmare Logo](/Notes/VMware-logo.webp) This article can be summed up in
+![Vmare Logo](/static/VMware-logo.webp) This article can be summed up in
 just one line.
 
 <br>
@@ -381,7 +381,7 @@ If you’re not using VMs, just stop reading here and install one…
 
 ### Ventoy: The Swiss Army Knife of USB Sticks
 
-![Ventoy Logo](/Notes/ventoy_logo.jpg)
+![Ventoy Logo](/static/ventoy_logo.jpg)
 
 Here in Poland, we were recently advised to have a backpack with
 essential items just in case something happens.

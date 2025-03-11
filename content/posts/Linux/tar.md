@@ -10,4 +10,4 @@ stored on the tape**
 The tar command creates a single file from many files *which is then
 referred to as an archive, tar file, or tarball.*
 
-> \[!quote\] [Archive vs Compress](/Notes/posts/Archive_vs_Compress)
+> \[!quote\] [Archive vs Compress](/Archive_vs_Compress)

@@ -25,4 +25,4 @@ consequences for missing targets.
 
 *Service Level Objectives*  
 - Look at service level indicators from a lower bound to an upper bound.
-[Alert menager](/Notes/posts/prometheus/alert_menager)
+[Alert menager](/prometheus/alert_menager)

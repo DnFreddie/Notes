@@ -6,7 +6,7 @@ title: Localizaiton time setup
 
 -   Synchronizing the time with the rest of the world
     -   **NTPD**(*daemon*) Uses
-        [NTP_protocol](/Notes/posts/protocols/NTP_protocol)
+        [NTP_protocol](/protocols/NTP_protocol)
 -   **Crony** *for advanced synchronization* #sysd_util
 -   **Timesync**
     -   It doesn’t have server component *very simplistic *

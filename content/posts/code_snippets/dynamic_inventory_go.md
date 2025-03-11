@@ -5,7 +5,7 @@ title: dynamic inventory in go
 ---
 
 [Dynamic inventories
-Ansible](/Notes/posts/ansible/Ansible#dynamic-inverntories)
+Ansible](/ansible/Ansible#dynamic-inverntories)
 
 ``` go
 package main

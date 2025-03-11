@@ -16,7 +16,7 @@ mode.
 
 ------------------------------------------------------------------------
 
-[dig](/Notes/posts//posts/dig_command)
-[nmap](/Notes/posts//posts/linux/nmap)
+[dig](//posts/dig_command)
+[nmap](//posts/linux/nmap)
 
-[DNS](/Notes/posts//posts/Network/Phisicall/DNS)
+[DNS](//posts/Network/Phisicall/DNS)

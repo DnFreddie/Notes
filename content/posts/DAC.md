@@ -7,11 +7,11 @@ title: DAC
     ### Discretionary Access Control
 
 -   Enforces security by **ownership**
-    -   Basked on the [Permissions](/Notes/posts/Linux/Permissions)
+    -   Basked on the [Permissions](/Linux/Permissions)
 
 > \[!bug\] The biggest issue is root If the root account or **process**
 > with root privileges is compromised the hole system is vulnerable
 
 ------------------------------------------------------------------------
 
-[MAC](/Notes/posts/MAC) [AppArmor](/Notes/posts/AppArmor)
+[MAC](/MAC) [AppArmor](/AppArmor)

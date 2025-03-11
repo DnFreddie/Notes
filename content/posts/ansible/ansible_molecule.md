@@ -104,4 +104,4 @@ provisioner:
 ```
 
 ------------------------------------------------------------------------
-* [Ansible ](/Notes/posts/ansible/Ansible)
+* [Ansible ](/ansible/Ansible)

@@ -54,7 +54,7 @@ ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become
 
 ------------------------------------------------------------------------
 
-[Ansible Main](/Notes/posts/ansible/ansible_commands)
+[Ansible Main](/ansible/ansible_commands)
 
 ### Ansible Debuging
 

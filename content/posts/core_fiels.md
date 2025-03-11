@@ -16,4 +16,4 @@ ulimit -c unlimited
 
 ------------------------------------------------------------------------
 
-[limits.conf](/Notes/posts/limits.conf.md#core-files)
+[limits.conf](/limits.conf.md#core-files)

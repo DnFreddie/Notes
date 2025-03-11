@@ -14,15 +14,15 @@ To add all permissions to all users, you need to type `777`.
 > Example
 >
 > Numeric representation of permissions  
-> ![Permissions Example](/Notes/Pasted_image_20230404214606.png)
+> ![Permissions Example](/static/Pasted_image_20230404214606.png)
 
-[umask](/Notes/posts/Linux/umask)
+[umask](/Linux/umask)
 
 ## Special Permissions
 
--   [SUID](/Notes/posts/Linux/SUID)
--   [SGID](/Notes/posts/Linux/SGID)
+-   [SUID](/Linux/SUID)
+-   [SGID](/Linux/SGID)
 
 ------------------------------------------------------------------------
 
-[skel_etc](/Notes/posts/Linux/etc/skel_etc)
+[skel_etc](/Linux/etc/skel_etc)

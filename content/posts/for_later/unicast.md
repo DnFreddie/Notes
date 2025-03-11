@@ -12,10 +12,10 @@ title: unicast
 -   It does not scale optimally for real-time streaming media
     -   U wpould have to send single straem to every
         device >\[!example\]
-        ![Unicast_visual.png](/Notes/Unicast_visual.png)
+        ![Unicast_visual.png](/static/Unicast_visual.png)
 -   Mostly use with [IPv4
-    address](/Notes/posts/Network/basic_network_connections/IPv4_address)and
-    [IPv6 address](/Notes/posts/Network/IPv6_address) >\[!quote\]
-    [broadcast](/Notes/posts/for_later/broadcast) [Peer to
-    peer](/Notes/posts/Network/Network_Types/Peer_to_peer)
-    [DHCP_protocol](/Notes/posts/protocols/DHCP_protocol)
+    address](/Network/basic_network_connections/IPv4_address)and
+    [IPv6 address](/Network/IPv6_address) >\[!quote\]
+    [broadcast](/for_later/broadcast) [Peer to
+    peer](/Network/Network_Types/Peer_to_peer)
+    [DHCP_protocol](/protocols/DHCP_protocol)

@@ -6,7 +6,7 @@ title: traceroute
 
 ## Traceroute
 
-A command to finde [IP](/Notes/posts/Network/Ref_OSI/IP) adreses tah the
+A command to finde [IP](/Network/Ref_OSI/IP) adreses tah the
 device is connacting to before reaching the destination \>\[!example\]
 \>## In this case the road to google.com took 18 *hops* \>traceroute
 google.com traceroute to google.com (172.217.1.78), 30 hops max, 60
@@ -16,4 +16,4 @@ bytes packets 1 192.168.1.1 (192.168.1.1) 4.152 ms 3.834 ms 32.964 ms 2
 lgal15s44-in-f14.le100.net (172.217.1.78) 94.666 ms 42.990 ms 41.564 ms
 
 > \[!quote\] [IPv4
-> address](/Notes/posts/Network/basic_network_connections/IPv4_address)
+> address](/Network/basic_network_connections/IPv4_address)

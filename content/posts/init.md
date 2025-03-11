@@ -8,7 +8,7 @@ title: init
 ```bash
 exec /sbin/init 6 
 ```
-[Chnaging root Password](/Notes/posts/redhat/boot_process#changing--the-root-password)
+[Chnaging root Password](/redhat/boot_process#changing--the-root-password)
 
 > Reboot the system with systemd 
 
@@ -22,4 +22,4 @@ exec /usr/lib/systemd/system
 > \[!tip\] The kernel starts init directly Init starts everything else
 > The mommy of the systems - It take care of orphan process by
 > *reasinging the parent* - It get rids of the zombie procces - [Run
-> Levels](/Notes/posts/for_later/Run_Levels)(*old*)
+> Levels](/for_later/Run_Levels)(*old*)

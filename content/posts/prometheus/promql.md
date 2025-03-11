@@ -122,4 +122,4 @@ time() - timestamp(go_memstat_frees_total)
 
 ### Base units
 
-![Base prometheus units](/Notes/promql_units.png)
+![Base prometheus units](/static/promql_units.png)

@@ -82,15 +82,15 @@ Product Code: 1064 Price: $5
 
 **U can set matches into particular gorups**
 
-![ReGroups_visual.png](/Notes/ReGroups_visual.png) **In order to replace
+![ReGroups_visual.png](/static/ReGroups_visual.png) **In order to replace
 the hole group u have to use sub with /number_of_group**
-![ReGroupReplacments_visual.png](/Notes/ReGroupReplacments_visual.png)
+![ReGroupReplacments_visual.png](/static/ReGroupReplacments_visual.png)
 ## Modification
 
 -   **re.split**
     -   splits thes trings inot a list and slpts were the regular
         expresion matches
-    -   ![Re_Splited_visual.png](/Notes/Re_Splited_visual.png "fig:")
+    -   ![Re_Splited_visual.png](/static/Re_Splited_visual.png "fig:")
 -   **re.sub**
     -   repalce were the reguolar expresion marches
 
@@ -98,7 +98,7 @@ the hole group u have to use sub with /number_of_group**
 
 *In order to add this as compialation method*
 **re.complie(pattern,re.IGNORECASE)**
-![ReCompilationFlags_visual.png](/Notes/ReCompilationFlags_visual.png)
+![ReCompilationFlags_visual.png](/static/ReCompilationFlags_visual.png)
 
 ## Regex classses
 
@@ -126,6 +126,6 @@ inside brackets:
 grep '[[:digit:]]' file.txt  # Finds lines in file.txt containing any digits
 ```
 
-> \[!quote\] [pandas_py](/Notes/posts/ZPythonref/pandas_py) \|
-> [match_py](/Notes/posts/match_py) \|
-> [awk_command](/Notes/posts/awk_command)
+> \[!quote\] [pandas_py](/ZPythonref/pandas_py) \|
+> [match_py](/match_py) \|
+> [awk_command](/awk_command)

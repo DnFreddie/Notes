@@ -39,7 +39,7 @@ ps aux -L | awk '{print $1}' | sort | uniq -c | sort -n | tail -n 1
 Total number of tasks that systemd allows for each user is usually **33%
 of the system-wide total**.
 
-Systemd creates a [Cgorup](/Notes/posts/cgroups) for each user, which
+Systemd creates a [Cgorup](/cgroups) for each user, which
 sets limits on system resources such as the total number of processes
 and RAM usage.
 
@@ -49,14 +49,14 @@ You can check the status of your user slice with:
 systemctl status user-$UID.slice
 ```
 
-![User slice](/Notes/user_slice_process_limit_visual.png)
+![User slice](/static/user_slice_process_limit_visual.png)
 
 [Article](https://www.baeldung.com/linux/fork-bombs) ## Nofile
 
 The `nofile` setting limits the number of file descriptors that any
 process owned by the specified user can have open at any one time.
 
-## [Core Files](/Notes/posts/core_fiels)
+## [Core Files](/core_fiels)
 
 Have a **soft limit of 0** and a hard limit of **unlimited** for core
 files.
@@ -68,7 +68,7 @@ following command when you need core files for debugging:
 ulimit -c unlimited
 ```
 
-## ## [Nice](/Notes/posts/Linux/nice)
+## ## [Nice](/Linux/nice)
 
 > `Important` You should disallow everyone except for root from having
 > processes with minimal niceness (-20).

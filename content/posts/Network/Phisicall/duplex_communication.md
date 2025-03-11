@@ -7,12 +7,12 @@ title: duplex communication
 ## Duplex communication
 
 **Two fibers transmit and recive**
-![DuplexCommunication_visual.png](/Notes/DuplexCommunication_visual.png)
-## Duplex [transceiver](/Notes/posts/Network/Phisicall/transceiver)
-![Duplex_Transcivers_visual.png](/Notes/Duplex_Transcivers_visual.png)
+![DuplexCommunication_visual.png](/static/DuplexCommunication_visual.png)
+## Duplex [transceiver](/Network/Phisicall/transceiver)
+![Duplex_Transcivers_visual.png](/static/Duplex_Transcivers_visual.png)
 
 ------------------------------------------------------------------------
 
 *The alternative to it is [Bi-Directional
-transceivers](/Notes/posts/Network/Phisicall/Bi-Directional_transceivers)*
-\>\[!quote\] [Physical_OSI](/Notes/posts/Network/Ref_OSI/Physical_OSI)
+transceivers](/Network/Phisicall/Bi-Directional_transceivers)*
+\>\[!quote\] [Physical_OSI](/Network/Ref_OSI/Physical_OSI)

@@ -16,7 +16,7 @@ title: Passwd
 
 ## Geting an entry
 
-[Getent](/Notes/posts/getent)
+[Getent](/getent)
 
 ``` bash
 getent passwd {user1} {user2}

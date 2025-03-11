@@ -11,7 +11,7 @@ title: VPC
 -   **VPC Endpoint**
     -   Direct connection between clodu provider networks >\[!example\]-
         VPC Schema
-        ![VPC_Endpoitn_Schema_visual.png](/Notes/VPC_Endpoitn_Schema_visual.png)
+        ![VPC_Endpoitn_Schema_visual.png](/static/VPC_Endpoitn_Schema_visual.png)
 
 > \[!bug\]- Vm Sprawl The virtual machines are sprawled everywhere -
 > you’r not sure which VMs are reacted to which applications - It
@@ -21,4 +21,4 @@ title: VPC
 
 -   \[Golang_AWS_issue\]({{\< ref
     “posts/PROGRAMMING/go/Golang_AWS_issue.md”\>}})
--   [VPN](/Notes/posts/VPN)
+-   [VPN](/VPN)

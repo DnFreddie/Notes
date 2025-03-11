@@ -7,8 +7,8 @@ title: recive queue
 #alt-name Recieve Buffer ## Recive queue As data arrives from the
 client, it is placed into the receive queue by the operating system or
 network stack, ready for the backend application to retrieve using the
-**recv()** [systemcall](/Notes/posts/systemcall) .
+**recv()** [systemcall](/systemcall) .
 
 ------------------------------------------------------------------------
 
-[send_queue](/Notes/posts/send_queue)
+[send_queue](/send_queue)

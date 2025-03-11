@@ -8,8 +8,8 @@ title: send queue
 
 -   When the backend application wants to send data **back to the
     client**, it places the data into the send queue using the
-    **send()** [systemcall](/Notes/posts/systemcall)
+    **send()** [systemcall](/systemcall)
 
 ------------------------------------------------------------------------
 
-[recive_queue](/Notes/posts/request_journey/recive_queue)
+[recive_queue](/request_journey/recive_queue)

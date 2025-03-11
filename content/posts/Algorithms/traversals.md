@@ -7,7 +7,7 @@ title: traversals
 ## Traversals
 
 The running time of thhi operaiton is **O of N** *Doing the treversal we
-use [stack_algorithms](/Notes/posts/Algorithms/stack_algorithms)* The
+use [stack_algorithms](/Algorithms/stack_algorithms)* The
 value gets put on the stack ones it not fiind we pop it and move it to
 the next branch
 1
@@ -28,9 +28,9 @@ the next branch
 ## Breadth first seatch
 
 Oposite of a depth first search - We use
-[queue_algorithms](/Notes/posts/Algorithms/queue_algorithms) **instead**
-of [stack_algorithms](/Notes/posts/Algorithms/stack_algorithms) - Its a
+[queue_algorithms](/Algorithms/queue_algorithms) **instead**
+of [stack_algorithms](/Algorithms/stack_algorithms) - Its a
 **tree level visiting** One tree level at a time
-![BreadthFirstSarge_visual.png](/Notes/BreadthFirstSarge_visual.png)
+![BreadthFirstSarge_visual.png](/static/BreadthFirstSarge_visual.png)
 \>\[!quote\]
-[trees_algorithms](/Notes/posts/Algorithms/trees_algorithms)
+[trees_algorithms](/Algorithms/trees_algorithms)

@@ -20,4 +20,4 @@ Only things that have *activity* **-xz**
 
 ------------------------------------------------------------------------
 
-[command](/Notes/posts/scriptss/command)
+[command](/scriptss/command)

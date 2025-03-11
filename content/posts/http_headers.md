@@ -6,6 +6,6 @@ title: http headers
 
 ## Http Headers
 
-![Etag](/Notes/posts/Etag)
+![Etag](/Etag)
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
+> \[!quote\] [ports](/ports/ports)

@@ -19,5 +19,5 @@ title: match py
 ...             print('Command not recognized')
 ```
 
-> \[!quote\] [regex](/Notes/posts/ZPythonref/regex)
-> [python_functions](/Notes/posts/ZPythonref/python_functions)
+> \[!quote\] [regex](/ZPythonref/regex)
+> [python_functions](/ZPythonref/python_functions)

@@ -9,6 +9,6 @@ title: PWM rob
 -   Series of fast pulses that when u avrage them out **determines the
     voltage the motor sees**
     -   The shorter the pulses the slower the motor
-        ![PWM_visual.png](/Notes/PWM_visual.png)
+        ![PWM_visual.png](/static/PWM_visual.png)
 
-> \[!quote\] [startup_robotics](/Notes/posts/startup_robotics)
+> \[!quote\] [startup_robotics](/startup_robotics)

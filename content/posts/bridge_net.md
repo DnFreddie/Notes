@@ -6,7 +6,7 @@ title: Bridge network
 
 Virtual or psychical device that connect multiple **LAN’s**
 
-> ![Pasted_image_20240510102627.png](/Notes/Pasted_image_20240510102627.png)
+> ![Pasted_image_20240510102627.png](/static/Pasted_image_20240510102627.png)
 > - All parts of the bridge will get their collision domain Bug
 >
 > Collisions
@@ -16,7 +16,7 @@ Virtual or psychical device that connect multiple **LAN’s**
 
 ### Docker bridging
 
--   Default [docker](/Notes/posts/Linux/Docker/docker) bridge doesn’t
+-   Default [docker](/Linux/Docker/docker) bridge doesn’t
     allow for the **DNS** change
     -   U have to create one
     -   ***Dns Name is the same as the container name***
@@ -28,10 +28,10 @@ docker network create my-bridge-net --subnet  10.0.0..0/19 --gateway 10.0.0.1
 > Example
 >
 > Docker compose
-> ![Pasted_image_20240510104017.png](/Notes/Pasted_image_20240510104017.png)
+> ![Pasted_image_20240510104017.png](/static/Pasted_image_20240510104017.png)
 
 ------------------------------------------------------------------------
 
-[NAT](/Notes/posts/Network/basic_network_connections/NAT)
+[NAT](/Network/basic_network_connections/NAT)
 
-[Host-net](/Notes/posts/host_net)
+[Host-net](/host_net)

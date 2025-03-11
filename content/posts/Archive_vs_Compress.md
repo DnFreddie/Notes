@@ -5,8 +5,8 @@ title: Archive vs Compress
 ---
 
 > Example
-> ![Pasted_image_20240426121427.png](/Notes/Pasted_image_20240426121427.png)
+> ![Pasted_image_20240426121427.png](/static/Pasted_image_20240426121427.png)
 
 ------------------------------------------------------------------------
 
-[tar](/Notes/posts/Linux/tar) \| [dd](/Notes/posts/Linux/dd)
+[tar](/Linux/tar) \| [dd](/Linux/dd)

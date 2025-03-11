@@ -11,4 +11,4 @@ title: master mode_wi-fi
     -   *In this mode, other wireless devices can connect to it to
         access the network.*
 
-> \[!quote\] [iwlist](/Notes/posts/Network/WI-FI/iwlist)
+> \[!quote\] [iwlist](/Network/WI-FI/iwlist)

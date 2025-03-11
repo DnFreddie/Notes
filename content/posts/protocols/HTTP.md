@@ -8,5 +8,5 @@ title: HTTP
 
 -   Communciation in the browser and by other applications
 
-> \[!quote\] [HTTPS](/Notes/posts/protocols/HTTPS)
-> [carrige_return](/Notes/posts/carrige_return)
+> \[!quote\] [HTTPS](/protocols/HTTPS)
+> [carrige_return](/carrige_return)

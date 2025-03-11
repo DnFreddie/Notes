@@ -17,23 +17,23 @@ title: Cgroups
 -   Subsystem can organize process separately
     -   Most of them are resource controller
 
-> \[!example\]- - Memory - [Cpu](/Notes/posts/Linux/Kernel/Cpu) -[Cpu
-> time](/Notes/posts//posts/Linux/Kernel/Cpu) - Block I/O
-> -[PID’s](/Notes/posts//posts/PID_control) - Freezer(used by docker
+> \[!example\]- - Memory - [Cpu](/Linux/Kernel/Cpu) -[Cpu
+> time](//posts/Linux/Kernel/Cpu) - Block I/O
+> -[PID’s](//posts/PID_control) - Freezer(used by docker
 > pause ) - Devices - Network priority
 
 ### Hierarchical representation
 
-> ![Pasted_image_20240509114957.png](/Notes/Pasted_image_20240509114957.png)
+> ![Pasted_image_20240509114957.png](/static/Pasted_image_20240509114957.png)
 > #### Cgroup virtual filesystem - Mouted at ***/sys/fs/cgroup*** -
 > There are mostly just interfaces
 
 -   **Task** virtual file holds all
-    [PID’s](/Notes/posts//posts/PID_control) in the cgroup
+    [PID’s](//posts/PID_control) in the cgroup
 -   Other files have setting and utilization data
 
 ------------------------------------------------------------------------
 
-[Namespaces](/Notes/posts//posts/Namespaces)
+[Namespaces](//posts/Namespaces)
 
-[Kernel](/Notes/posts//posts/Linux/Kernel/Kernel)
+[Kernel](//posts/Linux/Kernel/Kernel)

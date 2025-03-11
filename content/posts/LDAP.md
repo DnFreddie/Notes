@@ -10,4 +10,4 @@ title: LDAP
 
 ------------------------------------------------------------------------
 
-[AD](/Notes/posts/AD) \[\[System Auth.canvas\|System Auth\]\]
+[AD](/AD) \[\[System Auth.canvas\|System Auth\]\]

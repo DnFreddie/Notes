@@ -13,7 +13,7 @@ title: Ec2 instance
 ### Amazon EBS-Optimized Instances
 
 Are set up to work really well with [Amazon Elastic Block
-Store](/Notes/posts/sysops_aws_cert/EBS) (EBS)
+Store](/sysops_aws_cert/EBS) (EBS)
 
 [Aws
 Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html)
@@ -22,16 +22,16 @@ Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html)
 
 *it contains a scirpt that starts at the start of the instance*
 
-#### [Amis](/Notes/posts/sysops_aws_cert/ec2_instances/ami)
+#### [Amis](/sysops_aws_cert/ec2_instances/ami)
 
 ## Enhanced Networking
 
 ### EC2 Enhanced Networking (SR-IOV)
 
 *Works for newer generation EC2 Instances* - Benefits - Higher
-[bandwith](/Notes/posts/Network/Phisicall/bandwidth) - Higher
+[bandwith](/Network/Phisicall/bandwidth) - Higher
 **PPS**(*packet per second*) - Lower
-[latency](/Notes/posts/Network/Data/Latency)
+[latency](/Network/Data/Latency)
 
 -   Options
     -   `Elastic Network Adapter (ENA)`
@@ -55,15 +55,15 @@ ethtool -i eht0
 standard - Bypasses the underlying Linux Os - **low-latency** -
 **relaibe transport**
 
-### [Placements Groups](/Notes/posts/sysops_aws_cert/ec2_instances/placement_groups)
+### [Placements Groups](/sysops_aws_cert/ec2_instances/placement_groups)
 
 *Sometimes you wnat control over the instance placement strategy* -
 During creation u can specyfie one of the strategies -
-[Cluster](/Notes/posts/sysops_aws_cert/ec2_instances/placement_groups.md#cluster)
+[Cluster](/sysops_aws_cert/ec2_instances/placement_groups.md#cluster)
 -
-[Spread](/Notes/posts/sysops_aws_cert/ec2_instances/placement_groups.md#spread)
+[Spread](/sysops_aws_cert/ec2_instances/placement_groups.md#spread)
 -
-[Partition](/Notes/posts/sysops_aws_cert/ec2_instances/placement_groups.md#partition)
+[Partition](/sysops_aws_cert/ec2_instances/placement_groups.md#partition)
 
 ## Shutdown Behavior
 
@@ -82,7 +82,7 @@ text regarding **Termination Protection**:
 
 *This protection works only if u want to `terminate from console`or
 `CLI`* ![Termiantion protection
-visual](/Notes/aws_failed_terminal_protection_vsiual.png) -
+visual](/static/aws_failed_terminal_protection_vsiual.png) -
 **Overview**: If an instance has its shutdown behavior set to
 `terminate` and `termination protection` **is enabled** - Shutting down
 the instance from the **operating system** will still result in the
@@ -100,7 +100,7 @@ instance being terminated.
     -   Reached the max limit of the `vCPU` **per region**
     -   On-Demand instance limits are set on a **per-region baisis**
         -   By defult with On-Demand
-            ([*A,C,D,H,I,R,T,Z*](/Notes/posts/sysops_aws_cert/ec2_instances/instance_families))
+            ([*A,C,D,H,I,R,T,Z*](/sysops_aws_cert/ec2_instances/instance_families))
             instance types you’ll have `64vCPUs`
     -   Resolution: **Launch in diffrent region** or **request limit
         increase** in given region
@@ -112,7 +112,7 @@ instance being terminated.
             choose different type
 -   `#InstanceTerminatesImmediately`(**goes from pedning straight to
     terminated**)
-    -   Reached [EBS volume limit](/Notes/posts/sysops_aws_cert/EBS)
+    -   Reached [EBS volume limit](/sysops_aws_cert/EBS)
     -   `EBS` snapshot is corrupt
     -   The root `EBS` voulume is **encrypted** and u don’t have
         permissions
@@ -133,8 +133,8 @@ you are using. 2. Add this IP range to your allowed IP lists.
 ## Purchasing options
 
 [Ec2 purchasing
-options](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_purches_options)
+options](/sysops_aws_cert/ec2_instances/ec2_purches_options)
 
 ------------------------------------------------------------------------
 
--   [SSM](/Notes/posts/sysops_aws_cert/ec2_instances/ssm_main/SSM)
+-   [SSM](/sysops_aws_cert/ec2_instances/ssm_main/SSM)

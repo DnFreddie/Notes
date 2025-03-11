@@ -24,10 +24,10 @@ number of worker threads and other runtime settings.
 1
 ## Databases - **Compile time safty** - In most libres the language will
 acces data during **Run Time** ex tokio-postgres - Hovere libres such as
-**diesel** or **[sqlx](/Notes/posts/libriairies/sqlx)** will do it on
+**diesel** or **[sqlx](/libriairies/sqlx)** will do it on
 compile time - It create a *representation of database schema* as rust
 code or uses *procedular macros* to see that
-[data_py](/Notes/posts/ZPythonref/data_py) is correct - Speed -
-[piplining_db](/Notes/posts/databases/piplining_db)
+[data_py](/ZPythonref/data_py) is correct - Speed -
+[piplining_db](/databases/piplining_db)
 
-> \[!quote\] [Rust Projects](/Notes/posts/Rust/Rust_Projects)
+> \[!quote\] [Rust Projects](/Rust/Rust_Projects)

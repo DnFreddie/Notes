@@ -8,7 +8,7 @@ title: Rpm package manager
 
 
 > `Important to not install packages using rpm direcly use`
- `rpm -Uvh`  wont update the [dnf](/Notes/posts/redhat/dnf) package database
+ `rpm -Uvh`  wont update the [dnf](/redhat/dnf) package database
 
 [Rocky Linux
 Repositories](https://wiki.rockylinux.org/rocky/repo/#community-approved-repositories)

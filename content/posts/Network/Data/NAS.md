@@ -10,9 +10,9 @@ title: NAS
 a shared stroage device across the network - File-level access!
 <mark style="background: #FF5582A6;">Changes to one bait of data result
 in overwrite of an entaire disc</mark> - **Requaiers a lot of
-[bandwidth](/Notes/posts/Network/Phisicall/bandwidth)** May use an
+[bandwidth](/Network/Phisicall/bandwidth)** May use an
 isolated network And high speed network tech
 
 ------------------------------------------------------------------------
 
-[SAN](/Notes/posts/Network/Data/SAN) [iSCSI](/Notes/posts/iSCSI)
+[SAN](/Network/Data/SAN) [iSCSI](/iSCSI)

@@ -7,7 +7,7 @@ title: Raid Devices
 ## RAID 0 Stripe
 
 > **It’s vulnerable to the data loss!!!**
-> ![Pasted_image_20240425180738.png](/Notes/Pasted_image_20240425180738.png)
+> ![Pasted_image_20240425180738.png](/static/Pasted_image_20240425180738.png)
 
 -   All of the drives are added together (**ex 40 GB**)
     -   **High space composite**
@@ -18,7 +18,7 @@ title: Raid Devices
 ## RAID 1 Mirrored Array
 
 > **Very good agaisnt data loss**
-> ![Pasted_image_20240425181811.png](/Notes/Pasted_image_20240425181811.png)
+> ![Pasted_image_20240425181811.png](/static/Pasted_image_20240425181811.png)
 
 -   Every single drive is a mirror of the other drives
     -   **No speed increase**
@@ -27,7 +27,7 @@ title: Raid Devices
 ## Raid 5
 
 **Best of both worlds**
-\>![Raid5Example_visual.png](/Notes/Raid5Example_visual.png)
+\>![Raid5Example_visual.png](/static/Raid5Example_visual.png)
 
 -   Storage
 -   The total number of drives - one drive

@@ -18,4 +18,4 @@ modules](https://cloudinit.readthedocs.io/en/latest/reference/modules.html)
 Groups](https://cloudinit.readthedocs.io/en/latest/reference/modules.html#users-and-groups)
 
 [Metadata](https://cloudinit.readthedocs.io/en/latest/explanation/instancedata.html)
-- for cloud instance [Docker](/Notes/posts/Linux/Docker/docker)
+- for cloud instance [Docker](/Linux/Docker/docker)

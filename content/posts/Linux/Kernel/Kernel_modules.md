@@ -17,7 +17,7 @@ title: Kernel modules
     -   list all available kernel nodules and information of their size
 -   **modeinfo**
     -   IT gives a summarize of the
-        module >\[!example\]- >![ModeInfoResult_visual.png](/Notes/ModeInfoResult_visual.png)
+        module >\[!example\]- >![ModeInfoResult_visual.png](/static/ModeInfoResult_visual.png)
 -   **insmode**
     -   load or or insert a module
 -   **rmmod**

@@ -11,4 +11,4 @@ You need an implementation for the ingress `Ingress Controler`(*many third party
     - menages redirections
     - entrypoint ot  cluster
 
-![ingress](/Notes/kube_ingress_visual.png)
+![ingress](/static/kube_ingress_visual.png)

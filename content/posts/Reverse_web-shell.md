@@ -19,4 +19,4 @@ title: Reverse web-shell
 4.  Create a **python server** that catches the shell and enables
     interactivity
 
-> \[!quote\] [bash_MAIN](/Notes/posts/Linux/commands/bash_MAIN)
+> \[!quote\] [bash_MAIN](/Linux/commands/bash_MAIN)

@@ -8,7 +8,7 @@ title: Hashicorp terraform examination
 
 [Course Link](https://www.youtube.com/watch?v:%20SPcwo0Gq9T8)
 
--   [terraform](/Notes/posts/cloud/terraform/terraform)
--   [Configuration drift](/Notes/posts/cloud/iaC/configuration_drift)
--   [Infrastructure as Code (IaC)](/Notes/posts/cloud/iaC/iaC)
--   [CI CD](/Notes/posts/CI_CD)
+-   [terraform](/cloud/terraform/terraform)
+-   [Configuration drift](/cloud/iaC/configuration_drift)
+-   [Infrastructure as Code (IaC)](/cloud/iaC/iaC)
+-   [CI CD](/CI_CD)

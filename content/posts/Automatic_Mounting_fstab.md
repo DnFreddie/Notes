@@ -8,11 +8,11 @@ title: Automatic Mounting fstab
 the better is to use file*
 
 > Example
-> ![Pasted_image_20240427154510.png](/Notes/Pasted_image_20240427154510.png)
+> ![Pasted_image_20240427154510.png](/static/Pasted_image_20240427154510.png)
 > In order to do it on boot u have to create entries in **/etc/fstab**
 
 -   **PARTUUID** is when the partiotion **does not have** the files
-    system on it [UUID](/Notes/posts//posts/datatypes/UUID) is when
+    system on it [UUID](//posts/datatypes/UUID) is when
     therese **file systemQ**
     -   *U can specyfie both in fstab file*
 
@@ -21,7 +21,7 @@ the better is to use file*
 > <mark style="background: #FF5582A6;">root partition</mark> - **2** do
 > it but this is **not** a root partition
 
-Seting up [e2fsck](/Notes/posts/e2fsck) to do the check on boot
+Seting up [e2fsck](/e2fsck) to do the check on boot
 (*maximum mount count*)
 
 ``` bash
@@ -32,5 +32,5 @@ tune2fs -c 5
 
 ------------------------------------------------------------------------
 
-[Partitioning](/Notes/posts/Partitioning.md#commands) [SSD
-Trimming](/Notes/posts/SSD.md#trimming)
+[Partitioning](/Partitioning.md#commands) [SSD
+Trimming](/SSD.md#trimming)

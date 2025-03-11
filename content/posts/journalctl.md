@@ -58,7 +58,7 @@ journalctl -r
 journalctl -f
 ```
 
-**[Kernel](/Notes/posts/Linux/Kernel/Kernel) message**
+**[Kernel](/Linux/Kernel/Kernel) message**
 
 ``` bash
 journalctl -k

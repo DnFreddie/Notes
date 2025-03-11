@@ -54,4 +54,4 @@ response: requests.get(url, headers=headers)
     Safari compatibility. In this case, it’s indicating that the client
     is compatible with Safari.
 
-> \[!quote\] [sneakers_bots_project](/Notes/posts/sneakers_bots_project)
+> \[!quote\] [sneakers_bots_project](/sneakers_bots_project)

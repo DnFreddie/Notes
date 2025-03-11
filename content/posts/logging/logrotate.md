@@ -20,16 +20,16 @@ For instance, /var/log.auth will become /var/log.auth.1, then
 The config is located into **/etc/logrotate.conf**
 
 > \[!example\]-
-> ![LogareteConf_visual.png](/Notes/LogareteConf_visual.png)
+> ![LogareteConf_visual.png](/static/LogareteConf_visual.png)
 
 ### Removing logs
 
 In order to remove files and do not leacve baisic evidance u have to
-[shred](/Notes/posts/logging/shred) the Logfiles
+[shred](/logging/shred) the Logfiles
 
 ### Disable logs
 
-To disable log u have to stop the [service](/Notes/posts/Linux/service)
+To disable log u have to stop the [service](/Linux/service)
 daemon service rsyslog stop
 
 ***!! REMEBER to delete the line weere th sys log was stopped!!***

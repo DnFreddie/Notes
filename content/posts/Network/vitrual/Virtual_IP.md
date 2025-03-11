@@ -11,7 +11,7 @@ with a *physical network adapter* - Virtual machine internal router
 addres
 
 > \[!quote\] [Virtual
-> networks](/Notes/posts/Network/Network_Types/Virtual_networks) \|
+> networks](/Network/Network_Types/Virtual_networks) \|
 > [Reserved
-> addresses](/Notes/posts/Network/basic_network_connections/Reserved_addresses)
+> addresses](/Network/basic_network_connections/Reserved_addresses)
 > \|\[\[virtual hosting\]\]

@@ -99,5 +99,5 @@ title: Web scraping techniques
 
 ---
 
-[Sneakers bots project](/Notes/posts/sneakers_bots_project)
+[Sneakers bots project](/sneakers_bots_project)
 

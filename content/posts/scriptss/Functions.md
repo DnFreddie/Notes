@@ -41,7 +41,7 @@ then echo “The condition is true” else echo xd fi
 | exit     | quits the shell                                                                                                             |
 | export   | Makes a variable of fucrtiosn avaible to other proggrams that are exexuted frome the shell                                  |
 | fg       | bringas                                                                                                                     |
-| getopts  | Parsees [Arguments](/Notes/posts/scriptss/Arguments) to shell scripts                                                       |
+| getopts  | Parsees [Arguments](/scriptss/Arguments) to shell scripts                                                       |
 | jobs     | lsit bacground processes                                                                                                    |
 | readonly | declers a varaible as readonly                                                                                              |
 | shift    | move the scrpits input paramiters to the left droppin th firs paramter (usefull for consuming all aprameters one at a time) |
@@ -50,5 +50,5 @@ then echo “The condition is true” else echo xd fi
 | unset    | deletes values from variables or funtion                                                                                    |
 | wait     | waits for a bacground process to complete                                                                                   |
 
-> \[!quote\] [She-bang](/Notes/posts/scriptss/She-bang)
-> [bash_MAIN](/Notes/posts/Linux/commands/bash_MAIN)
+> \[!quote\] [She-bang](/scriptss/She-bang)
+> [bash_MAIN](/Linux/commands/bash_MAIN)

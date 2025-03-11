@@ -6,7 +6,7 @@ title: sar
 
 ## sar - Collect, report, or save system activity information.
 
-Checking the k[io stat](/Notes/posts/ioStat)
+Checking the k[io stat](/ioStat)
 
 > Check the interfaces 
 ``` bash

@@ -16,4 +16,4 @@ title: Push gatway prometheus
     -   You have to delete them manually.
 
 [Prom Docs](https://prometheus.io/docs/instrumenting/pushing/) ![Push
-gatway prometheus](/Notes/push_gatway_prometheus_visual.png)
+gatway prometheus](/static/push_gatway_prometheus_visual.png)

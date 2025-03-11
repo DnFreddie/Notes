@@ -11,4 +11,4 @@ port 0 will trigger an **Os Scan** for an avaiable port wich then bounds
 it to the app
 
 > \[!quote\]
-> [rust_tests](/Notes/posts/tests/rust_tests)\|[ports](/Notes/posts/ports/ports)\|[TCP](/Notes/posts/Network/Ref_OSI/TCP)
+> [rust_tests](/tests/rust_tests)\|[ports](/ports/ports)\|[TCP](/Network/Ref_OSI/TCP)

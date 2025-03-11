@@ -7,9 +7,9 @@ title: PAM
 ## Pluggable Authentication Modules
 
 -   It’ allows to use various **auth** methods
-    -   like [LDAP](/Notes/posts/LDAP) database or [AD](/Notes/posts/AD)
+    -   like [LDAP](/LDAP) database or [AD](/AD)
 
 ------------------------------------------------------------------------
 
-[SSSD](/Notes/posts/SSSD) \[\[System Auth.canvas\|System Auth\]\]
-[orange book](/Notes/posts/orange_book)
+[SSSD](/SSSD) \[\[System Auth.canvas\|System Auth\]\]
+[orange book](/orange_book)

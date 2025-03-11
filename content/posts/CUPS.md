@@ -17,4 +17,4 @@ to the printer for printing.
 
 > \[!quote\]
 > [Docs](https://openprinting.github.io/cups/doc/overview.html)
-> [Samba](/Notes/posts/Samba)
+> [Samba](/Samba)

@@ -18,7 +18,7 @@ The more balanced the better the algorithm - Branching Factor - The
 amount of children a tree has
 
 *A*
-![traversals](/Notes/posts/Algorithms/traversals)
+![traversals](/Algorithms/traversals)
 *B*
 
-> \[!quote\] [quick sort](/Notes/posts/Algorithms/quick_sort)
+> \[!quote\] [quick sort](/Algorithms/quick_sort)

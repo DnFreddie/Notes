@@ -6,9 +6,9 @@ title: SIP protocol
 
 ## Session Initiation Protocol
 
--   Voice over [IP](/Notes/posts/Network/Ref_OSI/IP) *(VoIP)* signaling
-    -   [TCP](/Notes/posts/Network/Ref_OSI/TCP) **/5056**
-        [TCP](/Notes/posts/Network/Ref_OSI/TCP) **/5061**
+-   Voice over [IP](/Network/Ref_OSI/IP) *(VoIP)* signaling
+    -   [TCP](/Network/Ref_OSI/TCP) **/5056**
+        [TCP](/Network/Ref_OSI/TCP) **/5061**
 -   Setup and manage VOIP sessions
     -   Call rin hang up
 -   ==Extended voice communication==

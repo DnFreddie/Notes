@@ -17,4 +17,4 @@ SSL offloading
 *It balances the entire connection* - Designed for high perofmence and
 can handle milion request per second - **Corss-zone load balancing** -
 Automatically distribute traffic among **AZ’s** — [Layer 7
-Firewalls](/Notes/posts/Network/Ref_OSI/L7_FireWalls)
+Firewalls](/Network/Ref_OSI/L7_FireWalls)

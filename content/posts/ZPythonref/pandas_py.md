@@ -18,6 +18,6 @@ title: pandas py
 
 ------------------------------------------------------------------------
 
-> \[!quote\] [regex](/Notes/posts/ZPythonref/regex)
-> [data_py](/Notes/posts/ZPythonref/data_py)
-> [firebase](/Notes/posts/databases/firebase)
+> \[!quote\] [regex](/ZPythonref/regex)
+> [data_py](/ZPythonref/data_py)
+> [firebase](/databases/firebase)

@@ -4,11 +4,11 @@ draft: false
 title: MAIN Python
 ---
 
-# [regex](/Notes/posts/ZPythonref/regex)
+# [regex](/ZPythonref/regex)
 
 # Python Baisick Function
 
-![python_functions](/Notes/posts/ZPythonref/python_functions) # Data
+![python_functions](/ZPythonref/python_functions) # Data
 Functions
 
-![data_py](/Notes/posts/ZPythonref/data_py)
+![data_py](/ZPythonref/data_py)

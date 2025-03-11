@@ -8,10 +8,10 @@ title: APC connectors
 
 Ferrule end faces polished at an eight-degree angle. Lower return loss /
 higher insertion loss than [UPC
-connector](/Notes/posts/Network/Phisicall/UPC_connector)
+connector](/Network/Phisicall/UPC_connector)
 
 ------------------------------------------------------------------------
 
-[Fiber](/Notes/posts/Network/Phisicall/Fiber)
+[Fiber](/Network/Phisicall/Fiber)
 
-[Cables](/Notes/posts/Network/Phisicall/Cables)
+[Cables](/Network/Phisicall/Cables)

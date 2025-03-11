@@ -12,5 +12,5 @@ dont extend beyond the use of that file \>\[!example\] To set the SUID
 bit, enter a 4 before the regular permissions \>you want to do so,
 you’ll use the chmod command, as in chmod 4644 filename.
 
-> \[!quote\] \[\[userID\]\] [SGID](/Notes/posts/Linux/SGID)
-> [UUID](/Notes/posts/datatypes/UUID)
+> \[!quote\] \[\[userID\]\] [SGID](/Linux/SGID)
+> [UUID](/datatypes/UUID)

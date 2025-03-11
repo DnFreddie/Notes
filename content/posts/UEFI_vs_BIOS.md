@@ -4,7 +4,7 @@ draft: false
 title: UEFI vs BIOS
 ---
 
-[Boot procces](/Notes/posts/boot_process)
+[Boot procces](/boot_process)
 
 | **UEFI**                                                                                                            | *BIOS*                             |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------|
@@ -12,7 +12,7 @@ title: UEFI vs BIOS
 | Uses Partition(*storse the system there*)                                                                           | Config stored on the *motherboard* |
 | support for the **big drives**                                                                                      | **2 TB drive**                     |
 | new                                                                                                                 | old                                |
-| **secure boot** postsdigital key that system is not malware [Digital_certificate](/Notes/posts/Digital_certificate) |                                    |
+| **secure boot** postsdigital key that system is not malware [Digital_certificate](/Digital_certificate) |                                    |
 
 > bug!
 >
@@ -26,4 +26,4 @@ title: UEFI vs BIOS
 > \[!important\] **GPT** creates fake Master record in order to be
 > compatible with the Bios
 
-![Pasted_image_20240425173903.png](/Notes/Pasted_image_20240425173903.png)
+![Pasted_image_20240425173903.png](/static/Pasted_image_20240425173903.png)

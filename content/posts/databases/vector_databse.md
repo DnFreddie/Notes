@@ -7,7 +7,7 @@ title: vector databse
 ## Vector databaes
 
 IT provideds **approxime resutls**
-![VectorDatabseModel_visual.png](/Notes/VectorDatabseModel_visual.png) -
+![VectorDatabseModel_visual.png](/static/VectorDatabseModel_visual.png) -
 **Indexing**: The vector database indexes vectors using an algorithm
 such as PQ, LSH, or HNSW . This step maps the vectors to a data
 structure that will enable faster searching.
@@ -25,7 +25,7 @@ structure that will enable faster searching.
         ## Creation
 
 1.  First, we use
-    the **[embedings](/Notes/posts/machine_learning/embedings)
+    the **[embedings](/machine_learning/embedings)
     model** to create **vector embeddings** for the **content** we want
     to index.
 2.  The **vector embedding** is inserted into the **vector database**,
@@ -35,8 +35,8 @@ structure that will enable faster searching.
     model** to create embeddings for the query, and use those embeddings
     to query the **database** for *similar* vector embeddings Its a
     databae struckterd of
-    [embedings](/Notes/posts/machine_learning/embedings) >\[!example\]-
-    ![VectorDatabaseStructure_visual.png](/Notes/VectorDatabaseStructure_visual.png)
+    [embedings](/machine_learning/embedings) >\[!example\]-
+    ![VectorDatabaseStructure_visual.png](/static/VectorDatabaseStructure_visual.png)
 
 2
 
@@ -62,4 +62,4 @@ structure that will enable faster searching.
 3
 
 > \[!quote\]
-> [random_projection](/Notes/posts/machine_learning/random_projection)
+> [random_projection](/machine_learning/random_projection)

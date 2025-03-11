@@ -6,7 +6,7 @@ draft: false
 title: Selinux suprises
 ---
 
-> ![Selinux error message](/Notes/selinxu_title_meme.jpg)
+> ![Selinux error message](/static/selinxu_title_meme.jpg)
 
 When it comes to SELinux, many of us initially find it to be quite a
 hassle. In fact, I had to change the topic of this article because my
@@ -16,7 +16,7 @@ containers, everything took a turn for the worse…
 
 ### Before We Begin
 
-> ![Selinux error message](/Notes/selinux_coloring_book_visual.jpg)
+> ![Selinux error message](/static/selinux_coloring_book_visual.jpg)
 
 To follow along with this tutorial, you’ll need to download a [special
 Red Hat
@@ -33,7 +33,7 @@ discovered this, they found those colorful mannuals left on the table.*”
 
 ### So we got Mods
 
-> ![Selinux error message](/Notes/selinux_maskot_visual.png)
+> ![Selinux error message](/static/selinux_maskot_visual.png)
 
 So before we dive deep into containers we have to do a little warm up
 about SELinux itself.
@@ -78,7 +78,7 @@ I will show you this in my future post so stay tuned for that!
 
 ### Understanding SELinux Labels
 
-> ![Selinux error message](/Notes/selinux_meme.jpg)
+> ![Selinux error message](/static/selinux_meme.jpg)
 
 In SELinux, file labeling is crucial and follows this format:
 
@@ -134,7 +134,7 @@ sudo semanage port -a -t ssh_port_t -p tcp 6969
 
 ### Where This All Is Defined and How to Be Lazy
 
-> ![SELinux error message](/Notes/being_lazy_visual.jpg)
+> ![SELinux error message](/static/being_lazy_visual.jpg)
 
 There are a lot of apps that work similarly to each other, so if you
 ever worried about the policy or the context, look them up and basically
@@ -161,7 +161,7 @@ sudo restorecon -Rv /var/www/html
 
 ### Labels when it comes to containers …
 
-> ![SELinux error message](/Notes/docker_maskot_visual.jpg)
+> ![SELinux error message](/static/docker_maskot_visual.jpg)
 
 Finally, we made it to the shore
 
@@ -231,7 +231,7 @@ containers, so you don’t have to allows every container to read
 
 ### How to Even Track SELinux Issues
 
-> ![SELinux error message](/Notes/selinux_message_visual.png)
+> ![SELinux error message](/static/selinux_message_visual.png)
 
 When people say SELinux is hard to debug, I think they forget about
 `journalctl`.
@@ -278,4 +278,4 @@ don’t forget about those volume flags when working with Docker.
 
 With a little practice, you’ll be navigating SELinux like a pro.
 
-> ![SELinux error message](/Notes/scooby_doo_selinux_visual.jpg)
+> ![SELinux error message](/static/scooby_doo_selinux_visual.jpg)

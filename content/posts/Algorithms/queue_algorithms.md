@@ -16,11 +16,11 @@ elmeent
 -   Poping
     -   *we pop from the head*
 
-![Pasted_image_20230702114452.png](/Notes/Pasted_image_20230702114452.png)
+![Pasted_image_20230702114452.png](/static/Pasted_image_20230702114452.png)
 ## Code implematation
 
 > \[!example\]-
-> ![ImplementaionQue_visual.png](/Notes/ImplementaionQue_visual.png)
+> ![ImplementaionQue_visual.png](/static/ImplementaionQue_visual.png)
 
     <T> = {
       value: T;
@@ -75,5 +75,5 @@ elmeent
       }
     }
 
-> \[!quote\] [Linked List](/Notes/posts/Algorithms/Linked_List)
-> [stack_algorithms](/Notes/posts/Algorithms/stack_algorithms)
+> \[!quote\] [Linked List](/Algorithms/Linked_List)
+> [stack_algorithms](/Algorithms/stack_algorithms)

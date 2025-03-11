@@ -16,7 +16,7 @@ This is suggested order in which you wrote your SQL queries .
 
 Start big(data table ) and go small (specyfic codition )
 
-![baiscqueresSQLvisual.png](/Notes/baiscqueresSQLvisual.png)
+![baiscqueresSQLvisual.png](/static/baiscqueresSQLvisual.png)
 <mark class="hltr-grses">Queries</mark>
 
 Select \* from employees where employees: male ;
@@ -28,7 +28,7 @@ command***
 ;*</mark>
 `CREATE TABLE table_name (      column_1 data_type,      column_2 data_type,      column_3 data_type   );`
 
-[Sql statement](/Notes/posts/SQL/statement.sql)
+[Sql statement](/SQL/statement.sql)
 
 |                                                                         |
 |-------------------------------------------------------------------------|

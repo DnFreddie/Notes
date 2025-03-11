@@ -7,13 +7,13 @@ title: Kernel
 ## Baisisc info of the kernel
 
 **uname -a**/**-r** \>\[!tip\]- Result
-\>![KernnelVersion_visual.png](/Notes/KernnelVersion_visual.png)
+\>![KernnelVersion_visual.png](/static/KernnelVersion_visual.png)
 
 ### Main tasks
 
 -   Spliting memory into subdevisons
 
--   **[processes_kernel](/Notes/posts/for_later/processes_kernel)**
+-   **[processes_kernel](/for_later/processes_kernel)**
 
 -   The kernel is responsible for determining which processes are
     allowed to use the CPU.
@@ -34,7 +34,7 @@ title: Kernel
 
 -   **System calls and support**
 
-    -   [processes_kernel](/Notes/posts/for_later/processes_kernel)
+    -   [processes_kernel](/for_later/processes_kernel)
         normally use system calls to communicate with the kernel.
 
 ### See the previous verison of the kernel that are on the machine
@@ -52,12 +52,12 @@ apt list --installed | grep linux-image
 ### Kernel Options
 
 U have to write to *etc/sysctl.conf*
-[sysctl](/Notes/posts/for_later/sysctl)
+[sysctl](/for_later/sysctl)
 
 ### Boot
 
--   [Boot procces](/Notes/posts/boot_process)
--   [rc scripts](/Notes/posts/for_later/rc_scripts)
--   [cgroups](/Notes/posts/cgroups)
+-   [Boot procces](/boot_process)
+-   [rc scripts](/for_later/rc_scripts)
+-   [cgroups](/cgroups)
 
 ------------------------------------------------------------------------

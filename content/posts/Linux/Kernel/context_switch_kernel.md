@@ -11,4 +11,4 @@ title: context switch_kernel
     -   Each pieace of time calllaed a **time slice**
         -   gives a process enough time for significat computation
 
-> \[!quote\] [threads](/Notes/posts/for_later/threads)
+> \[!quote\] [threads](/for_later/threads)

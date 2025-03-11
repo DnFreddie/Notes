@@ -7,6 +7,6 @@ title: managed mode_wi-fi
 ## Manged
 
 The device is prepared to connect to an [access
-point](/Notes/posts/Network/Ref_OSI/access_point)
+point](/Network/Ref_OSI/access_point)
 
 > \[!quote\]

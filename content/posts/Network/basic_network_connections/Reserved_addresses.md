@@ -11,7 +11,7 @@ title: Reserved addresses
         -   *240.0.0.1 thhrough 254.255.255.254*
         -   *All Class E addresses*
 
-> \[!quote\] [Virtual IP](/Notes/posts/Network/vitrual/Virtual_IP) \|
+> \[!quote\] [Virtual IP](/Network/vitrual/Virtual_IP) \|
 > \[\[IP\]\] \| [subnet
-> mask](/Notes/posts/Network/basic_network_connections/subnet_mask) \|
-> [DNS](/Notes/posts/Network/Phisicall/DNS)
+> mask](/Network/basic_network_connections/subnet_mask) \|
+> [DNS](/Network/Phisicall/DNS)

@@ -19,5 +19,5 @@ check them using **cat etc/shells**
         ” indicates the process id of the current instance of the shell
         you are running
 
-> \[!quote\] [ps](/Notes/posts/Linux/commands/ps) \| [Baisic Linux
-> commands](/Notes/posts/Linux/Linux_commands/Baisic_Linux_commands)
+> \[!quote\] [ps](/Linux/commands/ps) \| [Baisic Linux
+> commands](/Linux/Linux_commands/Baisic_Linux_commands)

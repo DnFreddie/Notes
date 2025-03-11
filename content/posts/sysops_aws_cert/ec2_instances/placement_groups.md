@@ -6,25 +6,25 @@ tags:
 title: Placement groups
 ---
 
-*This is similar to the [Raid Levels](/Notes/posts/RAID_0)* ## Cluster
+*This is similar to the [Raid Levels](/RAID_0)* ## Cluster
 *Clusters instances into a low-latency group in a single Avalibility
-zone* ![Cluster Example](/Notes/cluster_instance_group_visual.png) -
+zone* ![Cluster Example](/static/cluster_instance_group_visual.png) -
 Infra - Same **Rack**(*same hardwere*) - Same **AZ**(*avalibility zone*)
 - Pros - **Greate network**(*10Gbps
-[bandwith](/Notes/posts/Network/Phisicall/bandwidth) between instances*)
+[bandwith](/Network/Phisicall/bandwidth) between instances*)
 - Cons - If the **rack fails, all instances fail.**
 
 -   Use case:
     -   **Big Data Job** that need to complete fast
     -   App that needs extremely low
-        [latency](/Notes/posts/Network/Data/Latency) and high **network
+        [latency](/Network/Data/Latency) and high **network
         throughput**
 
 ## Spread
 
 *Spreads instances across underlying hardwere (Max 7 instace per group
 per AZ) #CriticalApps* ![Spread
-Example](/Notes/spread_isnstance_group_visual.png)
+Example](/static/spread_isnstance_group_visual.png)
 
 -   Pros
     -   Can span accross **AZ**
@@ -35,11 +35,11 @@ Example](/Notes/spread_isnstance_group_visual.png)
     -   Aplication that maximzie high avalibility
     -   Each instance has to be isolated form faileur from each other
         ### Can Operate on racks and hosts [Aws host
-        outputs](/Notes/posts/sysops_aws_cert/ec2_instances/aws_outposts)
+        outputs](/sysops_aws_cert/ec2_instances/aws_outposts)
 
 ## Partition
 
-![Example](/Notes/partition_instance_group_visual.png) *Spreads accrros
+![Example](/static/partition_instance_group_visual.png) *Spreads accrros
 many diffrent partiction (relay on diffrent sets of racks)* - Scales to
 100 EC2 instaces per gorup (*Kafka,Cassandra*) - a partition failure can
 affect many **EC2** but won’t affect otehr partitions - EC2 instance get
@@ -48,4 +48,4 @@ access to the **partition metadata** - Use cases
 
 ------------------------------------------------------------------------
 
-[Ec2instance](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_instance)
+[Ec2instance](/sysops_aws_cert/ec2_instances/ec2_instance)

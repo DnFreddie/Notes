@@ -37,4 +37,4 @@ swapon /swapfile
 -   To change it edit ***/etc/\[\[sysctl\|sysctl.conf\]\]***
 
 > \[!tip\]- Swap Recommended size
-> ![Pasted_image_20240512205138.png](/Notes/Pasted_image_20240512205138.png)
+> ![Pasted_image_20240512205138.png](/static/Pasted_image_20240512205138.png)

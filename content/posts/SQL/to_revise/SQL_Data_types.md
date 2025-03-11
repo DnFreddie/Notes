@@ -4,10 +4,10 @@ draft: false
 title: SQL Data types
 ---
 
-    ![numerc_data_SQL_visual.png](/Notes/numerc_data_SQL_visual.png)
+    ![numerc_data_SQL_visual.png](/static/numerc_data_SQL_visual.png)
 
 |                                                                                |
 |--------------------------------------------------------------------------------|
-| ![Characterdatatyype_SQL_visual.png](/Notes/Characterdatatyype_SQL_visual.png) |
+| ![Characterdatatyype_SQL_visual.png](/static/Characterdatatyype_SQL_visual.png) |
 
-![Pasted_image_20230108103650.png](/Notes/Pasted_image_20230108103650.png)
+![Pasted_image_20230108103650.png](/static/Pasted_image_20230108103650.png)

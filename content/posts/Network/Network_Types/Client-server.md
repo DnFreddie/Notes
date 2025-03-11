@@ -10,4 +10,4 @@ title: Client-server
             client-to-client-comunication!!</mark>
     -   Good Performence and Administaration
     -   However its complex and quite costly (*Server ,Data , Admin
-        cost*) >![ClientServer_Visual.png](/Notes/ClientServer_Visual.png)
+        cost*) >![ClientServer_Visual.png](/static/ClientServer_Visual.png)

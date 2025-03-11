@@ -8,8 +8,8 @@ title: NVMe
 
 I’ts an interface - Fastest response for the computers that use PCIe -
 It uses **flash memory chips** unlike *spinning disk* - Enables
-[SSD](/Notes/posts/SSD) to connect to
-[Cpu](/Notes/posts/Linux/Kernel/Cpu)
+[SSD](/SSD) to connect to
+[Cpu](/Linux/Kernel/Cpu)
 
 #### Best for
 

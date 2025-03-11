@@ -10,7 +10,7 @@ title: TCP
 
 It makes sure that data is transmmited in reaiable way
 
-[PAR](/Notes/posts/for_later/PAR) -
+[PAR](/for_later/PAR) -
 <mark style="background: #72083D;">TCP is a connection base system
 </mark> - U have to establisch the connetion with the device to send the
 packet - **Ordering** - Tcp headers contains *sequence numbers* so if
@@ -27,6 +27,6 @@ reciver can manage how much data is sent ## Flags
 | SYN(Synchronization) | *Initialaizes connection between hos and target* |
 | RST(Resets)          | *Resets the connection*                          |
 
-> \[!quote\] [3-way Handshake](/Notes/posts/for_later/3-way_Handshake)
-> [Port Scanning](/Notes/posts/for_later/Port_Scanning) [Nagle’s
-> Algorithm](/Notes/posts/Nagle's_Algorithm)
+> \[!quote\] [3-way Handshake](/for_later/3-way_Handshake)
+> [Port Scanning](/for_later/Port_Scanning) [Nagle’s
+> Algorithm](/Nagle's_Algorithm)

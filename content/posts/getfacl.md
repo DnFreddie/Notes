@@ -7,7 +7,7 @@ title: getfacl
 # ACL
 
 Add more specific permission - **getfacl** - **setfacl** \>Example
-\>![Pasted_image_20240507125459.png](/Notes/Pasted_image_20240507125459.png)
+\>![Pasted_image_20240507125459.png](/static/Pasted_image_20240507125459.png)
 
 -   Look for the **+** symbol on the ls
     -   It show that smth was changed
@@ -23,4 +23,4 @@ setfacl g:builders:0
 
 ------------------------------------------------------------------------
 
-[chattr](/Notes/posts/chattr)
+[chattr](/chattr)

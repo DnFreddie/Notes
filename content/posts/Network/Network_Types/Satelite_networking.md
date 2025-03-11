@@ -11,7 +11,7 @@ title: Satelite networking
 -   High costs re;ative to terrestrial networking
     -   50mbit downd 3 mbit up
     -   Remote sites difficult ot network sites
--   **High [Latency](/Notes/posts/Network/Data/Latency)** 250 ms up 250
+-   **High [Latency](/Network/Data/Latency)** 250 ms up 250
     ms down
 -   High frequencies **2 GHZ** >\[!bug\] Subject to being absorb by
     antything in the way >Aspecialy during **Rain Storms**

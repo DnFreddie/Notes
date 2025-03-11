@@ -23,5 +23,5 @@ in windows**)
 
 -   Uses **TCP** (/3 way hand shake)
 
-> \[!quote\] [ports](/Notes/posts/ports/ports) [SMB
-> client](/Notes/posts/SMB_client) [Samba](/Notes/posts/Samba)
+> \[!quote\] [ports](/ports/ports) [SMB
+> client](/SMB_client) [Samba](/Samba)

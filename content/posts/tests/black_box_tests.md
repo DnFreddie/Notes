@@ -8,6 +8,6 @@ Veryfie the behaviour of the system by **examinating its output** given
 a set if ubputs without having access to the details of ist internal
 implementaion
 
-[Visual reggression tests](/Notes/posts/tests/visual-reggression_tests)
+[Visual reggression tests](/tests/visual-reggression_tests)
 
-[Rust Tests](/Notes/posts/tests/rust_tests)
+[Rust Tests](/tests/rust_tests)

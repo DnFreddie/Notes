@@ -18,5 +18,5 @@ title: PaaS
 
     -   Develop your app from whats available on the platform
 
-[SaaS](/Notes/posts/SaaS) [IaaS](/Notes/posts/Iaas) [Cloud
-Models](/Notes/posts/Cloud_Models)
+[SaaS](/SaaS) [IaaS](/Iaas) [Cloud
+Models](/Cloud_Models)

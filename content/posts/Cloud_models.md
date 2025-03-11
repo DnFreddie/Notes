@@ -5,7 +5,7 @@ title: Cloud models
 ---
 
 > Modlues diffrencess
-> ![Cloud_Models_Visual.png](/Notes/Cloud_Models_Visual.png)
+> ![Cloud_Models_Visual.png](/static/Cloud_Models_Visual.png)
 
-[SaaS](/Notes/posts/SaaS) [IaaS](/Notes/posts/Iaas)
-[PaaS](/Notes/posts/PaaS)
+[SaaS](/SaaS) [IaaS](/Iaas)
+[PaaS](/PaaS)

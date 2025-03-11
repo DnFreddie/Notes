@@ -35,4 +35,4 @@ efficiently:
 
     ------------------------------------------------------------------------
 
-    [ring buffer](/Notes/posts/Algorithms/ring_buffer)
+    [ring buffer](/Algorithms/ring_buffer)

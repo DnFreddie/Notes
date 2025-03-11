@@ -6,7 +6,7 @@ title: IP
 
 ## The ethernet protocol
 
-**The [MTU](/Notes/posts/Network/Network_Types/MTU) of ip is 1500
+**The [MTU](/Network/Network_Types/MTU) of ip is 1500
 bytes!** ## IP Flags *they deal with the fragmentation of data*
 
 ## IP fragmentation
@@ -17,11 +17,11 @@ fragmentation offsets bits in the
 
 ## Holding data
 
-The data is beeing hold im the [TCP](/Notes/posts/Network/Ref_OSI/TCP)
-[UDP](/Notes/posts/for_later/UDP)
+The data is beeing hold im the [TCP](/Network/Ref_OSI/TCP)
+[UDP](/for_later/UDP)
 
 ## Transfering data
 
 The data ins *Encapsulated* by the IP protocol -
-[Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet) **frame**
-\>![TransferEthernetFrame_visual.png](/Notes/TransferEthernetFrame_visual.png)
+[Ethernet](/Network/Ref_OSI/Ethernet) **frame**
+\>![TransferEthernetFrame_visual.png](/static/TransferEthernetFrame_visual.png)

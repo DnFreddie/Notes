@@ -12,12 +12,12 @@ title: SAN
             -   If u want to change a small peace of the file u don’t
                 have to overwrite the entire file
 -   **Requiters a lot of**
-    [bandwidth](/Notes/posts/Network/Phisicall/bandwidth) May use an
+    [bandwidth](/Network/Phisicall/bandwidth) May use an
     isolated network And high speed network tech
 
-![Multipath](/Notes/posts/Multipath)
+![Multipath](/Multipath)
 
 ------------------------------------------------------------------------
 
-> \[!quote\] [NAS](/Notes/posts/Network/Data/NAS)
-> [Fibre_chanel](/Notes/posts/Fibre_chanel) [iSCSI](/Notes/posts/iSCSI)
+> \[!quote\] [NAS](/Network/Data/NAS)
+> [Fibre_chanel](/Fibre_chanel) [iSCSI](/iSCSI)

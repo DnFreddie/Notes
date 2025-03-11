@@ -5,4 +5,4 @@ title: backlog
 ---
 
 Parameter which determines how many connection can be stored in [Accept
-Queue](/Notes/posts/request_journey/accept_queue)
+Queue](/request_journey/accept_queue)

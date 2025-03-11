@@ -23,12 +23,12 @@ Integration with **CloudFormation**
 aws ssm get-paramaters --names /my-app/dev/db-url --with-decryption 
 ```
 
-![paramater policeies](/Notes/paramater_policies_graph_visual.png)
+![paramater policeies](/static/paramater_policies_graph_visual.png)
 
 ### SSM Paramater Store Hierarchy
 
-![Paramater Store Hierarchy](/Notes/ssm_paramater_store.png)
+![Paramater Store Hierarchy](/static/ssm_paramater_store.png)
 
 ------------------------------------------------------------------------
 
-[SSM](/Notes/posts//posts/sysops_aws_cert/ec2_instances/ssm_main/ssm)
+[SSM](//posts/sysops_aws_cert/ec2_instances/ssm_main/ssm)

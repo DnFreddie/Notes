@@ -8,4 +8,4 @@ title: top
 
 Top displays acitve procces with th refrexh rate of 3s
 
-> \[!quote\] [nice](/Notes/posts/Linux/nice)
+> \[!quote\] [nice](/Linux/nice)

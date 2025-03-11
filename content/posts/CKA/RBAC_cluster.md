@@ -24,10 +24,10 @@ Lab](https://killercoda.com/killer-shell-cka/scenario/rbac-serviceaccount-permis
 * `kube-system`
     * Do not create or modyfie in here !!!
     * System processes 
-    * Master and [kubectl](/Notes/posts/CKA/kubectl) processes 
+    * Master and [kubectl](/CKA/kubectl) processes 
 * `kube-public`
     * Publicly avaiable data
-    * [Config Map](/Notes/posts/CKA/Kubernetes#config-map) 
+    * [Config Map](/CKA/Kubernetes#config-map) 
 * `kube-node-lease`
     * **hearbeats** of nodes
     * each node has associated `lease object` in namespace
@@ -189,5 +189,5 @@ and assigns it to the ServiceAccount.
 
 ------------------------------------------------------------------------
 
-[Namespaces](/Notes/posts/Namespaces)
-[Kubernetes](/Notes/posts/CKA/Kubernetes)
+[Namespaces](/Namespaces)
+[Kubernetes](/CKA/Kubernetes)

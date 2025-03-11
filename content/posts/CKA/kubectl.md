@@ -15,4 +15,4 @@ kubectl api-resources
 
 ------------------------------------------------------------------------
 
-[Namespaces](/Notes/posts/Namespaces)
+[Namespaces](/Namespaces)

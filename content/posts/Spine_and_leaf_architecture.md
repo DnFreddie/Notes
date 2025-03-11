@@ -10,6 +10,6 @@ title: Spine and leaf architecture
     -   Each spine switch connects to each leaf switch
 -   Leaf switches ==do not== connect to each other *Same for switches*
 
-![SpineLeaf_arch9itectuee_visuaol.png](/Notes/SpineLeaf_arch9itectuee_visuaol.png)
+![SpineLeaf_arch9itectuee_visuaol.png](/static/SpineLeaf_arch9itectuee_visuaol.png)
 
 > \[!quote\]

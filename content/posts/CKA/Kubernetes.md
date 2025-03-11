@@ -13,14 +13,14 @@ title: Kubernetes
 -   **Popularity**
 
 ## Cluster Architecture
-> `Lifecycles` of [pods](/Notes/posts/CKA/pods) and [kube service](/Notes/posts/CKA/kube_service) are not connected !
+> `Lifecycles` of [pods](/CKA/pods) and [kube service](/CKA/kube_service) are not connected !
 
-### [RBAC cluster](/Notes/posts/CKA/RBAC_cluster)
+### [RBAC cluster](/CKA/RBAC_cluster)
 
 #### Config map
 *External configuration of u'r application*
 
->**Get all config maps in the [deployments](/Notes/posts/CKA/kube_deployments)**
+>**Get all config maps in the [deployments](/CKA/kube_deployments)**
 ```bash
 kubeclt get cm
 # Output:
@@ -34,7 +34,7 @@ kubeclt get cm
 ####  Master Nodes 
 *Always run this four processes*
 * `API server` 
-* `Scheduler`(*it calls [kubectl](/Notes/posts/CKA/kubectl)*)
+* `Scheduler`(*it calls [kubectl](/CKA/kubectl)*)
     * wehre to put the pod 
 * `Controler manager`(*calls the `scheduler`*)
     *  Detecting the state changes 

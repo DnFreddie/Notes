@@ -18,9 +18,9 @@ title: ring buffer
     -   The cost of operation is **O of 1**
 -   If u go of the edge **U can go “ring around”back to head **
     -   ==This.tail = %mod len==
-        ![RingBuffer_visual.png](/Notes/RingBuffer_visual.png)
+        ![RingBuffer_visual.png](/static/RingBuffer_visual.png)
 
 > \[!bug\] Dont let tail exects your tail  
 > ## Usebillity - logs - flushing -
 
-> \[!quote\] [Linked List](/Notes/posts/Algorithms/Linked_List)
+> \[!quote\] [Linked List](/Algorithms/Linked_List)

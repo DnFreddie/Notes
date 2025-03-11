@@ -7,7 +7,7 @@ title: compilers
 ## Compilers
 
 -   The binary instructions are written in machine language, an
-    elementary language the [Cpu](/Notes/posts/Linux/Kernel/Cpu) can
+    elementary language the [Cpu](/Linux/Kernel/Cpu) can
     understand.
 -   Compilers are designed to translate the language of C code into
     machine language for a variety of *processor architectures*.
@@ -20,6 +20,6 @@ title: compilers
 
 ### Examine Binaries
 
-Use [objdump](/Notes/posts/objdump)
+Use [objdump](/objdump)
 
-> \[!quote\] [Compitaltion process](/Notes/posts/Compitaltion_process)
+> \[!quote\] [Compitaltion process](/Compitaltion_process)

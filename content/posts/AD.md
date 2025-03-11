@@ -6,6 +6,6 @@ title: AD
 
 ------------------------------------------------------------------------
 
-[LDAP](/Notes/posts/LDAP)
+[LDAP](/LDAP)
 
 System Auth.canvas\|System

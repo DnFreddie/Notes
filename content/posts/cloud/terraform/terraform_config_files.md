@@ -10,14 +10,14 @@ title: Terraform config files
 
 |                                                                                                                        |                                                                        |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| Terraform supports an alternative syntax that is JSON-compatible Useful for generating configurations programmatically | ![.tf.json_example](/Notes/terraform_language_json_example_visual.png) |
+| Terraform supports an alternative syntax that is JSON-compatible Useful for generating configurations programmatically | ![.tf.json_example](/static/terraform_language_json_example_visual.png) |
 
--   [terraform](/Notes/posts/cloud/terraform/terraform)
+-   [terraform](/cloud/terraform/terraform)
 
 ### Variable definitions files
 
 *Allows to decle mulitple
-**[varaibles](/Notes/posts/cloud/terraform/terraform.md#varaibles)** at
+**[varaibles](/cloud/terraform/terraform.md#varaibles)** at
 once* - Named `.tfvars` or `tfvars.json`
 
 ### Env variables
@@ -36,4 +36,4 @@ export TF_VAR_image_id: ami-abc123
     3.  `terraform.tfvars.json`
     4.  `-var` and `-var-file`
 
-![Loading input varaibles](/Notes/loading_input_varaibles_visual.png)
+![Loading input varaibles](/static/loading_input_varaibles_visual.png)

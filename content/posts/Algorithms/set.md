@@ -8,4 +8,4 @@ title: set
 
 Data struture that does not allow duplicate values - Arrayed based set
 
-> \[!quote\] [Dynamic Array](/Notes/posts/Algorithms/Dynamic_Array)
+> \[!quote\] [Dynamic Array](/Algorithms/Dynamic_Array)

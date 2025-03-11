@@ -6,11 +6,11 @@ title: web socets
 
 ## Web socets
 
--   [ports](/Notes/posts/ports/ports) numbers and
-    [IP](/Notes/posts/Network/Ref_OSI/IP) addresses **combined** creates
+-   [ports](/ports/ports) numbers and
+    [IP](/Network/Ref_OSI/IP) addresses **combined** creates
     **socets**
 -   Allows [duplex
-    communication](/Notes/posts/Network/Phisicall/duplex_communication)
+    communication](/Network/Phisicall/duplex_communication)
     bettwen **the server and the client**
 -   Enables u to connect your **frontend with backend**
     1
@@ -20,9 +20,9 @@ title: web socets
 IF the servers supporst websocet it rteturen code **101** **Switching
 Protcols** it enables *bidriectional communication* \>\[!example\]- \>It
 will be connected unti either parites sends a *close messege*
-\>![WebsocetConnectionUpgrade_visual.png](/Notes/WebsocetConnectionUpgrade_visual.png)
+\>![WebsocetConnectionUpgrade_visual.png](/static/WebsocetConnectionUpgrade_visual.png)
 
-## [IPv4 address](/Notes/posts/Network/basic_network_connections/IPv4_address) socets
+## [IPv4 address](/Network/basic_network_connections/IPv4_address) socets
 
 -   Server
     1.  Server IP adress
@@ -32,9 +32,9 @@ will be connected unti either parites sends a *close messege*
 -   Client
     1.  Client IP adress
     2.  protocol
-    3.  clients [ports](/Notes/posts/ports/ports) number ==Docs== [100s
+    3.  clients [ports](/ports/ports) number ==Docs== [100s
         web socets](https://www.youtube.com/watch?v:%20ayUfHdHFCZE)
         \[\[How to start Rust Chat App#ws-rs for websocket
         server\|chatrs\]\]
 
-> \[!quote\] [3-way Handshake](/Notes/posts/for_later/3-way_Handshake)
+> \[!quote\] [3-way Handshake](/for_later/3-way_Handshake)

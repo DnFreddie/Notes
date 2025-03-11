@@ -4,32 +4,32 @@ draft: false
 title: Network types
 ---
 
-![LAN](/Notes/posts/Network/Network_Types/LAN)
+![LAN](/Network/Network_Types/LAN)
 
 ------------------------------------------------------------------------
 
-![WLAN](/Notes/posts/Network/Network_Types/WLAN)
+![WLAN](/Network/Network_Types/WLAN)
 
 ------------------------------------------------------------------------
 
-![PAN](/Notes/posts/Network/Network_Types/PAN)
+![PAN](/Network/Network_Types/PAN)
 
 ------------------------------------------------------------------------
 
-![MAN](/Notes/posts/Network/Network_Types/MAN)
+![MAN](/Network/Network_Types/MAN)
 
-| ![CAN](/Notes/posts/Network/Network_Types/CAN) |
+| ![CAN](/Network/Network_Types/CAN) |
 |------------------------------------------------|
-| ![WAN](/Notes/posts/Network/Network_Types/WAN) |
+| ![WAN](/Network/Network_Types/WAN) |
 
-![Peer to peer](/Notes/posts/Network/Network_Types/Peer_to_peer)
+![Peer to peer](/Network/Network_Types/Peer_to_peer)
 
-| ![Client-server](/Notes/posts/Network/Network_Types/Client-server) |
+| ![Client-server](/Network/Network_Types/Client-server) |
 |--------------------------------------------------------------------|
-| ![SAN](/Notes/posts/Network/Data/SAN)                              |
+| ![SAN](/Network/Data/SAN)                              |
 
 \[\[Satelite networking \]\]
 
 > \[!quote\] [Network
-> Topologies](/Notes/posts/MAIN_Network+/Network_Topologies) [Virtual
-> networks](/Notes/posts/Network/Network_Types/Virtual_networks)
+> Topologies](/MAIN_Network+/Network_Topologies) [Virtual
+> networks](/Network/Network_Types/Virtual_networks)

@@ -6,4 +6,4 @@ title: NIDS
 
 ## Networks Intrusion Detection System
 
-![Snort](/Notes/posts/Penetration/Snort)
+![Snort](/Penetration/Snort)

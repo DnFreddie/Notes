@@ -5,7 +5,7 @@ title: LVM
 ---
 
 > Best Way to combine storage
-> ![Pasted_image_20240427140250.png](/Notes/Pasted_image_20240427140250.png)
+> ![Pasted_image_20240427140250.png](/static/Pasted_image_20240427140250.png)
 
 > \[!bug\] It does not offer data protection If one drive fails the
 > other fail too
@@ -24,7 +24,7 @@ lvresize --resizefs -L +5G /dev/test/lv-data
 -   **pv**(*create* *display* *change*)
    **vg**(*create*)
 -   **lv**(*create*) ### Alternatives are the Raid devices
--   ![Raid devices](/Notes/raid_devices_canvas.png "fig:")
+-   ![Raid devices](/static/raid_devices_canvas.png "fig:")
 
 
 

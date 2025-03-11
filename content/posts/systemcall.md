@@ -12,6 +12,6 @@ with hardware and access higher privileges while maintaining system
 stability and security.
 
 > \[!example\]- Accept syscall
-> ![Pasted_image_20230802122650.png](/Notes/Pasted_image_20230802122650.png)
+> ![Pasted_image_20230802122650.png](/static/Pasted_image_20230802122650.png)
 
 > \[!quote\]

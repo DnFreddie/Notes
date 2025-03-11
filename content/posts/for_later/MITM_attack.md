@@ -10,4 +10,4 @@ title: MITM attack
     *intercept the information*
     -   To achive thiis u have to **enable packet forwording **
 
-> \[!quote\] [sysctl](/Notes/posts/for_later/sysctl)
+> \[!quote\] [sysctl](/for_later/sysctl)

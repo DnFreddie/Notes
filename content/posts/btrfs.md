@@ -10,7 +10,7 @@ U can mount 2 drives as one
 btrfs device add
 ```
 
--   U can easly conver it to the [Raid 1](/Notes/posts/Raid_1) **mirror
+-   U can easly conver it to the [Raid 1](/Raid_1) **mirror
     array** for the data protection
 
     ``` bash

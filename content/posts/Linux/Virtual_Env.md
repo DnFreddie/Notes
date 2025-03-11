@@ -22,4 +22,4 @@ title: Virtual Env
 
 **Hust type deactivate**
 
-> \[!quote\] [docker](/Notes/posts/Linux/Docker/docker)
+> \[!quote\] [docker](/Linux/Docker/docker)

@@ -11,4 +11,4 @@ title: SaaS
 -   A complete application offfering
     -   No develompent work requaierd
 
-> \[!quote\] [IaaS](/Notes/posts/IaaS) [PaaS](/Notes/posts/PaaS)
+> \[!quote\] [IaaS](/IaaS) [PaaS](/PaaS)

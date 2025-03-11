@@ -16,10 +16,10 @@ title: MAC
 
 ------------------------------------------------------------------------
 
-[DAC](/Notes/posts/DAC)
+[DAC](/DAC)
 
-[SELinux](/Notes/posts/SELinux)
+[SELinux](/SELinux)
 
-[Orange Book](/Notes/posts/orange_book)
+[Orange Book](/orange_book)
 
-[Kernel](/Notes/posts/Linux/Kernel/Kernel)
+[Kernel](/Linux/Kernel/Kernel)

@@ -13,5 +13,5 @@ title: resistance rob
         (voltage) will be lower. If the pipe is wide (lowresistance),
         the water pressure will be higher.
 
-> \[!quote\] [voltage_rob](/Notes/posts/voltage_rob)
-> [current_rob](/Notes/posts/current_rob)
+> \[!quote\] [voltage_rob](/voltage_rob)
+> [current_rob](/current_rob)

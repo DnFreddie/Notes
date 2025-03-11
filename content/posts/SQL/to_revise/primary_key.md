@@ -8,4 +8,4 @@ title: primary key
 
 (*Not Null+Unique*)
 
-oppostie [foregin key.sql](/Notes/posts/SQL/to_revise/foregin_key.sql)
+oppostie [foregin key.sql](/SQL/to_revise/foregin_key.sql)

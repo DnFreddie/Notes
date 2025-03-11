@@ -33,4 +33,4 @@ chattr +i filename
 
 ------------------------------------------------------------------------
 
-[getfacl](/Notes/posts/getfacl)
+[getfacl](/getfacl)

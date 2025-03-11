@@ -6,7 +6,7 @@ title: ps
 
 <mark style="background: #FF5582A6;">list processes </mark> **aux - lsit
 all the processes runing on ure computer** - can we piped with grep
-\>\[!example\] ps aux \| [grep](/Notes/posts/Linux/commands/grep) apache
+\>\[!example\] ps aux \| [grep](/Linux/commands/grep) apache
 2 \>this will list all the procces filtered by this keyword
 
 | command | desription                                             |
@@ -19,7 +19,7 @@ all the processes runing on ure computer** - can we piped with grep
 ## Listing
 
 The kernel is giving the ID from the first procces taht started to the
-last [top](/Notes/posts/Linux/top)
+last [top](/Linux/top)
 
 see the childer procces
 
@@ -27,4 +27,4 @@ see the childer procces
 ps faucx| grep -i brave
 ```
 
-> \[!quote\] [shell](/Notes/posts/Linux/shell)
+> \[!quote\] [shell](/Linux/shell)

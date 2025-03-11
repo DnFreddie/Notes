@@ -12,5 +12,5 @@ modules to enable that - **Configuration conditional chech** -
 difften binariers
 
 > \[!quote\]
-> [visual-reggression_tests](/Notes/posts/tests/visual-reggression_tests)
-> [port 0](/Notes/posts/ports/port_0)
+> [visual-reggression_tests](/tests/visual-reggression_tests)
+> [port 0](/ports/port_0)

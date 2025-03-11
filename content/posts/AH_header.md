@@ -6,8 +6,8 @@ title: Authenticatio Header
 
 Hash of the packet and shared key - MD5,SHA-1or SHA-2 are common  
 - Addts the Ah to to the packet header
-![AH_visual.png](/Notes/AH_visual.png)
+![AH_visual.png](/static/AH_visual.png)
 
 ------------------------------------------------------------------------
 
-[IPSec_protocol](/Notes/posts//posts/IPSec_protocol)
+[IPSec_protocol](//posts/IPSec_protocol)

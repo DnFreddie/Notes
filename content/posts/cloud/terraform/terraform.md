@@ -8,8 +8,8 @@ title: Terraform
 
 [Best Practices](https://www.terraform-best-practices.com/)
 
-*open source cloud agnostic [iac](/Notes/posts/cloud/iaC/iaC)*  
-![Terraform Life cycle](/Notes/terraform_life_cycle_visual.png)
+*open source cloud agnostic [iac](/cloud/iaC/iaC)*  
+![Terraform Life cycle](/static/terraform_life_cycle_visual.png)
 
 -   **Declarative** configuration files  
 -   Installable modules  
@@ -18,18 +18,18 @@ title: Terraform
 -   State management  
 -   Provision infrastructure in familiar languages  
 -   [Terraform
-    Registry](/Notes/posts/cloud/terraform/terraform_registry) /
+    Registry](/cloud/terraform/terraform_registry) /
     [Terraform modules
-    structure](/Notes/posts/cloud/terraform/terraform_standard_module_structure)
+    structure](/cloud/terraform/terraform_standard_module_structure)
     -   via AWS CDK
 
 **Speculative vs Saved**  
 ![Speculative Plans vs Saved
-Plans](/Notes/terraform_plan_table_visual.png)
+Plans](/static/terraform_plan_table_visual.png)
 
-### [Terraform state](/Notes/posts/cloud/terraform/terraform_state)
+### [Terraform state](/cloud/terraform/terraform_state)
 
-### [Registry](/Notes/posts/cloud/terraform/terraform_registry)
+### [Registry](/cloud/terraform/terraform_registry)
 
 ### Initializing
 
@@ -63,7 +63,7 @@ terraform {
 | `terraform host = "ssh://user@remote-host:22"`                      |
 | \- **Aliases** (*To disguise the same providers e.g., AWS regions*) |
 
-![Aliases rules](/Notes/alias_providers_code_block_visual.png)  
+![Aliases rules](/static/alias_providers_code_block_visual.png)  
 [Docker Provider
 Example](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs)
 
@@ -154,9 +154,9 @@ dynamic "ingress" {
 }
 ```
 
-#### [Variables Definitions Files](/Notes/posts/cloud/terraform/terraform_config_files#variable-definitions-files)
+#### [Variables Definitions Files](/cloud/terraform/terraform_config_files#variable-definitions-files)
 
-#### [Env Vars](/Notes/posts/cloud/terraform/terraform_config_files#env-variables)
+#### [Env Vars](/cloud/terraform/terraform_config_files#env-variables)
 
 ------------------------------------------------------------------------
 
@@ -241,14 +241,14 @@ terraform graph | dot -Tsvg > graph.svg
 
 ### Terraform Core and Plugins
 
--   `Core` *uses [RPC](/Notes/posts/RPC_calls) to communicate with
+-   `Core` *uses [RPC](/RPC_calls) to communicate with
     plugins*
 -   `Plugins` expose implementation for a specific service or
     provisioner
 
 ### Terraform and Ansible
 
-![Terraform and Ansible](/Notes/terraform_and_ansible_visual.png)
+![Terraform and Ansible](/static/terraform_and_ansible_visual.png)
 
 ------------------------------------------------------------------------
 

@@ -7,8 +7,8 @@ title: VPN
 ## Virtual Private Networks
 
 **Encrypted** (private) data traversing a public network as opposite to
-[GRE_prtocol](/Notes/posts/GRE_prtocol) ## VPN protocols
-[IPSec_protocol](/Notes/posts/IPSec_protocol) ## VPN Concentrator -
+[GRE_prtocol](/GRE_prtocol) ## VPN protocols
+[IPSec_protocol](/IPSec_protocol) ## VPN Concentrator -
 Device that **Encrytp/Decrypt** the data - Often interateed into
 \[\[firewall\]\]
 
@@ -18,4 +18,4 @@ Device that **Encrytp/Decrypt** the data - Often interateed into
     -   Softwer
     -   Somtime built into os
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
+> \[!quote\] [ports](/ports/ports)

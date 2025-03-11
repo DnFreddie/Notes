@@ -8,4 +8,4 @@ First thing is the **/var/log/auth.log**
 
 ------------------------------------------------------------------------
 
-[ssh](/Notes/posts/protocols/ssh)
+[ssh](/protocols/ssh)

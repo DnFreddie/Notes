@@ -12,11 +12,11 @@ updates 1. The routers are able to intellygently update othe router of
 the network  
 - Very specialized - Difficult to scale across large networks - Used
 both in - [IPv4
-address](/Notes/posts/Network/basic_network_connections/IPv4_address) -
-extensive use in [IPv6 address](/Notes/posts/Network/IPv6_address)
+address](/Network/basic_network_connections/IPv4_address) -
+extensive use in [IPv6 address](/Network/IPv6_address)
 
 ------------------------------------------------------------------------
 
--   [anycast](/Notes/posts/for_later/anycast)
--   [multicast](/Notes/posts/for_later/multicast)
--   [broadcast](/Notes/posts/for_later/broadcast)
+-   [anycast](/for_later/anycast)
+-   [multicast](/for_later/multicast)
+-   [broadcast](/for_later/broadcast)

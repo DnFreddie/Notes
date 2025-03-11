@@ -13,7 +13,7 @@ title: POP3
 
 Basic mail transfer functionality. It ==does not offer many
 possibilities for managing data==; therefore,
-[IMAP4](/Notes/posts/protocols/IMAP4) is used more often.
+[IMAP4](/protocols/IMAP4) is used more often.
 
 ------------------------------------------------------------------------
 

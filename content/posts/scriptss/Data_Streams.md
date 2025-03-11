@@ -6,10 +6,10 @@ title: Data Streams
 
 ## Data Streams
 
-![Standard input](/Notes/posts/scriptss/Standard_input)
+![Standard input](/scriptss/Standard_input)
 
 |                                                           |
 |-----------------------------------------------------------|
-| ![Standard output](/Notes/posts/scriptss/Standard_output) |
+| ![Standard output](/scriptss/Standard_output) |
 
-![Standard Error](/Notes/posts/scriptss/Standard_Error)
+![Standard Error](/scriptss/Standard_Error)

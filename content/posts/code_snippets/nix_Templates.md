@@ -41,5 +41,5 @@ with self*
 
 ------------------------------------------------------------------------
 
-[nix](/Notes/posts/nix)
-[flake](/Notes/posts/code_snippets/flake)[SNIPPETS_MAIN](/Notes/posts/SNIPPETS_MAIN)
+[nix](/nix)
+[flake](/code_snippets/flake)[SNIPPETS_MAIN](/SNIPPETS_MAIN)

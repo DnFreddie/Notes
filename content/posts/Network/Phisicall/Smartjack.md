@@ -13,5 +13,5 @@ monitroingf of the network
 -   Can be a circut card in a chassis *(alot of bliking lights and
     status lights with limmited acces becouse its the property of a
     network provider)*
-    **{{[Physical_OSI](/Notes/posts/Network/Ref_OSI/Physical_OSI)}}**
-    **{{[CPE](/Notes/posts/Network/Phisicall/CPE)}}**
+    **{{[Physical_OSI](/Network/Ref_OSI/Physical_OSI)}}**
+    **{{[CPE](/Network/Phisicall/CPE)}}**

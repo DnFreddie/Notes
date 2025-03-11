@@ -12,7 +12,7 @@ network connection in a given amount of time.*
 or a multiple thereof, such as kilobits per second (Kbps), megabits per
 second (Mbps), or gigabits per second (Gbps).
 
-[HTTPS](/Notes/posts/protocols/HTTPS)
-[HTTP](/Notes/posts/protocols/HTTP)
+[HTTPS](/protocols/HTTPS)
+[HTTP](/protocols/HTTP)
 
-[Nagle’s_Algorithm](/Notes/posts/Nagle's_Algorithm)
+[Nagle’s_Algorithm](/Nagle's_Algorithm)

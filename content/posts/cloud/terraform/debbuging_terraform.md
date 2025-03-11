@@ -21,4 +21,4 @@ title: Debbuging terraform
 
 ------------------------------------------------------------------------
 
--   [Terraform](/Notes/posts/cloud/terraform/terraform)
+-   [Terraform](/cloud/terraform/terraform)

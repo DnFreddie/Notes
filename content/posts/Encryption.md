@@ -10,7 +10,7 @@ title: Encryption
 
 ------------------------------------------------------------------------
 
-> \[!quote\]- [Hash](/Notes/posts/Hash) [Digital
-> certificate](/Notes/posts/Digital_certificate) \[\[Hash vs Encryption
+> \[!quote\]- [Hash](/Hash) [Digital
+> certificate](/Digital_certificate) \[\[Hash vs Encryption
 > vs digital signature.canvas\|Hash vs Encryption vs digital
 > signature\]\]

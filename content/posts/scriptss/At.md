@@ -14,5 +14,5 @@ at **time** -f path/to/file *./*myscript
 
 ------------------------------------------------------------------------
 
-[Cronetab](/Notes/posts/scriptss/Cronetab) \| [Scheduling
-Scripts](/Notes/posts/scriptss/Scheduling_Scripts)
+[Cronetab](/scriptss/Cronetab) \| [Scheduling
+Scripts](/scriptss/Scheduling_Scripts)

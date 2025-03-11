@@ -8,4 +8,4 @@ title: cross join.sql
 
 > Select from cross join ;
 
-[join.sql](/Notes/posts/SQL/join.sql)
+[join.sql](/SQL/join.sql)

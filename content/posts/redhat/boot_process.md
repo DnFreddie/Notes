@@ -4,9 +4,9 @@ date : 2025-01-21T20:15:48+01:00
 draft: false
 ---
 
-[UEFI vs BIOS](/Notes/posts/UEFI_vs_BIOS)
+[UEFI vs BIOS](/UEFI_vs_BIOS)
 
-![Pasted_image_20240424191852.png](/Notes/Pasted_image_20240424191852.png)
+![Pasted_image_20240424191852.png](/static/Pasted_image_20240424191852.png)
 
 ## Hardware sources
 
@@ -26,7 +26,7 @@ dmesg | head
 
 ------------------------------------------------------------------------
 
-[Grub 2](/Notes/posts/GRUB_2)
+[Grub 2](/GRUB_2)
 
 ### Steps 
 
@@ -43,7 +43,7 @@ dmesg | head
 * Loading  `initramfs` 
     * On Rehl it also contains the **complate OS**
 * `Starting /sbin/init`
-    * And loading [systemd-udev](/Notes/posts/redhat/systemd-udev) daemon
+    * And loading [systemd-udev](/redhat/systemd-udev) daemon
 
 * `Process initrd.target`(*ececute all units to create minimal env*)
     * mounting *root file system* on  `/sysroot`
@@ -67,7 +67,7 @@ mount -o remount,rw /
 mount -o remount,ro /
 
 ```
-Rembert to `.autorelabel` for [SELinux](/Notes/posts/SELinux)
+Rembert to `.autorelabel` for [SELinux](/SELinux)
 5. reboot the system 
 
 ```bash 
@@ -76,5 +76,5 @@ exec /sbin/init 6
 exec /usr/lib/systemd/systemd
 ```
 ---
-[restet root pass](/Notes/posts/redhat/troubleshotting/restet_root_pass)
-[init](/Notes/posts/init)
+[restet root pass](/redhat/troubleshotting/restet_root_pass)
+[init](/init)

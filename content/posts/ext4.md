@@ -11,7 +11,7 @@ title: ext4
     -   Max *4 billion files*
         -   maximum length of a file name is *256* bytes
 
-> \[!tip\]- You can easily upgrade [ext3](/Notes/posts/ext3) to ext4 and
+> \[!tip\]- You can easily upgrade [ext3](/ext3) to ext4 and
 > vice versa.
 
 ------------------------------------------------------------------------

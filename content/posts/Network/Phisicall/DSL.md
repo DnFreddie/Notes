@@ -10,7 +10,7 @@ Digital Subscriber Line
 
 It is a technology that uses existing telephone lines to provide
 high-speed Internet access to homes and businesses. DSL works by sending
-data over the **copper [Cables](/Notes/posts/Network/Phisicall/Cables)**
+data over the **copper [Cables](/Network/Phisicall/Cables)**
 that make up the telephone network.
 
 *It uses a different frequency band than traditional telephone calls, so

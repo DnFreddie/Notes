@@ -10,5 +10,5 @@ title: service
 ### Stops the system demon - Syntax - service servicename
 **start\|stop\|restart**
 
-> \[!quote\] [ps](/Notes/posts/Linux/commands/ps)
-> [top](/Notes/posts/Linux/top)
+> \[!quote\] [ps](/Linux/commands/ps)
+> [top](/Linux/top)

@@ -15,8 +15,8 @@ options - Like aggregation - Port mirroring - NetFlow
 > envairoment*
 
 -   Deployed from the
-    [hypervisor](/Notes/posts/Network/vitrual/hypervisor) Automate with
+    [hypervisor](/Network/vitrual/hypervisor) Automate with
     orchestration > \[!example\]
-    ![vSwitch_visual.png](/Notes/vSwitch_visual.png)
+    ![vSwitch_visual.png](/static/vSwitch_visual.png)
 
-> \[!quote\] [vNIC](/Notes/posts/Network/vitrual/vNIC)
+> \[!quote\] [vNIC](/Network/vitrual/vNIC)

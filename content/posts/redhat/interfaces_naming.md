@@ -11,7 +11,7 @@ draft: false
 * Adapter naming
     * `o` onboard(*build into the motherboard*)
     * `s` hotplug slot 
-    * `p` [PCI device](/Notes/posts/Getting_PCI_dev_info) 
+    * `p` [PCI device](/Getting_PCI_dev_info) 
     * `x` used to create the devie name based on the **MAC** adress
 
 * Then follows a number, which is used to represent an index, ID, or port.

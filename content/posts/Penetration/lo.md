@@ -15,7 +15,7 @@ use lo to test something on your system, such as your own web server.
 - An easy way to self refence is to ping **127.0.0.1**
 
 > \[!quote\] [defult
-> gateway](/Notes/posts/Network/basic_network_connections/defult_gateway)
+> gateway](/Network/basic_network_connections/defult_gateway)
 > ; [subnet
-> mask](/Notes/posts/Network/basic_network_connections/subnet_mask) ;
-> [DNS](/Notes/posts/Network/Phisicall/DNS)
+> mask](/Network/basic_network_connections/subnet_mask) ;
+> [DNS](/Network/Phisicall/DNS)

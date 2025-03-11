@@ -15,7 +15,7 @@ Operating a sneaker bot requires several components:
 -   Proxy clients that provide IP addresses The proxy server provides
     access to a large number of proxies, and can be used to parallelize
     the bot, running it multiple times against the same website.
-    [proxy](/Notes/posts/Linux/Network_manipulation/proxy) The proxies
+    [proxy](/Linux/Network_manipulation/proxy) The proxies
     give each instance of the bot a unique IP address. A bot uses
     multiple IP addresses to make it seem like multiple people are
     performing actions. For example, mass-entering into one online queue
@@ -27,4 +27,4 @@ IP.
 
 ------------------------------------------------------------------------
 
-[bots_gtp_recomendations](/Notes/posts/bots_gtp_recomendations)
+[bots_gtp_recomendations](/bots_gtp_recomendations)

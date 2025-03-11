@@ -31,4 +31,4 @@ within the chroot directory.
 
 ------------------------------------------------------------------------
 
-[Namespaces](/Notes/posts/Namespaces)
+[Namespaces](/Namespaces)

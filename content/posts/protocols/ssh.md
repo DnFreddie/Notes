@@ -30,15 +30,15 @@ Host test
 ssh-keygen -t ed25519
 ```
 
-> \[!bug\] Rember about [Permissions](/Notes/posts/Linux/Permissions)
+> \[!bug\] Rember about [Permissions](/Linux/Permissions)
 > Wsl grants all the permison to a file that may casue issue becouse ssh
 > will claim thas **insecure**
 >
 > The the permisons shoudl be `0400`
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
-> [podman](/Notes/posts/podman)
-> [docker](/Notes/posts/Linux/Docker/docker)
+> \[!quote\] [ports](/ports/ports)
+> [podman](/podman)
+> [docker](/Linux/Docker/docker)
 
 ### SSH Tunnels/Por forwarding
 

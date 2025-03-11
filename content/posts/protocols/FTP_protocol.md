@@ -14,6 +14,6 @@ title: FTP protocol
     -   Authenticates with username and password
     -   Fulle-featured functionality (*list , add, delete, etc.*)
 -   Simple alterative is
-    [TFTP_protcol](/Notes/posts/protocols/TFTP_protcol)
+    [TFTP_protcol](/protocols/TFTP_protcol)
 
 > \[!quote\] \[\[ports#Common ports\]\]

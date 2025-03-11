@@ -18,4 +18,4 @@ minute.
 
 ------------------------------------------------------------------------
 
--   [PID_control](/Notes/posts/PID_control)
+-   [PID_control](/PID_control)

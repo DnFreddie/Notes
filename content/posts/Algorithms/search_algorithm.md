@@ -4,8 +4,8 @@ draft: false
 title: search algorithm
 ---
 
-    ![lineral search](/Notes/posts/Algorithms/lineral_search)
+    ![lineral search](/Algorithms/lineral_search)
 
 1
 
-![binary search](/Notes/posts/Algorithms/binary_search)
+![binary search](/Algorithms/binary_search)

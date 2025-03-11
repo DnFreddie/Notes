@@ -6,15 +6,15 @@ title: DHCP server
 
 ## Dynamic Host Configuration Server
 
--   The DHCP assaigns [IP](/Notes/posts/Network/Ref_OSI/IP) address to
+-   The DHCP assaigns [IP](/Network/Ref_OSI/IP) address to
     all devisces on the [subnet
-    mask](/Notes/posts/Network/basic_network_connections/subnet_mask)
+    mask](/Network/basic_network_connections/subnet_mask)
     -   IT keeps all the log files of wich machine is
         <mark style="background: #FF5582A6;">allocated to which IP
         address at anyone time</mark>
         -   The DHCP is running in the bacgorund as *dhcp dameon*
 -   In oreder to connect from
-    [LAN](/Notes/posts/Network/Network_Types/LAN) u **must have** DHCP
+    [LAN](/Network/Network_Types/LAN) u **must have** DHCP
     assaigned IP
     -   You can do it by
         -   either restart or
@@ -28,6 +28,6 @@ title: DHCP server
                 this case) and confirms the IP assignment to the DHCP
                 server with a dhcp request.
 
-> \[!quote\] [DHCP_protocol](/Notes/posts/protocols/DHCP_protocol)
+> \[!quote\] [DHCP_protocol](/protocols/DHCP_protocol)
 > [Automatic Private IP
-> Addessing](/Notes/posts/Network/basic_network_connections/Automatic_Private_IP_Addessing)
+> Addessing](/Network/basic_network_connections/Automatic_Private_IP_Addessing)

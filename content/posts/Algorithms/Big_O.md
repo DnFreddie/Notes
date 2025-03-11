@@ -30,7 +30,7 @@ O fo N
 
 -   O squere (“*usually loop inside the loop*”) **O (N^2)**
 
-    > ![OSquer_visla.png](/Notes/OSquer_visla.png)
+    > ![OSquer_visla.png](/static/OSquer_visla.png)
 
 > Tip
 >
@@ -38,9 +38,9 @@ O fo N
 > O(NlogN)*
 
 -   O(n log n)
-    -   [Quick Sort](/Notes/posts/Algorithms/quick_sort)
+    -   [Quick Sort](/Algorithms/quick_sort)
 -   O(log n)
     -   [Binary search
-        trees](/Notes/posts/Algorithms/Binary_Search_Tree)
+        trees](/Algorithms/Binary_Search_Tree)
 
-> ![BIgOTypes_visual.png](/Notes/BIgOTypes_visual.png)
+> ![BIgOTypes_visual.png](/static/BIgOTypes_visual.png)

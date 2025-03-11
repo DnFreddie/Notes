@@ -15,7 +15,7 @@ with your favorite anime girlfriend. *Fortunately, we have computers*…
 
 ### Computers log everything
 
-![Micorsoft recall](/Notes/Microsoft-Recall-Title.jpg)
+![Micorsoft recall](/static/Microsoft-Recall-Title.jpg)
 
 Booting, crashes, and now even your browser activity. Recently,
 Microsoft announced their new killer feature called Copilot
@@ -95,7 +95,7 @@ guest , **journalctl**.
 
 ### A Small Introduction
 
-![We need more logs meme](/Notes/logging_meeme.jpeg)
+![We need more logs meme](/static/logging_meeme.jpeg)
 
 **Journalctl** is an honorable member of the systemd tools suite.
 
@@ -133,7 +133,7 @@ journalctl --disk-usage
 
 ### How Does journalctl Think?
 
-![Journalctl levels](/Notes/journal_levels.png)
+![Journalctl levels](/static/journal_levels.png)
 
 **Journalctl** views the changing reality of your system in eight
 categories.
@@ -207,7 +207,7 @@ types of log messages, making system administration more efficient.
 
 ### We Are Surrounded by Sessions
 
-![Session picutre](/Notes/seesion.png)
+![Session picutre](/static/seesion.png)
 
 Yoga sessions, therapy sessions, browser sessions , sessions are
 everywhere. journalctl is no exception; it keeps things real with its
@@ -249,7 +249,7 @@ us…
 
 ### Who Watches Last, Lastb? Somebody’s Watching Me?
 
-![Somebodys watching singer](/Notes/somboeiesWatching.jpg)
+![Somebodys watching singer](/static/somboeiesWatching.jpg)
 
 I always feel like [Somebody’s Watching
 Me…](https://www.youtube.com/watch?v:%207YvAYIJSSZY)
@@ -314,7 +314,7 @@ sudo lastb
 
 ### All of Us Are Peeping Toms Somewhere Deep Down
 
-![Pair peeping on friends](/Notes/peeping.png)
+![Pair peeping on friends](/static/peeping.png)
 
 That’s why the **w** command was invented.
 
@@ -371,7 +371,7 @@ whowatch
 
 ### Logs Are Everywhere, You Just Have to Reach for Them
 
-![What does the log say](/Notes/what_doesThe_log_say.png)
+![What does the log say](/static/what_doesThe_log_say.png)
 
 Unfortunately, in the Linux world, we tend to skip any form of reading
 logs because it’s much simpler and quicker to create a new machine or to

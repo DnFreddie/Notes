@@ -7,7 +7,7 @@ title: RPC calls
 ## Remote Procedure Calls
 
 Server or a service that allows clients to execute commands or
-[Functions](/Notes/posts/scriptss/Functions) as it they where a part of
+[Functions](/scriptss/Functions) as it they where a part of
 a native program *calling the functions that not at the same computer*
 
 > \[!quote\]

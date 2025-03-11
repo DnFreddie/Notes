@@ -9,4 +9,4 @@ title: Repository Configuration
         */etc/apt/sources.list.d*
 
 > \[!example\]
-> ![Pasted_image_20240501084739.png](/Notes/Pasted_image_20240501084739.png)
+> ![Pasted_image_20240501084739.png](/static/Pasted_image_20240501084739.png)

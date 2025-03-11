@@ -12,10 +12,10 @@ title: threads
 
 ### Multithreades
 
-![MultiThreadsGraph_Visual.png](/Notes/MultiThreadsGraph_Visual.png) ###
+![MultiThreadsGraph_Visual.png](/static/MultiThreadsGraph_Visual.png) ###
 Differece between the
-[processes_kernel](/Notes/posts/for_later/processes_kernel)
+[processes_kernel](/for_later/processes_kernel)
 [ProcessVsThreads_visual.png](/ProcessVsThreads_visual.png)
 
-> \[!quote\] [handle](/Notes/posts/Linux/Kernel/handle)
-> [Kernel](/Notes/posts/Linux/Kernel/Kernel)
+> \[!quote\] [handle](/Linux/Kernel/handle)
+> [Kernel](/Linux/Kernel/Kernel)

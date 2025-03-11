@@ -87,4 +87,4 @@ examples.
 
 ------------------------------------------------------------------------
 
-[grep](/Notes/posts/Linux/commands/grep)
+[grep](/Linux/commands/grep)

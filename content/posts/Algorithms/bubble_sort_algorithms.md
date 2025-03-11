@@ -7,7 +7,7 @@ title: Bubule Sort
 -   Singular iteration produces the largest number
 
 -   *The first interation is N the other is
-    N-1* >![BubleSort_visual.png](/Notes/BubleSort_visual.png)
+    N-1* >![BubleSort_visual.png](/static/BubleSort_visual.png)
 
 -   we take an sorrted **Static Array**
 
@@ -19,7 +19,7 @@ title: Bubule Sort
 
 -   **The run time is OF of n(2) squer**
 
-    -   [Big O](/Notes/posts/Algorithms/Big_O)
+    -   [Big O](/Algorithms/Big_O)
 
 ## Implementation
 

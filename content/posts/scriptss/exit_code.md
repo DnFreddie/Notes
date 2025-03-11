@@ -8,13 +8,13 @@ title: exit code
 
 **echo $?** prints a code of an error *of the last command* - if code is
 equal to 0 the command whats succesful - if you set the
-[Variables](/Notes/posts/scriptss/Variables) to **exit (number)** this
+[Variables](/scriptss/Variables) to **exit (number)** this
 will fore the exit code to be the number  
 - if u add it to the function it will end the
-[Functions](/Notes/posts/scriptss/Functions) \>\[!example\]- \>
-![Pasted_image_20230401160713.png](/Notes/Pasted_image_20230401160713.png)
+[Functions](/scriptss/Functions) \>\[!example\]- \>
+![Pasted_image_20230401160713.png](/static/Pasted_image_20230401160713.png)
 
 > \[!quote\] **U can redirect the wrong outpu to the**
-> [devnull](/Notes/posts/scriptss/devnull) [Standard
-> Error](/Notes/posts/scriptss/Standard_Error) [Data
-> Streams](/Notes/posts/scriptss/Data_Streams)
+> [devnull](/scriptss/devnull) [Standard
+> Error](/scriptss/Standard_Error) [Data
+> Streams](/scriptss/Data_Streams)

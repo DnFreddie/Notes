@@ -10,7 +10,7 @@ title: sqlx
 Compile-time checked queries - Database agnostic - Runtime agnostic -
 Works on different runtimes (async-std / tokio / actix) and TLS backends
 (native-tls, rustls) - Automatic statement preparation and caching -
-Transport Layer Security ([TLS/SSL](/Notes/posts/protocols/TLS_SSL))
+Transport Layer Security ([TLS/SSL](/protocols/TLS_SSL))
 where supported (MySQL and PostgreSQL)
 
 ## Migrations

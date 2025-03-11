@@ -7,7 +7,7 @@ title: UPC connector
 ## Ultra-polished connectors
 
 -   Fereule end-face radius polished data a zero degree angle
--   High [Return Loss](/Notes/posts/Network/Phisicall/Return_Loss)
+-   High [Return Loss](/Network/Phisicall/Return_Loss)
 
-> \[!quote\] [Fiber](/Notes/posts/Network/Phisicall/Fiber)
-> [Cables](/Notes/posts/Network/Phisicall/Cables)
+> \[!quote\] [Fiber](/Network/Phisicall/Fiber)
+> [Cables](/Network/Phisicall/Cables)

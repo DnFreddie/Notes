@@ -4,7 +4,7 @@ draft: false
 title: Nagle Algorithm
 ---
 
-# Nagle’s Algorithm ([TCP](/Notes/posts/Network/Ref_OSI/TCP))
+# Nagle’s Algorithm ([TCP](/Network/Ref_OSI/TCP))
 
 -   **Purpose:** Reduces the number of small packets on the network by
     combining small messages.
@@ -22,5 +22,5 @@ use.
 
 ------------------------------------------------------------------------
 
-[HTTP](/Notes/posts/protocols/HTTP) [Ports](/Notes/posts/ports/ports)
-[Bandwidth](/Notes/posts/Network/Phisicall/bandwidth)
+[HTTP](/protocols/HTTP) [Ports](/ports/ports)
+[Bandwidth](/Network/Phisicall/bandwidth)

@@ -18,13 +18,13 @@ solid-state drive ({{\< ref “posts/SSD.md” \>}}) which data blocks are
 no longer needed and can be deleted or marked as free for rewriting. -
 Instead of deleting whole blocks of memory, TRIM enables deletion at the
 \[\[Block_dev#page\|page level\]\]. - Whenever a delete command is
-issued by the operating system or the user, the [SSD](/Notes/posts/SSD)
+issued by the operating system or the user, the [SSD](/SSD)
 automatically sends a TRIM command to wipe the storage space being
 erased.
 
 > \[!tip\] To enable it permanently, modify ***/etc/fstab*** and add the
 > **discard option**.
-> ![Pasted_image_20240511151618.png](/Notes/Pasted_image_20240511151618.png)
+> ![Pasted_image_20240511151618.png](/static/Pasted_image_20240511151618.png)
 
 -   **To run it manually:**
 
@@ -39,9 +39,9 @@ erased.
 #### Benefits
 
 -   Prevents rapid wear of the flash memory chips inside the
-    [SSD](/Notes/posts/SSD).
+    [SSD](/SSD).
 -   Faster reading and writing speeds.
 
 ------------------------------------------------------------------------
 
-[NVMe](/Notes/posts/NVMe)
+[NVMe](/NVMe)

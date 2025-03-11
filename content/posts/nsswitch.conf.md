@@ -13,9 +13,9 @@ service providers.**
     *hostname lookup, password lookups, and so on.*
 
 > Example
-> ![Pasted_image_20240430084931.png](/Notes/Pasted_image_20240430084931.png)
+> ![Pasted_image_20240430084931.png](/static/Pasted_image_20240430084931.png)
 
 ------------------------------------------------------------------------
 
-- [DNS](/Notes/posts//posts/Network/Phisicall/DNS)
-- [profile etc](/Notes/posts/Linux/etc/profile_etc)
+- [DNS](//posts/Network/Phisicall/DNS)
+- [profile etc](/Linux/etc/profile_etc)

@@ -37,9 +37,9 @@ sestatus
 -   **Minimum** Only *selected* processes are targeted
 
 -   **Mls** *Multi Level security protection* >\[!example\]- >
-    ![Pasted_image_20240507104548.png](/Notes/Pasted_image_20240507104548.png)
+    ![Pasted_image_20240507104548.png](/static/Pasted_image_20240507104548.png)
     ### Labels >\[!example\] It’s a label on the
-    file >![Pasted_image_20240507105206.png](/Notes/Pasted_image_20240507105206.png)
+    file >![Pasted_image_20240507105206.png](/static/Pasted_image_20240507105206.png)
 
 -   **User** User mapped to the Selinux
 
@@ -115,4 +115,4 @@ semanage boolead --modyfie --on options
 
 ------------------------------------------------------------------------
 
-[AppArmor](/Notes/posts/AppArmor)
+[AppArmor](/AppArmor)

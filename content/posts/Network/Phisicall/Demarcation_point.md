@@ -6,7 +6,7 @@ title: Demarcation point
 
 ## The point were u connect with outside world
 
--   [WAN](/Notes/posts/Network/Network_Types/WAN) provider
+-   [WAN](/Network/Network_Types/WAN) provider
 -   Internet service provider
 -   #alt-name **demarc**
 -   Used everywhere
@@ -14,4 +14,4 @@ title: Demarcation point
     -   Central location in a building
         -   *Usually a netowrk interface device*
         -   Can be as simple as an RJ-45 connection
--   U connect your [CPE](/Notes/posts/Network/Phisicall/CPE)
+-   U connect your [CPE](/Network/Phisicall/CPE)

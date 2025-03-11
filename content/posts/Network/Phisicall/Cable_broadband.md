@@ -6,7 +6,7 @@ title: Cable Broadband
 
 -   **Transmition across multiple frequencies**
 -   Different traffic types(*internet teelevision phone etc*)
--   Data on the [Cables](/Notes/posts/Network/Phisicall/Cables) network
+-   Data on the [Cables](/Network/Phisicall/Cables) network
     -   Type of connections used by this model is called **DOCSIS**
         (Data Over Cable Service Interfece Specyfication)
 -   High-speed networking

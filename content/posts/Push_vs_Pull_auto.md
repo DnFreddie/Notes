@@ -12,10 +12,10 @@ title: Push vs Pull_auto
 
 ------------------------------------------------------------------------
 
-[iaC](/Notes/posts/cloud/iaC/iaC) \[\[Automation
+[iaC](/cloud/iaC/iaC) \[\[Automation
 tools.canvas\|Automation tools\]\]
 
 | Push                                               | Pull                          |
 |----------------------------------------------------|-------------------------------|
-| \[\[Ansyible\]\]                                   | [Puppet](/Notes/posts/Puppet) |
-| [Teraform](/Notes/posts/cloud/terraform/terraform) |                               |
+| \[\[Ansyible\]\]                                   | [Puppet](/Puppet) |
+| [Teraform](/cloud/terraform/terraform) |                               |

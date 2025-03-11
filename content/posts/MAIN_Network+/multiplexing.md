@@ -9,4 +9,4 @@ title: multiplexing
 -   Use many diffrent appcialtions at the same time
 
 > \[!quote\]
-> [TCP](/Notes/posts/Network/Ref_OSI/TCP)\|\[\[UDP\]\]\|[IP](/Notes/posts/Network/Ref_OSI/IP)\|[Transport_OSI](/Notes/posts/Network/Ref_OSI/Transport_OSI)
+> [TCP](/Network/Ref_OSI/TCP)\|\[\[UDP\]\]\|[IP](/Network/Ref_OSI/IP)\|[Transport_OSI](/Network/Ref_OSI/Transport_OSI)

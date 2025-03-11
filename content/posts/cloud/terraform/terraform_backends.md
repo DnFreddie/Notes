@@ -21,7 +21,7 @@ backend "s3"{
 }
 ```
 
-![Standard Backends](/Notes/standard_backeds_options_visual.png)
+![Standard Backends](/static/standard_backeds_options_visual.png)
 **Enhanced backends** - can both sotre state - can perform terraform
 operations - `Local` files and data sotred locally - `Remote` files and
 data **stored in the Cloud** - The `Terraform Clourd Run Enviroment` is
@@ -61,7 +61,7 @@ in Terraform cloud
 The `backednd-config` falg for **terraform init** used for
 `partial backend` configuration - Use when the backend seting are
 **dynamic or sensitive** *Baiscly u run this form another file*
-![Backend Initialization](/Notes/backend_initialization_visual.png)
+![Backend Initialization](/static/backend_initialization_visual.png)
 
 ### \[Terraform State Locking\]({{\< ref “posts/cloud/terraform/terraform_state.md#terraform-state-locking”\>}})
 
@@ -69,5 +69,5 @@ The `backednd-config` falg for **terraform init** used for
 
 ------------------------------------------------------------------------
 
--   [Teraform state](/Notes/posts/cloud/terraform/terraform_state)
--   [Teraform](/Notes/posts/cloud/terraform/terraform)
+-   [Teraform state](/cloud/terraform/terraform_state)
+-   [Teraform](/cloud/terraform/terraform)

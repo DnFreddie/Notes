@@ -4,20 +4,20 @@ draft: false
 title: host net
 ---
 
-    [Containers](/Notes/posts/Containers) Share the same networkin  [Namespaces](/Notes/posts/Namespaces) as  host 
+    [Containers](/Containers) Share the same networkin  [Namespaces](/Namespaces) as  host 
 
--   no [NAT](/Notes/posts/Network/basic_network_connections/NAT)
--   no [proxy](/Notes/posts/Linux/Network_manipulation/proxy) **–network
+-   no [NAT](/Network/basic_network_connections/NAT)
+-   no [proxy](/Linux/Network_manipulation/proxy) **–network
     host** flag
 
 ``` bash
 docker run -d --name test --network host aura/myapp-188:v3
 ```
 
-![Pasted_image_20240510105230.png](/Notes/Pasted_image_20240510105230.png)
+![Pasted_image_20240510105230.png](/static/Pasted_image_20240510105230.png)
 
 ------------------------------------------------------------------------
 
-[bridge_net](/Notes/posts/bridge_net)
-[overlay_net](/Notes/posts/overlay_net)
-[docker](/Notes/posts/Linux/Docker/docker)
+[bridge_net](/bridge_net)
+[overlay_net](/overlay_net)
+[docker](/Linux/Docker/docker)

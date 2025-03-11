@@ -8,10 +8,10 @@ title: Application Layer OSI
 4. POP3
 
 ## Common devices [Layer 7
-Firewalls](/Notes/posts/Network/Ref_OSI/L7_FireWalls) - `WAF` *Web
+Firewalls](/Network/Ref_OSI/L7_FireWalls) - `WAF` *Web
 application Firewall* - `Reverse Proxies` *Load Balancers* -
 `Next Gen Firewalls` *Load Balancers*
 
 ------------------------------------------------------------------------
 
-[OSI Model](/Notes/posts/MAIN_Network+/OSI_Model)
+[OSI Model](/MAIN_Network+/OSI_Model)

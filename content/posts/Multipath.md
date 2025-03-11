@@ -14,4 +14,4 @@ title: Multipath
 
 ------------------------------------------------------------------------
 
-[SAN](/Notes/posts/Network/Data/SAN) [iSCSI](/Notes/posts/iSCSI)
+[SAN](/Network/Data/SAN) [iSCSI](/iSCSI)

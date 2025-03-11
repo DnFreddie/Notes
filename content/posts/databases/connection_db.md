@@ -7,7 +7,7 @@ title: connection db
 ## Database ports
 
 > \[!example\]-
-> ![DatabasePorts_visual.png](/Notes/DatabasePorts_visual.png)
+> ![DatabasePorts_visual.png](/static/DatabasePorts_visual.png)
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
-> [sqlx](/Notes/posts/libriairies/sqlx)
+> \[!quote\] [ports](/ports/ports)
+> [sqlx](/libriairies/sqlx)

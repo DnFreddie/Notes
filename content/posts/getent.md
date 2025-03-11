@@ -20,4 +20,4 @@ getent  passwd  aura
 
 ------------------------------------------------------------------------
 
-[passwd](/Notes/posts/Linux/etc/passwd)
+[passwd](/Linux/etc/passwd)

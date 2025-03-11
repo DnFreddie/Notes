@@ -8,4 +8,4 @@ title: Time series db
 In some fields, time series may be called profiles, curves, traces or
 trends.
 
-[prometheus](/Notes/posts/prometheus/prometheus_main)
+[prometheus](/prometheus/prometheus_main)

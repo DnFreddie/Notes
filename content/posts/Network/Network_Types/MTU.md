@@ -20,10 +20,10 @@ without being fragmented.*
 #### Challenges with MTU Discovery
 
 -   **Automated methods are inaccurate.**
--   **Especially when** [ICMP Protocol](/Notes/posts/ICMP_protocol) **is
+-   **Especially when** [ICMP Protocol](/ICMP_protocol) **is
     filtered.**
 
-### Significant Concern for Tunneled Traffic ([VPN](/Notes/posts/VPN))
+### Significant Concern for Tunneled Traffic ([VPN](/VPN))
 
 *The tunnel might be smaller than your local Ethernet segment.*
 
@@ -31,16 +31,16 @@ without being fragmented.*
 
 **DF =** *Don’t Fragment* - Routers will respond back and tell you to
 fragment the data. - **You need to receive** [ICMP
-Protocol](/Notes/posts/ICMP_protocol) **message (data is too large to
+Protocol](/ICMP_protocol) **message (data is too large to
 send).**
 
 ### Check Whether Data Is Too Large
 
--   Troubleshoot using [ping Command](/Notes/posts/ping_command)
+-   Troubleshoot using [ping Command](/ping_command)
     -   Ping with **DF** forces a particular size of data:
         -   1500 bytes - 8 bytes [ICMP
-            Protocol](/Notes/posts/ICMP_protocol) header - 20 bytes
-            [IP](/Notes/posts/Network/Ref_OSI/IP) = **1472**
+            Protocol](/ICMP_protocol) header - 20 bytes
+            [IP](/Network/Ref_OSI/IP) = **1472**
 
         -   **Windows:**
 
@@ -56,5 +56,5 @@ send).**
 
 ------------------------------------------------------------------------
 
-[Bandwidth](/Notes/posts/Network/Phisicall/bandwidth)
-[Ifconfig](/Notes/posts/Penetration/ifconfig)
+[Bandwidth](/Network/Phisicall/bandwidth)
+[Ifconfig](/Penetration/ifconfig)

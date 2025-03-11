@@ -27,4 +27,4 @@ ln -s [TARGET DIRECTORY] [SYMLINK NAME]
 > 4.5 Inside a Traditional Filesystem, avoid using them
 
 > \[!quote\] [Baisic Linux
-> commands](/Notes/posts/Linux/Linux_commands/Baisic_Linux_commands)
+> commands](/Linux/Linux_commands/Baisic_Linux_commands)

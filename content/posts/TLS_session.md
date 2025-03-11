@@ -29,5 +29,5 @@ establish a secure channel for communication
     verify this certificate to ensure it is communicating with the
     intended server.
 
-> \[!quote\] [TLS_session](/Notes/posts/TLS_session)
+> \[!quote\] [TLS_session](/TLS_session)
 > \[\[request_journey_backend#Decrytp\]\]

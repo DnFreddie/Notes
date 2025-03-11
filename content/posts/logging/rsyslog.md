@@ -8,7 +8,7 @@ title: rsyslog
 
 *By defualt in `Redhat` kernel messages are not collected!*
 
-> [Example](/Notes/Pasted_image_20230407153603.png)
+> [Example](/static/Pasted_image_20230407153603.png)
 
 ### Forwording log to a diffrnetnt location
 
@@ -59,7 +59,7 @@ if  $fromhost-ip startswith '192.' then -?PerHostLog
 
 -   **facility** refrence the programm such as kernel or smth
     -   *facility types*
-        -   ![FacilityTypes_visual.png](/Notes/FacilityTypes_visual.png "fig:fig:")
+        -   ![FacilityTypes_visual.png](/static/FacilityTypes_visual.png "fig:fig:")
             -   An asterisk wildcard ( \* ) in place of a word refers to
                 all facilities.
 -   **action** *Location where the logfiles should be sent*
@@ -68,4 +68,4 @@ if  $fromhost-ip startswith '192.' then -?PerHostLog
         should not be used.**
     -   If the priority is \* , messages of all priorities are logged.
 
-> ![Priority_Codes_visual.png](/Notes/Priority_Codes_visual.png)
+> ![Priority_Codes_visual.png](/static/Priority_Codes_visual.png)

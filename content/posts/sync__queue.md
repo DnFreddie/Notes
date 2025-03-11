@@ -9,5 +9,5 @@ tmeporarly
 
 ------------------------------------------------------------------------
 
-[accept queue](/Notes/posts/request_journey/accept_queue)
-[request_journey_kernel](/Notes/posts/request_journey/request_journey_backend)
+[accept queue](/request_journey/accept_queue)
+[request_journey_kernel](/request_journey/request_journey_backend)

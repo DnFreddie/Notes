@@ -22,7 +22,7 @@ Docs are avaialbe at `man quadlet`
 ```
 
 [Syntax Docs](https://github.com/containers/quadlet/blob/main/docs/Fileformat.md)
-*  Also works with the [Kubernetes](/Notes/posts/CKA/Kubernetes) yaml
+*  Also works with the [Kubernetes](/CKA/Kubernetes) yaml
 > Create  app.kube  file
 ```ini
 [Kube]
@@ -51,5 +51,5 @@ loginctl show-user aura
 loginctl enable-linger
 ``
 --- 
-[podman](/Notes/posts/podman)
+[podman](/podman)
 

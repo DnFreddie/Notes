@@ -19,4 +19,4 @@ title: FQDN
 
 ------------------------------------------------------------------------
 
-[DNS Lookups](/Notes/posts/Network/DNS_Queries.md#lookups)
+[DNS Lookups](/Network/DNS_Queries.md#lookups)

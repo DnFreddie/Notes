@@ -6,7 +6,7 @@ draft: false
 *The way [kublet](#) interacts with the `container runtimes`*
 * It communicates via 2 services using  `gRPC` 
     * **RuntimeService**
-        * Menages the lifecycle of [podman](/Notes/posts/podman) and continers
+        * Menages the lifecycle of [podman](/podman) and continers
         * Handles actions like creating, starting, stopping, and deleting containers.
     * **ImageService**
         * Manages container images.

@@ -9,7 +9,7 @@ title: Prometheus
 ---
 
 *Not a logging tool just* [time series
-db](/Notes/posts/databases/time_series_db) # Installation - Normal way
+db](/databases/time_series_db) # Installation - Normal way
 [Docs](https://stevescargall.com/blog/2021/12/how-to-install-prometheus-and-grafana-on-fedora-server/)
 
 > *Promethues is a **service account**, remeber to* ***dislable it’s
@@ -20,7 +20,7 @@ sudo useradd -M -r -s /bin/false prometheus
 ```
 
 -   With ansible -[Ansible
-    Playbook](/Notes/posts/ansible/templates/prometheus_installation)
+    Playbook](/ansible/templates/prometheus_installation)
 
 # Structure
 
@@ -28,15 +28,15 @@ sudo useradd -M -r -s /bin/false prometheus
     [PromeQl](https://prometheus.io/docs/prometheus/latest/querying/basics/)
     query language
 -   It’s based on the [time series
-    db](/Notes/posts/databases/time_series_db) (*saved on the main
+    db](/databases/time_series_db) (*saved on the main
     node)*
     -   **Exporters** **pulls the data over the http** form the nodes
 -   Targets are dicovered via *service discovery or static
     configuration* >U need to hve **Prometheus server** on main
     node >And [Node
-    Exporter](/Notes/posts/ansible/templates/node_exporter_installation)
+    Exporter](/ansible/templates/node_exporter_installation)
     on the others >![protemtheus
-    Structure](/Notes/prometheus_structure.png)
+    Structure](/static/prometheus_structure.png)
 
 ## Nodes
 
@@ -70,7 +70,7 @@ deleted ##### Retention time By defualt it st
 exporter* ### Service - deuflt adress *http://localhost:9100/metrics* -
 can be any ohter port - Http based - U can add any metric/data u want -
 Response must be 200 - Contnent-Type must be application/json - Body
-must be valid JSON \>![Service discovery](/Notes/service_discovery.png)
+must be valid JSON \>![Service discovery](/static/service_discovery.png)
 
 ## Tracing and spans
 
@@ -83,7 +83,7 @@ must be valid JSON \>![Service discovery](/Notes/service_discovery.png)
 
 By fefualt the prometheus logs to the `/var/log/prometheus`
 
-## [Slos Slis Slas](/Notes/posts/prometheus/slos_slas_slis)
+## [Slos Slis Slas](/prometheus/slos_slas_slis)
 
 [Service Level
 Objectives](https://sre.google/sre-book/service-level-objectives/)
@@ -107,4 +107,4 @@ Avoid mire then 20-30 entires in the rig-hand-sid table
 
 ## Full Prometheus Model
 
-> ![protemtheus](/Notes/prometheus_overwiev.png)
+> ![protemtheus](/static/prometheus_overwiev.png)

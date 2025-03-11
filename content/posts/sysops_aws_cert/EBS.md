@@ -4,8 +4,8 @@ draft: false
 title: EBS
 ---
 
-# Amazon Elastic [Block Store](/Notes/posts/cloud_data_types)
+# Amazon Elastic [Block Store](/cloud_data_types)
 
 [Wiki](https://en.wikipedia.org/wiki/Amazon_Elastic_Block_Store)
 
-![Example](/Notes/EBS_graph_visual.png)
+![Example](/static/EBS_graph_visual.png)

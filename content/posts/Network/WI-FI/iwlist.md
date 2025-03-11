@@ -6,10 +6,10 @@ title: iwlist
 
 ## Iwlist
 
-To see [Wi-Fi](/Notes/posts/Network/WI-FI/Wi-Fi) **[access
-point](/Notes/posts/Network/Ref_OSI/access_point)**  
+To see [Wi-Fi](/Network/WI-FI/Wi-Fi) **[access
+point](/Network/Ref_OSI/access_point)**  
 \>\[!example\]- *iwlist interface action*
-\>![IwlistCOnfig_visual.png](/Notes/IwlistCOnfig_visual.png)
+\>![IwlistCOnfig_visual.png](/static/IwlistCOnfig_visual.png)
 
-> \[!quote\] [ifconfig](/Notes/posts/Penetration/ifconfig) \|
-> [iwconfig](/Notes/posts/Penetration/iwconfig)
+> \[!quote\] [ifconfig](/Penetration/ifconfig) \|
+> [iwconfig](/Penetration/iwconfig)

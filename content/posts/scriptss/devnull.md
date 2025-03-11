@@ -9,4 +9,4 @@ title: devnull
 **Linux balck hole** <mark style="background: #FF5582A6;">Evertything
 moved here will be wiped out!</mark>
 
-> \[!quote\] [find](/Notes/posts/Linux/commands/find)
+> \[!quote\] [find](/Linux/commands/find)

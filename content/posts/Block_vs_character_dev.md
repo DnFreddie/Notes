@@ -25,6 +25,6 @@ random
 
 ------------------------------------------------------------------------
 
-[PCI dev info](/Notes/posts/Getting_PCI_dev_info)
+[PCI dev info](/Getting_PCI_dev_info)
 
-[Device types](/Notes/posts/Linux/Device_types)
+[Device types](/Linux/Device_types)

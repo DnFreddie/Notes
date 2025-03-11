@@ -10,6 +10,6 @@ title: SMTP protocol
 
 ## Other protocols for clients
 
-[POP3](/Notes/posts/protocols/POP3)
+[POP3](/protocols/POP3)
 
-[IMAP4](/Notes/posts/protocols/IMAP4) \>\[!quote\]
+[IMAP4](/protocols/IMAP4) \>\[!quote\]

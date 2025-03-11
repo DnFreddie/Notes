@@ -6,13 +6,13 @@ title: Digital certificate
 
     ### Digigtal signing
 
--   [Hash](/Notes/posts/Hash) the data set
--   Then **encrytp** the resulting [Hash](/Notes/posts/Hash)
+-   [Hash](/Hash) the data set
+-   Then **encrytp** the resulting [Hash](/Hash)
     -   it makes sure that original hash came from someone with the key
 
 ------------------------------------------------------------------------
 
-[Hash](/Notes/posts/Hash)  
-[Encryption](/Notes/posts/Encryption)  
+[Hash](/Hash)  
+[Encryption](/Encryption)  
 \[\[Hash vs Encryption vs digital signature.canvas\|Hash vs Encryption
 vs digital signature\]\] \[\[gnup\]\]

@@ -7,7 +7,7 @@ title: Terraform state
 ---
 
 *Represents the current state of the resources in the cloud* ![Terraform
-states](/Notes/terraform_state_cli_visual.png)
+states](/static/terraform_state_cli_visual.png)
 
 `state mv` *allows to change the refrence so u avodi create and destroy
 action* - rename exisitng resources - move a resource into a module -
@@ -55,16 +55,16 @@ Terraform sotores it in `terraform.tfstate.backup` —
 
 |                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ### Resource addressing ![Resource adressing terraform](/Notes/resource_adressing_terrafrom_visual.png)                                                                                                                                                                                                                                       |
-| #### Refresh-Only Mode ![Refresh-Only mode diffrences](/Notes/terraform_flags_refresh_only_visual.png)                                                                                                                                                                                                                                        |
+| ### Resource addressing ![Resource adressing terraform](/static/resource_adressing_terrafrom_visual.png)                                                                                                                                                                                                                                       |
+| #### Refresh-Only Mode ![Refresh-Only mode diffrences](/static/terraform_flags_refresh_only_visual.png)                                                                                                                                                                                                                                        |
 | ### Terrafrom_remote_state *Retrieves the root module output values from another **Terraform configuration*** - Only the root-level values from the remote state snapshot are exposed. - Resource data and output values from nested modules are not accessible. - To enable that, **explicitly configure a passthrough in the root module.** |
-| ![Terraform Remote State](/Notes/remote_terrarom_backends_state_visual.png)                                                                                                                                                                                                                                                                   |
+| ![Terraform Remote State](/static/remote_terrarom_backends_state_visual.png)                                                                                                                                                                                                                                                                   |
 | ### Alternative to Remote State                                                                                                                                                                                                                                                                                                               |
 | The `terraform_remote_state` only exposes output values, requiring users to access the **entire state snapshot**, which may contain **sensitive information**.                                                                                                                                                                                |
 
 `IMPORTANT` Publish data for external consumption to a sepearte location
 instead of using remote state ![Alternaive to the Remote
-State](/Notes/altternative_to_the_remote_state_visual.png)
+State](/static/altternative_to_the_remote_state_visual.png)
 
 ------------------------------------------------------------------------
 
@@ -88,4 +88,4 @@ Terraform will lock your state for all operations that could write sate.
 `Note`Terraform log doesn’t show if it fails or succeeds **only if it
 takes to long**
 
--   [Teraform](/Notes/posts/cloud/terraform/terraform)
+-   [Teraform](/cloud/terraform/terraform)

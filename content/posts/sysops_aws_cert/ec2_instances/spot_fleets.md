@@ -9,9 +9,9 @@ title: Spot fleets
 *Allows to automaticly reqest spot instances with the lowest price*
 
 Set of [Spot
-Instance](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_purches_options.md#spot-instances)
+Instance](/sysops_aws_cert/ec2_instances/ec2_purches_options.md#spot-instances)
 +
-[On-demand](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_purches_options.md#on-demand)(*optional*)
+[On-demand](/sysops_aws_cert/ec2_instances/ec2_purches_options.md#on-demand)(*optional*)
 - The Spot Fleet will try to meet the tartget capacity with the price
 constrains - Define possible lauhch pools *(instance,type OS, AZ)* - Can
 have multiple lauhhc pools so the the fellt can choose - Spot Fleet

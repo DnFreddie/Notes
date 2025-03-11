@@ -13,4 +13,4 @@ title: IMAP4
 
 ------------------------------------------------------------------------
 
-\[\[Ports#Common ports\]\] [POP3](/Notes/posts/protocols/POP3)
+\[\[Ports#Common ports\]\] [POP3](/protocols/POP3)

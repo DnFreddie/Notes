@@ -33,5 +33,5 @@ REF: DB.REFERENCE('/')
 
 ------------------------------------------------------------------------
 
-[Pandas](/Notes/posts/ZPythonref/pandas_py)
-[redis](/Notes/posts/databases/redis)
+[Pandas](/ZPythonref/pandas_py)
+[redis](/databases/redis)

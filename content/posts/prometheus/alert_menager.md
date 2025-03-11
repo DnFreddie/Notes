@@ -29,8 +29,8 @@ act as a **linter** and verify configuration is correct
     -   Summery(*mandatory*) alert anem
     -   Descirpotion (*mandatory*) detailed descreption of an alert ###
         When to alert people [Slis Slas
-        Slos](/Notes/posts/prometheus/slos_slas_slis)
+        Slos](/prometheus/slos_slas_slis)
 
 ------------------------------------------------------------------------
 
--   [prometheus](/Notes/posts/prometheus/prometheus_main)
+-   [prometheus](/prometheus/prometheus_main)

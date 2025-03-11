@@ -18,108 +18,108 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 
 1. **File system hierarchy**
 2. **Boot**
-   - [UEFI vs BIOS](/Notes/posts/UEFI_vs_BIOS)
-   - [Boot process](/Notes/posts/boot_process)
-   - [Partition types](/Notes/posts/UEFI_vs_BIOS#partition-types)
+   - [UEFI vs BIOS](/UEFI_vs_BIOS)
+   - [Boot process](/boot_process)
+   - [Partition types](/UEFI_vs_BIOS#partition-types)
    - **File systems**
 
-   ![Files systems](/Notes/filesSystem_visual.png) 
-   - [GRUB 2](/Notes/posts/GRUB_2) 
-   - [Run Levels](/Notes/posts/for_later/Run_Levels)
+   ![Files systems](/static/filesSystem_visual.png) 
+   - [GRUB 2](/GRUB_2) 
+   - [Run Levels](/for_later/Run_Levels)
 
 3. **Device types in /dev**
-   - [Block vs character devices](/Notes/posts/Block_vs_character_dev)
-   - [Special character devices](/Notes/posts/Block_vs_character_dev#special-character-devices)
-   - [Getting PCI device info](/Notes/posts/Getting_PCI_dev_info)
-   - [RAID devices](/Notes/posts/RAID_STORAGE)
+   - [Block vs character devices](/Block_vs_character_dev)
+   - [Special character devices](/Block_vs_character_dev#special-character-devices)
+   - [Getting PCI device info](/Getting_PCI_dev_info)
+   - [RAID devices](/RAID_STORAGE)
 
-   ![RAID devices](/Notes/raid_devices_canvas.png) 
+   ![RAID devices](/static/raid_devices_canvas.png) 
 
    - **Commands**
      - `stat` (gives a more detailed overview of the metadata)
      - `file`
 
-4. [Archive vs Compress](/Notes/posts/Archive_vs_Compress)
+4. [Archive vs Compress](/Archive_vs_Compress)
 
-5. [Partitioning](/Notes/posts/Partitioning) 
-   - [Automatic Mounting fstab](/Notes/posts/Automatic_Mounting_fstab) 
-   - [Disk encryption](/Notes/posts/Disk_encryption) 
-   - [LVM](/Notes/posts/LVM) 
+5. [Partitioning](/Partitioning) 
+   - [Automatic Mounting fstab](/Automatic_Mounting_fstab) 
+   - [Disk encryption](/Disk_encryption) 
+   - [LVM](/LVM) 
 
 6. **Virtual Storage**
 
-   ![Virtual Storage 1](/Notes/virtual_storage_visual.png) ![Virtual Storage 2](/Notes/virtual_storage_tech.png)
+   ![Virtual Storage 1](/static/virtual_storage_visual.png) ![Virtual Storage 2](/static/virtual_storage_tech.png)
 
-7. [systemd](/Notes/posts/systemd)
-   - [Crontab](/Notes/posts/scriptss/Crontab) 
-   - [At](/Notes/posts/scriptss/At) 
-   - [Systemd Timers](/Notes/posts/systemd#systemd-timers)
+7. [systemd](/systemd)
+   - [Crontab](/scriptss/Crontab) 
+   - [At](/scriptss/At) 
+   - [Systemd Timers](/systemd#systemd-timers)
 
 8. **Process management**
 
-   ![Process management_signals](/Notes/process_management_visual.png) 
-   - [systemd procedures](/Notes/posts/systemd#systemd-procedures)
+   ![Process management_signals](/static/process_management_visual.png) 
+   - [systemd procedures](/systemd#systemd-procedures)
 
 9. **Network**
-   - [DNS](/Notes/posts/Network/Physical/DNS)
-   - [nsswitch.conf](/Notes/posts/nsswitch.conf)
-   - [Changing DNS server](/Notes/posts/Network/Physical/DNS#changing-dns-server)
-   - [nslookup](/Notes/posts/Linux/nslookup)
+   - [DNS](/Network/Physical/DNS)
+   - [nsswitch.conf](/nsswitch.conf)
+   - [Changing DNS server](/Network/Physical/DNS#changing-dns-server)
+   - [nslookup](/Linux/nslookup)
    - **tcpdump**
    - **Wireshark**
 
-10. [Repository Configuration](/Notes/posts/Repository_Configuration)
+10. [Repository Configuration](/Repository_Configuration)
 
-11. [Kernel Options](/Notes/posts/Linux/Kernel/Kernel#kernel-options)
+11. [Kernel Options](/Linux/Kernel/Kernel#kernel-options)
 
-12. [Localization time setup](/Notes/posts/Localization_time_setup)
+12. [Localization time setup](/Localization_time_setup)
 
 ### Security
 
 13. **Encryption**
    - **Hash vs Encryption vs Digital Signature**
 
-     ![Hash vs Encryption vs Digital Signature](/Notes/hash_encryption_vs_digital_signature.png) 
+     ![Hash vs Encryption vs Digital Signature](/static/hash_encryption_vs_digital_signature.png) 
 
-   - [Encrypted Web traffic](/Notes/posts/encrypted_Web_traffic)
+   - [Encrypted Web traffic](/encrypted_Web_traffic)
 
 14. **System Auth**
 
-    ![System Auth](/Notes/system_auth_visual.png)
+    ![System Auth](/static/system_auth_visual.png)
 
-15. [Permissions](/Notes/posts/Linux/Permissions)
-    - [umask](/Notes/posts/Linux/umask)
+15. [Permissions](/Linux/Permissions)
+    - [umask](/Linux/umask)
 
 16. **Logging**
 
-    ![Logging canvas](/Notes/logs_canvas_visual.png)
+    ![Logging canvas](/static/logs_canvas_visual.png)
 
-17. [SELinux](/Notes/posts/SELinux)
+17. [SELinux](/SELinux)
 
-18. [AppArmor](/Notes/posts/AppArmor)
+18. [AppArmor](/AppArmor)
 
 ### System Administration
 
 19. **User manipulation**
-    - [profile etc](/Notes/posts/Linux/etc/profile_etc) 
-    - [skel etc](/Notes/posts/Linux/etc/skel_etc)
+    - [profile etc](/Linux/etc/profile_etc) 
+    - [skel etc](/Linux/etc/skel_etc)
 
     - **Commands**
-      - [chage](/Notes/posts/chage)
+      - [chage](/chage)
 
     - **Sudo and visudo**
-    - [pkexec](/Notes/posts/pkexec)
-    - [getfacl](/Notes/posts/getfacl)
+    - [pkexec](/pkexec)
+    - [getfacl](/getfacl)
 
 ### Cloud
 
-20. [git](/Notes/posts/git)
+20. [git](/git)
 
-21. [docker](/Notes/posts/Linux/Docker/docker)
+21. [docker](/Linux/Docker/docker)
 
 22. **Automation tools**
 
-    ![Automation tools](/Notes/automation_tools_canvas.png)
+    ![Automation tools](/static/automation_tools_canvas.png)
 
 ### Troubleshooting
 
@@ -133,16 +133,16 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 
     - Consider different **File systems**
     - Check for wa with `top`
-    - [ioStat](/Notes/posts/ioStat)
+    - [ioStat](/ioStat)
 
-24. [inodes exhaustion](/Notes/posts/inodes_exhaustion)
+24. [inodes exhaustion](/inodes_exhaustion)
 
-25. [IO schedulers](/Notes/posts/IO_schedulers)
+25. [IO schedulers](/IO_schedulers)
 
-26. [NVMe](/Notes/posts/NVMe)
+26. [NVMe](/NVMe)
 
 27. **File system issues** (*corruption mismatch*)
-    - [fsck](/Notes/posts/Linux/fsck)
+    - [fsck](/Linux/fsck)
 
 28. **vstat**
 
@@ -150,35 +150,35 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 
 #### Network troubleshooting
 
-- Checking [subnet mask](/Notes/posts/Network/basic_network_connections/subnet_mask) and **routing**
-- [iptables](/Notes/posts/iptables)
+- Checking [subnet mask](/Network/basic_network_connections/subnet_mask) and **routing**
+- [iptables](/iptables)
 
 ##### Dropped packets
 
-- [ip command](/Notes/posts/ip_command)
+- [ip command](/ip_command)
 - Links (*the name of the network devices*)
   - **`ip -h -s link show device`**
 
 ##### DNS issues
 
-- [nslookup](/Notes/posts/Linux/nslookup)
-- [dig command](/Notes/posts/dig_command)
-- [ping command](/Notes/posts/ping_command)
+- [nslookup](/Linux/nslookup)
+- [dig command](/dig_command)
+- [ping command](/ping_command)
 
 #### Network Resonance
 
-- [nmap](/Notes/posts/Linux/nmap)
+- [nmap](/Linux/nmap)
 - `openssl client` to check whether the connection is legit
 
 ### CPU issues
 
-- [Load Average](/Notes/posts/Load_Average)
-- [CPU times](/Notes/posts/Linux/Kernel/Cpu) (*Subdivisions*)
-- [CPU](/Notes/posts/Linux/Kernel/Cpu)
-- [CPU process priorities](/Notes/posts/Linux/Kernel/Cpu#cpu-process-priorities)
-  - [OOM process Killer](/Notes/posts/OOM_process_Killer)
+- [Load Average](/Load_Average)
+- [CPU times](/Linux/Kernel/Cpu) (*Subdivisions*)
+- [CPU](/Linux/Kernel/Cpu)
+- [CPU process priorities](/Linux/Kernel/Cpu#cpu-process-priorities)
+  - [OOM process Killer](/OOM_process_Killer)
 
-- [Swap memory](/Notes/posts/Swap_memory)
+- [Swap memory](/Swap_memory)
 
 #### Hardware
 
@@ -189,13 +189,13 @@ Afterward, study from books and engage in hands-on projects or labs to reinforce
 
 ### User issues
 
-- [Logging troubleshooting](/Notes/posts/Login_troubleshooting)
-- [quota](/Notes/posts/quota)
+- [Logging troubleshooting](/Login_troubleshooting)
+- [quota](/quota)
 
 ### Systemd
 
-- [Systemd Units](/Notes/posts/systemd#systemd-units)
-- [Systemd Ordering](/Notes/posts/systemd_ordering)
-- [Systemd Timers](/Notes/posts/systemd#systemd-timers)
+- [Systemd Units](/systemd#systemd-units)
+- [Systemd Ordering](/systemd_ordering)
+- [Systemd Timers](/systemd#systemd-timers)
 
 ---

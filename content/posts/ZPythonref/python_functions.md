@@ -29,4 +29,4 @@ Classes Methods and Instances are callable \|
 argument eaual: to none it will get rid of zeros *alot of the times used
 with* ***lambda function*** \|
 
-> \[!quote\] [Functions](/Notes/posts/scriptss/Functions)
+> \[!quote\] [Functions](/scriptss/Functions)

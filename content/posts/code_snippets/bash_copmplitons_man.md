@@ -77,4 +77,4 @@ complete -D -F _completion_loader -o bashdefault -o default
 
 ------------------------------------------------------------------------
 
-[Bash Main](/Notes/posts//posts/Linux/commands/bash_MAIN)
+[Bash Main](//posts/Linux/commands/bash_MAIN)

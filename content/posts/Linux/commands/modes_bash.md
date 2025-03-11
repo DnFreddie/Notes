@@ -23,5 +23,5 @@ title: "Modes in Bash"
 
 --------------------------------------------------------------------------------------------------------------------------
 
-* [Back to Bash Overview](/Notes/posts/Linux/commands/bash_MAIN)
+* [Back to Bash Overview](/Linux/commands/bash_MAIN)
 

@@ -8,7 +8,7 @@ title: Login troubleshooting
 loooking](https://www.secur.cc/how-to-troubleshoot-linux-user-issues/) #
 Troubleshooting procces 1. check last log
 \[\[Logging.canvas\|Logging\]\] - *last or lastb* 2. check if user is
-created - [getent](/Notes/posts/getent) 3. Check gui session - ***sudo
+created - [getent](/getent) 3. Check gui session - ***sudo
 sytemctl status graphical.target***
 
 ### Tty issues

@@ -25,7 +25,7 @@ base rendering\]\] ## Pages
 ## Layouts
 
 -   Lyaouts are like temaplates in [Flask
-    MAIN](/Notes/posts/Flask_startup/Flask_MAIN) They are for
+    MAIN](/Flask_startup/Flask_MAIN) They are for
     *cross-section pages *
     -   U can define multple layouts just by adding *layout.js to the
         subfolder*
@@ -34,16 +34,16 @@ base rendering\]\] ## Pages
 
 -   U can add *loading.js* file
     -   U will reneder a *Loading Skeleton*
-        ![Next-JsLoaingSkeleton_visual.png](/Notes/Next-JsLoaingSkeleton_visual.png)
+        ![Next-JsLoaingSkeleton_visual.png](/static/Next-JsLoaingSkeleton_visual.png)
 
 ## Error Handling
 
 -   To handle errors create *error.js file* in sub directory
     -   This wiil present the error acordingly to the user
-        ![Next-JsErrorHandling_visual.png](/Notes/Next-JsErrorHandling_visual.png)
+        ![Next-JsErrorHandling_visual.png](/static/Next-JsErrorHandling_visual.png)
 
-> \[!quote\] [React](/Notes/posts/next-js/Reactjs/React)\|\|[Flask
-> MAIN](/Notes/posts/Flask_startup/Flask_MAIN)\|\|
+> \[!quote\] [React](/next-js/Reactjs/React)\|\|[Flask
+> MAIN](/Flask_startup/Flask_MAIN)\|\|
 
 > \[!tip\]- resources [nex-js
 > guide](https://www.youtube.com/watch?v:%20wm5gMKuwSYk)

@@ -7,7 +7,7 @@ draft: false
     * Usually one app per pod
     * Group of one or more container
         * They **share storage and network** resources ([RBAC
-            cluster](/Notes/posts/CKA/RBAC_cluster))
+            cluster](/CKA/RBAC_cluster))
         * Each pod gets it’s own *local ip*
 * **Unit of replication**
     * Easy to increase the number of pods running
@@ -21,7 +21,7 @@ draft: false
 * Can share folders with main container
 
 * Can communicate via localhost
-    ![Pasted_image_20240509205921.png](/Notes/Pasted_image_20240509205921.png)
+    ![Pasted_image_20240509205921.png](/static/Pasted_image_20240509205921.png)
 
 ### Ambassador
 
@@ -30,7 +30,7 @@ draft: false
     * The **ambassador container** does it
     * It works pretty much as proxy
 
-![Pasted_image_20240509205439.png](/Notes/Pasted_image_20240509205439.png)
+![Pasted_image_20240509205439.png](/static/Pasted_image_20240509205439.png)
 
 ### Adapter
 
@@ -42,10 +42,10 @@ draft: false
 
 ------------------------------------------------------------
 
-* [kubectl](/Notes/posts/CKA/kubectl)
-* [kube service](/Notes/posts/CKA/kube_service)
-* [kube deployments](/Notes/posts/CKA/kube_deployments)
-* [Kubernetes](/Notes/posts/CKA/Kubernetes)
+* [kubectl](/CKA/kubectl)
+* [kube service](/CKA/kube_service)
+* [kube deployments](/CKA/kube_deployments)
+* [Kubernetes](/CKA/Kubernetes)
 
 
 

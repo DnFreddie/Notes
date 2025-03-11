@@ -46,7 +46,7 @@ Long workloads (*1 & 3 years*)
 
 *Long workloads with flexible instances* - Can change the EC2 instance
 [OS
-family](/Notes/posts/sysops_aws_cert/ec2_instances/instance_families)
+family](/sysops_aws_cert/ec2_instances/instance_families)
 scope and tenancy - Up to **66%** discount
 
 ### Savings Plans
@@ -60,7 +60,7 @@ scope and tenancy - Up to **66%** discount
 -   Commit to a certain type of usage ($10/hour for 1 or 3 years)
 -   Usage beyond EC2 Saving Plan is billed at the On-Demand price
 -   Locked to a specific [instance
-    family](/Notes/posts/sysops_aws_cert/ec2_instances/instance_families)
+    family](/sysops_aws_cert/ec2_instances/instance_families)
     and AWS region
 -   Flexible across
     -   Instance size
@@ -73,7 +73,7 @@ scope and tenancy - Up to **66%** discount
 spot price***
 
 [Spot instance
-mechanism](/Notes/posts/sysops_aws_cert/ec2_instances/spot_instance_mechanism)
+mechanism](/sysops_aws_cert/ec2_instances/spot_instance_mechanism)
 - Short workloads - Cheap - Can lose instances (*less reliable*)
 
 #### Characteristics
@@ -88,7 +88,7 @@ mechanism](/Notes/posts/sysops_aws_cert/ec2_instances/spot_instance_mechanism)
 *Book an entire physical server.* - A server with EC2 capacity fully
 dedicated to your use - Control instance placements - Payment options -
 On-Demand - Reserved [AWS
-Outposts](/Notes/posts/sysops_aws_cert/ec2_instances/aws_outposts)
+Outposts](/sysops_aws_cert/ec2_instances/aws_outposts)
 
 ### Dedicated Instances
 

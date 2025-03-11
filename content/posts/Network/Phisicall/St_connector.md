@@ -9,5 +9,5 @@ title: St connector
 U have o untwist before removing
 
 > \[!quote\]\[St
-> connector\](/Notes/posts/Network/Phisicall/St_connector)\[\[SC
+> connector\](/Network/Phisicall/St_connector)\[\[SC
 > connector \]\]

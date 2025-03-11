@@ -5,7 +5,7 @@ title: Casche
 ---
 
 Small and fast temporarly storage area located near
-[Cpu](/Notes/posts/Linux/Kernel/Cpu) for efficient and near-instant data
+[Cpu](/Linux/Kernel/Cpu) for efficient and near-instant data
 retrival
 
 -   It carries the freqently used data
@@ -14,7 +14,7 @@ retrival
 -   L1 (priamary casche)
     -   fast
     -   small
-    -   emebeded in [Cpu](/Notes/posts/Linux/Kernel/Cpu)
+    -   emebeded in [Cpu](/Linux/Kernel/Cpu)
 -   L2
     1.  holds more then **L1**
     2.  can be emebeded or run on a seperate chip
@@ -23,4 +23,4 @@ retrival
 
 ------------------------------------------------------------------------
 
-[Redis](/Notes/posts/databases/redis) [Etag](/Notes/posts/Etag)
+[Redis](/databases/redis) [Etag](/Etag)

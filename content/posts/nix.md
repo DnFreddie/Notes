@@ -43,4 +43,4 @@ added
 nix flake update
 ```
 
-> \[!quote\] [nix Templates](/Notes/posts/code_snippets/nix_Templates)
+> \[!quote\] [nix Templates](/code_snippets/nix_Templates)

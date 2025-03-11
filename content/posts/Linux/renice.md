@@ -12,5 +12,5 @@ title: renice
         -   *Only root can increase priority but evry user can decrese
             the priority*
 
-> \[!quote\] [nice](/Notes/posts/Linux/nice)
-> [kill](/Notes/posts/Linux/kill)
+> \[!quote\] [nice](/Linux/nice)
+> [kill](/Linux/kill)

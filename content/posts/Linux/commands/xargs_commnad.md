@@ -34,6 +34,6 @@ find . -type f | xargs -I {} mv {} {}.md
 
 ------------------------------------------------------------------------
 
--   [find](/Notes/posts/Linux/commands/find)
+-   [find](/Linux/commands/find)
 -   \[bash_MAIN\]({{\< ref “posts/Linux/commands/bash_MAIN.md”\>}})
--   [Comptia Objectives](/Notes/posts/Comptia_Objectives)
+-   [Comptia Objectives](/Comptia_Objectives)

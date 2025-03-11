@@ -5,11 +5,11 @@ title: Linked List
 ---
 
 Often called *node base data structure*(*type fo container*) - So its an
-**[node](/Notes/posts/node) that contnateins a **value\*\* and
+**[node](/node) that contnateins a **value\*\* and
 **refrence to another value/node** $$$$ - Every linked list is a *graph*
 \>\[!example\]- Signly link list a only points forwaords there no
 refrence backworks
-\>![SinglyLinkedList_visual.png](/Notes/SinglyLinkedList_visual.png)
+\>![SinglyLinkedList_visual.png](/static/SinglyLinkedList_visual.png)
 
 -   **Isertion and deltion are very fast**
     -   <mark style="background: #FF5582A6;">There’s no index </mark>
@@ -22,9 +22,9 @@ refrence backworks
     -   They are all **constants** no matter the value or the size *u
         have to set .nexts and .previous*
         -   Inseration  
-            ![LinkedListModyfing_visual.png](/Notes/LinkedListModyfing_visual.png)
+            ![LinkedListModyfing_visual.png](/static/LinkedListModyfing_visual.png)
         -   Delition *(the order of operations is extremaly importat)*
-            -   ![LinkedListDelation_visual.png](/Notes/LinkedListDelation_visual.png "fig:")
+            -   ![LinkedListDelation_visual.png](/static/LinkedListDelation_visual.png "fig:")
             -   <mark style="background: #FF5582A6;">Add check statment
                 weather (A or B are real)</mark>
 

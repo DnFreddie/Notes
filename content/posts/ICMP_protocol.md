@@ -23,7 +23,7 @@ devices across devices)
 -   Another prtocol carried by Ip
     -   Not used for data trasfer
 -   Devices can request and reply to administrativer requests
-    [ping_command](/Notes/posts/ping_command)
+    [ping_command](/ping_command)
     -   When u send ping u send the **ICMP packet** and get **ICP
         packet** in response
 -   Devices can send massege whetn things dont go well (*message where
@@ -31,4 +31,4 @@ devices across devices)
     -   The network u’re trying to reach is not reachable from here
     -   Your time-to-live expired
 
-> \[!quote\] [ports](/Notes/posts/ports/ports)
+> \[!quote\] [ports](/ports/ports)

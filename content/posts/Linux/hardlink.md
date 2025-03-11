@@ -40,8 +40,8 @@ stat hardlink.txt
 # Context: unconfined_u:object_r:user_home_t:s0
 ```
 
-> **[find](/Notes/posts/Linux/commands/find) `--samefile` find the same
-> files based on the [inodes](/Notes/posts/inodes)**
+> **[find](/Linux/commands/find) `--samefile` find the same
+> files based on the [inodes](/inodes)**
 
 ``` bash
 ls

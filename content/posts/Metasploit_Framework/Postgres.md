@@ -71,5 +71,5 @@ export DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/$
 sqlx database create
 ```
 
-> \[!quote\] [Tokio_rs](/Notes/posts/libriairies/Tokio_rs) [Databaes
-> Types](/Notes/posts/databases/Databaes_Types) \[\[SQL REVISE#SQL\]\]
+> \[!quote\] [Tokio_rs](/libriairies/Tokio_rs) [Databaes
+> Types](/databases/Databaes_Types) \[\[SQL REVISE#SQL\]\]

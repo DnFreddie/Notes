@@ -30,10 +30,10 @@ title: recursion
             got here becouse it has to *hand in the value back*
     -   Return Value
         -   The space for value that is beeing return
-    -   [Arguments](/Notes/posts/scriptss/Arguments)
+    -   [Arguments](/scriptss/Arguments)
         -   The arguments u pass in to the function
 
-![BaseCaseRecursion_visual.png](/Notes/BaseCaseRecursion_visual.png)
+![BaseCaseRecursion_visual.png](/static/BaseCaseRecursion_visual.png)
 
 | rA               | rV    | A   |                |
 |------------------|-------|-----|----------------|
@@ -47,5 +47,5 @@ title: recursion
 > Erorr at foo line :2 foo 3 the value it returns from foo3
 
 #codingProblem ## Maze Solver Porblem
-![MazeSolver_visual.png](/Notes/MazeSolver_visual.png) - Code
+![MazeSolver_visual.png](/static/MazeSolver_visual.png) - Code
 implemention -

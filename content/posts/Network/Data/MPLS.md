@@ -7,12 +7,12 @@ title: MPLS
 ## Multiprotocol Label Switching
 
 -   Learning from \[\[ATM\]\] and \[\[Frame Relay\]\]
--   Packets through the [WAN](/Notes/posts/Network/Network_Types/WAN)
+-   Packets through the [WAN](/Network/Network_Types/WAN)
     have a label
     -   Routing decision are easy
 -   **Any transport medium any protocol inside**
-    -   [IP](/Notes/posts/Network/Ref_OSI/IP) packets,
-        [Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet) frames ##
+    -   [IP](/Network/Ref_OSI/IP) packets,
+        [Ethernet](/Network/Ref_OSI/Ethernet) frames ##
         Intial configuration Defines were all the sites may be located
         And what lables are used to switchi data
 
@@ -31,4 +31,4 @@ Poping
 
 ------------------------------------------------------------------------
 
-{{[mGRE](/Notes/posts/Network/Data/mGRE)}}
+{{[mGRE](/Network/Data/mGRE)}}

@@ -6,5 +6,5 @@ title: MAN
 
 ## Metropolitan Area Network
 
--   **Larger then [LAN](/Notes/posts/Network/Network_Types/LAN) smaller
-    then [WAN](/Notes/posts/Network/Network_Types/WAN)**
+-   **Larger then [LAN](/Network/Network_Types/LAN) smaller
+    then [WAN](/Network/Network_Types/WAN)**

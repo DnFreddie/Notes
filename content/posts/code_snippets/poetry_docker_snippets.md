@@ -20,4 +20,4 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --no-dev
 ```
 
-> \[!quote\] [SNIPPETS_MAIN](/Notes/posts/SNIPPETS_MAIN)
+> \[!quote\] [SNIPPETS_MAIN](/SNIPPETS_MAIN)

@@ -6,7 +6,7 @@ title: Journaled File System
 
 When the file is beeing writen the new temp location is created and when
 the write is succesfful whe change the pointer to the
-[inode](/Notes/posts/inodes)
+[inode](/inodes)
 
 When a system crash or sudden power outage happens on a macOS, Windows,
 or Linux machine, a journaling file system can return to the online

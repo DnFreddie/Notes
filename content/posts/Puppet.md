@@ -14,18 +14,18 @@ title: Puppet
     -   Tool that controls *all the masters*
 
 > \[!example\]-
-> ![Pasted_image_20240508131449.png](/Notes/Pasted_image_20240508131449.png)
+> ![Pasted_image_20240508131449.png](/static/Pasted_image_20240508131449.png)
 
 ### Configuration
 
 The main configuration is **Manifest.pp** - It has **classes** that are
 build of *resources* - *Resources* are just
-[service](/Notes/posts/Linux/service) like (*apache or docker*) - This
+[service](/Linux/service) like (*apache or docker*) - This
 can be also setup further in module
 
 > \[!example\]-
-> ![Pasted_image_20240508132228.png](/Notes/Pasted_image_20240508132228.png)
+> ![Pasted_image_20240508132228.png](/static/Pasted_image_20240508132228.png)
 
 ------------------------------------------------------------------------
 
-[vSwitch](/Notes/posts/Network/vitrual/vSwitch)
+[vSwitch](/Network/vitrual/vSwitch)

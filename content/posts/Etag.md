@@ -6,7 +6,7 @@ title: Etag
 
 ## Entity tag
 
--   Used for [cache](/Notes/posts/nixos/cache) validation When a client
+-   Used for [cache](/nixos/cache) validation When a client
     **request the same resource** it sends ==etag== back
     -   If the resource hasnt chnagded the server tells the client to
         used the *cached version*
@@ -45,5 +45,5 @@ the origin server and improving response times.
         responses as they’re generated for reuse, reducing the need to
         recompute dynamic pages.
 
-> \[!quote\] [HTTPS](/Notes/posts/protocols/HTTPS)
-> [http_headers](/Notes/posts/http_headers) [CORS](/Notes/posts/CORS)
+> \[!quote\] [HTTPS](/protocols/HTTPS)
+> [http_headers](/http_headers) [CORS](/CORS)

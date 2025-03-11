@@ -12,9 +12,9 @@ title: Wasm
         JavaScript
 -   *It’s basically a microprocessor in the browser*
     -   [Compilation process
-        history](/Notes/posts//posts/compilation_porcess/Compialtion_process_history)
+        history](//posts/compilation_porcess/Compialtion_process_history)
 -   Web Assembly is stack-based ([stack
-    algorithms](/Notes/posts/Algorithms/stack_algorithms))
+    algorithms](/Algorithms/stack_algorithms))
 -   *Web Assembly does not know what the string is*
     1
 
@@ -23,7 +23,7 @@ title: Wasm
 -   It’s a binary file:
     -   **The wasm can interact with JavaScript**
     -   *Yet it cannot talk directly with HTML*
-        -   ![WebAssemblyBrowser_visual.png](/Notes/WebAssemblyBrowser_visual.png "fig:")
+        -   ![WebAssemblyBrowser_visual.png](/static/WebAssemblyBrowser_visual.png "fig:")
 
     2
 
@@ -38,6 +38,6 @@ title: Wasm
 
 ------------------------------------------------------------------------
 
-[Compilers](/Notes/posts/compilers)
+[Compilers](/compilers)
 
 [Docs](https://www.youtube.com/watch?v:%203sU557ZKjUs)

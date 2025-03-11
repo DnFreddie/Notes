@@ -8,10 +8,10 @@ title: Block device
 contains small memory cells
 
 > Example
-> ![Pasted_image_20240511143906.png](/Notes/Pasted_image_20240511143906.png)
+> ![Pasted_image_20240511143906.png](/static/Pasted_image_20240511143906.png)
 
 ------------------------------------------------------------------------
 
-[SSD](/Notes/posts/SSD)
+[SSD](/SSD)
 
-[Block vs character device](/Notes/posts/Block_vs_character_dev)
+[Block vs character device](/Block_vs_character_dev)

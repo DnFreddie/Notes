@@ -16,7 +16,7 @@ title: Layer 7 Firewalls
 -   Cand adapt to various apps, users, devices
     -   Look for the `embrionic`connecitons(*half open*)
 
-### Web Application Firewalls ([wafs](/Notes/posts//posts/sysops_aws_cert/waf_aws))
+### Web Application Firewalls ([wafs](//posts/sysops_aws_cert/waf_aws))
 
 [Docs AWS WAF](https://aws.amazon.com/waf/) - Are aware of the `OWSAP`
 top 10 and prevent those attacks natively - **Apploed by Cloud
@@ -24,4 +24,4 @@ Providers** in front of diffrent applications
 
 ------------------------------------------------------------------------
 
-[Layer 7 Application](/Notes/posts/Network/Ref_OSI/Application_OSI)
+[Layer 7 Application](/Network/Ref_OSI/Application_OSI)

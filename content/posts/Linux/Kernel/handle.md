@@ -6,4 +6,4 @@ title: handle
 
 **Generic unit of identification** Used to identyfuie the process
 
-> \[!quote\] [processes_kernel](/Notes/posts/for_later/processes_kernel)
+> \[!quote\] [processes_kernel](/for_later/processes_kernel)

@@ -6,8 +6,8 @@ title: Rust Projects
 
 ### Convert Celcius to Fareneit
 
-![CelciusToFarenhaitRust_visual.png](/Notes/CelciusToFarenhaitRust_visual.png)
+![CelciusToFarenhaitRust_visual.png](/static/CelciusToFarenhaitRust_visual.png)
 ### Guessing Game
-![GuessingGameRust_visual.png](/Notes/GuessingGameRust_visual.png)
+![GuessingGameRust_visual.png](/static/GuessingGameRust_visual.png)
 
 > \[!quote\]

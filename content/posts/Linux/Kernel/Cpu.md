@@ -43,6 +43,6 @@ allocate a CPU time slot to another one.
 
 ### CPU process priorities
 
-![nice](/Notes/posts/Linux/nice) - ![renice](/Notes/posts/Linux/renice)
-— [Compitaltion process](/Notes/posts/Compitaltion_process)
-[garbage_collector_c](/Notes/posts/Linux/Kernel/garbage_collector_c)
+![nice](/Linux/nice) - ![renice](/Linux/renice)
+— [Compitaltion process](/Compitaltion_process)
+[garbage_collector_c](/Linux/Kernel/garbage_collector_c)

@@ -5,10 +5,10 @@ title: Waf aws
 ---
 
 *Aware of the `OWSAP` top 10 and prevent those attacks natively* ![Aws
-Waf schema](/Notes/aws_waf_visual.png)
+Waf schema](/static/aws_waf_visual.png)
 
 [Docs AWS WAF](https://aws.amazon.com/waf/)
 
 ------------------------------------------------------------------------
 
-[Layer 7 Firewalls](/Notes/posts/Network/Ref_OSI/L7_FireWalls)
+[Layer 7 Firewalls](/Network/Ref_OSI/L7_FireWalls)

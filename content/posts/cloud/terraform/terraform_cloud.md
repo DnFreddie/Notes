@@ -5,7 +5,7 @@ title: Terraform cloud
 ---
 
 ![terraform cloud
-sturcture](/Notes/terraform_cloud_runs_and_workspaces_visual.png) -
+sturcture](/static/terraform_cloud_runs_and_workspaces_visual.png) -
 **Organizaitons** - A collection of workspacess - **Workspaces** -
 Unique enviromnment or stack,
 
@@ -39,7 +39,7 @@ workspacess
 -   Organizaiton owners(*baiscly a root account*)
 
 [Organizaion level
-perrmissions](/Notes/organizational_level_permissions_viusal.png) ###
+perrmissions](/static/organizational_level_permissions_viusal.png) ###
 Terrafom Cloud Agents *Communicate wiht isolated .private or
 on-presmiswe infrastuecture*
 
@@ -47,4 +47,4 @@ on-presmiswe infrastuecture*
 
 *Self-hosted licens distribiout of the terrafrom platofmr* ![Terraform
 Enterprise
-model](/Notes/terraform_enterpirse_self_hosted_enviroment_visual.png)
+model](/static/terraform_enterpirse_self_hosted_enviroment_visual.png)

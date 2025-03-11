@@ -84,9 +84,9 @@ aureport  -i -x --summary
 
 ------------------------------------------------------------------------
 
-[Loging on linux](/Notes/posts/Loging_linux)
+[Loging on linux](/Loging_linux)
 
-[tripwire](/Notes/posts/tripwire)
+[tripwire](/tripwire)
 
 [Redhat
 info](https://www.redhat.com/sysadmin/configure-linux-auditing-auditd)

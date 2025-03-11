@@ -10,9 +10,9 @@ title: embedings
     thehm ino a cevtio fo categories and indexing based one the main
     node
 -   **Baiscily a vector of vectors semanticly
-    similar** >\[!example\]- >![EmbedingMap_visual.png](/Notes/EmbedingMap_visual.png)
+    similar** >\[!example\]- >![EmbedingMap_visual.png](/static/EmbedingMap_visual.png)
     ## Creation
-    ![CreationEmmbeding_visual.png](/Notes/CreationEmmbeding_visual.png)
+    ![CreationEmmbeding_visual.png](/static/CreationEmmbeding_visual.png)
     ## Usage
 -   **Semantic Search**
     -   search engines traditionally work by searching for overlaps of
@@ -45,4 +45,4 @@ title: embedings
         sets of labeled sensor information that identify anomalous
         occurrences.
 
-> \[!quote\] [vector_databse](/Notes/posts/databases/vector_databse)
+> \[!quote\] [vector_databse](/databases/vector_databse)

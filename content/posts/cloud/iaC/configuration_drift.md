@@ -5,7 +5,7 @@ title: Configuration drift
 ---
 
 *Provisioned Infrastructure Has an **Unexpected Configuration Change***
-![Configuration Drift](/Notes/configuration_drift_visual.png)
+![Configuration Drift](/static/configuration_drift_visual.png)
 
 ## Possible Causes
 
@@ -24,7 +24,7 @@ title: Configuration drift
 ## Detect
 
 -   Compliance tools
-    -   Use [Terraform](/Notes/posts/cloud/terraform/terraform) refresh
+    -   Use [Terraform](/cloud/terraform/terraform) refresh
         and plan commands to ensure the infrastructure matches the
         desired state.
 
@@ -35,4 +35,4 @@ title: Configuration drift
 
 ------------------------------------------------------------------------
 
--   [Infrastructure as Code (IaC)](/Notes/posts/cloud/iaC/iaC)
+-   [Infrastructure as Code (IaC)](/cloud/iaC/iaC)

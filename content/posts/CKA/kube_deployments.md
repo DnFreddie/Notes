@@ -22,7 +22,7 @@ draft: false
 
 ------------------------------------------------------------
 
-* [pods](/Notes/posts/CKA/pods)
-* [kubectl](/Notes/posts/CKA/kubectl)
-* [kube service](/Notes/posts/CKA/kube_service)
-* [Kubernetes](/Notes/posts/CKA/Kubernetes)
+* [pods](/CKA/pods)
+* [kubectl](/CKA/kubectl)
+* [kube service](/CKA/kube_service)
+* [Kubernetes](/CKA/Kubernetes)

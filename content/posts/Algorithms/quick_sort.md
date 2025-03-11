@@ -6,7 +6,7 @@ title: quick sort
 
     **"Divide and concure"**
 
-[binary search](/Notes/posts/Algorithms/binary_search)
+[binary search](/Algorithms/binary_search)
 
 -   Split input into number chunks and go over smaller subset and go
     over those smaller subset
@@ -15,7 +15,7 @@ title: quick sort
 -   Steps
     -   **Weak soritng** Everything before the **pivot** is smaller
         Everything after is bigger
-        ![QuicSortTree_visual.png](/Notes/QuicSortTree_visual.png)
+        ![QuicSortTree_visual.png](/static/QuicSortTree_visual.png)
 -   **Run time** ==O of n log n==
 
 ## Quicsort problem

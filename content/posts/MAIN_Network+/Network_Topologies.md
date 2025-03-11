@@ -9,12 +9,12 @@ title: Network Topologies
 [HybridTopology_visual.png](/HybridTopology_visual.png) **Most networks
 are hybrid**
 
-![Ring](/Notes/posts/Network/Ref_OSI/Ring)
+![Ring](/Network/Ref_OSI/Ring)
 
-| ![Bus](/Notes/posts/Network/Ref_OSI/Bus)   |
+| ![Bus](/Network/Ref_OSI/Bus)   |
 |--------------------------------------------|
-| ![Mesh](/Notes/posts/Network/Ref_OSI/Mesh) |
+| ![Mesh](/Network/Ref_OSI/Mesh) |
 
 **{{[Wireless
-topologies](/Notes/posts/MAIN_Network+/Wireless_topologies)}}**
+topologies](/MAIN_Network+/Wireless_topologies)}}**
 **{{\[\[\]\]}}**

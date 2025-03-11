@@ -13,9 +13,9 @@ title: voltage rob
     **resistances** slow down the flow of charges
 
     -   The relationship between the
-        [voltage_rob](/Notes/posts/voltage_rob),
-        [current_rob](/Notes/posts/current_rob), and
-        [resistance_rob](/Notes/posts/resistance_rob) can be described
+        [voltage_rob](/voltage_rob),
+        [current_rob](/current_rob), and
+        [resistance_rob](/resistance_rob) can be described
         by **Ohm’s Law** which states that voltage equals current
         multiplied by resistance (*V*:*I**R*)
 

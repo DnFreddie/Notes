@@ -36,6 +36,6 @@ Options: defaults
 WantedBy: multi-user.target
 ```
 
-[systemd](/Notes/posts/systemd)
+[systemd](/systemd)
 
-[Systemd Timers](/Notes/posts/systemd#systemd-timers)
+[Systemd Timers](/systemd#systemd-timers)

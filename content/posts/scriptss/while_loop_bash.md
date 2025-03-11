@@ -6,7 +6,7 @@ title: while loop_bash
 
 ## While loop
 
-while read while [Variables](/Notes/posts/scriptss/Variables) do echo do
+while read while [Variables](/scriptss/Variables) do echo do
 smth **sleep 0.5** done
 
 ``` bash

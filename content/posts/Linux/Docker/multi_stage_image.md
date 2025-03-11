@@ -29,4 +29,4 @@ docker build --target build -t my-app:build .
 
 ------------------------------------------------------------------------
 
--   [docker](/Notes/posts/Linux/Docker/docker)
+-   [docker](/Linux/Docker/docker)

@@ -4,6 +4,6 @@ draft: false
 title: Jenkins
 ---
 
-    [CI CD](/Notes/posts/CI_CD) automation 
+    [CI CD](/CI_CD) automation 
 
 Pipleins and so onnn

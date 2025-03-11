@@ -15,5 +15,5 @@ title: current rob
 
 *V* : *I* \* *R*
 
-> \[!quote\] [voltage_rob](/Notes/posts/voltage_rob)
-> [resistance_rob](/Notes/posts/resistance_rob)
+> \[!quote\] [voltage_rob](/voltage_rob)
+> [resistance_rob](/resistance_rob)

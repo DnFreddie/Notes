@@ -8,7 +8,7 @@ title: env
 
 -   Env allows to list *Envariomental Variables*
     -   To see all use **set** >\[!example\] Changing the env
-        [Variables](/Notes/posts/scriptss/Variables) >HISTSIZE: 1000
+        [Variables](/scriptss/Variables) >HISTSIZE: 1000
 
 **To make changes permanent use export**
 

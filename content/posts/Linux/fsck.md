@@ -10,6 +10,6 @@ title: fsck
 
 ------------------------------------------------------------------------
 
-[e2fsck](/Notes/posts/e2fsck)
+[e2fsck](/e2fsck)
 
-[File system Commands](/Notes/posts/Commands_filesSytem)
+[File system Commands](/Commands_filesSytem)

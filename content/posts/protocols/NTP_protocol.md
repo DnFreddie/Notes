@@ -11,7 +11,7 @@ title: NTP protocol
 -   **Automatic Updates**
     -   No flasching 12:00 lights  
 -   Switches routers firewalls servers and workstatio
-    [UDP](/Notes/posts/for_later/UDP) **/123**
+    [UDP](/for_later/UDP) **/123**
     -   Every device has it’s own clock
 -   **Flexible**
     -   You control how clocks beeing updated
@@ -27,7 +27,7 @@ define the time** - Straum 1 synchornized with the straum 0
 NTP cleint - Specyfie the NTP **server addres** - Use multiple NTP
 servers ## NTP server
 
--   listens to [UDP](/Notes/posts/for_later/UDP) **/123**
+-   listens to [UDP](/for_later/UDP) **/123**
     -   Need at leas one clock source
     -   Specyfiy the stratum level of choice
         -   Response to time request from NTP clients

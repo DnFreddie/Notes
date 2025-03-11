@@ -32,4 +32,4 @@ done
 ------------------------------------------------------------------------
 
 \[\[Process management_signals.canvas\|Process management_signals\]\]
-[command](/Notes/posts/scriptss/command)
+[command](/scriptss/command)

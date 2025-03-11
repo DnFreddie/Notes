@@ -14,4 +14,4 @@ title: PoW algorithms
     -   U got reward
 -   Else restart process form step #2 but **nonce +=1**
 
-> \[!quote\] [binary search](/Notes/posts/Algorithms/binary_search)
+> \[!quote\] [binary search](/Algorithms/binary_search)

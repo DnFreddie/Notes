@@ -104,4 +104,4 @@ func doIt(rc io.ReadCloser) {
 -   [go concurency](posts/PROGRAMMING/go/go_concurency.md)
 -   [go embed](posts/PROGRAMMING/go/go_embed.md)
 -   [go example based
-    test](/Notes/posts/PROGRAMMING/go/go_example_based_test)
+    test](/PROGRAMMING/go/go_example_based_test)

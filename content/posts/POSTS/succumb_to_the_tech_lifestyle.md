@@ -29,7 +29,7 @@ that story ends**.
 
 ### We’re the Builders
 
-![Building softwere meme](/Notes/unsucesfullbuild.webp)
+![Building softwere meme](/static/unsucesfullbuild.webp)
 
 **When was the last time you built something?**
 
@@ -60,7 +60,7 @@ ponzi schemes.
 
 ### We Love Our Tools
 
-![Proggraming setup meme](/Notes/setupjoke.png)
+![Proggraming setup meme](/static/setupjoke.png)
 
 Emacs, Vim, Linux, Windows, React, Solid, Ranger, vifm we know them
 inside and out.
@@ -86,7 +86,7 @@ needed anymore…*
 
 ### We’re the learners
 
-![Obsidian setup](/Notes/obsidian_setup.jpeg)
+![Obsidian setup](/static/obsidian_setup.jpeg)
 
 I’m sure you’ve thought at least once in your life that what you learn
 in school won’t help you in the real world.
@@ -118,7 +118,7 @@ U see one day the abstraction will literally blow your mind.
 
 ### We are the community
 
-![How to be a linux user video](/Notes/how_to_fit.jpg)
+![How to be a linux user video](/static/how_to_fit.jpg)
 
 People might dive in, gushing about tools and programming languages, but
 when they see you creating, they’re always ready to help.

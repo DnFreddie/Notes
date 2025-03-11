@@ -7,7 +7,7 @@ title: iptables
 ## Chains
 
 -   Tags that define and match *packet* to the
-    *state* >\[!Overview\] >![Pasted_image_20240511164722.png](/Notes/Pasted_image_20240511164722.png)k
+    *state* >\[!Overview\] >![Pasted_image_20240511164722.png](/static/Pasted_image_20240511164722.png)k
     #### Setting default policy
 
 ``` bash
@@ -44,7 +44,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 ```
 
 **Accept** - Stop proccesing and allow the packet to flow to the
-[service](/Notes/posts/Linux/service)
+[service](/Linux/service)
 
 **Reject** - Stop the packet and *send feedback* to the user
 
@@ -59,7 +59,7 @@ iptables -I -A CHAIN  -s(source) 10.0.0.1 -j(target Rule) DROP
 iptables -I INPUT -p -tcp -dport 80
 ```
 
-### [NAT](/Notes/posts/Network/basic_network_connections/NAT) table
+### [NAT](/Network/basic_network_connections/NAT) table
 
 -   Redirect to different interfaces ### Mangle table
 -   Modifying *packets and connections*

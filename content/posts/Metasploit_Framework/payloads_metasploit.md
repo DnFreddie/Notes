@@ -6,4 +6,4 @@ title: Metasploit Payloads
 
 **Pieces of code that are delivered and executed on a target system
 after an exploit has been successfully used to gain access.** - [Payload
-Options](/Notes/posts/Metasploit_Framework/payloads-options_metasploit)
+Options](/Metasploit_Framework/payloads-options_metasploit)

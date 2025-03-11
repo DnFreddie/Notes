@@ -15,4 +15,4 @@ title: Structured cabling standards
     -   Commonoly refernced for a pin and pair assagmets of
         eight-conductor 100-ohm balanced twisted pair cablinbg
         -   T5668A and T568B
-            [Cables](/Notes/posts/Network/Phisicall/Cables)
+            [Cables](/Network/Phisicall/Cables)

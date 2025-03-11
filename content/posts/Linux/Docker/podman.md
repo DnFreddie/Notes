@@ -11,7 +11,7 @@ title: podman
 #/home/pratham/container-chitragupta-db.service
 podman generate systemd --new --name chitragupta-db -f
 ```
-* New way  [quadlet](/Notes/posts/redhat/quadlet)
+* New way  [quadlet](/redhat/quadlet)
 
 ### Creating a systemd service with ansible
 

@@ -18,13 +18,13 @@ share ,version or invenrotru of cloud infrusturcture
 
 ### iaC tools
 
-![iaC tools](/Notes/declarative_imerative_iaC_visual.png)
+![iaC tools](/static/declarative_imerative_iaC_visual.png)
 
 ### Infrastructure Lifecycle
 
 *A number of clearly defined and succinct work phases which are used by
 DevOps to plan, design, build, and test cloud infrastructure.*  
-![Lifecycle](/Notes/infrustrucutre_lifcecycle_visual.jpg)
+![Lifecycle](/static/infrustrucutre_lifcecycle_visual.jpg)
 
 ## Work Phases: Day 0, Day 1, Day 3
 
@@ -33,7 +33,7 @@ DevOps to plan, design, build, and test cloud infrastructure.*
 -   **Day 2**: Test and Validate
 -   **Day 3**: Deploy and Monitor
 
-## ### [Configuration drift](/Notes/posts/cloud/iaC/configuration_drift)
+## ### [Configuration drift](/cloud/iaC/configuration_drift)
 
--   [CI CD](/Notes/posts/CI_CD)
--   [terraform](/Notes/posts/cloud/terraform/terraform)
+-   [CI CD](/CI_CD)
+-   [terraform](/cloud/terraform/terraform)

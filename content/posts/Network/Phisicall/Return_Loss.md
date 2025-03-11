@@ -7,8 +7,8 @@ title: Return Loss
 ## #Constant Return loss
 
 -   Light reflected back to the cource To maximalize the return loos we
-    use [UPC connector](/Notes/posts/Network/Phisicall/UPC_connector) or
-    [APC connectors](/Notes/posts/Network/Phisicall/APC_connectors)
+    use [UPC connector](/Network/Phisicall/UPC_connector) or
+    [APC connectors](/Network/Phisicall/APC_connectors)
 -   
 
 > \[!quote\]

@@ -8,18 +8,18 @@ title: PDU
 
 #alt-name **Transmission units** *were taking a little bit of data and
 transfering it across the network as a single unit* ## Examples -
-<mark style="background: #ABF7F7A6;">[Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet)</mark>
+<mark style="background: #ABF7F7A6;">[Ethernet](/Network/Ref_OSI/Ethernet)</mark>
 - Operates on a frame of data \* **It doesn’t care what’s inside!** \*
-<mark style="background: #ABF7F7A6;">[IP](/Notes/posts/Network/Ref_OSI/IP)</mark>
+<mark style="background: #ABF7F7A6;">[IP](/Network/Ref_OSI/IP)</mark>
 \* Operates on a packet of data \* **Does not care what’s inside!** \*
-Ip contains [UDP](/Notes/posts/for_later/UDP) or
-[TCP](/Notes/posts/Network/Ref_OSI/TCP) or diff protocol
+Ip contains [UDP](/for_later/UDP) or
+[TCP](/Network/Ref_OSI/TCP) or diff protocol
 
 ------------------------------------------------------------------------
 
 **If the data unit contains a *header* it will contatain**:
-[TCP](/Notes/posts/Network/Ref_OSI/TCP) **segment** or
-[UDP](/Notes/posts/for_later/UDP) **datagram**
+[TCP](/Network/Ref_OSI/TCP) **segment** or
+[UDP](/for_later/UDP) **datagram**
 
 ## Encapsilation and Decapsulation of
 
@@ -28,12 +28,12 @@ Ip contains [UDP](/Notes/posts/for_later/UDP) or
 ### Flags
 
 -   **Change how th devica interperets the data beeing send insde
-    [TCP](/Notes/posts/Network/Ref_OSI/TCP) layer**
+    [TCP](/Network/Ref_OSI/TCP) layer**
     [Pasted_image_20230319170951.png](/Pasted_image_20230319170951.png)
 
-### We want ot use [MTU](/Notes/posts/Network/Network_Types/MTU) becouse fragmetation slow things down
+### We want ot use [MTU](/Network/Network_Types/MTU) becouse fragmetation slow things down
 
 -   **Losing a fragment loses the entire packet**
 -   **Requiers overheard along the path**
 
-> \[!quote\] [PAR](/Notes/posts/for_later/PAR)
+> \[!quote\] [PAR](/for_later/PAR)

@@ -15,7 +15,7 @@ fdisk -l
 
 ## Disk Free
 
-[command](/Notes/posts/scriptss/command) df
+[command](/scriptss/command) df
 
-> \[!quote\] [fsck](/Notes/posts/Linux/fsck) [Block vs character
-> dev](/Notes/posts/Block_vs_character_dev)
+> \[!quote\] [fsck](/Linux/fsck) [Block vs character
+> dev](/Block_vs_character_dev)

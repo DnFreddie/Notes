@@ -20,7 +20,7 @@ Networking devices have different functional panes of operation
 -   Processes networking frames and packets
 
 -   Forwarding trunking encrypting
-    [NAT](/Notes/posts/Network/basic_network_connections/NAT) ###
+    [NAT](/Network/basic_network_connections/NAT) ###
     Control layer / Control plane
 
 -   Manges the action of the data plane
@@ -32,8 +32,8 @@ Networking devices have different functional panes of operation
 
 -   Configure and mange the device
 
-![SDNDataFlows_visual.png](/Notes/SDNDataFlows_visual.png)
+![SDNDataFlows_visual.png](/static/SDNDataFlows_visual.png)
 
-> \[!quote\] [hypervisor](/Notes/posts/Network/vitrual/hypervisor)
-> [SD-WAN](/Notes/posts/Network/Network_Types/SD-WAN)
+> \[!quote\] [hypervisor](/Network/vitrual/hypervisor)
+> [SD-WAN](/Network/Network_Types/SD-WAN)
 > TOCHECK:virtual_server

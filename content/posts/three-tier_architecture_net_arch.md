@@ -6,7 +6,7 @@ title: three-tier architecture_net_arch
 
 ## Three-tier architecteru
 
-![Tree_TIer_Acrchitecture_visual.png](/Notes/Tree_TIer_Acrchitecture_visual.png)
+![Tree_TIer_Acrchitecture_visual.png](/static/Tree_TIer_Acrchitecture_visual.png)
 
 1.  **Core**
     -   The **center** of the network
@@ -23,4 +23,4 @@ title: three-tier architecture_net_arch
 
 > \[!tip\]- sfhhjskfshjfsk
 
-> \[!quote\] [SDN](/Notes/posts/SDN)
+> \[!quote\] [SDN](/SDN)

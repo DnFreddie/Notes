@@ -8,7 +8,7 @@ title: Terraform standard module structure
 
 To configure private moudle u need to login via **Terraform
 cloud/Terraform Login** - [Terraform
-Registery](/Notes/posts/cloud/terraform/terraform_registry)
+Registery](/cloud/terraform/terraform_registry)
 
 ------------------------------------------------------------------------
 
@@ -19,4 +19,4 @@ search bar**
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *The primary entry point is the **RooT Module*** - Requaierd files - Main.tf - Varaibles.tf - Outpust.tf - README.md - LICEANSE - **Nested Modules** - submodule that contians README is considered **usable by external users** - submodule that doesn’t have README is considerd **internal use only** |
 
--   [Terraform](/Notes/posts/cloud/terraform/terraform)
+-   [Terraform](/cloud/terraform/terraform)

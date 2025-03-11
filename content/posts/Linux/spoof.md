@@ -8,7 +8,7 @@ title: spoof
 
 *Changing mac adress to appppear as a diffrent device* U just need to
 make the hardwere down
-[ifconfig](/Notes/posts//posts/Penetration/ifconfig) and cahnge the mac
+[ifconfig](//posts/Penetration/ifconfig) and cahnge the mac
 adrees with hr
 
 example
@@ -21,5 +21,5 @@ ifconfig eth0 up
 
 ------------------------------------------------------------------------
 
-[ifconfig](/Notes/posts//posts/Penetration/ifconfig)
-[iwconfig](/Notes/posts/Penetration/iwconfig)
+[ifconfig](//posts/Penetration/ifconfig)
+[iwconfig](/Penetration/iwconfig)

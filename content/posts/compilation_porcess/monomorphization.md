@@ -8,5 +8,5 @@ title: monomorphization
 
 -   Take the fucntion copy it and chnage the types accordingly
 
-> \[!quote\] [compilers](/Notes/posts/compilers)
-> [serde](/Notes/posts/libriairies/serde)
+> \[!quote\] [compilers](/compilers)
+> [serde](/libriairies/serde)

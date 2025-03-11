@@ -9,7 +9,7 @@ title: Variables
 To decleare variable: **LOL=“xd”** To refrence a variable u have to add
 $ : **echo $LOL** <mark style="background: #FF5582A6;">IMPORTANT!</mark>
 Statment in **’’** pritnts the variable name
-![BashVaraiblesQuotes_visual.png](/Notes/BashVaraiblesQuotes_visual.png)
+![BashVaraiblesQuotes_visual.png](/static/BashVaraiblesQuotes_visual.png)
 - *This avoids the collision with possible commands* - also $ worsk
 similar to an f string \>\[!example\]- \>#!/bin/bash myname=“Jay” myage:
 40 echo “Hello, my name is $myname” echo “Im
@@ -22,7 +22,7 @@ $myage >\>\[!tip\]- Result >\> Hello, my name is Jay Im 40 years old ## Sub-shel
 ## Constans
 
 **Variables like $USER are constants** -
-<mark style="background: #FF5582A6;">[env](/Notes/posts/Linux/env) gives
+<mark style="background: #FF5582A6;">[env](/Linux/env) gives
 u a list of all envairomental variables! </mark> - TO add somthitn to
 the
 *P**A**T**H* \* *e**x**p**o**r**t**P**A**T**H* = /*u**s**e**r*/*l**o**c**a**l*/*b**i**n*:PATH\*

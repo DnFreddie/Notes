@@ -20,5 +20,5 @@ For example, to send a simple web request one could do:
 and the results of `www.google.com`’s default web page will be printed
 to `stdout`.
 
-> \[!quote\] [bash_MAIN](/Notes/posts/Linux/commands/bash_MAIN)
-> [TCP](/Notes/posts/Network/Ref_OSI/TCP)
+> \[!quote\] [bash_MAIN](/Linux/commands/bash_MAIN)
+> [TCP](/Network/Ref_OSI/TCP)

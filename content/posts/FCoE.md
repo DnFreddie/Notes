@@ -4,12 +4,12 @@ draft: false
 title: FCoE
 ---
 
-## Fibre Chanel over [Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet)
+## Fibre Chanel over [Ethernet](/Network/Ref_OSI/Ethernet)
 
 -   No special hardware needed
 -   Ussualy integrates with an exsisting
-    [Fibre_chanel](/Notes/posts/Fibre_chanel) infrastructure
+    [Fibre_chanel](/Fibre_chanel) infrastructure
 -   ==No routable==
 
-> \[!quote\] [SAN](/Notes/posts/Network/Data/SAN)
-> [Fibre_chanel](/Notes/posts/Fibre_chanel) [iSCSI](/Notes/posts/iSCSI)
+> \[!quote\] [SAN](/Network/Data/SAN)
+> [Fibre_chanel](/Fibre_chanel) [iSCSI](/iSCSI)

@@ -11,4 +11,4 @@ paltform and guest operating system** - Hardwere Manager *Cpu Networking
 Seciurty* - Single console control #alt-name \*\*One pane of glass* -
 *instead of managing houdrets of virtulasystem u just go to the one
 managing system\*
-\> \[!quote\] [vSwitch](/Notes/posts/Network/vitrual/vSwitch)
+\> \[!quote\] [vSwitch](/Network/vitrual/vSwitch)

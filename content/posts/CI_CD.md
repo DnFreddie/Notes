@@ -10,4 +10,4 @@ checks as new code is pushed and merged.
 
 ------------------------------------------------------------------------
 
-[iac](/Notes/posts/cloud/iaC/iaC)
+[iac](/cloud/iaC/iaC)

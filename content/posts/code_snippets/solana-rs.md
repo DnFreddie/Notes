@@ -21,4 +21,4 @@ entrypoint!(process_instruction); // Command to build // cargo build-bpf
 
 ## \`\`\`
 
-[SNIPPETS_MAIN](/Notes/posts/SNIPPETS_MAIN)
+[SNIPPETS_MAIN](/SNIPPETS_MAIN)

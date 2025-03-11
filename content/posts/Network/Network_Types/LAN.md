@@ -11,6 +11,6 @@ title: LAN
     -   The network using is in the same building as u are (*Home
         Scenario*)
 -   Hig speed connectivity
--   [Ethernet](/Notes/posts/Network/Ref_OSI/Ethernet) and 802.11
+-   [Ethernet](/Network/Ref_OSI/Ethernet) and 802.11
     wireless network
     -   **Any slower is not “Local”**

@@ -7,4 +7,4 @@ title: Arguments in Bash
 U can give arguments by ***n**u**m**b**e**r* \*  \*  −  \* \*#** it
 chechs weather the particular number of arguments where inserted
 \>Example
-\>![ArgumentsCheck_visual.png](/Notes/ArgumentsCheck_visual.png)
+\>![ArgumentsCheck_visual.png](/static/ArgumentsCheck_visual.png)

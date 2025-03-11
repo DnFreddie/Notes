@@ -18,7 +18,7 @@ feet)*
 ## Activation
 
 <mark style="background: #72083D;">Thsi will rename ure
-[WLAN](/Notes/posts/Network/Network_Types/WLAN) </mark> example:
+[WLAN](/Network/Network_Types/WLAN) </mark> example:
 **wlan0mon** - Formula - *airmon-ng start\|stop\|restart interface* -
 airmon-ng start wlan
 
@@ -31,11 +31,11 @@ nameyou got from runningairmon-ng just now.*
 
 | Short  | Type of information                                                                                  |
 |--------|------------------------------------------------------------------------------------------------------|
-| BSSID  | The \[\[MAC Adress\]\] of the [access point](/Notes/posts/Network/Ref_OSI/access_point)of the client |
+| BSSID  | The \[\[MAC Adress\]\] of the [access point](/Network/Ref_OSI/access_point)of the client |
 | PWRC   | The strenght of the signal                                                                           |
 | ENC    | The encryption                                                                                       |
 | # Data | The data throughput rate                                                                             |
-| Ch     | The chanell the [access point](/Notes/posts/Network/Ref_OSI/access_point) is opereting on            |
-| ESSID  | The name of the [access point](/Notes/posts/Network/Ref_OSI/access_point)                            |
+| Ch     | The chanell the [access point](/Network/Ref_OSI/access_point) is opereting on            |
+| ESSID  | The name of the [access point](/Network/Ref_OSI/access_point)                            |
 
 > \[!quote\]

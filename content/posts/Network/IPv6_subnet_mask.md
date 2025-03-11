@@ -11,7 +11,7 @@ title: IPv6 subnet mask
 2.  **RIRs** assigns smaller subnet vlocks to **ISPs** (*internet
     service providers*)
 3.  **ISPs** assaigns a /48 [subnet
-    mask](/Notes/posts/Network/basic_network_connections/subnet_mask) to
+    mask](/Network/basic_network_connections/subnet_mask) to
     the customer
 
-> \[!quote\] [IPv6 address](/Notes/posts/Network/IPv6_address)
+> \[!quote\] [IPv6 address](/Network/IPv6_address)

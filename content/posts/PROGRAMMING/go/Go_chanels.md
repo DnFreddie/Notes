@@ -31,5 +31,5 @@ func main() {
 
 ------------------------------------------------------------------------
 
--   [go concurency](/Notes/posts/PROGRAMMING/go/go_concurency)
--   [go main](/Notes/posts/PROGRAMMING/go/go_main)
+-   [go concurency](/PROGRAMMING/go/go_concurency)
+-   [go main](/PROGRAMMING/go/go_main)

@@ -1,0 +1,7 @@
+site_name: DefnotNotes
+docs_dir: "./content"
+site_dir: "./public/"
+site_url: https://DefnotNotes/
+nav:
+  - Home: index.md
+

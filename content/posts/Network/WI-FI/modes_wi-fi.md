@@ -7,9 +7,9 @@ title: Wi-Fi Modes
 **Wi-Fi can operate in 3 modes**
 
 1.  ![managed
-    mode_wi-fi](/Notes/posts/Network/WI-FI/managed_mode_wi-fi "fig:")
+    mode_wi-fi](/Network/WI-FI/managed_mode_wi-fi "fig:")
 2.  ![master
-    mode_wi-fi](/Notes/posts/Network/WI-FI/master_mode_wi-fi "fig:")
+    mode_wi-fi](/Network/WI-FI/master_mode_wi-fi "fig:")
 3.  \[\[monitor mode_wi-fi\]\]
 
 > \[!quote\]

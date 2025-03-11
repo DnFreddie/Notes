@@ -41,4 +41,4 @@ which defines how the Linux kernel should be started. In this line, you can appl
 permanent fixes to the GRUB 2 configuration.
 ------------------------------------------------------------------------
 
-[boot procces](/Notes/posts/boot_process)
+[boot procces](/boot_process)

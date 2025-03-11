@@ -14,7 +14,7 @@ title: Golang AWS_issue
         found and fails
 -   Even if u sepcyfie that the bucket file should bee public it still
     make u no enabke permmiosn by ginbn u this error
-    -   ![Pasted_image_20231205161358.png](/Notes/Pasted_image_20231205161358.png "fig:")
+    -   ![Pasted_image_20231205161358.png](/static/Pasted_image_20231205161358.png "fig:")
 -   The way to fix is to set first enable the Acl in the consloe and use
     it in the code
-    ![Pasted_image_20231205161747.png](/Notes/Pasted_image_20231205161747.png)
+    ![Pasted_image_20231205161747.png](/static/Pasted_image_20231205161747.png)

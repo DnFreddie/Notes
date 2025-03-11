@@ -39,7 +39,7 @@ title: DjangoStartup
 ## Tepaltes
 
 In order to add tempalte similalry to [Flask
-MAIN](/Notes/posts/Flask_startup/Flask_MAIN) u have to create a
+MAIN](/Flask_startup/Flask_MAIN) u have to create a
 *tempaltes* folder in main dir  
 and *render* them - **/sideNote/** - if u want tmepletes specyficly for
 ure app u have to create dir app in ure app dir and another with *ure
@@ -52,4 +52,4 @@ Databes Django prepars a list of command tha needs to be activated
 (*migrated*) To the *sqlite3* Database **There are premade tables** -
 Command is **mange migrate**
 
-> \[!quote\] [MAIN_Python](/Notes/posts/ZPythonref/MAIN_Python)
+> \[!quote\] [MAIN_Python](/ZPythonref/MAIN_Python)

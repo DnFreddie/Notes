@@ -60,7 +60,7 @@ types, each optimized for specific use cases
         servers and development environments. *If CPU credits are
         exhausted beyond the `burst level`, then the CPU performance
         will slow down to the baseline level.* ![Cpu spike
-        grahp](/Notes/burstable_instance_visual.png)
+        grahp](/static/burstable_instance_visual.png)
 
 -   U can setup the unilited but be cerfull
     -   U pay extra money when over the credit balance
@@ -72,7 +72,7 @@ types, each optimized for specific use cases
         applications that require significant computational power. They
         are suitable for workloads such as simulations, financial
         modeling, and scientific computing. — bash
-        [Ec2instance](/Notes/posts/sysops_aws_cert/ec2_instances/instance_families/)
+        [Ec2instance](/sysops_aws_cert/ec2_instances/instance_families/)
 
 ``` bash
 perl -p -i -e ''

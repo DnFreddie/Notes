@@ -14,4 +14,4 @@ title: rsync
 
 ------------------------------------------------------------------------
 
-[Commands](/Notes/posts//posts/Linux/commands/bash_MAIN)
+[Commands](//posts/Linux/commands/bash_MAIN)

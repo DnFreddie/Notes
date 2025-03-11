@@ -12,7 +12,7 @@ title: Namespaces
     -   the process has no idea it’s ruining under one it only knows
         about the resources
 
-- Heavily used in [Kubernetes Namespaces](/Notes/posts/Namespaces)
+- Heavily used in [Kubernetes Namespaces](/Namespaces)
 
 > \[!tip\] The first instance of namespaces Te where used by programing
 > language to build varaibles that refer to the memory location - refer
@@ -22,6 +22,6 @@ title: Namespaces
 
 ------------------------------------------------------------------------
 
-[cgroups](/Notes/posts/cgroups)
-[Kernel](/Notes/posts/Linux/Kernel/Kernel)
-[docker](/Notes/posts/Linux/Docker/docker)
+[cgroups](/cgroups)
+[Kernel](/Linux/Kernel/Kernel)
+[docker](/Linux/Docker/docker)

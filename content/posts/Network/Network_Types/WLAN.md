@@ -4,9 +4,9 @@ draft: false
 title: WLAN
 ---
 
-# Wireless [LAN](/Notes/posts/Network/Network_Types/Lan)
+# Wireless [LAN](/Network/Network_Types/Lan)
 
 -   Mobility
     -   Limited geographical area
         -   **Can be expanded with additional [Access
-            Points](/Notes/posts//posts/Network/Ref_OSI/access_point)**
+            Points](//posts/Network/Ref_OSI/access_point)**

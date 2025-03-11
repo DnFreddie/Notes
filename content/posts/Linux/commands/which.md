@@ -7,4 +7,4 @@ title: which
 ## which
 
 List the location of **binaries** in the **PATH** \>\[!quote\]
-\>[whereis](/Notes/posts/Linux/commands/whereis)
+\>[whereis](/Linux/commands/whereis)

@@ -9,10 +9,10 @@ title: Ethernet
 The most popular networking toll
 
 -   Modern Ethernet uses
-    -   [Fiber](/Notes/posts/Network/Phisicall/Fiber)
-    -   [Copper](/Notes/posts/Network/Phisicall/Copper)
+    -   [Fiber](/Network/Phisicall/Fiber)
+    -   [Copper](/Network/Phisicall/Copper)
 -   BASE (*baseband*)
     -   single frequency using the entire medium
     -   [Cable
-        broadband](/Notes/posts/Network/Phisicall/Cable_broadband) using
+        broadband](/Network/Phisicall/Cable_broadband) using
         many frequencies ,sharing the medium

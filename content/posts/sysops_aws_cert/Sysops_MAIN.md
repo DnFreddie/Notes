@@ -13,8 +13,8 @@ cards](https://quizlet.com/pl/935031346/aws-sysops-certification-flash-cards/?i:
 
 [Course Link](https://www.youtube.com/watch?v:%20KX_AfyrhlgQ&t=1618s)
 
-![Sysops roles](/Notes/roles_sysops_viusal.png)
+![Sysops roles](/static/roles_sysops_viusal.png)
 
-[CloudWatch](/Notes/posts/sysops_aws_cert/CloudWatch)
+[CloudWatch](/sysops_aws_cert/CloudWatch)
 
-[Ec2instance](/Notes/posts/sysops_aws_cert/ec2_instances/ec2_instance)
+[Ec2instance](/sysops_aws_cert/ec2_instances/ec2_instance)

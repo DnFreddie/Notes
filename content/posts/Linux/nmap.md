@@ -7,7 +7,7 @@ title: nmap
 -   **By default, Nmap scans 1000 ports**.
     -   You can scan multiple sites in one scan.
         -   You can also scan both the site and the particular
-            [IP](/Notes/posts/Network/Ref_OSI/IP).
+            [IP](/Network/Ref_OSI/IP).
 -   You can easily get the IP and address of the site.
     -   Then check the location using [this
         tool](https://www.nirsoft.net/).
@@ -15,7 +15,7 @@ title: nmap
         browser.
 -   Nmap provides a test site: <http://scanme.nmap.org>.
     -   **Remember to use `-oG` to save the file in a
-        [grep](/Notes/posts/Linux/commands/grep)able format**.
+        [grep](/Linux/commands/grep)able format**.
 
 ### TCP Scan
 
@@ -42,7 +42,7 @@ title: nmap
 -   **nmap -A**: Looks for the operating system and other services.
 -   **nmap -sV**: Gives you the version of the operating system. Useful
     to target
-    [Exploits_metasploit](/Notes/posts/Metasploit_Framework/Exploits_metasloit)
+    [Exploits_metasploit](/Metasploit_Framework/Exploits_metasloit)
     for this system version.
 
 ## Nmap for Speed
@@ -54,10 +54,10 @@ title: nmap
 
 ### Related Posts
 
--   [Network Scanning](/Notes/posts/for_later/Netwrok_Scanning)
--   [Port Scanning](/Notes/posts/for_later/Port_Scanning)
--   [ifconfig](/Notes/posts/Penetration/ifconfig)
--   [nslookup](/Notes/posts/Linux/nslookup)
+-   [Network Scanning](/for_later/Netwrok_Scanning)
+-   [Port Scanning](/for_later/Port_Scanning)
+-   [ifconfig](/Penetration/ifconfig)
+-   [nslookup](/Linux/nslookup)
 
 ------------------------------------------------------------------------
 

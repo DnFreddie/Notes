@@ -6,13 +6,13 @@ title: orange book
 
 ### Government Security Evaluations
 
-![Pasted_image_20240528131741.png](/Notes/Pasted_image_20240528131741.png)
+![Pasted_image_20240528131741.png](/static/Pasted_image_20240528131741.png)
 - **TCB** (*Trusted Computing Base*) -
 
 -   **D** no protection
 -   **C** *disk creation* protection A
     -   Security features common to the **commercial OSes**
-        -   [DAC](/Notes/posts/DAC)
+        -   [DAC](/DAC)
 -   **B** *mandatory protection*
     -   **B2** Proof of security of underlying model narrative spec of
         TCB
