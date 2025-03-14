@@ -1,0 +1,15 @@
+[Unit]
+Description=My personal documentation (MkDocs)
+After=network-online.target
+Wants=network-online.target
+
+[Container]
+Image=localhost/notes_mkdocs:latest
+Volume=/home/aura/github.com/DnFreddie/Notes/mkdocs.yml:/app/mkdocs.yml:Z
+Volume=/home/aura/github.com/DnFreddie/Notes/content:/app/docs/:Z
+PublishPort=8000:8000
+Exec= serve --dev-addr=0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
+

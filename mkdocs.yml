@@ -1,7 +1,13 @@
 site_name: DefnotNotes
-docs_dir: "./content"
+docs_dir: "./docs"
 site_dir: "./public/"
 site_url: https://DefnotNotes/
+theme: mkdocs
 nav:
   - Home: index.md
-
+# plugins:
+#   - rss:
+#       match_path: "content/posts/**/*.md"
+#       max_items: 5  # Number of recent pages to display
+# 
+# 
