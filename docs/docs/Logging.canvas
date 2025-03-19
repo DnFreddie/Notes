@@ -1,0 +1,102 @@
++++
+title = 'Logging.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
+  "nodes": [
+    {
+      "id": "72b97ff89de96e3b",
+      "type": "group",
+      "x": -1740,
+      "y": -2040,
+      "width": 2921,
+      "height": 2240,
+      "label": "Auth Logs"
+    },
+    {
+      "id": "3a8362b50afff2a4",
+      "type": "text",
+      "text": "### whowatch\nShow who loged and whats is doing\n- in real time \n- non on nixos",
+      "x": -1722,
+      "y": -1459,
+      "width": 572,
+      "height": 379
+    },
+    {
+      "id": "1dad2e6e44f63ea9",
+      "type": "file",
+      "file": "ssh_LOG.md",
+      "x": -1582,
+      "y": -601,
+      "width": 820,
+      "height": 580
+    },
+    {
+      "id": "f5cd304ad029c44d",
+      "type": "text",
+      "text": "### w\n- Show who loged and whats is doing\n- Also gives u [Load Average]({{< ref "posts/Load_Average.md" >}}) ",
+      "x": -1686,
+      "y": -1980,
+      "width": 686,
+      "height": 379
+    },
+    {
+      "id": "a0e8bd3b3784125a",
+      "type": "text",
+      "text": "### Last \ndisplay  last **sucessed login** login to the device \n\nbinary file is stored in */var/log/wtmp*\n\n",
+      "x": 0,
+      "y": -880,
+      "width": 728,
+      "height": 859
+    },
+    {
+      "id": "908c5a8859533e18",
+      "type": "text",
+      "text": "### Lastb \ndisplay last **failed** login to the device \n\nbinary file is stored in */var/log/btmp*\n```bash\nlastb -adF root\n```",
+      "x": 0,
+      "y": -1931,
+      "width": 1012,
+      "height": 660
+    },
+    {
+      "id": "84b355360ec6a955",
+      "type": "text",
+      "text": "### Who\nWHo is currently **login**",
+      "x": -1000,
+      "y": -1401,
+      "width": 775,
+      "height": 540
+    },
+    {
+      "id": "3a6bf68bea26b969",
+      "type": "text",
+      "text": "### Logs confgiuration\n#etc \nU can fid it in */etc/rsyslog.d/50-defult.ocmn*",
+      "x": 1440,
+      "y": -1923,
+      "width": 1699,
+      "height": 1043
+    },
+    {
+      "id": "f8dcaabf9cc732b5",
+      "type": "text",
+      "text": "### Lastlog\nShow the last login localy",
+      "x": -762,
+      "y": -1931,
+      "width": 572,
+      "height": 379
+    },
+    {
+      "id": "3d93557a97d6a100",
+      "type": "text",
+      "text": "### Lastlog\nShow the last login localy",
+      "x": -762,
+      "y": -1931,
+      "width": 572,
+      "height": 379
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}
