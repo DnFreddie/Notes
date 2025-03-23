@@ -6,12 +6,25 @@ tags:
   - ansible
 ---
 
-# **Testing Ansible with Molecule**
 
 * Use the official example of Molecule—**do not use `Red Hat's example`** as it’s outdated.
 * Refer to the [Official Guide to Using Podman Containers with Molecule](https://ansible.readthedocs.io/projects/molecule/examples/podman/) for up-to-date information.
 * For **basic setups**, you don’t need extra configurations for Podman, as it’s the default behavior in Molecule.
   * All you need is a `converge.yml` file and the `molecule.yml` configuration file.
+
+
+## Plugins and installation
+For now using the vagrant provider will result in [error](https://github.com/ansible-community/molecule-plugins/issues/301)
+
+There are plans to remvoe the support for the molecule plugins [issue#510](https://github.com/ansible/ansible-dev-tools/issues/510#issuecomment-2605125502)
+```bash
+# The current work around
+pip install --force-reinstall -v 'molecule==25.1.0'
+```
+
+To install plugins use this method  [ansible docs](https://ansible.readthedocs.io/projects/molecule/installation/)
+
+
 
 ## **Initialization**
 
@@ -38,7 +51,7 @@ molecule init scenario -d podman
     ├── verify       # Runs tests to validate the configuration (e.g., using Testinfra)
     ├── cleanup      # Cleans up after testing
     └── destroy      # Destroys the test environment (again)
-    ## More efficient one 
+    ## More efficient one
 scenario:
   name: default
   test_sequence:
@@ -144,7 +157,20 @@ The `converge.yml` file contains the actual playbook tasks within your Molecule 
         state: absent
 - import_playbook: ../../playbook.yml
 ```
-
+### Inventories
+```yaml
+# U can easliy specyfie the host_vars and group_vars
+# also /molecule/defualt/group_vars or host_vars will import it to
+provisoner:
+  inventory:
+    group_vars:
+      all:
+        containers:
+          - name: adminer
+            image: docker.io/library/adminer:latest
+            ports:
+              - { host: "8080", container: "8080" }
+```
 ## **Verify.yml**
 
 _All it does it's run a playbook to verify the state of the playbook_
@@ -180,7 +206,7 @@ _No special role just a playbook_
       when: not file_stat.stat.exists
 
 ```
-# Delegete host 
+# Delegete host
 ```yaml
 ---
 driver:
@@ -196,8 +222,6 @@ platforms:
       - "-o StrictHostKeyChecking=no"
 
 ```
-### Reference
-Run once
 
 - [Ansible](/ansible/Ansible)
 
