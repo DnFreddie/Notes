@@ -1,0 +1,39 @@
++++
+title = 'Data Structers.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
+  "nodes": [
+    {
+      "id": "129f5871891ac23e",
+      "type": "file",
+      "file": "Applied data_Obsydian/Python/data.py/Static Array.md",
+      "x": -2920,
+      "y": -1240,
+      "width": 1040,
+      "height": 980
+    },
+    {
+      "id": "c2ae5915f5257a7a",
+      "type": "file",
+      "file": "Algorithms/Linked List.md",
+      "x": -1680,
+      "y": -1240,
+      "width": 1440,
+      "height": 980
+    },
+    {
+      "id": "03a55a6de4b9c579",
+      "type": "file",
+      "file": "Algorithms/Dynamic Array.md",
+      "x": -2920,
+      "y": 0,
+      "width": 1880,
+      "height": 1280
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

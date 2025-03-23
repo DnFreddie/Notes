@@ -1,0 +1,21 @@
++++
+title = 'DNS_TOOLS.canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
+  "nodes": [
+    {
+      "id": "fea992a0c574815b",
+      "type": "file",
+      "file": "ZPythonref/DjangoFramework/Network+/Phisicall/DNS.md",
+      "x": -940,
+      "y": -540,
+      "width": 888,
+      "height": 1240
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
++++
+title = 'Combining Disks (raid).canvas'
+date = 2024-07-22T09:10:24+02:00
+draft = false
++++
+
+    {
+  "nodes": [
+    {
+      "id": "a0d5579d9fcc1128",
+      "type": "group",
+      "x": -1180,
+      "y": -1500,
+      "width": 3220,
+      "height": 1360,
+      "label": "Raid devices"
+    },
+    {
+      "id": "e05b448015ae7046",
+      "type": "group",
+      "x": 364,
+      "y": -937,
+      "width": 300,
+      "height": 300,
+      "label": "Untitled group"
+    },
+    {
+      "id": "30bfa36eeeb2e9b7",
+      "type": "group",
+      "x": 280,
+      "y": -1100,
+      "width": 300,
+      "height": 300,
+      "label": "Untitled group"
+    },
+    {
+      "id": "5162b47fbbe823c9",
+      "type": "file",
+      "file": "RAID 5.md",
+      "x": 1100,
+      "y": -1480,
+      "width": 920,
+      "height": 1060
+    },
+    {
+      "id": "baace1d61ff3b11c",
+      "type": "file",
+      "file": "RAID 1.md",
+      "x": 80,
+      "y": -1480,
+      "width": 920,
+      "height": 1060
+    },
+    {
+      "id": "b727990606d79cfe",
+      "type": "file",
+      "file": "RAID 0.md",
+      "x": -1160,
+      "y": -1480,
+      "width": 1160,
+      "height": 1060
+    },
+    {
+      "id": "42eddcb358fcb595",
+      "type": "file",
+      "file": "LVM.md",
+      "x": -200,
+      "y": -80,
+      "width": 1400,
+      "height": 1140
+    },
+    {
+      "id": "df3b11e21591ea03",
+      "type": "text",
+      "text": "### The Alternative ",
+      "x": 40,
+      "y": -300,
+      "width": 580,
+      "height": 140,
+      "color": "4"
+    },
+    {
+      "id": "539ff600f6795492",
+      "type": "text",
+      "text": "### Check the status of the Raid Dev\n\nIt's i n the **/proc/mdstat**\n\nIt ussualy takes up time to **build parrotriy** of the devices\n![[Pasted image 20240428105533.png]]",
+      "x": 3080,
+      "y": -1040,
+      "width": 821,
+      "height": 430
+    }
+  ],
+  "edges": [
+    {
+      "id": "b0165bc2bb046bd6",
+      "fromNode": "a0d5579d9fcc1128",
+      "fromSide": "right",
+      "toNode": "539ff600f6795492",
+      "toSide": "left",
+      "color": "#1ae0bf",
+      "label": "Inspecting Raid devices"
+    }
+  ],
+  "metadata": {}
+}
