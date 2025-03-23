@@ -1,108 +1,183 @@
 ---
-title: Quadlet Podman
-date : 2025-02-25T21:38:48+01:00
-draft: true
-categories: 
-  - drafts
+title: "Podman’s New Way: No More generate systemd"
+date : 2025-03-21
+draft: false
 ---
 
-##  Introuduction 
-we ussualy don't dwell muthch on the contianerization we user docker becoes wi first statt using itn and we hear 
-or we use podman  becuase it was was it first intalled on the system 
-But wiht the recent outdate of the podman generalte featuer i want ot dewll on more about the internal of those two apraoches and how they 
-can 
+
+
+Most of us don’t spend much time thinking about containerization. We use **Docker** because it was the first tool we started with, or **Podman** simply because it came preinstalled on our system.
+
+However, with the recent update to **Podman**, the previous approach using
+`podman generate systemd -f`
+is **no longer the preferred way** to enable **persistant containers**.
 <!-- more -->
-## API vs Fork-Exec
-What might not come as a surprise but helps in gaining a deeper understanding of Docker (and Kubernetes) is the fact that both essentially operate as one big REST API server. When we interact with the main node, we send API requests and receive responses accordingly.
 
-This makes Docker function as a **monolithic structure**, where the daemon (`dockerd`) is responsible for all container operations. This centralization means that if `dockerd` fails, everything fails. For example:
-- If the **storage driver is corrupted or outdated**, all containers become unusable.
-- Since Docker requires elevated permissions, it runs as **root**, making security a key concern.
+This shift makes it worth taking a deeper look at the **internal differences** between these two approaches and how they handle **container execution and service management**.
 
-This model of a long-running daemon controlling everything doesn't align with the traditional **POSIX process model**, where processes naturally manage themselves using the `fork-exec` pattern.
+Instead of manually managing containers, we now have a **systemd-native approach** that integrates containers directly as services.
 
-### **Fork-Exec: The Alternative**
-If you recall **process IDs (PIDs)**, you'll know that processes naturally spawn and manage themselves. 
-The first process in a Linux system is **init** (or `systemd`), which governs all other processes.
 
-Some might ask: *What happens if `systemd` fails?* The answer is simple: if `systemd` crashes, you have far bigger problems, as your entire physical or virtual machine would become unresponsive.
+## **API vs Fork-Exec**
+![API vs Fork-Exec](../assets/quadlet/api-vs-fork.png)
 
-Unlike Docker, traditional processes in a Unix-like system:
+One fundamental difference between Docker and Podman is **how they operate** at a low level.
 
-- Are **independent** of a central daemon.
-- Have **different owners** and user-level permissions.
-- Are **more regulated** in terms of execution and lifecycle.
+Docker is built around a **monolithic daemon (`dockerd`)** that acts as a central controller for all containers.
 
-### **Linger Option in Systemd**
+This means:
+
+- If `dockerd` **fails**, all containers stop working.
+- It requires **root privileges**, posing potential security risks.
+- It **does not align** with the traditional Unix process model.
+
+In contrast, Podman follows the **fork-exec** model, which is closer to how Linux naturally runs processes. Instead of relying on a daemon, it launches containers as **individual processes**.
+
+This means:
+
+- Each container is **independent**, with no single point of failure.
+- Containers can be managed **like normal processes**, making integration with `systemd` much easier.
+
+This brings us to **Podman’s systemd integration** where containers can now be defined using **`.container` files** instead of manually written service files.
+
+---
+
+## **The `.container` File Format & How to Use It**
+Instead of manually writing systemd service files for containers, we now use **`.container` files**.
+
+These files allow us to define how a container should be managed as a **systemd service**, making it easier to start, stop, and restart containers without dealing with complex systemd configurations.
+
+By default, `.container` files are stored in:
+
+- **System-wide containers**: `/etc/containers/systemd/`
+- **User-specific containers**: `$HOME/.config/containers/systemd/`
+
+To learn more, you can check the manual:
+```sh
+man quadlet
+```
+
+---
+
+## **Example `.container` File**
+![Example ContainerFile](../quadlet/assets/linkding_container.png)
+
+Here's a quick example of an `.container` file for running **Nginx as a service**:
+
+```ini
+[Unit]
+Description=Example Quadlet Container
+Requires=network-online.target
+After=network-online.target
+
+[Container]
+Image=docker.io/library/nginx:latest
+PublishPort=8080:80
+# Remember about :Z (to properly set the SELinux context on the host)
+Volume=/srv/nginx/html:/usr/share/nginx/html:Z
+Volume=/srv/nginx/conf:/etc/nginx/conf.d:Z
+User=1000
+Environment=NGINX_HOST=localhost
+Environment=NGINX_PORT=8080
+
+[Service]
+ExecStartPre=-/usr/bin/podman pull docker.io/library/nginx:latest
+Restart=always
+TimeoutStartSec=30
+
+[Install]
+WantedBy=default.target
+```
+
+---
+
+## **Understanding the Sections**
+This setup ensures that:
+
+- The service **waits for the network** before starting.
+- It **pulls the latest Nginx image** before running (ignoring failures with `-`).
+- It **automatically restarts** on failure.
+- It **starts on boot** because of the `[Install]` section.
+
+To **enable and start** the service:
+```sh
+systemctl --user enable example-nginx.container --now
+```
+
+---
+
+## **Verifying Your Setup**
+To check if everything is correctly formatted, run:
+```bash
+/usr/lib/systemd/system-generators/podman-system-generator --dry-run --user
+```
+This will validate your `.container` files and generate the expected **systemd service output**.
+
+---
+
+## **Enabling & Running Containers as Services**
+Containers work as **services**, so they **must** have an `[Install]` section if you want them to start on boot. Otherwise, enabling them will fail with:
+
+> Failed to enable unit: Unit xyz is transient or generated.
+
+If the `[Install]` section is missing, you can still manually **start** the service, but it **won’t persist across reboots**.
+
+---
+
+## **Linger Option in Systemd**
+![Example ContainerFile](../assets/quadlet/let-it-linger.jpg)
+
 By default, **user services** managed by `systemd` only run while the user is logged in.
 
 However, Docker containers are **persistent**, meaning they run even when no users are logged in.
 
 To check if lingering is enabled for a user:
 ```bash
-loginctl show-user <username>
+loginctl show-user $USER
+# or
+ls /var/lib/systemd/linger/ # and look for the user
 ```
-Example output:
-```bash
-$ loginctl show-user aura
-Linger=no
-```
-If `Linger=no`, then services for that user will **not** persist after logout.
+If it outputs `Linger=no`, user services **will not persist** after logout.
 
-To enable lingering (allow user services to run even after logout):
+To enable lingering (allow user services to run after logout):
 ```bash
 loginctl enable-linger $USER
 ```
-This ensures that processes continue running **without relying on a global daemon** like `dockerd`.
+This ensures that **containers run persistently without requiring an active session**.
 
-## To Generate or Not to Generate?
+---
 
-Who among us doesn’t love `systemd` and all its capabilities, especially when working with containers?
-However, we all know the struggle of manually generating a service file for a specific container and then customizing it.
-It’s just inconvenient. And as it turns out, this old method is now deprecated. 
-### **The New Way of Creating Services**
-Instead of manually writing `systemd` service files, we now use **`.container` files**.or genearting them with podman systemd genearte 
-Which are located accrodingly  in 
-- For system-wide containers: `/etc/containers/systemd/`
-- For user-specific containers: `/home/$USER/.config/containers/systemd/$FILENAME.container`
+## **Common Errors & Fixes**
 
-### **The `.container` File Format**
+![Example ContainerFile](../assets/quadlet/windows-error.jpg)
+### **1. "Failed to Enable Unit" Error**
+If you get:
+> Failed to enable unit: Unit xyz is transient or generated.
+It means your `.container` file is missing an `[Install]` section.
 
-The formath is rekavtuvku straight forward if u want to know more u just run man quadllet and this \w
-will explain everthing 
-
-Rember that the container file us essabntialy a servuce \
-So u can use execpres start timeout and all the good stuff 
-one thing to also mention is the fact that if the command to enable the pre command to fail s
-smt if we set - before this means can failed and wont discourage systemd for executing out service 
-
-### **What’s Nice About This?**
-The best part? We still get all the benefits of our familiar `systemd` service files! We can:
-- Add mounts
-- Set timeouts
-- Customize execution settings
-- And more!
-
-### **Verifying Your Setup**
-To make sure everything is correctly formatted and placed in the right directory, use:
-```bash
-/usr/lib/systemd/system-generators/podman-system-generator --dry-run --user
+**Fix:** Add this to your `.container` file:
+```ini
+[Install]
+WantedBy=default.target
 ```
-This will check your `.container` files and print the **generated service** output.
 
-### **Do Not Enable Auto-Generated Services**
-Although you might be tempted to blindly use the `--enable` option, **don’t**. Generated files **cannot** be enabled in the usual way. [Find an article about this issue.]
+### **2. "Failed to Connect to D-Bus" Error**
+If you see:
+> Failed to connect to D-Bus.
+It means `systemctl --user` is running **without an active session**.
 
-Luckily, `systemd` takes care of everything for us—just **start the service**, and you’re good to go!
-Also in order to change enable systemctl service as user u have to be in the interactive session 
-example beeing login in the tty terminal either u can login as using the logut and login in your login menager 
-or alt +f6 to login as tty  the other option if ur;e ssh deamon is enabled is to   login shh usernam@localhost \
-this will enalbe you to setup the service 
-in other whea u will see failed to conect to the dbus 
+**Fix:**
+- Log in via **TTY terminal** (`Alt + F6`)
+- Log out and back in through your **login manager**
+- Use **SSH** (if `sshd` is running):
 
-### **One Key Thing to Remember**
-Even though the file is named `.container`, **`systemd` will treat it as an actual service**. So when managing it, use standard `systemctl` commands!
+Or even better as i recently find out on [stackexchange](https://unix.stackexchange.com/questions/671814/run-systemctl-user-commands-as-root/730141#730141)
+```bash
+# You  avoiding mannualy creating a session with
+# machinectl shell root@.host
+  sudo systemctl --user -M user1@ status myunit.service
+```
 
-This makes container management with `systemd` much easier and more efficient!
-
+## **Conclusion**
+The `.container` format makes managing containers with **systemd** much simpler and more reliable. Instead of manually defining systemd service files, we now have a more **structured, declarative approach**.
 
