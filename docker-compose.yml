@@ -2,7 +2,7 @@ services:
   mkdocs:
     build: .
     volumes:
-      - ./content:/app/docs:Z
+      - ./docs:/app/docs:Z
       - ./mkdocs.yml:/app/mkdocs.yml:Z
     ports:
       - "8000:8000"

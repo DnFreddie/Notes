@@ -5,7 +5,7 @@ draft: false
 tags:
   - ansible
 ---
-# Facts and conditionals
+##  Facts and conditionals
 
 [Docs](https://www.golinuxcloud.com/ansible-facts/)
 
@@ -22,20 +22,20 @@ tags:
 
 ``` yaml
 # Example Gathering info
-gather_facts: true 
+gather_facts: true
 task:
-    - name: Veryfie that this si the debian dirsto 
+    - name: Veryfie that this si the debian dirsto
       when: "'Debian' is ansiable_fact['distribiution']"
       block:
         - name: This is Debian
         - ansible.builtin.debug:
-                - msg: This is Debian 
-          
+                - msg: This is Debian
+
 ```
 
 ## User defined facts
 
-* Create `/etc/ansible/facts.d` on the *managed nodes* 
+* Create `/etc/ansible/facts.d` on the *managed nodes*
     * The file has tave
     to have **.fact** extentsion - Has to be in the **Json Format or .ini**
     * Theare stored in `ansible_facts[’ansible_local’]`
@@ -86,7 +86,7 @@ state: present
     - rhel-8-for-x86_64-appstream-debug-rpms
 ```
 ---
-# Commands 
+# Commands
 
 [Docs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-multiple-servers-with-ansible-ad-hoc-commands)
 ## Defining Targets
@@ -124,7 +124,7 @@ ansible <target group> -i inventory -m module -a "module options"
 
 ## Ansible Debuging
 
-*U can skip the deubiging message by using etiher the:* 
+*U can skip the deubiging message by using etiher the:*
 *  **Verbosity Level** in ur playbook  Just use `-vvv` flag
 ```bash
 # Example running playbok withthe different verbosity  up to 6
@@ -133,7 +133,7 @@ ansible-playbook all playboo.yml -vvv
 
 * U can also prettyfie the ansible message in  [ansible.cfg](/ansible/ansible.cfg/#error-message-readability)
 
---- 
+---
 ## Useful modules
 * Uri
     * To perform quick checks and so on
@@ -204,3 +204,30 @@ ansible     --list-task <playbook>
 * U can list tags with just --list-tags
 * If u set the tag to `never` it want run unless specified (useful for debugging)
 
+
+## Meta and flush handlers
+* Using `flush_handlers` in this way allows you to control when the handlers are executed.
+    * Instead of waiting until the end of the playbook, you can force them to run at a specific point, which can be useful for ensuring that certain tasks are completed before moving on to the next steps.
+
+```yaml
+---
+- name: Set up the toy room
+  hosts: localhost
+  tasks:
+    - name: Install shelf
+      apt:
+        name: shelf
+        state: present
+      notify: Clean the room  # Notify the handler to clean the room
+
+    - name: Put toys on the shelf
+      command: echo "Putting toys on the shelf"
+
+    - name: Force flush handlers
+      ansible.builtin.meta: flush_handlers  # This forces any notified handlers to run immediately
+
+  handlers:
+    - name: Clean the room
+      command: echo "Cleaning the room"
+
+```
