@@ -8,22 +8,22 @@ title: Terraform
 
 [Best Practices](https://www.terraform-best-practices.com/)
 
-*open source cloud agnostic [iac](/cloud/iaC/iaC)*  
+*open source cloud agnostic [iac](/cloud/iaC/iaC)*
 ![Terraform Life cycle](/static/terraform_life_cycle_visual.png)
 
--   **Declarative** configuration files  
--   Installable modules  
--   Plan and predict changes  
--   Dependency graphing  
--   State management  
--   Provision infrastructure in familiar languages  
+-   **Declarative** configuration files
+-   Installable modules
+-   Plan and predict changes
+-   Dependency graphing
+-   State management
+-   Provision infrastructure in familiar languages
 -   [Terraform
     Registry](/cloud/terraform/terraform_registry) /
     [Terraform modules
     structure](/cloud/terraform/terraform_standard_module_structure)
     -   via AWS CDK
 
-**Speculative vs Saved**  
+**Speculative vs Saved**
 ![Speculative Plans vs Saved
 Plans](/static/terraform_plan_table_visual.png)
 
@@ -63,7 +63,7 @@ terraform {
 | `terraform host = "ssh://user@remote-host:22"`                      |
 | \- **Aliases** (*To disguise the same providers e.g., AWS regions*) |
 
-![Aliases rules](/static/alias_providers_code_block_visual.png)  
+![Aliases rules](/static/alias_providers_code_block_visual.png)
 [Docker Provider
 Example](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs)
 
@@ -100,8 +100,8 @@ variable "docker_ports" {
 }
 ```
 
-`HEREDOC` *multiline strings*  
-`bash <<EOT test world hello EOT`  
+`HEREDOC` *multiline strings*
+`bash <<EOT test world hello EOT`
 `string directive % %` *can be used in `HEREDOC`* - `~` will strip the
 space
 
@@ -135,7 +135,7 @@ var.a != "" ? var.a : "default-a"
 # Maps
 [for k, v in var.map : length(k) + length(v)]
 
-# Returning structure 
+# Returning structure
 {for s in var.list : s => upper(s)}
 ```
 
@@ -202,10 +202,10 @@ data "aws_ami" "example" {
 
 ### Local Exec
 
-*Execute **local commands** after a resource is provisioned*  
-`command` (*required*) Command to execute  
-`working_dir`  
-`interpreter` **Entry point for the command**  
+*Execute **local commands** after a resource is provisioned*
+`command` (*required*) Command to execute
+`working_dir`
+`interpreter` **Entry point for the command**
 `environment` *env vars*
 
 ``` terraform
@@ -221,9 +221,9 @@ resource "terraform_data" "example1" {
 
 *It’s the same, just has modes*
 
-*You can only choose to use one mode at a time*  
-- `Inline` list of command strings  
-- `Script` script that will be copied and executed  
+*You can only choose to use one mode at a time*
+- `Inline` list of command strings
+- `Script` script that will be copied and executed
 - `Scripts` multiple script execution
 
 ### Execution Plans
