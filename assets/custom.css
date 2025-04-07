@@ -1,0 +1,51 @@
+/* Ensure images have rounded corners and proper sizing */
+.md-content img {
+    border-radius: 12px; /* Smooth rounding */
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    min-width: 400px; /* Prevent images from being too small */
+    box-shadow: 0px 4px 8px rgba(0, 188, 212, 0.3); /* Subtle cyan glow */
+}
+
+
+/* 🔗 Change visited and unvisited link colors */
+a, .md-typeset a {
+    color: #00bcd4 !important; /* Cyan */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 🎨 Hover effect for links */
+a:hover, .md-typeset a:hover {
+    color: #03dac6 !important; /* Teal */
+    text-decoration: underline;
+}
+
+/* 🏆 Title and Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #8f93a2 !important; /* Soft gray-blue */
+}
+
+/* ✏️ Improve readability for general text */
+body, .md-typeset {
+    color: #c0c0c0 !important; /* Softer gray for readability */
+}
+
+/* 🔥 Highlight active navigation item */
+.md-nav__item--active > .md-nav__link {
+    color: #00bcd4 !important;
+    font-weight: bold;
+}
+/* 🏷️ Style category and tags labels with Habamax-style pink */
+.md-typeset .md-tag {
+    background-color: #d7afff, !important; /* Habamax pink */
+    color: white !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
