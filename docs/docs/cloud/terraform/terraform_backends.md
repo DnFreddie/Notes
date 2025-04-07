@@ -63,11 +63,7 @@ The `backednd-config` falg for **terraform init** used for
 **dynamic or sensitive** *Baiscly u run this form another file*
 ![Backend Initialization](/static/backend_initialization_visual.png)
 
-### \[Terraform State Locking\]({{\< ref “posts/cloud/terraform/terraform_state.md#terraform-state-locking”\>}})
-
-### \[Terraform Remote state\]({{\< ref “posts/cloud/terraform/terraform_state.md#terrafrom_remote_state”\>}})
-
 ------------------------------------------------------------------------
-
--   [Teraform state](/cloud/terraform/terraform_state)
 -   [Teraform](/cloud/terraform/terraform)
+-   [Teraform state](/cloud/terraform/terraform_state)
+

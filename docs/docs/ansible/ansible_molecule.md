@@ -90,6 +90,23 @@ molecule verify
 # INFO     Verifier completed successfully.
 ```
 
+
+## Custom Flags
+```bash
+molecule test -- --tags=test
+```
+```yaml
+#Exaple passing the passsword file
+
+# ANSIBLE_VAULT_PASSWORD_FILE=$HOME/.vault.txt molecule test
+# or a better way
+provisioner:
+  name: ansible
+  config_options:
+    defaults:
+      vault_password_file: "${MOLECULE_SCENARIO_DIRECTORY}/vault.pw"
+
+```
 ## **Molecule.yml**
 
 _The deployment configuration_ [Chekcout the possible distros images](https://hub.docker.com/search?q=%2Fgeerlingguy%2F&badges=none&sort=updated_at&order=desc)
